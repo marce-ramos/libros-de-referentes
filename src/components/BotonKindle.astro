@@ -1,0 +1,21 @@
+---
+import { urlKindle, REL_AFILIADO } from "@/lib/amazon";
+
+interface Props {
+  query: string;
+}
+
+const { query } = Astro.props;
+const href = urlKindle(query);
+---
+
+<a
+  href={href}
+  target="_blank"
+  rel={REL_AFILIADO}
+  class="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--brand)] hover:underline"
+>
+  <span aria-hidden="true">📖</span>
+  Leer en Kindle
+  <span class="font-normal text-slate-400">· acceso inmediato</span>
+</a>

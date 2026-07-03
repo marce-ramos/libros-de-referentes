@@ -1,0 +1,58 @@
+---
+import { SITE } from "@/config";
+import Seo from "@/components/Seo.astro";
+import "@/styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  type?: string;
+  jsonLd?: Record<string, unknown>[];
+}
+
+const { title, description, image, type, jsonLd } = Astro.props;
+const year = new Date().getFullYear();
+
+const nav = [
+  { href: "/", label: "Inicio" },
+  { href: "/autores", label: "Referentes" },
+  { href: "/categorias", label: "Categorías" },
+  { href: "/blog", label: "Blog" },
+];
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <Seo title={title} description={description} image={image} type={type} jsonLd={jsonLd} />
+  </head>
+  <body class="bg-white text-slate-800">
+    <header class="border-b border-slate-200">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+        <a href="/" class="text-lg font-bold text-[var(--brand)]">{SITE.name}</a>
+        <nav class="flex gap-5 text-sm font-medium">
+          {nav.map((i) => <a href={i.href} class="hover:text-[var(--brand)]">{i.label}</a>)}
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 bg-slate-50">
+      <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-slate-500">
+        <p class="mb-2">
+          <strong>Aviso de afiliados:</strong> Como Afiliado de Amazon, gano por las compras
+          adscritas. Esto no representa ningún costo extra para vos.
+        </p>
+        <p>© {year} {SITE.name}. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

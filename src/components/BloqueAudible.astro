@@ -1,0 +1,37 @@
+---
+/**
+ * CTA reutilizable para audiolibros (bounty de Audible).
+ * Los "bounties" de Audible pagan una cantidad fija en USD por cada prueba
+ * gratuita activada, sin que el usuario tenga que comprar. Muy rentable en
+ * un sitio de libros.
+ *
+ * Reemplazá `href` por tu link de bounty de Audible cuando lo tengas.
+ */
+interface Props {
+  titulo?: string;
+  href?: string;
+}
+
+const {
+  titulo = "este libro",
+  href = "https://www.amazon.com/audible?tag=turef-20",
+} = Astro.props;
+---
+
+<div class="my-6 flex items-center gap-4 rounded-xl border border-amber-200 bg-amber-50 p-4">
+  <div class="text-2xl" aria-hidden="true">🎧</div>
+  <div class="flex-1">
+    <p class="font-semibold text-slate-800">¿Preferís escucharlo?</p>
+    <p class="text-sm text-slate-600">
+      Escuchá {titulo} gratis con una prueba de Audible.
+    </p>
+  </div>
+  <a
+    href={href}
+    target="_blank"
+    rel="sponsored nofollow noopener"
+    class="shrink-0 rounded-lg bg-amber-500 px-4 py-2 text-sm font-semibold text-white hover:bg-amber-600"
+  >
+    Probar gratis
+  </a>
+</div>

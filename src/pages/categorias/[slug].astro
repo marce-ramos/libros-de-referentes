@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import CardLibro from "@/components/CardLibro.astro";
+import { SITE } from "@/config";
+import { schemaItemList } from "@/lib/schema";
+
+export async function getStaticPaths() {
+  const categorias = await getCollection("categorias");
+  const libros = await getCollection("libros");
+
+  return categorias.map((categoria) => {
+    const librosCat = libros.filter((l) => l.data.categoria.id === categoria.id);
+    return {
+      params: { slug: categoria.id },
+      props: { categoria, librosCat },
+    };
+  });
+}
+
+const { categoria, librosCat } = Astro.props;
+const d = categoria.data;
+
+const jsonLd = [
+  schemaItemList({
+    nombre: d.nombre,
+    items: librosCat.map((l) => ({
+      url: new URL(`/libros/${l.id}`, SITE.url).href,
+      nombre: l.data.titulo,
+    })),
+  }),
+];
+---
+
+<BaseLayout title={d.nombre} description={d.descripcion} jsonLd={jsonLd}>
+  <h1 class="text-2xl font-bold text-slate-900">{d.nombre}</h1>
+  <p class="mt-2 max-w-2xl text-slate-600">{d.descripcion}</p>
+
+  <div class="mt-6 grid gap-4 sm:grid-cols-2">
+    {
+      librosCat.map((l) => (
+        <CardLibro
+          slug={l.id}
+          titulo={l.data.titulo}
+          autorLibro={l.data.autorLibro}
+          portada={l.data.portada}
+          resumen={l.data.resumen}
+        />
+      ))
+    }
+  </div>
+</BaseLayout>

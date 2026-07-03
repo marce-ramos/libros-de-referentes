@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+const categorias = (await getCollection("categorias")).sort(
+  (a, b) => a.data.orden - b.data.orden,
+);
+const libros = await getCollection("libros");
+
+function contar(catId: string) {
+  return libros.filter((l) => l.data.categoria.id === catId).length;
+}
+---
+
+<BaseLayout
+  title="Categorías"
+  description="Explorá los libros recomendados por referentes según su categoría: historia, negocios, ciencia y más."
+>
+  <h1 class="text-2xl font-bold text-slate-900">Categorías</h1>
+
+  <div class="mt-6 grid gap-4 sm:grid-cols-2">
+    {
+      categorias.map((c) => (
+        <a
+          href={`/categorias/${c.id}`}
+          class="rounded-xl border border-slate-200 p-4 transition hover:border-[var(--brand)] hover:shadow-sm"
+        >
+          <p class="font-semibold text-slate-800">
+            {c.data.nombre} <span class="text-sm text-slate-400">({contar(c.id)})</span>
+          </p>
+          <p class="mt-1 text-sm text-slate-500">{c.data.descripcion}</p>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

@@ -1,0 +1,46 @@
+---
+/**
+ * Portada del libro. Si hay imagen (`portada`), la muestra; si no, renderiza
+ * un placeholder tipográfico prolijo (nunca una imagen rota).
+ * Reemplazá las portadas reales vía la PA-API de Amazon cuando esté habilitada.
+ */
+interface Props {
+  portada?: string;
+  titulo: string;
+  autorLibro: string;
+  /** "card" (listados) | "full" (página de libro) */
+  size?: "card" | "full";
+}
+
+const { portada, titulo, autorLibro, size = "card" } = Astro.props;
+const isFull = size === "full";
+
+// Color de fondo estable derivado del título (para variedad visual).
+const paleta = ["#2e5aac", "#1f3a6e", "#3b5d8a", "#4a6fa5", "#274472", "#5b7ba6"];
+let h = 0;
+for (const c of titulo) h = (h + c.charCodeAt(0)) % paleta.length;
+const bg = paleta[h];
+---
+
+{
+  portada ? (
+    <img
+      src={portada}
+      alt={`Portada de ${titulo}`}
+      loading="lazy"
+      class={isFull ? "w-full rounded-lg border border-slate-200 shadow-sm" : "h-28 w-20 shrink-0 rounded object-cover"}
+    />
+  ) : (
+    <div
+      class={
+        (isFull ? "aspect-[2/3] w-full rounded-lg p-5 text-base" : "h-28 w-20 shrink-0 rounded p-2 text-[10px]") +
+        " flex flex-col justify-between text-white shadow-sm"
+      }
+      style={`background: linear-gradient(150deg, ${bg}, #0f1d3a);`}
+      aria-label={`Portada de ${titulo}`}
+    >
+      <span class="font-semibold leading-tight line-clamp-4">{titulo}</span>
+      <span class="opacity-80 leading-tight line-clamp-2">{autorLibro}</span>
+    </div>
+  )
+}

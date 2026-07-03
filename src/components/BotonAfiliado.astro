@@ -1,0 +1,27 @@
+---
+import { urlAfiliado, esAsinValido, REL_AFILIADO } from "@/lib/amazon";
+
+interface Props {
+  asin?: string;
+  /** Texto de búsqueda (título + autor) usado cuando no hay ASIN válido. */
+  query?: string;
+  label?: string;
+}
+
+const { asin, query, label = "Ver en Amazon" } = Astro.props;
+const href = urlAfiliado(asin, query);
+const directo = esAsinValido(asin);
+---
+
+<a
+  href={href}
+  target="_blank"
+  rel={REL_AFILIADO}
+  class="inline-flex items-center justify-center gap-2 rounded-lg bg-[#FF9900] px-5 py-2.5 font-semibold text-slate-900 shadow-sm transition hover:bg-[#e88b00]"
+>
+  {label}
+  <span aria-hidden="true">↗</span>
+</a>
+<p class="mt-1 text-xs text-slate-400">
+  Enlace de afiliado · {directo ? "precio y disponibilidad en Amazon" : "te lleva a la edición en español en Amazon"}
+</p>

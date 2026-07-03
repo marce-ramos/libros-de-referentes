@@ -1,0 +1,25 @@
+---
+import PortadaLibro from "@/components/PortadaLibro.astro";
+
+interface Props {
+  slug: string;
+  titulo: string;
+  autorLibro: string;
+  portada?: string;
+  resumen?: string;
+}
+
+const { slug, titulo, autorLibro, portada, resumen } = Astro.props;
+---
+
+<a
+  href={`/libros/${slug}`}
+  class="group flex gap-4 rounded-xl border border-slate-200 p-3 transition hover:border-[var(--brand)] hover:shadow-sm"
+>
+  <PortadaLibro portada={portada} titulo={titulo} autorLibro={autorLibro} size="card" />
+  <div class="min-w-0">
+    <h3 class="font-semibold text-slate-800 group-hover:text-[var(--brand)]">{titulo}</h3>
+    <p class="text-sm text-slate-500">{autorLibro}</p>
+    {resumen && <p class="mt-1 line-clamp-3 text-sm text-slate-600">{resumen}</p>}
+  </div>
+</a>
