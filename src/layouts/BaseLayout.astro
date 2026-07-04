@@ -9,13 +9,14 @@ interface Props {
   image?: string;
   type?: string;
   jsonLd?: Record<string, unknown>[];
+  /** Si es true, el <main> no aplica contenedor (para páginas con hero full-width como la home). */
+  bare?: boolean;
 }
 
-const { title, description, image, type, jsonLd } = Astro.props;
+const { title, description, image, type, jsonLd, bare = false } = Astro.props;
 const year = new Date().getFullYear();
 
 const nav = [
-  { href: "/", label: "Inicio" },
   { href: "/autores", label: "Referentes" },
   { href: "/categorias", label: "Categorías" },
   { href: "/blog", label: "Blog" },
@@ -29,27 +30,46 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <Seo title={title} description={description} image={image} type={type} jsonLd={jsonLd} />
   </head>
-  <body class="bg-white text-slate-800">
-    <header class="border-b border-slate-200">
+  <body class="min-h-screen">
+    <header class="border-b border-[var(--card-border)] bg-white/70 backdrop-blur">
       <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        <a href="/" class="text-lg font-bold text-[var(--brand)]">{SITE.name}</a>
-        <nav class="flex gap-5 text-sm font-medium">
+        <a
+          href="/"
+          class="flex items-center gap-2 text-xl font-bold text-[var(--brand-dark)]"
+          style="font-family: var(--serif)"
+        >
+          <span class="inline-block h-4 w-4 rounded-full bg-[var(--brand)]"></span>
+          {SITE.name}
+        </a>
+        <nav class="flex items-center gap-6 text-sm text-[var(--muted)]">
           {nav.map((i) => <a href={i.href} class="hover:text-[var(--brand)]">{i.label}</a>)}
+          <a
+            href="/autores"
+            class="rounded-lg bg-[var(--brand)] px-4 py-2 font-semibold text-white hover:bg-[var(--brand-dark)]"
+          >
+            Explorar
+          </a>
         </nav>
       </div>
     </header>
 
-    <main class="mx-auto max-w-5xl px-4 py-8">
+    <main class={bare ? "" : "mx-auto max-w-5xl px-4 py-8"}>
       <slot />
     </main>
 
-    <footer class="mt-16 border-t border-slate-200 bg-slate-50">
-      <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-slate-500">
+    <footer class="mt-16 border-t border-[var(--card-border)] bg-[#f6f3fd]">
+      <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-[var(--muted)]">
         <p class="mb-2">
-          <strong>Aviso de afiliados:</strong> Como Afiliado de Amazon, gano por las compras
-          adscritas. Esto no representa ningún costo extra para vos.
+          <strong class="text-[var(--brand-dark)]">Aviso de afiliados:</strong> Como Afiliado de
+          Amazon, gano por las compras adscritas. Esto no representa ningún costo extra para vos.
         </p>
         <p>© {year} {SITE.name}. Todos los derechos reservados.</p>
       </div>

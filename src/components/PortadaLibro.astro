@@ -1,25 +1,35 @@
 ---
 /**
  * Portada del libro. Si hay imagen (`portada`), la muestra; si no, renderiza
- * un placeholder tipográfico prolijo (nunca una imagen rota).
- * Reemplazá las portadas reales vía la PA-API de Amazon cuando esté habilitada.
+ * un placeholder tipográfico estilo "lomo de libro" (nunca una imagen rota).
+ * Las portadas reales se cargan vía la PA-API de Amazon cuando esté habilitada.
  */
 interface Props {
   portada?: string;
   titulo: string;
   autorLibro: string;
-  /** "card" (listados) | "full" (página de libro) */
-  size?: "card" | "full";
+  /** "card" (listados) · "full" (página de libro) · "shelf" (estantes de la home) */
+  size?: "card" | "full" | "shelf";
 }
 
 const { portada, titulo, autorLibro, size = "card" } = Astro.props;
-const isFull = size === "full";
 
-// Color de fondo estable derivado del título (para variedad visual).
-const paleta = ["#2e5aac", "#1f3a6e", "#3b5d8a", "#4a6fa5", "#274472", "#5b7ba6"];
+const paleta = [
+  "#2f6e63", "#2b3a67", "#7c3a2d", "#5a4a86", "#3b6b4a", "#8a6d1f", "#1f4e5f",
+  "#6d2f4a", "#394a2f", "#2d4b7a", "#b5642f", "#3f5aa6", "#5c3a6e",
+];
 let h = 0;
 for (const c of titulo) h = (h + c.charCodeAt(0)) % paleta.length;
 const bg = paleta[h];
+
+const dims: Record<string, string> = {
+  card: "h-28 w-20 shrink-0",
+  full: "w-full aspect-[2/3]",
+  shelf: "h-[128px] w-[86px] shrink-0",
+};
+const pad = size === "full" ? "p-4" : "p-2.5";
+const titleSize = size === "full" ? "text-base" : size === "shelf" ? "text-[13px]" : "text-[11px]";
+const authSize = size === "full" ? "text-xs" : "text-[10px]";
 ---
 
 {
@@ -28,19 +38,16 @@ const bg = paleta[h];
       src={portada}
       alt={`Portada de ${titulo}`}
       loading="lazy"
-      class={isFull ? "w-full rounded-lg border border-slate-200 shadow-sm" : "h-28 w-20 shrink-0 rounded object-cover"}
+      class={
+        size === "full"
+          ? "w-full rounded-lg border border-[var(--card-border)] object-cover shadow-sm"
+          : `${dims[size]} rounded object-cover shadow`
+      }
     />
   ) : (
-    <div
-      class={
-        (isFull ? "aspect-[2/3] w-full rounded-lg p-5 text-base" : "h-28 w-20 shrink-0 rounded p-2 text-[10px]") +
-        " flex flex-col justify-between text-white shadow-sm"
-      }
-      style={`background: linear-gradient(150deg, ${bg}, #0f1d3a);`}
-      aria-label={`Portada de ${titulo}`}
-    >
-      <span class="font-semibold leading-tight line-clamp-4">{titulo}</span>
-      <span class="opacity-80 leading-tight line-clamp-2">{autorLibro}</span>
+    <div class={`cover-ph ${dims[size]} ${pad}`} style={`background:${bg}`} aria-label={`Portada de ${titulo}`}>
+      <b class={`${titleSize} line-clamp-4`}>{titulo}</b>
+      <span class={`${authSize} line-clamp-1`}>{autorLibro}</span>
     </div>
   )
 }

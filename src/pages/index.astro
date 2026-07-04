@@ -2,59 +2,110 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CardLibro from "@/components/CardLibro.astro";
+import PortadaLibro from "@/components/PortadaLibro.astro";
 import { SITE } from "@/config";
 import { schemaWebSite } from "@/lib/schema";
 
-const autores = (await getCollection("autores"))
-  .filter((a) => a.data.destacado)
-  .sort((a, b) => a.data.orden - b.data.orden);
+const categorias = (await getCollection("categorias")).sort(
+  (a, b) => a.data.orden - b.data.orden,
+);
+const libros = await getCollection("libros");
 
-const librosDestacados = (await getCollection("libros")).filter((l) => l.data.destacado);
+const iconos: Record<string, string> = {
+  historia: "🏛️",
+  negocios: "💼",
+  ciencia: "🔬",
+  memorias: "📖",
+  ficcion: "📚",
+  psicologia: "🧠",
+  filosofia: "💭",
+  cienciaficcion: "🚀",
+  espiritualidad: "🕊️",
+};
 
-const posts = (await getCollection("blog"))
-  .filter((p) => !p.data.draft)
-  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
-  .slice(0, 4);
+// Estantes: por categoría, hasta 7 libros (con enriquecidos/destacados primero).
+const estantes = categorias
+  .map((cat) => {
+    const deCat = libros
+      .filter((l) => l.data.categoria.id === cat.id)
+      .sort((a, b) => Number(!!b.data.asin) - Number(!!a.data.asin));
+    return { cat, libros: deCat.slice(0, 7), total: deCat.length };
+  })
+  .filter((e) => e.total > 0);
+
+// Destacados: recomendados por 2+ referentes.
+const destacados = libros
+  .filter((l) => l.data.recomendadoPor.length >= 2)
+  .sort((a, b) => b.data.recomendadoPor.length - a.data.recomendadoPor.length)
+  .slice(0, 6);
 ---
 
-<BaseLayout
-  title={SITE.name}
-  description={SITE.description}
-  jsonLd={[schemaWebSite()]}
->
-  <section class="py-8 text-center">
-    <h1 class="text-3xl font-bold text-slate-900 sm:text-4xl">
+<BaseLayout title={SITE.name} description={SITE.description} bare jsonLd={[schemaWebSite()]}>
+  <section
+    class="px-4 pb-16 pt-12 text-center"
+    style="background: linear-gradient(180deg, #e9e3fb 0%, #f6f3fd 55%, var(--page) 100%);"
+  >
+    <h1 class="mx-auto max-w-3xl text-4xl font-bold text-[var(--brand-ink)] sm:text-5xl">
       Qué leen los grandes referentes del mundo
     </h1>
-    <p class="mx-auto mt-3 max-w-2xl text-slate-600">
-      Listas y reseñas de los libros recomendados por Bill Gates, Barack Obama, Warren
-      Buffett y más. Encontrá tu próxima lectura entre las elecciones de las mentes más
-      influyentes.
+    <p class="mx-auto mt-4 max-w-2xl text-[var(--muted)]">
+      Los libros que recomiendan Bill Gates, Barack Obama, Warren Buffett y más. Elegí tu próxima
+      lectura entre las mentes más influyentes.
     </p>
+    <a
+      href="/autores"
+      class="mt-6 inline-block rounded-lg bg-[var(--brand)] px-6 py-3 font-semibold text-white transition hover:bg-[var(--brand-dark)]"
+    >
+      Explorar referentes
+    </a>
   </section>
 
-  <section class="mt-8">
-    <h2 class="mb-4 text-xl font-bold text-slate-800">Referentes</h2>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
-      {
-        autores.map((a) => (
-          <a
-            href={`/autores/${a.id}`}
-            class="rounded-xl border border-slate-200 p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"
-          >
-            <p class="font-semibold text-slate-800">{a.data.nombre}</p>
-            <p class="text-xs text-slate-500">{a.data.profesion}</p>
-          </a>
-        ))
-      }
-    </div>
+  <section class="mx-auto max-w-5xl px-4 py-10">
+    {
+      estantes.map((e) => (
+        <div class="mb-9">
+          <div class="mb-3 flex items-center gap-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--chip-bg)] text-lg">
+              {iconos[e.cat.id] ?? "📕"}
+            </span>
+            <h2 class="text-lg font-semibold text-[var(--brand-ink)]">{e.cat.data.nombre}</h2>
+            <a
+              href={`/categorias/${e.cat.id}`}
+              class="ml-auto text-sm font-medium text-[var(--brand)] hover:underline"
+            >
+              Ver todos ({e.total})
+            </a>
+          </div>
+          <div class="flex items-end gap-4 overflow-x-auto pb-1">
+            {e.libros.map((l) => (
+              <a
+                href={`/libros/${l.id}`}
+                class="transition duration-200 hover:-translate-y-1"
+                title={l.data.titulo}
+              >
+                <PortadaLibro
+                  portada={l.data.portada}
+                  titulo={l.data.titulo}
+                  autorLibro={l.data.autorLibro}
+                  size="shelf"
+                />
+              </a>
+            ))}
+          </div>
+          <div class="ledge mt-1" />
+        </div>
+      ))
+    }
   </section>
 
-  <section class="mt-12">
-    <h2 class="mb-4 text-xl font-bold text-slate-800">Libros destacados</h2>
-    <div class="grid gap-4 sm:grid-cols-2">
+  <section class="mx-auto max-w-5xl px-4 pb-16">
+    <h2 class="text-2xl font-bold text-[var(--brand-ink)]">Imperdibles destacados</h2>
+    <p class="mt-1 mb-5 text-[var(--muted)]">
+      Los más recomendados por varios referentes a la vez.
+    </p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
-        librosDestacados.map((l) => (
+        destacados.map((l) => (
           <CardLibro
             slug={l.id}
             titulo={l.data.titulo}
@@ -66,22 +117,4 @@ const posts = (await getCollection("blog"))
       }
     </div>
   </section>
-
-  {
-    posts.length > 0 && (
-      <section class="mt-12">
-        <h2 class="mb-4 text-xl font-bold text-slate-800">Del blog</h2>
-        <ul class="space-y-3">
-          {posts.map((p) => (
-            <li>
-              <a href={`/blog/${p.id}`} class="font-medium text-[var(--brand)] hover:underline">
-                {p.data.titulo}
-              </a>
-              <p class="text-sm text-slate-500">{p.data.descripcion}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
-  }
 </BaseLayout>
