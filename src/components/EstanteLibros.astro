@@ -1,0 +1,52 @@
+---
+import PortadaLibro from "@/components/PortadaLibro.astro";
+
+/**
+ * "Pared de estantes": grilla responsiva de portadas apoyadas en repisas,
+ * cada una con mini-etiqueta (título + autor) debajo. Escala a cualquier
+ * cantidad de libros. Recibe entradas de la colección `libros`.
+ */
+interface Props {
+  libros: {
+    id: string;
+    data: { titulo: string; autorLibro: string; portada?: string };
+  }[];
+}
+
+const { libros } = Astro.props;
+---
+
+<div
+  class="grid gap-x-3 gap-y-7"
+  style="grid-template-columns: repeat(auto-fill, minmax(94px, 1fr));"
+>
+  {
+    libros.map((l) => (
+      <div class="flex flex-col items-center">
+        <a
+          href={`/libros/${l.id}`}
+          class="transition duration-200 hover:-translate-y-1"
+          title={l.data.titulo}
+        >
+          <PortadaLibro
+            portada={l.data.portada}
+            titulo={l.data.titulo}
+            autorLibro={l.data.autorLibro}
+            size="shelf"
+          />
+        </a>
+        <div class="ledge mt-1 w-full" />
+        {
+          l.data.portada && (
+            <div class="mt-2 w-full px-1 text-center">
+              <p class="line-clamp-2 text-[12px] font-medium leading-tight text-[var(--brand-ink)]">
+                {l.data.titulo}
+              </p>
+              <p class="mt-0.5 line-clamp-1 text-[11px] text-[var(--muted)]">{l.data.autorLibro}</p>
+            </div>
+          )
+        }
+      </div>
+    ))
+  }
+</div>

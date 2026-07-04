@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import CardLibro from "@/components/CardLibro.astro";
+import EstanteLibros from "@/components/EstanteLibros.astro";
 import { SITE } from "@/config";
 import { schemaItemList, schemaBreadcrumb } from "@/lib/schema";
 
@@ -65,20 +65,8 @@ const jsonLd = [
     <Content />
   </div>
 
-  <h2 class="mt-8 mb-4 text-xl font-bold text-slate-800">
+  <h2 class="mt-8 mb-5 text-xl font-bold text-[var(--brand-ink)]">
     Sus recomendaciones ({recomendados.length})
   </h2>
-  <div class="grid gap-4 sm:grid-cols-2">
-    {
-      recomendados.map((l) => (
-        <CardLibro
-          slug={l.id}
-          titulo={l.data.titulo}
-          autorLibro={l.data.autorLibro}
-          portada={l.data.portada}
-          resumen={l.data.resumen}
-        />
-      ))
-    }
-  </div>
+  <EstanteLibros libros={recomendados} />
 </BaseLayout>
