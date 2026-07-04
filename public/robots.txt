@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Cambiá el dominio por el real cuando lo tengas.
-Sitemap: https://libros-de-referentes.com/sitemap-index.xml
+Sitemap: https://losimperdibles.com/sitemap-index.xml

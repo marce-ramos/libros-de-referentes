@@ -4,18 +4,18 @@
  */
 export const SITE = {
   /** Nombre/marca del sitio. */
-  name: "Libros de Referentes",
+  name: "Los Imperdibles",
   /** Dominio con protocolo, sin barra final. Debe coincidir con `site` en astro.config.mjs. */
-  url: "https://libros-de-referentes.com",
+  url: "https://losimperdibles.com",
   /** Descripción por defecto para meta tags cuando una página no define la suya. */
   description:
-    "Qué leen los grandes referentes del mundo. Listas y reseñas de los libros recomendados por Bill Gates, Barack Obama, Warren Buffett y más.",
+    "Los imperdibles según los grandes referentes del mundo: los libros que recomiendan Bill Gates, Barack Obama, Warren Buffett y más.",
   /** Idioma del contenido. */
   lang: "es",
   /** Locale para Open Graph. */
   locale: "es_ES",
   /** Autor/editor del sitio. */
-  author: "Libros de Referentes",
+  author: "Los Imperdibles",
 } as const;
 
 /**
