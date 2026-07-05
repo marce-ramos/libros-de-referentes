@@ -1,0 +1,46 @@
+---
+import PortadaLibro from "@/components/PortadaLibro.astro";
+
+/**
+ * Celda de estante: portada apoyada en una repisa + etiqueta debajo.
+ * - Con placeholder: el título va sobre el lomo; la etiqueta muestra autor + consenso.
+ * - Con portada real (imagen): el título se muda a la etiqueta (siempre como texto,
+ *   nunca duplicado, SEO-safe).
+ * El pill de consenso aparece solo cuando 2+ referentes recomiendan el libro.
+ */
+interface Props {
+  id: string;
+  titulo: string;
+  autorLibro: string;
+  portada?: string;
+  count?: number;
+}
+
+const { id, titulo, autorLibro, portada, count = 0 } = Astro.props;
+---
+
+<a
+  href={`/libros/${id}`}
+  class="group flex w-[104px] shrink-0 flex-col items-center transition duration-200 hover:-translate-y-1"
+  title={titulo}
+>
+  <PortadaLibro portada={portada} titulo={titulo} autorLibro={autorLibro} size="shelf" />
+  <div class="ledge mt-1 w-full"></div>
+  <div class="mt-2 w-full text-center">
+    {
+      portada && (
+        <p class="line-clamp-2 text-[12.5px] font-semibold leading-tight text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
+          {titulo}
+        </p>
+      )
+    }
+    <p class="line-clamp-2 text-[11.5px] leading-tight text-[var(--muted)]">{autorLibro}</p>
+    {
+      count >= 2 && (
+        <span class="mt-1.5 inline-block rounded-full bg-[var(--chip-bg)] px-2 py-0.5 text-[10.5px] font-semibold text-[var(--brand-dark)]">
+          {count} referentes
+        </span>
+      )
+    }
+  </div>
+</a>

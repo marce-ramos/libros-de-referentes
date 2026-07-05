@@ -1,14 +1,14 @@
 ---
 /**
- * Portada del libro. Si hay imagen (`portada`), la muestra; si no, renderiza
- * un placeholder tipográfico estilo "lomo de libro" (nunca una imagen rota).
- * Las portadas reales se cargan vía la PA-API de Amazon cuando esté habilitada.
+ * Portada del libro. Si hay imagen (`portada`), la muestra; si no, un
+ * placeholder estilo "lomo de libro" que muestra el título.
+ * El autor y el marcador de consenso viven en la etiqueta de abajo
+ * (ver LibroEstante), no acá.
  */
 interface Props {
   portada?: string;
   titulo: string;
   autorLibro: string;
-  /** "card" (listados) · "full" (página de libro) · "shelf" (estantes de la home) */
   size?: "card" | "full" | "shelf";
 }
 
@@ -28,8 +28,7 @@ const dims: Record<string, string> = {
   shelf: "h-[128px] w-[86px] shrink-0",
 };
 const pad = size === "full" ? "p-4" : "p-2.5";
-const titleSize = size === "full" ? "text-base" : size === "shelf" ? "text-[13px]" : "text-[11px]";
-const authSize = size === "full" ? "text-xs" : "text-[10px]";
+const titleSize = size === "full" ? "text-lg" : size === "shelf" ? "text-[13px]" : "text-[11px]";
 ---
 
 {
@@ -38,16 +37,16 @@ const authSize = size === "full" ? "text-xs" : "text-[10px]";
       src={portada}
       alt={`Portada de ${titulo}`}
       loading="lazy"
-      class={
-        size === "full"
-          ? "w-full rounded-lg border border-[var(--card-border)] object-cover shadow-sm"
-          : `${dims[size]} rounded object-cover shadow`
-      }
+      class={`${dims[size]} rounded-[3px] object-cover shadow-[2px_3px_10px_rgba(40,30,80,0.22)]`}
     />
   ) : (
-    <div class={`cover-ph ${dims[size]} ${pad}`} style={`background:${bg}`} aria-label={`Portada de ${titulo}`}>
-      <b class={`${titleSize} line-clamp-4`}>{titulo}</b>
-      <span class={`${authSize} line-clamp-1`}>{autorLibro}</span>
+    <div
+      class={`cover-ph ${dims[size]} ${pad}`}
+      style={`background:${bg}`}
+      aria-label={`Portada de ${titulo}`}
+    >
+      <b class={`${titleSize} break-words hyphens-auto line-clamp-5`}>{titulo}</b>
+      <span class="sr-only">{autorLibro}</span>
     </div>
   )
 }

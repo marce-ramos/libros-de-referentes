@@ -1,8 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import CardLibro from "@/components/CardLibro.astro";
 import PortadaLibro from "@/components/PortadaLibro.astro";
+import LibroEstante from "@/components/LibroEstante.astro";
 import { SITE } from "@/config";
 import { schemaWebSite } from "@/lib/schema";
 
@@ -10,39 +10,51 @@ const categorias = (await getCollection("categorias")).sort(
   (a, b) => a.data.orden - b.data.orden,
 );
 const libros = await getCollection("libros");
+const autores = await getCollection("autores");
+const nombreDe = new Map(autores.map((a) => [a.id, a.data.nombre]));
 
 const iconos: Record<string, string> = {
-  historia: "🏛️",
-  negocios: "💼",
-  ciencia: "🔬",
-  memorias: "📖",
-  ficcion: "📚",
-  psicologia: "🧠",
-  filosofia: "💭",
-  cienciaficcion: "🚀",
-  espiritualidad: "🕊️",
+  historia: "🏛️", negocios: "💼", ciencia: "🔬", memorias: "📖", ficcion: "📚",
+  psicologia: "🧠", filosofia: "💭", cienciaficcion: "🚀", espiritualidad: "🕊️",
 };
 
-// Estantes: por categoría, hasta 7 libros (con enriquecidos/destacados primero).
+function recomendadores(l: (typeof libros)[number]): string[] {
+  return l.data.recomendadoPor.map((r) => nombreDe.get(r.id) ?? r.id);
+}
+function fmtNombres(ns: string[]): string {
+  if (ns.length === 1) return ns[0];
+  if (ns.length === 2) return `${ns[0]} y ${ns[1]}`;
+  return `${ns[0]}, ${ns[1]} y ${ns.length - 2} más`;
+}
+
+// Los más recomendados: coincidencia de varios referentes (2+), ranking por cantidad.
+const masRecomendados = libros
+  .filter((l) => l.data.recomendadoPor.length >= 2)
+  .sort(
+    (a, b) =>
+      b.data.recomendadoPor.length - a.data.recomendadoPor.length ||
+      Number(!!b.data.asin) - Number(!!a.data.asin),
+  );
+
+// Estantes por categoría (hasta 7 por fila, enriquecidos primero).
 const estantes = categorias
   .map((cat) => {
     const deCat = libros
       .filter((l) => l.data.categoria.id === cat.id)
-      .sort((a, b) => Number(!!b.data.asin) - Number(!!a.data.asin));
+      .sort(
+        (a, b) =>
+          b.data.recomendadoPor.length - a.data.recomendadoPor.length ||
+          Number(!!b.data.asin) - Number(!!a.data.asin) ||
+          a.data.titulo.localeCompare(b.data.titulo),
+      );
     return { cat, libros: deCat.slice(0, 7), total: deCat.length };
   })
   .filter((e) => e.total > 0);
-
-// Destacados: recomendados por 2+ referentes.
-const destacados = libros
-  .filter((l) => l.data.recomendadoPor.length >= 2)
-  .sort((a, b) => b.data.recomendadoPor.length - a.data.recomendadoPor.length)
-  .slice(0, 6);
 ---
 
 <BaseLayout title={SITE.name} description={SITE.description} bare jsonLd={[schemaWebSite()]}>
   <section
-    class="px-4 pb-16 pt-12 text-center"
+    class="px-4 pb-14 pt-12 text-center"
     style="background: linear-gradient(180deg, #e9e3fb 0%, #f6f3fd 55%, var(--page) 100%);"
   >
     <h1 class="mx-auto max-w-3xl text-4xl font-bold text-[var(--brand-ink)] sm:text-5xl">
@@ -60,7 +72,44 @@ const destacados = libros
     </a>
   </section>
 
-  <section class="mx-auto max-w-5xl px-4 py-10">
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <h2 class="text-2xl font-bold text-[var(--brand-ink)]">Los más recomendados</h2>
+    <p class="mt-1 mb-6 text-[var(--muted)]">
+      Los libros en los que coinciden varios referentes. Cuantos más los eligen, más arriba.
+    </p>
+    <div class="grid gap-4 sm:grid-cols-2">
+      {
+        masRecomendados.map((l) => (
+          <a
+            href={`/libros/${l.id}`}
+            class="group flex gap-4 rounded-[14px] border border-[var(--card-border)] bg-white p-4 shadow-[0_4px_16px_rgba(90,70,160,0.05)] transition hover:border-[var(--brand)] hover:shadow-[0_8px_22px_rgba(90,70,160,0.10)]"
+          >
+            <PortadaLibro
+              portada={l.data.portada}
+              titulo={l.data.titulo}
+              autorLibro={l.data.autorLibro}
+              size="card"
+            />
+            <div class="min-w-0">
+              <span class="inline-block rounded-full bg-[var(--chip-bg)] px-2.5 py-0.5 text-[12px] font-semibold text-[var(--brand-dark)]">
+                {l.data.recomendadoPor.length} referentes
+              </span>
+              <h3 class="mt-1.5 font-semibold text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
+                {l.data.titulo}
+              </h3>
+              <p class="text-sm text-[var(--muted)]">{l.data.autorLibro}</p>
+              <p class="mt-1.5 line-clamp-2 text-sm text-slate-600">
+                Recomendado por {fmtNombres(recomendadores(l))}
+              </p>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-5xl px-4 pb-16 pt-12">
+    <h2 class="mb-6 text-2xl font-bold text-[var(--brand-ink)]">Explorá por tema</h2>
     {
       estantes.map((e) => (
         <div class="mb-9">
@@ -68,7 +117,7 @@ const destacados = libros
             <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--chip-bg)] text-lg">
               {iconos[e.cat.id] ?? "📕"}
             </span>
-            <h2 class="text-lg font-semibold text-[var(--brand-ink)]">{e.cat.data.nombre}</h2>
+            <h3 class="text-lg font-semibold text-[var(--brand-ink)]">{e.cat.data.nombre}</h3>
             <a
               href={`/categorias/${e.cat.id}`}
               class="ml-auto text-sm font-medium text-[var(--brand)] hover:underline"
@@ -76,45 +125,19 @@ const destacados = libros
               Ver todos ({e.total})
             </a>
           </div>
-          <div class="flex items-end gap-4 overflow-x-auto pb-1">
+          <div class="flex items-start gap-3 overflow-x-auto pb-1">
             {e.libros.map((l) => (
-              <a
-                href={`/libros/${l.id}`}
-                class="transition duration-200 hover:-translate-y-1"
-                title={l.data.titulo}
-              >
-                <PortadaLibro
-                  portada={l.data.portada}
-                  titulo={l.data.titulo}
-                  autorLibro={l.data.autorLibro}
-                  size="shelf"
-                />
-              </a>
+              <LibroEstante
+                id={l.id}
+                titulo={l.data.titulo}
+                autorLibro={l.data.autorLibro}
+                portada={l.data.portada}
+                count={l.data.recomendadoPor.length}
+              />
             ))}
           </div>
-          <div class="ledge mt-1" />
         </div>
       ))
     }
-  </section>
-
-  <section class="mx-auto max-w-5xl px-4 pb-16">
-    <h2 class="text-2xl font-bold text-[var(--brand-ink)]">Imperdibles destacados</h2>
-    <p class="mt-1 mb-5 text-[var(--muted)]">
-      Los más recomendados por varios referentes a la vez.
-    </p>
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        destacados.map((l) => (
-          <CardLibro
-            slug={l.id}
-            titulo={l.data.titulo}
-            autorLibro={l.data.autorLibro}
-            portada={l.data.portada}
-            resumen={l.data.resumen}
-          />
-        ))
-      }
-    </div>
   </section>
 </BaseLayout>

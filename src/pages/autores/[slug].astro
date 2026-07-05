@@ -11,9 +11,14 @@ export async function getStaticPaths() {
 
   return autores.map((autor) => {
     // Libros donde este referente aparece en `recomendadoPor` (relación M:N).
-    const recomendados = libros.filter((l) =>
-      l.data.recomendadoPor.some((ref) => ref.id === autor.id),
-    );
+    const recomendados = libros
+      .filter((l) => l.data.recomendadoPor.some((ref) => ref.id === autor.id))
+      .sort(
+        (a, b) =>
+          b.data.recomendadoPor.length - a.data.recomendadoPor.length ||
+          Number(!!b.data.asin) - Number(!!a.data.asin) ||
+          a.data.titulo.localeCompare(b.data.titulo),
+      );
     return {
       params: { slug: autor.id },
       props: { autor, recomendados },

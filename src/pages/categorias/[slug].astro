@@ -10,7 +10,14 @@ export async function getStaticPaths() {
   const libros = await getCollection("libros");
 
   return categorias.map((categoria) => {
-    const librosCat = libros.filter((l) => l.data.categoria.id === categoria.id);
+    const librosCat = libros
+      .filter((l) => l.data.categoria.id === categoria.id)
+      .sort(
+        (a, b) =>
+          b.data.recomendadoPor.length - a.data.recomendadoPor.length ||
+          Number(!!b.data.asin) - Number(!!a.data.asin) ||
+          a.data.titulo.localeCompare(b.data.titulo),
+      );
     return {
       params: { slug: categoria.id },
       props: { categoria, librosCat },
