@@ -9,10 +9,13 @@ interface Props {
   portada?: string;
   titulo: string;
   autorLibro: string;
-  size?: "card" | "full" | "shelf";
+  size?: "card" | "feat" | "full" | "shelf";
+  /** Mostrar el título sobre el lomo del placeholder. false cuando el título
+   *  ya se muestra al lado (evita duplicar). */
+  showTitle?: boolean;
 }
 
-const { portada, titulo, autorLibro, size = "card" } = Astro.props;
+const { portada, titulo, autorLibro, size = "card", showTitle = true } = Astro.props;
 
 const paleta = [
   "#2f6e63", "#2b3a67", "#7c3a2d", "#5a4a86", "#3b6b4a", "#8a6d1f", "#1f4e5f",
@@ -24,11 +27,19 @@ const bg = paleta[h];
 
 const dims: Record<string, string> = {
   card: "h-28 w-20 shrink-0",
+  feat: "h-[152px] w-[104px] shrink-0",
   full: "w-full aspect-[2/3]",
   shelf: "h-[128px] w-[86px] shrink-0",
 };
-const pad = size === "full" ? "p-4" : "p-2.5";
-const titleSize = size === "full" ? "text-lg" : size === "shelf" ? "text-[13px]" : "text-[11px]";
+const pad = size === "full" ? "p-4" : size === "feat" ? "p-3" : "p-2.5";
+const titleSize =
+  size === "full"
+    ? "text-lg"
+    : size === "feat"
+      ? "text-[15px]"
+      : size === "shelf"
+        ? "text-[13px]"
+        : "text-[11px]";
 ---
 
 {
@@ -45,8 +56,8 @@ const titleSize = size === "full" ? "text-lg" : size === "shelf" ? "text-[13px]"
       style={`background:${bg}`}
       aria-label={`Portada de ${titulo}`}
     >
-      <b class={`${titleSize} break-words hyphens-auto line-clamp-5`}>{titulo}</b>
-      <span class="sr-only">{autorLibro}</span>
+      {showTitle && <b class={`${titleSize} break-words hyphens-auto line-clamp-5`}>{titulo}</b>}
+      <span class="sr-only">{titulo} — {autorLibro}</span>
     </div>
   )
 }

@@ -88,16 +88,20 @@ const estantes = categorias
               portada={l.data.portada}
               titulo={l.data.titulo}
               autorLibro={l.data.autorLibro}
-              size="card"
+              size="feat"
             />
             <div class="min-w-0">
               <span class="inline-block rounded-full bg-[var(--chip-bg)] px-2.5 py-0.5 text-[12px] font-semibold text-[var(--brand-dark)]">
                 {l.data.recomendadoPor.length} referentes
               </span>
-              <h3 class="mt-1.5 font-semibold text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
-                {l.data.titulo}
-              </h3>
-              <p class="text-sm text-[var(--muted)]">{l.data.autorLibro}</p>
+              {
+                l.data.portada && (
+                  <h3 class="mt-1.5 font-semibold text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
+                    {l.data.titulo}
+                  </h3>
+                )
+              }
+              <p class="mt-1.5 text-sm text-[var(--muted)]">{l.data.autorLibro}</p>
               <p class="mt-1.5 line-clamp-2 text-sm text-slate-600">
                 Recomendado por {fmtNombres(recomendadores(l))}
               </p>
