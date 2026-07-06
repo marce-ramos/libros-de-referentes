@@ -116,29 +116,62 @@ libro lo recomiendan varios, se listan todos (relación muchos-a-muchos → inte
 
 ---
 
-## 5. Artículo de blog "Los libros que recomienda X"
+## 5. Blog y estrategia editorial
+
+El blog es el motor de tráfico de cola larga. Cada artículo apunta a una búsqueda con
+intención y enlaza a fichas internas (nunca directo a Amazon).
+
+### Frontmatter (todos los posts)
 
 ```yaml
 ---
-titulo: "Los libros que recomienda <Referente> (lista/guía 2026)"
-descripcion: "1-2 frases con la keyword."
+titulo: "Título con la keyword (y el año en las listas: … 2026)"
+descripcion: "Meta description con la keyword (~150 caracteres)."
 fecha: 2026-07-05
 fechaActualizado: 2026-07-05
 autor: "Los Imperdibles"
-keywords: ["libros que recomienda <Referente>", "qué lee <Referente>", ...]
+keywords: ["keyword principal", "variante", "…"]
 draft: false
 ---
 ```
 
-- Intro con la **keyword principal arriba** + contexto del referente.
-- Un `### [Título](/libros/<slug>) — Autor` por libro, con 2-3 frases.
-  El título del enlace debe coincidir con el `titulo` de la ficha (español si aplica).
-- Agrupar por tipo si son muchos (ej. Ficción / No ficción).
-- **Enlazar siempre a la ficha interna** (`/libros/<slug>`), nunca directo a Amazon
-  (Amazon prohíbe links de afiliado fuera de la web; y concentra autoridad SEO en la ficha).
-- Cierre con link a `/autores` ("otros referentes").
-- **Requisito previo:** las fichas que enlaza deben estar saneadas (ASIN + reseña/intro,
-  no stubs). Ver §8.
+### Reglas de SEO comunes a todo artículo
+
+- **Keyword principal** en el título, en el H1 (= `titulo`) y en las primeras 1-2 líneas.
+- Estructura **escaneable**: un `##` por sección/ítem, párrafos cortos, respuesta arriba.
+- **Enlaces internos** a fichas (`/libros/<slug>`), referentes (`/autores/<slug>`) y
+  categorías (`/categorias/<slug>`). **Nunca** un link de afiliado directo en el post.
+- **Una sola página por tema** (evitar canibalización: no dos posts peleando la misma keyword).
+- Contenido **100% original**; el título del enlace debe coincidir con el `titulo` de la ficha.
+- **Requisito previo:** las fichas que enlaza deben estar saneadas (§8), no stubs.
+
+### Arquetipos de artículo
+
+1. **Listicle de referente** — "Los libros que recomienda <X>". El más importante.
+   Intro + contexto del referente + un `### [Título](/libros/<slug>) — Autor` por libro
+   (2-3 frases). Agrupar por tipo si son muchos (Ficción / No ficción). Cierre → `/autores`.
+2. **Best-of por categoría** — "Los mejores libros de <tema> según los referentes".
+   Selecciona los top de una categoría (los de más consenso primero); enlaza a la
+   categoría y a cada ficha.
+3. **Guía estacional / de regalo** — "Libros para regalar 2026", "Mejores libros en
+   oferta este Black Friday". Publicar **semanas antes** para que Google lo indexe a
+   tiempo. Alta intención de compra.
+4. **Reseña individual en profundidad** — artículo editorial largo sobre un solo libro
+   (ángulo, contexto, por qué importa) que enlaza a su ficha. Para libros muy buscados.
+5. **Cola larga (referente × tema)** — "El mejor libro de inversión según Warren Buffett",
+   "Qué libros de IA recomienda Sam Altman". Baja competencia, alta intención: ideal para
+   un sitio nuevo. Producir muchos, chicos.
+6. **Comparativa** — "<Libro A> vs <Libro B>: cuál leer primero". Nicho, buena conversión.
+
+### Cadencia y frescura
+
+- Lanzamiento: priorizar arquetipos 1 y 5 (bajan competencia).
+- Ritmo sostenible: 2-3 posts/semana al crecer; 1-2 al madurar + actualizar viejos.
+- **Refresco anual (cada enero):** actualizar las listas de referentes con los libros del
+  año nuevo, cambiar el año del título y `fechaActualizado`. Suele rendir más que un post
+  nuevo (Google premia la frescura).
+- Revisar en Search Console los posts en **posición 5-15** y mejorarlos para empujarlos al
+  top 3 (ahí está casi todo el tráfico).
 
 ---
 
@@ -198,3 +231,31 @@ viejas/truncadas. Para verificar el contenido real de un archivo, usar las herra
 5. Nota de edición al pie.
 6. Correr el checklist (§8) y `npm run build`.
 7. `git add . && git commit && git push` (deploy automático en Cloudflare).
+
+---
+
+## 10. Calendario editorial (plan de arranque)
+
+Orden de producción sugerido, de mayor a menor retorno para un sitio nuevo. Antes de
+cada listicle, enriquecer las fichas que va a enlazar (§8) — nunca publicar hacia stubs.
+
+**Fase 1 — Listicles de referentes (base).** Un post por referente grande (arquetipo 1).
+- Hechos: Bill Gates, Barack Obama, Warren Buffett.
+- Próximos: Elon Musk, Naval Ravikant, Tim Ferriss, Jordan Peterson, Ray Dalio,
+  Sam Altman, Andrew Ng. (~2-3 por semana.)
+
+**Fase 2 — Best-of por categoría (arquetipo 2).** Uno por categoría fuerte:
+"Los mejores libros de negocios / psicología / ciencia según los referentes".
+Reutiliza fichas ya enriquecidas.
+
+**Fase 3 — Cola larga (arquetipo 5).** Combinaciones referente × tema: muchos posts
+chicos, baja competencia ("El mejor libro de X según Y").
+
+**Estacional (todo el año, con anticipación):**
+- Oct-Nov: Black Friday / Cyber Monday ("mejores libros en oferta").
+- Dic-Ene: "Libros para regalar" + listas anuales ("Todos los libros que recomendaron
+  los referentes en 2026").
+- Abril: Día del Libro (23/4) y vuelta a clases.
+
+**KPI de contenido:** el termómetro temprano no son los ingresos sino las **impresiones
+en Search Console**. Si suben mes a mes, el contenido funciona y los ingresos vienen detrás.
