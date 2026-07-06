@@ -25,11 +25,11 @@ Una de sus favoritas de 2024, y ganadora del **Premio Pulitzer de Ficción 2025*
 
 Ganadora del **Premio Booker 2024**. Una novela breve y contemplativa sobre seis astronautas que conviven durante una jornada en la Estación Espacial Internacional, mirando la Tierra desde arriba. Serena y luminosa.
 
-### [A Gentleman in Moscow](/libros/a-gentleman-in-moscow) — Amor Towles
+### [Un caballero en Moscú](/libros/a-gentleman-in-moscow) — Amor Towles
 
 Un conde ruso es condenado a arresto domiciliario de por vida en un gran hotel de Moscú tras la Revolución. Elegante e ingeniosa, es una novela sobre cómo encontrar sentido, dignidad y hasta libertad dentro del encierro.
 
-### [An American Marriage](/libros/an-american-marriage) — Tayari Jones
+### [Un matrimonio americano](/libros/an-american-marriage) — Tayari Jones
 
 Un joven matrimonio se quiebra cuando el marido es encarcelado por un crimen que no cometió. Una historia íntima sobre el amor, la injusticia y las grietas del sistema, que fue de las más comentadas de su año.
 
