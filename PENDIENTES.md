@@ -13,8 +13,8 @@ Punto de retomada. Última actualización: 2026-07-05.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** 39 referentes, 142 libros, 9 categorías. ~43 libros con ASIN real + reseña/intro
   (última tanda: 4 de Ray Dalio + 4 de Mark Zuckerberg, 2026-07-09).
-- **Blog:** 6 artículos (Gates, Obama, Buffett, Musk, Jordan Peterson, Tim Ferriss), con las
-  fichas que enlazan saneadas.
+- **Blog:** 8 artículos (Gates, Obama, Buffett, Musk, Jordan Peterson, Tim Ferriss, Ray Dalio,
+  Mark Zuckerberg), con las fichas que enlazan saneadas.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
 - **Imagen OG** con la marca.
 - **Playbook** `CONTENIDO.md`: convenciones de contenido + estrategia editorial + calendario.
@@ -28,9 +28,8 @@ Punto de retomada. Última actualización: 2026-07-05.
    (hoy placeholder `turef-20`). Activar **OneLink**. Cargar el **bounty de Audible** real
    en `BloqueAudible.astro`.
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
-   → hechos: Musk, Jordan Peterson, Tim Ferriss. **Ray Dalio y Mark Zuckerberg ya tienen sus
-   fichas enriquecidas → listos para su listicle.** Próximos a enriquecer+escribir: Naval
-   Ravikant, Sam Altman, Andrew Ng.
+   → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09).
+   Próximos a enriquecer+escribir: Naval Ravikant, Sam Altman, Andrew Ng.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. **Enriquecer más fichas** de a tandas (quedan ~110 en stub/placeholder): ASIN real +
