@@ -1,0 +1,125 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import TarjetaRecomendado from "@/components/TarjetaRecomendado.astro";
+import { SITE } from "@/config";
+import { schemaItemList, schemaBreadcrumb } from "@/lib/schema";
+
+const libros = await getCollection("libros");
+const autores = await getCollection("autores");
+const nombreDe = new Map(autores.map((a) => [a.id, a.data.nombre]));
+
+function recomendadores(l: (typeof libros)[number]): string[] {
+  return l.data.recomendadoPor.map((r) => nombreDe.get(r.id) ?? r.id);
+}
+function fmtNombres(ns: string[]): string {
+  if (ns.length === 1) return ns[0];
+  if (ns.length === 2) return `${ns[0]} y ${ns[1]}`;
+  return `${ns[0]}, ${ns[1]} y ${ns.length - 2} más`;
+}
+
+const masRecomendados = libros
+  .filter((l) => l.data.recomendadoPor.length >= 2)
+  .sort(
+    (a, b) =>
+      b.data.recomendadoPor.length - a.data.recomendadoPor.length ||
+      Number(!!b.data.asin) - Number(!!a.data.asin) ||
+      a.data.titulo.localeCompare(b.data.titulo),
+  );
+
+// Tramos por cantidad de referentes (de mayor a menor).
+const counts = [...new Set(masRecomendados.map((l) => l.data.recomendadoPor.length))].sort(
+  (a, b) => b - a,
+);
+const tramos = counts.map((c) => ({
+  c,
+  libros: masRecomendados.filter((l) => l.data.recomendadoPor.length === c),
+}));
+
+// Paginado progresivo por tramo (todo el HTML se renderiza; el resto se revela con JS).
+const PAGE_SIZE = 8;
+
+const url = new URL("/mas-recomendados", SITE.url).href;
+const jsonLd = [
+  schemaItemList({
+    nombre: "Los libros más recomendados por los grandes referentes",
+    items: masRecomendados.map((l) => ({
+      url: new URL(`/libros/${l.id}`, SITE.url).href,
+      nombre: l.data.titulo,
+    })),
+  }),
+  schemaBreadcrumb([
+    { nombre: "Inicio", url: SITE.url },
+    { nombre: "Los más recomendados", url },
+  ]),
+];
+---
+
+<BaseLayout
+  title="Los libros más recomendados por los grandes referentes"
+  description="El ranking de los libros en los que coinciden más referentes mundiales: los que recomiendan Bill Gates, Barack Obama, Warren Buffett, Elon Musk y más."
+  jsonLd={jsonLd}
+>
+  <nav class="mb-4 text-sm text-[var(--muted)]">
+    <a href="/" class="hover:underline">Inicio</a> · Los más recomendados
+  </nav>
+
+  <h1 class="text-3xl font-bold text-[var(--brand-ink)]">Los libros más recomendados</h1>
+  <p class="mt-2 max-w-2xl text-[var(--muted)]">
+    El ranking de los libros en los que coinciden varios referentes del mundo. Cuantos más los
+    eligen, más arriba: cuando dos o más de las mentes más influyentes recomiendan el mismo
+    libro, hay una buena razón para prestarle atención.
+  </p>
+
+  {
+    tramos.map((t) => (
+      <section class="mt-10" data-tramo>
+        <h2 class="mb-5 text-xl font-bold text-[var(--brand-ink)]">
+          Recomendados por {t.c} referentes
+          <span class="ml-1 font-medium text-[var(--muted)]">({t.libros.length})</span>
+        </h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          {t.libros.map((l, i) => (
+            <div class:list={["mr-item h-full", { hidden: i >= PAGE_SIZE }]}>
+              <TarjetaRecomendado
+                id={l.id}
+                titulo={l.data.titulo}
+                autorLibro={l.data.autorLibro}
+                portada={l.data.portada}
+                count={l.data.recomendadoPor.length}
+                recomendadores={fmtNombres(recomendadores(l))}
+              />
+            </div>
+          ))}
+        </div>
+        {t.libros.length > PAGE_SIZE && (
+          <div class="mt-5 text-center">
+            <button
+              type="button"
+              data-vermas
+              class="inline-block rounded-lg border border-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[var(--brand)] transition hover:bg-[var(--brand)] hover:text-white"
+            >
+              Ver más
+            </button>
+          </div>
+        )}
+      </section>
+    ))
+  }
+</BaseLayout>
+
+<script>
+  const STEP = 8;
+  document.querySelectorAll<HTMLButtonElement>("[data-vermas]").forEach((btn) => {
+    const sec = btn.closest("[data-tramo]");
+    if (!sec) return;
+    const ocultos = Array.from(sec.querySelectorAll<HTMLElement>(".mr-item.hidden"));
+    const setLabel = () => (btn.textContent = `Ver más (${ocultos.length} restantes)`);
+    setLabel();
+    btn.addEventListener("click", () => {
+      ocultos.splice(0, STEP).forEach((el) => el.classList.remove("hidden"));
+      if (ocultos.length === 0) btn.remove();
+      else setLabel();
+    });
+  });
+</script>

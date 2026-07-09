@@ -46,7 +46,16 @@ Punto de retomada. Última actualización: 2026-07-05.
    muda a la etiqueta; se puede sumar badge de consenso en la esquina).
 7. **Search Console (continuo).** Pedir indexación de URLs nuevas; vigilar **impresiones**
    (KPI temprano); mejorar posts en posición 5-15.
-8. **Diversificación (más adelante).** Display ads (AdSense/Mediavine) con tráfico; sponsors
+8. ~~**"Los más recomendados" — capar + página propia.**~~ ✅ **Hecho (2026-07-09).**
+   Home ahora muestra solo el **top 6** + link **"Ver el ranking completo (N) →"**. Nueva
+   página **`/mas-recomendados`** lista TODOS los libros de 2+ referentes, agrupados por
+   tramos ("Recomendados por N referentes", de mayor a menor). Card extraída a componente
+   reusable **`TarjetaRecomendado.astro`** (home + ranking). SEO: H1, meta description,
+   JSON-LD ItemList + BreadcrumbList, interlinking a fichas. Link **"Más recomendados"**
+   agregado al nav del header (1er ítem) y a una fila de links en el footer (internal linking
+   sitewide). Cada tramo tiene **paginado progresivo "Ver más"** (revela de a 8, todo el HTML
+   se renderiza igual → SEO-safe).
+9. **Diversificación (más adelante).** Display ads (AdSense/Mediavine) con tráfico; sponsors
    de newsletter; producto digital propio; micro-SaaS en Azure/.NET.
 
 ---

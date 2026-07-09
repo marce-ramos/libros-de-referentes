@@ -1,0 +1,40 @@
+---
+import PortadaLibro from "@/components/PortadaLibro.astro";
+
+/**
+ * Tarjeta de "Los más recomendados": portada + pill de consenso + nombres de
+ * los referentes que lo recomiendan. Se usa en la home (top) y en /mas-recomendados.
+ */
+interface Props {
+  id: string;
+  titulo: string;
+  autorLibro: string;
+  portada?: string;
+  count: number;
+  /** Texto ya formateado: "Bill Gates, Barack Obama y 1 más" */
+  recomendadores: string;
+}
+
+const { id, titulo, autorLibro, portada, count, recomendadores } = Astro.props;
+---
+
+<a
+  href={`/libros/${id}`}
+  class="group flex h-full gap-4 rounded-[14px] border border-[var(--card-border)] bg-white p-4 shadow-[0_4px_16px_rgba(90,70,160,0.05)] transition hover:border-[var(--brand)] hover:shadow-[0_8px_22px_rgba(90,70,160,0.10)]"
+>
+  <PortadaLibro portada={portada} titulo={titulo} autorLibro={autorLibro} size="feat" />
+  <div class="min-w-0">
+    <span class="inline-block rounded-full bg-[var(--chip-bg)] px-2.5 py-0.5 text-[12px] font-semibold text-[var(--brand-dark)]">
+      {count} referentes
+    </span>
+    {
+      portada && (
+        <h3 class="mt-1.5 font-semibold text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
+          {titulo}
+        </h3>
+      )
+    }
+    <p class="mt-1.5 text-sm text-[var(--muted)]">{autorLibro}</p>
+    <p class="mt-1.5 line-clamp-2 text-sm text-slate-600">Recomendado por {recomendadores}</p>
+  </div>
+</a>
