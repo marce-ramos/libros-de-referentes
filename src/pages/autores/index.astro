@@ -2,10 +2,14 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import AvatarReferente from "@/components/AvatarReferente.astro";
+import { AMBITOS, ambitoDe } from "@/lib/ambitos";
 
 const autores = (await getCollection("autores")).sort(
   (a, b) => a.data.orden - b.data.orden,
 );
+
+const norm = (s: string) =>
+  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 ---
 
 <BaseLayout
@@ -13,14 +17,32 @@ const autores = (await getCollection("autores")).sort(
   description="Todos los referentes mundiales cuyas recomendaciones de libros encontrás en el sitio."
 >
   <h1 class="text-2xl font-bold text-[var(--brand-ink)]">Referentes</h1>
-  <p class="mt-2 text-[var(--muted)]">Elegí un referente para ver los libros que recomienda.</p>
+  <p class="mt-2 text-[var(--muted)]">
+    Buscá por nombre o filtrá por ámbito para encontrar a quien te interese.
+  </p>
 
-  <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+  <div class="mt-6 space-y-3">
+    <input
+      id="buscador"
+      type="search"
+      placeholder="Buscar referente…"
+      autocomplete="off"
+      class="w-full max-w-sm rounded-lg border border-[var(--card-border)] bg-white px-4 py-2.5 text-sm outline-none focus:border-[var(--brand)]"
+    />
+    <div id="chips" class="flex flex-wrap gap-2">
+      <button data-ambito="" class="chip chip-active">Todos</button>
+      {AMBITOS.map((a) => <button data-ambito={a} class="chip">{a}</button>)}
+    </div>
+  </div>
+
+  <div id="grilla" class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
     {
       autores.map((a) => (
         <a
           href={`/autores/${a.id}`}
-          class="flex flex-col items-center rounded-xl border border-[var(--card-border)] bg-white p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"
+          data-nombre={norm(a.data.nombre)}
+          data-ambito={ambitoDe[a.id] ?? ""}
+          class="ref-card flex flex-col items-center rounded-xl border border-[var(--card-border)] bg-white p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"
         >
           <AvatarReferente nombre={a.data.nombre} foto={a.data.foto} size="sm" />
           <p class="mt-3 font-semibold text-[var(--brand-ink)]">{a.data.nombre}</p>
@@ -29,4 +51,64 @@ const autores = (await getCollection("autores")).sort(
       ))
     }
   </div>
+
+  <p id="sin-resultados" class="mt-6 hidden text-[var(--muted)]">
+    No encontramos referentes con ese filtro.
+  </p>
 </BaseLayout>
+
+<style>
+  .chip {
+    border-radius: 9999px;
+    border: 1px solid var(--card-border);
+    background: #fff;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .chip:hover {
+    border-color: var(--brand);
+    color: var(--brand);
+  }
+  .chip-active {
+    background: var(--brand);
+    border-color: var(--brand);
+    color: #fff;
+  }
+</style>
+
+<script>
+  const input = document.getElementById("buscador") as HTMLInputElement;
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("#chips .chip"));
+  const cards = Array.from(document.querySelectorAll<HTMLElement>(".ref-card"));
+  const sinRes = document.getElementById("sin-resultados");
+  let ambito = "";
+
+  const norm = (s: string) =>
+    s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
+  function aplicar() {
+    const q = norm(input.value.trim());
+    let visibles = 0;
+    for (const c of cards) {
+      const okNombre = !q || (c.dataset.nombre ?? "").includes(q);
+      const okAmbito = !ambito || c.dataset.ambito === ambito;
+      const mostrar = okNombre && okAmbito;
+      c.style.display = mostrar ? "" : "none";
+      if (mostrar) visibles++;
+    }
+    if (sinRes) sinRes.classList.toggle("hidden", visibles > 0);
+  }
+
+  input.addEventListener("input", aplicar);
+  for (const ch of chips) {
+    ch.addEventListener("click", () => {
+      ambito = ch.dataset.ambito ?? "";
+      chips.forEach((x) => x.classList.toggle("chip-active", x === ch));
+      aplicar();
+    });
+  }
+</script>

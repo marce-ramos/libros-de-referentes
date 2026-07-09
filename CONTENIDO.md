@@ -114,6 +114,11 @@ newsletter, fundación, cartas a accionistas). Evitar los de fuente vaga
 `recomendadoPor` en los libros usa el **slug del autor** (nombre-apellido). Si un
 libro lo recomiendan varios, se listan todos (relación muchos-a-muchos → interlinking).
 
+Al agregar un referente, sumá su slug + **ámbito** en `src/lib/ambitos.ts` (Tecnología,
+Negocios e Inversión, Escritores, Psicología, Entretenimiento, Política y Sociedad, Ciencia).
+Es lo que alimenta el buscador y los filtros de `/autores` (client-side sobre tarjetas ya
+renderizadas → SEO-safe; nada de búsqueda por API ni paginación que oculte contenido del HTML).
+
 ---
 
 ## 5. Blog y estrategia editorial
