@@ -1,8 +1,8 @@
 ---
 titulo: "Los libros que recomienda Elon Musk (guía 2026)"
 descripcion: "Los libros que marcaron a Elon Musk: de la ciencia ficción visionaria a la ingeniería de cohetes, con una guía de cada uno y dónde conseguirlo."
-fecha: 2026-07-05
-fechaActualizado: 2026-07-05
+fecha: 2026-07-09
+fechaActualizado: 2026-07-09
 autor: "Los Imperdibles"
 keywords:
   - "libros que recomienda Elon Musk"

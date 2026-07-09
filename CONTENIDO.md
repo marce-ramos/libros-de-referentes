@@ -137,6 +137,9 @@ draft: false
 
 ### Reglas de SEO comunes a todo artículo
 
+- **Fechas reales:** `fecha` = el día real en que se publica el post; `fechaActualizado` =
+  el día del último cambio real. No inventar ni reciclar fechas viejas (Google las muestra y
+  usa como señal de frescura). Confirmar el día de hoy con `date` si hace falta.
 - **Keyword principal** en el título, en el H1 (= `titulo`) y en las primeras 1-2 líneas.
 - Estructura **escaneable**: un `##` por sección/ítem, párrafos cortos, respuesta arriba.
 - **Enlaces internos** a fichas (`/libros/<slug>`), referentes (`/autores/<slug>`) y
