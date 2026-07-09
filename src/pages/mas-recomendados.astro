@@ -37,7 +37,7 @@ const tramos = counts.map((c) => ({
 }));
 
 // Paginado progresivo por tramo (todo el HTML se renderiza; el resto se revela con JS).
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 6;
 
 const url = new URL("/mas-recomendados", SITE.url).href;
 const jsonLd = [
@@ -109,7 +109,7 @@ const jsonLd = [
 </BaseLayout>
 
 <script>
-  const STEP = 8;
+  const STEP = 6;
   document.querySelectorAll<HTMLButtonElement>("[data-vermas]").forEach((btn) => {
     const sec = btn.closest("[data-tramo]");
     if (!sec) return;
