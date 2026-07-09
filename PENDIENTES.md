@@ -12,7 +12,7 @@ Punto de retomada. Última actualización: 2026-07-05.
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** 39 referentes, 142 libros, 9 categorías. ~35 libros con ASIN real + reseña/intro.
-- **Blog:** 3 artículos (Gates, Obama, Buffett), con las fichas que enlazan saneadas.
+- **Blog:** 4 artículos (Gates, Obama, Buffett, Musk), con las fichas que enlazan saneadas.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
 - **Imagen OG** con la marca.
 - **Playbook** `CONTENIDO.md`: convenciones de contenido + estrategia editorial + calendario.
@@ -26,7 +26,8 @@ Punto de retomada. Última actualización: 2026-07-05.
    (hoy placeholder `turef-20`). Activar **OneLink**. Cargar el **bounty de Audible** real
    en `BloqueAudible.astro`.
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
-   → **Musk, Naval Ravikant, Tim Ferriss, Jordan Peterson, Ray Dalio, Sam Altman, Andrew Ng**.
+   → hechos: Musk. Próximos: **Naval Ravikant, Tim Ferriss, Jordan Peterson, Ray Dalio,
+   Sam Altman, Andrew Ng**.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. **Enriquecer más fichas** de a tandas (quedan ~110 en stub/placeholder): ASIN real +
