@@ -143,7 +143,22 @@ draft: false
   categorías (`/categorias/<slug>`). **Nunca** un link de afiliado directo en el post.
 - **Una sola página por tema** (evitar canibalización: no dos posts peleando la misma keyword).
 - Contenido **100% original**; el título del enlace debe coincidir con el `titulo` de la ficha.
-- **Requisito previo:** las fichas que enlaza deben estar saneadas (§8), no stubs.
+
+> ⛔ **Regla dura — nunca publicar una entrada de blog hacia fichas sin enriquecer.**
+>
+> Un artículo **solo** puede enlazar a fichas **enriquecidas**. Publicar un post que apunte
+> a stubs manda tráfico a páginas flojas y rompe el embudo (blog → ficha → Amazon).
+>
+> **Orden obligatorio:** primero se **enriquecen las fichas**, después se escribe el artículo
+> que las enlaza. Al elegir sobre qué referente/tema escribir, priorizar aquellos cuyas fichas
+> ya estén enriquecidas (o enriquecerlas antes). Verificar cada ficha enlazada contra el
+> checklist (§8) **antes** de publicar el post.
+>
+> - **Ficha enriquecida** = cuerpo con reseña completa o intro real (no el stub
+>   auto-generado) **y** `asin` real de 10 caracteres (o, si no hay ASIN confiable, edición
+>   identificada + nota de edición).
+> - **Stub** = cuerpo de una sola línea ("*X*, de Y, figura entre las recomendaciones de Z")
+>   y/o sin `asin`. No se enlaza desde el blog hasta enriquecerlo.
 
 ### Arquetipos de artículo
 
