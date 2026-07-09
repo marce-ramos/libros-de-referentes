@@ -2,7 +2,6 @@
 nombre: "Barack Obama"
 profesion: "Expresidente de los Estados Unidos"
 bio: "Cada año comparte su lista de libros favoritos en redes sociales. Sus elecciones combinan narrativa, ensayo político, historia y ficción literaria."
-foto: "/autores/barack-obama.jpg"
 destacado: true
 orden: 2
 ---

@@ -31,9 +31,10 @@ Punto de retomada. Última actualización: 2026-07-05.
    *Enriquecer las fichas antes de enlazarlas.*
 3. **Enriquecer más fichas** de a tandas (quedan ~110 en stub/placeholder): ASIN real +
    reseña/intro, siguiendo el playbook.
-4. **Imágenes de referentes.** Arrancar por **monogramas** (iniciales, fallback automático,
-   cero riesgo). Después **fotos de Wikimedia Commons (CC)** con página de créditos.
-   Opcional: set de **ilustraciones**. (Ojo derecho de imagen: uso editorial, no endorsement.)
+4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
+   automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
+   página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.
+   (Ojo derecho de imagen: uso editorial, no endorsement.)
 5. **Newsletter.** Elegir ESP (MailerLite o Kit) → generar **PDF lead magnet** desde el
    catálogo → componente de formulario (footer + fin de artículos + `/newsletter`) →
    automatización de bienvenida + **RSS-to-email**. Regla: **sin links de afiliado en emails**

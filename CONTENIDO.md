@@ -199,8 +199,9 @@ draft: false
 - Home: sección **"Los más recomendados"** (2+ referentes, ranking) arriba, luego
   **"Explorá por tema"** (estantes por categoría).
 - Paleta: lavanda/púrpura (`--brand #6c5ce7`), serif **Fraunces** para títulos.
-- **Imágenes de referentes**: no salen de Amazon. Usar Wikimedia Commons (CC, con
-  atribución) o avatares/monogramas. Pendiente de resolver.
+- **Imágenes de referentes**: `AvatarReferente.astro` muestra la `foto` si existe, o un
+  **monograma** (iniciales) como fallback automático. No usar fotos de Amazon. Para fotos
+  reales: Wikimedia Commons (CC, con atribución) — solo setear `foto: "/autores/<slug>.jpg"`.
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import AvatarReferente from "@/components/AvatarReferente.astro";
 
 const autores = (await getCollection("autores")).sort(
   (a, b) => a.data.orden - b.data.orden,
@@ -11,18 +12,19 @@ const autores = (await getCollection("autores")).sort(
   title="Referentes"
   description="Todos los referentes mundiales cuyas recomendaciones de libros encontrás en el sitio."
 >
-  <h1 class="text-2xl font-bold text-slate-900">Referentes</h1>
-  <p class="mt-2 text-slate-600">Elegí un referente para ver los libros que recomienda.</p>
+  <h1 class="text-2xl font-bold text-[var(--brand-ink)]">Referentes</h1>
+  <p class="mt-2 text-[var(--muted)]">Elegí un referente para ver los libros que recomienda.</p>
 
-  <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3">
+  <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
     {
       autores.map((a) => (
         <a
           href={`/autores/${a.id}`}
-          class="rounded-xl border border-slate-200 p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"
+          class="flex flex-col items-center rounded-xl border border-[var(--card-border)] bg-white p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"
         >
-          <p class="font-semibold text-slate-800">{a.data.nombre}</p>
-          <p class="text-xs text-slate-500">{a.data.profesion}</p>
+          <AvatarReferente nombre={a.data.nombre} foto={a.data.foto} size="sm" />
+          <p class="mt-3 font-semibold text-[var(--brand-ink)]">{a.data.nombre}</p>
+          <p class="text-xs text-[var(--muted)]">{a.data.profesion}</p>
         </a>
       ))
     }

@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import EstanteLibros from "@/components/EstanteLibros.astro";
+import AvatarReferente from "@/components/AvatarReferente.astro";
 import { SITE } from "@/config";
 import { schemaItemList, schemaBreadcrumb } from "@/lib/schema";
 
@@ -53,16 +54,12 @@ const jsonLd = [
   jsonLd={jsonLd}
 >
   <header class="flex items-center gap-4">
-    {
-      d.foto && (
-        <img src={d.foto} alt={d.nombre} class="h-20 w-20 rounded-full object-cover" />
-      )
-    }
+    <AvatarReferente nombre={d.nombre} foto={d.foto} size="lg" />
     <div>
-      <h1 class="text-2xl font-bold text-slate-900">
+      <h1 class="text-2xl font-bold text-[var(--brand-ink)]">
         Libros que recomienda {d.nombre}
       </h1>
-      <p class="text-slate-500">{d.profesion}</p>
+      <p class="text-[var(--muted)]">{d.profesion}</p>
     </div>
   </header>
 
