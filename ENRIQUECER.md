@@ -87,6 +87,54 @@ actual que puede estar desactualizado.
 
 ---
 
+## MODO LISTICLE (post de blog "Los libros que recomienda X")
+
+Se ejecuta **solo con un manifiesto** que provee Opus: una lista cerrada de fichas YA
+enriquecidas para enlazar, con su `slug` y su `titulo` EXACTO. El subagente **no decide qué
+enlazar ni inventa títulos**: usa el manifiesto tal cual. **Prohibido enlazar cualquier ficha
+que no esté en el manifiesto** (así nunca se linkea un stub → regla dura del playbook §5).
+
+Archivo nuevo: `src/content/blog/libros-que-recomienda-<slug-referente>.md`
+
+Frontmatter:
+```yaml
+---
+titulo: "Los libros que recomienda <Nombre> (guía 2026)"   # keyword + año
+descripcion: "Meta ~150 chars con la keyword 'libros que recomienda <Nombre>'."
+fecha: <hoy AAAA-MM-DD; confirmá con `date`>
+fechaActualizado: <hoy>
+autor: "Los Imperdibles"
+keywords: ["libros que recomienda <Nombre>", "qué lee <Nombre>", "libros favoritos de <Nombre>"]
+draft: false
+---
+```
+
+Cuerpo (original, tono del sitio):
+- Intro 2-4 frases: **keyword en la primera línea** + contexto real del referente y su fuente.
+- Si son varios, agrupar por tipo con `## <Grupo>`; si son pocos, lista simple.
+- Un ítem por libro del manifiesto: `### [<titulo EXACTO>](/libros/<slug>) — <autor>` + 2-3 frases
+  (reescribí a partir del `resumen`/reseña de la ficha; no copies literal).
+- Cierre con enlace a `/autores` (y a `/categorias/<x>` si aplica).
+
+Reglas duras:
+- Enlazar SOLO los slugs del manifiesto, con el `titulo` EXACTO como texto del enlace.
+- **Nunca** un link de afiliado en el post (solo internos: `/libros`, `/autores`, `/categorias`).
+- Keyword en título, H1 (=titulo) y primeras 1-2 líneas. Una sola página por keyword.
+- `fecha` = hoy real. Contenido 100% original.
+
+**Cómo arma Opus el manifiesto (determinístico, no alucinable):**
+```bash
+cd <repo>/src/content
+REF=ryan-holiday   # slug del referente
+for f in libros/*.md; do
+  awk '/^recomendadoPor:/{g=1;next} g&&/^  - /{print} g&&/^[^ ]/{exit}' "$f" | grep -q -- "- $REF\$" || continue
+  grep -q '^asin:' "$f" || continue   # SOLO fichas enriquecidas
+  echo "slug=$(basename $f .md)"
+  grep -m1 '^titulo:' "$f"; grep -m1 '^autorLibro:' "$f"; grep -m1 '^resumen:' "$f"
+  echo "---"
+done
+```
+
 ## Verificación (correr al terminar cada lote)
 
 ```bash

@@ -91,6 +91,10 @@ el consenso del libro y mejora el interlinking.
 - **2026-07-09** — Ray Dalio (`/blog/libros-que-recomienda-ray-dalio`).
 - **2026-07-09** — Mark Zuckerberg (`/blog/libros-que-recomienda-mark-zuckerberg`).
 
+- **2026-07-10** — Ryan Holiday (`/blog/libros-que-recomienda-ryan-holiday`).
+  4 libros: Meditaciones, Cartas de un estoico, El obstáculo es el camino, La guerra del arte.
+  Grupos: "Los clásicos estoicos" y "Estoicismo aplicado".
+
 ### Best-of por categoría (arquetipo 2)
 
 - **2026-07-09** — Negocios e Inversión (`/blog/mejores-libros-de-negocios-e-inversion`).
