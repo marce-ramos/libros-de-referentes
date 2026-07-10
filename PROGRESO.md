@@ -31,11 +31,28 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   cruce): The Black Swan / El cisne negro (Bezos + Naval), The Underground Railroad / El
   ferrocarril subterráneo (Oprah + Obama). **Global: 70/142.**
 
+- **2026-07-10** — Tanda de 10 (subagente Sonnet) para completar 5 referentes: Empresas que
+  perduran + Los restos del día (Bezos 4/4); Una nueva tierra + Hola, preciosa (Oprah 5/5);
+  El maestro y Margarita + Winter Is Coming [ed. inglesa, asin 1610397193] (Kasparov 3/3);
+  El método/Las herramientas (Paltrow); Americanah + Tiene que ser aquí (Malala 3/3).
+  ⚠️ **`an-unblemished-mind` (Paltrow): el subagente ALUCINÓ una reseña — el libro NO existe**
+  (Sarah Manguso nunca lo escribió; título erróneo heredado del import).
+  → **RESUELTO (2026-07-10):** `an-unblemished-mind.md` eliminada y reemplazada por **Hamnet**
+  de Maggie O'Farrell (pick REAL del Goop Book Club, verificado; edición ES Libros del Asteroide,
+  asin 8417977589). Gwyneth Paltrow queda **3/3**. Global fichas: 92/142.
+  (Regla nueva en ENRIQUECER.md: verificar que el libro exista antes de reseñarlo.)
+- **2026-07-10 — Auditoría de entradas dudosas.** Revisados los ~50 stubs restantes (título+autor
+  vs libros reales): **todos existen y están bien atribuidos**; "An Unblemished Mind" fue la ÚNICA
+  fabricación. Las enriquecidas (~92) están verificadas por construcción (ASIN de edición real).
+  Pendiente opcional: auditar *atribuciones* (si cada referente recomendó cada libro) al enriquecer
+  cada stub. Señal de fidelidad del import: las 4 de Neil deGrasse Tyson = su lista real del AMA 2011.
+
 ### Referentes con cobertura 100% (fichas listas)
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
 Jordan Peterson, Tim Ferriss, Sam Altman, James Clear, Peter Thiel, Angela Duckworth,
-Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng.
+Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng,
+Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow.
 
 ---
 

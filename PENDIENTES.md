@@ -87,7 +87,8 @@ Punto de retomada. Última actualización: 2026-07-05.
 - **Cobro desde Argentina** (Payoneer/cuenta USD) — confianza media, confirmar condiciones.
 - **Comisión de eBooks Kindle = 0** — verificar en el panel de Amazon.
 - **Tag de afiliado** real pendiente (hoy `turef-20` placeholder).
-- **Poor Charlie's Almanack** — linkea a edición inglesa (la española de Valor Editions
-  no se confirmó en Amazon).
+- ~~**Poor Charlie's Almanack** — linkea a edición inglesa~~ ✅ Resuelto (2026-07-10): la
+  edición española de Valor Editions ya está en Amazon (asin B0F8J6F85F); la ficha ahora la
+  linkea y la nota quedó en formato estándar.
 - **Gotcha de herramientas:** el filesystem de `bash` puede desincronizarse y mostrar
   versiones viejas/truncadas → verificar contenido con Read/Write, no con `cat`.

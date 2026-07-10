@@ -39,6 +39,12 @@ fechaActualizado: <hoy, formato AAAA-MM-DD; confirmá con `date`>
 ---
 ```
 
+**Verificá que el libro EXISTA (antes que nada).** Confirmá que autor + título son una obra
+publicada real (Amazon / Goodreads / Wikipedia / sitio del autor). Los stubs importados pueden
+traer títulos erróneos o inexistentes. Si no lo confirmás, **NO escribas una reseña**: dejá la
+ficha como stub y marcá la duda en la tabla de salida. Nunca inventes contenido alrededor de un
+título que no se pudo verificar.
+
 **Antes de declarar "solo inglés":** buscá con el probable título traducido (muchos libros de
 negocios/psicología tienen edición en Conecta, Deusto, Empresa Activa, Paidós, etc.). Ej: "The
 Culture Code" → "El código de la cultura". Solo usar la edición inglesa si de verdad no hay una ES.
