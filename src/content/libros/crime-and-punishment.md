@@ -5,8 +5,9 @@ asin: "849105006X"
 categoria: ficcion
 recomendadoPor:
   - jordan-peterson
+  - lex-fridman
 anio: 1866
-resumen: "La gran novela psicológica de Dostoievski sobre un joven que mata convencido de estar por encima de la moral. Una de las lecturas clave de Jordan Peterson."
+resumen: "La gran novela psicológica de Dostoievski sobre un joven que mata convencido de estar por encima de la moral. Una de las lecturas clave de Jordan Peterson y Lex Fridman."
 destacado: false
 fechaActualizado: 2026-07-09
 ---
@@ -20,5 +21,9 @@ Peterson la usa como advertencia contra el nihilismo y la idea de que «todo est
 ## De qué trata
 
 Raskólnikov, un ex estudiante pobre de San Petersburgo, se convence de que los hombres «extraordinarios» están por encima de la ley y asesina a una vieja usurera. Lo que sigue no es la persecución policial, sino el tormento interior: la culpa, la paranoia y la lenta posibilidad de redención.
+
+## También la recomienda Lex Fridman
+
+Fridman cita a Dostoievski —junto a Camus y Hesse— entre los autores que más lo marcaron, y vuelve a *Crimen y castigo* como una de esas novelas que relee. Le interesa su exploración de la moral, el sufrimiento y el sentido, temas que atraviesan buena parte de sus conversaciones.
 
 > Edición en español: *Crimen y castigo*, Penguin Clásicos (traducción de Rafael Cansinos Assens).

@@ -5,8 +5,9 @@ asin: "8423425177"
 categoria: negocios
 recomendadoPor:
   - warren-buffett
+  - naval-ravikant
 anio: 1949
-resumen: "El clásico de la inversión en valor. Warren Buffett lo llamó «el mejor libro sobre inversión jamás escrito»."
+resumen: "El clásico de la inversión en valor. Warren Buffett lo llamó «el mejor libro sobre inversión jamás escrito»; también lo recomienda Naval Ravikant."
 destacado: true
 fechaActualizado: 2026-06-28
 ---
@@ -26,6 +27,10 @@ El libro distingue, antes que nada, entre **invertir y especular**. Invertir, pa
 **Mr. Market.** Graham imagina al mercado como un socio maníaco-depresivo que cada día golpea tu puerta ofreciéndote comprar o vender a un precio distinto, a veces eufórico, a veces deprimido. La clave no es seguir su ánimo, sino aprovecharlo: el precio es lo que te ofrece, el valor lo decidís vos.
 
 **Margen de seguridad.** Comprar siempre con un colchón entre el precio que pagás y el valor que estimás, para que incluso si te equivocás, el error no te hunda. Es, según Graham, la idea central de toda inversión sensata.
+
+## También lo recomienda Naval Ravikant
+
+Naval, que pone el foco en la claridad de pensamiento más que en las fórmulas, lo incluye en su lista de lecturas: le interesa como base del temperamento inversor —paciencia y racionalidad— antes que como recetario de acciones.
 
 ## Para quién es
 

@@ -66,6 +66,21 @@ el consenso del libro y mejora el interlinking.
   Buffett/Musk, Pensar rápido pensar despacio ↔ otros, El comienzo del infinito ↔ Bezos,
   1984 ↔ otros. **Pendiente: enriquecer The Black Swan y The Underground Railroad** (ahora
   con 2 referentes pero todavía en stub → aparecen así en "Los más recomendados").
+  → RESUELTO: ambas enriquecidas el 2026-07-09.
+- **2026-07-09 (3er pase)** — 2 vínculos nuevos verificados:
+  - Sam Walton: Made in America → + Warren Buffett (antes solo Bezos). Ficha además enriquecida
+    (era stub) → edición ES "Made in America: Mi Historia", asin 0525564896.
+  - El inversor inteligente → + Naval Ravikant (antes solo Buffett).
+  Descartados por falta de fuente (rigor): El comienzo del infinito ↔ Bezos (no verificado);
+  Autobiografía de Franklin ↔ Musk (lo documentado es la biografía de Isaacson, otro libro).
+  Efecto: libros con 2+ referentes pasaron de 19 a **21**. **Global fichas: 71/142.**
+- **2026-07-09 (4º pase)** — 2 vínculos nuevos verificados (cluster Dostoievski):
+  - Crimen y castigo → + Lex Fridman (antes solo Peterson).
+  - Los hermanos Karamázov → + Jordan Peterson (antes solo Lex Fridman). Ficha además
+    enriquecida (era stub) → edición ES Penguin Clásicos, asin 8491050051.
+  Descartados por rigor: Man's Search for Meaning ↔ Taleb (solo afinidad temática, sin rec
+  explícita); Thinking Fast and Slow ↔ Naval (Naval lo criticó, no lo recomienda).
+  Efecto: libros con 2+ referentes pasaron de 21 a **23**. **Global fichas: 72/142.**
 
 ## Artículos de blog
 
