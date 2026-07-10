@@ -100,6 +100,9 @@ el consenso del libro y mejora el interlinking.
   subterráneo), Warren Buffett (→6, +Sam Walton), Elon Musk (→7, +Dune y De cero a uno),
   Jordan Peterson (→5, +Los hermanos Karamázov), Tim Ferriss (→5, +Meditaciones).
   Verificado: solo enlaces internos a fichas enriquecidas, títulos exactos, `fecha` original intacta.
+- **2026-07-10** — 3 listicles nuevos (vía manifiesto + subagente, spot-check sin correcciones):
+  Sam Altman (4 libros), Naval Ravikant (8), Yuval Noah Harari (3).
+  `/blog/libros-que-recomienda-{sam-altman,naval-ravikant,yuval-noah-harari}`.
 
 ### Best-of por categoría (arquetipo 2)
 
@@ -108,8 +111,8 @@ el consenso del libro y mejora el interlinking.
 
 ### Listicles de referente habilitados (fichas 100%, falta escribir el post)
 
-Sam Altman, James Clear, Peter Thiel, Angela Duckworth, Yuval Noah Harari, Daniel Kahneman,
-Ryan Holiday, Naval Ravikant, Andrew Ng.
+James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Grant, Simon Sinek.
+(Ya escritos: Ryan Holiday, Sam Altman, Naval Ravikant, Yuval Noah Harari — además de los 8 previos.)
 
 ---
 
