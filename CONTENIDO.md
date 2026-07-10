@@ -254,7 +254,9 @@ viejas/truncadas. Para verificar el contenido real de un archivo, usar las herra
 4. Escribir cuerpo (reseña completa o intro, §2), original y en el tono del sitio.
 5. Nota de edición al pie.
 6. Correr el checklist (§8) y `npm run build`.
-7. `git add . && git commit && git push` (deploy automático en Cloudflare).
+7. **Asentar la tanda en `PROGRESO.md`** (bitácora append-only): fecha, qué se enriqueció o
+   publicó, y el global de fichas. Actualizar también los conteos en `PENDIENTES.md`.
+8. `git add . && git commit && git push` (deploy automático en Cloudflare).
 
 ---
 

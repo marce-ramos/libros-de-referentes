@@ -14,8 +14,11 @@ Punto de retomada. Última actualización: 2026-07-05.
 - **Contenido:** 39 referentes, 142 libros, 9 categorías. **68 libros con ASIN real + reseña/intro**
   (tandas 2026-07-09: Ray Dalio, Mark Zuckerberg, 5 "remates" [Gates, Altman, Clear, Thiel,
   Duckworth], Harari 3/3, Kahneman 3/3, Ryan Holiday 4/4, + Naval 4/4, Andrew Ng 3/3).
-- **Blog:** 8 artículos (Gates, Obama, Buffett, Musk, Jordan Peterson, Tim Ferriss, Ray Dalio,
-  Mark Zuckerberg), con las fichas que enlazan saneadas.
+- **Blog:** 9 artículos — 8 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
+  Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg) + 1 best-of de categoría (Negocios e
+  Inversión). Todas las fichas enlazadas están saneadas.
+- **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
+  enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
 - **Imagen OG** con la marca.
 - **Playbook** `CONTENIDO.md`: convenciones de contenido + estrategia editorial + calendario.
