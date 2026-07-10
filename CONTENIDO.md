@@ -248,6 +248,11 @@ viejas/truncadas. Para verificar el contenido real de un archivo, usar las herra
 
 ## 9. Flujo para agregar/enriquecer un libro (resumen)
 
+> **Automatización económica:** para tandas grandes, delegar a un subagente en modelo barato
+> (Sonnet) siguiendo `ENRIQUECER.md` (mini-spec de libros y referentes) y `WORKLIST.md` (cola +
+> tandas sugeridas). Opus solo arma el lote y hace spot-check; la verificación es por script.
+
+
 1. Elegir el libro y el/los referente(s) que lo recomiendan (fuente verificable).
 2. Buscar edición en español + ASIN (§3). Verificar 10 chars.
 3. Asignar categoría (§1).
