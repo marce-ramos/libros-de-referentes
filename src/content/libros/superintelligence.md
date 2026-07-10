@@ -6,8 +6,9 @@ categoria: ciencia
 recomendadoPor:
   - elon-musk
   - sam-altman
+  - bill-gates
 anio: 2014
-resumen: "El libro del filósofo Nick Bostrom sobre los riesgos de una inteligencia artificial que supere a la humana. Recomendado por Elon Musk y Sam Altman."
+resumen: "El libro del filósofo Nick Bostrom sobre los riesgos de una inteligencia artificial que supere a la humana. Recomendado por Elon Musk, Sam Altman y Bill Gates."
 destacado: true
 fechaActualizado: 2026-06-28
 ---
@@ -16,7 +17,7 @@ fechaActualizado: 2026-06-28
 
 ## Por qué lo recomiendan
 
-Musk y Altman construyen el futuro de la IA y, aun así, señalan este libro como lectura necesaria. No es un manual técnico: es un intento riguroso de pensar qué pasaría si creáramos una inteligencia que nos supere, antes de que ocurra.
+Musk y Altman construyen el futuro de la IA y, aun así, señalan este libro como lectura necesaria. No es un manual técnico: es un intento riguroso de pensar qué pasaría si creáramos una inteligencia que nos supere, antes de que ocurra. También **Bill Gates** lo recomendó abiertamente como una de las mejores lecturas para entender los riesgos de la IA.
 
 ## De qué trata
 

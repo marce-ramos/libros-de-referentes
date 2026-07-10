@@ -5,8 +5,9 @@ asin: "8491819592"
 categoria: filosofia
 recomendadoPor:
   - ryan-holiday
+  - tim-ferriss
 anio: 180
-resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday."
+resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday y Tim Ferriss."
 destacado: false
 fechaActualizado: 2026-06-28
 ---
@@ -16,6 +17,10 @@ fechaActualizado: 2026-06-28
 ## Por qué lo recomienda Ryan Holiday
 
 Holiday construyó buena parte de su obra sobre el estoicismo, y señala *Meditaciones* como su fuente principal. Le atrae que sea filosofía en estado puro y práctico: no teoría, sino recordatorios de cómo vivir, escritos por alguien que gobernaba un imperio.
+
+## También lo recomienda Tim Ferriss
+
+Ferriss es otro gran difusor del estoicismo moderno: tiene una cita de Marco Aurelio pegada en su heladera y vuelve a *Meditaciones* como manual para mantener la calma y la perspectiva. Lo recomienda como lectura de cabecera para cualquiera que busque herramientas mentales prácticas.
 
 ## De qué trata
 

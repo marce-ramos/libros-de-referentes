@@ -5,8 +5,9 @@ asin: "1953953239"
 categoria: negocios
 recomendadoPor:
   - warren-buffett
+  - naval-ravikant
 anio: 2005
-resumen: "La sabiduría reunida de Charlie Munger, socio de Warren Buffett: modelos mentales de múltiples disciplinas para pensar y decidir mejor."
+resumen: "La sabiduría reunida de Charlie Munger, socio de Warren Buffett: modelos mentales de múltiples disciplinas para pensar y decidir mejor. Recomendado por Warren Buffett y Naval Ravikant."
 destacado: false
 fechaActualizado: 2026-07-05
 ---
@@ -20,5 +21,9 @@ Buffett y Munger fueron una de las duplas más exitosas de la historia de los ne
 ## De qué trata
 
 El libro recopila charlas y ensayos de Munger sobre su método más famoso: los **modelos mentales**. La idea es tomar las grandes ideas de muchas disciplinas —psicología, física, economía, biología— y combinarlas para tomar mejores decisiones y evitar los errores de juicio más comunes.
+
+## También lo recomienda Naval Ravikant
+
+Naval, obsesionado con los modelos mentales y la claridad de pensamiento, lo incluye en su lista de lecturas y lo describe como "el único libro sobre Munger que necesitás". Encaja perfecto con su idea de que pensar bien es la habilidad que más se paga a largo plazo.
 
 > Hay edición en español (*El almanaque del pobre Charlie*, Valor Editions); el enlace lleva a la edición en inglés de Stripe Press, más disponible en Amazon.

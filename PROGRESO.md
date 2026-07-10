@@ -27,6 +27,9 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
 - **2026-07-09** — Naval Ravikant ×3 (Siddhartha, Seis piezas fáciles, El optimista racional),
   Andrew Ng ×2 (IA: un enfoque moderno, Vida 3.0). → Naval 4/4, Andrew Ng 3/3.
   **Global: 68/142.**
+- **2026-07-09** — Enriquecidas por consenso (salieron de stub al llegar a 2 referentes vía el
+  cruce): The Black Swan / El cisne negro (Bezos + Naval), The Underground Railroad / El
+  ferrocarril subterráneo (Oprah + Obama). **Global: 70/142.**
 
 ### Referentes con cobertura 100% (fichas listas)
 
@@ -35,6 +38,34 @@ Jordan Peterson, Tim Ferriss, Sam Altman, James Clear, Peter Thiel, Angela Duckw
 Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng.
 
 ---
+
+## Cruces referente↔libro (relaciones nuevas)
+
+Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
+pero no estaban acreditados. **Solo se agregan vínculos verificados con fuente.** Cada uno sube
+el consenso del libro y mejora el interlinking.
+
+- **2026-07-09 (1er pase)** — 5 vínculos nuevos verificados:
+  - Dune → + Elon Musk (antes solo Ferriss).
+  - Meditaciones → + Tim Ferriss (antes solo Ryan Holiday).
+  - Poor Charlie's Almanack → + Naval Ravikant (antes solo Buffett).
+  - El alquimista → + Oprah Winfrey (antes solo Malala).
+  - Sapiens → + Naval Ravikant (ya tenía Gates, Obama, Clear → ahora 4).
+  Efecto: libros con 2+ referentes pasaron de 13 a **17**.
+  Candidatos pendientes de verificar (2º pase): De cero a uno ↔ Musk, El inversor inteligente ↔
+  Naval, The Black Swan ↔ Naval, Autobiografía de Franklin ↔ Munger/Buffett/Musk,
+  Pensar rápido pensar despacio ↔ otros, El comienzo del infinito ↔ Bezos.
+- **2026-07-09 (2º pase)** — 4 vínculos nuevos verificados:
+  - Superinteligencia → + Bill Gates (ya tenía Musk y Altman → 3).
+  - De cero a uno → + Elon Musk (ya tenía Thiel y Andrew Ng → 3).
+  - The Black Swan → + Naval Ravikant (antes solo Bezos). ⚠️ ficha aún STUB → enriquecer.
+  - The Underground Railroad → + Barack Obama (antes solo Oprah). ⚠️ ficha aún STUB → enriquecer.
+  Nota: *Una educación* (educated.md) ya tenía Gates + Obama, sin cambios.
+  Efecto: libros con 2+ referentes pasaron de 17 a **19**.
+  Aún por verificar (3er pase): El inversor inteligente ↔ Naval, Autobiografía de Franklin ↔
+  Buffett/Musk, Pensar rápido pensar despacio ↔ otros, El comienzo del infinito ↔ Bezos,
+  1984 ↔ otros. **Pendiente: enriquecer The Black Swan y The Underground Railroad** (ahora
+  con 2 referentes pero todavía en stub → aparecen así en "Los más recomendados").
 
 ## Artículos de blog
 

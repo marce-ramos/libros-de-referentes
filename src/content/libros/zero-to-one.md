@@ -6,13 +6,14 @@ categoria: negocios
 recomendadoPor:
   - peter-thiel
   - andrew-ng
+  - elon-musk
 anio: 2014
-resumen: "El manifiesto de Peter Thiel sobre cómo construir empresas que crean algo nuevo en lugar de copiar. Recomendado por el propio Thiel y por Andrew Ng."
+resumen: "El manifiesto de Peter Thiel sobre cómo construir empresas que crean algo nuevo en lugar de copiar. Recomendado por el propio Thiel, Andrew Ng y Elon Musk."
 destacado: true
 fechaActualizado: 2026-06-28
 ---
 
-*De cero a uno* es uno de los libros de startups más influyentes de la última década. Está escrito por Peter Thiel —cofundador de PayPal y primer inversor de Facebook— y lo recomienda, entre otros, Andrew Ng, referente de la inteligencia artificial y el emprendimiento.
+*De cero a uno* es uno de los libros de startups más influyentes de la última década. Está escrito por Peter Thiel —cofundador de PayPal y primer inversor de Facebook— y lo recomiendan, entre otros, Andrew Ng, referente de la inteligencia artificial, y el propio Elon Musk, que lo incluye entre sus lecturas sobre cómo construir el futuro.
 
 ## Por qué lo recomiendan
 

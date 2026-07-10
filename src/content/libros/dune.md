@@ -5,8 +5,9 @@ asin: "8466353771"
 categoria: cienciaficcion
 recomendadoPor:
   - tim-ferriss
+  - elon-musk
 anio: 1965
-resumen: "La novela épica de Frank Herbert que redefinió la ciencia ficción, tejiendo política, religión y ecología. Recomendada por Tim Ferriss."
+resumen: "La novela épica de Frank Herbert que redefinió la ciencia ficción, tejiendo política, religión y ecología. Recomendada por Tim Ferriss y Elon Musk."
 destacado: false
 fechaActualizado: 2026-06-28
 ---
@@ -16,6 +17,10 @@ fechaActualizado: 2026-06-28
 ## Por qué la recomienda Tim Ferriss
 
 Ferriss, conocido por diseccionar los hábitos de gente excepcional, la cita entre sus lecturas favoritas. Es una obra que funciona en muchos niveles: aventura épica, tratado sobre el poder y meditación sobre la ecología.
+
+## También la recomienda Elon Musk
+
+Musk es un fan declarado de la ciencia ficción de ideas y llama a la saga de *Dune* "brillante". Le interesa especialmente su advertencia sobre poner límites a la inteligencia de las máquinas y su mirada sobre cómo el poder y la religión moldean civilizaciones enteras.
 
 ## De qué trata
 
