@@ -69,9 +69,13 @@ const norm = (s: string) =>
     cursor: pointer;
     transition: all 0.15s;
   }
-  .chip:hover {
-    border-color: var(--brand);
-    color: var(--brand);
+  /* Hover solo en dispositivos con puntero real (evita el hover "pegado" en touch)
+     y nunca sobre el chip activo (si no, queda violeta sobre violeta). */
+  @media (hover: hover) {
+    .chip:not(.chip-active):hover {
+      border-color: var(--brand);
+      color: var(--brand);
+    }
   }
   .chip-active {
     background: var(--brand);
