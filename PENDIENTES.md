@@ -11,9 +11,9 @@ Punto de retomada. Última actualización: 2026-07-05.
 - **Diseño "Estantes claros"** (lavanda + serif Fraunces): home con *Los más recomendados*
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
-- **Contenido:** 39 referentes, 142 libros, 9 categorías. **57 libros con ASIN real + reseña/intro**
-  (tandas 2026-07-09: 4 de Ray Dalio, 4 de Mark Zuckerberg, + 5 "remates" que completaron a
-  Bill Gates 8/8, Sam Altman 4/4, James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3).
+- **Contenido:** 39 referentes, 142 libros, 9 categorías. **68 libros con ASIN real + reseña/intro**
+  (tandas 2026-07-09: Ray Dalio, Mark Zuckerberg, 5 "remates" [Gates, Altman, Clear, Thiel,
+  Duckworth], Harari 3/3, Kahneman 3/3, Ryan Holiday 4/4, + Naval 4/4, Andrew Ng 3/3).
 - **Blog:** 8 artículos (Gates, Obama, Buffett, Musk, Jordan Peterson, Tim Ferriss, Ray Dalio,
   Mark Zuckerberg), con las fichas que enlazan saneadas.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -31,8 +31,11 @@ Punto de retomada. Última actualización: 2026-07-05.
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
    → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09).
    **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4,
-   James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3.** Próximos a enriquecer: Naval
-   Ravikant, Andrew Ng.
+   James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 3/3,
+   Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
+   Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Satya Nadella,
+   Lex Fridman, Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
+   Neil deGrasse Tyson, Malcolm Gladwell, Oprah, etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. **Enriquecer más fichas** de a tandas (quedan ~110 en stub/placeholder): ASIN real +
