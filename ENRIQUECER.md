@@ -39,6 +39,10 @@ fechaActualizado: <hoy, formato AAAA-MM-DD; confirmá con `date`>
 ---
 ```
 
+**Antes de declarar "solo inglés":** buscá con el probable título traducido (muchos libros de
+negocios/psicología tienen edición en Conecta, Deusto, Empresa Activa, Paidós, etc.). Ej: "The
+Culture Code" → "El código de la cultura". Solo usar la edición inglesa si de verdad no hay una ES.
+
 **Regla de oro del ASIN:** nunca inventarlo. Buscar `"<título español>" <autor> edición español ISBN Amazon`,
 tomar el ISBN-10 del `/dp/XXXXXXXXXX` de Amazon, verificar **10 caracteres**. Preferir edición en
 español; si no existe, la inglesa. Si no se confirma un ASIN fiable, **dejar `asin` vacío** (el botón
