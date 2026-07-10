@@ -128,3 +128,67 @@ Ryan Holiday, Naval Ravikant, Andrew Ng.
     Fuente: Blog personal (blog.samaltman.com).
   - `autores/andrew-ng.md`: profesión ajustada a "Fundador de DeepLearning.AI y Cofundador
     de Coursera"; bio y cuerpo reescritos. Fuente: The Batch Newsletter (DeepLearning.AI).
+- **2026-07-10** — Reemplazadas bios genéricas autogeneradas por bios reales en (tanda de 10):
+  - `autores/peter-thiel.md`: profesión ajustada a "Cofundador de PayPal e Inversor"; bio y
+    cuerpo reescritos con trayectoria PayPal/Palantir/Facebook y perfil intelectual. Fuente:
+    Zero to One / Entrevistas universitarias.
+  - `autores/ryan-holiday.md`: profesión ajustada a "Autor y Divulgador de Filosofía Estoica";
+    bio y cuerpo reescritos con datos verificados (10M+ copias, serie estoica). Fuente: The
+    Daily Stoic (dailystoic.com).
+  - `autores/james-clear.md`: profesión ajustada a "Autor y Experto en Hábitos"; bio y cuerpo
+    reescritos con datos verificados (25M copias, 60 idiomas, 3M+ suscriptores newsletter).
+    Fuente: jamesclear.com (Newsletter 3-2-1).
+  - `autores/angela-duckworth.md`: profesión ajustada a "Psicóloga e Investigadora de la
+    Universidad de Pennsylvania"; bio y cuerpo reescritos (UPenn, Character Lab, Grit 5M).
+    Fuente: Character Lab / Grit Book Resources.
+  - `autores/jeff-bezos.md`: profesión "Fundador de Amazon" mantenida; bio y cuerpo reescritos
+    con detalle de Blue Origin, WaPo y uso de libros como herramienta de gestión. Fuente:
+    Cartas a Accionistas y Biografías.
+  - `autores/oprah-winfrey.md`: profesión ajustada a "Conductora, Productora y Empresaria";
+    bio y cuerpo reescritos con historia del Book Club desde 1996 y el "efecto Oprah". Fuente:
+    Oprah's Book Club (oprahdaily.com).
+  - `autores/nassim-nicholas-taleb.md`: profesión ajustada a "Ensayista, Estadístico y
+    Exoperador de Riesgo"; bio y cuerpo reescritos con serie Incerto y credencial Sunday Times.
+    Fuente: Fooled by Randomness Notes.
+  - `autores/neil-degrasse-tyson.md`: profesión "Astrofísico y Divulgador Científico" mantenida;
+    bio y cuerpo reescritos con Hayden Planetarium, StarTalk y AMA viral de Reddit 2011. Fuente:
+    StarTalk Radio / Reddit AMA.
+  - `autores/malcom-gladwell.md`: profesión "Periodista y Autor" mantenida; bio y cuerpo
+    reescritos con 8 bestsellers NYT y perfil The New Yorker / Revisionist History. Fuente:
+    Revisionist History Podcast.
+  - `autores/lex-fridman.md`: profesión ajustada a "Investigador de IA y Podcaster"; bio y
+    cuerpo reescritos con trayectoria MIT y podcast de largo aliento. Fuente: Lex Fridman
+    Podcast (lexfridman.com/reading-list).
+- **2026-07-10** — Reemplazadas bios genéricas autogeneradas por bios reales en (tanda de 16):
+  - `autores/adam-grant.md`: profesión mantenida; bio y cuerpo reescritos con credencial
+    Wharton y enfoque en psicología organizacional. Fuente: Think Again newsletter / adamgrant.net.
+  - `autores/brene-brown.md`: profesión ajustada a "Investigadora, Profesora y Autora"; bio y
+    cuerpo reescritos con charla TED, U. de Houston y libros clave. Fuente: Unlocking Us Podcast (brenebrown.com).
+  - `autores/emma-watson.md`: profesión ajustada a "Actriz y Activista Feminista"; bio y cuerpo
+    reescritos con ONU Mujeres, HeForShe y Our Shared Shelf (2016-2019, en pasado). Fuente: Our Shared Shelf (Goodreads).
+  - `autores/garry-kasparov.md`: profesión ajustada a "Gran Maestro de Ajedrez, Autor y Activista";
+    bio y cuerpo reescritos con récord mundial, Deep Blue y libros publicados. Fuente: kasparov.com / Entrevistas.
+  - `autores/gwyneth-paltrow.md`: profesión ajustada a "Actriz y Fundadora de Goop"; bio y cuerpo
+    reescritos con historia de Goop (2008) y criterio del Goop Book Club. Fuente: Goop Book Club (goop.com).
+  - `autores/j-k-rowling.md`: profesión "Escritora" mantenida; bio y cuerpo reescritos con
+    origen de Harry Potter, 500M ejemplares y influencias literarias. Fuente: jkrowling.com / Entrevistas.
+  - `autores/malala-yousafzai.md`: profesión ajustada a "Activista por la Educación y Premio Nobel
+    de la Paz"; bio y cuerpo reescritos con atentado, Nobel 2014 y Malala Fund. Fuente: Fearless Book Club (malala.org).
+  - `autores/marc-andreessen.md`: profesión ajustada a "Cofundador de Andreessen Horowitz e Inversor";
+    bio y cuerpo reescritos con Mosaic/Netscape y a16z (Airbnb, Twitter, Coinbase). Fuente: a16z Podcast / Blog Andreessen.
+  - `autores/natalie-portman.md`: profesión ajustada a "Actriz, Directora y Activista"; bio y
+    cuerpo reescritos con Harvard, Oscar y club de lectura en Instagram. Fuente: Instagram oficial.
+  - `autores/paul-graham.md`: profesión ajustada a "Fundador de Y Combinator, Programador y
+    Ensayista"; bio y cuerpo reescritos con YC (Airbnb, Dropbox, Stripe) y ensayos. Fuente: paulgraham.com.
+  - `autores/reese-witherspoon.md`: profesión ajustada a "Actriz, Productora y Empresaria"; bio y
+    cuerpo reescritos con Hello Sunshine y efecto bestseller del club. Fuente: Reese's Book Club (hello-sunshine.com).
+  - `autores/richard-branson.md`: profesión "Fundador de Virgin Group" mantenida; bio y cuerpo
+    reescritos con Virgin Records, 400+ empresas y defensa del hábito lector. Fuente: Virgin Blog (virgin.com).
+  - `autores/satya-nadella.md`: profesión "CEO de Microsoft" mantenida (cargo confirmado); bio y
+    cuerpo reescritos con Azure, mentalidad de crecimiento y Hit Refresh. Fuente: Microsoft Blog / Hit Refresh.
+  - `autores/simon-sinek.md`: profesión ajustada a "Autor y Conferencista de Liderazgo"; bio y
+    cuerpo reescritos con charla TED 2009, Círculo Dorado y libros clave. Fuente: simonsinek.com.
+  - `autores/stephen-king.md`: profesión "Escritor" mantenida; bio y cuerpo reescritos con
+    60+ novelas, 80 libros/año y lista anual en X. Fuente: stephenking.com / Cuenta oficial X.
+  - `autores/vitalik-buterin.md`: profesión ajustada a "Cofundador de Ethereum"; bio y cuerpo
+    reescritos con whitepaper a los 19 años y perfil interdisciplinario. Fuente: vitalik.ca (Blog oficial).
