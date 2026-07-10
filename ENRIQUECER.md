@@ -56,6 +56,11 @@ intro que engancha + `## Por qué lo recomienda <Referente>` (una sección por r
 
 Nunca dejar el stub autogenerado ("*X*, de Y, figura entre las recomendaciones de Z.").
 
+> **Regla de propagación:** si enriquecés libros de un referente (o le sumás un vínculo por
+> cruce) que **ya tiene listicle publicado**, hay que **regenerar ese listicle** (MODO LISTICLE)
+> para que no quede desactualizado. Igual para los cruces: al agregar un vínculo referente↔libro,
+> revisar si ese referente tiene listicle y refrescarlo.
+
 ---
 
 ## MODO REFERENTE (bio genérica → real)

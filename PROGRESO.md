@@ -94,6 +94,12 @@ el consenso del libro y mejora el interlinking.
 - **2026-07-10** — Ryan Holiday (`/blog/libros-que-recomienda-ryan-holiday`).
   4 libros: Meditaciones, Cartas de un estoico, El obstáculo es el camino, La guerra del arte.
   Grupos: "Los clásicos estoicos" y "Estoicismo aplicado".
+- **2026-07-10 — REFRESH** de los 6 listicles viejos, regenerados desde su manifiesto completo
+  (con los cruces incorporados) vía subagente + `fechaActualizado: 2026-07-10`:
+  Bill Gates (1 → **9** libros; estaba muy desactualizado), Barack Obama (→12, +El ferrocarril
+  subterráneo), Warren Buffett (→6, +Sam Walton), Elon Musk (→7, +Dune y De cero a uno),
+  Jordan Peterson (→5, +Los hermanos Karamázov), Tim Ferriss (→5, +Meditaciones).
+  Verificado: solo enlaces internos a fichas enriquecidas, títulos exactos, `fecha` original intacta.
 
 ### Best-of por categoría (arquetipo 2)
 
