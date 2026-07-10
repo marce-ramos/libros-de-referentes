@@ -77,6 +77,10 @@ sin cifras dudosas. Tono cercano e informado.>
 No inventar fotos ni URLs. Si la fuente parece vaga ("Entrevistas"), mantenerla tal cual pero
 redactar la bio sin apoyarse en datos no verificables.
 
+**Ojo con los cargos en presente:** las posiciones cambian (renuncias, cambios de empresa). Ante
+la duda, usá framing atemporal o "ex-" ("exprofesor de…", "fundó…") en vez de afirmar un cargo
+actual que puede estar desactualizado.
+
 ---
 
 ## Verificación (correr al terminar cada lote)

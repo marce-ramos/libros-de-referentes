@@ -100,3 +100,31 @@ el consenso del libro y mejora el interlinking.
 
 Sam Altman, James Clear, Peter Thiel, Angela Duckworth, Yuval Noah Harari, Daniel Kahneman,
 Ryan Holiday, Naval Ravikant, Andrew Ng.
+
+---
+
+## Bios de referentes
+
+- **2026-07-09** — Reemplazadas bios genéricas autogeneradas por bios reales en:
+  - `autores/elon-musk.md`: profesión actualizada a "Fundador de SpaceX y CEO de Tesla";
+    bio y cuerpo reescritos con quién es, por qué seguir sus lecturas y fuente (X/Twitter +
+    entrevistas). 2-3 frases originales en castellano rioplatense.
+  - `autores/jordan-peterson.md`: profesión actualizada a "Psicólogo clínico, profesor y autor";
+    bio y cuerpo reescritos con credencial (Harvard/Toronto, 12 reglas), por qué seguir sus
+    lecturas y fuente verificable (jordanbpeterson.com/blog/book-list/). Enlace incluido en
+    el cuerpo.
+- **2026-07-09** — Reemplazadas bios genéricas autogeneradas por bios reales en (tanda de 8):
+  - `autores/tim-ferriss.md`: bio y cuerpo reescritos. Fuente: The Tim Ferriss Show (tim.blog).
+  - `autores/ray-dalio.md`: bio y cuerpo reescritos. Fuente: Principles (principles.com).
+  - `autores/mark-zuckerberg.md`: profesión ajustada a "Cofundador de Meta"; bio y cuerpo
+    reescritos con detalle del club "A Year of Books" (2015, 23 títulos). Fuente: Facebook.
+  - `autores/naval-ravikant.md`: profesión ajustada a "Cofundador de AngelList e Inversor";
+    bio y cuerpo reescritos. Fuente: Naval Podcast (naval.app).
+  - `autores/yuval-noah-harari.md`: profesión ajustada a "Historiador y Escritor"; bio y
+    cuerpo reescritos. Fuente: ynharari.com (Reading List).
+  - `autores/daniel-kahneman.md`: bio y cuerpo reescritos; se indica fallecimiento el
+    27/03/2024 a los 90 años. Fuente: Ensayos académicos y Entrevistas.
+  - `autores/sam-altman.md`: bio y cuerpo reescritos con trayectoria YC + OpenAI.
+    Fuente: Blog personal (blog.samaltman.com).
+  - `autores/andrew-ng.md`: profesión ajustada a "Fundador de DeepLearning.AI y Cofundador
+    de Coursera"; bio y cuerpo reescritos. Fuente: The Batch Newsletter (DeepLearning.AI).
