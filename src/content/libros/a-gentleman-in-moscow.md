@@ -5,8 +5,9 @@ asin: "8498388988"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - bill-gates
 anio: 2016
-resumen: "La novela de Amor Towles sobre un conde condenado a arresto domiciliario de por vida en un gran hotel de Moscú. Una de las favoritas de Barack Obama."
+resumen: "La novela de Amor Towles sobre un conde condenado a arresto domiciliario de por vida en un gran hotel de Moscú. Entre las favoritas de Barack Obama y Bill Gates."
 destacado: false
 fechaActualizado: 2026-07-05
 ---

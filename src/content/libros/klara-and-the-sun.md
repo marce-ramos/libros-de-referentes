@@ -5,8 +5,9 @@ asin: "8433980874"
 categoria: cienciaficcion
 recomendadoPor:
   - barack-obama
+  - bill-gates
 anio: 2021
-resumen: "Una robot solar llamada Klara observa el mundo desde la vidriera de una tienda y aprende qué significa querer a alguien. La novela con la que Ishiguro regresó tras ganar el Nobel, incluida por Barack Obama en su lista de verano 2021."
+resumen: "Una robot solar llamada Klara observa el mundo desde la vidriera de una tienda y aprende qué significa querer a alguien. La novela con la que Ishiguro regresó tras ganar el Nobel, elegida por Barack Obama y Bill Gates en sus listas de 2021."
 destacado: false
 fechaActualizado: 2026-07-10
 ---

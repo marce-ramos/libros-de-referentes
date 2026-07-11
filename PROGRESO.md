@@ -90,6 +90,18 @@ stub nuevo) → se enriquece (MODO LIBRO).
   candidatos de un barrido: YA-LINKED / CROSS-REF / REVISAR / NUEVO; matchea por slug derivado del
   título EN → resuelve cross-idioma) y `tools/detectar_duplicados.py` (red de seguridad post-barrido;
   0 duplicados exactos en el catálogo actual). Documentados en ENRIQUECER.md.
+- **2026-07-10 — Barrido: Bill Gates (flujo completo estrenado con tooling).** Discovery: 25
+  candidatos sourceados (GatesNotes vía CNBC/Forbes/Kirkus, 2019-2025). `reconciliar.py`:
+  **4 CROSS-REF** (An American Marriage, Un caballero en Moscú, Klara y el Sol, Proyecto Hail Mary
+  → se sumó Gates; ahora Gates+Obama = 2 referentes), 20 nuevos, 1 REVISAR (Upheaval = libro
+  distinto de Diamond → nuevo). Enriquecidos **10 nuevos**: Una tierra prometida, Por qué dormimos,
+  Amplitud (Range), El código de la vida, La armonía de las células, Mañana y mañana y mañana,
+  Prohibido nacer, El clamor de los bosques, Crisis (Upheaval), Cómo funciona el mundo.
+  → **Gates 9 → 23**; catálogo 152 → 162. `detectar_duplicados.py`: 0 dups. Listicle de Gates
+  regenerado a 23. Correcciones de Opus: 0 (el agente autocorrigió "La armonía de las células").
+  Backlog (11 sourceados): These Truths, The Great Influenza, The Splendid and the Vile, The Spy
+  and the Traitor, The Ministry for the Future, Born in Blackness, Not the End of the World,
+  How to Know a Person, The Women, Personal History, Abundance.
 
 ## Cruces referente↔libro (relaciones nuevas)
 

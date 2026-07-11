@@ -5,8 +5,9 @@ asin: "8418037016"
 categoria: cienciaficcion
 recomendadoPor:
   - barack-obama
+  - bill-gates
 anio: 2021
-resumen: "Un astronauta despierta solo en el espacio, sin recuerdos, con la misión de salvar a la humanidad de una extinción solar. La novela de ciencia ficción que Obama eligió para su lista de verano 2021."
+resumen: "Un astronauta despierta solo en el espacio, sin recuerdos, con la misión de salvar a la humanidad de una extinción solar. La novela de ciencia ficción que eligieron Barack Obama y Bill Gates en sus listas de 2021."
 destacado: false
 fechaActualizado: 2026-07-10
 ---

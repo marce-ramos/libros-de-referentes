@@ -5,8 +5,9 @@ asin: "8491812687"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - bill-gates
 anio: 2018
-resumen: "La novela de Tayari Jones sobre un matrimonio que se quiebra cuando el marido es encarcelado por un crimen que no cometió. Recomendada por Barack Obama."
+resumen: "La novela de Tayari Jones sobre un matrimonio que se quiebra cuando el marido es encarcelado por un crimen que no cometió. Recomendada por Barack Obama y Bill Gates."
 destacado: false
 fechaActualizado: 2026-07-05
 ---
