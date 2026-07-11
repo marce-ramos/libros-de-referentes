@@ -64,6 +64,33 @@ Marc Andreessen, Paul Graham, Nassim Nicholas Taleb.
 
 ---
 
+## Descubrimiento (expansión del catálogo)
+
+Mecanismo `MODO DESCUBRIR` (ver ENRIQUECER.md): un agente fetchea la fuente REAL del referente y
+extrae candidatos con URL-fuente (nunca de memoria) → Opus reconcilia contra el catálogo (cruce vs
+stub nuevo) → se enriquece (MODO LIBRO).
+
+- **2026-07-10 — Piloto: Barack Obama (profundizar).** El agente de descubrimiento extrajo
+  **32 candidatos** de sus listas anuales en Medium (2021-2025), cada uno con URL-fuente.
+  Reconciliados: ninguno colisionaba. Enriquecidos **10** (fichas nuevas): Klara y el Sol,
+  Proyecto Hail Mary, Fortuna (Trust/Hernán Díaz), Los náufragos del Wager, Ciudad de las nubes,
+  El imperio del dolor, El pacto del agua, El mar de la tranquilidad, La inmensidad del mundo,
+  Intermezzo. → **Obama 12 → 22 libros**; catálogo 142 → 152. Correcciones de Opus: The Wager sí
+  tenía ES ("Los náufragos del Wager") que el agente no halló; Trust decía "finalista del Booker"
+  (falso, ganó el Pulitzer 2023).
+  **Backlog (22 candidatos sourceados, para enriquecer):** The Anthropologists, Stolen Pride,
+  In Ascension, Someone Like Us, The Work of Art, There's Always This Year, The Ministry of Time,
+  Martyr!, The God of the Woods, Help Wanted, The Heaven and Earth Grocery Store, The MANIAC,
+  Poverty by America, How to Say Babylon, Chip War, The Vaster Wilds, King: A Life, How the Word
+  Is Passed, The Lincoln Highway, Abundance, Who is Government?, The Sirens' Call.
+  **Propagación:** el listicle de Obama se regeneró a los 22 libros (Ficción/No ficción,
+  `fechaActualizado` 07-10). Su página de autor `/autores/barack-obama` se actualiza sola (query
+  dinámica sobre la colección) — solo el blog necesita regeneración manual.
+- **2026-07-10 — Tooling de reconciliación.** Creados y probados `tools/reconciliar.py` (clasifica
+  candidatos de un barrido: YA-LINKED / CROSS-REF / REVISAR / NUEVO; matchea por slug derivado del
+  título EN → resuelve cross-idioma) y `tools/detectar_duplicados.py` (red de seguridad post-barrido;
+  0 duplicados exactos en el catálogo actual). Documentados en ENRIQUECER.md.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

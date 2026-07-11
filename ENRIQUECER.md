@@ -146,6 +146,31 @@ for f in libros/*.md; do
 done
 ```
 
+## MODO DESCUBRIR (encontrar más libros de un referente)
+
+Objetivo: dado un referente, encontrar **más libros reales** que recomienda, para agregarlos.
+**Regla de oro:** el agente NO "recuerda" qué recomienda — **extrae de una fuente fetcheada**.
+Recordar alucina; extraer de una página real casi no.
+
+Reglas:
+- Fetcheá fuentes reales: la lista/fuente oficial del referente (la línea "rastrearse a través
+  de…" de su ficha en `autores/<slug>.md`) y/o artículos serios que la reproduzcan. Usá
+  `WebSearch` para encontrarlas y `web_fetch` para leerlas.
+- Extraé SOLO libros que aparezcan explícitamente en una fuente fetcheada. **Por cada libro,
+  registrá la URL de la fuente.** Si no podés sourcear un libro, NO lo incluyas.
+- **No escribas nada en el catálogo.** Devolvé solo un manifiesto: `título | autor | año | URL-fuente`.
+- No inventes títulos, autores ni atribuciones. Ante la duda, omití. Es preferible una lista
+  corta y 100% real que una larga con dudosos.
+
+Después (lo hace Opus + un script, no el agente): **reconciliar** contra el catálogo con
+`python3 tools/reconciliar.py <ref-slug> <manifiesto.txt> src/content/libros`. Clasifica cada
+candidato en **YA-LINKED** (ya está, nada que hacer), **CROSS-REF** (el libro existe pero falta el
+referente → agregar a `recomendadoPor`), **REVISAR** (el autor ya está pero el título no matchea →
+Opus decide: ¿mismo libro traducido = cross-ref, o libro nuevo?) o **NUEVO** (crear ficha). El
+match es por slug (el slug del catálogo deriva del título en inglés → resuelve el cross-idioma).
+Opus verifica una muestra de atribuciones contra las URLs-fuente. Recién entonces se enriquece
+(MODO LIBRO), y al terminar se corre el detector de duplicados (ver Verificación).
+
 ## Verificación (correr al terminar cada lote)
 
 ```bash
@@ -155,6 +180,14 @@ for f in libros/<slug1>.md libros/<slug2>.md; do a=$(grep -m1 '^asin:' "$f"|sed 
 # Integridad recomendadoPor -> autor existente:
 for f in libros/*.md; do awk '/^recomendadoPor:/{g=1;next} g&&/^  - /{gsub(/  - /,"");print} g&&/^[^ ]/{exit}' "$f" | while read r; do [ -f "autores/$r.md" ] || echo "FALTA $r en $f"; done; done
 ```
+
+Detector de duplicados (correr **después de cada barrido de descubrimiento**):
+```bash
+python3 tools/detectar_duplicados.py src/content/libros
+```
+Reporta `[DUP]` (mismo autor+título → duplicado casi seguro, corregir) y `[REV]` (autores con 2+
+libros, informativo). Casos conocidos aceptados en `[REV]`: las dos ediciones de las cartas de
+Séneca (Cartas de un estoico / Cartas a Lucilio) y Foundation / The Foundation Trilogy.
 
 Además: `npm run build` local antes del push (o confiar en Cloudflare, que buildea limpio).
 
