@@ -69,6 +69,13 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   Attachments [EN], The Network State [sin ASIN, solo web] (Vitalik). 0 dups. Ajuste de Opus:
   de-quoteé una paráfrasis presentada como cita textual de Tyson en La Biblia. Catálogo: 162.
 
+- **2026-07-10** — Tanda de 10 (subagente) que completó 3 referentes: **Lex Fridman 6/6,
+  Stephen King 3/3, J.K. Rowling 4/4.** Trilogía de la Fundación, El idiota, El principito (Lex);
+  El señor de las moscas, The Bleeding Heart [EN], The Hair of Harold Roux [EN] (King); Emma,
+  La Ilíada, El pequeño caballo blanco, Team of Rivals [EN] (Rowling). 0 dups. Corrección de Opus:
+  The Bleeding Heart no tiene edición ES confirmada → revertido a inglés (el agente había puesto un
+  ASIN/título ES sin verificar). Catálogo: 162 libros, ~151 con ASIN.
+
 ### Referentes con cobertura 100% (fichas listas)
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
@@ -76,7 +83,7 @@ Jordan Peterson, Tim Ferriss, Sam Altman, James Clear, Peter Thiel, Angela Duckw
 Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng,
 Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow,
 Marc Andreessen, Paul Graham, Nassim Nicholas Taleb, Satya Nadella, Malcolm Gladwell, Brené Brown,
-Neil deGrasse Tyson, Reese Witherspoon, Vitalik Buterin.
+Neil deGrasse Tyson, Reese Witherspoon, Vitalik Buterin, Lex Fridman, Stephen King, J.K. Rowling.
 
 ---
 
