@@ -54,13 +54,29 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   (Graham); Ficciones, El desierto de los tártaros, Information [sin ASIN → fallback] (Taleb).
   Spot-check sin correcciones. Global: ~101/142 (99 con ASIN real + 2 con fallback).
 
+- **2026-07-10** — Tanda de 10 (subagente) que completó 3 referentes: **Satya Nadella 4/4,
+  Malcolm Gladwell 3/3, Brené Brown 4/4.** Comunicación No Violenta, Remando como un solo hombre,
+  Competing in the Age of AI [EN] (Nadella); Psicoanálisis la profesión imposible, The Blind Side
+  [EN], The Person and the Situation [EN] (Gladwell); Libera tu magia, Atrévete a liderar [fallback],
+  El acto de crear, Los dones de la imperfección (Brown). Corrección de Opus: The Boys in the Boat →
+  título ES real "Remando como un solo hombre" (Nórdica) + ASIN de imprenta (el agente había puesto
+  un ASIN Kindle, que no comisiona). Catálogo: 162 libros.
+
+- **2026-07-10** — Tanda de 10 (subagente) que completó 3 referentes: **Neil deGrasse Tyson 4/4,
+  Reese Witherspoon 4/4, Vitalik Buterin 4/4.** Los viajes de Gulliver, El origen de las especies,
+  La Biblia (Reina-Valera), The System of the World [EN] (Tyson); Todos quieren a Daisy Jones,
+  Pequeños fuegos por todas partes, La red de Alice (Reese); Mercados radicales, Stubborn
+  Attachments [EN], The Network State [sin ASIN, solo web] (Vitalik). 0 dups. Ajuste de Opus:
+  de-quoteé una paráfrasis presentada como cita textual de Tyson en La Biblia. Catálogo: 162.
+
 ### Referentes con cobertura 100% (fichas listas)
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
 Jordan Peterson, Tim Ferriss, Sam Altman, James Clear, Peter Thiel, Angela Duckworth,
 Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng,
 Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow,
-Marc Andreessen, Paul Graham, Nassim Nicholas Taleb.
+Marc Andreessen, Paul Graham, Nassim Nicholas Taleb, Satya Nadella, Malcolm Gladwell, Brené Brown,
+Neil deGrasse Tyson, Reese Witherspoon, Vitalik Buterin.
 
 ---
 
