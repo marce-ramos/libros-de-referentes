@@ -47,12 +47,20 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   Pendiente opcional: auditar *atribuciones* (si cada referente recomendó cada libro) al enriquecer
   cada stub. Señal de fidelidad del import: las 4 de Neil deGrasse Tyson = su lista real del AMA 2011.
 
+- **2026-07-10** — Tanda de 9 (subagente) que completó 3 referentes de tech/ideas:
+  **Marc Andreessen 3/3, Paul Graham 3/3, Nassim Taleb 3/3.** Emprender y liderar una startup
+  (Andreessen); High Output Management [EN], Revoluciones tecnológicas y capital financiero;
+  Hackers & Painters [EN], Autobiografía (Franklin), The Dream Machine [sin ASIN → fallback]
+  (Graham); Ficciones, El desierto de los tártaros, Information [sin ASIN → fallback] (Taleb).
+  Spot-check sin correcciones. Global: ~101/142 (99 con ASIN real + 2 con fallback).
+
 ### Referentes con cobertura 100% (fichas listas)
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
 Jordan Peterson, Tim Ferriss, Sam Altman, James Clear, Peter Thiel, Angela Duckworth,
 Yuval Noah Harari, Daniel Kahneman, Ryan Holiday, Naval Ravikant, Andrew Ng,
-Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow.
+Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow,
+Marc Andreessen, Paul Graham, Nassim Nicholas Taleb.
 
 ---
 
