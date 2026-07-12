@@ -11,7 +11,7 @@ keywords:
 draft: false
 ---
 
-Ray Dalio construyó Bridgewater Associates, el fondo de cobertura más grande del mundo, y a lo largo del camino se volvió un obsesivo de los patrones: cómo se repiten los ciclos económicos, cómo suben y caen los imperios, cómo la realidad "funciona" según ciertas leyes. Sus recomendaciones de lectura respiran esa misma búsqueda. Acá reunimos los libros que recomienda [Ray Dalio](/autores/ray-dalio) —y que cita como influencias— disponibles en español.
+Ray Dalio construyó Bridgewater Associates, el fondo de cobertura más grande del mundo, y a lo largo del camino se volvió un obsesivo de los patrones: cómo se repiten los ciclos económicos, cómo suben y caen los imperios, cómo la realidad "funciona" según ciertas leyes. Sus recomendaciones de lectura respiran esa misma búsqueda. Acá reunimos los libros que recomienda [Ray Dalio](/referentes/ray-dalio) —y que cita como influencias— disponibles en español.
 
 ## El libro que escribió él mismo
 
@@ -35,4 +35,4 @@ El estudio clásico del «viaje del héroe», el patrón que se repite en los mi
 
 ## En resumen
 
-Las lecturas de Dalio son un curso intensivo sobre cómo funcionan los sistemas —económicos, históricos, biológicos y hasta narrativos— y cómo tomar mejores decisiones dentro de ellos. *Principios* es la puerta de entrada natural; los otros tres explican de dónde viene su forma de mirar el mundo. Si querés seguir explorando, mirá las recomendaciones de [otros referentes](/autores).
+Las lecturas de Dalio son un curso intensivo sobre cómo funcionan los sistemas —económicos, históricos, biológicos y hasta narrativos— y cómo tomar mejores decisiones dentro de ellos. *Principios* es la puerta de entrada natural; los otros tres explican de dónde viene su forma de mirar el mundo. Si querés seguir explorando, mirá las recomendaciones de [otros referentes](/referentes).

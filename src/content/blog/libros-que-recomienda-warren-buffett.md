@@ -47,4 +47,4 @@ Más que un libro de inversión, es un manual para pensar mejor. Charlie Munger 
 
 ## En resumen
 
-Las recomendaciones de Buffett tienen un hilo conductor: no buscan trucos ni fórmulas, sino **temperamento y criterio** —paciencia, disciplina y la capacidad de pensar con independencia—. El punto de entrada natural es *El inversor inteligente*; si te enganchás, los demás se van encadenando solos. Si te interesa el mundo de los negocios y la inversión, mirá también las recomendaciones de [otros referentes](/autores).
+Las recomendaciones de Buffett tienen un hilo conductor: no buscan trucos ni fórmulas, sino **temperamento y criterio** —paciencia, disciplina y la capacidad de pensar con independencia—. El punto de entrada natural es *El inversor inteligente*; si te enganchás, los demás se van encadenando solos. Si te interesa el mundo de los negocios y la inversión, mirá también las recomendaciones de [otros referentes](/referentes).

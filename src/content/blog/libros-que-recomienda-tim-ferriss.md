@@ -41,4 +41,4 @@ La novela épica de Frank Herbert que entrelaza política, religión y ecología
 
 ## En resumen
 
-Las lecturas de Ferriss son un botiquín para la vida de alto rendimiento: herramientas para trabajar mejor, pensar con calma y cuidar la cabeza. Cualquiera es un gran punto de partida. Si querés seguir explorando, mirá las recomendaciones de [otros referentes](/autores).
+Las lecturas de Ferriss son un botiquín para la vida de alto rendimiento: herramientas para trabajar mejor, pensar con calma y cuidar la cabeza. Cualquiera es un gran punto de partida. Si querés seguir explorando, mirá las recomendaciones de [otros referentes](/referentes).

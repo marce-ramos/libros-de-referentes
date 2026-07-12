@@ -39,7 +39,7 @@ const norm = (s: string) =>
     {
       autores.map((a) => (
         <a
-          href={`/autores/${a.id}`}
+          href={`/referentes/${a.id}`}
           data-nombre={norm(a.data.nombre)}
           data-ambito={ambitoDe[a.id] ?? ""}
           class="ref-card flex flex-col items-center rounded-xl border border-[var(--card-border)] bg-white p-4 text-center transition hover:border-[var(--brand)] hover:shadow-sm"

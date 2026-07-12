@@ -39,7 +39,7 @@ Marie de France es expulsada de la corte real y enviada a una abadía inglesa em
 
 ### [El ferrocarril subterráneo](/libros/the-underground-railroad) — Colson Whitehead
 
-Ganadora a la vez del Pulitzer y el National Book Award, esta novela toma la red clandestina que ayudaba a escapar a los esclavizados hacia el norte y le da un giro genial: la convierte en un ferrocarril real, con vías y túneles bajo tierra. Cada estado que cruza la protagonista Cora es una dimensión distinta del racismo estadounidense. Una lectura intensa y de una fuerza narrativa que atrapa desde la primera página. También la recomienda [Oprah Winfrey](/autores/oprah-winfrey).
+Ganadora a la vez del Pulitzer y el National Book Award, esta novela toma la red clandestina que ayudaba a escapar a los esclavizados hacia el norte y le da un giro genial: la convierte en un ferrocarril real, con vías y túneles bajo tierra. Cada estado que cruza la protagonista Cora es una dimensión distinta del racismo estadounidense. Una lectura intensa y de una fuerza narrativa que atrapa desde la primera página. También la recomienda [Oprah Winfrey](/referentes/oprah-winfrey).
 
 ### [Klara y el Sol](/libros/klara-and-the-sun) — Kazuo Ishiguro
 
@@ -73,15 +73,15 @@ Dos hermanos muy distintos enfrentan la muerte de su padre: Peter, abogado exito
 
 ### [Sapiens: De animales a dioses](/libros/sapiens) — Yuval Noah Harari
 
-Un recorrido por 70.000 años de historia humana que se lee como una novela y que obliga a repensar lo que dabas por sentado: por qué somos la única especie que domina el planeta, cómo los mitos compartidos construyeron civilizaciones, qué ganamos y qué perdimos en el camino. Uno de los libros de no ficción más recomendados de la última década; también lo eligió [Bill Gates](/autores/bill-gates) entre sus lecturas.
+Un recorrido por 70.000 años de historia humana que se lee como una novela y que obliga a repensar lo que dabas por sentado: por qué somos la única especie que domina el planeta, cómo los mitos compartidos construyeron civilizaciones, qué ganamos y qué perdimos en el camino. Uno de los libros de no ficción más recomendados de la última década; también lo eligió [Bill Gates](/referentes/bill-gates) entre sus lecturas.
 
 ### [Una educación](/libros/educated) — Tara Westover
 
-Las memorias de una mujer que creció sin ir a la escuela —hija de una familia mormona fundamentalista en las montañas de Idaho— y terminó doctorándose en Cambridge. Una historia tan extrema que cuesta creer que sea real, y a la vez tan bien escrita que no podés dejar de leerla. Obama la incluyó entre sus recomendaciones, igual que [Bill Gates](/autores/bill-gates): a ambos los conmovió el mismo núcleo, el poder transformador del conocimiento y lo que costó conseguirlo.
+Las memorias de una mujer que creció sin ir a la escuela —hija de una familia mormona fundamentalista en las montañas de Idaho— y terminó doctorándose en Cambridge. Una historia tan extrema que cuesta creer que sea real, y a la vez tan bien escrita que no podés dejar de leerla. Obama la incluyó entre sus recomendaciones, igual que [Bill Gates](/referentes/bill-gates): a ambos los conmovió el mismo núcleo, el poder transformador del conocimiento y lo que costó conseguirlo.
 
 ### [La generación ansiosa](/libros/the-anxious-generation) — Jonathan Haidt
 
-¿Por qué la salud mental de los adolescentes se deterioró tan rápido a partir de 2010? El psicólogo Haidt tiene una respuesta clara: el pasaje de una infancia basada en el juego a una infancia basada en el teléfono. Con datos y un marco bien construido propone cuatro normas concretas para familias, escuelas y gobiernos. Fue uno de los libros más comentados de 2024 y también lo recomendó [Bill Gates](/autores/bill-gates); que dos figuras tan distintas coincidan dice algo del alcance del argumento.
+¿Por qué la salud mental de los adolescentes se deterioró tan rápido a partir de 2010? El psicólogo Haidt tiene una respuesta clara: el pasaje de una infancia basada en el juego a una infancia basada en el teléfono. Con datos y un marco bien construido propone cuatro normas concretas para familias, escuelas y gobiernos. Fue uno de los libros más comentados de 2024 y también lo recomendó [Bill Gates](/referentes/bill-gates); que dos figuras tan distintas coincidan dice algo del alcance del argumento.
 
 ### [Growth: A History and a Reckoning](/libros/growth) — Daniel Susskind
 
@@ -109,4 +109,4 @@ En 1741 el HMS Wager naufragó frente a las costas de la Patagonia. Los sobreviv
 
 ## En resumen
 
-Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 22 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/autores).
+Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 22 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/referentes).

@@ -31,7 +31,7 @@ const { autor, recomendados } = Astro.props;
 const d = autor.data;
 const { Content } = await render(autor);
 
-const url = new URL(`/autores/${autor.id}`, SITE.url).href;
+const url = new URL(`/referentes/${autor.id}`, SITE.url).href;
 const jsonLd = [
   schemaItemList({
     nombre: `Libros recomendados por ${d.nombre}`,
@@ -42,7 +42,7 @@ const jsonLd = [
   }),
   schemaBreadcrumb([
     { nombre: "Inicio", url: SITE.url },
-    { nombre: "Referentes", url: new URL("/autores", SITE.url).href },
+    { nombre: "Referentes", url: new URL("/referentes", SITE.url).href },
     { nombre: d.nombre, url },
   ]),
 ];

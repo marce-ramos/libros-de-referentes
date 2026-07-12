@@ -36,4 +36,4 @@ Holiday recomienda este libro de Pressfield porque le pone nombre a algo que nin
 
 ---
 
-Si estas lecturas te abrieron el apetito, encontrás todos los libros organizados por tema y referente en nuestra [lista de autores](/autores). Holiday es solo uno de los referentes que seguimos: hay muchos otros con bibliotecas igual de reveladoras.
+Si estas lecturas te abrieron el apetito, encontrás todos los libros organizados por tema y referente en nuestra [lista de referentes](/referentes). Holiday es solo uno de los referentes que seguimos: hay muchos otros con bibliotecas igual de reveladoras.

@@ -21,7 +21,7 @@ Gates quiso tanto este libro que regaló una copia digital a todos los graduados
 
 ### [Superinteligencia: Caminos, peligros, estrategias](/libros/superintelligence) — Nick Bostrom
 
-El libro que puso los riesgos de la inteligencia artificial en la agenda de Silicon Valley. Gates lo recomendó como lectura imprescindible para entender qué está en juego si algún día creamos una inteligencia que nos supere: no es un manual técnico, sino un análisis filosófico riguroso de un escenario que ya no parece tan lejano. También lo recomienda [Elon Musk](/autores/elon-musk), lo que dice mucho de su influencia cruzada en el ecosistema tecnológico.
+El libro que puso los riesgos de la inteligencia artificial en la agenda de Silicon Valley. Gates lo recomendó como lectura imprescindible para entender qué está en juego si algún día creamos una inteligencia que nos supere: no es un manual técnico, sino un análisis filosófico riguroso de un escenario que ya no parece tan lejano. También lo recomienda [Elon Musk](/referentes/elon-musk), lo que dice mucho de su influencia cruzada en el ecosistema tecnológico.
 
 ### [La ola que viene](/libros/the-coming-wave) — Mustafa Suleyman
 
@@ -49,17 +49,17 @@ Gates ha recomendado tantos libros de Vaclav Smil a lo largo de los años que en
 
 ### [La generación ansiosa](/libros/the-anxious-generation) — Jonathan Haidt
 
-Uno de los libros más comentados de 2024, y aparece en la lista de Gates y en la de [Barack Obama](/autores/barack-obama) el mismo año. El psicólogo social Jonathan Haidt vincula el deterioro marcado de la salud mental adolescente con la llegada masiva del smartphone y las redes sociales a partir de 2010, y no se queda en el diagnóstico: propone cuatro medidas concretas para revertir el daño. Un libro que ordena, con datos, una preocupación que muchos sienten pero pocos saben nombrar.
+Uno de los libros más comentados de 2024, y aparece en la lista de Gates y en la de [Barack Obama](/referentes/barack-obama) el mismo año. El psicólogo social Jonathan Haidt vincula el deterioro marcado de la salud mental adolescente con la llegada masiva del smartphone y las redes sociales a partir de 2010, y no se queda en el diagnóstico: propone cuatro medidas concretas para revertir el daño. Un libro que ordena, con datos, una preocupación que muchos sienten pero pocos saben nombrar.
 
 ## Historia, memorias y negocios
 
 ### [Sapiens: De animales a dioses](/libros/sapiens) — Yuval Noah Harari
 
-Gates lo reseñó en su blog y aclaró que no coincide con todas las conclusiones de Harari, pero que el libro lo obligó a repensar cosas que daba por sentadas —y eso, para él, es exactamente lo que hace que valga la pena leerlo. También figura entre los favoritos de [Barack Obama](/autores/barack-obama), y no es casualidad que dos líderes tan distintos compartan esta elección: Harari logra que 70.000 años de historia humana se lean con el ritmo de una novela.
+Gates lo reseñó en su blog y aclaró que no coincide con todas las conclusiones de Harari, pero que el libro lo obligó a repensar cosas que daba por sentadas —y eso, para él, es exactamente lo que hace que valga la pena leerlo. También figura entre los favoritos de [Barack Obama](/referentes/barack-obama), y no es casualidad que dos líderes tan distintos compartan esta elección: Harari logra que 70.000 años de historia humana se lean con el ritmo de una novela.
 
 ### [Una educación](/libros/educated) — Tara Westover
 
-Las memorias de una mujer que creció sin escolarización en una familia survivalista de Idaho y terminó doctorándose en Cambridge. Gates no solo la recomendó: entrevistó a Westover y dijo que su historia lo dejó pensando en el poder transformador de la educación, uno de sus temas de siempre. También la recomendó [Barack Obama](/autores/barack-obama), atraído por el mismo núcleo: cómo el acceso al conocimiento puede reescribir por completo una vida, y a qué costo personal.
+Las memorias de una mujer que creció sin escolarización en una familia survivalista de Idaho y terminó doctorándose en Cambridge. Gates no solo la recomendó: entrevistó a Westover y dijo que su historia lo dejó pensando en el poder transformador de la educación, uno de sus temas de siempre. También la recomendó [Barack Obama](/referentes/barack-obama), atraído por el mismo núcleo: cómo el acceso al conocimiento puede reescribir por completo una vida, y a qué costo personal.
 
 ### [An Unfinished Love Story](/libros/an-unfinished-love-story) — Doris Kearns Goodwin
 
@@ -89,19 +89,19 @@ Más de setecientas páginas de prosa cuidada, autocrítica y sorprendentemente 
 
 ### [Klara y el Sol](/libros/klara-and-the-sun) — Kazuo Ishiguro
 
-Una robot llamada Klara observa el mundo desde la vidriera de una tienda y aprende qué significa querer a alguien, en un futuro cercano donde los niños "mejorados" genéticamente conviven con los que no lo son. Gates la incluyó entre sus favoritas de 2021 junto a [Barack Obama](/autores/barack-obama), atraídos por la misma pregunta que Ishiguro deja abierta sin responder: si algo observa, recuerda y se sacrifica por otro, ¿eso es conciencia? Una novela que incomoda con suavidad.
+Una robot llamada Klara observa el mundo desde la vidriera de una tienda y aprende qué significa querer a alguien, en un futuro cercano donde los niños "mejorados" genéticamente conviven con los que no lo son. Gates la incluyó entre sus favoritas de 2021 junto a [Barack Obama](/referentes/barack-obama), atraídos por la misma pregunta que Ishiguro deja abierta sin responder: si algo observa, recuerda y se sacrifica por otro, ¿eso es conciencia? Una novela que incomoda con suavidad.
 
 ### [Proyecto Hail Mary](/libros/project-hail-mary) — Andy Weir
 
-Un astronauta despierta solo en una nave espacial sin recuerdos y descubre poco a poco que es el único sobreviviente de una misión para salvar al Sol de un microorganismo que lo está consumiendo. Gates y [Barack Obama](/autores/barack-obama) la recomendaron el mismo año: los dos la eligieron por la misma razón que *El marciano* funcionó tan bien: ciencia verificable, ingenio constante y un corazón emocional inesperado que se instala en los últimos tramos del libro.
+Un astronauta despierta solo en una nave espacial sin recuerdos y descubre poco a poco que es el único sobreviviente de una misión para salvar al Sol de un microorganismo que lo está consumiendo. Gates y [Barack Obama](/referentes/barack-obama) la recomendaron el mismo año: los dos la eligieron por la misma razón que *El marciano* funcionó tan bien: ciencia verificable, ingenio constante y un corazón emocional inesperado que se instala en los últimos tramos del libro.
 
 ### [Un caballero en Moscú](/libros/a-gentleman-in-moscow) — Amor Towles
 
-En 1922, un conde ruso es condenado a arresto domiciliario de por vida en el lujoso hotel Metropol de Moscú. A lo largo de las décadas siguientes, sin salir del edificio, construye una vida entera: amistades, un oficio, un amor y una familia inesperada, mientras afuera la Unión Soviética cambia para siempre. También la recomendó [Barack Obama](/autores/barack-obama), atraído por lo mismo que Gates: un personaje entrañable, un ingenio constante y una reflexión de fondo sobre cómo se preserva la dignidad cuando el mundo de afuera se cierra.
+En 1922, un conde ruso es condenado a arresto domiciliario de por vida en el lujoso hotel Metropol de Moscú. A lo largo de las décadas siguientes, sin salir del edificio, construye una vida entera: amistades, un oficio, un amor y una familia inesperada, mientras afuera la Unión Soviética cambia para siempre. También la recomendó [Barack Obama](/referentes/barack-obama), atraído por lo mismo que Gates: un personaje entrañable, un ingenio constante y una reflexión de fondo sobre cómo se preserva la dignidad cuando el mundo de afuera se cierra.
 
 ### [Un matrimonio americano](/libros/an-american-marriage) — Tayari Jones
 
-Celestial y Roy son una joven pareja afroamericana con toda la vida por delante cuando Roy es arrestado y condenado por un crimen que no cometió. La novela sigue lo que ese encierro le hace al matrimonio, contada desde las tres voces del triángulo que se forma. Tanto Gates como [Barack Obama](/autores/barack-obama) la recomendaron: es ficción que ilumina cuestiones sociales sin dejar de ser íntima, una historia de pareja que a la vez expone las grietas de un sistema.
+Celestial y Roy son una joven pareja afroamericana con toda la vida por delante cuando Roy es arrestado y condenado por un crimen que no cometió. La novela sigue lo que ese encierro le hace al matrimonio, contada desde las tres voces del triángulo que se forma. Tanto Gates como [Barack Obama](/referentes/barack-obama) la recomendaron: es ficción que ilumina cuestiones sociales sin dejar de ser íntima, una historia de pareja que a la vez expone las grietas de un sistema.
 
 ### [Mañana, y mañana, y mañana](/libros/tomorrow-and-tomorrow-and-tomorrow) — Gabrielle Zevin
 
@@ -113,4 +113,4 @@ Nueve personajes cuyos destinos se entrelazan alrededor de los árboles, en una 
 
 ---
 
-Las recomendaciones de Bill Gates tienen un hilo conductor: libros que ayudan a entender mejor el mundo, ya sea a través de la historia, la ciencia, la tecnología o una gran historia personal. Cualquiera de estos títulos es un buen punto de partida. Si querés seguir explorando, mirá las listas de [otros referentes](/autores).
+Las recomendaciones de Bill Gates tienen un hilo conductor: libros que ayudan a entender mejor el mundo, ya sea a través de la historia, la ciencia, la tecnología o una gran historia personal. Cualquiera de estos títulos es un buen punto de partida. Si querés seguir explorando, mirá las listas de [otros referentes](/referentes).

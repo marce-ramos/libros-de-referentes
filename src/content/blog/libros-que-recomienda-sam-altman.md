@@ -34,4 +34,4 @@ La historia definitiva del Proyecto Manhattan, ganadora del Pulitzer, reconstrui
 
 ---
 
-Si te interesa explorar más referentes del mundo tecnológico y sus lecturas, visitá nuestra sección de [autores](/autores).
+Si te interesa explorar más referentes del mundo tecnológico y sus lecturas, visitá nuestra sección de [referentes](/referentes).

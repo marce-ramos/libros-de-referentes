@@ -94,6 +94,12 @@ Punto de retomada. Última actualización: 2026-07-12 (Dua Lipa completo: 34/34 
 - Consenso: **pill "N referentes"** (no badge sobre la portada) + **orden por cantidad**.
 - Libros escritos por el propio referente: se dejan como recomendación.
 - Solo referentes de **fuente verificable**.
+- Ruta de referentes: **`/referentes`** (renombrada desde `/autores` con 301 permanente el
+  2026-07-12; `public/_redirects`). ⚠️ **Una futura sección de autores del libro (escritores) NO
+  debe colgar de `/autores`:** el redirect catch-all `/autores/*` → `/referentes/:splat` la
+  secuestraría, y los 301 quedan cacheados de forma persistente. Para esa sección usar una ruta
+  distinta, **`/escritores`** (recomendada: separa "quién recomienda" de "quién escribió", y suma
+  la keyword "libros de <escritor>"). Modelo de datos: derivarla de los `autorLibro` distintos.
 
 ---
 

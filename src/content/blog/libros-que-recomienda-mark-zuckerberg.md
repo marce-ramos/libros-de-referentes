@@ -11,7 +11,7 @@ keywords:
 draft: false
 ---
 
-En 2015 Mark Zuckerberg se propuso leer un libro cada dos semanas y compartir cada elección con el público: así nació **"A Year of Books"**, un club de lectura que puso el foco en ensayos sobre historia, poder y tecnología, con alguna incursión en la ficción. Aquellas selecciones siguen siendo una de las listas de lectura más comentadas de Silicon Valley. Acá reunimos los libros que recomienda [Mark Zuckerberg](/autores/mark-zuckerberg) que ya podés conseguir en español.
+En 2015 Mark Zuckerberg se propuso leer un libro cada dos semanas y compartir cada elección con el público: así nació **"A Year of Books"**, un club de lectura que puso el foco en ensayos sobre historia, poder y tecnología, con alguna incursión en la ficción. Aquellas selecciones siguen siendo una de las listas de lectura más comentadas de Silicon Valley. Acá reunimos los libros que recomienda [Mark Zuckerberg](/referentes/mark-zuckerberg) que ya podés conseguir en español.
 
 ## Ciencia ficción
 
@@ -37,4 +37,4 @@ El cofundador de Pixar abre las puertas de sus reuniones internas para contar c�
 
 ## En resumen
 
-La lista de Zuckerberg es un mapa de sus intereses: cómo se distribuye el poder, por qué prosperan las sociedades y cómo se construye una cultura que innova, con la ciencia ficción como válvula de escape. *El problema de los tres cuerpos* es el más disfrutable para empezar; los otros tres, si te interesa entender el mundo desde las instituciones y la organización. Seguí explorando las recomendaciones de [otros referentes](/autores).
+La lista de Zuckerberg es un mapa de sus intereses: cómo se distribuye el poder, por qué prosperan las sociedades y cómo se construye una cultura que innova, con la ciencia ficción como válvula de escape. *El problema de los tres cuerpos* es el más disfrutable para empezar; los otros tres, si te interesa entender el mundo desde las instituciones y la organización. Seguí explorando las recomendaciones de [otros referentes](/referentes).

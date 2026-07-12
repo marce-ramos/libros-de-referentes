@@ -43,4 +43,4 @@ Su recomendación más insistente, al punto de haber escrito el prólogo de una 
 
 ---
 
-Las recomendaciones de Peterson forman una especie de currículum sobre el bien, el mal y el sentido. No son lecturas ligeras, pero son de las que dejan marca. Si te interesa esa búsqueda, cualquiera es un gran punto de partida. Y si querés seguir explorando, mirá las listas de [otros referentes](/autores).
+Las recomendaciones de Peterson forman una especie de currículum sobre el bien, el mal y el sentido. No son lecturas ligeras, pero son de las que dejan marca. Si te interesa esa búsqueda, cualquiera es un gran punto de partida. Y si querés seguir explorando, mirá las listas de [otros referentes](/referentes).

@@ -65,4 +65,4 @@ Una de las recomendaciones de Barack Obama: una mirada lúcida sobre el crecimie
 
 ## Por dónde empezar
 
-Si venís a invertir, arrancá por *El inversor inteligente*; si te interesa emprender, por *De cero a uno*. Y si querés seguir explorando, mirá la sección completa de [Negocios e Inversión](/categorias/negocios) o las recomendaciones de [todos los referentes](/autores).
+Si venís a invertir, arrancá por *El inversor inteligente*; si te interesa emprender, por *De cero a uno*. Y si querés seguir explorando, mirá la sección completa de [Negocios e Inversión](/categorias/negocios) o las recomendaciones de [todos los referentes](/referentes).

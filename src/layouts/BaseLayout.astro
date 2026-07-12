@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
 
 const nav = [
   { href: "/mas-recomendados", label: "Más recomendados" },
-  { href: "/autores", label: "Referentes" },
+  { href: "/referentes", label: "Referentes" },
   { href: "/categorias", label: "Categorías" },
   { href: "/blog", label: "Blog" },
 ];
@@ -53,7 +53,7 @@ const nav = [
         <nav class="flex items-center gap-6 text-sm text-[var(--muted)]">
           {nav.map((i) => <a href={i.href} class="hover:text-[var(--brand)]">{i.label}</a>)}
           <a
-            href="/autores"
+            href="/referentes"
             class="rounded-lg bg-[var(--brand)] px-4 py-2 font-semibold text-white hover:bg-[var(--brand-dark)]"
           >
             Explorar

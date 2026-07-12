@@ -52,4 +52,4 @@ Una novela corta y luminosa sobre un joven que lo deja todo para buscar la sabid
 
 ---
 
-Para descubrir más referentes y sus listas de lectura, explorá nuestra sección de [autores](/autores).
+Para descubrir más referentes y sus listas de lectura, explorá nuestra sección de [referentes](/referentes).

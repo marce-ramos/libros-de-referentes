@@ -49,4 +49,4 @@ El manifiesto de Peter Thiel —cofundador de PayPal junto a Musk— sobre cómo
 
 ---
 
-Las lecturas de Musk dibujan un mapa de su cabeza: sueña en grande con la ciencia ficción y baja a tierra con la ingeniería más concreta. Si te interesa esa mezcla de visión y primeros principios, cualquiera de estos títulos es un gran punto de partida. Mirá también las recomendaciones de [otros referentes](/autores).
+Las lecturas de Musk dibujan un mapa de su cabeza: sueña en grande con la ciencia ficción y baja a tierra con la ingeniería más concreta. Si te interesa esa mezcla de visión y primeros principios, cualquiera de estos títulos es un gran punto de partida. Mirá también las recomendaciones de [otros referentes](/referentes).

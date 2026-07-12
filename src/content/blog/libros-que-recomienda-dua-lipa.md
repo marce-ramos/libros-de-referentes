@@ -156,4 +156,4 @@ Una obra que se mueve en la zona propia entre el verso y la narrativa, sobre el 
 
 ---
 
-¿Buscás algo más puntual? Mirá también nuestra sección de [autores](/autores) para otros referentes, o explorá los libros por [categoría](/categorias/ficcion).
+¿Buscás algo más puntual? Mirá también nuestra sección de [referentes](/referentes) para otros referentes, o explorá los libros por [categoría](/categorias/ficcion).

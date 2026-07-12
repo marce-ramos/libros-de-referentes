@@ -1,0 +1,4 @@
+# Renombrado de ruta: /autores -> /referentes (301 permanente).
+# Preserva el SEO de las URLs ya indexadas. Cloudflare Pages lee este archivo.
+/autores           /referentes            301
+/autores/*         /referentes/:splat     301

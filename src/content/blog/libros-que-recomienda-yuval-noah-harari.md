@@ -28,4 +28,4 @@ Escrita en 1932, esta novela imaginó una sociedad perfectamente estable donde l
 
 ---
 
-Para explorar más referentes y sus listas de lectura, visitá nuestra sección de [autores](/autores).
+Para explorar más referentes y sus listas de lectura, visitá nuestra sección de [referentes](/referentes).

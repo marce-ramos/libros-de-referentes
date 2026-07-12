@@ -1,5 +1,5 @@
 /**
- * Ámbito de cada referente, para el filtro de la página /autores.
+ * Ámbito de cada referente, para el filtro de la página /referentes.
  * Se mantiene acá (y no en el frontmatter) para poder actualizarlo en un solo
  * lugar. Al agregar un referente nuevo, sumá su slug con su ámbito.
  * El filtro es client-side sobre tarjetas ya renderizadas → SEO-safe.
