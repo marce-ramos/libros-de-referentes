@@ -4,13 +4,39 @@ Spec compacto y autosuficiente para enriquecer **fichas de libros** y **páginas
 con un modelo barato (Sonnet). Objetivo: bajar el costo en tokens vs hacerlo con Opus.
 Es un extracto operativo de `CONTENIDO.md` (la fuente de verdad completa sigue siendo esa).
 
+## Política de modelos (qué tier para cada paso)
+
+Regla base: **la inteligencia del motor vive en este spec y en los scripts, no en el orquestador.**
+Por eso el hilo principal de producción NO necesita Opus. Elegí siempre el tier más barato que
+haga el paso de forma confiable; si un tier barato se equivoca, el re-trabajo lo paga el tier caro.
+
+- **Opus** — solo criterio y diseño: definir estrategia, elegir referente/lote, resolver casos
+  `REVISAR` ambiguos, spot-check de los flags reportados, y debugging espinoso (git/mount). Bajo volumen.
+- **Sonnet** — caballo de batalla: orquestar tandas de producción y, como subagente, la
+  investigación + redacción (MODO LIBRO, MODO REFERENTE, MODO LISTICLE). Es el **piso de calidad**
+  para cualquier cosa que escriba prosa o que decida ediciones/ASIN.
+- **Haiku** — tareas mecánicas y de bajo juicio, como subagente o inline: MODO DESCUBRIR (extraer
+  `título|autor` de una página YA fetcheada), pre-chequeo de ASINs (¿el ISBN-10 mapea al título en
+  amazon.es?), redactar los `resumen` de una línea, clasificar `categoria`, proponer slugs.
+  **NUNCA** para escribir reseñas ni para elegir el ASIN final (alucina más → costo neto mayor).
+- **Scripts Python** (`reconciliar.py`, `detectar_duplicados.py`) — lo determinista, a **0 tokens**.
+  Siempre que se pueda, preferí script sobre LLM.
+
+Sesión de producción recomendada: abrí el chat principal en **Sonnet** (no Opus), que lee
+`PENDIENTES.md` / `PROGRESO.md` / este spec y ejecuta una tanda despachando Haiku (manifiesto +
+pre-chequeo) y Sonnet (redacción). Reservá sesiones Opus para criterio/diseño. **El handoff entre
+sesiones son los archivos, no el chat** — por eso se mantienen al día religiosamente.
+
 ## Flujo (quién hace qué)
 
-1. **Opus (1 vez, barato):** elige el lote (N slugs) desde `WORKLIST.md` y lanza el subagente.
-2. **Subagente (Sonnet):** por cada slug, investiga con `WebSearch`, edita/escribe el `.md`
-   con Read/Write, y anota la tanda en `PROGRESO.md`.
-3. **Script (bash, ~0 tokens):** valida ASIN/integridad (ver "Verificación").
-4. **Opus (spot-check):** revisa 1-2 fichas y el output del script.
+1. **Opus (criterio, 1 vez):** elige referente/lote y lanza. En descubrimiento, arma el manifiesto
+   vía script (`reconciliar.py`) y decide los `REVISAR`.
+2. **Haiku (mecánico):** MODO DESCUBRIR (extrae de la fuente fetcheada) y pre-chequeo de ASINs;
+   devuelve manifiesto + excepciones. Barato y aislado.
+3. **Sonnet (redacción):** por cada slug, investiga con `WebSearch`, edita/escribe el `.md` con
+   Read/Write, y anota la tanda en `PROGRESO.md`.
+4. **Script (bash/python, ~0 tokens):** valida ASIN / integridad / duplicados (ver "Verificación").
+5. **Opus (spot-check):** revisa 1-2 fichas y las excepciones que le reportaron (no todo).
 
 ## Regla de herramientas (obligatoria)
 
