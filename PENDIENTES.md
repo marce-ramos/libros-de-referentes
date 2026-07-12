@@ -11,9 +11,9 @@ Punto de retomada. Última actualización: 2026-07-05.
 - **Diseño "Estantes claros"** (lavanda + serif Fraunces): home con *Los más recomendados*
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
-- **Contenido:** 39 referentes, 142 libros, 9 categorías. **68 libros con ASIN real + reseña/intro**
-  (tandas 2026-07-09: Ray Dalio, Mark Zuckerberg, 5 "remates" [Gates, Altman, Clear, Thiel,
-  Duckworth], Harari 3/3, Kahneman 3/3, Ryan Holiday 4/4, + Naval 4/4, Andrew Ng 3/3).
+- **Contenido:** 39 referentes, **162 libros, 9 categorías, catálogo 100% enriquecido** (todos con
+  reseña + edición; solo 3 con ASIN vacío → fallback de búsqueda). **Los 39 referentes al 100%.**
+  Detalle de todas las tandas y barridos en `PROGRESO.md`.
 - **Blog:** 9 artículos — 8 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg) + 1 best-of de categoría (Negocios e
   Inversión). Todas las fichas enlazadas están saneadas.
@@ -41,8 +41,10 @@ Punto de retomada. Última actualización: 2026-07-05.
    Neil deGrasse Tyson, Malcolm Gladwell, Oprah, etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
-3. **Enriquecer más fichas** de a tandas (quedan ~110 en stub/placeholder): ASIN real +
-   reseña/intro, siguiendo el playbook.
+3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
+   Además se construyó el motor de subagente barato (`ENRIQUECER.md`, `tools/`) y se corrieron
+   barridos de descubrimiento (Obama, Gates) que sumaron libros nuevos. Backlogs sourceados
+   pendientes en `PROGRESO.md` (Obama ~12, Gates ~11) para seguir profundizando.
 4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
    automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
    página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.
