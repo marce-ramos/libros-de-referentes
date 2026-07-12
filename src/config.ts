@@ -24,13 +24,22 @@ export const SITE = {
  * El `store` define a qué tienda Amazon apuntás por defecto.
  */
 export const AMAZON = {
-  /** Tu tag de afiliado de Amazon.com. CAMBIAR por el real al darte de alta. */
-  tag: "turef-20",
-  /** Host de la tienda base (Amazon.com = EE.UU., paga en USD). */
-  storeHost: "www.amazon.com",
   /**
-   * OneLink: si lo activás en tu panel de Amazon, pegá acá el snippet/ID.
-   * Mientras esté vacío, los links apuntan a la tienda base con tu tag.
+   * Tu tag de afiliado de amazon.es (programa BASE: España — es donde está el tráfico
+   * y las ediciones en español). Los tags de España terminan en "-21".
+   * CAMBIAR por el real al darte de alta en afiliados.amazon.es.
+   */
+  tag: "losimperdibles-21",
+  /**
+   * Host de la tienda base: amazon.es (España). Paga en EUR; comisión de LIBROS = 7%
+   * (más que el 4,5% de EE.UU.). El programa lo opera Amazon Europe Core Sàrl (Luxemburgo),
+   * así que para un no residente de España no hay carga impositiva allá (tributa en Argentina).
+   */
+  storeHost: "www.amazon.es",
+  /**
+   * OneLink: al activarlo en el panel y vincular otros programas (US, MX, etc.), redirige a
+   * cada visitante a SU tienda local con el tag de esa tienda. Mientras esté en false, todos
+   * los links apuntan a amazon.es con el tag de arriba (ideal porque el tráfico es español).
    */
   oneLinkEnabled: false,
 } as const;

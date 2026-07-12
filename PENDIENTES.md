@@ -1,6 +1,6 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-05.
+Punto de retomada. Última actualización: 2026-07-12.
 
 ---
 
@@ -27,9 +27,16 @@ Punto de retomada. Última actualización: 2026-07-05.
 
 ## ⏭️ Pendientes / próximos pasos
 
-1. **Amazon Afiliados (monetización).** Darse de alta *cuando haya algo de tráfico* (regla:
-   3 ventas en 180 días o cierran la cuenta). Poner el **tag real** en `src/config.ts`
-   (hoy placeholder `turef-20`). Activar **OneLink**. Cargar el **bounty de Audible** real
+1. **Amazon Afiliados (monetización).** Programa **BASE: amazon.es** (España) — es donde
+   está el tráfico (ver GSC) y las ediciones en español son nativas. Comisión **libros = 7%**
+   (vs. 4,5% en EE.UU.), verificado en el schedule oficial (afiliados.amazon.es, oct/2025).
+   Darse de alta *cuando haya algo de tráfico* (regla: **3 ventas en 180 días** o cierran la
+   cuenta, por programa). Poner el **tag real** de .es en `src/config.ts` (hoy placeholder
+   `losimperdibles-21`; los tags de España terminan en `-21`). El código ya apunta a
+   `www.amazon.es` de base (`src/lib/amazon.ts`). Luego activar **OneLink** para derivar el
+   goteo internacional (US/MX) a su tienda local. Cobro desde Argentina: **Takenos** (0% punta
+   a punta, umbral 10 EUR) o **Belo** (0,5%); a mayor volumen, **Wallbit + Santander** vía
+   **Factura E** (exportación de servicios, 1% tasa plana). Cargar el **bounty de Audible** real
    en `BloqueAudible.astro`.
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
    → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09).
@@ -76,7 +83,12 @@ Punto de retomada. Última actualización: 2026-07-05.
 
 - Marca: **Los Imperdibles** · dominio losimperdibles.com.
 - Stack: **Astro + Tailwind + Cloudflare Pages**.
-- Programa: **Amazon.com (US)** como base + OneLink; cobro desde Argentina vía Payoneer.
+- Programa: **Amazon.es (España) como base** (ahí está el tráfico y las ediciones en español;
+  libros **7%** > 4,5% de US) + **OneLink** para el goteo internacional. Lo opera **Amazon
+  Europe Core Sàrl (Luxemburgo)**, así que como no residente **no se tributa en España**;
+  la obligación fiscal vive en **Argentina** (exportación de servicios / Factura E). Cobro:
+  **Takenos** (0%) o **Belo** (0,5%), umbral 10 EUR; a mayor escala Wallbit + Santander.
+  *(Antes se había asumido Amazon.com US como base — se cambió tras ver el tráfico en GSC.)*
 - Diseño: **Estantes claros** (lavanda + Fraunces).
 - Consenso: **pill "N referentes"** (no badge sobre la portada) + **orden por cantidad**.
 - Libros escritos por el propio referente: se dejan como recomendación.
@@ -86,9 +98,15 @@ Punto de retomada. Última actualización: 2026-07-05.
 
 ## ⚠️ A verificar / flags abiertos
 
-- **Cobro desde Argentina** (Payoneer/cuenta USD) — confianza media, confirmar condiciones.
-- **Comisión de eBooks Kindle = 0** — verificar en el panel de Amazon.
-- **Tag de afiliado** real pendiente (hoy `turef-20` placeholder).
+- ~~**Cobro desde Argentina**~~ ✅ Resuelto (2026-07-12): **Takenos** (IBAN europeo virtual,
+  0% punta a punta, umbral 10 EUR) como opción principal; **Belo** (0,5%) alternativa; a
+  volumen alto **Wallbit + Santander** con Factura E (1%). Cheque físico descartado.
+- ~~**Comisión de eBooks Kindle = 0**~~ ✅ Resuelto (2026-07-12): en **amazon.es**, tanto los
+  **libros físicos como los eBooks Kindle DE PAGO comisionan al 7%** (schedule oficial, tabla de
+  categorías). El **0% solo aplica** a afiliados de instituciones educativas o a quienes
+  promocionan principalmente **eBooks Kindle GRATIS** (regla anti-spam) — ninguno es el caso.
+- ~~**Tag de afiliado** real pendiente~~ Pendiente el alta, pero el placeholder ya es de .es
+  (`losimperdibles-21`, tags de España terminan en `-21`); el código apunta a `www.amazon.es`.
 - ~~**Poor Charlie's Almanack** — linkea a edición inglesa~~ ✅ Resuelto (2026-07-10): la
   edición española de Valor Editions ya está en Amazon (asin B0F8J6F85F); la ficha ahora la
   linkea y la nota quedó en formato estándar.

@@ -36,10 +36,10 @@ export function urlAfiliado(asin?: string, queryEsBusqueda?: string): string {
 
 /**
  * Link a la edición Kindle: búsqueda dentro de la tienda Kindle (acceso inmediato).
- * OJO: Amazon normalmente NO paga comisión por eBooks Kindle individuales, así que
- * este link es un extra de conveniencia para el lector (y siembra la cookie de 24 h),
- * no un motor de ingresos. La monetización viene del libro físico y de los bounties
- * de Audible / Kindle Unlimited.
+ * En amazon.es los eBooks Kindle DE PAGO sí comisionan (7%, misma banda que el libro físico);
+ * la excepción es promocionar principalmente eBooks Kindle GRATIS (regla anti-spam de Amazon).
+ * Aun así, el motor principal sigue siendo el libro físico + los bounties de Audible /
+ * Kindle Unlimited; este link es sobre todo conveniencia para el lector y siembra la cookie de 24 h.
  */
 export function urlKindle(query: string): string {
   const params = new URLSearchParams({
