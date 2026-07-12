@@ -117,6 +117,27 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   no ensuciar el repo con un archivo de trabajo; regenerar con reconciliar.py si se pierde).
   Catálogo: 180 libros.
 
+- **2026-07-12 (Dua Lipa — tanda 3/3, ÚLTIMA)** — Enriquecidas las **14 fichas finales**
+  (subagente Sonnet): Grief Is the Thing with Feathers [8439741502] (Max Porter); La hija única
+  / Still Born [8433999060] (Guadalupe Nettel, **novela nativa en español** — Anagrama, el pick
+  del club usa el título de la traducción al inglés); Widow Basquiat [6073132832] (Jennifer
+  Clement, memorias); Small Boat [1913109372, sin ES] (Vincent Delecroix); This House of Grief
+  [1399606808, sin ASIN ES confirmado — ES existe como "La casa de los lamentos", Libros del
+  K.O.] (Helen Garner); Los árboles / The Trees [8417375783] (Percival Everett — **verificado
+  como novela distinta de `james.md`**, mismo autor, sin cruce indebido); Flesh [198212279X, sin
+  ES] (David Szalay); Brightly Shining [0802163491, sin ES] (Ingvild H. Rishøi); Night People
+  [1538741113, sin ES] (Mark Ronson, memorias); The Son of Man [0802160905, sin ES] (Jean-
+  Baptiste Del Amo); Mala feminista / Bad Feminist [8418966106] (Roxane Gay, Capitán Swing);
+  Jerusalem [1848420501, sin ES — obra de teatro] (Jez Butterworth); Bien tarde en el día / So
+  Late in the Day [8412846230] (Claire Keegan, Eterna Cadencia); Una vida buscando / Having
+  Spent Life Seeking [8439745958] (Kae Tempest, Literatura Random House).
+  Verificación Opus: ASIN 10 chars OK en las 14, integridad recomendadoPor OK, categorías
+  existentes OK, 0 `[DUP]` nuevos (detector solo reporta `[REV]` informativos, incluye
+  correctamente Percival Everett con James + Los árboles como dos obras distintas). Spot-check
+  de 2 fichas (Still Born, The Trees): sin errores, buena disambiguación de ediciones y de
+  Percival Everett vs. James.
+  **🎉 HITO: Dua Lipa 34/34 — referente #40 al 100%.** Catálogo: 194 libros.
+
 ### Referentes con cobertura 100% (fichas listas) — LOS 39 ✅
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
@@ -126,6 +147,7 @@ Jeff Bezos, Oprah Winfrey, Garry Kasparov, Malala Yousafzai, Gwyneth Paltrow,
 Marc Andreessen, Paul Graham, Nassim Nicholas Taleb, Satya Nadella, Malcolm Gladwell, Brené Brown,
 Neil deGrasse Tyson, Reese Witherspoon, Vitalik Buterin, Lex Fridman, Stephen King, J.K. Rowling,
 Emma Watson, Natalie Portman, Richard Branson. **(= los 39 referentes, catálogo 100% enriquecido.)**
+**+ Dua Lipa** (referente #40, completado 2026-07-12: 34/34 fichas + listicle).
 
 ---
 
@@ -241,6 +263,13 @@ el consenso del libro y mejora el interlinking.
 - **2026-07-10** — 3 listicles nuevos (vía manifiesto + subagente, spot-check sin correcciones):
   Sam Altman (4 libros), Naval Ravikant (8), Yuval Noah Harari (3).
   `/blog/libros-que-recomienda-{sam-altman,naval-ravikant,yuval-noah-harari}`.
+- **2026-07-12** — Dua Lipa (`/blog/libros-que-recomienda-dua-lipa`), escrito directamente (sin
+  subagente) con el manifiesto completo de las 34 fichas ya enriquecidas. Agrupado por año
+  (2023-2026, 6/10/12/6 libros) en vez de por tema, ya que el club es un pick mensual fechado y
+  esa estructura cuenta mejor la evolución de la selección. Verificación con script: 34/34 links
+  con `titulo` exacto, `slug` existente, `dua-lipa` en `recomendadoPor`, ASIN presente; 0 links
+  duplicados; 0 menciones de Amazon/afiliados en el cuerpo. **Dua Lipa queda con las 34 fichas +
+  el listicle: referente #40 al 100%.**
 
 ### Best-of por categoría (arquetipo 2)
 
