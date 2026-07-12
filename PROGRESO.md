@@ -85,6 +85,17 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   **🎉 HITO: 39/39 referentes al 100%. 162 libros, todos con reseña, 0 stubs (3 con ASIN vacío →
   fallback de búsqueda: The Bleeding Heart, Dare to Lead, The Network State).**
 
+- **2026-07-12 (Dua Lipa — tanda 1/varias)** — 8 fichas nuevas (subagente Sonnet), todas
+  recomendadas por Dua Lipa (Service95 Book Club), todas con edición ES verificada y ASIN
+  impreso (0 B0, 0 ASIN vacío): Cien años de soledad [8497592204] (García Márquez), Pachinko
+  [8494716964] (Min Jin Lee), Mil soles espléndidos [8498381223] (Hosseini), Éramos unos niños
+  [8499894453] (Patti Smith, memorias), La mala costumbre [8432242128] (Alana S. Portero, nativo
+  ES), En la Tierra somos fugazmente grandiosos [8433980599] (Ocean Vuong), Medio sol amarillo
+  [8439720696] (Adichie), No digas nada [8417910557] (Radden Keefe, historia). Spot-check Opus:
+  3 ASIN reverificados en amazon.es (Cien años, Pachinko, On Earth) → resuelven OK; sin citas
+  inventadas de Dua Lipa; 0 dups. Suma densidad de autor a Adichie (+Medio sol amarillo) y a
+  Keefe (+No digas nada). **Pendiente Dua Lipa: 24 fichas nuevas + listicle.**
+
 ### Referentes con cobertura 100% (fichas listas) — LOS 39 ✅
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,
