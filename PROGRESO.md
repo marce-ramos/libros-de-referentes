@@ -96,6 +96,27 @@ Formato de entrada: `- AAAA-MM-DD — <qué> (<detalle>). Global: <fichas con AS
   inventadas de Dua Lipa; 0 dups. Suma densidad de autor a Adichie (+Medio sol amarillo) y a
   Keefe (+No digas nada). **Pendiente Dua Lipa: 24 fichas nuevas + listicle.**
 
+- **2026-07-12 (Dua Lipa — tanda 2/varias)** — Manifiesto completo re-derivado (el de la tanda 1
+  se había reconciliado en el chat pero nunca se commiteó): refetch de
+  booknotification.com/book-clubs/service95-book-club (34 picks totales, jun-2023 a jun-2026) →
+  reconciliar.py sobre los 24 pendientes: **23 NUEVO + 1 REVISAR** (The Trees de Percival Everett
+  vs. James, ya en catálogo por Obama → confirmado libro distinto, mismo autor → NUEVO).
+  Enriquecidas **10 fichas nuevas** (subagente Sonnet): Shuggie Bain [8418342366] (Douglas
+  Stuart), The Vanishing Half [8439738641] (Brit Bennett), The Guest [8433927221] (Emma Cline),
+  Lágrimas en H-Mart / Crying in H Mart [1984898957, sin ES impresa confirmada] (Michelle
+  Zauner), Nadar en la oscuridad / Swimming in the Dark [8412292596] (Tomasz Jedrowski), Blanco y
+  negro / Noughts and Crosses [849250675X] (Malorie Blackman), Lincoln en el Bardo [8432235342]
+  (George Saunders), Sobre los huesos de los muertos [8416638802] (Olga Tokarczuk), La picadura
+  de abeja [8433929607] (Paul Murray), There There [0525436146, sin ES] (Tommy Orange).
+  Verificación Opus: ASIN 10 chars OK en las 10, integridad recomendadoPor OK, 0 [DUP] nuevos,
+  spot-check de 2 fichas (Crying in H Mart, There There) sin citas inventadas de Dua Lipa.
+  **Dua Lipa: 20/34. Pendiente: 14 fichas nuevas + listicle** (Grief Is the Thing with Feathers,
+  Still Born, Widow Basquiat, Small Boat, This House of Grief, The Trees, Flesh, Brightly
+  Shining, Night People, The Son of Man, Bad Feminist, Jerusalem, So Late in the Day, Having
+  Spent Life Seeking — manifiesto con fuente en `manifiesto_dua_lipa.txt`, no commiteado, para
+  no ensuciar el repo con un archivo de trabajo; regenerar con reconciliar.py si se pierde).
+  Catálogo: 180 libros.
+
 ### Referentes con cobertura 100% (fichas listas) — LOS 39 ✅
 
 Barack Obama, Warren Buffett, Elon Musk, Bill Gates, Ray Dalio, Mark Zuckerberg,

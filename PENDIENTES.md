@@ -1,6 +1,6 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-12.
+Punto de retomada. Última actualización: 2026-07-12 (tanda 2 de Dua Lipa).
 
 ---
 
@@ -11,9 +11,12 @@ Punto de retomada. Última actualización: 2026-07-12.
 - **Diseño "Estantes claros"** (lavanda + serif Fraunces): home con *Los más recomendados*
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
-- **Contenido:** 39 referentes, **162 libros, 9 categorías, catálogo 100% enriquecido** (todos con
-  reseña + edición; solo 3 con ASIN vacío → fallback de búsqueda). **Los 39 referentes al 100%.**
-  Detalle de todas las tandas y barridos en `PROGRESO.md`.
+- **Contenido:** 40 referentes (**los 39 originales al 100%** + **Dua Lipa en curso**), **180
+  libros, 9 categorías**. Detalle de todas las tandas y barridos en `PROGRESO.md`.
+- **En curso — Dua Lipa (Service95 Book Club):** referente nuevo agregado 2026-07-12.
+  20/34 fichas enriquecidas (tandas 1-2); **quedan 14 fichas nuevas + el listicle**. Manifiesto
+  completo de los 34 picks refetcheado y reconciliado (ver `PROGRESO.md` → sección Descubrimiento).
+  Al llegar a las 34, escribir `/blog/libros-que-recomienda-dua-lipa` (MODO LISTICLE).
 - **Blog:** 9 artículos — 8 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg) + 1 best-of de categoría (Negocios e
   Inversión). Todas las fichas enlazadas están saneadas.
