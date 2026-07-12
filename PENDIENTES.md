@@ -14,6 +14,10 @@ Punto de retomada. Última actualización: 2026-07-12 (Dua Lipa completo: 34/34 
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
   2026-07-12), **194 libros, 9 categorías**. Detalle de todas las tandas y barridos en
   `PROGRESO.md`.
+- **Rutas:** la sección de referentes se renombró de `/autores` a **`/referentes`** (2026-07-12),
+  con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
+  las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
+  `/autores` — ver Decisiones.)
 - **Blog:** 14 artículos — 13 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg, Ryan Holiday, Sam Altman, Naval Ravikant,
   Yuval Noah Harari, Dua Lipa) + 1 best-of de categoría (Negocios e Inversión). Todas las fichas
