@@ -2,6 +2,8 @@
 
 Punto de retomada. Última actualización: 2026-07-12 (Dua Lipa completo: 34/34 fichas + listicle).
 
+**Acciones/comandos disponibles:** `ACCIONES.md` (referencia rápida de una línea) · `ENRIQUECER.md` (detalle + reglas).
+
 ---
 
 ## ✅ Hecho

@@ -4,6 +4,28 @@ Spec compacto y autosuficiente para enriquecer **fichas de libros** y **páginas
 con un modelo barato (Sonnet). Objetivo: bajar el costo en tokens vs hacerlo con Opus.
 Es un extracto operativo de `CONTENIDO.md` (la fuente de verdad completa sigue siendo esa).
 
+## Catálogo de acciones (índice rápido)
+
+En una sesión alcanza con **nombrar la acción + el referente/categoría**; no hace falta
+re-explicar el procedimiento (está en la sección que se indica). El modelo sugerido sale de la
+Política de modelos. Toda acción respeta la **regla de propagación** (ver abajo).
+
+| Acción | Qué hace | Entrada | Receta | Modelo |
+| --- | --- | --- | --- | --- |
+| **Enriquecer** | Ficha nueva o stub → ficha completa (reseña original + ASIN de edición ES) | slugs, o "los que consideres" | MODO LIBRO | Sonnet |
+| **Discovery / barrido** | Encuentra más libros que recomienda un referente, extraídos de una fuente fetcheada → manifiesto | referente + su fuente | MODO DESCUBRIR | Haiku |
+| **Reconciliar** | Clasifica un manifiesto vs el catálogo: YA-LINKED / CROSS-REF / REVISAR / NUEVO | ref-slug + manifiesto | `reconciliar.py` | script |
+| **Cross-refs** | Suma un referente al `recomendadoPor` de fichas que ya existen (sube consenso) | salida CROSS-REF del reconciliar | MODO LIBRO (solo frontmatter) | Sonnet |
+| **Profundizar** | Suma libros de un backlog YA sourceado (sin discovery nuevo) → reconciliar → enriquecer → regenerar listicle | referente con backlog en PROGRESO | Acción "Profundizar" | Sonnet |
+| **Nuevo referente** | Pipeline completo desde cero: bio + discovery + reconciliar + enriquecer + listicle | nombre + fuente documentada | Acción "Nuevo referente" | Opus decide, Sonnet ejecuta |
+| **Bio de referente** | Bio genérica autogenerada → bio real con fuente | slug del autor | MODO REFERENTE | Sonnet |
+| **Listicle** | Post "Los libros que recomienda X" desde un manifiesto de fichas ya enriquecidas | referente | MODO LISTICLE | Sonnet |
+| **Best-of de categoría** | Post "Mejores libros de \<categoría\>" (mismo formato que listicle) | categoría | MODO LISTICLE (variante) | Sonnet |
+| **Verificar** | QA: duplicados + ASIN de 10 chars + integridad de `recomendadoPor` | — | Verificación | script |
+
+**Regla transversal (propagación):** cualquier acción que cambie la lista de libros de un
+referente que YA tiene listicle obliga a **regenerar ese listicle**. Ídem al sumar cross-refs.
+
 ## Política de modelos (qué tier para cada paso)
 
 Regla base: **la inteligencia del motor vive en este spec y en los scripts, no en el orquestador.**
@@ -105,7 +127,7 @@ Los archivos `autores/<slug>.md` con bio genérica ya traen la **fuente** identi
 nombre: "Nombre Apellido"        # no tocar
 profesion: "Rol principal"        # ajustar si es impreciso (ej: "Cofundador de Microsoft")
 bio: "1 frase natural con su credencial principal; se usa como meta description."
-foto: "/autores/<slug>.jpg"       # SOLO si ya existe el archivo; si no, NO agregar (hay monograma)
+foto: "/referentes/<slug>.jpg"    # SOLO si ya existe el archivo; si no, NO agregar (hay monograma)
 destacado: <mantener>
 orden: <mantener>
 ---
@@ -151,11 +173,11 @@ Cuerpo (original, tono del sitio):
 - Si son varios, agrupar por tipo con `## <Grupo>`; si son pocos, lista simple.
 - Un ítem por libro del manifiesto: `### [<titulo EXACTO>](/libros/<slug>) — <autor>` + 2-3 frases
   (reescribí a partir del `resumen`/reseña de la ficha; no copies literal).
-- Cierre con enlace a `/autores` (y a `/categorias/<x>` si aplica).
+- Cierre con enlace a `/referentes` (y a `/categorias/<x>` si aplica).
 
 Reglas duras:
 - Enlazar SOLO los slugs del manifiesto, con el `titulo` EXACTO como texto del enlace.
-- **Nunca** un link de afiliado en el post (solo internos: `/libros`, `/autores`, `/categorias`).
+- **Nunca** un link de afiliado en el post (solo internos: `/libros`, `/referentes`, `/categorias`).
 - Keyword en título, H1 (=titulo) y primeras 1-2 líneas. Una sola página por keyword.
 - `fecha` = hoy real. Contenido 100% original.
 
@@ -196,6 +218,40 @@ Opus decide: ¿mismo libro traducido = cross-ref, o libro nuevo?) o **NUEVO** (c
 match es por slug (el slug del catálogo deriva del título en inglés → resuelve el cross-idioma).
 Opus verifica una muestra de atribuciones contra las URLs-fuente. Recién entonces se enriquece
 (MODO LIBRO), y al terminar se corre el detector de duplicados (ver Verificación).
+
+## Acción "Profundizar" (backlog ya sourceado)
+
+Cuando un referente ya tiene un backlog de títulos sourceados (sección "Backlog" en su entrada de
+`PROGRESO.md`), **no se hace discovery de nuevo** — ya están identificados. Flujo:
+
+1. Extraé los títulos del backlog a un manifiesto `título|autor` (completá el autor con una
+   búsqueda si el backlog trae solo el título).
+2. `python3 tools/reconciliar.py <ref-slug> <manifiesto.txt> src/content/libros` → CROSS-REF
+   (sumar el referente a la ficha existente) y NUEVO (crear ficha).
+3. Enriquecé los NUEVO con MODO LIBRO. **Ojo:** los títulos recientes pueden no tener edición ES
+   todavía → NO los cargues; dejalos en una lista aparte "solo-inglés / a decidir" (el sitio
+   prioriza amazon.es, físico en español).
+4. `detectar_duplicados.py`.
+5. **Regenerá el listicle** del referente (MODO LISTICLE) — la lista cambió.
+6. Asentá la tanda en `PROGRESO.md`.
+
+## Acción "Nuevo referente" (pipeline completo)
+
+Sumar un referente desde cero (así se hizo Dua Lipa). Requiere una **fuente documentada y
+fetcheable** de sus recomendaciones (club de lectura, lista oficial, blog). Sin fuente sólida, no
+se agrega (riesgo de alucinación).
+
+1. **Bio:** creá `autores/<slug>.md` (MODO REFERENTE), `orden: 50`, profesión y bio reales con la
+   fuente. Sumá su ámbito en `src/lib/ambitos.ts`.
+2. **Discovery:** MODO DESCUBRIR sobre la fuente → manifiesto `título|autor|año|URL`.
+3. **Reconciliar:** `reconciliar.py <slug> <manifiesto>` → CROSS-REF + REVISAR + NUEVO.
+4. **Presentá el manifiesto reconciliado** antes de enriquecer en masa (decisión de Opus/usuario:
+   cuántos y cuáles, priorizando ediciones ES confirmadas).
+5. **Enriquecé** los NUEVO por tandas de ~8 (MODO LIBRO) + los CROSS-REF (frontmatter).
+6. **Verificá:** `detectar_duplicados.py` + spot-check de 1-2 fichas.
+7. **Listicle** del referente (MODO LISTICLE).
+8. **Asentá** cada tanda en `PROGRESO.md` y actualizá los conteos en `PENDIENTES.md`
+   (referentes, libros, blog).
 
 ## Verificación (correr al terminar cada lote)
 
