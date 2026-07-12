@@ -5,10 +5,11 @@ asin: "8433901927"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - dua-lipa
 anio: 2022
 resumen: "Cuatro manuscritos, cuatro versiones de la misma historia: la de un magnate de Wall Street y su misteriosa esposa. La novela del argentino Hernán Díaz que ganó el Pulitzer 2023, elegida por Obama entre sus libros favoritos de 2022."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-12
 ---
 
 Hay novelas que te hacen pensar en quién controla las historias y por qué. *Fortuna*, del escritor argentino Hernán Díaz —que vive en Nueva York y escribe en inglés—, es una de ellas. Ganó el Premio Pulitzer de Ficción en 2023, y el reconocimiento tiene todo el sentido cuando terminás de leerla.
@@ -16,6 +17,8 @@ Hay novelas que te hacen pensar en quién controla las historias y por qué. *Fo
 ## Por qué lo recomienda Barack Obama
 
 Obama incluyó *Trust* (publicada en español como *Fortuna*) entre sus libros favoritos del año 2022, en su lista anual publicada en Medium. Es el tipo de novela que a él le interesa: formalmente ambiciosa, con política y poder en el fondo, y una pregunta genuina sobre cómo se construye la verdad.
+
+A la recomendación de Obama se suma la de Dua Lipa, que la eligió como lectura de marzo de 2024 en su Service95 Book Club. Es una señal más de que *Fortuna* trascendió el círculo estrictamente literario para volverse una de esas novelas que mundos muy distintos coinciden en recomendar.
 
 ## De qué trata
 

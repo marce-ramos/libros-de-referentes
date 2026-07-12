@@ -178,6 +178,15 @@ el consenso del libro y mejora el interlinking.
   Descartados por rigor: Man's Search for Meaning ↔ Taleb (solo afinidad temática, sin rec
   explícita); Thinking Fast and Slow ↔ Naval (Naval lo criticó, no lo recomienda).
   Efecto: libros con 2+ referentes pasaron de 21 a **23**. **Global fichas: 72/142.**
+- **2026-07-12 (piloto Dua Lipa)** — Nuevo referente europeo con fuente documentada: **Dua Lipa**
+  (Service95 Book Club, pick mensual desde jun/2023). Bio creada en `autores/dua-lipa.md`.
+  Descubrimiento de 34 picks (fuente: booknotification.com/book-clubs/service95-book-club,
+  server-rendered) → reconciliado con `reconciliar.py`: 2 cross-ref, 3 REVISAR (mismo autor/otro
+  libro → nuevos) y 29 nuevos. **2 cross-refs hechos:**
+  - Trust / *Fortuna* (Hernán Díaz) → + Dua Lipa (ya tenía Obama → 2 referentes).
+  - The Handmaid's Tale / *El cuento de la criada* (Atwood) → + Dua Lipa (ya tenía Watson → 2).
+  Pendiente: enriquecer las **32 fichas nuevas** por tandas + listicle de Dua Lipa. Manifiesto
+  reconciliado en el chat (no commiteado).
 
 ## Artículos de blog
 
