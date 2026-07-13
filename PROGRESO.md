@@ -288,6 +288,39 @@ stub nuevo) → se enriquece (MODO LIBRO).
   No se encontró todavía una lista de verano 2026 publicada — backlog de Gates vuelve a 0 hasta
   que GatesNotes publique una lista nueva.
 
+- **2026-07-13 — Profundizar: Barack Obama (sin backlog previo → discovery nuevo).** Mismo caso
+  que Gates: el backlog había quedado en 0 el 2026-07-12. Discovery vía WebSearch (Obama
+  Foundation, Medium, Book Riot, Lit Hub — su propio Medium está indexado pero varias notas
+  agregadoras dan más detalle de título/autor por libro) sobre las dos listas más recientes:
+  **verano 2025** (10 libros) y **fin de año 2025** ("favoritos de libros, películas y música").
+  Manifiesto de 19 candidatos → `reconciliar.py`: **2 YA-LINKED** (The Sirens' Call, Who is
+  Government?, ya estaban del backlog cerrado en 2026-07-12) + **2 REVISAR** (We the People vs.
+  These Truths, misma autora Jill Lepore → confirmado libro real y distinto, 2025, sobre la
+  historia de las enmiendas constitucionales, ganador del Pulitzer 2026 → NUEVO; The Look vs.
+  Becoming, misma autora Michelle Obama → confirmado libro real y distinto, 2025, sobre moda y
+  estilo, no autobiografía → NUEVO) + **15 NUEVO** directos. Enriquecidos los **17 NUEVO** con
+  MODO LIBRO (escritos directamente, sin subagente): Mark Twain [solo inglés, Penguin Press,
+  asin 0525561722] (Ron Chernow); The Book of Records [solo inglés, Norton, asin 1324078650]
+  (Madeleine Thien); El rey de las cenizas [ES, Salamandra, asin 8419851949] (S.A. Cosby);
+  Audition [solo inglés, Riverhead, asin 059385232X] (Katie Kitamura); A Marriage at Sea [solo
+  inglés, Riverhead, asin 0593854284] (Sophie Elmhirst); The Buffalo Hunter Hunter [solo inglés,
+  Saga Press, asin 1668075083] (Stephen Graham Jones); Paper Girl [solo inglés, Celadon, asin
+  0593656733] (Beth Macy); Flashlight [solo inglés, FSG, asin 037461637X] (Susan Choi); We the
+  People [solo inglés, Liveright/Norton, asin 1631496085] (Jill Lepore); The Wilderness [solo
+  inglés, Mariner, asin 0063318776] (Angela Flournoy); There Is No Place for Us [solo inglés,
+  Crown, asin 0593237145] (Brian Goldstone); North Sun [solo inglés, A Strange Object/Deep
+  Vellum, asin 1646053583] (Ethan Rutherford); 1929 [solo inglés, Viking, asin 0593296966]
+  (Andrew Ross Sorkin); La soledad de Sonia y Sunny [ES, Salamandra, asin B0FWKJHNTB — ISBN-13
+  979-prefijo, sin ISBN-10, se usó el ASIN] (Kiran Desai); Dead and Alive [solo inglés, Penguin
+  Press, asin 0593834682] (Zadie Smith); What We Can Know [solo inglés, Knopf, asin 0593804724]
+  (Ian McEwan); The Look [solo inglés, Crown, asin 0593800702] (Michelle Obama).
+  `detectar_duplicados.py`: 0 `[DUP]` exactos (Jill Lepore y Michelle Obama quedan con 2 libros
+  distintos cada una, casos `[REV]` legítimos). ASIN 10 caracteres OK en los 17, integridad
+  `recomendadoPor` OK. **Obama 44 → 61 libros**; catálogo 284 → 301. Listicle de Obama
+  regenerado a 61 (9 nuevos a "Ficción", 8 nuevos a "No ficción: memorias, ciencia y ensayo").
+  Nota curiosa: "The Look" es la primera vez que Obama recomienda un libro escrito por su propia
+  esposa. Backlog de Obama vuelve a 0 hasta su próxima lista (verano 2026 o fin de año 2026).
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

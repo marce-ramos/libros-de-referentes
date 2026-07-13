@@ -2,7 +2,7 @@
 titulo: "Los libros que recomienda Barack Obama (lista actualizada 2026)"
 descripcion: "Las lecturas favoritas de Barack Obama: ficción premiada, memorias y ensayo de sus listas anuales, con una guía de cada libro y dónde conseguirlo en español."
 fecha: 2026-07-05
-fechaActualizado: 2026-07-12
+fechaActualizado: 2026-07-13
 autor: "Los Imperdibles"
 keywords:
   - "libros que recomienda Barack Obama"
@@ -11,7 +11,7 @@ keywords:
 draft: false
 ---
 
-Los libros que recomienda Barack Obama son, cada año, una de las listas más esperadas de internet. Desde que dejó la presidencia, publica sus lecturas de verano y sus favoritos de fin de año en Medium y redes sociales con una consistencia poco habitual: cada diciembre, una selección que mezcla novela literaria premiada, ensayo, memorias y no ficción narrativa. Acá reunimos los 44 títulos de sus listas que podés encontrar en el catálogo de Los Imperdibles.
+Los libros que recomienda Barack Obama son, cada año, una de las listas más esperadas de internet. Desde que dejó la presidencia, publica sus lecturas de verano y sus favoritos de fin de año en Medium y redes sociales con una consistencia poco habitual: cada diciembre, una selección que mezcla novela literaria premiada, ensayo, memorias y no ficción narrativa. Acá reunimos los 61 títulos de sus listas que podés encontrar en el catálogo de Los Imperdibles.
 
 ## Ficción
 
@@ -113,6 +113,42 @@ Una microbióloga investiga una fosa oceánica insondable y termina involucrada 
 
 Una funcionaria del gobierno británico se convierte en la "guía" de un explorador polar rescatado del siglo XIX mediante viajes en el tiempo, en una novela que mezcla espionaje, romance y ciencia ficción. Obama la incluyó en su lista de verano 2024.
 
+### [The Book of Records](/libros/the-book-of-records) — Madeleine Thien
+
+Una joven y su padre enfermo conviven en un edificio de refugiados fuera del tiempo con las presencias de Spinoza, Hannah Arendt y el poeta Du Fu, cada uno atrapado en su propio exilio histórico. Una fábula sobre migración y memoria de la autora de *No digas que no tenemos nada*. Obama la incluyó en su lista de verano 2025.
+
+### [El rey de las cenizas](/libros/king-of-ashes) — S.A. Cosby
+
+Un genio financiero vuelve a su pueblo natal del sur después de que un accidente deja a su padre al borde de la muerte, y encuentra a su hermano endeudado con criminales peligrosos. Cosby inspira esta novela en *El padrino* y la traslada a un Sur racialmente marcado y violento. Obama lo describió como uno de sus escritores de ficción criminal favoritos, en su lista de verano 2025.
+
+### [Audition](/libros/audition) — Katie Kitamura
+
+Una actriz almuerza con un hombre joven que podría ser su amante, su hijo perdido en adopción, o un extraño con intenciones oscuras —y la novela nunca termina de decidir cuál. Finalista del Booker 2025. Obama la incluyó en su lista de verano 2025.
+
+### [The Buffalo Hunter Hunter](/libros/the-buffalo-hunter-hunter) — Stephen Graham Jones
+
+Un vampiro de origen Pikuni recorre la reserva Blackfeet durante más de un siglo buscando justicia por la matanza sistemática de los búfalos —la fuente de vida de su pueblo— usada como arma de exterminio cultural. Horror histórico con una rabia política que la no ficción rara vez se permite. Obama lo incluyó en su lista de verano 2025.
+
+### [Flashlight](/libros/flashlight) — Susan Choi
+
+Un padre y su hija caminan de noche por una playa de Japón; solo ella vuelve. Susan Choi reconstruye hacia atrás y hacia adelante tres generaciones de una familia coreano-japonesa-estadounidense a partir de esa desaparición. Finalista del Women's Prize 2026. Obama la incluyó en su lista de fin de año 2025.
+
+### [The Wilderness](/libros/the-wilderness) — Angela Flournoy
+
+Cinco mujeres negras sostienen una amistad a lo largo de dos décadas de mudanzas, maternidades y ambiciones que no siempre avanzan al mismo ritmo. De la autora de *The Turner House*, finalista del Kirkus Prize. Obama la incluyó en su lista de fin de año 2025.
+
+### [North Sun](/libros/north-sun) — Ethan Rutherford
+
+Un ballenero del siglo XIX queda atrapado en el hielo del Ártico y su tripulación debe sobrevivir un invierno entero sin poder navegar. Ficción histórica marítima donde el verdadero antagonista es la naturaleza misma. Obama la incluyó en su lista de verano 2025.
+
+### [La soledad de Sonia y Sunny](/libros/the-loneliness-of-sonia-and-sunny) — Kiran Desai
+
+Dos jóvenes indios se conocen en Estados Unidos y su vínculo se estira, con interrupciones y reencuentros, a lo largo de años y continentes. El regreso de la autora de *El legado de la pérdida* después de veinte años de silencio editorial. Obama la incluyó en su lista de fin de año 2025.
+
+### [What We Can Know](/libros/what-we-can-know) — Ian McEwan
+
+En un futuro tras el colapso climático, un académico investiga un poema legendario y perdido, y descubre un secreto personal que ninguna fuente histórica había registrado. McEwan explora los límites de lo que realmente podemos saber sobre el pasado. Obama la incluyó en su lista de fin de año 2025.
+
 ## No ficción: memorias, ciencia y ensayo
 
 ### [Sapiens: De animales a dioses](/libros/sapiens) — Yuval Noah Harari
@@ -195,6 +231,38 @@ El conductor de MSNBC analiza cómo la atención humana se convirtió en el recu
 
 Un ensayo sobre por qué a Estados Unidos le cuesta tanto construir cosas y qué haría falta para revertirlo. Obama lo calificó de "lectura obligada para progresistas que buscan un plano para reformar el gobierno", en su lista de verano 2025. También lo recomendó [Bill Gates](/referentes/bill-gates).
 
+### [Mark Twain](/libros/mark-twain) — Ron Chernow
+
+La biografía definitiva del primer gran humorista y celebridad literaria de Estados Unidos, por el mismo autor de las biografías de Hamilton, Washington y Grant. Casi mil doscientas páginas con acceso a archivos completos de cartas y manuscritos inéditos. Obama la incluyó en su lista de verano 2025.
+
+### [A Marriage at Sea](/libros/a-marriage-at-sea) — Sophie Elmhirst
+
+La historia real de un matrimonio que pasó 118 días a la deriva en el Pacífico después de que una ballena hundiera su velero, y de lo que esa experiencia límite le hizo a la relación mucho después de volver a tierra firme. Obama la incluyó en su lista de verano 2025.
+
+### [Paper Girl](/libros/paper-girl) — Beth Macy
+
+La autora de *Dopesick* vuelve a su pueblo natal en Ohio para entender, a través de su propia historia familiar, por qué comunidades como la suya se volcaron al trumpismo tras décadas de estancamiento económico. Obama la incluyó en su lista de fin de año 2025.
+
+### [We the People](/libros/we-the-people) — Jill Lepore
+
+La historiadora de *These Truths* reconstruye casi doce mil propuestas de enmienda a la Constitución de Estados Unidos presentadas desde 1789, la mayoría impulsadas por ciudadanos comunes. Ganó el Pulitzer de Historia 2026. Obama la incluyó en su lista de fin de año 2025.
+
+### [There Is No Place for Us](/libros/there-is-no-place-for-us) — Brian Goldstone
+
+Un reportaje de años sobre familias de Atlanta que trabajan tiempo completo, a veces con dos y tres empleos, y aun así no logran mantener un techo estable. Documenta la falta de vivienda como algo que puede convivir con el empleo pleno. Obama lo incluyó en su lista de verano 2025.
+
+### [1929](/libros/1929) — Andrew Ross Sorkin
+
+El periodista de *Too Big to Fail* retrocede un siglo para reconstruir la avaricia y el optimismo ciego que llevaron al crac bursátil que abrió paso a la Gran Depresión. Obama lo incluyó en su lista de fin de año 2025.
+
+### [Dead and Alive](/libros/dead-and-alive) — Zadie Smith
+
+Una colección de ensayos que combina elegías a escritores como Joan Didion y Philip Roth con celebraciones de todo lo que sigue vivo. Mejor Libro del Año según *The New Yorker*, *TIME* y *Vanity Fair*. Obama la incluyó en su lista de fin de año 2025.
+
+### [The Look](/libros/the-look) — Michelle Obama
+
+Con más de doscientas fotografías, Michelle Obama repasa cómo su forma de vestir —desde la Casa Blanca hasta su vida después de la presidencia— fue también una manera de afirmar sus valores. Un caso poco habitual: Obama recomendando el libro de su propia esposa, en su lista de fin de año 2025.
+
 ## En resumen
 
-Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 44 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/referentes).
+Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 61 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/referentes).
