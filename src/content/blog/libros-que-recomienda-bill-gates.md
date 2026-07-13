@@ -2,7 +2,7 @@
 titulo: "Los libros que recomienda Bill Gates (guía 2026)"
 descripcion: "La lista completa de libros que recomienda Bill Gates, con reseña de cada uno: historia, ciencia, tecnología y grandes memorias de su blog GatesNotes."
 fecha: 2026-06-28
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-12
 autor: "Los Imperdibles"
 keywords:
   - "libros que recomienda Bill Gates"
@@ -51,6 +51,10 @@ Gates ha recomendado tantos libros de Vaclav Smil a lo largo de los años que en
 
 Uno de los libros más comentados de 2024, y aparece en la lista de Gates y en la de [Barack Obama](/referentes/barack-obama) el mismo año. El psicólogo social Jonathan Haidt vincula el deterioro marcado de la salud mental adolescente con la llegada masiva del smartphone y las redes sociales a partir de 2010, y no se queda en el diagnóstico: propone cuatro medidas concretas para revertir el daño. Un libro que ordena, con datos, una preocupación que muchos sienten pero pocos saben nombrar.
 
+### [El mundo no se acaba](/libros/not-the-end-of-the-world) — Hannah Ritchie
+
+Gates la comparó con Hans Rosling: la investigadora de Our World in Data usa evidencia, no titulares, para mostrar que en varios frentes ambientales —aire, deforestación, alimentación, biodiversidad— el mundo está mejorando, aunque la sensación dominante sea la contraria. Gates la calificó como "el antídoto perfecto contra el fatalismo climático".
+
 ## Historia, memorias y negocios
 
 ### [Sapiens: De animales a dioses](/libros/sapiens) — Yuval Noah Harari
@@ -85,6 +89,40 @@ Trevor Noah nació en la Sudáfrica del apartheid siendo hijo de una mujer negra
 
 Más de setecientas páginas de prosa cuidada, autocrítica y sorprendentemente vulnerable para alguien que ocupó el cargo más poderoso del mundo. Gates lo incluyó en su lista de fin de año 2020 y lo recomendó como una lectura indispensable para entender cómo se toman las grandes decisiones bajo presión extrema, destacando la honestidad con la que Obama describe sus dudas, sus errores y los límites reales del poder presidencial.
 
+### [These Truths](/libros/these-truths) — Jill Lepore
+
+Casi 250 años de historia de Estados Unidos en un solo volumen, con las voces que la historiografía tradicional dejó afuera puestas en el centro del relato. Gates la incluyó entre sus favoritos de 2019 destacando que está "cargada de detalles asombrosos" y que muestra, mejor que ningún otro libro que haya leído sobre el tema, las contradicciones entre el ideal americano y su práctica real. Por ahora solo disponible en inglés.
+
+### [La gran gripe](/libros/the-great-influenza) — John M. Barry
+
+La reconstrucción definitiva de la pandemia de gripe de 1918, la más letal de la historia moderna. Gates la releyó después de 2020 y quedó impresionado por lo bien que Barry, dieciséis años antes, había anticipado que "otra pandemia casi con certeza va a pasar": la usa como lente para entender el Covid-19 y extraer lecciones de liderazgo en crisis.
+
+### [Esplendor y vileza](/libros/the-splendid-and-the-vile) — Erik Larson
+
+El año 1940-41 en que Churchill lideró la resistencia británica durante el Blitz, contado con el ritmo de una novela. Gates lo describió como "el tipo de libro que no podés soltar, algo que siempre buscás en un libro de historia y rara vez encontrás", destacando en particular cómo Larson retrata el liderazgo de Churchill bajo presión extrema y su capacidad para combinar honestidad brutal con esperanza creíble.
+
+### [Espía y traidor](/libros/the-spy-and-the-traitor) — Ben Macintyre
+
+La historia real de Oleg Gordievsky, el oficial de la KGB que durante más de una década informó a Londres y ayudó a evitar que un malentendido militar terminara en guerra nuclear. Gates dijo que "es tan emocionante como mis novelas de espías favoritas", con el plus de que cada giro dramático está documentado y no inventado.
+
+### [Born in Blackness](/libros/born-in-blackness) — Howard W. French
+
+Cinco siglos de historia que ponen a África y a los africanos en el centro del ascenso económico de Occidente, no en su margen. Gates dijo que el libro lo dejó "más curioso" —un elogio, aclaró, no una crítica— sobre cómo el comercio y la mano de obra esclavizada africana financiaron directamente buena parte del capitalismo moderno. Por ahora solo disponible en inglés.
+
+### [Historia personal](/libros/personal-history) — Katharine Graham
+
+Las memorias de la mujer que dirigió The Washington Post durante los Papeles del Pentágono y el Watergate. Gates, que conoció a Graham en 1991, la incluyó entre los mejores libros de memorias que leyó nunca, destacando la honestidad con la que ella describe el miedo y la inseguridad de asumir un liderazgo para el que nadie la había preparado.
+
+### [Abundancia](/libros/abundance) — Ezra Klein y Derek Thompson
+
+Un ensayo sobre por qué a Estados Unidos le cuesta tanto construir cosas —vivienda, infraestructura, ciencia— y qué haría falta para revertirlo. Gates lo sumó a su lista de fin de 2025 diciendo que "no tiene todas las respuestas", pero que Klein y Thompson "están haciendo las preguntas correctas", algo que conecta con su propia experiencia gestionando proyectos de gran escala con agencias de gobierno.
+
+## Psicología y relaciones
+
+### [Cómo conocer a una persona](/libros/how-to-know-a-person) — David Brooks
+
+Gates lo llamó su libro favorito de David Brooks hasta la fecha: "un plano para una forma de vivir más conectada y humana". Brooks organiza el libro alrededor de curiosidad, empatía y autoconciencia, y Gates adoptó directamente una de sus técnicas —hacer preguntas abiertas en vez de cerradas— después de leerlo.
+
 ## Ficción
 
 ### [Klara y el Sol](/libros/klara-and-the-sun) — Kazuo Ishiguro
@@ -110,6 +148,14 @@ Sam y Sadie se conocen de niños en la sala de juegos de un hospital y años des
 ### [El clamor de los bosques](/libros/the-overstory) — Richard Powers
 
 Nueve personajes cuyos destinos se entrelazan alrededor de los árboles, en una novela que ganó el Pulitzer 2019 y opera en una escala de tiempo distinta a la mayoría: la de los bosques, que no viven ni se comunican como nosotros. Gates la recomendó en su lista de verano 2019, describiéndola como "una de las novelas más inusuales que leí en años" y admitiendo que lo cambió la manera de ver los árboles cada vez que salía a caminar. Una entrada emocional a la discusión sobre el medioambiente que ningún informe científico puede reemplazar.
+
+### [Las mujeres de la guerra](/libros/the-women) — Kristin Hannah
+
+Frankie McGrath se ofrece como enfermera del ejército para servir en Vietnam y cumple dos períodos en el frente atendiendo heridos bajo fuego; al volver, se encuentra con un país que no tiene ningún lugar simbólico para las mujeres que sirvieron. Gates la puso a la cabeza de su lista de verano 2024 y la describió como "un tributo bellamente escrito a un grupo de veteranas que merecen mucho más reconocimiento". Terminó siendo el libro más vendido publicado ese año en Estados Unidos.
+
+### [El Ministerio del Futuro](/libros/the-ministry-for-the-future) — Kim Stanley Robinson
+
+Arranca con una ola de calor en India tan brutal que mata a millones de personas en pocos días, y sigue el trabajo de un organismo creado para representar a las generaciones futuras. Gates escribió que ningún otro libro que haya leído muestra tan bien, de forma dramática pero realista, cómo el calor extremo puede matar gente, y destacó que a pesar del arranque devastador, la novela lo sorprendió por su final esperanzador.
 
 ---
 

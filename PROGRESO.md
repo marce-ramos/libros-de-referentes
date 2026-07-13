@@ -189,6 +189,16 @@ stub nuevo) → se enriquece (MODO LIBRO).
   Backlog (11 sourceados): These Truths, The Great Influenza, The Splendid and the Vile, The Spy
   and the Traitor, The Ministry for the Future, Born in Blackness, Not the End of the World,
   How to Know a Person, The Women, Personal History, Abundance.
+- **2026-07-12 — Profundizar: Bill Gates (backlog cerrado).** `reconciliar.py` sobre los 11
+  títulos del backlog: **11 NUEVO** (0 cross-ref, 0 revisar). Enriquecidos los 11 con MODO LIBRO:
+  These Truths (solo inglés, W. W. Norton), La gran gripe (Capitán Swing), Esplendor y vileza
+  (Ariel), Espía y traidor (Crítica), El Ministerio del Futuro (Minotauro), Born in Blackness
+  (solo inglés, Liveright/Norton), El mundo no se acaba (Anagrama), Cómo conocer a una persona
+  (Océano), Las mujeres de la guerra (Suma), Historia personal (Vintage Español), Abundancia
+  (HarperCollins Español). `detectar_duplicados.py`: 0 dups exactos. **Gates 23 → 34**;
+  catálogo 194 → 205 (0 stubs). Listicle de Gates regenerado a 34 (nuevo grupo "Psicología y
+  relaciones" para *Cómo conocer a una persona*, único de esa categoría). Backlog de Gates
+  queda en 0 — cerrado hasta el próximo barrido de descubrimiento.
 
 ## Cruces referente↔libro (relaciones nuevas)
 
