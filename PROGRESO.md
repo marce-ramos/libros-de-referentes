@@ -263,6 +263,31 @@ stub nuevo) → se enriquece (MODO LIBRO).
   **Backlog pendiente: ~73 candidatos de 2017-2022** (sourceados en el discovery, sin enriquecer
   todavía) — queda para una futura tanda de "Profundizar Reese Witherspoon".
 
+- **2026-07-13 — Profundizar: Bill Gates (sin backlog previo → discovery nuevo).** El backlog de
+  Gates había quedado en 0 el 2026-07-12, así que esta vez la acción "Profundizar" arrancó con un
+  barrido de descubrimiento chico: GatesNotes vía WebSearch (CNBC, Forbes, Kirkus — la página
+  gatesnotes.com/books/reading-lists es JS-renderizada y no se pudo fetchear directo). Se
+  cubrieron las dos listas más recientes no capturadas antes: **verano 2025** (5 memorias) y
+  **fin de año 2025** (5 libros). `reconciliar.py` sobre 10 candidatos: **4
+  YA-LINKED** (Personal History/Historia personal, Educated/Una educación, Born a Crime/Prohibido
+  nacer y Abundance/Abundancia ya estaban) + **1 REVISAR** (Clearing the Air vs. Not the End of
+  the World, mismo autor Hannah Ritchie → confirmado libro real y distinto, publicado 2025 por MIT
+  Press, distinto del de 2024 → NUEVO) + **5 NUEVO** directos. Enriquecidos los **6 NUEVO** con
+  MODO LIBRO (escritas directamente, sin subagente, por ser lote chico): Chasing Hope: A
+  Reporter's Life [solo inglés, Knopf, asin 0593536568] (Nicholas D. Kristof); Surrender: 40
+  canciones, una historia [ES, Reservoir Books, asin 8418897600] (Bono); Criaturas luminosas /
+  Remarkably Bright Creatures [ES, Grijalbo, asin 1644738643] (Shelby Van Pelt); Clearing the Air
+  [solo inglés, MIT Press, asin 0262052741] (Hannah Ritchie); Who Knew [solo inglés, Simon &
+  Schuster, asin 1668096870] (Barry Diller); Cuando todos saben que todos lo saben / When
+  Everyone Knows That Everyone Knows [ES, Paidós, asin 8449345103] (Steven Pinker).
+  `detectar_duplicados.py`: 0 `[DUP]` exactos (Hannah Ritchie queda con 2 libros distintos, caso
+  `[REV]` legítimo). ASIN 10 caracteres OK en los 6, integridad `recomendadoPor` OK. **Gates 34 →
+  40 libros**; catálogo 278 → 284. Listicle de Gates regenerado a 40 (Clearing the Air a "Ciencia
+  y tecnología"; Chasing Hope, Surrender y Who Knew a "Historia, memorias y negocios"; Cuando
+  todos saben que todos lo saben a "Psicología y relaciones"; Criaturas luminosas a "Ficción").
+  No se encontró todavía una lista de verano 2026 publicada — backlog de Gates vuelve a 0 hasta
+  que GatesNotes publique una lista nueva.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

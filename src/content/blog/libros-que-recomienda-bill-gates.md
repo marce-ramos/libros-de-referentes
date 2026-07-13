@@ -2,7 +2,7 @@
 titulo: "Los libros que recomienda Bill Gates (guía 2026)"
 descripcion: "La lista completa de libros que recomienda Bill Gates, con reseña de cada uno: historia, ciencia, tecnología y grandes memorias de su blog GatesNotes."
 fecha: 2026-06-28
-fechaActualizado: 2026-07-12
+fechaActualizado: 2026-07-13
 autor: "Los Imperdibles"
 keywords:
   - "libros que recomienda Bill Gates"
@@ -54,6 +54,10 @@ Uno de los libros más comentados de 2024, y aparece en la lista de Gates y en l
 ### [El mundo no se acaba](/libros/not-the-end-of-the-world) — Hannah Ritchie
 
 Gates la comparó con Hans Rosling: la investigadora de Our World in Data usa evidencia, no titulares, para mostrar que en varios frentes ambientales —aire, deforestación, alimentación, biodiversidad— el mundo está mejorando, aunque la sensación dominante sea la contraria. Gates la calificó como "el antídoto perfecto contra el fatalismo climático".
+
+### [Clearing the Air](/libros/clearing-the-air) — Hannah Ritchie
+
+El segundo libro de Ritchie en la lista de Gates, esta vez con una lupa más quirúrgica: cincuenta preguntas puntuales sobre cambio climático —minerales, energía nuclear, autos eléctricos, geoingeniería— respondidas una por una con datos duros en vez de sentido común o miedo. Gates lo eligió entre sus favoritos de 2025; el libro fue además Mejor Libro del Año del *Financial Times* y el *New Statesman*.
 
 ## Historia, memorias y negocios
 
@@ -117,11 +121,27 @@ Las memorias de la mujer que dirigió The Washington Post durante los Papeles de
 
 Un ensayo sobre por qué a Estados Unidos le cuesta tanto construir cosas —vivienda, infraestructura, ciencia— y qué haría falta para revertirlo. Gates lo sumó a su lista de fin de 2025 diciendo que "no tiene todas las respuestas", pero que Klein y Thompson "están haciendo las preguntas correctas", algo que conecta con su propia experiencia gestionando proyectos de gran escala con agencias de gobierno.
 
+### [Chasing Hope: A Reporter's Life](/libros/chasing-hope-a-reporter-s-life) — Nicholas D. Kristof
+
+Cuarenta años de coberturas en más de 150 países —Tiananmen, Darfur, Bosnia, el Congo— narrados no como anecdotario de guerra sino como la pregunta que sostiene todo el libro: cómo se sigue creyendo que el mundo puede mejorar después de ver tanto de lo peor. Gates lo incluyó en su lista de verano 2025 junto a otras cuatro memorias, destacando el optimismo basado en evidencia de Kristof, muy parecido al que Gates busca en sus propias lecturas de no ficción.
+
+### [Surrender: 40 canciones, una historia](/libros/surrender-40-songs-one-story) — Bono
+
+Las memorias de Bono organizadas en cuarenta capítulos, cada uno con el nombre de una canción de U2. Gates la sumó a su lista de verano 2025 y dijo que fue "un gran modelo" para escribir con vulnerabilidad sobre los propios desafíos, una referencia directa a que Gates estaba por esos años terminando su propia memoria, *Source Code*.
+
+### [Who Knew](/libros/who-knew) — Barry Diller
+
+Las memorias del magnate de medios que dirigió Paramount y Fox y luego fundó IAC, con un relato tan franco de sus fracasos de estudio como de su salida del clóset ya adulto y casado con Diane von Fürstenberg. Gates la eligió para su lista de fin de año 2025 y la describió como "cruda y honesta de una manera en que la mayoría de las memorias de negocios no lo son".
+
 ## Psicología y relaciones
 
 ### [Cómo conocer a una persona](/libros/how-to-know-a-person) — David Brooks
 
 Gates lo llamó su libro favorito de David Brooks hasta la fecha: "un plano para una forma de vivir más conectada y humana". Brooks organiza el libro alrededor de curiosidad, empatía y autoconciencia, y Gates adoptó directamente una de sus técnicas —hacer preguntas abiertas en vez de cerradas— después de leerlo.
+
+### [Cuando todos saben que todos lo saben](/libros/when-everyone-knows-that-everyone-knows) — Steven Pinker
+
+Pinker explica el "conocimiento común" —esa capa extra de saber que todos saben que todos saben— y cómo explica desde burbujas financieras hasta revoluciones que parecen surgir de la nada. Gates lo sumó a su lista de fin de año 2025 dentro de un grupo de libros que, según sus palabras, "corren el telón para mostrar cómo funciona algo importante en realidad".
 
 ## Ficción
 
@@ -156,6 +176,10 @@ Frankie McGrath se ofrece como enfermera del ejército para servir en Vietnam y 
 ### [El Ministerio del Futuro](/libros/the-ministry-for-the-future) — Kim Stanley Robinson
 
 Arranca con una ola de calor en India tan brutal que mata a millones de personas en pocos días, y sigue el trabajo de un organismo creado para representar a las generaciones futuras. Gates escribió que ningún otro libro que haya leído muestra tan bien, de forma dramática pero realista, cómo el calor extremo puede matar gente, y destacó que a pesar del arranque devastador, la novela lo sorprendió por su final esperanzador.
+
+### [Criaturas luminosas](/libros/remarkably-bright-creatures) — Shelby Van Pelt
+
+Una viuda que limpia de noche un acuario entabla una amistad improbable con Marcellus, un pulpo gigante del Pacífico con más inteligencia —y más secretos— de los que cualquiera en el pueblo sospecharía. Gates la eligió para su lista de fin de año 2025, la única novela pura de esa selección, y dijo que lo ayudó "a entender un poco mejor el proceso de envejecer".
 
 ---
 
