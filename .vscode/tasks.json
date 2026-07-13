@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "powershell.exe",
+            "args": ["-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/build.ps1"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Commit y Push",
+            "type": "shell",
+            "command": "powershell.exe",
+            "args": ["-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/commit-push.ps1"],
+            "problemMatcher": []
+        }
+    ]
+}
