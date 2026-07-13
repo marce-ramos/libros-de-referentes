@@ -1,7 +1,8 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-12 (Profundizar Bill Gates: backlog de 11
-cerrado, Gates 23 → 34 libros, listicle regenerado).
+Punto de retomada. Última actualización: 2026-07-12 (Profundizar Barack Obama: backlog de 22
+cerrado, Obama 22 → 44 libros, listicle regenerado; antes, mismo día, Profundizar Bill Gates:
+backlog de 11 cerrado, Gates 23 → 34 libros).
 
 **Acciones/comandos disponibles:** `ACCIONES.md` (referencia rápida de una línea) · `ENRIQUECER.md` (detalle + reglas).
 
@@ -15,8 +16,9 @@ cerrado, Gates 23 → 34 libros, listicle regenerado).
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **205 libros, 9 categorías**. Bill Gates profundizado 2026-07-12: backlog de 11
-  libros cerrado (23 → 34). Detalle de todas las tandas y barridos en `PROGRESO.md`.
+  2026-07-12), **226 libros, 9 categorías**. Bill Gates y Barack Obama profundizados el
+  2026-07-12: backlogs cerrados (Gates 23 → 34, Obama 22 → 44). Detalle de todas las tandas y
+  barridos en `PROGRESO.md`.
 - **Rutas:** la sección de referentes se renombró de `/autores` a **`/referentes`** (2026-07-12),
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
@@ -58,9 +60,11 @@ cerrado, Gates 23 → 34 libros, listicle regenerado).
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
    Además se construyó el motor de subagente barato (`ENRIQUECER.md`, `tools/`) y se corrieron
-   barridos de descubrimiento (Obama, Gates) que sumaron libros nuevos. Gates profundizado por
-   completo el 2026-07-12 (backlog en 0). Backlog sourceado pendiente en `PROGRESO.md`:
-   **Obama ~12**.
+   barridos de descubrimiento (Obama, Gates) que sumaron libros nuevos. Gates y Obama
+   profundizados por completo el 2026-07-12 (ambos backlogs en 0). Sin backlogs sourceados
+   pendientes por ahora — el próximo paso en este frente es correr un nuevo barrido de
+   descubrimiento (MODO DESCUBRIR) sobre otro referente top, o sobre Gates/Obama si suman picks
+   nuevos a sus listas anuales.
 4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
    automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
    página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.

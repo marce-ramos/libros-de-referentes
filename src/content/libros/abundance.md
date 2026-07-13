@@ -5,17 +5,22 @@ asin: "0063487306"
 categoria: negocios
 recomendadoPor:
   - bill-gates
+  - barack-obama
 anio: 2025
-resumen: "Ezra Klein y Derek Thompson preguntan por qué a Estados Unidos le cuesta tanto construir cosas y proponen una 'agenda de la abundancia'. Bill Gates lo recomendó en su lista de fin de año 2025."
+resumen: "Ezra Klein y Derek Thompson preguntan por qué a Estados Unidos le cuesta tanto construir cosas y proponen una 'agenda de la abundancia'. Bill Gates y Barack Obama lo recomendaron en 2025."
 destacado: false
 fechaActualizado: 2026-07-12
 ---
 
-*Abundancia* fue una de las recomendaciones de Bill Gates para las fiestas de fin de año 2025: un ensayo que pregunta por qué a Estados Unidos le cuesta tanto construir cosas —viviendas, infraestructura, avances científicos— y qué haría falta para revertirlo.
+*Abundancia* fue una de las recomendaciones de Bill Gates para las fiestas de fin de año 2025 y también uno de los favoritos de Barack Obama en su lista de lecturas de verano del mismo año: un ensayo que pregunta por qué a Estados Unidos le cuesta tanto construir cosas —viviendas, infraestructura, avances científicos— y qué haría falta para revertirlo.
 
 ## Por qué lo recomienda Bill Gates
 
 Gates describió el libro como "una mirada aguda a por qué a Estados Unidos parece costarle tanto construir cosas, y qué hará falta para arreglarlo". Aclaró que el libro "no tiene todas las respuestas", pero que Klein y Thompson "están haciendo las preguntas correctas", algo que Gates conecta con su propia experiencia trabajando con agencias de gobierno en proyectos de salud global y tecnología climática a gran escala, donde vio de primera mano cuánto puede frenar un proyecto la regulación mal diseñada.
+
+## Por qué lo recomienda Barack Obama
+
+Obama lo calificó de "lectura obligada para progresistas que buscan un plano para reformar el gobierno de manera que pueda cumplirle a la gente que trabaja". Le interesa en particular el argumento central del libro: que el progresismo no alcanza con proteger y preservar lo que ya existe, también tiene que aprender a construir, en un momento en que los movimientos que prometen escasez y proteccionismo ganan terreno en cada vez más países.
 
 ## De qué trata
 

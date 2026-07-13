@@ -173,6 +173,28 @@ stub nuevo) → se enriquece (MODO LIBRO).
   **Propagación:** el listicle de Obama se regeneró a los 22 libros (Ficción/No ficción,
   `fechaActualizado` 07-10). Su página de autor `/autores/barack-obama` se actualiza sola (query
   dinámica sobre la colección) — solo el blog necesita regeneración manual.
+- **2026-07-12 — Profundizar: Barack Obama (backlog cerrado).** `reconciliar.py` sobre los 22
+  candidatos del backlog: **18 NUEVO** directos + **3 REVISAR** resueltos como NUEVO (mismo autor,
+  libro distinto: The Vaster Wilds vs. fates-and-furies/matrix de Lauren Groff; The Lincoln
+  Highway vs. a-gentleman-in-moscow de Amor Towles; Who is Government? vs. the-blind-side/the-
+  undoing-project de Michael Lewis) + **1 CROSS-REF** (Abundance, ya en catálogo por Bill Gates →
+  se sumó Obama, confirmado en su lista de verano 2025 con cita real: "lectura obligada para
+  progresistas..."). Enriquecidos los 21 NUEVO con MODO LIBRO: The Anthropologists, Stolen Pride,
+  In Ascension, Someone Like Us, The Work of Art, There's Always This Year, Un puente sobre el
+  tiempo (Ministry of Time), ¡Mártir!, El dios de los bosques, Help Wanted, Una tienda en Chicken
+  Hill, MANIAC, Pobreza made in USA, How to Say Babylon, La guerra de los chips, La tierra más
+  salvaje, King: A Life, El legado de la esclavitud, La autopista Lincoln, Who is Government?,
+  The Sirens' Call. De estas, 11 quedaron solo-inglés por no tener edición ES todavía (todas muy
+  recientes, 2023-2025): The Anthropologists, Stolen Pride, In Ascension, Someone Like Us, The
+  Work of Art, There's Always This Year, Help Wanted, How to Say Babylon, King: A Life, Who is
+  Government?, The Sirens' Call. Las otras 10 sí tienen edición ES confirmada: Un puente sobre el
+  tiempo, ¡Mártir!, El dios de los bosques, Una tienda en Chicken Hill, MANIAC, Pobreza made in
+  USA, La guerra de los chips, La tierra más salvaje, El legado de la esclavitud, La autopista
+  Lincoln.
+  `detectar_duplicados.py`: 0 dups exactos (Amor Towles y Lauren Groff ahora con 2-3 libros cada
+  uno, todos títulos distintos verificados). **Obama 22 → 44 libros**; catálogo 205 → 226 (0
+  stubs). Listicle de Obama regenerado a 44 (grupos Ficción / No ficción sin cambios de
+  estructura). Backlog de Obama queda en 0.
 - **2026-07-10 — Tooling de reconciliación.** Creados y probados `tools/reconciliar.py` (clasifica
   candidatos de un barrido: YA-LINKED / CROSS-REF / REVISAR / NUEVO; matchea por slug derivado del
   título EN → resuelve cross-idioma) y `tools/detectar_duplicados.py` (red de seguridad post-barrido;

@@ -2,7 +2,7 @@
 titulo: "Los libros que recomienda Barack Obama (lista actualizada 2026)"
 descripcion: "Las lecturas favoritas de Barack Obama: ficción premiada, memorias y ensayo de sus listas anuales, con una guía de cada libro y dónde conseguirlo en español."
 fecha: 2026-07-05
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-12
 autor: "Los Imperdibles"
 keywords:
   - "libros que recomienda Barack Obama"
@@ -11,7 +11,7 @@ keywords:
 draft: false
 ---
 
-Los libros que recomienda Barack Obama son, cada año, una de las listas más esperadas de internet. Desde que dejó la presidencia, publica sus lecturas de verano y sus favoritos de fin de año en Medium y redes sociales con una consistencia poco habitual: cada diciembre, una selección que mezcla novela literaria premiada, ensayo, memorias y no ficción narrativa. Acá reunimos los 22 títulos de sus listas que podés encontrar en el catálogo de Los Imperdibles.
+Los libros que recomienda Barack Obama son, cada año, una de las listas más esperadas de internet. Desde que dejó la presidencia, publica sus lecturas de verano y sus favoritos de fin de año en Medium y redes sociales con una consistencia poco habitual: cada diciembre, una selección que mezcla novela literaria premiada, ensayo, memorias y no ficción narrativa. Acá reunimos los 44 títulos de sus listas que podés encontrar en el catálogo de Los Imperdibles.
 
 ## Ficción
 
@@ -69,6 +69,50 @@ Un inglés en Canadá en 1912, una novelista en la Luna en 2203 y un investigado
 
 Dos hermanos muy distintos enfrentan la muerte de su padre: Peter, abogado exitoso de Dublín, e Ivan, un ajedrecista introvertido que no sabe muy bien cómo funcionar fuera del tablero. Rooney alterna entre sus dos puntos de vista y construye una novela sobre el duelo, las relaciones con diferencia de edad y la dificultad de comunicarse con quienes más queremos —su obra más madura hasta ahora. Obama la incluyó entre sus favoritas de 2024.
 
+### [The Anthropologists](/libros/the-anthropologists) — Ayşegül Savaş
+
+Una pareja de expatriados busca departamento en una ciudad que no es la de ninguno de los dos, mientras aprende qué significa construir un hogar lejos del propio. Una novela breve y observacional sobre identidad y pertenencia. Obama la incluyó entre sus favoritas de 2024.
+
+### [Someone Like Us](/libros/someone-like-us) — Dinaw Mengestu
+
+El hijo de inmigrantes etíopes vuelve a Washington D.C. para desenterrar una historia familiar que su comunidad prefirió mantener oculta, marcada por pérdidas nunca del todo nombradas. Obama la eligió entre sus favoritas de 2024.
+
+### [¡Mártir!](/libros/martyr) — Kaveh Akbar
+
+Un joven poeta iraní-estadounidense en recuperación de una adicción busca sentido a la muerte de su madre, que viajaba en un vuelo civil derribado por error en 1988. Finalista del National Book Award. Obama la incluyó en su lista de verano 2024.
+
+### [El dios de los bosques](/libros/the-god-of-the-woods) — Liz Moore
+
+La desaparición de una adolescente en un campamento de los Adirondacks en 1975 reabre el caso sin resolver de la desaparición de su hermano años antes. Un thriller literario con estructura de rompecabezas temporal. Obama la eligió en su lista de verano 2024.
+
+### [Help Wanted](/libros/help-wanted) — Adelle Waldman
+
+Un grupo de empleados del turno de madrugada de un depósito minorista conspira para conseguirle un ascenso a su jefa, con tal de sacársela de encima. Comedia coral sobre el trabajo de salario mínimo en Estados Unidos. Obama la incluyó en su lista de verano 2024.
+
+### [Una tienda en Chicken Hill](/libros/the-heaven-and-earth-grocery-store) — James McBride
+
+El hallazgo de un esqueleto en un pozo abandonado destapa la historia de un barrio donde convivieron inmigrantes judíos y familias afroamericanas en Pensilvania. Una novela coral sobre solidaridad entre comunidades marginadas. Obama la incluyó entre sus favoritas de 2023.
+
+### [MANIAC](/libros/the-maniac) — Benjamín Labatut
+
+Un relato que mezcla ficción y ensayo sobre John von Neumann y el camino que va de los fundamentos de la matemática al nacimiento de la inteligencia artificial. Obama lo incluyó entre sus favoritos de 2023.
+
+### [La tierra más salvaje](/libros/the-vaster-wilds) — Lauren Groff
+
+Una sirvienta escapa de un asentamiento inglés hambriento del siglo XVII y se interna sola en un territorio todavía sin cartografiar. Una fábula de supervivencia casi hipnótica. Obama la incluyó entre sus favoritas de 2023.
+
+### [La autopista Lincoln](/libros/the-lincoln-highway) — Amor Towles
+
+Cuatro jóvenes atraviesan Estados Unidos en un viaje que se desvía por completo del plan original, en una novela coral ambientada en los años 50 del mismo autor de *Un caballero en Moscú*. Obama la incluyó entre sus favoritas.
+
+### [In Ascension](/libros/in-ascension) — Martin MacInnes
+
+Una microbióloga investiga una fosa oceánica insondable y termina involucrada en una misión espacial que pone en duda los límites de la vida. Ganadora del Premio Arthur C. Clarke 2024. Obama la incluyó entre sus favoritas de 2024.
+
+### [Un puente sobre el tiempo](/libros/the-ministry-of-time) — Kaliane Bradley
+
+Una funcionaria del gobierno británico se convierte en la "guía" de un explorador polar rescatado del siglo XIX mediante viajes en el tiempo, en una novela que mezcla espionaje, romance y ciencia ficción. Obama la incluyó en su lista de verano 2024.
+
 ## No ficción: memorias, ciencia y ensayo
 
 ### [Sapiens: De animales a dioses](/libros/sapiens) — Yuval Noah Harari
@@ -107,6 +151,50 @@ Los Sackler son una de las familias más ricas de Estados Unidos, mecenas de mus
 
 En 1741 el HMS Wager naufragó frente a las costas de la Patagonia. Los sobrevivientes pasaron meses en una isla desierta al límite del hambre y la violencia; cuando llegaron a Inglaterra, sus relatos eran contradictorios y el Imperio tuvo que decidir qué creer. Grann usa diarios y testimonios de época para reconstruir qué pasó y cómo se construyó una verdad conveniente. Obama la incluyó entre sus lecturas de 2023.
 
+### [Stolen Pride](/libros/stolen-pride) — Arlie Russell Hochschild
+
+Una socióloga investiga durante una década un condado empobrecido de Kentucky para entender la "paradoja del orgullo" detrás del giro hacia la derecha en la América profunda. Obama lo incluyó entre sus favoritos de 2024.
+
+### [The Work of Art](/libros/the-work-of-art) — Adam Moss
+
+El ex editor de la revista *New York* entrevista a decenas de artistas —de Sondheim a Saunders— para reconstruir, con bocetos y borradores incluidos, cómo nace una obra desde la nada. Obama lo incluyó entre sus favoritos de 2024.
+
+### [There's Always This Year](/libros/there-s-always-this-year) — Hanif Abdurraqib
+
+Un ensayo-memoria que usa el básquet de los años 90 en Ohio como excusa para hablar de mérito, éxito y quién tiene permitido soñar en grande. Obama lo incluyó en su lista de verano 2024.
+
+### [Pobreza, made in USA](/libros/poverty-by-america) — Matthew Desmond
+
+El sociólogo ganador del Pulitzer por *Evicted* explica cómo los estadounidenses acomodados, a sabiendas o sin saberlo, mantienen pobre a la población pobre. Obama lo incluyó entre sus favoritos de 2023.
+
+### [How to Say Babylon](/libros/how-to-say-babylon) — Safiya Sinclair
+
+Las memorias de una poeta jamaiquina que creció bajo el control estricto de un padre rastafari y encontró en la escritura su vía de escape. Ganadora del National Book Critics Circle Award. Obama la incluyó entre sus favoritas de 2023.
+
+### [La guerra de los chips](/libros/chip-war) — Chris Miller
+
+La historia de cómo el semiconductor se volvió el recurso más disputado de la geopolítica mundial, entre Estados Unidos, China, Taiwán y Corea del Sur. Obama lo incluyó entre sus libros favoritos.
+
+### [King: A Life](/libros/king-a-life) — Jonathan Eig
+
+La primera gran biografía de Martin Luther King Jr. en décadas, con archivos del FBI recientemente desclasificados. Ganadora del Pulitzer 2024. Obama la incluyó entre sus favoritas de 2023.
+
+### [El legado de la esclavitud](/libros/how-the-word-is-passed) — Clint Smith
+
+Un recorrido por lugares clave de la memoria de la esclavitud en Estados Unidos, desde plantaciones hasta cementerios y monumentos, para entender cómo el país recuerda —o no— su pasado más cruel. Obama lo incluyó entre sus favoritos.
+
+### [Who is Government?](/libros/who-is-government) — Michael Lewis (editor)
+
+Michael Lewis reúne a varios de sus escritores favoritos para contar, uno por uno, el trabajo invisible de funcionarios públicos estadounidenses. Obama lo recomendó en 2025.
+
+### [The Sirens' Call](/libros/the-sirens-call) — Chris Hayes
+
+El conductor de MSNBC analiza cómo la atención humana se convirtió en el recurso más disputado y explotado de la economía digital. Obama lo recomendó en 2025.
+
+### [Abundancia](/libros/abundance) — Ezra Klein y Derek Thompson
+
+Un ensayo sobre por qué a Estados Unidos le cuesta tanto construir cosas y qué haría falta para revertirlo. Obama lo calificó de "lectura obligada para progresistas que buscan un plano para reformar el gobierno", en su lista de verano 2025. También lo recomendó [Bill Gates](/referentes/bill-gates).
+
 ## En resumen
 
-Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 22 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/referentes).
+Las recomendaciones de Obama son una puerta de entrada a mundos muy distintos: de la ficción más premiada a los grandes debates sobre economía, tecnología, democracia y naturaleza. Cualquiera de estos 44 títulos es una apuesta segura. Si querés seguir explorando, mirá también las listas de [otros referentes](/referentes).
