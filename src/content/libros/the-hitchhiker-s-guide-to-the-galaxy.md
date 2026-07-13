@@ -5,6 +5,7 @@ asin: "8433961039"
 categoria: cienciaficcion
 recomendadoPor:
   - elon-musk
+  - richard-branson
 anio: 1979
 resumen: "La comedia de ciencia ficción más famosa de todas, de Douglas Adams. Una de las favoritas de Elon Musk."
 destacado: false

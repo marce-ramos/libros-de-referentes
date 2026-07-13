@@ -5,6 +5,7 @@ asin: "8492921889"
 categoria: negocios
 recomendadoPor:
   - simon-sinek
+  - richard-branson
 anio: 2009
 resumen: "Simon Sinek explica por qué algunos líderes y organizaciones inspiran mientras otros no, a través de una pregunta deceptivamente simple: ¿para qué hacés lo que hacés? Recomendado por el propio Sinek como el libro que fundó su visión del liderazgo."
 destacado: false

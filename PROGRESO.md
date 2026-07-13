@@ -321,6 +321,62 @@ stub nuevo) → se enriquece (MODO LIBRO).
   Nota curiosa: "The Look" es la primera vez que Obama recomienda un libro escrito por su propia
   esposa. Backlog de Obama vuelve a 0 hasta su próxima lista (verano 2026 o fin de año 2026).
 
+- **2026-07-13 — Discovery + Profundizar (tanda 1/3): Richard Branson.** Discovery vía
+  `web_fetch` directo sobre la fuente documentada de su ficha (virgin.com/branson-family):
+  **"70 must-read books"** (virgin.com/branson-family/richard-branson-blog/70-must-read-books,
+  publicada 20/4/2017), lista vigente y superset de su "top 65" de 2016 (mismo blog, misma
+  autoría, 2016 es subconjunto — se descartó por redundante). Manifiesto de 70 títulos →
+  `reconciliar.py`: **4 YA-LINKED** (Where the Wild Things Are, Wild Swans, Mandela's Way, Black
+  Box Thinking — backlog previo de Branson) + **4 CROSS-REF** (The Hitchhiker's Guide to the
+  Galaxy, 1984, Cien años de soledad, Empieza con el porqué) + **3 REVISAR** (Mao: The Unknown
+  Story vs. Wild Swans, misma autora Jung Chang → confirmado libro real y distinto, co-escrito
+  con Jon Halliday → NUEVO; Originals vs. Give and Take/Think Again, mismo autor Adam Grant →
+  confirmado libro real y distinto → NUEVO; Homo Deus vs. Sapiens, mismo autor Harari →
+  confirmado libro real y distinto → NUEVO) + **59 NUEVO** directos. Total candidatos NUEVO: 62.
+  Decisión de alcance (usuario): dividir los 62 NUEVO + 4 CROSS-REF (66 en total) en **3 tandas
+  por relevancia**, la más relevante primero.
+  **Tanda 1/3 (22 ítems) — hecha hoy:**
+  - **4 CROSS-REF aplicados** (solo frontmatter, sin sección de cuerpo nueva — regla de cross-ref
+    del playbook): the-hitchhiker-s-guide-to-the-galaxy, 1984, one-hundred-years-of-solitude,
+    start-with-why → todos suman `richard-branson` a `recomendadoPor`.
+  - **18 NUEVO enriquecidos** con MODO LIBRO vía 4 subagentes en paralelo (Sonnet): Originales:
+    Cómo los inconformistas mueven el mundo [ES, Paidós, asin 8449333962] (Adam Grant); Homo
+    Deus: Breve historia del mañana [ES, Debate, asin 8499926711] (Yuval Noah Harari); El largo
+    camino hacia la libertad [ES, Debolsillo, asin 8466332693] (Nelson Mandela); Historia del
+    tiempo [ES, Crítica, asin 8467033886] (Stephen Hawking); Cosmos [ES, Planeta, asin
+    8432036269] (Carl Sagan); Vayamos adelante (Lean In) [ES, Conecta, asin 8415431678] (Sheryl
+    Sandberg); Una verdad incómoda [ES, Gedisa, asin 8497842030] (Al Gore); Cuestión de justicia
+    (Just Mercy) [ES, Península, asin 8499428770] (Bryan Stevenson); El Hobbit [ES, Minotauro,
+    asin 8445012800] (J.R.R. Tolkien); La isla del tesoro [ES, Alianza, asin 8420666823] (R.L.
+    Stevenson); Parque Jurásico [ES, Debolsillo, asin 8466342710] (Michael Crichton); Grandes
+    esperanzas [ES, Alianza, asin 8491040978] (Charles Dickens); Mal de altura [ES, Desnivel,
+    asin 8498294673] (Jon Krakauer); Fast Food: El lado oscuro de la comida rápida [ES, Grijalbo,
+    asin 842533649X, categoria negocios en vez de ciencia] (Eric Schlosser); In Defense of Food
+    [**sin ASIN confirmado** — no se pudo verificar de forma fiable una edición ES en Amazon,
+    queda con `asin` vacío] (Michael Pollan); Yo sé por qué canta el pájaro enjaulado [ES, Libros
+    del Asteroide, asin 8416213666] (Maya Angelou); Mao: la historia desconocida [ES, Taurus,
+    asin 8430619607, autorLibro "Jung Chang y Jon Halliday" por ser coautoría real] (Jung
+    Chang/Jon Halliday); Veinte mil leguas de viaje submarino [ES, Alianza, asin 8491813586]
+    (Julio Verne). `detectar_duplicados.py`: 0 `[DUP]` exactos (Homo Deus/Sapiens y Mao/Wild
+    Swans quedan como `[REV]` legítimos, mismo autor/a, libros distintos). ASIN 10 caracteres OK
+    en 17/18 (In Defense of Food queda vacío). **Richard Branson 4 → 26 libros**; catálogo 301 →
+    319. Sin listicle todavía (se espera a completar las 3 tandas para escribirlo con el
+    manifiesto final).
+  - **Pendiente: tanda 2/3 (23 ítems)** — Remote: Office Not Required, Limitless: Leadership
+    That Endures, The Right Stuff, In the Heart of the Sea, Stalingrad: The Fateful Siege,
+    Mountains Beyond Mountains, Shantaram, In Patagonia, The Quiet American, The World Without
+    Us, No Future Without Forgiveness, A Full Life: Reflections at Ninety, Longitude, The Dice
+    Man, Swallows and Amazons, The Adventures of Huckleberry Finn, The Adventures of Tom Sawyer,
+    Peter Pan, The Jungle Book, George's Marvellous Medicine, Tales of the Unexpected, Oh, The
+    Places You'll Go, Travels with Charley.
+  - **Pendiente: tanda 3/3 (21 ítems)** — Winners: And How They Succeed, Abundance: The Future
+    Is Better Than You Think, The Weather Makers, Big World Small Planet, Necker: A Virgin
+    Island, Lost Ocean, Arctica: The Vanishing North, In-N-Out Burger, The Overview Effect,
+    Happiness: A Guide to Developing Life's Most Important Skill, A Time for New Dreams, The
+    Meaning of the 21st Century, Self Belief: The Vision, 101 Reasons to Get Out of Bed, If I
+    Could Tell You Just One Thing, Letters to a Stranger, Ending the War on Drugs, Little Wins,
+    Beyond the Blue, Obama: The Historic Presidency of Barack Obama, The Outermost House.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

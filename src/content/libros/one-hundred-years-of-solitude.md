@@ -5,6 +5,7 @@ asin: "8497592204"
 categoria: ficcion
 recomendadoPor:
   - dua-lipa
+  - richard-branson
 anio: 1967
 resumen: "La saga de los Buendía a lo largo de siete generaciones en el mítico Macondo: el epicentro del realismo mágico y una de las novelas más importantes de la literatura universal, elegida por Dua Lipa como pick de octubre 2023 en su Service95 Book Club."
 destacado: false
