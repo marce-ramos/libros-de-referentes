@@ -1,8 +1,10 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-12 (Profundizar Barack Obama: backlog de 22
-cerrado, Obama 22 → 44 libros, listicle regenerado; antes, mismo día, Profundizar Bill Gates:
-backlog de 11 cerrado, Gates 23 → 34 libros).
+Punto de retomada. Última actualización: 2026-07-13 (Profundizar Reese Witherspoon: discovery de
+129 picks históricos + tanda de 52 libros más recientes 2023-2026 enriquecida y listicle nuevo,
+Reese 4 → 56 libros; backlog restante de ~73 candidatos 2017-2022 para una futura tanda; antes,
+el 2026-07-12, Profundizar Barack Obama: backlog de 22 cerrado, Obama 22 → 44 libros, listicle
+regenerado; y Profundizar Bill Gates: backlog de 11 cerrado, Gates 23 → 34 libros).
 
 **Acciones/comandos disponibles:** `ACCIONES.md` (referencia rápida de una línea) · `ENRIQUECER.md` (detalle + reglas).
 
@@ -16,17 +18,18 @@ backlog de 11 cerrado, Gates 23 → 34 libros).
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **226 libros, 9 categorías**. Bill Gates y Barack Obama profundizados el
-  2026-07-12: backlogs cerrados (Gates 23 → 34, Obama 22 → 44). Detalle de todas las tandas y
-  barridos en `PROGRESO.md`.
+  2026-07-12), **278 libros, 9 categorías**. Bill Gates y Barack Obama profundizados el
+  2026-07-12 (Gates 23 → 34, Obama 22 → 44); Reese Witherspoon profundizada el 2026-07-13
+  (4 → 56, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda). Detalle de
+  todas las tandas y barridos en `PROGRESO.md`.
 - **Rutas:** la sección de referentes se renombró de `/autores` a **`/referentes`** (2026-07-12),
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 14 artículos — 13 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
+- **Blog:** 15 artículos — 14 listicles de referente (Gates, Obama, Buffett, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg, Ryan Holiday, Sam Altman, Naval Ravikant,
-  Yuval Noah Harari, Dua Lipa) + 1 best-of de categoría (Negocios e Inversión). Todas las fichas
-  enlazadas están saneadas.
+  Yuval Noah Harari, Dua Lipa, Reese Witherspoon) + 1 best-of de categoría (Negocios e Inversión).
+  Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -60,11 +63,13 @@ backlog de 11 cerrado, Gates 23 → 34 libros).
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
    Además se construyó el motor de subagente barato (`ENRIQUECER.md`, `tools/`) y se corrieron
-   barridos de descubrimiento (Obama, Gates) que sumaron libros nuevos. Gates y Obama
-   profundizados por completo el 2026-07-12 (ambos backlogs en 0). Sin backlogs sourceados
-   pendientes por ahora — el próximo paso en este frente es correr un nuevo barrido de
-   descubrimiento (MODO DESCUBRIR) sobre otro referente top, o sobre Gates/Obama si suman picks
-   nuevos a sus listas anuales.
+   barridos de descubrimiento (Obama, Gates, Reese Witherspoon) que sumaron libros nuevos. Gates
+   y Obama profundizados por completo el 2026-07-12 (ambos backlogs en 0). Reese Witherspoon
+   profundizada el 2026-07-13 (4 → 56 libros) con un **backlog pendiente de ~73 candidatos
+   2017-2022** (sourceados en el discovery, priorizados por el usuario para después de los 52
+   más recientes) — próxima tanda de "Profundizar" cuando se retome. Otro frente abierto: correr
+   un nuevo barrido de descubrimiento (MODO DESCUBRIR) sobre otro referente top, o sobre
+   Gates/Obama si suman picks nuevos a sus listas anuales.
 4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
    automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
    página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.

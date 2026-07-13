@@ -222,6 +222,47 @@ stub nuevo) → se enriquece (MODO LIBRO).
   relaciones" para *Cómo conocer a una persona*, único de esa categoría). Backlog de Gates
   queda en 0 — cerrado hasta el próximo barrido de descubrimiento.
 
+- **2026-07-12/13 — Discovery + Profundizar: Reese Witherspoon (backlog masivo, en tandas).**
+  Discovery: reesesbookclub.com/the-complete-list solo devolvió picks parciales (nov-2022 a
+  jul-2026, ~50 de 129, por lazy-load JS) → cruzado con beyondthebookends.com (archivo completo
+  2017-2026, verificado por match exacto en el rango solapado antes de confiar en los años más
+  viejos). **129 picks totales** encontrados; Reese ya tenía 4/4 (Daisy Jones, Pequeños fuegos,
+  La red de Alice, La chica salvaje) del enriquecimiento del 2026-07-10 → quedaban 125 candidatos.
+  Decisión de Marcelo (vía pregunta): incluir también los picks YA y del sub-sello "Sunnie"
+  (2026) → 121 candidatos netos tras excluir duplicados de fuente; y priorizar los más recientes
+  (2023-2026, 52 libros) antes que el backlog 2017-2022 (~73), para no bloquear la tanda con un
+  volumen inmanejable. `reconciliar.py` sobre los 52 priorizados: **51 NUEVO + 1 REVISAR**
+  (The Nightingale vs. The Women, ya en catálogo por Bill Gates → confirmado libro **distinto**
+  del mismo autor, Kristin Hannah → NUEVO). Enriquecidos los **52 NUEVO** con MODO LIBRO, en
+  varias tandas de subagentes Sonnet (algunas cortadas por límite de sesión y relanzadas sin
+  duplicar trabajo, verificando primero qué archivos ya existían): The House in the Pines, The
+  House of Eve, El ruiseñor (The Nightingale), Comedia romántica, Did You Hear About Kitty Karr?,
+  Cassandra in Reverse, Yellowface, Tom Lake, Mother-Daughter Murder Night, La mansión Starling,
+  Maybe Next Time, Before We Were Innocent, La primera mentira gana, Redwood Court, Anita de
+  Monte ríe la última, Nunca fuimos tan felices, Cómo terminar una historia de amor, The
+  Unwedding, Noche de caballeros (Twelfth Knight), The Cliffs, Bailar lento (Slow Dance), The
+  Comfort of Crows [memorias], Looking for Smoke, La sociedad de las mentiras, Seremos jaguares
+  [memorias], City of Night Birds, Throwback, Las tres vidas de Cate Kay, Isola, Broken Country,
+  Heiress Takes All, All That Life Can Afford, Una vida maravillosa, Stuck Up and Stupid, La
+  compañía de lapiceras fénix, Spectacular Things, Once Upon a Time in Dollywood, To the Moon
+  and Back, Wild Dark Shore, The Heir Apparent, The First Time I Saw Him, Beth is Dead, In Her
+  Defense, Lady Tremaine, In Time with You, Into the Blue, The Fine Art of Lying, That Which
+  Feeds Us, A Pair of Aces, A Founding Mother, The Winged Game, Gone Before Goodbye (coescrita
+  por la propia Reese con Harlan Coben — única ficha con "Por qué la escribió" en vez de "Por
+  qué la recomienda"). De estas, 52 quedaron mayormente solo-inglés (2025-2026 muy recientes),
+  con ediciones ES confirmadas en las más añejas (2023-2024): Tom Lake, La primera mentira gana,
+  Nunca fuimos tan felices, Cómo terminar una historia de amor, Anita de Monte ríe la última, La
+  sociedad de las mentiras, Seremos jaguares, La compañía de lapiceras fénix, Una vida
+  maravillosa, entre otras — detalle completo en cada ficha. `detectar_duplicados.py`: 0 `[DUP]`
+  exactos (Kristin Hannah queda con 2 libros distintos, El ruiseñor + Las mujeres de la guerra,
+  caso [REV] legítimo). Verificación de ASIN (10 caracteres, las 52) e integridad
+  `recomendadoPor` → autor existente: OK. **Reese Witherspoon 4 → 56 libros**; catálogo 226 →
+  278. Listicle regenerado de cero con las 56 fichas, agrupado por tipo de historia (Thrillers y
+  misterio, Novela histórica, Ficción contemporánea y literaria, Romance, Fantástico y
+  reimaginaciones, Juvenil YA, No ficción) en vez de por año, dado el volumen.
+  **Backlog pendiente: ~73 candidatos de 2017-2022** (sourceados en el discovery, sin enriquecer
+  todavía) — queda para una futura tanda de "Profundizar Reese Witherspoon".
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
