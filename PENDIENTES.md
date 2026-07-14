@@ -1,15 +1,19 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-13 (Discovery Mark Zuckerberg: backlog nunca
-sourceado antes, fuente Wikipedia + fs.blog "A Year of Books" 2015, 3 cross-ref + 16 NUEVO
-enriquecidos, Zuckerberg 4 → 23 libros, backlog completo cerrado, listicle regenerado; antes,
-mismo día, Discovery + Profundizar Richard Branson, tanda 1/3: fuente virgin.com "70 must-read
-books", 4 cross-ref + 18 NUEVO enriquecidos, Branson 4 → 26 libros; quedan tanda 2/3 [23 ítems] y
-tanda 3/3 [21 ítems] pendientes, ya priorizadas y listadas en PROGRESO.md; antes, Profundizar
-Barack Obama otra vez: sin backlog previo, discovery sobre sus listas de verano/fin de año 2025,
-Obama 44 → 61 libros, listicle regenerado; antes, Profundizar Bill Gates otra vez: discovery
-sobre GatesNotes verano/fin de año 2025, Gates 34 → 40 libros; y Profundizar Reese Witherspoon:
-discovery de 129 picks históricos + tanda de 52 libros más recientes 2023-2026, Reese 4 → 56
+Punto de retomada. Última actualización: 2026-07-13 (Discovery Oprah Winfrey — SOLO discovery, a
+pedido explícito: fuente beyondthebookends.com, listado completo 1996-2026, manifiesto reconciliado
+con 2 CROSS-REF + 112 NUEVO [10 REVISAR resueltos a NUEVO], la lista histórica más grande del
+catálogo; no se tocó ningún archivo del catálogo, queda como backlog pendiente de priorizar; antes,
+mismo día, Discovery Mark Zuckerberg: backlog nunca sourceado antes, fuente Wikipedia + fs.blog "A
+Year of Books" 2015, 3 cross-ref + 16 NUEVO enriquecidos, Zuckerberg 4 → 23 libros, backlog completo
+cerrado, listicle regenerado; antes, Discovery + Profundizar Richard Branson, tanda 1/3: fuente
+virgin.com "70 must-read books", 4 cross-ref + 18 NUEVO enriquecidos, Branson 4 → 26 libros; quedan
+tanda 2/3 [23 ítems] y tanda 3/3 [21 ítems] pendientes, ya priorizadas y listadas en PROGRESO.md;
+antes, Profundizar Barack Obama otra vez: sin backlog previo, discovery sobre sus listas de
+verano/fin de año 2025, Obama 44 → 61 libros, listicle regenerado; antes, Profundizar Bill Gates
+otra vez: discovery sobre GatesNotes verano/fin de año 2025, Gates 34 → 40 libros; y Profundizar
+Reese Witherspoon: discovery de 129 picks históricos + tanda de 52 libros más recientes 2023-2026,
+Reese 4 → 56
 libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
 
 **Acciones/comandos disponibles:** `ACCIONES.md` (referencia rápida de una línea) · `ENRIQUECER.md` (detalle + reglas).
@@ -89,8 +93,12 @@ libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
    todavía (se escribe al cerrar las 3 tandas). **Mark Zuckerberg discovery completo el
    2026-07-13** (fuente Wikipedia + fs.blog, "A Year of Books" 2015): backlog nunca había sido
    sourceado realmente (los 4 libros previos eran cross-refs sueltos) → ahora 4 → 23 libros,
-   backlog 100% cerrado, listicle regenerado. Otro frente abierto: correr un nuevo barrido de
-   descubrimiento (MODO DESCUBRIR) sobre otro referente top.
+   backlog 100% cerrado, listicle regenerado. **Oprah Winfrey: discovery (SOLO discovery) el
+   2026-07-13** (fuente beyondthebookends.com, 1996-2026): **backlog nuevo de 112 NUEVO + 2
+   CROSS-REF sin tocar todavía** — es la lista histórica más grande del catálogo (30 años de
+   picks mensuales); pendiente decidir con el usuario cómo priorizar/tandear antes de enriquecer.
+   Otro frente abierto: correr un nuevo barrido de descubrimiento (MODO DESCUBRIR) sobre otro
+   referente top.
 4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
    automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
    página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.

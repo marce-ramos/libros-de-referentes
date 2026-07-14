@@ -170,7 +170,16 @@ draft: false
 
 Cuerpo (original, tono del sitio):
 - Intro 2-4 frases: **keyword en la primera línea** + contexto real del referente y su fuente.
-- Si son varios, agrupar por tipo con `## <Grupo>`; si son pocos, lista simple.
+- **Organización (criterio ÚNICO para todos los listicles):** agrupá por la `categoria` del libro
+  —la taxonomía del sitio: Ficción, Ciencia, Historia, Memorias, Psicología, Filosofía, etc.—, con
+  un `## <Categoría>` por grupo. Sale del dato ya asignado en cada ficha, no se decide a mano → todos
+  los listicles quedan iguales. Detalles:
+  - **Umbral:** con **8+ libros**, agrupá por categoría; con menos de 8, lista simple sin `##`.
+  - **Lead opcional de conversión:** en listas largas, arriba de todo un bloque
+    `## Por dónde empezar` con 3-4 destacados (los más fuertes / más vendidos); después, los grupos.
+  - **Fecha del pick INLINE, nunca como eje:** si es book-club (pick mensual), mencioná la fecha
+    dentro de la reseña de cada libro ("Pick de octubre 2023"). **Prohibido agrupar por año/mes.**
+  - Dentro de cada grupo, ordená por relevancia (más recomendados / más conocidos primero).
 - Un ítem por libro del manifiesto: `### [<titulo EXACTO>](/libros/<slug>) — <autor>` + 2-3 frases
   (reescribí a partir del `resumen`/reseña de la ficha; no copies literal).
 - Cierre con enlace a `/referentes` (y a `/categorias/<x>` si aplica).
@@ -189,7 +198,7 @@ for f in libros/*.md; do
   awk '/^recomendadoPor:/{g=1;next} g&&/^  - /{print} g&&/^[^ ]/{exit}' "$f" | grep -q -- "- $REF\$" || continue
   grep -q '^asin:' "$f" || continue   # SOLO fichas enriquecidas
   echo "slug=$(basename $f .md)"
-  grep -m1 '^titulo:' "$f"; grep -m1 '^autorLibro:' "$f"; grep -m1 '^resumen:' "$f"
+  grep -m1 '^titulo:' "$f"; grep -m1 '^autorLibro:' "$f"; grep -m1 '^categoria:' "$f"; grep -m1 '^resumen:' "$f"
   echo "---"
 done
 ```

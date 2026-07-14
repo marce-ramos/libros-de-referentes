@@ -419,6 +419,35 @@ stub nuevo) → se enriquece (MODO LIBRO).
   sociedad humana); verificado con script: 23/23 links con `titulo` exacto, slug existente,
   `mark-zuckerberg` en `recomendadoPor`, 0 duplicados.
 
+- **2026-07-13 — Discovery (solo discovery, sin enriquecer): Oprah Winfrey.** A pedido explícito
+  del usuario ("sí, solo discovery"). Backlog previo: 5/5 libros ya enriquecidos, pero nunca se
+  había fetcheado su fuente completa (los 5 eran cross-refs/picks sueltos). Fuente fetcheada:
+  **beyondthebookends.com/oprahs-book-club-list** (actualizada 2/6/2026), listado completo mes a
+  mes desde sept/1996 hasta jun/2026 (la fuente propia dice "107 libros de sept/1996 a sept/2025";
+  el fetch trajo también los picks hasta jun/2026). Manifiesto de 114 candidatos (se separaron en
+  líneas individuales los picks múltiples de un mismo mes: Faulkner ×3 en jun/2005, Kaye Gibbons
+  ×2 en oct/1997, Dickens ×2 en dic/2010, Marilynne Robinson ×4 en mar/2021; se excluyeron del
+  manifiesto los 5 ya confirmados en el catálogo) → `reconciliar.py`: **2 CROSS-REF** (Cien años
+  de soledad, ya con Branson y Dua Lipa; The Covenant of Water) + **10 REVISAR**, todos resueltos
+  a **NUEVO** tras confirmar que son obras reales y distintas del mismo autor/a: The Heart of a
+  Woman vs. Yo sé por qué canta el pájaro enjaulado (Maya Angelou); Love in the Time of Cholera
+  vs. Cien años de soledad (García Márquez); A Tale of Two Cities vs. Great Expectations
+  (Dickens); Deacon King Kong vs. The Heaven & Earth Grocery Store (James McBride); Bewilderment
+  vs. The Overstory (Richard Powers); Bittersweet vs. Quiet (Susan Cain); Small Things Like These
+  vs. So Late in the Day (Claire Keegan); The Emperor of Gladness vs. On Earth We're Briefly
+  Gorgeous (Ocean Vuong); All the Way to the River vs. Big Magic (Elizabeth Gilbert); Kin vs. An
+  American Marriage (Tayari Jones) + **102 NUEVO** directos. **Total candidatos: 5 YA-LINKED + 2
+  CROSS-REF + 112 NUEVO = 119 libros** en la historia del club (1996-2026), la lista histórica más
+  grande de todo el catálogo hasta ahora (supera los 129 picks de Reese, aunque ahí también se
+  habían filtrado antes de reconciliar).
+  **No se tocó el catálogo** (0 fichas creadas, 0 cross-ref aplicados, 0 listicle) — por indicación
+  explícita del usuario de correr *solo* el discovery. Manifiesto completo reconciliado queda en
+  `/tmp/manifiesto_oprah_full.txt` (no versionado) y en esta entrada de PROGRESO.md como fuente de
+  verdad para la próxima tanda. **Pendiente: decidir con el usuario cómo priorizar los 112 NUEVO +
+  2 CROSS-REF** (la lista es abrumadoramente larga — 30 años de picks — así que probablemente
+  convenga trabajarla por tandas cronológicas o por relevancia/consenso, siguiendo el mismo patrón
+  usado con Reese Witherspoon y Richard Branson este mes).
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
