@@ -6,6 +6,7 @@ categoria: ciencia
 recomendadoPor:
   - naval-ravikant
   - sam-altman
+  - mark-zuckerberg
 anio: 2011
 resumen: "El ensayo de David Deutsch sobre el conocimiento, las buenas explicaciones y el progreso sin límites. Recomendado por Naval Ravikant y Sam Altman."
 destacado: true

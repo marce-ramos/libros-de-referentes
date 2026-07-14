@@ -377,6 +377,48 @@ stub nuevo) → se enriquece (MODO LIBRO).
     Could Tell You Just One Thing, Letters to a Stranger, Ending the War on Drugs, Little Wins,
     Beyond the Blue, Obama: The Historic Presidency of Barack Obama, The Outermost House.
 
+- **2026-07-13 — Discovery: Mark Zuckerberg (backlog nunca sourceado → discovery completo).**
+  A diferencia de Gates/Obama/Branson (donde ya había un backlog cerrado), Zuckerberg nunca tuvo
+  un discovery real: sus 4 libros previos (El fin del poder, Creatividad S.A., El problema de los
+  tres cuerpos, Por qué fracasan los países) habían entrado como cross-refs sueltos, sin que se
+  fetcheara nunca su fuente documentada ("A Year of Books", Facebook 2015, 23 títulos). Discovery
+  vía `web_fetch` sobre **Wikipedia** (en.wikipedia.org/wiki/Mark_Zuckerberg_book_club, tabla
+  completa con fecha de cada pick y cita a Business Insider/The Guardian por libro) + fs.blog
+  (reseñas de cada título) → manifiesto de 23 títulos → `reconciliar.py`: **4 YA-LINKED** (los 4
+  ya mencionados) + **3 CROSS-REF** (Sapiens, El optimista racional, El comienzo del infinito) +
+  **3 REVISAR** (The Better Angels of Our Nature vs. Cuando todos saben que todos lo saben, mismo
+  autor Steven Pinker → confirmado libro real y distinto, 2011 sobre el declive histórico de la
+  violencia → NUEVO; Energy: A Beginner's Guide vs. Cómo funciona el mundo, mismo autor Vaclav
+  Smil → confirmado libro real y distinto, 2006 → NUEVO; Genome vs. El optimista racional, mismo
+  autor Matt Ridley → confirmado libro real y distinto, 1999 sobre genética → NUEVO) + **13 NUEVO**
+  directos. Total NUEVO: 16.
+  **3 CROSS-REF aplicados** (solo frontmatter): sapiens, the-rational-optimist,
+  the-beginning-of-infinity → suman `mark-zuckerberg` a `recomendadoPor`.
+  **16 NUEVO enriquecidos** con MODO LIBRO vía 4 subagentes en paralelo (Sonnet): Gang Leader for
+  a Day [solo inglés, Penguin, asin 014311493X] (Sudhir Venkatesh); On Immunity: An Inoculation
+  [solo inglés, Graywolf, asin 1555977200] (Eula Biss); La estructura de las revoluciones
+  científicas [ES, FCE, asin 843750046X] (Thomas Kuhn); Rational Ritual [solo inglés, Princeton
+  UP, asin 0691158282] (Michael Chwe); Dealing With China [solo inglés, Twelve, asin 1455504203]
+  (Henry M. Paulson Jr.); Orwell's Revenge: The 1984 Palimpsest [solo inglés, Simon & Schuster,
+  asin 1501127705] (Peter W. Huber); El color de la justicia (The New Jim Crow) [ES, Capitán
+  Swing, asin 8494287923] (Michelle Alexander); Introducción a la historia universal
+  (Al-Muqaddimah) [ES, FCE, asin 9681626451] (Ibn Jaldún); El jugador (The Player of Games) [ES,
+  La Factoría de Ideas, asin 8498003563 — derivado por checksum de EAN-13 confirmado, no visto
+  directo en URL de Amazon] (Iain M. Banks); Variedades de la experiencia religiosa [ES, Trotta,
+  asin 849879644X] (William James); Portfolios of the Poor [solo inglés, Princeton UP, asin
+  0691148198] (Collins/Morduch/Rutherford/Ruthven); The Idea Factory [solo inglés, Penguin, asin
+  0143122797] (Jon Gertner); Orden mundial (World Order) [ES, Debate, asin 8499925715] (Henry
+  Kissinger); Los ángeles que llevamos dentro (The Better Angels of Our Nature) [ES, Paidós, asin
+  8449334640] (Steven Pinker); Energy: A Beginner's Guide [solo inglés, Oneworld, asin
+  1786071339] (Vaclav Smil); Genoma (Genome) [ES, Taurus, asin 8430604146] (Matt Ridley).
+  `detectar_duplicados.py`: 0 `[DUP]` exactos (Pinker, Smil, Ridley y Harari quedan con 2 libros
+  cada uno, casos `[REV]` legítimos ya verificados). ASIN 10 caracteres OK en 16/16. **Mark
+  Zuckerberg 4 → 23 libros (backlog "A Year of Books" completo, 0 pendientes)**; catálogo 319 →
+  335. **Listicle de Zuckerberg regenerado** de 4 a 23 libros, agrupado por tema (Ciencia ficción,
+  Poder/geopolítica/historia, Ciencia/mente/progreso, Economía y sociedad, Cultura/creatividad/
+  sociedad humana); verificado con script: 23/23 links con `titulo` exacto, slug existente,
+  `mark-zuckerberg` en `recomendadoPor`, 0 duplicados.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

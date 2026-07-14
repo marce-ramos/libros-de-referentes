@@ -5,6 +5,7 @@ asin: "8430608109"
 categoria: ciencia
 recomendadoPor:
   - naval-ravikant
+  - mark-zuckerberg
 anio: 2010
 resumen: "Matt Ridley defiende, con datos, que la humanidad progresa gracias al intercambio y la innovación. Un antídoto contra el pesimismo que sintoniza con la visión de Naval Ravikant sobre el futuro."
 destacado: false

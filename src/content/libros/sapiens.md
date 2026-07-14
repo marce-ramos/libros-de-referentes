@@ -8,6 +8,7 @@ recomendadoPor:
   - barack-obama
   - james-clear
   - naval-ravikant
+  - mark-zuckerberg
 anio: 2011
 resumen: "Un recorrido por la historia de la humanidad, desde la Edad de Piedra hasta hoy. Bill Gates lo recomendó por su mirada amplia sobre cómo llegamos a ser quienes somos."
 destacado: true
