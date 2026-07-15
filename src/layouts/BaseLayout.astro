@@ -40,7 +40,7 @@ const nav = [
     <Seo title={title} description={description} image={image} type={type} jsonLd={jsonLd} />
   </head>
   <body class="min-h-screen">
-    <header class="border-b border-[var(--card-border)] bg-white/70 backdrop-blur">
+    <header class="relative border-b border-[var(--card-border)] bg-white/70 backdrop-blur">
       <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
         <a
           href="/"
@@ -50,11 +50,42 @@ const nav = [
           <span class="inline-block h-4 w-4 rounded-full bg-[var(--brand)]"></span>
           {SITE.name}
         </a>
-        <nav class="flex items-center gap-6 text-sm text-[var(--muted)]">
+
+        {/* Nav de escritorio: oculto por debajo de md para evitar overflow horizontal en mobile */}
+        <nav class="hidden items-center gap-6 text-sm text-[var(--muted)] md:flex">
           {nav.map((i) => <a href={i.href} class="hover:text-[var(--brand)]">{i.label}</a>)}
           <a
             href="/referentes"
             class="rounded-lg bg-[var(--brand)] px-4 py-2 font-semibold text-white hover:bg-[var(--brand-dark)]"
+          >
+            Explorar
+          </a>
+        </nav>
+
+        {/* Toggle mobile (checkbox CSS-only, sin JS) */}
+        <input type="checkbox" id="nav-toggle" class="peer hidden" />
+        <label
+          for="nav-toggle"
+          class="flex h-9 w-9 cursor-pointer items-center justify-center rounded-lg border border-[var(--card-border)] text-[var(--brand-dark)] md:hidden"
+          aria-label="Abrir menú"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </label>
+
+        {/* Panel mobile: aparece cuando el checkbox está marcado */}
+        <nav
+          class="absolute inset-x-0 top-full hidden flex-col gap-1 border-b border-[var(--card-border)] bg-white px-4 py-3 text-sm text-[var(--muted)] shadow-lg peer-checked:flex md:hidden"
+        >
+          {nav.map((i) => (
+            <a href={i.href} class="rounded-lg px-2 py-2 hover:bg-[#f6f3fd] hover:text-[var(--brand)]">
+              {i.label}
+            </a>
+          ))}
+          <a
+            href="/referentes"
+            class="mt-1 rounded-lg bg-[var(--brand)] px-4 py-2 text-center font-semibold text-white hover:bg-[var(--brand-dark)]"
           >
             Explorar
           </a>
