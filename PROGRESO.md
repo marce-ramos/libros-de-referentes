@@ -448,6 +448,58 @@ stub nuevo) → se enriquece (MODO LIBRO).
   convenga trabajarla por tandas cronológicas o por relevancia/consenso, siguiendo el mismo patrón
   usado con Reese Witherspoon y Richard Branson este mes).
 
+- **2026-07-14 — Discovery: Satya Nadella.** Backlog previo: 4/4 libros ya enriquecidos (Mindset,
+  Nonviolent Communication, The Boys in the Boat, Competing in the Age of AI), pero nunca se había
+  fetcheado una fuente real y completa — la ficha del referente solo decía "blog de Microsoft y su
+  libro Hit Refresh", sin URL concreta. Fuente fetcheada: **mostrecommendedbooks.com/people/
+  satya-nadella-recommended-books** (actualizada 2/8/2025), agregador con 20 libros, cada uno con
+  cita textual de Nadella (o de una nota periodística) y **URL primaria propia por libro**
+  (fastcompany.com, weforum.org, x.com/satyanadella, entrevistas en YouTube) — cumple la regla de
+  oro de MODO DESCUBRIR de registrar fuente por libro. Manifiesto de 20 → `reconciliar.py`: **4
+  YA-LINKED** (los 4 ya mencionados) + **0 CROSS-REF** + **0 REVISAR** + **16 NUEVO** directos:
+  Deep Learning (Ian Goodfellow), Forged in Crisis (Nancy Koehn), The New Leadership Literacies
+  (Bob Johansen), The Great Transformation (Karl Polanyi), The Rise and Fall of American Growth
+  (Robert J. Gordon), Prosperity (Colin Mayer), Shaping the Future of the Fourth Industrial
+  Revolution (Klaus Schwab), The Great Convergence (Richard Baldwin), The Narrow Corridor (Daron
+  Acemoglu y James A. Robinson — libro distinto de "Por qué fracasan los países", mismos autores,
+  ya en catálogo vía Zuckerberg), An Astronaut's Guide to Life on Earth (Chris Hadfield), Tools and
+  Weapons (Brad Smith), The Moment of Lift (Melinda Gates), No Rules Rules (Reed Hastings),
+  AI Superpowers (Kai-Fu Lee), Masters of Scale (Reid Hoffman), Play Nice But Win (Michael Dell).
+  **No se tocó el catálogo todavía** (0 fichas creadas) — queda como backlog listo para enriquecer,
+  pendiente de que el usuario confirme si arrancamos la tanda de los 16 NUEVO.
+
+- **2026-07-14 — Enriquecimiento: Satya Nadella (confirmado por el usuario).** Los 16 NUEVO del
+  discovery de arriba, enriquecidos con MODO LIBRO vía 4 subagentes en paralelo (Sonnet): Deep
+  Learning [solo inglés, MIT Press, asin 0262035618] (Ian Goodfellow, Yoshua Bengio y Aaron
+  Courville — Nadella contrató a Bengio para el enfoque de IA de Microsoft tras leerlo); Forged in
+  Crisis [solo inglés, Simon & Schuster, asin 1501174452] (Nancy Koehn); The New Leadership
+  Literacies [solo inglés, Berrett-Koehler, asin 1626569614] (Bob Johansen); La gran transformación
+  [ES, FCE, asin 6071652634] (Karl Polanyi); The Rise and Fall of American Growth [solo inglés,
+  Princeton UP, asin 0691147728] (Robert J. Gordon); Prosperity [solo inglés, Oxford UP, asin
+  0198824009] (Colin Mayer); Shaping the Future of the Fourth Industrial Revolution [solo inglés,
+  Portfolio Penguin, asin 1984822616] (Klaus Schwab — Nadella figura como voz convocada en esta
+  edición); La gran convergencia [ES, Antoni Bosch, asin 8494627112] (Richard Baldwin); El pasillo
+  estrecho [ES, Deusto, asin 8423430812] (Daron Acemoglu y James A. Robinson — confirmado libro
+  real y distinto de "Por qué fracasan los países", mismos autores); Guía de un astronauta para
+  vivir en la Tierra [ES, Ediciones B, asin 8466655557] (Chris Hadfield); Tools and Weapons [solo
+  inglés, Penguin Press, asin 1984877712] (Brad Smith y Carol Ann Browne); No hay vuelta atrás (The
+  Moment of Lift) [ES, Conecta, asin 164473012X] (Melinda Gates); Aquí no hay reglas (No Rules
+  Rules) [ES, Conecta, asin 8416883807] (Reed Hastings y Erin Meyer); Superpotencias de la
+  inteligencia artificial (AI Superpowers) [ES, Deusto, asin 8423431312] (Kai-Fu Lee); Masters of
+  Scale [solo inglés, Currency, asin 0593239083] (Reid Hoffman, June Cohen y Deron Triff); Play
+  Nice But Win [solo inglés, Portfolio, asin 0593087747] (Michael Dell y James Kaplan).
+  `detectar_duplicados.py`: 0 `[DUP]` exactos (Acemoglu/Robinson queda con 2 libros, caso `[REV]`
+  legítimo). ASIN 10 caracteres OK en los 16 (con la gotcha conocida de `grep` mostrando falso
+  negativo en 4 archivos — confirmado el contenido real vía Read). **Satya Nadella 4 → 20 libros**
+  (backlog cerrado); catálogo 335 → 351. **Listicle nueva** (no existía antes):
+  `/blog/libros-que-recomienda-satya-nadella`, escrita directamente con las 20 fichas, siguiendo la
+  regla nueva de MODO LISTICLE (grupos temáticos balanceados, nunca por fecha): lead "Por dónde
+  empezar" (4 destacados) + 4 grupos — Cultura organizacional y liderazgo (6), Tecnología e
+  inteligencia artificial (4), Historia y economía: cómo cambian las sociedades (7), Memorias de
+  liderazgo (3). Verificado con script: 20/20 links con `titulo` exacto tras corregir 10 títulos
+  truncados (faltaba el subtítulo completo), slug existente, `satya-nadella` en `recomendadoPor`,
+  0 duplicados.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
@@ -528,6 +580,20 @@ el consenso del libro y mejora el interlinking.
   con `titulo` exacto, `slug` existente, `dua-lipa` en `recomendadoPor`, ASIN presente; 0 links
   duplicados; 0 menciones de Amazon/afiliados en el cuerpo. **Dua Lipa queda con las 34 fichas +
   el listicle: referente #40 al 100%.**
+- **2026-07-14 — REGENERADA Dua Lipa** tras un cambio en `ENRIQUECER.md`/MODO LISTICLE: el criterio
+  de organización pasó a ser único y obligatorio — **grupos temáticos balanceados, nunca por
+  año/mes** (regla agregada: subdividir categorías dominantes, fusionar las chicas, apuntar a 3-6
+  grupos de ~3-8 libros, fecha del pick siempre inline). El agrupado anterior por año (2023-2026)
+  quedó desactualizado por esa regla nueva. Reorganizados los mismos 34 libros (sin tocar ninguna
+  ficha del catálogo) en **6 grupos temáticos** + un lead `## Por dónde empezar` con 4 destacados:
+  Guerra/historia/memoria colectiva (4), Raza/identidad/distopía (6), Duelo/pérdida/familia (7),
+  Amor/deseo/voces transgresoras (5), Misterio/moralidad/suspenso literario (5), No ficción:
+  memorias/crónica/ensayo (7) — la categoría `ficcion`, que concentraba 27/34 libros, quedó
+  subdividida en 5 sub-temas editoriales en vez de un bloque único, tal como pide la regla nueva.
+  Reseñas reescritas a partir de las mismas ya existentes (mismo dato factual, fecha de pick
+  inline en cada una, sin reescribir desde cero). Verificado con script: 34/34 fichas con `titulo`
+  exacto y `dua-lipa` en `recomendadoPor`, 0 duplicados fuera de las 4 menciones intencionales del
+  lead. `fecha` original (2026-07-12) intacta; `fechaActualizado: 2026-07-14`.
 
 ### Best-of por categoría (arquetipo 2)
 

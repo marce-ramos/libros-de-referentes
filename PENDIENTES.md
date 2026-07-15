@@ -1,11 +1,17 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-13 (Discovery Oprah Winfrey — SOLO discovery, a
-pedido explícito: fuente beyondthebookends.com, listado completo 1996-2026, manifiesto reconciliado
-con 2 CROSS-REF + 112 NUEVO [10 REVISAR resueltos a NUEVO], la lista histórica más grande del
-catálogo; no se tocó ningún archivo del catálogo, queda como backlog pendiente de priorizar; antes,
-mismo día, Discovery Mark Zuckerberg: backlog nunca sourceado antes, fuente Wikipedia + fs.blog "A
-Year of Books" 2015, 3 cross-ref + 16 NUEVO enriquecidos, Zuckerberg 4 → 23 libros, backlog completo
+Punto de retomada. Última actualización: 2026-07-14 (Discovery + enriquecimiento completo de Satya
+Nadella: backlog nunca sourceado con una fuente real, fuente mostrecommendedbooks.com con URL
+propia por libro, 16 NUEVO enriquecidos, Nadella 4 → 20 libros, backlog cerrado, listicle nueva
+escrita con la regla de grupos temáticos balanceados de MODO LISTICLE actualizado; el mismo día,
+`ENRIQUECER.md` cambió su regla de organización de listicles a "SIEMPRE por tema, NUNCA por
+año/mes" — se regeneró en consecuencia la listicle de Dua Lipa (34 libros, de 4 bloques por año a
+6 grupos temáticos + lead); antes, 2026-07-13, Discovery Oprah Winfrey — SOLO discovery, a pedido
+explícito: fuente beyondthebookends.com, listado completo 1996-2026, manifiesto reconciliado con 2
+CROSS-REF + 112 NUEVO [10 REVISAR resueltos a NUEVO], la lista histórica más grande del catálogo;
+no se tocó ningún archivo del catálogo, queda como backlog pendiente de priorizar; antes, mismo
+día, Discovery Mark Zuckerberg: backlog nunca sourceado antes, fuente Wikipedia + fs.blog "A Year
+of Books" 2015, 3 cross-ref + 16 NUEVO enriquecidos, Zuckerberg 4 → 23 libros, backlog completo
 cerrado, listicle regenerado; antes, Discovery + Profundizar Richard Branson, tanda 1/3: fuente
 virgin.com "70 must-read books", 4 cross-ref + 18 NUEVO enriquecidos, Branson 4 → 26 libros; quedan
 tanda 2/3 [23 ítems] y tanda 3/3 [21 ítems] pendientes, ya priorizadas y listadas en PROGRESO.md;
@@ -13,8 +19,7 @@ antes, Profundizar Barack Obama otra vez: sin backlog previo, discovery sobre su
 verano/fin de año 2025, Obama 44 → 61 libros, listicle regenerado; antes, Profundizar Bill Gates
 otra vez: discovery sobre GatesNotes verano/fin de año 2025, Gates 34 → 40 libros; y Profundizar
 Reese Witherspoon: discovery de 129 picks históricos + tanda de 52 libros más recientes 2023-2026,
-Reese 4 → 56
-libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
+Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
 
 **Acciones/comandos disponibles:** `ACCIONES.md` (referencia rápida de una línea) · `ENRIQUECER.md` (detalle + reglas).
 
@@ -28,7 +33,7 @@ libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **335 libros, 9 categorías**. Bill Gates profundizado dos veces (2026-07-12
+  2026-07-12), **351 libros, 9 categorías**. Bill Gates profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
   Witherspoon profundizada el 2026-07-13 (4 → 56, con backlog restante de ~73 candidatos
@@ -36,15 +41,17 @@ libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
   hecha (4 → 26 libros), **tanda 2/3 [23] y tanda 3/3 [21] pendientes** (priorizadas en
   PROGRESO.md, sin listicle todavía — se escribe al cerrar las 3 tandas); **Mark Zuckerberg
   discovery completo el 2026-07-13** (4 → 23 libros, backlog "A Year of Books" cerrado al 100%,
-  listicle regenerado). Detalle de todas las tandas y barridos en `PROGRESO.md`.
+  listicle regenerado); **Satya Nadella discovery + enriquecimiento completo el 2026-07-14**
+  (4 → 20 libros, backlog cerrado, listicle nueva escrita). Detalle de todas las tandas y
+  barridos en `PROGRESO.md`.
 - **Rutas:** la sección de referentes se renombró de `/autores` a **`/referentes`** (2026-07-12),
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 15 artículos — 14 listicles de referente (Gates 40, Obama 61, Buffett, Musk, Jordan
-  Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg, Ryan Holiday, Sam Altman, Naval Ravikant,
-  Yuval Noah Harari, Dua Lipa, Reese Witherspoon 56) + 1 best-of de categoría (Negocios e
-  Inversión). Todas las fichas enlazadas están saneadas.
+- **Blog:** 16 artículos — 15 listicles de referente (Gates 40, Obama 61, Buffett, Musk, Jordan
+  Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
+  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20) + 1 best-of de categoría
+  (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -68,13 +75,13 @@ libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
    en `BloqueAudible.astro`.
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
    → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09,
-   regenerado a 23 libros el 2026-07-13).
+   regenerado a 23 libros el 2026-07-13), **Satya Nadella** (2026-07-14, nueva, 20 libros).
    **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4,
    James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 3/3,
    Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
-   Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Satya Nadella,
-   Lex Fridman, Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
-   Neil deGrasse Tyson, Malcolm Gladwell, Oprah, etc.
+   Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Lex Fridman,
+   Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
+   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (backlog de 112+2 sourceado, sin priorizar), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
@@ -97,8 +104,11 @@ libros, con backlog restante de ~73 candidatos 2017-2022 para una futura tanda).
    2026-07-13** (fuente beyondthebookends.com, 1996-2026): **backlog nuevo de 112 NUEVO + 2
    CROSS-REF sin tocar todavía** — es la lista histórica más grande del catálogo (30 años de
    picks mensuales); pendiente decidir con el usuario cómo priorizar/tandear antes de enriquecer.
-   Otro frente abierto: correr un nuevo barrido de descubrimiento (MODO DESCUBRIR) sobre otro
-   referente top.
+   **Satya Nadella: discovery + enriquecimiento completo el 2026-07-14** (fuente
+   mostrecommendedbooks.com, con URL primaria propia por libro): mismo caso que Zuckerberg — su
+   ficha solo decía "blog de Microsoft" sin URL concreta, nunca se había fetcheado una fuente real
+   → 4 → 20 libros, backlog 100% cerrado, listicle nueva escrita (no existía antes). Otro frente
+   abierto: correr un nuevo barrido de descubrimiento (MODO DESCUBRIR) sobre otro referente top.
 4. **Imágenes de referentes.** ✅ Monogramas hechos (`AvatarReferente.astro`, fallback
    automático). Próximo: sumar **fotos de Wikimedia Commons (CC)** donde existan, con
    página de créditos (setear `foto` en cada autor). Opcional: set de **ilustraciones**.
