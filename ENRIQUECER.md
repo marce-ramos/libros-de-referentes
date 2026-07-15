@@ -170,16 +170,22 @@ draft: false
 
 Cuerpo (original, tono del sitio):
 - Intro 2-4 frases: **keyword en la primera línea** + contexto real del referente y su fuente.
-- **Organización (criterio ÚNICO para todos los listicles):** agrupá por la `categoria` del libro
-  —la taxonomía del sitio: Ficción, Ciencia, Historia, Memorias, Psicología, Filosofía, etc.—, con
-  un `## <Categoría>` por grupo. Sale del dato ya asignado en cada ficha, no se decide a mano → todos
-  los listicles quedan iguales. Detalles:
-  - **Umbral:** con **8+ libros**, agrupá por categoría; con menos de 8, lista simple sin `##`.
-  - **Lead opcional de conversión:** en listas largas, arriba de todo un bloque
-    `## Por dónde empezar` con 3-4 destacados (los más fuertes / más vendidos); después, los grupos.
-  - **Fecha del pick INLINE, nunca como eje:** si es book-club (pick mensual), mencioná la fecha
-    dentro de la reseña de cada libro ("Pick de octubre 2023"). **Prohibido agrupar por año/mes.**
-  - Dentro de cada grupo, ordená por relevancia (más recomendados / más conocidos primero).
+- **Organización (criterio ÚNICO): grupos TEMÁTICOS balanceados.** Todos los listicles se organizan
+  por tema/género —**NUNCA** por año/mes—. La `categoria` de cada ficha es el punto de partida, pero
+  la meta es el **balance**: ni un bloque gigante ni micro-secciones huérfanas. Reglas:
+  - **Umbral:** con **8+ libros**, agrupá con `## <Grupo>`; con menos de 8, lista simple sin `##`.
+  - **Apuntá a 3-6 grupos** de tamaño parejo (~3-8 libros c/u).
+  - **Categoría dominante → subdividir:** si una `categoria` concentra muchos (p.ej. `ficcion` con
+    20+), NO la dejes como un solo bloque: dividíla en **sub-temas editoriales** coherentes ("Novela
+    histórica", "Identidad y diáspora", "Premiadas recientes", "Distopía y ciencia ficción"…), como
+    ya hacen los listicles de Zuckerberg y Reese.
+  - **Categoría mínima → fusionar:** si una `categoria` tiene 1-2 libros, metelos en un encabezado
+    más amplio ("No ficción: memorias e historia") en vez de una sección minúscula.
+  - **Lead opcional de conversión:** en listas largas, arriba un bloque `## Por dónde empezar` con
+    3-4 destacados (los más fuertes / más vendidos); después, los grupos temáticos.
+  - **Fecha del pick INLINE, nunca como eje** (book-clubs): "Pick de octubre 2023" dentro de la
+    reseña. **Prohibido agrupar por año/mes.**
+  - Nombres de grupo con keyword cuando se pueda; dentro de cada grupo, los más relevantes primero.
 - Un ítem por libro del manifiesto: `### [<titulo EXACTO>](/libros/<slug>) — <autor>` + 2-3 frases
   (reescribí a partir del `resumen`/reseña de la ficha; no copies literal).
 - Cierre con enlace a `/referentes` (y a `/categorias/<x>` si aplica).
