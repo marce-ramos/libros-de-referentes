@@ -1,6 +1,10 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-14 (Discovery + enriquecimiento completo de Satya
+Punto de retomada. Última actualización: 2026-07-15 (Profundizar Warren Buffett: sin backlog
+previo, discovery nuevo sobre sus cartas anuales a los accionistas de Berkshire Hathaway sourceado
+vía CNBC + Inc.com — 11 NUEVO + 1 CROSS-REF (Shoe Dog, ya en el catálogo por Bill Gates), Buffett
+6 → 18 libros, backlog cerrado, listicle regenerada con 5 grupos temáticos + lead "Por dónde
+empezar"; antes, 2026-07-14, Discovery + enriquecimiento completo de Satya
 Nadella: backlog nunca sourceado con una fuente real, fuente mostrecommendedbooks.com con URL
 propia por libro, 16 NUEVO enriquecidos, Nadella 4 → 20 libros, backlog cerrado, listicle nueva
 escrita con la regla de grupos temáticos balanceados de MODO LISTICLE actualizado; el mismo día,
@@ -33,7 +37,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **351 libros, 9 categorías**. Bill Gates profundizado dos veces (2026-07-12
+  2026-07-12), **362 libros, 9 categorías**. Bill Gates profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
   Witherspoon profundizada el 2026-07-13 (4 → 56, con backlog restante de ~73 candidatos
@@ -42,13 +46,14 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   PROGRESO.md, sin listicle todavía — se escribe al cerrar las 3 tandas); **Mark Zuckerberg
   discovery completo el 2026-07-13** (4 → 23 libros, backlog "A Year of Books" cerrado al 100%,
   listicle regenerado); **Satya Nadella discovery + enriquecimiento completo el 2026-07-14**
-  (4 → 20 libros, backlog cerrado, listicle nueva escrita). Detalle de todas las tandas y
-  barridos en `PROGRESO.md`.
+  (4 → 20 libros, backlog cerrado, listicle nueva escrita); **Warren Buffett profundizado el
+  2026-07-15** (discovery nuevo sobre sus cartas a accionistas, 6 → 18 libros, backlog cerrado,
+  listicle regenerada). Detalle de todas las tandas y barridos en `PROGRESO.md`.
 - **Rutas:** la sección de referentes se renombró de `/autores` a **`/referentes`** (2026-07-12),
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 16 artículos — 15 listicles de referente (Gates 40, Obama 61, Buffett, Musk, Jordan
+- **Blog:** 16 artículos — 15 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
   Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20) + 1 best-of de categoría
   (Negocios e Inversión). Todas las fichas enlazadas están saneadas.

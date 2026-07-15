@@ -5,10 +5,11 @@ asin: "8416029776"
 categoria: memorias
 recomendadoPor:
   - bill-gates
+  - warren-buffett
 anio: 2016
-resumen: "Las memorias de Phil Knight, fundador de Nike, sobre los caóticos primeros años de la empresa. Uno de los libros favoritos de Bill Gates de 2016."
+resumen: "Las memorias de Phil Knight, fundador de Nike, sobre los caóticos primeros años de la empresa. Uno de los libros favoritos de Bill Gates y Warren Buffett en 2016."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-15
 ---
 
 *Nunca te pares* (*Shoe Dog*) es la autobiografía de Phil Knight, el fundador de Nike, y fue uno de los libros favoritos de Bill Gates en 2016. A diferencia de tantas memorias de empresarios, esta destaca por su honestidad.

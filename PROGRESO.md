@@ -709,3 +709,45 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   - `libros/the-body-keeps-the-score.md`: "El cuerpo lleva la cuenta", Eleftheria, ASIN 8494759205. Gwyneth Paltrow.
   Nota: The Culture Code no tiene edición en español confirmada; se usa edición inglesa con nota.
   **Global fichas enriquecidas: ~82/142.**
+
+- **2026-07-15 — Discovery + Profundizar: Warren Buffett.** Backlog previo: 6/6 libros ya
+  enriquecidos (El inversor inteligente, Security Analysis, Acciones ordinarias y beneficios
+  extraordinarios, Sam Walton: Made in America, Aventuras empresariales, Poor Charlie's
+  Almanack), pero eran todos cross-refs/picks sueltos — nunca se había fetcheado una fuente real
+  y completa (la ficha del referente no tenía línea "rastrearse a través de…", solo mencionaba de
+  forma vaga "cartas anuales" y "décadas de entrevistas"). Fuentes fetcheadas vía `WebSearch` +
+  `web_fetch`: **inc.com** ("Warren Buffett Recommends These 33 Books to Berkshire Hathaway
+  Shareholders", Bill Murphy Jr., 2021 — parcialmente paywalled, solo se pudieron confirmar los 3
+  primeros libros del ranking) y **cnbc.com** ("Full list of every book Warren Buffett has
+  recommended...in his annual letters", dic. 2019 — cobertura completa de la década 2010-2019 con
+  citas textuales de las cartas anuales por libro). Se extrajeron solo los libros con cita/contexto
+  explícito y verificable en el texto fetcheado; se descartaron candidatos ambiguos (ej. "One Up On
+  Wall Street", mencionado solo en agregadores sin cita primaria confirmada). Manifiesto de 12 →
+  `reconciliar.py`: **0 YA-LINKED + 1 CROSS-REF + 0 REVISAR + 11 NUEVO**.
+  - CROSS-REF: Shoe Dog ("Nunca te pares", Phil Knight) → + warren-buffett (ya estaba por Bill
+    Gates). Frontmatter actualizado (recomendadoPor + resumen), sin sección de cuerpo nueva.
+  - NUEVO (11, enriquecidos con MODO LIBRO vía 3 subagentes en paralelo, Sonnet): The Science of
+    Hitting [solo inglés, Simon & Schuster, asin 0671621033] (Ted Williams — la metáfora de la
+    "zona de strike de 77 celdas" que Buffett citó en su carta de 1977); Tap Dancing to Work [solo
+    inglés, Portfolio/Penguin, asin 1591846803] (Carol Loomis); The Outsiders [solo inglés, Harvard
+    Business Review Press, asin 1422162672] (William N. Thorndike); The Clash of the Cultures
+    [solo inglés, Wiley, asin 1118122771] (John C. Bogle); Investing Between the Lines [solo
+    inglés, McGraw-Hill, asin 0071714073] (L.J. Rittenhouse); Berkshire Hathaway Letters to
+    Shareholders [solo inglés, compilación 2012 de Max Olson, asin 1595910778] (Warren Buffett);
+    40 Chances: Finding Hope in a Hungry World [solo inglés, Simon & Schuster, asin 1451687869]
+    (Howard G. Buffett, hijo de Warren); El pequeño libro para invertir con sentido común [ES,
+    Deusto, asin 8423425401] (John C. Bogle); ¿Dónde están los yates de los clientes? [ES, Colección
+    Baelo, asin 841230358X] (Fred Schwed); Limping on Water [solo inglés, autoeditado vía Smart
+    Business Network, asin 0996408029] (Phil Beuth); Las reglas básicas de Warren Buffett [ES,
+    Deusto, asin 8418464445] (Jeremy Miller). Categorías: negocios (9) y memorias (2: 40 Chances,
+    Limping on Water). `detectar_duplicados.py`: 0 dups exactos (John C. Bogle queda con 2 libros
+    distintos verificados: The Clash of the Cultures y El pequeño libro para invertir con sentido
+    común). **Buffett 6 → 18 libros**; catálogo 351 → 362. Listicle regenerada de cero según MODO
+    LISTICLE (grupos temáticos, no por año): "Por dónde empezar" (4 destacados) + 5 grupos — Los
+    fundamentos del inversor en valor (3), Buffett y su círculo en sus propias palabras (4), Cómo
+    funciona (y cómo falla) Wall Street (4), Negocios y sabiduría práctica (3), Memorias de
+    líderes que admira (4). Verificado por script: 18/18 títulos exactos tras corregir 1 mismatch
+    (40 Chances: Finding Hope in a Hungry World, texto de enlace venía truncado), `warren-buffett`
+    presente en las 18 fichas, 0 duplicados de slug. Backlog de Buffett queda en 0 — cerrado hasta
+    un próximo barrido (hay ~22 libros más del ranking completo de Inc.com sin confirmar, bloqueado
+    por paywall/paginado; posible fuente para una futura tanda).
