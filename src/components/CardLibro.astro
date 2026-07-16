@@ -14,7 +14,7 @@ const { slug, titulo, autorLibro, portada, resumen } = Astro.props;
 
 <a
   href={`/libros/${slug}`}
-  class="group flex gap-4 rounded-[14px] border border-[var(--card-border)] bg-white p-4 shadow-[0_4px_16px_rgba(90,70,160,0.05)] transition hover:border-[var(--brand)] hover:shadow-[0_8px_22px_rgba(90,70,160,0.10)]"
+  class="card-lift group flex gap-4 rounded-[14px] border border-[var(--card-border)] bg-white p-4 shadow-[0_4px_16px_rgba(90,70,160,0.05)] transition hover:border-[var(--brand)] hover:shadow-[0_10px_26px_rgba(90,70,160,0.13)]"
 >
   <PortadaLibro portada={portada} titulo={titulo} autorLibro={autorLibro} size="card" />
   <div class="min-w-0">
