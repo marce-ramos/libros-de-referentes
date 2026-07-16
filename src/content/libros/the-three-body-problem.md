@@ -5,10 +5,11 @@ asin: "8466659730"
 categoria: cienciaficcion
 recomendadoPor:
   - mark-zuckerberg
+  - naval-ravikant
 anio: 2008
-resumen: "La novela que convirtió a Cixin Liu en un fenómeno global: una historia de ciencia ficción dura que arranca en la Revolución Cultural china y escala hasta un primer contacto que amenaza a toda la humanidad. Primera en su trilogía y ganadora del premio Hugo."
+resumen: "La novela que convirtió a Cixin Liu en un fenómeno global: una historia de ciencia ficción dura que arranca en la Revolución Cultural china y escala hasta un primer contacto que amenaza a toda la humanidad. Primera en su trilogía y ganadora del premio Hugo. También entre las lecturas de Naval Ravikant."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-07-16
 ---
 
 *El problema de los tres cuerpos* es la novela que sacó a la ciencia ficción china del nicho y la puso en el centro del mapa. Ganó el premio Hugo en 2015 —la primera obra traducida en lograrlo— y desde la serie de Netflix su búsqueda no paró de crecer. Es el primer tomo de la trilogía *El recuerdo del pasado de la Tierra*.
@@ -16,6 +17,10 @@ fechaActualizado: 2026-07-09
 ## Por qué lo recomienda Mark Zuckerberg
 
 Zuckerberg la eligió como la **primera novela de su club de lectura** "A Year of Books". Le atrajo salir de su dieta habitual de ensayos y ciencia para meterse en una ficción sobre física, civilizaciones y el lugar de la humanidad en el cosmos. Es, además, una de las obras que puso a Cixin Liu en el radar de Silicon Valley.
+
+## También lo recomienda Naval Ravikant
+
+Naval la menciona entre los libros que tenía abiertos cuando le preguntaron qué estaba releyendo, junto a otros clásicos de su biblioteca personal —una señal de que es una de esas novelas a las que vuelve, más que una lectura de una sola vez.
 
 ## De qué trata
 

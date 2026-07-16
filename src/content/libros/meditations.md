@@ -6,10 +6,11 @@ categoria: filosofia
 recomendadoPor:
   - ryan-holiday
   - tim-ferriss
+  - naval-ravikant
 anio: 180
-resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday y Tim Ferriss."
+resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday, Tim Ferriss y Naval Ravikant."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-16
 ---
 
 *Meditaciones* es uno de los libros más singulares de la historia: no fue escrito para publicarse. Son las notas privadas que el emperador romano Marco Aurelio se escribía a sí mismo. Ryan Holiday, referente del estoicismo moderno, lo recomienda como un manual de vida al que volver una y otra vez.
@@ -21,6 +22,10 @@ Holiday construyó buena parte de su obra sobre el estoicismo, y señala *Medita
 ## También lo recomienda Tim Ferriss
 
 Ferriss es otro gran difusor del estoicismo moderno: tiene una cita de Marco Aurelio pegada en su heladera y vuelve a *Meditaciones* como manual para mantener la calma y la perspectiva. Lo recomienda como lectura de cabecera para cualquiera que busque herramientas mentales prácticas.
+
+## También lo recomienda Naval Ravikant
+
+Naval lo llama directamente "un libro que me cambió la vida": le impacta que sea el diario privado de "probablemente el ser humano más poderoso de la Tierra" de su época, escrito sin intención de publicarlo. Para Naval, lo revelador es que Marco Aurelio tenía las mismas luchas internas que cualquiera: "ahí te das cuenta de que el éxito y el poder no mejoran tu estado interno, igual tenés que trabajarlo".
 
 ## De qué trata
 

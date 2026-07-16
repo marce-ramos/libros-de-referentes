@@ -751,3 +751,36 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
     presente en las 18 fichas, 0 duplicados de slug. Backlog de Buffett queda en 0 — cerrado hasta
     un próximo barrido (hay ~22 libros más del ranking completo de Inc.com sin confirmar, bloqueado
     por paywall/paginado; posible fuente para una futura tanda).
+
+- **2026-07-16 — Profundizar: Naval Ravikant (backlog ya sourceado desde el discovery/reconcile
+  previo).** Fuente: navalmanack.com/navals-recommended-reading (la lista curada del Almanack, con
+  comentario real de Naval sobre cada libro), refetcheada completa para esta tanda.
+  **Paso 1 — 7 cross-refs aplicados** (solo frontmatter + una frase breve fundada en la fuente real
+  de Naval, sin inventar citas textuales): genome (+ mención de que Naval leyó/releyó todo Ridley),
+  the-lessons-of-history (+ cita parafraseada "muy incisivo... cubre mucho terreno siendo chico"),
+  the-sovereign-individual (+ "el mejor libro que leí desde Sapiens"), meditations (+ "un libro que
+  me cambió la vida"), ficciones (+ "el autor más poderoso que leí que no escribía solo filosofía"),
+  the-three-body-problem (+ mención como relectura habitual), man-s-search-for-meaning (+ mención
+  como lectura de vuelta constante). Los 7 quedaron con `fechaActualizado: 2026-07-16`.
+  **Paso 2 — 8 fichas nuevas** enriquecidas con MODO LIBRO vía 4 subagentes en paralelo (Sonnet),
+  todas con edición ES confirmada y ASIN impreso real (0 vacíos, 0 "B0"): Jugarse la piel
+  [8449335426, Paidós] y Antifrágil [8449328640, Paidós] (Nassim Nicholas Taleb, negocios); Siete
+  breves lecciones de física [8433964003, Anagrama] y La realidad no es lo que parece [8490661901,
+  Tusquets] (Carlo Rovelli, ciencia — dos obras distintas, sin solapar contenido); Cómo cambiar tu
+  mente [8499929060, Debate] (Michael Pollan, ciencia — se preservó el matiz real de Naval de que
+  no recomienda drogas y que la meditación logra lo mismo); La liberación del alma [8484455114,
+  Gaia Ediciones] (Michael A. Singer, espiritualidad — sin cita propia de Naval en la fuente, se
+  redactó sin inventarla, solo encuadrando el libro en su lista de espiritualidad junto a
+  Krishnamurti/Osho/Marco Aurelio); El profeta [8471669226, Edaf] (Kahlil Gibran, espiritualidad —
+  una de las citas más extensas y entusiastas de Naval en toda la fuente); Snow Crash [841750754X,
+  Gigamesh] (Neal Stephenson, cienciaficcion).
+  **Paso 3:** `detectar_duplicados.py` → 0 `[DUP]` exactos (Rovelli y Taleb quedan con 2-3 libros
+  cada uno, casos `[REV]` legítimos ya verificados). Listicle regenerada de cero con las 23 fichas
+  de Naval (`fecha` original 2026-07-10 sin tocar, `fechaActualizado: 2026-07-16`): "Por dónde
+  empezar" (4 destacados: Sapiens, El individuo soberano, Meditaciones, El profeta) + 5 grupos
+  balanceados — Inversión, riesgo y negocios (6), Física y el universo (4), Ciencia de la
+  naturaleza humana y el progreso (4), Filosofía, espiritualidad y sentido de la vida (5), Ficción
+  y ciencia ficción (4). Verificado por script: 23/23 links con `titulo` exacto, slug existente,
+  `naval-ravikant` en `recomendadoPor` y `asin` presente en las 23, 0 slugs huérfanos, 0 fichas de
+  Naval sin enlazar. **Naval Ravikant 4 → 23 libros** (7 de ellos ahora compartidos con otros
+  referentes vía cross-ref); catálogo 362 → 370.

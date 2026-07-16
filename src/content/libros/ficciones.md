@@ -5,10 +5,11 @@ asin: "8420633127"
 categoria: ficcion
 recomendadoPor:
   - nassim-nicholas-taleb
+  - naval-ravikant
 anio: 1944
-resumen: "Los cuentos de Borges que inventaron géneros, confundieron la realidad con la ficción y abrieron caminos que la literatura todavía está recorriendo. Recomendado por Nassim Nicholas Taleb."
+resumen: "Los cuentos de Borges que inventaron géneros, confundieron la realidad con la ficción y abrieron caminos que la literatura todavía está recorriendo. Recomendado por Nassim Nicholas Taleb y Naval Ravikant."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-16
 ---
 
 Pocos libros en la historia de la literatura han tenido el efecto sísmico de *Ficciones*. Jorge Luis Borges publicó estos relatos entre 1941 y 1944, y con ellos no solo fundó el realismo mágico latinoamericano —aunque él nunca usó esa etiqueta— sino que anticipó debates filosóficos y matemáticos que la academia tardaría décadas en sistematizar. Son cuentos que se leen en minutos y se piensan durante años.
@@ -16,6 +17,10 @@ Pocos libros en la historia de la literatura han tenido el efecto sísmico de *F
 ## Por qué lo recomienda Nassim Nicholas Taleb
 
 Taleb —autor de *El cisne negro* y pensador obsesionado con la incertidumbre, la probabilidad y los límites del conocimiento— recomienda a Borges porque lo considera uno de los pocos escritores que capturó literariamente lo que la filosofía tarda libros enteros en articular: que nuestras categorías del tiempo, el espacio, la identidad y la causalidad son construcciones, no verdades. Para Taleb, leer a Borges es un ejercicio de humildad epistémica: te recuerda cuánto de lo que creés saber es, en el fondo, una ficción conveniente.
+
+## También lo recomienda Naval Ravikant
+
+Naval, con raíces indias pero gran admirador de la literatura latinoamericana, lo pone entre sus lecturas de ciencia ficción favoritas: dice que Borges "es probablemente el autor más poderoso que leí que no escribía filosofía a secas" —había filosofía metida ahí adentro, junto con la ciencia ficción.
 
 ## De qué trata
 
