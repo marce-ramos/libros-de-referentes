@@ -500,6 +500,79 @@ stub nuevo) → se enriquece (MODO LIBRO).
   truncados (faltaba el subtítulo completo), slug existente, `satya-nadella` en `recomendadoPor`,
   0 duplicados.
 
+- **2026-07-16 — Discovery (solo discovery, sin enriquecer en masa): Stephen King.** Backlog
+  previo: 3/3 libros ya enriquecidos (El señor de las moscas, The Bleeding Heart, The Hair of
+  Harold Roux), sin fuente documentada todavía en su ficha de referente más allá de la mención
+  genérica a stephenking.com y su cuenta de X. Dos fuentes fetcheadas vía `WebSearch` + `web_fetch`:
+  **fs.blog/stephen-king-reading-list** (reproduce íntegra la lista de ~96 libros que King publicó
+  en su propio libro *On Writing: A Memoir of the Craft*, 2000 — cita textual: "estos son los
+  mejores libros que leí en los últimos tres o cuatro años", el período en que escribió *La niña
+  que amaba a Tom Gordon*, *Corazones en la Atlántida* y el propio *On Writing*; se excluyó 1 título
+  no publicado — *The Sky in the Water*, de Tabitha King) y **mostrecommendedbooks.com/people/
+  stephen-king-recommended-books** (26 libros, cada uno con cita textual de King y URL directa a su
+  propio tuit en x.com/StephenKing como fuente primaria por libro, 2018-2022). Manifiesto combinado
+  de 121 candidatos → `reconciliar.py`: **1 YA-LINKED** (Lord of the Flies, ya estaba) + **1
+  CROSS-REF** (Into Thin Air / Mal de altura, ya en catálogo por Richard Branson) + **4 REVISAR**,
+  los 4 resueltos a **NUEVO** tras confirmar que son obras reales y distintas del mismo autor/a:
+  Oliver Twist vs. Great Expectations (Dickens); Enduring Love y The Cement Garden vs. What We Can
+  Know (Ian McEwan, dos títulos distintos entre sí y del ya catalogado); The Dutch House vs. Tom
+  Lake (Ann Patchett, ya en catálogo por Reese Witherspoon) + **115 NUEVO** directos.
+  **1 CROSS-REF aplicado** (frontmatter + una frase breve fundada en la fuente real): into-thin-air
+  suma `stephen-king` a `recomendadoPor` (cita paráfrasis de *On Writing*), `fechaActualizado`
+  2026-07-16. Sin listicle de King todavía (no existía) → no aplica regla de propagación.
+  **No se enriqueció el resto** (0 fichas nuevas creadas) — por alcance del pedido ("hagamos un
+  discovery"), siguiendo el mismo patrón que Oprah Winfrey (2026-07-13). **Backlog: 119 candidatos
+  NUEVO** (115 directos + 4 ex-REVISAR) listos para una futura tanda de "Profundizar Stephen King",
+  divisible por relevancia/género como se hizo con Branson y Reese, dado el volumen. Nota temática:
+  la lista de *On Writing* es sobre todo ficción literaria y suspenso de fines de los 90 (muchos
+  títulos hoy con edición ES a confirmar caso por caso, varios agotados/descatalogados en inglés);
+  la de mostrecommendedbooks.com es terror/thriller contemporáneo (2018-2022) con más probabilidad
+  de edición ES vigente. Manifiesto completo queda en esta entrada de PROGRESO.md como fuente de
+  verdad para la próxima tanda (archivo de trabajo `manifiesto_stephen_king.txt` no versionado).
+
+- **2026-07-16 — Profundizar: Stephen King (tanda 1 de varias, "mezcla curada" pedida por
+  Marcelo).** Del backlog de 119 candidatos del discovery de arriba, se armó una selección de los
+  **20 títulos más consensuados/reconocibles** de ambas fuentes (tope de 20 por tanda, a pedido),
+  enriquecidos con MODO LIBRO vía 4 subagentes en paralelo (Sonnet), todos con edición ES
+  confirmada salvo 1: Hannibal [8497599373, DeBolsillo] y Cari Mora [8491294015, Suma de Letras]
+  (Thomas Harris — dos obras distintas, mismo autor); Matar a un ruiseñor [8490701210, B de
+  Bolsillo] (Harper Lee); Harry Potter y la piedra filosofal [8418173009, Salamandra] (J.K.
+  Rowling); Cántico por Leibowitz [8490702241, Ediciones B] (Walter M. Miller Jr., cienciaficcion);
+  El secreto [8426400302, Lumen] (Donna Tartt); Las cenizas de Ángela [8422671379, Maeva]
+  (Frank McCourt, memorias); La Biblia envenenada [8484530256, Ediciones del Bronce] (Barbara
+  Kingsolver); El paciente inglés [8420420905, Alfaguara] (Michael Ondaatje); Mientras agonizo
+  [8420656577, Alianza] (William Faulkner); El corazón de las tinieblas [8420669806, Alianza]
+  (Joseph Conrad); Un paseo por el bosque [8491873589, RBA] (Bill Bryson, memorias); Atando cabos
+  [8472239217, Tusquets] (Annie Proulx); Y no quedó ninguno [846707051X, Espasa] (Agatha Christie —
+  título vigente en ES, reemplazó a "Diez negritos"); La Novena Casa [8418359269, Hidra] (Leigh
+  Bardugo); La casa holandesa [8491816593, Alianza/AdN] (Ann Patchett); La frontera [849139351X,
+  HarperCollins Ibérica] (Don Winslow); Una cabeza llena de fantasmas [8416858268, Nocturna]
+  (Paul Tremblay); Defender a Jacob [8499708684, La Esfera de los Libros] (William Landay). La
+  única excepción: **Koko** [8440609884, Peter Straub] tiene ASIN real de una edición ES de
+  Ediciones B (1989) pero **descatalogada** — se dejó igual (no es un ASIN inventado, la nota de
+  edición al pie lo aclara), a diferencia de tratarlo como "solo inglés". `detectar_duplicados.py`:
+  0 `[DUP]` exactos (Thomas Harris y Ann Patchett quedan con 2 libros cada uno, casos `[REV]`
+  legítimos). ASIN 10 caracteres OK en las 20 (ninguno empieza con "B0"). **Stephen King 4 → 24
+  libros** (incluye el cross-ref de Into Thin Air); catálogo 370 → 390. Sin listicle todavía (se
+  espera completar más tandas del backlog antes de escribirla). **Backlog restante: 99 candidatos**
+  (119 del discovery − 20 de esta tanda), para futuras tandas de hasta 20 títulos cada una.
+
+- **2026-07-16 — Corrección + listicle: Stephen King.** A pedido de Marcelo: (1) `koko.md`
+  corregida — las dos ediciones en español (Ediciones B, 1989 y una reedición posterior) están
+  **descatalogadas** (confirmado vía casadellibro.com: "agotado en la editorial", solo reventa),
+  así que se pasó a "solo inglés" con `asin` de la edición vigente de Anchor Books ("Blue Rose
+  Trilogy, Book 1", asin `0307472205`, el mismo enlace que usa mostrecommendedbooks.com como fuente
+  primaria). (2) **Listicle nueva** (no existía antes): `/blog/libros-que-recomienda-stephen-king`,
+  escrita directamente con las 24 fichas (23 con ASIN + The Bleeding Heart, enriquecida pero sin
+  ASIN confiable, con nota de "solo inglés" — cuenta igual como enriquecida según la regla del
+  playbook). Lead "Por dónde empezar" (4 destacados: Matar a un ruiseñor, Hannibal, El secreto, Mal
+  de altura) + 5 grupos temáticos balanceados: Terror, fantástico y ciencia ficción (5 — fusiona la
+  única ficha de `cienciaficcion` para no dejarla huérfana), Crimen y suspenso (5), Clásicos de la
+  literatura (4), Ficción contemporánea y literaria (7), Memorias y no ficción (3). Verificado por
+  script: 24/24 links con `titulo` exacto (corregido 1 mismatch: "Mal de altura" → título completo
+  "Mal de altura: La gran tragedia del Everest"), `stephen-king` presente en las 24, slug existente,
+  0 huérfanos. Quedan **99 candidatos** en el backlog para las próximas tandas.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
