@@ -573,6 +573,65 @@ stub nuevo) → se enriquece (MODO LIBRO).
   "Mal de altura: La gran tragedia del Everest"), `stephen-king` presente en las 24, slug existente,
   0 huérfanos. Quedan **99 candidatos** en el backlog para las próximas tandas.
 
+- **2026-07-16 — Discovery (solo discovery, sin enriquecer): J.K. Rowling.** Backlog previo: 4/4
+  libros ya enriquecidos (Emma, La Ilíada, El pequeño caballo blanco, Team of Rivals), todos cross-
+  refs sueltos — nunca se había fetcheado una fuente real y completa (la ficha del referente solo
+  decía "jkrowling.com y entrevistas en medios literarios", sin URL concreta). Fuente fetcheada:
+  **mostrecommendedbooks.com/people/jk-rowling-recommended-books** (27 libros, cada uno con cita
+  textual de Rowling y URL de fuente primaria propia por libro — mayormente la entrevista "By the
+  Book" del *New York Times*, 2012, y accio-quote.org, un archivo de entrevistas históricas de
+  Rowling; también Business Insider, oprah.com y tuits propios en x.com/jk_rowling — cumple la
+  regla de oro de MODO DESCUBRIR de registrar fuente por libro). Manifiesto de 27 → `reconciliar.py`:
+  **4 YA-LINKED** (Team of Rivals, El pequeño caballo blanco, Emma, La Ilíada, ya estaban) + **0
+  CROSS-REF** + **1 REVISAR**, resuelto a **NUEVO** tras confirmar que es una obra real y distinta
+  del mismo autor: A Tale of Two Cities vs. Great Expectations (Dickens) + **22 NUEVO** directos.
+  **Total: 23 candidatos NUEVO.** Dos de ellos son antologías/obra completa en vez de un título
+  suelto (*The Collected Works of P. G. Wodehouse*, que Rowling nombró como uno de sus tres libros
+  para una isla desierta, y *The Oxford Shakespeare: The Complete Works*, la misma respuesta) —
+  quedan igual como candidatos por ahora; al enriquecer habrá que decidir si se cargan como
+  antología o se reemplazan por una obra representativa, para no romper la convención de "1 ASIN =
+  1 libro concreto" del catálogo. **No se enriqueció nada** (0 fichas nuevas creadas) — a pedido
+  explícito ("haz un discovery"), mismo patrón que Oprah Winfrey y Stephen King. Manifiesto completo
+  queda en esta entrada como fuente de verdad para la próxima tanda (archivo de trabajo
+  `manifiesto_jk_rowling.txt` no versionado). Sin listicle de Rowling todavía (no existía).
+
+- **2026-07-16 — Profundizar: J.K. Rowling (backlog cerrado salvo antologías).** De los 23
+  candidatos del discovery de arriba, Marcelo pidió enriquecer todos **menos las 2 antologías**
+  (*The Collected Works of P. G. Wodehouse* y *The Oxford Shakespeare: The Complete Works*, sus
+  picks para "tres libros a una isla desierta" — quedan en backlog para decidir más adelante cómo
+  representarlas sin romper la convención de "1 ASIN = 1 libro"). Enriquecidos los **21 restantes**
+  con MODO LIBRO vía 4 subagentes en paralelo (Sonnet), todos con edición ES confirmada salvo 5
+  títulos muy británicos y poco traducidos (marcados abajo): El viento en los sauces [8439280122,
+  Everest] (Kenneth Grahame); Mujercitas [8418008652, Alma Editorial] (Louisa May Alcott); Los
+  buscadores de tesoros [8415943385, Toromítico/Almuzara] (E. Nesbit); Zapatillas de ballet
+  [8410025930, Blackie Books] (Noel Streatfeild); Belleza negra [8476515510, José J. Olañeta]
+  (Anna Sewell); El castillo soñado [8478889892, Salamandra] (Dodie Smith); Lolita [8433968270,
+  Anagrama] (Vladimir Nabokov); Historia de dos ciudades [8484287289, Alba] (Charles Dickens —
+  confirmado libro real y distinto de *Grandes esperanzas*, ya en catálogo); Macbeth [8491050426,
+  Penguin Clásicos, edición bilingüe] (William Shakespeare); La canción de Aquiles [8411485161,
+  AdN] (Madeline Miller); The Collected Stories of Colette [**solo inglés**, 0374518653, Farrar,
+  Straus and Giroux] (Colette — sin cita textual propia en la fuente, ficha honesta sobre ese
+  punto: es el 3° de sus picks para isla desierta, sin comentario individual); Secretos de la
+  carne: Vida de Colette [8498410827, Siruela] (Judith Thurman); Chéri [8417346228, Acantilado]
+  (Colette); Nobles y rebeldes [8415625766, Libros del Asteroide] (Jessica Mitford — título ES real,
+  no "Hijas y rebeldes"); La mujer que se daba con las puertas [8420429481, Alfaguara] (Roddy
+  Doyle); Justicia: ¿Hacemos lo que debemos? [8499894143, Debate] (Michael J. Sandel); Los orígenes
+  del totalitarismo [8420647713, Alianza] (Hannah Arendt); Poverty Safari [**solo inglés**,
+  1912147033, Luath Press/Picador] (Darren McGarvey); Grimble [8426157190, Editorial Juventud —
+  sorpresa, sí tiene ES] (Clement Freud); Manxmouse [**solo inglés**, 0007457316, HarperCollins
+  Children's] (Paul Gallico); The Diaries of Auberon Waugh [**solo inglés**, 1888173416, The
+  Akadine Press] (Auberon Waugh). `detectar_duplicados.py`: 0 `[DUP]` exactos (Dickens y Colette
+  quedan con 2 libros cada uno, casos `[REV]` legítimos). ASIN 10 caracteres OK en las 21 (3 con
+  `asin` vacío por solo-inglés real, ninguno "B0"). **J.K. Rowling 4 → 25 libros**; catálogo 390 →
+  411. **Listicle nueva** (no existía antes): `/blog/libros-que-recomienda-j-k-rowling`, con las 25
+  fichas: lead "Por dónde empezar" (4 destacados: Emma, Mujercitas, La Ilíada, Team of Rivals) + 6
+  grupos temáticos balanceados — Infancia con estantería propia (4), Humor y fantasía para chicos
+  (4), Clásicos de la literatura universal (6), Ficción contemporánea y Colette (4), Memorias y
+  vidas literarias (4), Filosofía, historia y sociedad (3). Verificado por script: 25/25 links con
+  `titulo` exacto, slug existente, `j-k-rowling` en `recomendadoPor`, 0 huérfanos. **Backlog
+  restante: 2 antologías** (Wodehouse Complete Works, Oxford Shakespeare Complete Works) para
+  decidir en una futura sesión.
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,
