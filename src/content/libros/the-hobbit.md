@@ -5,6 +5,7 @@ asin: "8445012800"
 categoria: ficcion
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 1937
 resumen: "La aventura de Bilbo Bolsón que dio origen al universo de la Tierra Media, recomendada por Richard Branson en su lista de libros imprescindibles de virgin.com."
 destacado: false

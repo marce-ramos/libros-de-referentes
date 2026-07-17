@@ -5,6 +5,7 @@ asin: "8484530256"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
+  - james-clear
 anio: 1998
 resumen: "La novela de Barbara Kingsolver sobre una familia de misioneros en el Congo Belga, narrada por cinco voces femeninas. Stephen King la sumó a su lista de mejores lecturas en 'On Writing'."
 destacado: false

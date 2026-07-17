@@ -5,6 +5,7 @@ asin: "8490064385"
 categoria: negocios
 recomendadoPor:
   - tim-ferriss
+  - james-clear
 anio: 2007
 resumen: "El libro que lanzó a Tim Ferriss y popularizó el «diseño de estilo de vida»: automatizar, delegar y trabajar menos para vivir más."
 destacado: false

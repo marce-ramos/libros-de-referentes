@@ -5,6 +5,7 @@ asin: "8420674176"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
+  - james-clear
 anio: 1954
 resumen: "El experimento mental más brutal de la literatura del siglo XX: ¿qué pasa cuando un grupo de niños queda aislado sin adultos? Stephen King lo considera un referente ineludible."
 destacado: false

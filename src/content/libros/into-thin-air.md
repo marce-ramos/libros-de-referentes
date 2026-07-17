@@ -6,6 +6,7 @@ categoria: memorias
 recomendadoPor:
   - richard-branson
   - stephen-king
+  - james-clear
 anio: 1997
 resumen: "El relato en primera persona de Jon Krakauer sobre la tragedia de 1996 en el Everest, en la que murieron ocho personas en un solo día. Está en la lista de '70 libros imprescindibles' de Richard Branson (virgin.com) y en la lista de lecturas de Stephen King publicada en 'On Writing'."
 destacado: false

@@ -5,6 +5,7 @@ asin: "8420678171"
 categoria: ficcion
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 1884
 resumen: "El clásico de Mark Twain sobre Huck y Jim navegando el Mississippi en busca de libertad. Richard Branson lo incluyó entre sus 70 libros imprescindibles."
 destacado: false

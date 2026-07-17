@@ -5,6 +5,7 @@ asin: "6071101867"
 categoria: psicologia
 recomendadoPor:
   - daniel-kahneman
+  - james-clear
 anio: 2008
 resumen: "El libro que popularizó la 'arquitectura de decisiones': cómo pequeños cambios en cómo se nos presentan las opciones nos empujan a decidir mejor, sin quitarnos libertad. De Richard Thaler, premio Nobel de Economía."
 destacado: false

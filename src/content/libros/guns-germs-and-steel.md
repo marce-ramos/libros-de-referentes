@@ -5,6 +5,7 @@ asin: "8499928714"
 categoria: historia
 recomendadoPor:
   - yuval-noah-harari
+  - james-clear
 anio: 1997
 resumen: "El clásico de Jared Diamond, ganador del Pulitzer, que explica por qué unas civilizaciones dominaron a otras a partir de la geografía y no de la supuesta superioridad de ningún pueblo. Una influencia directa en Sapiens."
 destacado: false

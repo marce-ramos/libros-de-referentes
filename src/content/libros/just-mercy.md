@@ -5,6 +5,7 @@ asin: "8499428770"
 categoria: memorias
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 2014
 resumen: "Las memorias del abogado Bryan Stevenson defendiendo a condenados injustamente en el sistema penal de Estados Unidos, recomendadas por Richard Branson en su lista de libros imprescindibles de virgin.com."
 destacado: false

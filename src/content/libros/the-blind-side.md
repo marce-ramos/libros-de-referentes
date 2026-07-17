@@ -5,6 +5,7 @@ asin: "0393330478"
 categoria: memorias
 recomendadoPor:
   - malcom-gladwell
+  - james-clear
 anio: 2006
 resumen: "Cómo una familia de Tennessee adoptó a un adolescente sin hogar que se convirtió en uno de los jugadores de fútbol americano más cotizados de la NFL. Michael Lewis en su mejor forma. Recomendado por Malcolm Gladwell."
 destacado: false

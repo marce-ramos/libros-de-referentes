@@ -5,6 +5,7 @@ asin: "8437629829"
 categoria: memorias
 recomendadoPor:
   - paul-graham
+  - james-clear
 anio: 1791
 resumen: "Benjamin Franklin narra su propia vida con una franqueza desarmante: sus errores, sus aprendizajes y su método para mejorar. Un clásico que sigue siendo sorprendentemente moderno. Recomendado por Paul Graham."
 destacado: false

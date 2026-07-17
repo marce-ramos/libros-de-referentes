@@ -5,6 +5,7 @@ asin: "8416440204"
 categoria: historia
 recomendadoPor:
   - satya-nadella
+  - james-clear
 anio: 2013
 resumen: "La historia épica de nueve jóvenes estadounidenses que derrotaron a la élite mundial de remo en los Juegos Olímpicos de Berlín 1936. Recomendado por Satya Nadella."
 destacado: false

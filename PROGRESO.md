@@ -690,6 +690,50 @@ stub nuevo) → se enriquece (MODO LIBRO).
   tandas 2/3 y 3/3 del backlog de Branson** (44 candidatos sourceados desde 2026-07-13, ver esa
   entrada para el detalle) — cuando se enriquezcan, la listicle va a necesitar regenerarse.
 
+- **2026-07-17 — Discovery: James Clear (profundizar, backlog nunca sourceado).** James Clear solo
+  tenía 3 libros vinculados (Sapiens, Daily Rituals, Hábitos atómicos), todos como cross-refs
+  sueltos — nunca se había fetcheado su fuente documentada. Discovery vía `web_fetch` sobre las
+  **13 subpáginas de categoría de jamesclear.com/best-books** (art, biographies, business, fitness,
+  history, philosophy, psychology, science, self-help, writing, novels, fantasy, mystery) →
+  manifiesto de **167 candidatos únicos** (deduplicados a mano; muchos libros se repiten entre
+  categorías) → `reconciliar.py`: **1 YA-LINKED** (The War of Art) + **32 CROSS-REF directos** +
+  **18 REVISAR** + **116 NUEVO** directos. Los 18 REVISAR se resolvieron a mano (Opus): 2 eran el
+  mismo libro ya en catálogo con slug distinto al esperado → pasan a **CROSS-REF** (Daily Rituals:
+  How Artists Work → `daily-rituals`; Sapiens: A Brief History of Humankind → `sapiens`); 15 eran
+  libros distintos de autores ya presentes → pasan a **NUEVO** (Surely You're Joking Mr. Feynman!,
+  The New New Thing, Moneyball, The Lost City of Z, Fooled by Randomness, Titan [confirmado: Ron
+  Chernow escribió tanto Titan como una biografía separada de Mark Twain, ya en catálogo — son dos
+  libros reales distintos], The Emperor of All Maladies, A Short History of Nearly Everything,
+  State of Wonder, The Kite Runner, Everything I Never Told You, All the Light We Cannot See, The
+  Lord of the Rings [trilogía como obra única, distinta de El Hobbit], The Martian, The Andromeda
+  Strain); **1 se excluye** (The Harry Potter series — es la serie completa, no un libro individual,
+  mismo criterio que las antologías excluidas de J.K. Rowling; ya está *Harry Potter y la piedra
+  filosofal* individual en catálogo).
+  **Totales finales: CROSS-REF=34, NUEVO=131, EXCLUIDO=1.** Es, por lejos, el backlog más grande de
+  la sesión (más del doble que Stephen King). Manifiesto completo guardado en outputs
+  (`manifiesto_james_clear.txt`) para la próxima sesión si hace falta.
+  - **Decisión del usuario:** aplicar los cross-refs ahora, dejar los 131 NUEVO en backlog para
+    otra sesión.
+  - **32 cross-refs aplicados** vía 5 subagentes en paralelo (Sonnet), solo frontmatter (sin
+    sección de cuerpo nueva, regla del playbook): just-kids, into-thin-air, the-boys-in-the-boat,
+    a-walk-in-the-woods, just-mercy, mountains-beyond-mountains,
+    the-autobiography-of-benjamin-franklin, the-blind-side, business-adventures,
+    poor-charlie-s-almanack, thinking-fast-and-slow, nudge, the-4-hour-workweek, start-with-why,
+    guns-germs-and-steel, meditations, the-little-prince, the-person-and-the-situation,
+    a-brief-history-of-time, the-little-book-of-common-sense-investing, to-kill-a-mockingbird,
+    siddhartha, americanah, a-thousand-splendid-suns, the-poisonwood-bible, the-alchemist, 1984,
+    lord-of-the-flies, the-adventures-of-huckleberry-finn, the-hobbit, great-expectations,
+    and-then-there-were-none. Al revisar, `sapiens` y `daily-rituals` ya tenían `james-clear`
+    (eran 2 de los 3 vínculos originales del referente, junto con Hábitos atómicos) — el
+    reconciliar.py los había marcado REVISAR por desajuste de slug contra el subtítulo del título
+    del manifiesto, no por faltar el vínculo; sin cambios ahí. `detectar_duplicados.py`: 0 `[DUP]`
+    sobre las 434 fichas del catálogo (sin cambios en el total, como corresponde a cross-refs puros).
+    **James Clear pasa de 3 → 35 libros vinculados.** Sin listicle todavía (el referente está en la
+    lista de "fichas 100%, falta escribir el post"; se puede escribir ahora con estos 35 o esperar
+    a la próxima tanda de NUEVO — a decidir).
+  - **Pendiente: 131 candidatos NUEVO** (fichas por crear, backlog completo en el manifiesto de
+    outputs) + **1 excluido** (The Harry Potter series, es la saga completa no un libro puntual).
+
 ## Cruces referente↔libro (relaciones nuevas)
 
 Pase de detección: libros ya existentes a los que un referente del roster también recomienda,

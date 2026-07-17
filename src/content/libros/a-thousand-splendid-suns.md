@@ -5,6 +5,7 @@ asin: "8498381223"
 categoria: ficcion
 recomendadoPor:
   - dua-lipa
+  - james-clear
 anio: 2007
 resumen: "La historia de dos mujeres afganas unidas por circunstancias brutales y por una amistad que las sostiene: la novela de Hosseini que Dua Lipa eligió como pick de febrero 2024 en el Service95 Book Club."
 destacado: false

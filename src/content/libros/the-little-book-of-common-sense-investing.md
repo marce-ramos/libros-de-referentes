@@ -5,6 +5,7 @@ asin: "8423425401"
 categoria: negocios
 recomendadoPor:
   - warren-buffett
+  - james-clear
 anio: 2007
 resumen: "John C. Bogle, fundador de Vanguard, explica por qué los fondos indexados de bajo costo le ganan a la gestión activa a largo plazo; en su carta de 2014, Warren Buffett recomendó este libro por sobre escuchar 'cantos de sirena' de gestores estrella."
 destacado: false

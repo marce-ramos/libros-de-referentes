@@ -5,6 +5,7 @@ asin: "8491873589"
 categoria: memorias
 recomendadoPor:
   - stephen-king
+  - james-clear
 anio: 1998
 resumen: "Las memorias de Bill Bryson sobre su intento de caminar el Sendero de los Apalaches, con el amigo menos preparado posible. Stephen King la incluyó entre los mejores libros que leyó antes de escribir On Writing."
 destacado: false

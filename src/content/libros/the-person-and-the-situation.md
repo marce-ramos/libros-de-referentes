@@ -5,6 +5,7 @@ asin: "1905177445"
 categoria: psicologia
 recomendadoPor:
   - malcom-gladwell
+  - james-clear
 anio: 1991
 resumen: "El libro de psicología social que Malcolm Gladwell declaró influencia central de toda su obra: cómo el contexto determina el comportamiento humano mucho más de lo que creemos."
 destacado: false

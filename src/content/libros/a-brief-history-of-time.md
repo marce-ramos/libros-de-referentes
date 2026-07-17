@@ -5,6 +5,7 @@ asin: "8467033886"
 categoria: ciencia
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 1988
 resumen: "Stephen Hawking explica el origen del universo, los agujeros negros y la naturaleza del tiempo con apenas una ecuación en todo el libro. Está en la lista de 70 libros imprescindibles que Richard Branson publicó en el blog de Virgin."
 destacado: false

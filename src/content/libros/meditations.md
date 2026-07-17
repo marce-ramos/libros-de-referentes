@@ -7,6 +7,7 @@ recomendadoPor:
   - ryan-holiday
   - tim-ferriss
   - naval-ravikant
+  - james-clear
 anio: 180
 resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday, Tim Ferriss y Naval Ravikant."
 destacado: false

@@ -5,6 +5,7 @@ asin: "8494645331"
 categoria: memorias
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 2003
 resumen: "La biografía del Dr. Paul Farmer, el médico formado en Harvard que dedicó su vida a llevar tratamiento contra la tuberculosis y el sida a los más pobres de Haití. Está en la lista de '70 libros imprescindibles' de Richard Branson."
 destacado: false

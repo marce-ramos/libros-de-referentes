@@ -6,6 +6,7 @@ categoria: negocios
 recomendadoPor:
   - bill-gates
   - warren-buffett
+  - james-clear
 anio: 1969
 resumen: "Doce relatos clásicos del mundo de Wall Street. El libro de negocios favorito tanto de Warren Buffett como de Bill Gates."
 destacado: true

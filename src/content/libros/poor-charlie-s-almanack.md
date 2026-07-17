@@ -6,6 +6,7 @@ categoria: negocios
 recomendadoPor:
   - warren-buffett
   - naval-ravikant
+  - james-clear
 anio: 2005
 resumen: "La sabiduría reunida de Charlie Munger, socio de Warren Buffett: modelos mentales de múltiples disciplinas para pensar y decidir mejor. Recomendado por Warren Buffett y Naval Ravikant."
 destacado: false

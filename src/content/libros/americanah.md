@@ -5,6 +5,7 @@ asin: "8439728123"
 categoria: ficcion
 recomendadoPor:
   - malala-yousafzai
+  - james-clear
 anio: 2013
 resumen: "La novela de Chimamanda Ngozi Adichie sobre raza, identidad y pertenencia: una joven nigeriana llega a Estados Unidos y descubre que ahí es 'negra' —una categoría que en Nigeria no existía para ella. Recomendada por Malala Yousafzai."
 destacado: false

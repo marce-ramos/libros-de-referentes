@@ -5,6 +5,7 @@ asin: "8420668001"
 categoria: ficcion
 recomendadoPor:
   - lex-fridman
+  - james-clear
 anio: 1943
 resumen: "El libro más traducido de la historia después de la Biblia, y uno de los favoritos de Lex Fridman: una historia sobre la infancia, el amor y lo que los adultos olvidan en el camino."
 destacado: false

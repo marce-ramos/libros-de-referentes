@@ -5,6 +5,7 @@ asin: "8491040978"
 categoria: ficcion
 recomendadoPor:
   - richard-branson
+  - james-clear
 anio: 1861
 resumen: "El clásico de Dickens sobre un huérfano que recibe una fortuna anónima y descubre lo que el dinero puede y no puede comprar. Está en la lista de '70 libros imprescindibles' de Richard Branson (virgin.com)."
 destacado: false

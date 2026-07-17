@@ -6,6 +6,7 @@ categoria: ficcion
 recomendadoPor:
   - malala-yousafzai
   - oprah-winfrey
+  - james-clear
 anio: 1988
 resumen: "La fábula de Paulo Coelho sobre seguir los propios sueños, uno de los libros más leídos y traducidos del mundo. Recomendada por Malala Yousafzai y Oprah Winfrey."
 destacado: false

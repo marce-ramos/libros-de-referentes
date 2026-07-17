@@ -5,6 +5,7 @@ asin: "8490322503"
 categoria: psicologia
 recomendadoPor:
   - daniel-kahneman
+  - james-clear
 anio: 2011
 resumen: "La obra maestra del Nobel Daniel Kahneman sobre los dos sistemas con los que pensamos y los sesgos que nos hacen equivocar."
 destacado: false

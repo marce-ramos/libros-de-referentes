@@ -5,6 +5,7 @@ asin: "8490701210"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
+  - james-clear
 anio: 1960
 resumen: "El clásico de Harper Lee sobre racismo e infancia en el sur de Estados Unidos, ganador del Pulitzer. Stephen King lo nombró entre los libros que más lo marcaron como lector."
 destacado: false

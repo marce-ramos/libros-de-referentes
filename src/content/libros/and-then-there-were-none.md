@@ -5,6 +5,7 @@ asin: "846707051X"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
+  - james-clear
 anio: 1939
 resumen: "La novela de misterio más vendida de la historia, de Agatha Christie: diez desconocidos aislados en una isla que empiezan a morir uno por uno. Stephen King la elogió como un gran misterio, con muchos asesinatos pero relativamente poca sangre."
 destacado: false

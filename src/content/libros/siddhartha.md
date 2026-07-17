@@ -5,6 +5,7 @@ asin: "8499082521"
 categoria: ficcion
 recomendadoPor:
   - naval-ravikant
+  - james-clear
 anio: 1922
 resumen: "La novela de Hermann Hesse sobre la búsqueda de sentido: un joven que lo deja todo para encontrar la iluminación por su cuenta. Un clásico breve y luminoso que Naval Ravikant cita entre sus favoritos."
 destacado: false
