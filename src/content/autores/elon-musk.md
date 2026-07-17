@@ -2,7 +2,6 @@
 nombre: "Elon Musk"
 profesion: "Fundador de SpaceX y CEO de Tesla"
 bio: "Empresario y visionario tecnológico que atribuye buena parte de su forma de pensar a los libros que devoró desde chico."
-destacado: true
 orden: 4
 ---
 

@@ -2,7 +2,6 @@
 nombre: "Vitalik Buterin"
 profesion: "Cofundador de Ethereum"
 bio: "Creador de Ethereum, la plataforma de contratos inteligentes que puso en marcha la economía descentralizada, y uno de los pensadores más originales del ecosistema cripto."
-destacado: false
 orden: 50
 ---
 

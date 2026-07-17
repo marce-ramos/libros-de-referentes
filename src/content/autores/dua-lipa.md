@@ -2,7 +2,6 @@
 nombre: "Dua Lipa"
 profesion: "Cantante y Fundadora de Service95"
 bio: "Estrella del pop británica, ganadora del Grammy y del Brit Award, que fundó la plataforma editorial Service95 y su club de lectura mensual dedicado a voces literarias de todo el mundo."
-destacado: false
 orden: 8
 ---
 

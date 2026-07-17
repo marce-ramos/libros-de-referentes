@@ -2,7 +2,6 @@
 nombre: "Andrew Ng"
 profesion: "Fundador de DeepLearning.AI y Cofundador de Coursera"
 bio: "Andrew Ng fundó DeepLearning.AI, cofundó Coursera y lideró los equipos de IA en Google Brain y Baidu; más de 8 millones de personas aprendieron inteligencia artificial con él."
-destacado: false
 orden: 50
 ---
 

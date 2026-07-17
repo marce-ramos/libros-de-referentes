@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2014
 resumen: "Las memorias del abogado Bryan Stevenson defendiendo a condenados injustamente en el sistema penal de Estados Unidos, recomendadas por Richard Branson en su lista de libros imprescindibles de virgin.com."
 destacado: false
-fechaActualizado: 2026-07-13
+fechaActualizado: 2026-07-17
 ---
 
 Bryan Stevenson tenía apenas veinte años recién salido de la facultad de Derecho de Harvard cuando fundó la Equal Justice Initiative, una organización dedicada a defender a los presos más pobres y más olvidados del sistema judicial estadounidense. *Cuestión de justicia* es el relato de esos años: casos reales, nombres reales, y un sistema que muchas veces falla de manera brutal a quienes menos recursos tienen para defenderse.
@@ -29,5 +29,7 @@ Lo que hace distinto a este libro dentro del género de memorias legales es su i
 ## Para quién es
 
 Para quien quiera entender, desde adentro y con nombres propios, cómo funciona (y falla) el sistema judicial en Estados Unidos, y para lectores de memorias que buscan además una causa: es denso en emoción, pero se lee con la tensión de una novela.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Cuestión de justicia*, Ediciones Península (traducción de Francisco López Martín).

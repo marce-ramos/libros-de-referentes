@@ -2,7 +2,6 @@
 nombre: "Jordan Peterson"
 profesion: "Psicólogo clínico, profesor y autor"
 bio: "Psicólogo clínico canadiense, exprofesor de Harvard y autor de 12 reglas para la vida, con una de las listas de lecturas más citadas de internet."
-destacado: false
 orden: 50
 ---
 

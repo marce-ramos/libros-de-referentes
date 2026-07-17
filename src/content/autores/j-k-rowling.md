@@ -2,7 +2,6 @@
 nombre: "J.K. Rowling"
 profesion: "Escritora"
 bio: "Autora de la saga Harry Potter, una de las series de libros más vendidas de la historia, que pasó de la asistencia social a convertirse en referente mundial de la literatura."
-destacado: false
 orden: 50
 ---
 

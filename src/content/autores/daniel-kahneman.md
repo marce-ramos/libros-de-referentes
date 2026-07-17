@@ -2,7 +2,6 @@
 nombre: "Daniel Kahneman"
 profesion: "Psicólogo y Premio Nobel de Economía"
 bio: "Daniel Kahneman (1934-2024) fue el psicólogo israelí-americano que ganó el Premio Nobel de Economía en 2002 por demostrar que los humanos no somos tan racionales como creemos."
-destacado: false
 orden: 50
 ---
 

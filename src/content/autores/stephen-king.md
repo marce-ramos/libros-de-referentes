@@ -2,7 +2,6 @@
 nombre: "Stephen King"
 profesion: "Escritor"
 bio: "El maestro del terror contemporáneo, autor de más de sesenta novelas que vendieron cientos de millones de ejemplares, y uno de los lectores más voraces y honestos que hay."
-destacado: false
 orden: 50
 ---
 

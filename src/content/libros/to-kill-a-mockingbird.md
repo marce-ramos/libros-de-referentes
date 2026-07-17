@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1960
 resumen: "El clásico de Harper Lee sobre racismo e infancia en el sur de Estados Unidos, ganador del Pulitzer. Stephen King lo nombró entre los libros que más lo marcaron como lector."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-17
 ---
 
 Hay libros que se leen en la escuela y después se vuelven a leer toda la vida, y *Matar a un ruiseñor* es uno de los más claros ejemplos. Ganadora del premio Pulitzer, la única novela publicada por Harper Lee en vida se convirtió en un clásico casi instantáneo y sigue siendo, décadas después, una de las puertas de entrada más citadas a la literatura estadounidense del siglo XX.
@@ -29,5 +29,7 @@ La fuerza del libro está en el punto de vista: contarlo todo desde los ojos de 
 ## Para quién es
 
 Para cualquier lector, sin excepción: es de esos libros que funcionan igual de bien a los catorce años que a los cuarenta, y que se puede volver a abrir sabiendo cómo termina y aun así conmover.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Matar a un ruiseñor*, B de Bolsillo.

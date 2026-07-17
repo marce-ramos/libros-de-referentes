@@ -2,7 +2,6 @@
 nombre: "Malcolm Gladwell"
 profesion: "Periodista y Autor"
 bio: "Malcolm Gladwell es el periodista canadiense-británico que escribió ocho bestsellers del New York Times —entre ellos El punto de quiebre e Inteligencia intuitiva— y conduce el podcast Revisionist History."
-destacado: false
 orden: 50
 ---
 

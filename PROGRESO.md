@@ -1018,3 +1018,39 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `naval-ravikant` en `recomendadoPor` y `asin` presente en las 23, 0 slugs huérfanos, 0 fichas de
   Naval sin enlazar. **Naval Ravikant 4 → 23 libros** (7 de ellos ahora compartidos con otros
   referentes vía cross-ref); catálogo 362 → 370.
+
+- **2026-07-17 — Acción "Sanear fichas" (Regla de atribución).** `python3 tools/auditar_fichas.py`
+  detectó **40/434 fichas** con referentes del `recomendadoPor` no nombrados en el cuerpo (0 con
+  exceso de secciones salvo `meditations`, que tenía 3). Saneadas las 40 en 4 tandas, tocando SOLO
+  la parte de recomendación (línea consolidada "También lo recomienda(n) X [y Y]." antes del
+  blockquote de edición), sin reescribir reseña/De qué trata/Para quién es, `fechaActualizado`
+  bumpeado a 2026-07-17 en las 40: 1984, a-brief-history-of-time, a-gentleman-in-moscow,
+  a-thousand-splendid-suns, a-walk-in-the-woods, americanah, an-american-marriage,
+  and-then-there-were-none, business-adventures, great-expectations, guns-germs-and-steel,
+  into-thin-air, just-kids, just-mercy, klara-and-the-sun, meditations, mountains-beyond-mountains,
+  nudge, one-hundred-years-of-solitude, poor-charlie-s-almanack, project-hail-mary, sapiens,
+  shoe-dog, siddhartha, start-with-why, the-4-hour-workweek, the-adventures-of-huckleberry-finn,
+  the-alchemist, the-autobiography-of-benjamin-franklin, the-beginning-of-infinity, the-blind-side,
+  the-hitchhiker-s-guide-to-the-galaxy, the-hobbit, the-little-book-of-common-sense-investing,
+  the-little-prince, the-person-and-the-situation, the-poisonwood-bible, the-rational-optimist,
+  thinking-fast-and-slow, to-kill-a-mockingbird.
+  - **`meditations`** (único caso con 3 secciones): se consolidó la sección "Por qué lo recomienda
+    Ryan Holiday" (razón genérica, sin cita/anécdota concreta) en la línea consolidada junto con
+    James Clear; quedaron como sección propia Tim Ferriss (anécdota concreta: cita de Marco Aurelio
+    en su heladera) y Naval Ravikant (cita textual + razón más rica, además `orden: 5` el más bajo
+    de los 4 referentes) — criterio: razón más rica primero, `orden` como desempate.
+  - **`sapiens.md`**: además de la atribución, se encontró y corrigió un bug de datos preexistente
+    (no generado por esta tanda) — el cuerpo estaba cortado a mitad de palabra ("...nuestra espe")
+    desde el commit inicial del repo (confirmado con `git show f3b585e`). Se completó la oración de
+    forma neutra (sin inventar datos nuevos) y se agregó la línea consolidada con los 4 referentes
+    faltantes. **Pendiente sugerido:** revisar si otras fichas viejas tienen el mismo tipo de corte.
+  - ⚠️ **Nota de herramientas:** el mount que ve `bash` mostró versiones desincronizadas/truncadas
+    de `into-thin-air.md`, `sapiens.md` y `shoe-dog.md` incluso varios minutos después de editarlos
+    (bytes por debajo del propio HEAD de git, sin reflejar los cambios) — el re-audit por script vía
+    bash siguió reportando esas 3 como pendientes. Contenido verificado manualmente correcto vía
+    Read tool (fuente de verdad real, según el gotcha ya documentado en CONTENIDO.md §8). Resultado
+    real: **40/40 saneadas**; el resultado de script quedó en 3/434 por el desync, no por un error
+    real de contenido.
+  - **Paso 3 — limpieza de `destacado` inerte:** eliminada la línea `destacado: ...` del frontmatter
+    de los **40 archivos** de `src/content/autores/*.md` (campo descartado del schema). Confirmado
+    con `grep -l '^destacado:' src/content/autores/*.md` → 0 resultados.

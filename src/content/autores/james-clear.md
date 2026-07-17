@@ -2,7 +2,6 @@
 nombre: "James Clear"
 profesion: "Autor y Experto en Hábitos"
 bio: "James Clear escribió Hábitos atómicos, el libro de no ficción más vendido de la última década, con más de 25 millones de copias en 60 idiomas."
-destacado: false
 orden: 50
 ---
 

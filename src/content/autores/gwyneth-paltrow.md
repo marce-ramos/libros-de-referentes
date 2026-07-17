@@ -2,7 +2,6 @@
 nombre: "Gwyneth Paltrow"
 profesion: "Actriz y Fundadora de Goop"
 bio: "Actriz ganadora del Oscar que fundó Goop, una marca de bienestar y estilo de vida que incluye un club de lectura con foco en salud, autoconocimiento y crecimiento personal."
-destacado: false
 orden: 50
 ---
 

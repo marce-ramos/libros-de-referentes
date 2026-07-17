@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2007
 resumen: "John C. Bogle, fundador de Vanguard, explica por qué los fondos indexados de bajo costo le ganan a la gestión activa a largo plazo; en su carta de 2014, Warren Buffett recomendó este libro por sobre escuchar 'cantos de sirena' de gestores estrella."
 destacado: false
-fechaActualizado: 2026-07-15
+fechaActualizado: 2026-07-17
 ---
 
 Hay un libro que Warren Buffett recomienda casi como quien da un consejo de salud: simple, aburrido de tan obvio, y que casi nadie sigue al pie de la letra. Ese libro es este.
@@ -29,5 +29,7 @@ El corazón del libro es un cálculo incómodo: un punto porcentual de comisión
 ## Para quién es
 
 Para cualquiera que esté por abrir su primera cuenta de inversión y no sepa por dónde arrancar, y también para quien ya invierte hace años y nunca se puso a calcular cuánto le está costando, en silencio, pagar por gestión activa.
+
+También lo recomienda James Clear.
 
 > Edición en español: *El pequeño libro para invertir con sentido común*, Deusto (traducción de Gustavo Teruel).

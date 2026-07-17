@@ -10,7 +10,7 @@ recomendadoPor:
 anio: 1988
 resumen: "La fábula de Paulo Coelho sobre seguir los propios sueños, uno de los libros más leídos y traducidos del mundo. Recomendada por Malala Yousafzai y Oprah Winfrey."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-17
 ---
 
 *El alquimista* es uno de los libros más vendidos y traducidos de la historia, con lectores en más de 170 países. Malala Yousafzai lo incluyó entre sus recomendaciones, sumándolo a la larga lista de personas que encontraron en esta fábula un empujón para perseguir sus sueños.
@@ -34,5 +34,7 @@ El libro repite una promesa reconfortante: «cuando deseás algo de verdad, todo
 ## Para quién es
 
 Para quien busque una lectura breve, simbólica e inspiradora, más cercana a la parábola que a la novela realista.
+
+También lo recomienda James Clear.
 
 > Edición en español: *El alquimista*, Editorial Planeta.

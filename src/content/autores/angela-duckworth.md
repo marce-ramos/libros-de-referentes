@@ -2,7 +2,6 @@
 nombre: "Angela Duckworth"
 profesion: "Psicóloga e Investigadora de la Universidad de Pennsylvania"
 bio: "Angela Duckworth es la psicóloga que puso nombre científico al grit —la combinación de pasión y perseverancia— y lo explicó en un bestseller del New York Times con más de 5 millones de copias vendidas."
-destacado: false
 orden: 50
 ---
 

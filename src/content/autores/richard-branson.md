@@ -2,7 +2,6 @@
 nombre: "Richard Branson"
 profesion: "Fundador de Virgin Group"
 bio: "Emprendedor británico que construyó el grupo Virgin desde un sello discográfico hasta una de las marcas más reconocidas del planeta, con presencia en aviación, telecomunicaciones y turismo espacial."
-destacado: false
 orden: 50
 ---
 

@@ -2,7 +2,6 @@
 nombre: "Marc Andreessen"
 profesion: "Cofundador de Andreessen Horowitz e Inversor"
 bio: "Cofundador de Netscape y del fondo de venture capital Andreessen Horowitz (a16z), una de las voces más influyentes en tecnología e inversión de los últimos treinta años."
-destacado: false
 orden: 50
 ---
 

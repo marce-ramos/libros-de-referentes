@@ -2,7 +2,6 @@
 nombre: "Reese Witherspoon"
 profesion: "Actriz, Productora y Empresaria"
 bio: "Actriz ganadora del Oscar y fundadora de Hello Sunshine, la productora que convirtió el Reese's Book Club en uno de los clubs de lectura más influyentes del mundo."
-destacado: false
 orden: 50
 ---
 

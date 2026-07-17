@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1991
 resumen: "El libro de psicología social que Malcolm Gladwell declaró influencia central de toda su obra: cómo el contexto determina el comportamiento humano mucho más de lo que creemos."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-17
 ---
 
 Si tuvieras que rastrear el origen intelectual de Malcolm Gladwell —sus ideas sobre puntos de quiebre, sobre el poder de los contextos, sobre por qué las personas hacen lo que hacen—, terminarías inevitablemente en este libro. *The Person and the Situation*, de los psicólogos sociales Lee Ross y Richard Nisbett, es uno de los textos más citados en ciencias sociales del siglo XX, y también uno de los más subestimados por el gran público.
@@ -29,5 +29,7 @@ Uno de los conceptos más prácticos del libro es el de "canalización": cambiar
 ## Para quién es
 
 Para lectores de psicología, sociología y economía del comportamiento que quieran ir a las fuentes. Es un libro académico, pero escrito con claridad y con ejemplos que son imposibles de olvidar. Imprescindible para quienes leyeron a Gladwell y quieren entender de dónde saca sus ideas.
+
+También lo recomienda James Clear.
 
 > Por ahora disponible solo en inglés; el enlace lleva a la edición de Pinter & Martin Publishers.

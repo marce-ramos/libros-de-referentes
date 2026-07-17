@@ -2,7 +2,6 @@
 nombre: "Ryan Holiday"
 profesion: "Autor y Divulgador de Filosofía Estoica"
 bio: "Ryan Holiday es el autor de El obstáculo es el camino y La vía estoica diaria, libros que llevaron el estoicismo clásico al público contemporáneo con más de 10 millones de ejemplares vendidos."
-destacado: false
 orden: 50
 ---
 

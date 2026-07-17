@@ -2,7 +2,6 @@
 nombre: "Ray Dalio"
 profesion: "Fundador de Bridgewater Associates"
 bio: "Ray Dalio fundó Bridgewater Associates, el fondo de cobertura más grande del mundo, y es autor de 'Principios', libro de gestión y filosofía de vida con más de 5 millones de copias vendidas."
-destacado: false
 orden: 50
 ---
 

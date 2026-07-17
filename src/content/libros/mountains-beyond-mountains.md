@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2003
 resumen: "La biografía del Dr. Paul Farmer, el médico formado en Harvard que dedicó su vida a llevar tratamiento contra la tuberculosis y el sida a los más pobres de Haití. Está en la lista de '70 libros imprescindibles' de Richard Branson."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-17
 ---
 
 Paul Farmer podría haber tenido una carrera cómoda como médico en cualquier hospital de Boston. En cambio, eligió pasar buena parte de su vida en las zonas rurales más pobres de Haití, tratando tuberculosis resistente a los medicamentos en pacientes que el sistema de salud global había dado por perdidos. El periodista Tracy Kidder pasó años siguiéndolo de cerca —en Haití, en Perú, en las cárceles rusas— para escribir *Montañas tras las montañas*, un retrato que no idealiza a su protagonista pero que deja en claro por qué tanta gente lo considera excepcional.
@@ -29,5 +29,7 @@ El título viene de un proverbio haitiano: apenas resolvés un problema, aparece
 ## Para quién es
 
 Para lectores de biografías y memorias sobre personas que se propusieron algo más grande que ellas mismas, y para quienes les interesan la salud global, el desarrollo y el trabajo humanitario contado desde el terreno, sin golpes bajos.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Montañas tras las montañas: Un hombre dispuesto a curar el mundo*, Capitán Swing (traducción de Silvia Moreno Parrado).

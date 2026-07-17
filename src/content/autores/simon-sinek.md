@@ -2,7 +2,6 @@
 nombre: "Simon Sinek"
 profesion: "Autor y Conferencista de Liderazgo"
 bio: "Autor del concepto 'Start With Why' y una de las voces más escuchadas del mundo sobre liderazgo, propósito y la construcción de organizaciones que inspiran."
-destacado: false
 orden: 50
 ---
 

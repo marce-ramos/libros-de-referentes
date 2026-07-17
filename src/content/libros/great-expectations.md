@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1861
 resumen: "El clásico de Dickens sobre un huérfano que recibe una fortuna anónima y descubre lo que el dinero puede y no puede comprar. Está en la lista de '70 libros imprescindibles' de Richard Branson (virgin.com)."
 destacado: false
-fechaActualizado: 2026-07-13
+fechaActualizado: 2026-07-17
 ---
 
 Pip es un huérfano criado por su hermana en los pantanos de Kent, sin más futuro previsible que el yunque del herrero que lo va a emplear. Todo cambia el día en que un benefactor anónimo decide financiarle una nueva vida como caballero en Londres. *Grandes esperanzas* es, entre tantas cosas, la novela que Dickens escribió sobre lo que el dinero puede y no puede comprar.
@@ -29,5 +29,7 @@ El gran tema de la novela no es la riqueza sino la vergüenza: Pip pasa buena pa
 ## Para quién es
 
 Para lectores de clásicos que quieran una novela con trama de folletín, personajes inolvidables (Miss Havisham es uno de los grandes villanos silenciosos de la literatura) y una crítica social que sigue siendo actual.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Grandes esperanzas*, Alianza Editorial (traducción de Miguel Ángel Pérez Pérez).

@@ -2,7 +2,6 @@
 nombre: "Nassim Nicholas Taleb"
 profesion: "Ensayista, Estadístico y Exoperador de Riesgo"
 bio: "Nassim Nicholas Taleb es el autor de El cisne negro y la serie Incerto, obras que redefinieron cómo el mundo entiende la incertidumbre, el riesgo y los eventos improbables."
-destacado: false
 orden: 50
 ---
 

@@ -2,7 +2,6 @@
 nombre: "Mark Zuckerberg"
 profesion: "Cofundador de Meta"
 bio: "Mark Zuckerberg cofundó Facebook —hoy Meta— y en 2015 lanzó 'A Year of Books', un club de lectura público en el que recomendó 23 libros sobre culturas, historia y tecnología."
-destacado: true
 orden: 9
 ---
 

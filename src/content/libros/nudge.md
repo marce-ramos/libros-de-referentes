@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2008
 resumen: "El libro que popularizó la 'arquitectura de decisiones': cómo pequeños cambios en cómo se nos presentan las opciones nos empujan a decidir mejor, sin quitarnos libertad. De Richard Thaler, premio Nobel de Economía."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-07-17
 ---
 
 *Un pequeño empujón* llevó la economía del comportamiento del mundo académico a las políticas públicas de medio planeta. Su autor principal, Richard Thaler, ganaría el premio Nobel de Economía en 2017 justamente por estas ideas, escritas junto al jurista Cass Sunstein.
@@ -29,5 +29,7 @@ Los autores lo llaman **paternalismo libertario**: se puede diseñar el entorno 
 ## Para quién es
 
 Para interesados en psicología, economía, diseño de productos o políticas públicas. Es ameno, lleno de ejemplos y una de las mejores puertas de entrada a la economía del comportamiento.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Un pequeño empujón (Nudge)*, Taurus (traducción de Belén Urrutia).

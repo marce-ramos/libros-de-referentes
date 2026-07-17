@@ -2,7 +2,6 @@
 nombre: "Neil deGrasse Tyson"
 profesion: "Astrofísico y Divulgador Científico"
 bio: "Neil deGrasse Tyson es director del Hayden Planetarium de Nueva York y el divulgador científico más reconocido de habla inglesa, conocido por hacer la ciencia accesible a millones."
-destacado: false
 orden: 50
 ---
 

@@ -10,7 +10,7 @@ recomendadoPor:
 anio: 2009
 resumen: "Simon Sinek explica por qué algunos líderes y organizaciones inspiran mientras otros no, a través de una pregunta deceptivamente simple: ¿para qué hacés lo que hacés? Recomendado por el propio Sinek como el libro que fundó su visión del liderazgo."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-17
 ---
 
 Hay líderes que logran que la gente los siga por obligación. Y hay otros que logran que los sigan por convicción. Simon Sinek pasó años preguntándose qué los diferencia, y la respuesta cabe en tres letras: el porqué.
@@ -30,5 +30,7 @@ La idea de fondo es que las personas no compran lo que hacés, sino por qué lo 
 ## Para quién es
 
 Para emprendedores que están definiendo la identidad de su proyecto, para líderes que sienten que su equipo trabaja sin energía genuina, y para comunicadores que quieren que sus mensajes peguen más profundo. Es un libro de negocios con vocación filosófica: corto, claro y con la energía de quien encontró algo que tiene ganas de compartir.
+
+También lo recomiendan Richard Branson y James Clear.
 
 > Edición en español: *Empieza con el porqué*, Empresa Activa (traducción de Martín Rodríguez-Courel Ginzo).

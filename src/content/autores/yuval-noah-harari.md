@@ -2,7 +2,6 @@
 nombre: "Yuval Noah Harari"
 profesion: "Historiador y Escritor"
 bio: "Yuval Noah Harari es el historiador israelí que escribió 'Sapiens', uno de los ensayos más vendidos del siglo XXI, y exprofesor de la Universidad Hebrea de Jerusalén."
-destacado: true
 orden: 7
 ---
 

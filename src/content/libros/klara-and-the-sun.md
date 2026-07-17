@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2021
 resumen: "Una robot solar llamada Klara observa el mundo desde la vidriera de una tienda y aprende qué significa querer a alguien. La novela con la que Ishiguro regresó tras ganar el Nobel, elegida por Barack Obama y Bill Gates en sus listas de 2021."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-17
 ---
 
 *Klara y el Sol* es la novela que Kazuo Ishiguro publicó después de ganar el Premio Nobel de Literatura, y eso solo ya genera expectativa. Pero el libro supera la expectativa: es una de las historias más delicadas y perturbadoras sobre la conciencia, el amor y lo que nos hace humanos que se hayan escrito en los últimos años.
@@ -31,5 +31,7 @@ La historia transcurre en un futuro cercano donde los chicos "mejorados" genéti
 ## Para quién es
 
 Para lectores que disfrutan la literatura que incomoda con suavidad: una prosa limpísima, un narrador único y una historia que parece simple hasta que te das cuenta de que estás leyendo sobre vos mismo.
+
+También lo recomienda Bill Gates.
 
 > Edición en español: *Klara y el Sol*, Editorial Anagrama (traducción de Mauricio Bach).

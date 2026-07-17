@@ -2,7 +2,6 @@
 nombre: "Adam Grant"
 profesion: "Psicólogo Organizacional y Autor"
 bio: "Profesor de Wharton y uno de los psicólogos del trabajo más influyentes del mundo, autor de bestsellers como Piensa de nuevo y Dar y recibir."
-destacado: false
 orden: 50
 ---
 

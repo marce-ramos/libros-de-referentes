@@ -2,7 +2,6 @@
 nombre: "Lex Fridman"
 profesion: "Investigador de IA y Podcaster"
 bio: "Lex Fridman es investigador en inteligencia artificial y conductor del Lex Fridman Podcast, uno de los programas de entrevistas de largo aliento más escuchados del mundo en ciencia y tecnología."
-destacado: false
 orden: 50
 ---
 

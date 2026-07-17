@@ -2,7 +2,6 @@
 nombre: "Oprah Winfrey"
 profesion: "Conductora, Productora y Empresaria"
 bio: "Oprah Winfrey es la comunicadora más influyente de la televisión estadounidense y creadora del club de lectura que desde 1996 convirtió docenas de libros en bestsellers instantáneos."
-destacado: true
 orden: 6
 ---
 

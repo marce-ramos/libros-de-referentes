@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2018
 resumen: "La novela de Tayari Jones sobre un matrimonio que se quiebra cuando el marido es encarcelado por un crimen que no cometió. Recomendada por Barack Obama y Bill Gates."
 destacado: false
-fechaActualizado: 2026-07-05
+fechaActualizado: 2026-07-17
 ---
 
 *Un matrimonio americano* fue una de las novelas más comentadas de su año —selección del club de lectura de Oprah y elegida por Barack Obama— y una de las más potentes sobre el amor y la injusticia en el Estados Unidos contemporáneo.
@@ -21,5 +21,7 @@ Obama valora la ficción que ilumina cuestiones sociales sin dejar de ser íntim
 ## De qué trata
 
 Celestial y Roy son una joven pareja afroamericana con toda la vida por delante cuando Roy es arrestado y condenado por un crimen que no cometió. La novela sigue lo que ese encierro le hace al matrimonio, a la confianza y a los sueños de ambos, contada desde las tres voces del triángulo que se forma.
+
+También lo recomienda Bill Gates.
 
 > Edición en español: *Un matrimonio americano*, AdN (Alianza de Novelas), traducción de Miguel Marqués.

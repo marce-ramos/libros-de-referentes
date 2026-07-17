@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2007
 resumen: "El libro que lanzó a Tim Ferriss y popularizó el «diseño de estilo de vida»: automatizar, delegar y trabajar menos para vivir más."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-07-17
 ---
 
 *La semana laboral de 4 horas* es el libro con el que Tim Ferriss —uno de los referentes que seguimos— se dio a conocer, y el que instaló la idea del «diseño de estilo de vida». Fue un bestseller durante años y sigue siendo una lectura de culto en el mundo del emprendimiento.
@@ -21,5 +21,7 @@ Ferriss propone dar vuelta la lógica del «trabajar duro toda la vida para jubi
 ## La idea central
 
 Su método se resume en cuatro pasos (definición, eliminación, automatización y liberación). Más allá de las tácticas concretas —algunas muy de su época—, lo que quedó fue un cambio de mentalidad: cuestionar por defecto por qué hacés lo que hacés con tu tiempo.
+
+También lo recomienda James Clear.
 
 > Edición en español: *La semana laboral de 4 horas*, RBA (edición ampliada).

@@ -2,7 +2,6 @@
 nombre: "Bill Gates"
 profesion: "Cofundador de Microsoft y filántropo"
 bio: "Lector voraz, publica cada año en su blog GatesNotes las reseñas de los libros que más lo marcaron. Sus recomendaciones abarcan ciencia, historia, salud global y tecnología."
-destacado: true
 orden: 1
 ---
 

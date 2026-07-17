@@ -2,7 +2,6 @@
 nombre: "Sam Altman"
 profesion: "CEO de OpenAI"
 bio: "Sam Altman es el CEO de OpenAI, la empresa detrás de ChatGPT, y ex presidente de Y Combinator, la aceleradora de startups más influyente del mundo."
-destacado: false
 orden: 50
 ---
 

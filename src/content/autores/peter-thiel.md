@@ -2,7 +2,6 @@
 nombre: "Peter Thiel"
 profesion: "Cofundador de PayPal e Inversor"
 bio: "Peter Thiel cofundó PayPal, fue el primer inversor externo de Facebook y escribió Zero to One, el manual de cabecera de emprendedores que buscan crear monopolios."
-destacado: false
 orden: 50
 ---
 

@@ -2,7 +2,6 @@
 nombre: "Natalie Portman"
 profesion: "Actriz, Directora y Activista"
 bio: "Actriz ganadora del Oscar, graduada en Harvard y activista con un club de lectura en Instagram donde comparte títulos de política, feminismo y literatura."
-destacado: false
 orden: 50
 ---
 

@@ -2,7 +2,6 @@
 nombre: "Naval Ravikant"
 profesion: "Cofundador de AngelList e Inversor"
 bio: "Naval Ravikant cofundó AngelList e invirtió temprano en Uber, Twitter y decenas de unicornios; es conocido por su filosofía sobre riqueza, felicidad y autonomía intelectual."
-destacado: true
 orden: 5
 ---
 

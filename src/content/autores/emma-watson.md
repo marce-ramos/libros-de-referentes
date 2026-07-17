@@ -2,7 +2,6 @@
 nombre: "Emma Watson"
 profesion: "Actriz y Activista Feminista"
 bio: "Actriz británica conocida por Harry Potter y embajadora de buena voluntad de ONU Mujeres, que convirtió su plataforma en un faro del feminismo contemporáneo."
-destacado: false
 orden: 50
 ---
 

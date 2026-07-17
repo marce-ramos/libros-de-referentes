@@ -2,7 +2,6 @@
 nombre: "Malala Yousafzai"
 profesion: "Activista por la Educación y Premio Nobel de la Paz"
 bio: "Premio Nobel de la Paz más joven de la historia, activista paquistaní que sobrevivió un atentado talibán y convirtió su historia en una lucha global por el derecho a la educación."
-destacado: false
 orden: 50
 ---
 

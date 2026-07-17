@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1998
 resumen: "La novela de Barbara Kingsolver sobre una familia de misioneros en el Congo Belga, narrada por cinco voces femeninas. Stephen King la sumó a su lista de mejores lecturas en 'On Writing'."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-17
 ---
 
 Pocas novelas se animan a narrar con cinco voces distintas y salir airosas. *La Biblia envenenada* lo logra: un retrato familiar y político que sigue leyéndose casi treinta años después de publicada.
@@ -29,5 +29,7 @@ Lo más impresionante del libro es el manejo técnico de las voces: Kingsolver l
 ## Para quién es
 
 Para lectores de novelas ambiciosas, de largo aliento, con estructura coral y trasfondo histórico real. También para quienes buscan ficción que combine drama familiar con una mirada crítica sobre el colonialismo.
+
+Este libro también lo recomienda James Clear.
 
 > Edición en español: *La Biblia envenenada*, Ediciones del Bronce (traducción de Damián Alou).

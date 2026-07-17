@@ -2,7 +2,6 @@
 nombre: "Garry Kasparov"
 profesion: "Gran Maestro de Ajedrez, Autor y Activista"
 bio: "Considerado el mejor ajedrecista de la historia, Kasparov es también un pensador político y autor que explora la inteligencia humana, la IA y la libertad."
-destacado: false
 orden: 50
 ---
 

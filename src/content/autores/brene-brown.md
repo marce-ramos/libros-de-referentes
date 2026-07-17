@@ -2,7 +2,6 @@
 nombre: "Brené Brown"
 profesion: "Investigadora, Profesora y Autora"
 bio: "Investigadora de la Universidad de Houston que estudia la vulnerabilidad y la valentía, y autora de El poder de ser vulnerable, uno de los libros de no ficción más leídos de la última década."
-destacado: false
 orden: 50
 ---
 

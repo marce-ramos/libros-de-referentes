@@ -2,7 +2,6 @@
 nombre: "Paul Graham"
 profesion: "Fundador de Y Combinator, Programador y Ensayista"
 bio: "Cofundador de Y Combinator, el acelerador que lanzó Airbnb, Dropbox y Stripe, y autor de ensayos sobre startups, lenguajes de programación y el acto de pensar con claridad."
-destacado: false
 orden: 50
 ---
 

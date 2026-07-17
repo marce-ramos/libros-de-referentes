@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1884
 resumen: "El clásico de Mark Twain sobre Huck y Jim navegando el Mississippi en busca de libertad. Richard Branson lo incluyó entre sus 70 libros imprescindibles."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-17
 ---
 
 Huck Finn finge su propia muerte para escapar de un padre violento y de los intentos de la "gente decente" del pueblo por civilizarlo a la fuerza. En esa huida se cruza con Jim, un hombre esclavizado que también busca la libertad, y juntos bajan el río Mississippi en una balsa. Lo que arranca como una novela de aventuras se convierte, página a página, en uno de los retratos más filosos jamás escritos sobre la moral y la hipocresía de una sociedad entera.
@@ -29,5 +29,7 @@ El momento más célebre del libro es cuando Huck, convencido de que ayudar a es
 ## Para quién es
 
 Para lectores de clásicos, para quienes disfrutan las novelas de río y de huida, y para cualquiera que quiera releer (o leer por primera vez) uno de los textos fundacionales de la literatura en inglés, con toda su incomodidad histórica incluida.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Las aventuras de Huckleberry Finn*, Alianza Editorial (traducción de Fernando Santos Fontenla).

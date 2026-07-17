@@ -2,7 +2,6 @@
 nombre: "Satya Nadella"
 profesion: "CEO de Microsoft"
 bio: "CEO de Microsoft desde 2014, el ejecutivo que transformó la compañía con una apuesta por la nube, la cultura del aprendizaje continuo y la inteligencia artificial."
-destacado: false
 orden: 50
 ---
 

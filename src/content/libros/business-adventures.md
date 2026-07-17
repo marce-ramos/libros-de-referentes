@@ -10,7 +10,7 @@ recomendadoPor:
 anio: 1969
 resumen: "Doce relatos clásicos del mundo de Wall Street. El libro de negocios favorito tanto de Warren Buffett como de Bill Gates."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-17
 ---
 
 Hay una anécdota perfecta detrás de este libro. En 1991, cuando Bill Gates conoció a Warren Buffett, le preguntó cuál era su libro de negocios favorito. Buffett le prestó su ejemplar personal de *Aventuras empresariales* (*Business Adventures*). Más de tres décadas después, sigue siendo el favorito de Gates. Dos de las personas más influyentes del mundo de los negocios coinciden en lo mismo: vale la pena entender por qué.
@@ -30,6 +30,8 @@ Entre los doce casos hay verdaderas joyas: el estrepitoso **fracaso del Ford Eds
 ## Para quién es
 
 Para quien quiere entender cómo funcionan de verdad las empresas y los mercados, más allá de los manuales. Si buscás tácticas concretas para tu negocio, este no es ese libro; si buscás sabiduría sobre el comportamiento humano en los negocios, es difícil encontrar algo mejor. Un punto honesto: los casos son de los años 50 y 60, pero esa distancia es justamente lo que permite ver los patrones con claridad.
+
+También lo recomienda James Clear.
 
 ## Veredicto
 

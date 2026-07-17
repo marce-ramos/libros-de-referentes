@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 1997
 resumen: "El clásico de Jared Diamond, ganador del Pulitzer, que explica por qué unas civilizaciones dominaron a otras a partir de la geografía y no de la supuesta superioridad de ningún pueblo. Una influencia directa en Sapiens."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-07-17
 ---
 
 *Armas, gérmenes y acero* es uno de esos libros que cambian la forma de mirar la historia. Jared Diamond, biólogo y geógrafo, se propuso responder una pregunta enorme —por qué unos pueblos conquistaron a otros y no al revés— y ganó el Pulitzer con la respuesta.
@@ -29,5 +29,7 @@ Las diferencias entre civilizaciones no vienen de diferencias entre personas, si
 ## Para quién es
 
 Para cualquiera fascinado por la historia a gran escala, la antropología o el origen de las desigualdades entre naciones. Es extenso y con una tesis fuerte —tiene críticos— pero es de lectura clara y transformadora.
+
+También lo recomienda James Clear.
 
 > Edición en español: *Armas, gérmenes y acero*, Debate (traducción de Fabián Chueca).

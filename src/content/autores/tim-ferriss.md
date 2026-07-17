@@ -2,7 +2,6 @@
 nombre: "Tim Ferriss"
 profesion: "Autor y Podcaster"
 bio: "Tim Ferriss es el autor de 'La semana laboral de 4 horas' y conductor de The Tim Ferriss Show, uno de los podcasts más escuchados del mundo."
-destacado: true
 orden: 50
 ---
 

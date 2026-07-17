@@ -10,7 +10,7 @@ recomendadoPor:
 anio: 2005
 resumen: "La sabiduría reunida de Charlie Munger, socio de Warren Buffett: modelos mentales de múltiples disciplinas para pensar y decidir mejor. Recomendado por Warren Buffett y Naval Ravikant."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-17
 ---
 
 *Poor Charlie's Almanack* reúne la sabiduría de Charlie Munger, socio de Warren Buffett en Berkshire Hathaway durante más de cuatro décadas. Más que un libro de inversión, es un manual para pensar mejor.
@@ -26,5 +26,7 @@ El libro recopila charlas y ensayos de Munger sobre su método más famoso: los 
 ## También lo recomienda Naval Ravikant
 
 Naval, obsesionado con los modelos mentales y la claridad de pensamiento, lo incluye en su lista de lecturas y lo describe como "el único libro sobre Munger que necesitás". Encaja perfecto con su idea de que pensar bien es la habilidad que más se paga a largo plazo.
+
+También lo recomienda James Clear.
 
 > Edición en español: *El almanaque del pobre Charlie*, Valor Editions (edición de Peter D. Kaufman).

@@ -2,7 +2,6 @@
 nombre: "Warren Buffett"
 profesion: "Inversor y CEO de Berkshire Hathaway"
 bio: "Atribuye gran parte de su éxito a la lectura. Sus recomendaciones se concentran en inversión, finanzas y biografías de negocios, con clásicos que considera fundamentales."
-destacado: true
 orden: 3
 ---
 

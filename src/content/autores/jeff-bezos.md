@@ -2,7 +2,6 @@
 nombre: "Jeff Bezos"
 profesion: "Fundador de Amazon"
 bio: "Jeff Bezos fundó Amazon en 1994 y la convirtió en la empresa de comercio electrónico y computación en la nube más grande del mundo; sus lecturas son parte constitutiva de la cultura interna de la compañía."
-destacado: true
 orden: 10
 ---
 
