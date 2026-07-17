@@ -377,6 +377,47 @@ stub nuevo) → se enriquece (MODO LIBRO).
     Could Tell You Just One Thing, Letters to a Stranger, Ending the War on Drugs, Little Wins,
     Beyond the Blue, Obama: The Historic Presidency of Barack Obama, The Outermost House.
 
+- **2026-07-16 — Enriquecimiento: Richard Branson, tanda 2/3 (23 fichas) + listicle
+  regenerado.** Se enriquecen las 23 fichas pendientes de la tanda 2/3 vía 5 subagentes en
+  paralelo (Sonnet), fuente primaria virgin.com/branson-family/richard-branson-blog/70-must-read-
+  books (20/4/2017): Elegidos para la gloria [ES, Edhasa, asin 843393046X] (Tom Wolfe); En el
+  corazón del mar [ES, Roca Editorial, asin 8432224405] (Nathaniel Philbrick); Stalingrado [ES,
+  Booket, asin 8484325946] (Antony Beevor); Montañas tras las montañas [ES, Círculo de Tiza, asin
+  8494645331] (Tracy Kidder); Shantaram [ES, Umbriel, asin 8415139136] (Gregory David Roberts);
+  En la Patagonia [ES, Contraseña, asin 8499423124] (Bruce Chatwin); El americano tranquilo [ES,
+  Debolsillo, asin 8420655899] (Graham Greene); El mundo sin nosotros [ES, Debate, asin
+  8483067439] (Alan Weisman); Sin perdón no hay futuro [ES, Norma, asin 9872766185, título real
+  distinto del sugerido "No hay futuro sin perdón"] (Desmond Tutu); A Full Life: Reflections at
+  Ninety [**sin ASIN** — sin edición ES confirmada] (Jimmy Carter); Longitud [ES, Debate, asin
+  8433972693] (Dava Sobel); El hombre de los dados [ES, Malpaso, asin 8416420254] (Luke
+  Rhinehart); Las aventuras de Huckleberry Finn [ES, Akal, asin 8420678171] (Mark Twain); Las
+  aventuras de Tom Sawyer [ES, Alianza, asin 8491042687] (Mark Twain); Swallows and Amazons
+  [**sin ASIN** — solo existen box-sets en ES, sin edición individual] (Arthur Ransome); Peter
+  Pan [ES, Anaya, asin 8420666742] (J.M. Barrie); El libro de la selva [ES, Alianza, asin
+  8415601182] (Rudyard Kipling); La maravillosa medicina de Jorge [ES, Alfaguara, asin
+  8420483184] (Roald Dahl); Relatos de lo inesperado [ES, Anagrama, asin 8433920863 — sorpresa,
+  sí tiene edición ES vigente] (Roald Dahl); Remoto: No se requiere oficina [ES, Deusto, asin
+  8496627926, categoria negocios] (Jason Fried y David Heinemeier Hansson); Limitless: Leadership
+  That Endures [**sin ASIN ES** — ISBN real confirmado 0091955432, sin traducción] (Ajaz Ahmed);
+  ¡Oh, cuán lejos llegarás! [ES, Beascoa, asin 1880507056] (Dr. Seuss); Viajes con Charley [ES,
+  Nórdica, asin 8416112290] (John Steinbeck). `detectar_duplicados.py`: **0 `[DUP]`** exactos
+  confirmado sobre los 434 archivos de `src/content/libros/`. ASIN real de 10 caracteres en 20/23
+  (3 quedan vacíos: A Full Life, Swallows and Amazons, Limitless). **Richard Branson 26 → 49
+  libros**; catálogo 411 → 434.
+  - **Listicle regenerado** (`libros-que-recomienda-richard-branson.md`, `fecha` original
+    2026-07-16 sin cambios, `fechaActualizado` 2026-07-16) para reflejar los 49 libros. Se
+    reestructuró de 5 a **7 grupos temáticos** (dominante ficción(16) subdividida en "Infancia y
+    clásicos para toda la vida" e "Novela y aventura para adultos"; categoría mínima
+    psicología(1, Black Box Thinking) fusionada en "Negocios, liderazgo e innovación"; memorias
+    (11) subdividida en "coraje y liderazgo" (8) y "expediciones/viajes" incorporada al grupo de
+    historia real como "Historia, expediciones y aventuras reales" (7)). Grupos finales: Infancia
+    y clásicos (8), Novela y aventura para adultos (8), Ciencia y cómo entender el mundo (7),
+    Ciencia ficción (4), Historia/expediciones/aventuras reales (7), Negocios/liderazgo/
+    innovación (7), Memorias de coraje y liderazgo (8). Verificación: 49/49 enlaces con título
+    exacto de la ficha y `richard-branson` presente en `recomendadoPor`, 0 huérfanos, 0 extras.
+  - **Pendiente: tanda 3/3 (21 ítems)** sigue sin tocar — ver listado completo arriba, en la
+    entrada del 2026-07-13.
+
 - **2026-07-13 — Discovery: Mark Zuckerberg (backlog nunca sourceado → discovery completo).**
   A diferencia de Gates/Obama/Branson (donde ya había un backlog cerrado), Zuckerberg nunca tuvo
   un discovery real: sus 4 libros previos (El fin del poder, Creatividad S.A., El problema de los
@@ -631,6 +672,23 @@ stub nuevo) → se enriquece (MODO LIBRO).
   `titulo` exacto, slug existente, `j-k-rowling` en `recomendadoPor`, 0 huérfanos. **Backlog
   restante: 2 antologías** (Wodehouse Complete Works, Oxford Shakespeare Complete Works) para
   decidir en una futura sesión.
+
+- **2026-07-16 — Listicle: Richard Branson.** Revisado el estado actual del referente (26 libros
+  enriquecidos, de la tanda 1/3 del discovery de 2026-07-13 — quedan 2 tandas más del backlog
+  original, 44 candidatos, sin tocar) para escribir la listicle con lo ya enriquecido, sin esperar
+  a cerrar las 3 tandas (a diferencia del criterio inicial de "esperar el manifiesto final"; se
+  prioriza publicar con lo que hay, mismo patrón que Stephen King con su backlog parcial). No se
+  enriqueció ninguna ficha nueva en esta sesión, solo se escribió la listicle. **Listicle nueva**
+  (no existía antes): `/blog/libros-que-recomienda-richard-branson`, con las 26 fichas: lead "Por
+  dónde empezar" (4 destacados: 1984, Cosmos, Cien años de soledad, El largo camino hacia la
+  libertad) + 5 grupos temáticos balanceados — Ciencia y cómo entender el mundo (5), Ciencia
+  ficción y aventura (4), Negocios, liderazgo e innovación (5 — fusiona la única ficha de
+  `psicologia`, Pensamiento Caja Negra, para no dejarla huérfana), Ficción y clásicos de aventura
+  (5), Memorias, coraje y justicia (7 — fusiona la única ficha de `historia`, Mao: la historia
+  desconocida, junto a Cisnes salvajes de la misma autora). Verificado por script: 26/26 links con
+  `titulo` exacto, slug existente, `richard-branson` en `recomendadoPor`, 0 huérfanos. **Pendiente:
+  tandas 2/3 y 3/3 del backlog de Branson** (44 candidatos sourceados desde 2026-07-13, ver esa
+  entrada para el detalle) — cuando se enriquezcan, la listicle va a necesitar regenerarse.
 
 ## Cruces referente↔libro (relaciones nuevas)
 
