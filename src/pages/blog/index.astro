@@ -5,6 +5,9 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 const posts = (await getCollection("blog"))
   .filter((p) => !p.data.draft)
   .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+
+const norm = (s: string) =>
+  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 ---
 
 <BaseLayout
@@ -12,12 +15,29 @@ const posts = (await getCollection("blog"))
   description="Artículos y listas sobre los libros que recomiendan los grandes referentes del mundo."
 >
   <h1 class="text-2xl font-bold text-slate-900">Blog</h1>
+  <p class="mt-2 text-[var(--muted)]">
+    Buscá una lista por referente, tema o palabra clave.
+  </p>
 
-  <ul class="mt-6 space-y-6">
+  <input
+    id="buscador-blog"
+    type="search"
+    placeholder="Buscar en el blog…"
+    autocomplete="off"
+    class="mt-5 w-full max-w-md rounded-lg border border-[var(--card-border)] bg-white px-4 py-2.5 text-sm outline-none focus:border-[var(--brand)]"
+  />
+
+  <ul id="lista-blog" class="mt-6 space-y-6">
     {
       posts.map((p) => (
-        <li class="border-b border-slate-100 pb-5">
-          <a href={`/blog/${p.id}`} class="text-lg font-semibold text-[var(--brand)] hover:underline">
+        <li
+          class="post-item border-b border-slate-100 pb-5"
+          data-buscar={norm(`${p.data.titulo} ${p.data.descripcion}`)}
+        >
+          <a
+            href={`/blog/${p.id}`}
+            class="text-lg font-semibold text-[var(--brand)] hover:underline"
+          >
             {p.data.titulo}
           </a>
           <p class="mt-1 text-slate-600">{p.data.descripcion}</p>
@@ -26,4 +46,32 @@ const posts = (await getCollection("blog"))
       ))
     }
   </ul>
+
+  <p id="blog-sin-resultados" class="mt-6 hidden text-[var(--muted)]">
+    No encontramos artículos con esa búsqueda.
+  </p>
 </BaseLayout>
+
+<script>
+  const input = document.getElementById("buscador-blog") as HTMLInputElement;
+  const items = Array.from(
+    document.querySelectorAll<HTMLElement>("#lista-blog .post-item"),
+  );
+  const sinRes = document.getElementById("blog-sin-resultados");
+
+  const norm = (s: string) =>
+    s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
+  function aplicar() {
+    const q = norm(input.value.trim());
+    let visibles = 0;
+    for (const it of items) {
+      const match = !q || (it.dataset.buscar ?? "").includes(q);
+      it.style.display = match ? "" : "none";
+      if (match) visibles++;
+    }
+    if (sinRes) sinRes.classList.toggle("hidden", visibles > 0);
+  }
+
+  input.addEventListener("input", aplicar);
+</script>
