@@ -3,7 +3,7 @@ nombre: "Elon Musk"
 profesion: "Fundador de SpaceX y CEO de Tesla"
 bio: "Empresario y visionario tecnológico que atribuye buena parte de su forma de pensar a los libros que devoró desde chico."
 destacado: true
-orden: 50
+orden: 4
 ---
 
 Elon Musk es el fundador de SpaceX, CEO de Tesla y una de las figuras más influyentes —y polémicas— de la tecnología y los negocios a nivel global. Creció leyendo de manera compulsiva: según él mismo contó en varias entrevistas, llegó a leer dos libros por día de chico, y esa costumbre moldeó tanto su pensamiento sobre la física y la ingeniería como su visión a largo plazo sobre la humanidad.

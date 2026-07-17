@@ -15,8 +15,7 @@ const autores = defineCollection({
     profesion: z.string(), // ej: "Cofundador de Microsoft"
     bio: z.string(), // resumen corto para la cabecera de su página
     foto: z.string().optional(), // ruta en /public, ej: "/referentes/bill-gates.jpg"
-    destacado: z.boolean().default(false), // aparece en la home
-    orden: z.number().default(99), // orden de aparición
+    orden: z.number().default(99), // orden de aparición (menor = más arriba en /referentes)
   }),
 });
 

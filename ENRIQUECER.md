@@ -15,13 +15,14 @@ Política de modelos. Toda acción respeta la **regla de propagación** (ver aba
 | **Enriquecer** | Ficha nueva o stub → ficha completa (reseña original + ASIN de edición ES) | slugs, o "los que consideres" | MODO LIBRO | Sonnet |
 | **Discovery / barrido** | Encuentra más libros que recomienda un referente, extraídos de una fuente fetcheada → manifiesto | referente + su fuente | MODO DESCUBRIR | Haiku |
 | **Reconciliar** | Clasifica un manifiesto vs el catálogo: YA-LINKED / CROSS-REF / REVISAR / NUEVO | ref-slug + manifiesto | `reconciliar.py` | script |
-| **Cross-refs** | Suma un referente al `recomendadoPor` de fichas que ya existen (sube consenso) | salida CROSS-REF del reconciliar | MODO LIBRO (solo frontmatter) | Sonnet |
+| **Cross-refs** | Suma un referente al `recomendadoPor` de fichas que ya existen Y lo nombra en el cuerpo (sección si amerita, o línea consolidada) | salida CROSS-REF del reconciliar | MODO LIBRO + Regla de atribución | Sonnet |
 | **Profundizar** | Suma libros de un backlog YA sourceado (sin discovery nuevo) → reconciliar → enriquecer → regenerar listicle | referente con backlog en PROGRESO | Acción "Profundizar" | Sonnet |
 | **Nuevo referente** | Pipeline completo desde cero: bio + discovery + reconciliar + enriquecer + listicle | nombre + fuente documentada | Acción "Nuevo referente" | Opus decide, Sonnet ejecuta |
 | **Bio de referente** | Bio genérica autogenerada → bio real con fuente | slug del autor | MODO REFERENTE | Sonnet |
 | **Listicle** | Post "Los libros que recomienda X" desde un manifiesto de fichas ya enriquecidas | referente | MODO LISTICLE | Sonnet |
 | **Best-of de categoría** | Post "Mejores libros de \<categoría\>" (mismo formato que listicle) | categoría | MODO LISTICLE (variante) | Sonnet |
 | **Verificar** | QA: duplicados + ASIN de 10 chars + integridad de `recomendadoPor` | — | Verificación | script |
+| **Sanear** | Corrige fichas que no cumplen la Regla de atribución (referente en el pill sin nombrar, o >2 secciones) | — | Acción "Sanear" + `auditar_fichas.py` | script + Sonnet |
 
 **Regla transversal (propagación):** cualquier acción que cambie la lista de libros de un
 referente que YA tiene listicle obliga a **regenerar ese listicle**. Ídem al sumar cross-refs.
@@ -103,12 +104,19 @@ español; si no existe, la inglesa. Si no se confirma un ASIN fiable, **dejar `a
 usa el fallback de búsqueda). No scrapear portadas.
 
 **Cuerpo** (~300-420 palabras, original, tono "amigo que sabe", castellano rioplatense):
-intro que engancha + `## Por qué lo recomienda <Referente>` (una sección por referente listado) +
+intro que engancha + `## Por qué lo recomienda <Referente>` (ver **Regla de atribución** abajo) +
 `## De qué trata` + `## <idea/concepto clave>` + `## Para quién es`. Última línea, en blockquote:
 `> Edición en español: *Título*, Editorial (traducción de …).` — o si es solo inglés:
 `> Por ahora disponible solo en inglés; el enlace lleva a la edición de <Editorial>.`
 
 Nunca dejar el stub autogenerado ("*X*, de Y, figura entre las recomendaciones de Z.").
+
+**Regla de atribución (cuántos referentes desarrollar):** máximo **2 secciones** "Por qué / También
+lo recomienda <X>", y solo si hay una razón real y documentada (cita, historia, contexto). A los
+demás nombralos en **una sola línea consolidada**: "También lo recomiendan Y y Z". **Regla dura:**
+todo referente del `recomendadoPor` (los pills) debe quedar nombrado en el cuerpo, sea con sección o
+en la línea. Nunca inventes una razón para llenar. ¿A quiénes desarrollar? A los de razón más rica;
+a igualdad, al de `orden` más bajo (más relevante) según su ficha en `autores/`.
 
 > **Regla de propagación:** si enriquecés libros de un referente (o le sumás un vínculo por
 > cruce) que **ya tiene listicle publicado**, hay que **regenerar ese listicle** (MODO LISTICLE)
@@ -128,8 +136,7 @@ nombre: "Nombre Apellido"        # no tocar
 profesion: "Rol principal"        # ajustar si es impreciso (ej: "Cofundador de Microsoft")
 bio: "1 frase natural con su credencial principal; se usa como meta description."
 foto: "/referentes/<slug>.jpg"    # SOLO si ya existe el archivo; si no, NO agregar (hay monograma)
-destacado: <mantener>
-orden: <mantener>
+orden: <mantener>                 # menor = más arriba en /referentes (top ~10 = marquee)
 ---
 
 <2-3 frases reales: quién es y por qué es relevante + por qué seguimos sus recomendaciones +
@@ -267,6 +274,19 @@ se agrega (riesgo de alucinación).
 7. **Listicle** del referente (MODO LISTICLE).
 8. **Asentá** cada tanda en `PROGRESO.md` y actualizá los conteos en `PENDIENTES.md`
    (referentes, libros, blog).
+
+## Acción "Sanear fichas" (normalizar a la Regla de atribución)
+
+Corrige fichas viejas que no cumplen la Regla de atribución (MODO LIBRO). Flujo:
+
+1. Audit determinístico (0 tokens):
+   `python3 tools/auditar_fichas.py src/content/libros src/content/autores`
+   Reporta, por ficha: referentes del `recomendadoPor` NO nombrados en el cuerpo, y fichas con más
+   de 2 secciones "Por qué/También lo recomienda".
+2. (Sonnet) Por cada ficha flagged, ajustá SOLO la parte de recomendación: dejá ≤2 secciones con
+   razón real y sumá/completá la **línea consolidada** que nombre al resto. No reescribas la reseña
+   entera, no inventes razones, bumpeá `fechaActualizado`.
+3. Repetí el audit hasta que dé 0. Si un referente no tiene razón documentada, va en la línea consolidada.
 
 ## Verificación (correr al terminar cada lote)
 
