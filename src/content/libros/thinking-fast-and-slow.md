@@ -6,11 +6,13 @@ categoria: psicologia
 recomendadoPor:
   - daniel-kahneman
   - james-clear
+  - sam-altman
 anio: 2011
 resumen: "La obra maestra del Nobel Daniel Kahneman sobre los dos sistemas con los que pensamos y los sesgos que nos hacen equivocar."
 destacado: false
 fechaActualizado: 2026-07-17
 ---
+
 
 *Pensar rápido, pensar despacio* es la síntesis de toda una vida de investigación de Daniel Kahneman, psicólogo que ganó el Premio Nobel de Economía. Es una de las obras más influyentes sobre cómo tomamos decisiones y por qué nos equivocamos de forma sistemática.
 
@@ -26,6 +28,6 @@ Ese predominio del pensamiento rápido nos vuelve vulnerables a **sesgos cogniti
 
 Para interesados en psicología, economía conductual y la toma de decisiones. Es denso y extenso, pero fundamental: cambió la forma en que se piensa la racionalidad humana.
 
-También lo recomienda James Clear.
+También lo recomiendan James Clear y Sam Altman, que lo incluyó entre sus libros de cabecera para fundadores jóvenes.
 
 > Edición en español: *Pensar rápido, pensar despacio*, Debolsillo.

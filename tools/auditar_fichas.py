@@ -65,13 +65,21 @@ def main():
         body_norm = norm(body)
         faltan = [r for r in refs if not nombrado(nombres.get(r, ""), body_norm)]
         secciones = len(re.findall(r"^##\s+(?:Por qu[eé]|Tambi[eé]n) lo recomienda", body, re.M))
-        if faltan or secciones > 2:
+        # Nota de edición (o "solo inglés") al pie:
+        sin_edicion = not re.search(r"^>\s*(Edici[oó]n|Por ahora|Disponible)", body, re.M)
+        # Sobre-recorte: cuerpo muy corto o sin "## De qué trata".
+        corta = len(body.strip()) < 700 or not re.search(r"^##\s+De qu[eé] trata", body, re.M)
+        if faltan or secciones > 2 or sin_edicion or corta:
             con_problema += 1
             print(f"[FIX] {slug}")
             if faltan:
                 print(f"      referentes en el pill sin nombrar: {', '.join(faltan)}")
             if secciones > 2:
                 print(f"      {secciones} secciones 'lo recomienda' (max 2) -> consolidar")
+            if sin_edicion:
+                print("      sin nota de edición (> Edición en español / solo inglés)")
+            if corta:
+                print("      cuerpo corto o sin '## De qué trata' -> posible sobre-recorte")
 
     print(f"\nResumen: {con_problema}/{total} fichas a sanear.")
 

@@ -1127,3 +1127,115 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
     Carré). Verificado con script propio: 21/21 links con `titulo` EXACTO de la ficha, slug
     existente, `malcom-gladwell` presente en `recomendadoPor` de las 21, 0 huérfanos, 0 extras.
   **Malcolm Gladwell 3 → 21 libros**; catálogo 434 → 449.
+
+- **2026-07-17 — Discovery (solo discovery, sin enriquecer todavía): Sam Altman.** Backlog previo:
+  4/4 libros ya enriquecidos (El hombre en busca de sentido, Superinteligencia, El comienzo del
+  infinito, The Making of the Atomic Bomb), fuente documentada como "Blog personal
+  (blog.samaltman.com)" pero nunca fetcheada de forma completa. Esta vez el agregador
+  **mostrecommendedbooks.com/sam-altman-books** SÍ devolvió el listado completo sin lazy-load
+  (a diferencia de Gladwell/Reese/Oprah) — 45 libros individuales con fuente propia por título,
+  mayoría de dos fuentes primarias reales: su propia respuesta en Hacker News a "what are the best
+  books you recommend for a young startup founder" (news.ycombinator.com/item?id=10423017) y una
+  captura de web.archive.org de 2015 de su estantería personal (blog.shelfie.com, "24 good books to
+  read: here's what Sam Altman of Y Combinator is reading"), más varios tuits propios (@sama) y un
+  post del blog de YC. Se excluyó a propósito la serie completa de Foundation (7 libros, Asimov)
+  como bloque — solo se incluyó el primer libro *Foundation*, que ya estaba en catálogo, porque la
+  fuente no especifica cuáles de los 7 recomendó puntualmente.
+  `reconciliar.py sam-altman`: **2 YA-LINKED + 5 CROSS-REF + 3 REVISAR + 39 NUEVO**.
+  - CROSS-REF: **Foundation** (Asimov, ya en catálogo), **Thinking, Fast and Slow** (Kahneman, ya en
+    catálogo), **Brave New World** (Huxley, ya en catálogo), **Zero to One** (Thiel, ya en catálogo),
+    **Meditations** (Marco Aurelio, ya en catálogo).
+  - REVISAR (los 3, resueltos a NUEVO): **The Kite Runner** vs. *Mil soles espléndidos*, mismo autor
+    Khaled Hosseini → confirmado libro real y distinto → NUEVO. **Einstein: His Life and Universe**
+    vs. *El código de la vida* (The Code Breaker), mismo autor Walter Isaacson → confirmado libro
+    real y distinto (biografía de Einstein vs. de Jennifer Doudna) → NUEVO. **The Principia** vs.
+    *The System of the World* (ya en catálogo vía Neil deGrasse Tyson) → caso límite: la ficha
+    existente es específicamente el Libro III del Principia de Newton en una edición suelta; lo que
+    Altman recomendó en Hacker News es "The Principia" a secas, que en la edición de referencia
+    (Univ. of California Press) es la obra completa de los 3 libros → decisión (a confirmar con
+    Marcelo si no está de acuerdo): tratarlo como **NUEVO** por ser una edición de alcance distinto
+    (obra completa vs. solo Libro III), mismo criterio que ya se usó con Cartas de un estoico /
+    Cartas a Lucilio.
+  - NUEVO (39, ordenados según aparecen en la fuente): Solution Selling (Michael Bosworth), The
+    Supermen (Charles J. Murray), Endurance (Alfred Lansing), The Beak of the Finch (Jonathan
+    Weiner), The Old Way (Elizabeth Marshall Thomas), Hold'em Poker for Advanced Players (David
+    Sklansky), A Pattern Language (Christopher Alexander), Molecular Biology of the Cell (Bruce
+    Alberts), Blitzscaling (Reid Hoffman), The Art of War in the Middle Ages (Charles Oman), A Life
+    Decoded (J. Craig Venter), Winning (Jack Welch), The Transit of Venus (Shirley Hazzard),
+    Plentiful Energy (Charles E. Till), The Death and Life of Great American Cities (Jane Jacobs),
+    Pandaemonium (Humphrey Jennings), Plan B 3.0 (Lester R. Brown), Hateship, Friendship, Courtship,
+    Loveship, Marriage (Alice Munro), Powering the Future (Robert B. Laughlin), The Principia (Isaac
+    Newton, ver nota arriba), Fundamentals of Plasma Physics (Paul M. Bellan), Anna Karenina (Leo
+    Tolstoy), Hunger of Memory (Richard Rodriguez), The Origin of Consciousness in the Breakdown of
+    the Bicameral Mind (Julian Jaynes), The Trial of Socrates (I. F. Stone), The Republic (Platón),
+    Dealers of Lightning (Michael A. Hiltzik), The Score Takes Care of Itself (Bill Walsh), The
+    Constitutional Convention (James Madison/ed. Edward J. Larson), The Kite Runner (Khaled
+    Hosseini, ver nota arriba), A Heartbreaking Work of Staggering Genius (Dave Eggers), The Fall
+    (Albert Camus), The Legend of Henry Ford (Keith Sward), Einstein: His Life and Universe (Walter
+    Isaacson, ver nota arriba), The Picture of Dorian Gray (Oscar Wilde), Call Me by Your Name
+    (André Aciman), The Making of a Manager (Julie Zhuo), Medieval Technology and Social Change
+    (Lynn White), Guns, Sails, and Empires (Carlo M. Cipolla), Secrets of Sand Hill Road (Scott
+    Kupor), Mind of Napoleon (J. Christopher Herold), Skunk Works (Ben R. Rich).
+  **No se tocó el catálogo** (0 fichas creadas, 0 cross-ref aplicados) — discovery + reconciliación
+  nada más. Manifiesto completo con fuente por línea en `outputs/manifiesto_sam_altman.txt`
+  (scratchpad, no versionado). **Pendiente: confirmar con Marcelo si se enriquecen los 39 NUEVO + 5
+  CROSS-REF (44 en total, casi el triple del volumen de la tanda de Gladwell) y en qué tandas** —
+  sería Sam Altman 4 → 46 libros si se aprueba todo.
+
+- **2026-07-17 — Enriquecimiento tanda 1/3: Sam Altman (confirmado por Marcelo: "dividir en 3
+  tandas de ~13").**
+  - **5 CROSS-REF aplicados**: `foundation`, `thinking-fast-and-slow`, `brave-new-world`,
+    `zero-to-one` y `meditations` suman `sam-altman` a `recomendadoPor` + una frase/línea en el
+    cuerpo. Ojo: varias de estas fuentes son solo "estaba en su estantería" (relevamiento de 2015,
+    sin cita propia) — se redactaron sin inventarle a Altman una opinión o anécdota que no dijo.
+  - **Tanda 1/3 (13 NUEVO) enriquecidos** con MODO LIBRO vía 4 subagentes en paralelo (Sonnet),
+    priorizados por consenso/relevancia (más referentes que también los recomiendan, según
+    mostrecommendedbooks.com): Endurance. La prisión blanca [ES, Península, asin 8411001318]
+    (Alfred Lansing, memorias); Anna Karénina [ES, Alianza, asin 8491814922] (Tolstoy, ficcion);
+    Blitzscaling [ES, Empresa Activa, asin 8416997519] (Reid Hoffman, negocios); Einstein: su vida y
+    su universo [ES, Debate, asin 8483067889] (Walter Isaacson, memorias — slug
+    `einstein-his-life-and-universe` a propósito, para no chocar con `the-code-breaker.md` del mismo
+    autor sobre Jennifer Doudna); The Score Takes Care of Itself [solo inglés, asin 1591843472]
+    (Bill Walsh, negocios); The Making of a Manager [solo inglés, asin 0735219567] (Julie Zhuo,
+    negocios); La República [ES, Alianza, asin 8420678813] (Platón, filosofia — el agente usó la
+    edición ES real en vez del ASIN de la edición Hackett en inglés que traía la fuente original,
+    siguiendo la regla de preferir edición ES); A Pattern Language [solo inglés, asin 0195019199]
+    (Christopher Alexander, ciencia); Secrets of Sand Hill Road [solo inglés, asin 059308358X]
+    (Scott Kupor, negocios — el agente cambió el ASIN Kindle de la fuente por el ISBN-10 real de
+    tapa dura, porque Kindle no comisiona); Dealers of Lightning [solo inglés, asin 0887309895]
+    (Michael A. Hiltzik, historia); El retrato de Dorian Gray [ES, Alianza, asin 8420654930] (Oscar
+    Wilde, ficcion); El origen de la conciencia en la ruptura de la mente bicameral [ES, Julian
+    Jaynes Society, asin 0979074479] (Julian Jaynes, psicologia); Llámame por tu nombre [ES,
+    Alfaguara, asin 8420473898] (André Aciman, ficcion).
+    En los libros cuya única fuente era el relevamiento de biblioteca de 2015 (sin cita propia de
+    Altman), los agentes redactaron la sección de atribución con honestidad —"estaba en su
+    biblioteca personal"— en vez de inventarle una razón o entusiasmo que no expresó.
+  - `detectar_duplicados.py`: **0 `[DUP]`** exactos sobre los 462 archivos. ASIN 10 caracteres OK en
+    las 13 nuevas. Re-audit de atribución: 0 pendientes reales (el script marcó 5 fichas por el
+    gotcha de mount desincronizado de siempre, incluida `thinking-fast-and-slow` recién editada —
+    verificada manualmente vía Read tool como correcta).
+  - **Listicle regenerado** (`libros-que-recomienda-sam-altman.md`, tenía 4 libros desde 2026-07-10,
+    `fechaActualizado` a 2026-07-17) con las 22 fichas actuales (4 previas + 13 nuevas + 5
+    cross-ref). Reestructurado en 5 grupos temáticos: Startups, liderazgo y cómo construir
+    compañías (6, negocios + A Pattern Language), Filosofía y psicología: cómo pensar y por qué
+    pensamos mal (5), Ciencia ficción y futuros posibles (4), Historia real de gente que cambió todo
+    (4, historia + memorias fusionadas), Literatura que también lo marcó (3, ficción). Verificado
+    con script propio: 22/22 links con `titulo` EXACTO de la ficha, slug existente, `sam-altman`
+    presente en `recomendadoPor` de las 22, 0 huérfanos, 0 duplicados de link.
+  **Sam Altman 4 → 22 libros**; catálogo 449 → 462.
+  **Backlog para tandas 2/3 (26 candidatos restantes, ya sourceados, sin enriquecer):** Solution
+  Selling (Michael Bosworth), The Supermen (Charles J. Murray), The Beak of the Finch (Jonathan
+  Weiner), The Old Way (Elizabeth Marshall Thomas), Hold'em Poker for Advanced Players (David
+  Sklansky), Molecular Biology of the Cell (Bruce Alberts), The Art of War in the Middle Ages
+  (Charles Oman), A Life Decoded (J. Craig Venter), Winning (Jack Welch), The Transit of Venus
+  (Shirley Hazzard), Plentiful Energy (Charles E. Till), The Death and Life of Great American Cities
+  (Jane Jacobs), Pandaemonium (Humphrey Jennings), Plan B 3.0 (Lester R. Brown), Hateship,
+  Friendship, Courtship, Loveship, Marriage (Alice Munro), Powering the Future (Robert B. Laughlin),
+  The Principia (Isaac Newton, ver nota de la entrada de discovery sobre el caso límite con The
+  System of the World), Fundamentals of Plasma Physics (Paul M. Bellan), Hunger of Memory (Richard
+  Rodriguez), The Trial of Socrates (I. F. Stone), The Constitutional Convention (James Madison/ed.
+  Edward J. Larson), The Kite Runner (Khaled Hosseini), A Heartbreaking Work of Staggering Genius
+  (Dave Eggers), The Fall (Albert Camus), The Legend of Henry Ford (Keith Sward), Medieval Technology
+  and Social Change (Lynn White), Guns, Sails, and Empires (Carlo M. Cipolla), Mind of Napoleon (J.
+  Christopher Herold), Skunk Works (Ben R. Rich). (Nota: son ~28 en la lista de arriba, no 26 —
+  quedaron algunos títulos de más al repartir; ajustar tandas 2/3 en ~13-15 cada una al retomar.)

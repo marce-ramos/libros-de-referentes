@@ -8,6 +8,7 @@ recomendadoPor:
   - tim-ferriss
   - naval-ravikant
   - james-clear
+  - sam-altman
 anio: 180
 resumen: "El diario privado del emperador romano Marco Aurelio, texto fundacional del estoicismo. Recomendado por Ryan Holiday, Tim Ferriss y Naval Ravikant."
 destacado: false
@@ -24,7 +25,7 @@ Ferriss es otro gran difusor del estoicismo moderno: tiene una cita de Marco Aur
 
 Naval lo llama directamente "un libro que me cambió la vida": le impacta que sea el diario privado de "probablemente el ser humano más poderoso de la Tierra" de su época, escrito sin intención de publicarlo. Para Naval, lo revelador es que Marco Aurelio tenía las mismas luchas internas que cualquiera: "ahí te das cuenta de que el éxito y el poder no mejoran tu estado interno, igual tenés que trabajarlo".
 
-También lo recomiendan Ryan Holiday y James Clear.
+También lo recomiendan Ryan Holiday, James Clear y Sam Altman, que lo resumió en un tuit con dos palabras: "gran lectura".
 
 ## De qué trata
 

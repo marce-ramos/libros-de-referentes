@@ -6,10 +6,11 @@ categoria: cienciaficcion
 recomendadoPor:
   - yuval-noah-harari
   - jordan-peterson
+  - sam-altman
 anio: 1932
 resumen: "La distopía clásica de Aldous Huxley sobre una sociedad estabilizada por el placer y el consumo. Recomendada por Yuval Noah Harari y Jordan Peterson."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-17
 ---
 
 *Un mundo feliz* es, junto con *1984*, la gran distopía del siglo XX, y sigue tan vigente que la recomiendan pensadores tan distintos como Yuval Noah Harari y Jordan Peterson. Su advertencia resulta, para muchos, más incómoda que la de Orwell.
@@ -29,5 +30,7 @@ La gran pregunta de Huxley es si una civilización puede volverse esclava sin da
 ## Para quién es
 
 Para lectores de distopías, de ciencia ficción con profundidad filosófica y de crítica social. Un clásico que se lee distinto según la época.
+
+También lo recomienda Sam Altman.
 
 > Edición en español: *Un mundo feliz*, Debolsillo.

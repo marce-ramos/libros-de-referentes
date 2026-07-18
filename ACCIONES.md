@@ -15,7 +15,7 @@ No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de 
 | **Listicle** `<referente>` | Escribe o actualiza el post "Los libros que recomienda X". |
 | **Best-of** `<categoría>` | Escribe el post "Mejores libros de \<categoría\>". |
 | **Verificar** | Chequea duplicados, ASINs de 10 caracteres y consistencia del catálogo. |
-| **Sanear** | Corrige fichas donde un referente del pill no está nombrado en el texto (o hay más de 2 secciones "lo recomienda"). |
+| **Sanear** | Corrige fichas que no cumplen las reglas: referente del pill sin nombrar, más de 2 secciones "lo recomienda", sin nota de edición o cuerpo sobre-recortado. |
 
 **Regla que se aplica sola a todas:** si cambian los libros de un referente que ya tiene listicle,
 hay que **regenerar ese listicle**.

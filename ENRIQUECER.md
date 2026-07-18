@@ -22,7 +22,7 @@ Política de modelos. Toda acción respeta la **regla de propagación** (ver aba
 | **Listicle** | Post "Los libros que recomienda X" desde un manifiesto de fichas ya enriquecidas | referente | MODO LISTICLE | Sonnet |
 | **Best-of de categoría** | Post "Mejores libros de \<categoría\>" (mismo formato que listicle) | categoría | MODO LISTICLE (variante) | Sonnet |
 | **Verificar** | QA: duplicados + ASIN de 10 chars + integridad de `recomendadoPor` | — | Verificación | script |
-| **Sanear** | Corrige fichas que no cumplen la Regla de atribución (referente en el pill sin nombrar, o >2 secciones) | — | Acción "Sanear" + `auditar_fichas.py` | script + Sonnet |
+| **Sanear** | Corrige fichas que no cumplen MODO LIBRO: referente sin nombrar, >2 secciones, sin nota de edición o cuerpo sobre-recortado | — | Acción "Sanear" + `auditar_fichas.py` | script + Sonnet |
 
 **Regla transversal (propagación):** cualquier acción que cambie la lista de libros de un
 referente que YA tiene listicle obliga a **regenerar ese listicle**. Ídem al sumar cross-refs.
@@ -117,6 +117,9 @@ demás nombralos en **una sola línea consolidada**: "También lo recomiendan Y 
 todo referente del `recomendadoPor` (los pills) debe quedar nombrado en el cuerpo, sea con sección o
 en la línea. Nunca inventes una razón para llenar. ¿A quiénes desarrollar? A los de razón más rica;
 a igualdad, al de `orden` más bajo (más relevante) según su ficha en `autores/`.
+**Ubicación de la línea consolidada:** va **integrada al final de la última sección "lo recomienda"**
+(idealmente como frase de cierre de esa sección), toda la atribución agrupada arriba. **NUNCA** como
+párrafo suelto colgando después de "Para quién es".
 
 > **Regla de propagación:** si enriquecés libros de un referente (o le sumás un vínculo por
 > cruce) que **ya tiene listicle publicado**, hay que **regenerar ese listicle** (MODO LISTICLE)
@@ -275,18 +278,53 @@ se agrega (riesgo de alucinación).
 8. **Asentá** cada tanda en `PROGRESO.md` y actualizá los conteos en `PENDIENTES.md`
    (referentes, libros, blog).
 
-## Acción "Sanear fichas" (normalizar a la Regla de atribución)
+## Acción "Sanear fichas" (normalizar a las reglas de MODO LIBRO)
 
-Corrige fichas viejas que no cumplen la Regla de atribución (MODO LIBRO). Flujo:
+Corrige fichas que no cumplen MODO LIBRO / la Regla de atribución. El audit es script (0 tokens);
+las correcciones las hace **Sonnet**.
 
-1. Audit determinístico (0 tokens):
-   `python3 tools/auditar_fichas.py src/content/libros src/content/autores`
-   Reporta, por ficha: referentes del `recomendadoPor` NO nombrados en el cuerpo, y fichas con más
-   de 2 secciones "Por qué/También lo recomienda".
-2. (Sonnet) Por cada ficha flagged, ajustá SOLO la parte de recomendación: dejá ≤2 secciones con
-   razón real y sumá/completá la **línea consolidada** que nombre al resto. No reescribas la reseña
-   entera, no inventes razones, bumpeá `fechaActualizado`.
-3. Repetí el audit hasta que dé 0. Si un referente no tiene razón documentada, va en la línea consolidada.
+### 1. Worklist (determinístico)
+`python3 tools/auditar_fichas.py src/content/libros src/content/autores`
+
+⚠️ **Si no imprime nada** (ni la línea "Resumen: N/…"), el mount está sirviendo el script truncado.
+Corré una copia desde `/tmp`:
+`cp tools/auditar_fichas.py /tmp/a.py && python3 /tmp/a.py src/content/libros src/content/autores`
+(si el `cp` también sale truncado, esperá unos segundos y reintentá).
+
+El audit marca `[FIX]` por ficha con uno o más de estos flags:
+- **sin nombrar: `<refs>`** — referentes del `recomendadoPor` no nombrados en el cuerpo.
+- **N secciones → consolidar** — más de 2 secciones "Por qué/También lo recomienda".
+- **sin nota de edición** — falta el blockquote de edición al pie.
+- **corto/sin 'De qué trata' → sobre-recorte** — cuerpo mutilado (le sacaron secciones).
+
+### 2. Arreglá cada ficha según su(s) flag(s)
+**REGLA DURA transversal:** tocá SOLO lo que el flag pide y **preservá intactas** las demás secciones
+("De qué trata", "Para quién es", concepto, nota de edición). Nunca borres ni acortes lo que ya está
+bien. Bumpeá `fechaActualizado` a hoy (`date`). Contenido original, sin inventar.
+
+- **sin nombrar / >2 secciones** → aplicá la **Regla de atribución** (ver MODO LIBRO): máximo 2
+  secciones "## Por qué/También lo recomienda <X>" (solo con razón real y documentada; a igualdad de
+  sustancia, la del referente de `orden` más bajo según `autores/<slug>.md`), y el resto en una
+  **línea consolidada integrada** al final de la última sección "lo recomienda" ("También lo
+  recomiendan Y y Z."), NUNCA como párrafo suelto tras "Para quién es". Si un referente no tiene razón
+  documentada, va directo a la línea consolidada; no le inventes una.
+- **sin nota de edición** → agregá la última línea en blockquote. Buscá la edición en español real
+  (título + editorial; el ISBN-10 suele estar ya en `asin`):
+  `> Edición en español: *Título*, Editorial (traducción de … si la sabés).`
+  Si de verdad no hay edición ES: `> Por ahora disponible solo en inglés.` No inventes editoriales.
+- **sobre-recorte** → restaurá las secciones faltantes según MODO LIBRO (intro + ≤2 "lo recomienda" +
+  "De qué trata" + un concepto + "Para quién es" + nota de edición), prosa original. Libros muy
+  conocidos: escribí con confianza. Si no podés verificar el contenido del libro, NO inventes:
+  dejalo listado en tu reporte para revisión manual.
+
+### 3. Limpiar `destacado` inerte
+El campo `destacado` se descartó del schema de autores. En cada `src/content/autores/*.md`, eliminá
+con Edit la línea `destacado: ...` del frontmatter (una línea por archivo, sin tocar nada más).
+
+### 4. Cerrar
+Re-corré el audit (mismo comando/workaround) hasta que dé **0**. Asentá la tanda en `PROGRESO.md`
+(cuántas fichas por tipo de arreglo + limpieza de destacado). Trabajá en **tandas de ~10 fichas** y
+máximo 1-2 `WebSearch` por ficha (solo para nota de edición / sobre-recorte).
 
 ## Verificación (correr al terminar cada lote)
 
