@@ -5,10 +5,11 @@ asin: "8423432904"
 categoria: psicologia
 recomendadoPor:
   - adam-grant
+  - malcom-gladwell
 anio: 2021
 resumen: "Adam Grant propone una habilidad que nadie enseña en la escuela: la de reconsiderar lo que creemos saber. Recomendado por el propio Grant como su libro más importante para los tiempos que corren."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-17
 ---
 
 Hay una habilidad que casi nadie cultiva: la de cambiar de opinión con gracia. Adam Grant escribió un libro entero para convencernos de que es la más valiosa de todas.
@@ -28,5 +29,7 @@ La idea que más impacta es simple pero poderosa: el ciclo virtuoso no es aprend
 ## Para quién es
 
 Para cualquiera que tome decisiones con información incompleta —o sea, para todos. Especialmente útil para líderes que necesitan equipos capaces de adaptarse, para comunicadores que trabajan con audiencias polarizadas y para personas que sienten que sus opiniones se calcificaron y quieren saber cómo ablandarlas. Escrito con el ritmo y el humor que caracterizan a Grant: denso en ideas, liviano en la lectura.
+
+También lo recomienda Malcolm Gladwell, que en X lo calificó de "una regla número uno: nunca te pierdas un libro nuevo de Adam Grant".
 
 > Edición en español: *Piénsalo otra vez*, Deusto (traducción de Alexandre Casanovas López).

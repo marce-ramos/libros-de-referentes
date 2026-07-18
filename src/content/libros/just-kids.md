@@ -6,11 +6,13 @@ categoria: memorias
 recomendadoPor:
   - dua-lipa
   - james-clear
+  - malcom-gladwell
 anio: 2010
 resumen: "Las memorias de Patti Smith sobre sus años de juventud junto a Robert Mapplethorpe en el Nueva York de los setenta: un retrato de la amistad, el arte y la búsqueda de uno mismo, elegido por Dua Lipa como pick de septiembre 2023 en el Service95 Book Club."
 destacado: false
 fechaActualizado: 2026-07-17
 ---
+
 
 Patti Smith podría haber escrito un libro sobre su fama. Eligió escribir sobre el tiempo anterior, cuando todavía no era nadie y tampoco le importaba serlo. *Just Kids* —publicado en 2010, ganador del National Book Award— es la historia de su amistad con el fotógrafo Robert Mapplethorpe, contada desde la nostalgia y con una honestidad que no suaviza nada.
 
@@ -30,6 +32,6 @@ Lo que hace que *Éramos unos niños* trascienda la categoría de "memorias de a
 
 Para fans de Patti Smith o de Mapplethorpe que quieran entender de dónde vinieron. Para lectores que disfrutan las memorias literarias con mucha prosa y poca condescendencia. Y para cualquiera que haya elegido alguna vez una vida creativa sin saber muy bien adónde llevaba.
 
-También lo recomienda James Clear.
+También lo recomiendan James Clear y Malcolm Gladwell, que dijo sobre este libro: "lo terminé de una sentada y después lloré. Así de bueno es".
 
 > Edición en español: *Éramos unos niños*, Debolsillo.

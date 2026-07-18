@@ -5,10 +5,11 @@ asin: "0593087747"
 categoria: memorias
 recomendadoPor:
   - satya-nadella
+  - malcom-gladwell
 anio: 2021
 resumen: "Michael Dell narra en primera persona cómo fundó Dell desde su cuarto de estudiante y, años después, peleó para recomprar la empresa y sacarla de la bolsa. Satya Nadella, CEO de Microsoft, la cuenta entre las lecturas que le sirvieron para pensar el propio recorrido de fundador a líder."
 destacado: false
-fechaActualizado: 2026-07-14
+fechaActualizado: 2026-07-17
 ---
 
 Michael Dell tenía 19 años y mil dólares cuando empezó a armar y vender computadoras desde su habitación en la Universidad de Texas. Décadas después, tuvo que librar una batalla legal y financiera para recuperar el control de la empresa que llevaba su apellido. Esa es la historia que cuenta en *Play Nice But Win*.
@@ -28,5 +29,7 @@ Lo que distingue a estas memorias de otras del género es la honestidad sobre lo
 ## Para quién es
 
 Para fundadores que crecieron con su empresa y hoy enfrentan el desafío de liderarla a otra escala, y para quien quiera entender por dentro una de las recompras corporativas más comentadas de la última década.
+
+También lo recomienda Malcolm Gladwell.
 
 > Por ahora disponible solo en inglés; el enlace lleva a la edición de Portfolio (Penguin Random House).

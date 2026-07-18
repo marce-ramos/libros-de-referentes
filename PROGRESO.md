@@ -1054,3 +1054,76 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   - **Paso 3 — limpieza de `destacado` inerte:** eliminada la línea `destacado: ...` del frontmatter
     de los **40 archivos** de `src/content/autores/*.md` (campo descartado del schema). Confirmado
     con `grep -l '^destacado:' src/content/autores/*.md` → 0 resultados.
+
+- **2026-07-17 — Discovery (solo discovery, sin enriquecer todavía): Malcolm Gladwell.** Backlog
+  previo: 3/3 libros ya enriquecidos (The Blind Side, The Person and the Situation, Psychoanalysis:
+  The Impossible Profession), pero la ficha del referente solo decía "su podcast" sin fuente
+  concreta fetcheable. `WebSearch` no encontró una lista propia de Revisionist History con títulos
+  explícitos, así que se buscaron agregadores con cita + fuente primaria por libro (mismo patrón
+  que Nadella): **mostrecommendedbooks.com/malcolm-gladwell-books** y **readthistwice.com/person/
+  malcolm-gladwell** (ambos JS-renderizados y devolvieron solo una porción del listado completo por
+  lazy-load, igual que pasó antes con Reese Witherspoon/Oprah). De lo fetcheado, **18 candidatos**
+  quedaron con fuente primaria verificable por libro (mayoría **tim.blog/2016/06/21/malcolm-gladwell/**
+  — entrevista real en The Tim Ferriss Show — y también theweek.com/articles/509620, tweets propios
+  de @Gladwell, NYT "By the Book", The Guardian y The Globe and Mail). Se descartaron a propósito la
+  serie completa de Jack Reacher (30 libros, Lee Child) y "Irresistible" de Adam Alter: aparecían en
+  el listado pero sin cita/fuente individual verificable en lo fetcheado — regla de oro de MODO
+  DESCUBRIR, mejor lista corta 100% real que larga con dudosos.
+  `reconciliar.py malcom-gladwell`: **0 YA-LINKED + 3 CROSS-REF + 0 REVISAR + 15 NUEVO**.
+  - CROSS-REF: **Think Again** (Adam Grant, ya en catálogo vía Adam Grant/otros — falta sumar a
+    Gladwell), **Just Kids** (Patti Smith, ya en catálogo vía Dua Lipa + James Clear), **Play Nice
+    But Win** (Michael Dell, ya en catálogo vía varios referentes de negocios).
+  - NUEVO (15): Strangers to Ourselves (Timothy D. Wilson), Merchant Princes (Leon A. Harris), The
+    Russia House (John le Carré), The Little Drummer Girl (John le Carré), The Spy Who Came in from
+    the Cold (John le Carré), Tinker Tailor Soldier Spy (John le Carré), The Checklist Manifesto
+    (Atul Gawande), Traffic (Tom Vanderbilt), The Opposable Mind (Roger L. Martin), Freakonomics
+    (Levitt/Dubner), First Friends (Gary Ginsberg), The Paris Architect (Charles Belfoure), A
+    Thousand Pardons (Jonathan Dee), Drunk Tank Pink (Adam Alter), Together (Vivek H. Murthy).
+    4 de estos títulos (Russia House, Little Drummer Girl, Spy Who Came in from the Cold, Tinker
+    Tailor Soldier Spy) son la saga de espías de John le Carré que Gladwell recomendó en bloque en
+    la entrevista de Tim Ferriss ("deberías leer al menos hasta Tinker Tailor...") — a diferencia de
+    Reacher, acá sí hay cita textual y fuente concreta por título.
+  **No se tocó el catálogo** (0 fichas creadas, 0 cross-ref aplicados) — discovery + reconciliación
+  nada más, por ahora. Manifiesto completo con fuente por línea en
+  `outputs/manifiesto_gladwell.txt` (scratchpad, no versionado). **Pendiente: confirmar con Marcelo
+  si se enriquecen los 15 NUEVO + 3 CROSS-REF, y si conviene en una sola tanda o dividida** (sería
+  Gladwell 3 → 21 libros).
+
+- **2026-07-17 — Enriquecimiento + listicle: Malcolm Gladwell (confirmado por Marcelo: "enriquecer
+  todo ahora").**
+  - **3 CROSS-REF aplicados**: `think-again`, `just-kids` y `play-nice-but-win` suman
+    `malcom-gladwell` a `recomendadoPor` + una línea/frase en el cuerpo que lo nombra con la cita
+    real correspondiente (Regla de atribución), `fechaActualizado` a 2026-07-17.
+  - **15 NUEVO enriquecidos** con MODO LIBRO vía 4 subagentes en paralelo (Sonnet), cada uno con la
+    cita real de Gladwell y su fuente ya provistas (sin dejar que inventen razones): Strangers to
+    Ourselves [solo inglés, Belknap/Harvard UP, asin 0674009363] (Timothy D. Wilson, psicologia); La
+    casa Rusia [ES, Booket, asin 8408171712] y La chica del tambor [ES, Debolsillo, asin 8484504727]
+    (John le Carré, ficcion); El espía que surgió del frío [ES, Best Seller, asin 8497930509] y El
+    topo [ES, Biblioteca John le Carré, asin 8408161709] (le Carré, ficcion); El efecto Checklist
+    [ES, Antoni Bosch, asin 849534856X] (Atul Gawande, negocios); Tráfico [ES, Debate, asin
+    8483068435] (Tom Vanderbilt, ciencia); Merchant Princes [solo inglés, Harper & Row, asin
+    0060117974] (Leon A. Harris, historia); The Opposable Mind [solo inglés, Harvard Business Press,
+    asin 1422118924] (Roger L. Martin, negocios); Freakonomics [ES, Ediciones B, asin 8496581810]
+    (Levitt/Dubner, negocios); First Friends [solo inglés, Twelve/Hachette, asin 1538702924] (Gary
+    Ginsberg, historia); The Paris Architect [solo inglés, Sourcebooks Landmark, asin 1402284314]
+    (Charles Belfoure, ficcion); A Thousand Pardons [solo inglés, Random House, asin 0812983386]
+    (Jonathan Dee, ficcion); Drunk Tank Pink [solo inglés, Penguin, asin 0143124935] (Adam Alter,
+    psicologia); Juntos [ES, Ares y Mares, asin 8491992634] (Vivek H. Murthy, psicologia).
+    ASIN de 10 caracteres verificado en las 15 (todos vistos en URL real de Amazon, ninguno
+    inventado); 8/15 con edición en español confirmada, 7/15 solo inglés.
+  - `detectar_duplicados.py`: **0 `[DUP]`** exactos sobre los 449 archivos (John le Carré queda con
+    4 libros, caso `[REV]` legítimo). ASIN 10 caracteres OK en las 15 nuevas + 3 cross-ref sin
+    tocar. Re-audit de atribución: los 3 cross-ref + 15 nuevas quedan en regla (los 4 flags que
+    reporta el script son el mismo gotcha de mount desincronizado de siempre — verificados
+    manualmente vía Read tool como correctos: `into-thin-air`, `sapiens`, `shoe-dog`, `just-kids`).
+  - **Listicle creado desde cero** (Gladwell nunca había tenido uno):
+    `libros-que-recomienda-malcolm-gladwell.md`, `fecha`/`fechaActualizado` 2026-07-17, con las 21
+    fichas. 5 grupos temáticos balanceados (sin `## Por dónde empezar`, no hizo falta con 21 libros
+    bien repartidos): El universo de espías de John le Carré (4), Cómo pensamos —y por qué pensamos
+    mal— (6, psicología/comportamiento), Sistemas, incentivos y por qué las cosas funcionan o no (4,
+    negocios+ciencia — se sumó `traffic` acá en vez de a un grupo de ciencia de 1 solo libro, porque
+    el propio Gladwell la llamó "heredera de Freakonomics"), Historias reales de gente extraordinaria
+    (4, memorias+historia fusionadas), Ficción que lo atrapó (3, el resto de ficción fuera de le
+    Carré). Verificado con script propio: 21/21 links con `titulo` EXACTO de la ficha, slug
+    existente, `malcom-gladwell` presente en `recomendadoPor` de las 21, 0 huérfanos, 0 extras.
+  **Malcolm Gladwell 3 → 21 libros**; catálogo 434 → 449.
