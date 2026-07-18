@@ -10,18 +10,14 @@ recomendadoPor:
 anio: 1997
 resumen: "El ensayo de Davidson y Rees-Mogg que anticipó la era de la información y el dinero digital. Recomendado por Peter Thiel, Vitalik Buterin y Naval Ravikant."
 destacado: true
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-18
 ---
 
 *El individuo soberano* es un libro de 1997 que se volvió de culto en el mundo de la tecnología y las criptomonedas por lo mucho que anticipó. Lo recomiendan Peter Thiel y Vitalik Buterin, el creador de Ethereum, dos figuras difíciles de encontrar en la misma lista.
 
 ## Por qué lo recomiendan
 
-Thiel y Buterin lo valoran por su capacidad de predicción: escrito antes de que internet fuera masivo, describió con notable precisión un mundo de trabajo remoto, economía digital y dinero electrónico independiente de los Estados. Para el mundo cripto, es casi un texto fundacional.
-
-## También lo recomienda Naval Ravikant
-
-Naval lo pone entre sus lecturas más influyentes con una frase directa: "es el mejor libro que leí desde *Sapiens* (aunque mucho menos masivo)". Encaja con su interés por el dinero digital y la autonomía individual frente a los Estados, dos temas que atraviesa buena parte de sus otras recomendaciones.
+Thiel y Buterin lo valoran por su capacidad de predicción: escrito antes de que internet fuera masivo, describió con notable precisión un mundo de trabajo remoto, economía digital y dinero electrónico independiente de los Estados. Para el mundo cripto, es casi un texto fundacional. También lo recomienda Naval Ravikant, que lo pone entre sus lecturas más influyentes con una frase directa: "es el mejor libro que leí desde *Sapiens* (aunque mucho menos masivo)". Encaja con su interés por el dinero digital y la autonomía individual frente a los Estados, dos temas que atraviesa buena parte de sus otras recomendaciones.
 
 ## De qué trata
 

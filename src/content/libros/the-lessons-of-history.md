@@ -9,18 +9,14 @@ recomendadoPor:
 anio: 1968
 resumen: "El destilado de Will y Ariel Durant tras escribir su monumental Historia de la Civilización: las grandes constantes que se repiten a lo largo de cinco mil años, en un volumen breve y cargado de ideas. Recomendado también por Naval Ravikant."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-18
 ---
 
 Después de dedicar cuatro décadas a escribir los once tomos de *La historia de la civilización*, Will y Ariel Durant se hicieron una pregunta ambiciosa: ¿qué patrones se repiten? *Lecciones de la Historia* (1968) es la respuesta, un ensayo condensado que cabe en la palma de la mano pero pesa como una biblioteca.
 
-## Por qué lo recomienda Ray Dalio
+## Por qué lo recomiendan Ray Dalio y Naval Ravikant
 
-Dalio es un obsesivo de los patrones históricos: buena parte de su trabajo reciente consiste en estudiar cómo suben y caen los imperios para anticipar ciclos económicos. Los Durant hicieron algo parecido pero a escala civilizatoria, y este libro es un atajo brillante a esa mirada de largo plazo que Dalio considera indispensable para no confundir lo urgente con lo importante.
-
-## También lo recomienda Naval Ravikant
-
-Naval lo describe como un libro que "resume algunos de los grandes temas de la historia, muy incisivo", y destaca algo poco común en el género: a diferencia de la mayoría de los libros de historia, "es en realidad muy chico y cubre muchísimo terreno".
+Dalio es un obsesivo de los patrones históricos: buena parte de su trabajo reciente consiste en estudiar cómo suben y caen los imperios para anticipar ciclos económicos. Los Durant hicieron algo parecido pero a escala civilizatoria, y este libro es un atajo brillante a esa mirada de largo plazo que Dalio considera indispensable para no confundir lo urgente con lo importante. Naval lo describe como un libro que "resume algunos de los grandes temas de la historia, muy incisivo", y destaca algo poco común en el género: a diferencia de la mayoría de los libros de historia, "es en realidad muy chico y cubre muchísimo terreno".
 
 ## De qué trata
 

@@ -17,7 +17,7 @@ fechaActualizado: 2026-07-17
 
 ## Por qué lo recomiendan
 
-Harari y Peterson la usan como espejo del presente. Mientras *1984* imagina un poder que controla por el miedo, *Un mundo feliz* imagina algo más sutil y quizás más cercano: un poder que controla por el placer, el confort y la distracción.
+Harari y Peterson la usan como espejo del presente. Mientras *1984* imagina un poder que controla por el miedo, *Un mundo feliz* imagina algo más sutil y quizás más cercano: un poder que controla por el placer, el confort y la distracción. También lo recomienda Sam Altman.
 
 ## De qué trata
 
@@ -30,7 +30,5 @@ La gran pregunta de Huxley es si una civilización puede volverse esclava sin da
 ## Para quién es
 
 Para lectores de distopías, de ciencia ficción con profundidad filosófica y de crítica social. Un clásico que se lee distinto según la época.
-
-También lo recomienda Sam Altman.
 
 > Edición en español: *Un mundo feliz*, Debolsillo.

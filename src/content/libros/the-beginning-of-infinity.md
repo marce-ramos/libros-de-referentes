@@ -10,14 +10,14 @@ recomendadoPor:
 anio: 2011
 resumen: "El ensayo de David Deutsch sobre el conocimiento, las buenas explicaciones y el progreso sin límites. Recomendado por Naval Ravikant y Sam Altman."
 destacado: true
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 *El comienzo del infinito* es uno de los libros que Naval Ravikant menciona una y otra vez como los que más le marcaron el pensamiento, y también aparece entre las recomendaciones de Sam Altman. Es ambicioso, denso y, para muchos lectores, transformador.
 
 ## Por qué lo recomiendan
 
-Naval y Altman lo valoran porque ofrece una teoría del conocimiento y del progreso que es, a la vez, rigurosa y profundamente optimista. No es autoayuda ni divulgación ligera: es filosofía de la ciencia que se lee como una aventura intelectual.
+Naval y Altman lo valoran porque ofrece una teoría del conocimiento y del progreso que es, a la vez, rigurosa y profundamente optimista. No es autoayuda ni divulgación ligera: es filosofía de la ciencia que se lee como una aventura intelectual. También lo recomienda Mark Zuckerberg.
 
 ## De qué trata
 
@@ -30,7 +30,5 @@ Su tesis más potente es que «los problemas son solubles»: dado el conocimient
 ## Para quién es
 
 Para lectores curiosos y pacientes, dispuestos a un libro exigente que recompensa el esfuerzo. No es una lectura ligera, pero deja ideas que reordenan la forma de ver el mundo.
-
-También lo recomienda Mark Zuckerberg.
 
 > Edición en español: *El comienzo del infinito*, Biblioteca Buridán.

@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 2021
 resumen: "Un astronauta despierta solo en el espacio, sin recuerdos, con la misión de salvar a la humanidad de una extinción solar. La novela de ciencia ficción que eligieron Barack Obama y Bill Gates en sus listas de 2021."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 Hay pocas cosas más adictivas que una novela de ciencia ficción bien construida con un misterio en el centro. *Proyecto Hail Mary* de Andy Weir es exactamente eso: una historia que te engancha desde la primera página y no te suelta hasta la última, con ciencia real y un humor que la hace completamente disfrutable.
 
 ## Por qué lo recomienda Barack Obama
 
-Obama incluyó *Project Hail Mary* en su lista de lecturas de verano 2021, publicada en su Medium oficial. Weir ya lo había sorprendido con *El marciano*, y este libro tiene el mismo ADN: ciencia rigurosa, ingenio y una historia de supervivencia que funciona como un thriller. Para Obama, que combina lecturas serias con buenos relatos, fue una elección clara del verano.
+Obama incluyó *Project Hail Mary* en su lista de lecturas de verano 2021, publicada en su Medium oficial. Weir ya lo había sorprendido con *El marciano*, y este libro tiene el mismo ADN: ciencia rigurosa, ingenio y una historia de supervivencia que funciona como un thriller. Para Obama, que combina lecturas serias con buenos relatos, fue una elección clara del verano. También lo recomienda Bill Gates.
 
 ## De qué trata
 
@@ -31,7 +31,5 @@ Sin spoilear demasiado: en algún punto Grace encuentra compañía, y esa dinám
 ## Para quién es
 
 Para quienes disfrutaron *El marciano* o quieren empezar con Andy Weir. Para cualquiera que quiera ciencia ficción con humor, rigor y corazón. Y para lectores ocasionales del género que necesitan que la historia avance rápido y que cada página tenga un propósito.
-
-También lo recomienda Bill Gates.
 
 > Edición en español: *Proyecto Hail Mary*, Nova / Ediciones B (traducción de Javier Guerrero Gimeno).

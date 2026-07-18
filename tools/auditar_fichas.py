@@ -64,22 +64,27 @@ def main():
         refs = recomendados(fm)
         body_norm = norm(body)
         faltan = [r for r in refs if not nombrado(nombres.get(r, ""), body_norm)]
-        secciones = len(re.findall(r"^##\s+(?:Por qu[eé]|Tambi[eé]n) lo recomienda", body, re.M))
+        # Anti-patrones de atribución (debe haber UNA sola sección "Por qué lo recomienda(n)"):
+        tambien_h2 = len(re.findall(r"(?m)^##\s+Tambi[eé]n lo recomienda", body))
+        mpq = re.search(r"(?m)^##\s+Para qui[eé]n es", body)
+        orphan = bool(mpq and re.search(r"(?m)^Tambi[eé]n lo recomiend", body[mpq.end():]))
         # Nota de edición (o "solo inglés") al pie:
         sin_edicion = not re.search(r"^>\s*(Edici[oó]n|Por ahora|Disponible)", body, re.M)
         # Sobre-recorte: cuerpo muy corto o sin "## De qué trata".
         corta = len(body.strip()) < 700 or not re.search(r"^##\s+De qu[eé] trata", body, re.M)
-        if faltan or secciones > 2 or sin_edicion or corta:
+        if faltan or tambien_h2 or orphan or sin_edicion or corta:
             con_problema += 1
             print(f"[FIX] {slug}")
             if faltan:
                 print(f"      referentes en el pill sin nombrar: {', '.join(faltan)}")
-            if secciones > 2:
-                print(f"      {secciones} secciones 'lo recomienda' (max 2) -> consolidar")
+            if tambien_h2:
+                print(f"      {tambien_h2} encabezado(s) '## Tambien lo recomienda' -> unificar en 'Por que lo recomienda(n)'")
+            if orphan:
+                print("      atribucion huerfana tras 'Para quien es' -> moverla a la seccion de recomendacion")
             if sin_edicion:
-                print("      sin nota de edición (> Edición en español / solo inglés)")
+                print("      sin nota de edicion (> Edicion en espanol / solo ingles)")
             if corta:
-                print("      cuerpo corto o sin '## De qué trata' -> posible sobre-recorte")
+                print("      cuerpo corto o sin '## De que trata' -> posible sobre-recorte")
 
     print(f"\nResumen: {con_problema}/{total} fichas a sanear.")
 

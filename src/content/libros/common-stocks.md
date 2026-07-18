@@ -8,7 +8,7 @@ recomendadoPor:
 anio: 1958
 resumen: "El clásico de Philip Fisher sobre cómo evaluar empresas más allá de los números. Buffett dice que su estilo es 15% Fisher."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-18
 ---
 
 Warren Buffett tiene una frase famosa para describir su propia filosofía: «Soy 85% Benjamin Graham y 15% Philip Fisher». Si *El inversor inteligente* de Graham aporta la disciplina y el margen de seguridad, *Acciones ordinarias y beneficios extraordinarios* de Fisher aporta la otra mitad: cómo reconocer una gran empresa antes de que el resto del mundo lo note.
@@ -34,3 +34,5 @@ Para el inversor que quiere ir más allá del balance y entender el lado cualita
 ## Veredicto
 
 Leído junto a *El inversor inteligente*, completa el cuadro: Graham te enseña a no perder, Fisher te enseña a encontrar a los grandes ganadores. Un clásico imprescindible para quien se tome en serio la inversión a largo plazo.
+
+> Edición en español: *Acciones ordinarias y beneficios extraordinarios*, Deusto (traducción de Mar Vidal).

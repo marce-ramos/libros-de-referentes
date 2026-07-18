@@ -11,18 +11,14 @@ recomendadoPor:
 anio: 1946
 resumen: "El testimonio de Viktor Frankl sobre los campos de concentración y su tesis de que encontrar un sentido es lo que nos sostiene. Recomendado por Altman, Peterson, Sinek y Naval Ravikant."
 destacado: true
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-18
 ---
 
 Pocos libros tan breves dejan una marca tan profunda. *El hombre en busca de sentido* aparece recomendado por referentes tan distintos como Sam Altman, Jordan Peterson y Simon Sinek, porque aborda la pregunta más básica de todas: ¿qué hace que valga la pena seguir viviendo, incluso en las peores circunstancias?
 
 ## Por qué lo recomiendan
 
-Es un libro que cambia la forma de mirar la adversidad. Altman, Peterson y Sinek —desde la tecnología, la psicología y el liderazgo— coinciden en que ofrece un marco para entender la motivación humana que no depende del éxito ni del placer, sino del propósito.
-
-## También lo recomienda Naval Ravikant
-
-Naval lo cuenta entre los libros a los que vuelve una y otra vez, parte del núcleo de su biblioteca personal —en la misma línea que sus otras lecturas sobre cómo sostener la calma y el sentido más allá de las circunstancias externas.
+Es un libro que cambia la forma de mirar la adversidad. Altman, Peterson y Sinek —desde la tecnología, la psicología y el liderazgo— coinciden en que ofrece un marco para entender la motivación humana que no depende del éxito ni del placer, sino del propósito. También lo recomienda Naval Ravikant, que lo cuenta entre los libros a los que vuelve una y otra vez, parte del núcleo de su biblioteca personal —en la misma línea que sus otras lecturas sobre cómo sostener la calma y el sentido más allá de las circunstancias externas.
 
 ## De qué trata
 

@@ -1239,3 +1239,80 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   and Social Change (Lynn White), Guns, Sails, and Empires (Carlo M. Cipolla), Mind of Napoleon (J.
   Christopher Herold), Skunk Works (Ben R. Rich). (Nota: son ~28 en la lista de arriba, no 26 —
   quedaron algunos títulos de más al repartir; ajustar tandas 2/3 en ~13-15 cada una al retomar.)
+
+- **2026-07-18 — Acción "Sanear fichas" (nota de edición).** `python3 tools/auditar_fichas.py`
+  reportó **24/462 fichas** con flags, pero la verificación manual vía Read tool (fuente de verdad,
+  el mount de `bash` sigue sirviendo contenido stale/truncado — mismo gotcha ya documentado el
+  2026-07-17) mostró que **18 de las 24 eran falsos positivos**: `brave-new-world`, `ficciones`,
+  `foundation`, `genome`, `into-thin-air`, `just-kids`, `man-s-search-for-meaning`, `meditations`,
+  `sapiens`, `shoe-dog`, `the-alchemist`, `the-lessons-of-history`, `the-sovereign-individual`,
+  `the-three-body-problem`, `think-again`, `thinking-fast-and-slow`, `zero-to-one` ya tenían la nota
+  de edición y/o la atribución correcta (varias de estas ya se habían saneado el 2026-07-17: nota de
+  ese día sobre el mismo gotcha con `into-thin-air`/`sapiens`/`shoe-dog`/`just-kids`, que sigue sin
+  resolverse). `koko` también es falso positivo: tiene nota de edición real (explica que las 2
+  ediciones ES están descatalogadas) pero con una redacción que no matchea el regex del script
+  (no empieza con "Edición"/"Por ahora"/"Disponible") — contenido correcto, no se tocó.
+  **6 fichas con problema real** (nota de edición faltante, confirmada por Read): `business-adventures`
+  (ya tenía la atribución de James Clear del 2026-07-17, pero no la nota → agregada: Deusto, trad.
+  Iván Barbeitos), `common-stocks` (Deusto, trad. Mar Vidal), `educated` (Debolsillo, trad. Antonia
+  Martín), `the-anxious-generation` (Deusto), `the-coming-wave` (Debate, trad. Clàudia Fernández
+  Morenas), `the-intelligent-investor` (Deusto, edición revisada con comentarios de Jason Zweig,
+  trad. Idoia Bengoechea — la ficha ya mencionaba esta edición en prosa pero le faltaba el blockquote
+  formal). Las 6 verificadas por `WebSearch` contra fuentes reales (Amazon.es, Casa del Libro,
+  PlanetadeLibros), sin inventar editorial. Solo se agregó la línea de edición + bump de
+  `fechaActualizado` a 2026-07-18; el resto de cada ficha quedó intacto.
+  **Pendiente sugerido:** el gotcha de mount desincronizado sigue activo y ya afectó 2 auditorías
+  seguidas (2026-07-17 y 2026-07-18) con falsos positivos superpuestos — conviene que cualquier
+  futura acción "Sanear" verifique cada `[FIX]` del script contra el Read tool antes de tocar nada,
+  no confiar en el output crudo de `auditar_fichas.py` corrido vía `bash`.
+
+- **2026-07-18 — Acción "Sanear fichas" (atribución huérfana), tercera tanda del día.** Marcelo
+  corrió `auditar_fichas.py` nativo en Windows (worklist limpia, sin el gotcha de mount) y devolvió
+  **32 fichas [FIX]**: 31 con "atribución huérfana tras 'Para quien es'" y 1 (`koko`) con "sin nota
+  de edición". Verificado `koko.md` por tercera vez vía `Read`: sigue siendo falso positivo (la nota
+  de edición existe, línea 32, pero empieza con "Hubo dos ediciones..." en vez de "Edición en
+  español/Por ahora/Disponible", así que no matchea el regex) — no se tocó. Las 31 restantes se
+  sanearon en 4 tandas de 8 con `Edit` quirúrgico: se movió la línea "También lo recomienda(n) X"
+  desde después de "Para quién es" al cierre del último párrafo de la sección de recomendación
+  ("Por qué lo recomienda…"), y se borró la línea huérfana + el blank line sobrante: `1984`,
+  `a-brief-history-of-time`, `a-thousand-splendid-suns`, `a-walk-in-the-woods`, `americanah`,
+  `and-then-there-were-none`, `great-expectations`, `guns-germs-and-steel`, `just-kids`,
+  `just-mercy`, `klara-and-the-sun`, `mountains-beyond-mountains`, `nudge`,
+  `one-hundred-years-of-solitude`, `play-nice-but-win`, `project-hail-mary`, `shoe-dog`,
+  `siddhartha`, `start-with-why`, `the-adventures-of-huckleberry-finn`,
+  `the-autobiography-of-benjamin-franklin`, `the-beginning-of-infinity`, `the-blind-side`,
+  `the-hobbit`, `the-little-book-of-common-sense-investing`, `the-little-prince`,
+  `the-person-and-the-situation`, `the-rational-optimist`, `think-again`, `thinking-fast-and-slow`,
+  `to-kill-a-mockingbird`, `zero-to-one`. Caso especial: `thinking-fast-and-slow` no tiene sección
+  "Por qué lo recomienda X" propia (Kahneman es el autor, no hay un desarrollo de recomendador
+  separado), así que la frase se fundió al cierre del párrafo introductorio en vez de una sección
+  de recomendación inexistente — señalarlo si se vuelve a tocar esa ficha. `fechaActualizado`
+  bumpeado a 2026-07-18 en las 31. Cada ficha verificada por `Read` tras el `Edit` (defecto fuera +
+  secciones intactas). **Pendiente:** pedirle a Marcelo que re-corra el audit para confirmar 0
+  fichas a sanear.
+
+- **2026-07-18 — Acción "Sanear fichas" (encabezado "También lo recomienda" → línea consolidada),
+  segunda tanda del día.** Dado que el mount de `bash` seguía sirviendo versiones truncadas/viejas
+  incluso del propio `tools/auditar_fichas.py` (72 líneas vía `bash` contra las 94 reales vía Read
+  tool), esta vez el audit se hizo **enteramente con el tool `Grep`** (no `bash`), que sí lee el
+  contenido real: confirmado cruzando `PROGRESO.md` (`bash` reportaba 681 líneas; el archivo real
+  tiene 1267+). Barrido sobre las 462 fichas con el patrón `^##\s+Tambi[eé]n lo recomienda` encontró
+  **10 fichas** que todavía usaban el formato viejo (sección H2 separada por recomendador) en vez de
+  la línea consolidada que exige la Regla de atribución desde el 2026-07-17: `ficciones`, `genome`,
+  `into-thin-air`, `man-s-search-for-meaning`, `poor-charlie-s-almanack`, `the-alchemist`,
+  `the-intelligent-investor`, `the-lessons-of-history`, `the-sovereign-individual`,
+  `the-three-body-problem`. En 3 de ellas (`into-thin-air`, `poor-charlie-s-almanack`,
+  `the-alchemist`) también había una "atribución huérfana" (línea "También lo recomienda(n) X."
+  suelta después de "Para quién es" o de "De qué trata", sin relación con la sección de
+  recomendación). Se unificó cada una en **una sola sección** "## Por qué lo recomienda(n) X [y Y]"
+  tejiendo la prosa existente (sin cortar ni inventar contenido) y, donde había un tercer o cuarto
+  referente ya desarrollado en prosa, se preservó esa prosa dentro de la misma sección en vez de
+  recortarla a una sola línea (regla dura de Sanear: no acortar lo que ya está bien). Bump de
+  `fechaActualizado` a 2026-07-18 en las 9 que no lo tenían ya (`the-intelligent-investor` ya
+  estaba en 2026-07-18 por la tanda anterior). De paso, se confirmó por segunda vez que `koko.md`
+  es falso positivo real (nota de edición con redacción propia que no matchea el regex del script,
+  contenido correcto) vía diff de listas `Grep` (461/462 fichas matchean el regex de edición; la
+  única que no es `koko`). **Pendiente:** ninguno de los 10 referentes tocados tiene listicle
+  publicado con esos libros afectados por el cambio de formato (el cambio es solo de presentación,
+  no de contenido ni de `recomendadoPor`), así que no hace falta regenerar ningún listicle por esta
+  tanda.

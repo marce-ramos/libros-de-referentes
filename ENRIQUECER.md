@@ -63,8 +63,14 @@ sesiones son los archivos, no el chat** — por eso se mantienen al día religio
 
 ## Regla de herramientas (obligatoria)
 
-- Leer/editar SIEMPRE con **Read / Write / Edit**. NUNCA `cat`/`sed` de bash para contenido:
-  el mount se desincroniza y muestra versiones viejas/truncadas.
+- **El agente NO usa `bash`.** Todo el trabajo de contenido va con las herramientas de archivo
+  (`Read` / `Write` / `Edit` / `Grep` / `Glob`), que leen y escriben el filesystem real y son
+  confiables. El bash del sandbox ve el mount desincronizado (versiones viejas/truncadas) → no usarlo.
+- **Los scripts deterministas los corre Marcelo en Windows** (Python nativo, sin mount):
+  `auditar_fichas.py`, `reconciliar.py`, `detectar_duplicados.py`. El agente **no los ejecuta**: pide
+  la salida y Marcelo la pega. (Requiere Python 3 en Windows; los scripts no tienen dependencias.)
+  Ídem git y `npm run build`: siempre en Windows.
+- Editar contenido con `Edit` puntual; nunca reescribir el archivo entero salvo que sea ficha nueva.
 - El `WebSearch` es lo caro: máximo **1-2 búsquedas por ítem**. Si no confirmás un dato, no lo inventes.
 
 ---
@@ -111,15 +117,18 @@ intro que engancha + `## Por qué lo recomienda <Referente>` (ver **Regla de atr
 
 Nunca dejar el stub autogenerado ("*X*, de Y, figura entre las recomendaciones de Z.").
 
-**Regla de atribución (cuántos referentes desarrollar):** máximo **2 secciones** "Por qué / También
-lo recomienda <X>", y solo si hay una razón real y documentada (cita, historia, contexto). A los
-demás nombralos en **una sola línea consolidada**: "También lo recomiendan Y y Z". **Regla dura:**
-todo referente del `recomendadoPor` (los pills) debe quedar nombrado en el cuerpo, sea con sección o
-en la línea. Nunca inventes una razón para llenar. ¿A quiénes desarrollar? A los de razón más rica;
-a igualdad, al de `orden` más bajo (más relevante) según su ficha en `autores/`.
-**Ubicación de la línea consolidada:** va **integrada al final de la última sección "lo recomienda"**
-(idealmente como frase de cierre de esa sección), toda la atribución agrupada arriba. **NUNCA** como
-párrafo suelto colgando después de "Para quién es".
+**Regla de atribución (UNA sola sección de recomendación):** después de la intro va **una única**
+sección: `## Por qué lo recomienda <X>` si desarrollás a un referente, o `## Por qué lo recomiendan`
+si desarrollás a dos. **Prohibido** abrir varias secciones "## También lo recomienda <X>" (queda
+repetitivo y poco profesional). Dentro de esa única sección:
+- Desarrollá en prosa la razón de **máximo 2** referentes —los de razón más rica y documentada; a
+  igualdad, el de `orden` más bajo según `autores/<slug>.md`—. Si son dos, entretejelos en el texto,
+  sin un subtítulo por cabeza.
+- **Cerrá esa misma sección** nombrando al resto en una frase: "También lo recomiendan Y y Z."
+  (podés sumar un dato de fuente si lo sabés, sin inventar).
+**Regla dura:** todo referente del `recomendadoPor` (los pills) debe quedar nombrado **dentro de esa
+sección**. Nada de párrafos de atribución sueltos en otro lado —**jamás** después de "Para quién es"—
+ni secciones "También lo recomienda" separadas. Nunca inventes una razón para llenar.
 
 > **Regla de propagación:** si enriquecés libros de un referente (o le sumás un vínculo por
 > cruce) que **ya tiene listicle publicado**, hay que **regenerar ese listicle** (MODO LISTICLE)
@@ -278,53 +287,65 @@ se agrega (riesgo de alucinación).
 8. **Asentá** cada tanda en `PROGRESO.md` y actualizá los conteos en `PENDIENTES.md`
    (referentes, libros, blog).
 
-## Acción "Sanear fichas" (normalizar a las reglas de MODO LIBRO)
+## Acción "Sanear fichas" (normalizar a MODO LIBRO)
 
-Corrige fichas que no cumplen MODO LIBRO / la Regla de atribución. El audit es script (0 tokens);
-las correcciones las hace **Sonnet**.
+Arregla fichas defectuosas. El audit es script (0 tokens); las correcciones las hace **Sonnet** con
+ediciones **quirúrgicas**. Meta: reparar el defecto SIN tocar nada más.
 
-### 1. Worklist (determinístico)
-`python3 tools/auditar_fichas.py src/content/libros src/content/autores`
+### Reglas de oro (leer antes de tocar una ficha)
+1. **Usá SOLO `Edit` (reemplazo puntual). NUNCA `Write` (archivo completo).** Reescribir la ficha
+   entera es lo que hace que se pierdan secciones. Cambiá únicamente las líneas del defecto.
+2. **Preservá TODO lo demás** (De qué trata, Para quién es, concepto, Veredicto, nota de edición…).
+   Si una sección no es la que arreglás, no la reescribas.
+3. **No inventes** razones, citas ni editoriales. Si falta un dato y no lo confirmás con 1 búsqueda,
+   usá la salida segura (línea consolidada / "solo inglés").
+4. **Después de cada ficha, `Read`-la** y confirmá dos cosas: el defecto se fue **Y** las demás
+   secciones siguen ahí. (El mount puede truncar; esta verificación lo detecta.)
+5. Tandas de **~8 fichas**; re-corré el audit entre tandas. Máx **1-2 WebSearch** por ficha (solo d/e).
 
-⚠️ **Si no imprime nada** (ni la línea "Resumen: N/…"), el mount está sirviendo el script truncado.
-Corré una copia desde `/tmp`:
-`cp tools/auditar_fichas.py /tmp/a.py && python3 /tmp/a.py src/content/libros src/content/autores`
-(si el `cp` también sale truncado, esperá unos segundos y reintentá).
+### 1. Worklist
+**Marcelo corre el audit en Windows** (Python nativo, sin mount) y pega la salida:
+`python tools\auditar_fichas.py src\content\libros src\content\autores`
+El agente NO corre bash. La lista de líneas `[FIX]` es la worklist.
 
-El audit marca `[FIX]` por ficha con uno o más de estos flags:
-- **sin nombrar: `<refs>`** — referentes del `recomendadoPor` no nombrados en el cuerpo.
-- **N secciones → consolidar** — más de 2 secciones "Por qué/También lo recomienda".
-- **sin nota de edición** — falta el blockquote de edición al pie.
-- **corto/sin 'De qué trata' → sobre-recorte** — cuerpo mutilado (le sacaron secciones).
+### 2. Arreglo EXACTO por flag (una ficha puede tener varios)
 
-### 2. Arreglá cada ficha según su(s) flag(s)
-**REGLA DURA transversal:** tocá SOLO lo que el flag pide y **preservá intactas** las demás secciones
-("De qué trata", "Para quién es", concepto, nota de edición). Nunca borres ni acortes lo que ya está
-bien. Bumpeá `fechaActualizado` a hoy (`date`). Contenido original, sin inventar.
+**a) `atribución huérfana`** (el más común, ~2 ediciones). Hay una línea `También lo recomienda(n) X.`
+suelta DESPUÉS de "Para quién es". Se **mueve** al cierre de la sección de recomendación:
+- Edit 1 — agregá esa frase al final del último párrafo de la sección `## Por qué lo recomienda…`.
+- Edit 2 — borrá la línea huérfana (y la línea en blanco que sobra).
 
-- **sin nombrar / >2 secciones** → aplicá la **Regla de atribución** (ver MODO LIBRO): máximo 2
-  secciones "## Por qué/También lo recomienda <X>" (solo con razón real y documentada; a igualdad de
-  sustancia, la del referente de `orden` más bajo según `autores/<slug>.md`), y el resto en una
-  **línea consolidada integrada** al final de la última sección "lo recomienda" ("También lo
-  recomiendan Y y Z."), NUNCA como párrafo suelto tras "Para quién es". Si un referente no tiene razón
-  documentada, va directo a la línea consolidada; no le inventes una.
-- **sin nota de edición** → agregá la última línea en blockquote. Buscá la edición en español real
-  (título + editorial; el ISBN-10 suele estar ya en `asin`):
-  `> Edición en español: *Título*, Editorial (traducción de … si la sabés).`
-  Si de verdad no hay edición ES: `> Por ahora disponible solo en inglés.` No inventes editoriales.
-- **sobre-recorte** → restaurá las secciones faltantes según MODO LIBRO (intro + ≤2 "lo recomienda" +
-  "De qué trata" + un concepto + "Para quién es" + nota de edición), prosa original. Libros muy
-  conocidos: escribí con confianza. Si no podés verificar el contenido del libro, NO inventes:
-  dejalo listado en tu reporte para revisión manual.
+  Ejemplo, de esto (mal):
+  `…ver los patrones con claridad.`   ← fin de "Para quién es"
+  `También lo recomienda James Clear.`  ← BORRAR de acá
+  `> Edición en español: …`
+  a esto (bien): la frase pasa a cerrar la sección "Por qué lo recomienda…", y bajo "Para quién es"
+  queda directo el `> Edición en español: …`.
+
+**b) `encabezado "## También lo recomienda"`** → dejá UNA sola sección. Si desarrollás a 2, renombrá
+la primera a `## Por qué lo recomiendan` y fundí ahí la prosa útil; borrá los encabezados
+`## También lo recomienda …` sobrantes; al resto, nombralos en la frase de cierre. Máx 2 desarrollados
+(razón más rica; a igualdad, `orden` más bajo según `autores/<slug>.md`).
+
+**c) `sin nombrar: <refs>`** → agregá esos referentes a la frase de cierre de la sección de
+recomendación ("También lo recomiendan Y y Z."). NO crees secciones nuevas.
+
+**d) `sin nota de edición`** → agregá al pie el blockquote. 1 WebSearch para la edición ES real
+(título + editorial; el ISBN-10 ya está en `asin`): `> Edición en español: *Título*, Editorial.`
+Si de verdad no hay edición ES: `> Por ahora disponible solo en inglés.` NUNCA inventes editorial.
+
+**e) `sobre-recorte`** (corto / sin "De qué trata") → ficha mutilada. Restaurá las secciones faltantes
+según MODO LIBRO con prosa original, PRESERVANDO lo que ya está. Si no podés verificar el contenido
+del libro, NO inventes: dejalo en tu reporte para revisión manual y no lo toques.
+
+En todos los casos, bumpeá `fechaActualizado` a hoy (`date`).
 
 ### 3. Limpiar `destacado` inerte
-El campo `destacado` se descartó del schema de autores. En cada `src/content/autores/*.md`, eliminá
-con Edit la línea `destacado: ...` del frontmatter (una línea por archivo, sin tocar nada más).
+En cada `src/content/autores/*.md`, borrá con `Edit` la línea `destacado: …` (una por archivo, nada más).
 
 ### 4. Cerrar
-Re-corré el audit (mismo comando/workaround) hasta que dé **0**. Asentá la tanda en `PROGRESO.md`
-(cuántas fichas por tipo de arreglo + limpieza de destacado). Trabajá en **tandas de ~10 fichas** y
-máximo 1-2 `WebSearch` por ficha (solo para nota de edición / sobre-recorte).
+Pedile a Marcelo que **re-corra el audit en Windows** hasta que dé **0**. Asentá en `PROGRESO.md`
+(cuántas por tipo + destacado). Listá aparte cualquier ficha que dejaste sin tocar por no poder verificar.
 
 ## Verificación (correr al terminar cada lote)
 

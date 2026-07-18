@@ -8,7 +8,7 @@ recomendadoPor:
 anio: 2023
 resumen: "El libro sobre inteligencia artificial que Bill Gates dijo recomendar más que ningún otro para entender hacia dónde va la tecnología."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-18
 ---
 
 Si tuvieras que leer un solo libro para entender la revolución de la inteligencia artificial, Bill Gates tiene una respuesta: *La ola que viene*. Lo dijo sin medias tintas —«si querés entender el auge de la IA, este es el mejor libro»—, y viniendo de alguien que vio nacer la era del software, la recomendación pesa.
@@ -32,3 +32,5 @@ Para cualquiera que quiera entender hacia dónde va la tecnología sin necesidad
 ## Veredicto
 
 *La ola que viene* tiene el valor de venir de alguien que está construyendo esta tecnología y, aun así, se anima a señalar sus peligros. Equilibra entusiasmo y advertencia mejor que casi cualquier otro libro del tema. La recomendación de Gates está más que justificada.
+
+> Edición en español: *La ola que viene: Tecnología, poder y el gran dilema del siglo XXI*, Debate (traducción de Clàudia Fernández Morenas).

@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 2006
 resumen: "Cómo una familia de Tennessee adoptó a un adolescente sin hogar que se convirtió en uno de los jugadores de fútbol americano más cotizados de la NFL. Michael Lewis en su mejor forma. Recomendado por Malcolm Gladwell."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 Michael Lewis tiene un talento especial para encontrar la historia dentro de la historia. En *The Blind Side* el punto de partida es un joven sin hogar llamado Michael Oher, que una familia adinerada de Memphis recoge casi por casualidad. Pero debajo de esa historia de adopción late algo más ambicioso: una exploración de cómo el fútbol americano profesional fue redescubriendo el valor del tackle izquierdo —el jugador que protege el "lado ciego" del quarterback— y de cómo eso transformó el mercado de los jugadores de la NFL.
 
 ## Por qué lo recomienda Malcolm Gladwell
 
-Gladwell citó este libro como uno de los que mejor ejemplifican cómo una historia individual puede iluminar fuerzas sociales y económicas más amplias. Para el autor de *El punto clave* y *Fueras de serie*, Lewis hace lo mismo que él: usar un caso particular como lente para ver algo que antes no se podía ver. La historia de Oher es inseparable del cambio en cómo la NFL valora las posiciones, y eso convierte un libro de deportes en un ensayo sobre economía y percepción.
+Gladwell citó este libro como uno de los que mejor ejemplifican cómo una historia individual puede iluminar fuerzas sociales y económicas más amplias. Para el autor de *El punto clave* y *Fueras de serie*, Lewis hace lo mismo que él: usar un caso particular como lente para ver algo que antes no se podía ver. La historia de Oher es inseparable del cambio en cómo la NFL valora las posiciones, y eso convierte un libro de deportes en un ensayo sobre economía y percepción. También lo recomienda James Clear.
 
 ## De qué trata
 
@@ -29,7 +29,5 @@ El tackle izquierdo protege al quarterback del ataque que no ve venir: el linier
 ## Para quién es
 
 Para fans del periodismo narrativo, de los deportes y de las historias de transformación personal con sustancia. La película homónima con Sandra Bullock es conocida, pero el libro va mucho más lejos en análisis y complejidad.
-
-También lo recomienda James Clear.
 
 > Por ahora disponible solo en inglés; el enlace lleva a la edición de W. W. Norton & Company.

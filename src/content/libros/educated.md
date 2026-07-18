@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2018
 resumen: "Las memorias de una mujer que creció sin escolarización en una familia survivalista y llegó a doctorarse en Cambridge. Elogiado por Gates y Obama."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-18
 ---
 
 *Una educación* es una de esas memorias que se devoran en un fin de semana y se recuerdan durante años. Cuenta una historia tan extrema que cuesta creer que sea real: una chica que no pisó un aula hasta los 17 años terminó doctorándose en Cambridge. No sorprende que aparezca en las listas de Bill Gates y Barack Obama.
@@ -35,3 +35,5 @@ Para cualquiera que disfrute de las grandes memorias y de las historias de trans
 ## Veredicto
 
 *Una educación* funciona en dos niveles a la vez: como un relato adictivo de superación y como una reflexión profunda sobre la identidad, la familia y lo que significa, de verdad, educarse. Una recomendación segura, y un punto de encuentro poco habitual entre los gustos de Gates y Obama.
+
+> Edición en español: *Una educación*, Debolsillo (traducción de Antonia Martín).

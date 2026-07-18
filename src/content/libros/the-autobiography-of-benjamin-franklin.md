@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 1791
 resumen: "Benjamin Franklin narra su propia vida con una franqueza desarmante: sus errores, sus aprendizajes y su método para mejorar. Un clásico que sigue siendo sorprendentemente moderno. Recomendado por Paul Graham."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 Hay autobiografías que son monumentos al ego de sus autores. Esta no. Benjamin Franklin —impresor, inventor, diplomático, padre fundador de Estados Unidos— escribió sus memorias con una combinación de humor, autocrítica y pragmatismo que resulta refrescante incluso hoy. No posa de héroe ni de sabio: cuenta cómo aprendió todo lo que sabe, incluyendo los errores que prefería no haber cometido.
 
 ## Por qué lo recomienda Paul Graham
 
-Graham recomienda este libro con entusiasmo porque Franklin encarna algo que él valora profundamente: la figura del hacker antes de que existiera el concepto. Un autodidacta que aprende imprimiendo, experimentando y haciendo; que construye su propio código moral como un proyecto de ingeniería; que entiende el valor de la escritura clara y del pensamiento riguroso. Para Graham, Franklin es el prototipo del fundador: alguien que crea instituciones, resuelve problemas reales y construye cosas que duran.
+Graham recomienda este libro con entusiasmo porque Franklin encarna algo que él valora profundamente: la figura del hacker antes de que existiera el concepto. Un autodidacta que aprende imprimiendo, experimentando y haciendo; que construye su propio código moral como un proyecto de ingeniería; que entiende el valor de la escritura clara y del pensamiento riguroso. Para Graham, Franklin es el prototipo del fundador: alguien que crea instituciones, resuelve problemas reales y construye cosas que duran. También lo recomienda James Clear.
 
 ## De qué trata
 
@@ -29,7 +29,5 @@ El episodio más famoso del libro es el "proyecto de las trece virtudes": Frankl
 ## Para quién es
 
 Para cualquiera que disfrute de las memorias escritas con inteligencia y sin pompa. Para founders y autodidactas que quieren leer sobre alguien que se hizo a sí mismo mucho antes de que existieran los libros de autoayuda. Y para quienes quieran entender los orígenes del pensamiento pragmático norteamericano desde adentro.
-
-También lo recomienda James Clear.
 
 > Edición en español: *Autobiografía*, Ediciones Cátedra (Letras Universales).

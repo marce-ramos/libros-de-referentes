@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 1967
 resumen: "La saga de los Buendía a lo largo de siete generaciones en el mítico Macondo: el epicentro del realismo mágico y una de las novelas más importantes de la literatura universal, elegida por Dua Lipa como pick de octubre 2023 en su Service95 Book Club."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 Hay libros que se recomiendan solos desde hace décadas y, aun así, cada vez que alguien los descubre parece que los leyó por primera vez. *Cien años de soledad* es exactamente eso: una novela que el tiempo no puede desgastar porque ya contiene, dentro de sus páginas, el tiempo completo. García Márquez la publicó en 1967 y fue el libro que, en buena medida, le ganó el Nobel en 1982. Pero más allá de los premios y los catálogos académicos, es una historia que atrapa como pocas.
 
 ## Por qué lo recomienda Dua Lipa
 
-En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee.
+En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee. También lo recomienda Richard Branson.
 
 ## De qué trata
 
@@ -29,7 +29,5 @@ El gran logro de García Márquez no fue inventar el realismo mágico —el tér
 ## Para quién es
 
 Para cualquier lector que quiera entender por qué la literatura latinoamericana sacudió el mundo en el siglo XX. Para quienes disfrutan de narraciones familiares de largo aliento —al estilo de *Las correcciones* o *El maestro y Margarita*. Y también para quienes ya la leyeron hace años y quieren volver: *Cien años de soledad* es uno de esos libros que dan cosas distintas según el momento de vida en que se los lee.
-
-También lo recomienda Richard Branson.
 
 > Edición en español: *Cien años de soledad*, Debolsillo.

@@ -9,7 +9,7 @@ recomendadoPor:
 anio: 2024
 resumen: "El psicólogo social Jonathan Haidt vincula el deterioro de la salud mental juvenil con la infancia basada en pantallas. Recomendado por Gates y Obama en 2024."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-07-18
 ---
 
 *La generación ansiosa* fue uno de los libros más comentados de 2024 y apareció en las listas de lectura de Bill Gates y de Barack Obama el mismo año. Su tema toca de cerca a cualquiera con hijos, alumnos o un teléfono en el bolsillo: por qué la salud mental de los adolescentes se deterioró tan rápido a partir de 2010, y qué tiene que ver con los smartphones.
@@ -39,3 +39,5 @@ Imprescindible para madres, padres y docentes que buscan un marco para pensar el
 ## Veredicto
 
 Más allá de los matices del debate científico, *La generación ansiosa* logró algo valioso: poner en la agenda pública una pregunta urgente y ofrecer un plan concreto en lugar de quedarse en la queja. Por eso terminó en las listas de Gates y Obama, y por eso vale la pena leerlo.
+
+> Edición en español: *La generación ansiosa*, Deusto.

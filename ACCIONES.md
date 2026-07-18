@@ -21,3 +21,20 @@ No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de 
 hay que **regenerar ese listicle**.
 
 Detalle completo, reglas de oro (ASIN, ediciones ES, no inventar) y qué modelo usa cada paso: **`ENRIQUECER.md`**.
+
+## Scripts — correr en Windows (no en el sandbox)
+
+Los scripts deterministas se corren **nativos en Windows** (Python 3, sin dependencias), desde la
+carpeta `sitio-libros`. El agente no usa bash: vos corrés el script y pegás la salida.
+
+```
+# Audit de saneado (fichas a corregir)
+python tools\auditar_fichas.py src\content\libros src\content\autores
+
+# Reconciliar un manifiesto de discovery contra el catálogo
+python tools\reconciliar.py <referente-slug> manifiesto.txt src\content\libros
+
+# Detectar duplicados
+python tools\detectar_duplicados.py src\content\libros
+```
+

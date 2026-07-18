@@ -10,7 +10,7 @@ recomendadoPor:
 anio: 2010
 resumen: "Las memorias de Patti Smith sobre sus años de juventud junto a Robert Mapplethorpe en el Nueva York de los setenta: un retrato de la amistad, el arte y la búsqueda de uno mismo, elegido por Dua Lipa como pick de septiembre 2023 en el Service95 Book Club."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 
@@ -18,7 +18,7 @@ Patti Smith podría haber escrito un libro sobre su fama. Eligió escribir sobre
 
 ## Por qué lo recomienda Dua Lipa
 
-En septiembre de 2023, Dua Lipa eligió *Just Kids* como su lectura mensual en el Service95 Book Club. La elección tiene sentido tanto desde lo personal —Dua es ella misma artista que construyó su carrera a una edad muy joven— como desde la filosofía editorial del club, que busca libros sobre identidad, arte y vidas que no siguieron el camino convencional. *Éramos unos niños* es exactamente eso: el relato de dos personas que eligieron el arte cuando nadie les garantizaba que eso era posible, y que se sostuvieron mutuamente en ese camino.
+En septiembre de 2023, Dua Lipa eligió *Just Kids* como su lectura mensual en el Service95 Book Club. La elección tiene sentido tanto desde lo personal —Dua es ella misma artista que construyó su carrera a una edad muy joven— como desde la filosofía editorial del club, que busca libros sobre identidad, arte y vidas que no siguieron el camino convencional. *Éramos unos niños* es exactamente eso: el relato de dos personas que eligieron el arte cuando nadie les garantizaba que eso era posible, y que se sostuvieron mutuamente en ese camino. También lo recomiendan James Clear y Malcolm Gladwell, que dijo sobre este libro: "lo terminé de una sentada y después lloré. Así de bueno es".
 
 ## De qué trata
 
@@ -31,7 +31,5 @@ Lo que hace que *Éramos unos niños* trascienda la categoría de "memorias de a
 ## Para quién es
 
 Para fans de Patti Smith o de Mapplethorpe que quieran entender de dónde vinieron. Para lectores que disfrutan las memorias literarias con mucha prosa y poca condescendencia. Y para cualquiera que haya elegido alguna vez una vida creativa sin saber muy bien adónde llevaba.
-
-También lo recomiendan James Clear y Malcolm Gladwell, que dijo sobre este libro: "lo terminé de una sentada y después lloré. Así de bueno es".
 
 > Edición en español: *Éramos unos niños*, Debolsillo.

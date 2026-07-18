@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 2013
 resumen: "La novela de Chimamanda Ngozi Adichie sobre raza, identidad y pertenencia: una joven nigeriana llega a Estados Unidos y descubre que ahí es 'negra' —una categoría que en Nigeria no existía para ella. Recomendada por Malala Yousafzai."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 *Americanah* es una de esas novelas que te cambian el vocabulario. Después de leerla, es difícil hablar de raza, de migración o de identidad de la misma manera que antes. Chimamanda Ngozi Adichie construyó una historia de amor que es también un ensayo literario, una crónica cultural y una exploración filosófica sobre qué significa pertenecer —o no pertenecer— a ningún lugar del todo.
 
 ## Por qué lo recomienda Malala Yousafzai
 
-Malala Yousafzai eligió *Americanah* como uno de sus libros favoritos y la conexión es obvia: las dos son mujeres que se convirtieron en voces globales sobre temas que vivieron en carne propia —el género, la identidad, la educación, la resistencia. Ifemelu, la protagonista, no es una activista: es alguien que se ve obligada a pensar políticamente porque el mundo la trata de maneras que la obligan a hacerlo. Esa radicalización a través de la experiencia cotidiana es algo que Malala conoce bien, y que Adichie narra con una honestidad que pocas veces se encuentra en la literatura.
+Malala Yousafzai eligió *Americanah* como uno de sus libros favoritos y la conexión es obvia: las dos son mujeres que se convirtieron en voces globales sobre temas que vivieron en carne propia —el género, la identidad, la educación, la resistencia. Ifemelu, la protagonista, no es una activista: es alguien que se ve obligada a pensar políticamente porque el mundo la trata de maneras que la obligan a hacerlo. Esa radicalización a través de la experiencia cotidiana es algo que Malala conoce bien, y que Adichie narra con una honestidad que pocas veces se encuentra en la literatura. También lo recomienda James Clear.
 
 ## De qué trata
 
@@ -31,7 +31,5 @@ La gran idea de la novela es que la raza no es un dato biológico sino una const
 ## Para quién es
 
 Para quienes disfrutan de novelas largas y ricas en personajes. Para los interesados en cuestiones de raza, migración e identidad contadas desde una perspectiva africana —no desde la que suele predominar en la literatura anglófona. Y para cualquier persona que haya sentido alguna vez que en un lugar nuevo se convirtió en alguien diferente.
-
-También lo recomienda James Clear.
 
 > Edición en español: *Americanah*, Literatura Random House (traducción de Carlos Milla Soler).

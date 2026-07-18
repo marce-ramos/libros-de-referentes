@@ -10,18 +10,14 @@ recomendadoPor:
 anio: 1988
 resumen: "La fábula de Paulo Coelho sobre seguir los propios sueños, uno de los libros más leídos y traducidos del mundo. Recomendada por Malala Yousafzai y Oprah Winfrey."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 *El alquimista* es uno de los libros más vendidos y traducidos de la historia, con lectores en más de 170 países. Malala Yousafzai lo incluyó entre sus recomendaciones, sumándolo a la larga lista de personas que encontraron en esta fábula un empujón para perseguir sus sueños.
 
-## Por qué lo recomienda Malala
+## Por qué lo recomiendan Malala Yousafzai y Oprah Winfrey
 
-Malala lo eligió para su club de lectura por su mensaje sobre no renunciar a los propios sueños, algo que resuena con su propia historia de lucha por la educación.
-
-## También lo recomienda Oprah Winfrey
-
-Es uno de los libros favoritos de Oprah: lo tiene en su mesa de luz, lo regaló a todo su entorno y hasta le hizo a Paulo Coelho su primera entrevista en la televisión estadounidense. Para ella, la clave está en esa promesa de que el universo conspira a favor de quien persigue de verdad lo que desea.
+Malala lo eligió para su club de lectura por su mensaje sobre no renunciar a los propios sueños, algo que resuena con su propia historia de lucha por la educación. Es también uno de los libros favoritos de Oprah: lo tiene en su mesa de luz, lo regaló a todo su entorno y hasta le hizo a Paulo Coelho su primera entrevista en la televisión estadounidense. Para ella, la clave está en esa promesa de que el universo conspira a favor de quien persigue de verdad lo que desea. También lo recomienda James Clear.
 
 ## De qué trata
 
@@ -34,7 +30,5 @@ El libro repite una promesa reconfortante: «cuando deseás algo de verdad, todo
 ## Para quién es
 
 Para quien busque una lectura breve, simbólica e inspiradora, más cercana a la parábola que a la novela realista.
-
-También lo recomienda James Clear.
 
 > Edición en español: *El alquimista*, Editorial Planeta.

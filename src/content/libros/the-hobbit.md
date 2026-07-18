@@ -9,14 +9,14 @@ recomendadoPor:
 anio: 1937
 resumen: "La aventura de Bilbo Bolsón que dio origen al universo de la Tierra Media, recomendada por Richard Branson en su lista de libros imprescindibles de virgin.com."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-18
 ---
 
 Antes de *El Señor de los Anillos*, hubo un hobbit tranquilo, amante de su casa y su tetera, al que un mago se le apareció una tarde para arrastrarlo a una aventura que no había pedido. *El Hobbit* es el punto de partida de toda la mitología de Tolkien, escrito en principio como cuento para sus hijos y convertido, con los años, en uno de los pilares de la literatura fantástica moderna.
 
 ## Por qué lo recomienda Richard Branson
 
-Branson sumó *El Hobbit* a su lista de "70 must-read books" del blog de Virgin (virgin.com). Entre sus recomendaciones de negocios y no ficción, Branson también reserva lugar para la ficción pura y la lectura por placer: un lector voraz como él no separa tajantemente "libros útiles" de "libros que simplemente te atrapan", y esta aventura entra en la segunda categoría sin pedir disculpas.
+Branson sumó *El Hobbit* a su lista de "70 must-read books" del blog de Virgin (virgin.com). Entre sus recomendaciones de negocios y no ficción, Branson también reserva lugar para la ficción pura y la lectura por placer: un lector voraz como él no separa tajantemente "libros útiles" de "libros que simplemente te atrapan", y esta aventura entra en la segunda categoría sin pedir disculpas. También lo recomienda James Clear.
 
 ## De qué trata
 
@@ -29,7 +29,5 @@ El corazón del libro es ese contraste entre la vida hogareña de Bilbo —desay
 ## Para quién es
 
 Para cualquiera que quiera entrar al universo de Tolkien sin la extensión de *El Señor de los Anillos*, y para quien disfrute de la fantasía clásica con ritmo de cuento: es más liviano, más luminoso y más corto que la trilogía que originó.
-
-También lo recomienda James Clear.
 
 > Edición en español: *El Hobbit*, Editorial Minotauro (traducción de Manuel Figueroa).
