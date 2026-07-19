@@ -9,8 +9,8 @@ export default defineConfig({
   site: "https://losimperdibles.com",
   // URLs canónicas SIN barra final, consistentes con lo que sirve Cloudflare Pages.
   // Evita que la misma página cuente como dos URLs (/x y /x/) y fragmente el ranking en GSC.
-  // Genera archivos planos (/referentes/bill-gates.html). PROBAR en un preview de Cloudflare
-  // antes de mergear a producción (ojo con las páginas índice).
+  // Genera archivos planos (/referentes/bill-gates.html). Validado en preview (2026-07-19):
+  // sin-barra 200 directo, con-barra 308 en un solo salto, índices OK.
   trailingSlash: "never",
   build: { format: "file" },
   integrations: [sitemap()],
