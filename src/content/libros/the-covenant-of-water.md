@@ -5,10 +5,11 @@ asin: "8419346829"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - oprah-winfrey
 anio: 2023
 resumen: "Tres generaciones de una familia del sur de India unidas por una maldición: en cada generación, al menos uno muere ahogado. Obama la eligió entre sus libros favoritos de 2023 y Oprah la incluyó en su club de lectura."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-19
 ---
 
 Abraham Verghese es médico y escritor, y en *El pacto del agua* esas dos vocaciones se funden de una manera que pocas novelas logran: hay ciencia y hay humanidad, hay una historia familiar que abarca casi un siglo y hay una pregunta sobre el destino que no tiene respuesta fácil.

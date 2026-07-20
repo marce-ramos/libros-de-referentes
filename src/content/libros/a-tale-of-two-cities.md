@@ -5,17 +5,18 @@ asin: "8484287289"
 categoria: ficcion
 recomendadoPor:
   - j-k-rowling
+  - oprah-winfrey
 anio: 1859
 resumen: "El clásico de Dickens ambientado en la Revolución Francesa, con uno de los finales trágicos más célebres de la literatura inglesa. Se lo vinculó con las intenciones de J.K. Rowling para el cierre de Harry Potter."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-19
 ---
 
 Charles Dickens es una de las influencias declaradas de J.K. Rowling, y esta novela sobre la Revolución Francesa tiene un final tan célebre que hasta se especuló con su huella en el desenlace de Harry Potter. Es, ante todo, una historia sobre el sacrificio y sobre lo que la gente común es capaz de hacer en tiempos extraordinarios.
 
 ## Por qué lo recomienda J.K. Rowling
 
-Dickens figura entre los autores que Rowling reconoce como parte de su formación literaria, y el final de esta novela —con su famoso sacrificio y su última línea, una de las más citadas del canon inglés— es un ejemplo perfecto de por qué. The Scotsman llegó a especular que la posible (y muy discutida en su momento) intención de Rowling de matar a Harry Potter al cierre de la saga podía tener eco en el desenlace trágico y redentor de esta historia. Sea o no una influencia directa, el paralelismo entre un final que sacrifica a un protagonista por amor y el clima de la recta final de Harry Potter no pasó desapercibido para los lectores más atentos.
+Dickens figura entre los autores que Rowling reconoce como parte de su formación literaria, y el final de esta novela —con su famoso sacrificio y su última línea, una de las más citadas del canon inglés— es un ejemplo perfecto de por qué. The Scotsman llegó a especular que la posible (y muy discutida en su momento) intención de Rowling de matar a Harry Potter al cierre de la saga podía tener eco en el desenlace trágico y redentor de esta historia. Sea o no una influencia directa, el paralelismo entre un final que sacrifica a un protagonista por amor y el clima de la recta final de Harry Potter no pasó desapercibido para los lectores más atentos. También la recomienda Oprah Winfrey, que la eligió junto con *Grandes esperanzas* como pick de diciembre de 2010 en su club de lectura.
 
 ## De qué trata
 

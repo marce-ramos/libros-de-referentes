@@ -5,17 +5,18 @@ asin: "8491814922"
 categoria: ficcion
 recomendadoPor:
   - sam-altman
+  - oprah-winfrey
 anio: 1878
 resumen: "La novela clásica de Tolstói sobre el amor, el matrimonio y las convenciones sociales en la Rusia zarista, con la tragedia de Anna Karénina como hilo conductor. Está entre los libros que Sam Altman tenía en su biblioteca personal."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-19
 ---
 
 Pocas novelas abren con una frase tan citada como esta: «Todas las familias felices se parecen; las infelices lo son cada una a su manera». Con esa línea arranca *Anna Karénina*, el retrato que hizo Tolstói de la sociedad aristocrática rusa del siglo XIX a través de un puñado de personajes que buscan, cada uno a su modo, algo parecido a la felicidad.
 
 ## Por qué lo recomienda Sam Altman
 
-*Anna Karénina* está entre los libros que aparecían en la biblioteca personal de Sam Altman, según un relevamiento de sus lecturas publicado en 2015. No hay una cita ni una anécdota puntual de Altman sobre esta novela en particular: simplemente formaba parte de los libros que tenía a mano en ese momento, en una lista que mezclaba clásicos de la literatura con ensayos de ciencia y filosofía. Vale la pena leerla igual, con o sin el aval específico de Altman, porque es una de las novelas más admiradas de la historia de la literatura.
+*Anna Karénina* está entre los libros que aparecían en la biblioteca personal de Sam Altman, según un relevamiento de sus lecturas publicado en 2015. No hay una cita ni una anécdota puntual de Altman sobre esta novela en particular: simplemente formaba parte de los libros que tenía a mano en ese momento, en una lista que mezclaba clásicos de la literatura con ensayos de ciencia y filosofía. Vale la pena leerla igual, con o sin el aval específico de Altman, porque es una de las novelas más admiradas de la historia de la literatura. También la recomienda Oprah Winfrey, que la eligió como pick de mayo de 2004 en su club de lectura.
 
 ## De qué trata
 

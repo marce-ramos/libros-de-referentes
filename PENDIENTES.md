@@ -86,7 +86,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
    Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Lex Fridman,
    Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
-   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (backlog de 112+2 sourceado, sin priorizar), etc.
+   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (39/119 vinculados/enriquecidos al 2026-07-19, backlog ~80 restante), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
@@ -106,9 +106,20 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    2026-07-13** (fuente Wikipedia + fs.blog, "A Year of Books" 2015): backlog nunca había sido
    sourceado realmente (los 4 libros previos eran cross-refs sueltos) → ahora 4 → 23 libros,
    backlog 100% cerrado, listicle regenerado. **Oprah Winfrey: discovery (SOLO discovery) el
-   2026-07-13** (fuente beyondthebookends.com, 1996-2026): **backlog nuevo de 112 NUEVO + 2
+   2026-07-13** (fuente beyondthebookends.com, 1996-2026): backlog original de 112 NUEVO + 2
    CROSS-REF sin tocar todavía** — es la lista histórica más grande del catálogo (30 años de
    picks mensuales); pendiente decidir con el usuario cómo priorizar/tandear antes de enriquecer.
+   **Actualizado 2026-07-19 -- Profundizar tanda 1:** 5 ya-linked + 7 cross-ref aplicados (el 7mo,
+   a-tale-of-two-cities, detectado via detectar_duplicados.py) + 7 NUEVO enriquecidos (east-of-eden,
+   the-road, night, song-of-solomon, the-corrections, middlesex, wild).
+   **Actualizado 2026-07-19 -- Profundizar tanda 2:** 20 NUEVO enriquecidos (the-reader,
+   daughter-of-fortune, the-bluest-eye, house-of-sand-and-fog, a-fine-balance, we-were-the-mulvaneys,
+   sula, love-in-the-time-of-cholera, pillars-of-the-earth, freedom, the-invention-of-wings,
+   the-water-dancer, olive-again, american-dirt, caste, gilead, demon-copperhead, let-us-descend,
+   long-island, a-million-little-pieces). Oprah: 39/119 vinculados/enriquecidos, restan ~80 NUEVO
+   (incluye Home/Lila/Jack de Marilynne Robinson), priorizados por relevancia/consenso, detalle
+   completo del manifiesto en PROGRESO.md. **Listicle de Oprah generado por primera vez** con estos
+   39 libros.
    **Satya Nadella: discovery + enriquecimiento completo el 2026-07-14** (fuente
    mostrecommendedbooks.com, con URL primaria propia por libro): mismo caso que Zuckerberg — su
    ficha solo decía "blog de Microsoft" sin URL concreta, nunca se había fetcheado una fuente real

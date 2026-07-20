@@ -69,7 +69,7 @@ def main():
         mpq = re.search(r"(?m)^##\s+Para qui[eé]n es", body)
         orphan = bool(mpq and re.search(r"(?m)^Tambi[eé]n lo recomiend", body[mpq.end():]))
         # Nota de edición (o "solo inglés") al pie:
-        sin_edicion = not re.search(r"^>\s*(Edici[oó]n|Por ahora|Disponible)", body, re.M)
+        sin_edicion = not re.search(r"(?mi)^>.*(edici|espa[nñ]|ingl)", body)
         # Sobre-recorte: cuerpo muy corto o sin "## De qué trata".
         corta = len(body.strip()) < 700 or not re.search(r"^##\s+De qu[eé] trata", body, re.M)
         if faltan or tambien_h2 or orphan or sin_edicion or corta:
