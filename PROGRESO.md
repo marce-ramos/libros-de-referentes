@@ -1536,3 +1536,56 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `james-mcbride` con 2 (deacon-king-kong vs. the-heaven-and-earth-grocery-store, ya
   documentado), `elizabeth-strout` con 2 (olive-again vs. tell-me-everything, ya documentado).
   **Tanda 3 de Oprah queda cerrada y verificada.**
+
+- **2026-07-20 — Discovery + Profundizar (completo en una sola tanda): Yuval Noah Harari.**
+  Backlog previo: 3/3 libros ya enriquecidos (Armas, gérmenes y acero; Un mundo feliz; Historia y
+  cronología del mundo), pero nunca se había fetcheado una fuente real y completa de sus lecturas
+  — la ficha del referente solo decía "rastrearse a través de ynharari.com (Reading List)" sin URL
+  concreta. El fetch directo a `ynharari.com/reading-list/` devolvió una página vacía (JS-rendered,
+  mismo patrón que otros sitios de autor); `WebSearch` encontró la fuente real y mejor documentada:
+  **ynharari.com/apple-books-collection** ("A Haphazard Guided Tour of Humanity on the Brink",
+  colección curada por el propio Harari para Apple Books, con **cita textual real de Harari por
+  cada libro** — la fuente con mejor calidad de atribución usada hasta ahora en el sitio).
+  Manifiesto de 12 libros → reconciliación manual (Grep/Glob, sin `reconciliar.py` por ser lote
+  chico): **2 YA-LINKED** (`brave-new-world`, `guns-germs-and-steel`, ya en catálogo con
+  `yuval-noah-harari` en `recomendadoPor`) + **1 CROSS-REF** (`thinking-fast-and-slow`, ya en
+  catálogo vía Kahneman/James Clear/Sam Altman) + **9 NUEVO**.
+  **1 CROSS-REF aplicado**: `thinking-fast-and-slow` suma `yuval-noah-harari` a `recomendadoPor`;
+  al no tener sección "Por qué lo recomienda X" propia (Kahneman es el autor, mismo caso especial
+  documentado el 2026-07-18), la mención de Harari se fusionó al párrafo introductorio, con su
+  cita real traducida ("uno de los mejores puntos de partida para explorar la maraña de la mente
+  humana").
+  **9 NUEVO enriquecidos** (escritos directamente, sin subagente, por ser lote chico; cada uno usa
+  la cita real de Harari de la fuente, traducida, en la sección de atribución — nunca una cita
+  inventada): El mono que llevamos dentro [ES, Booket/Planeta, asin 8490665788] (Frans de Waal,
+  ciencia); La sexta extinción [ES, Crítica/Drakontos, asin 849892779X] (Elizabeth Kolbert,
+  ciencia, ganadora del Pulitzer); Armas de destrucción matemática [ES, Capitán Swing, asin
+  8494740849] (Cathy O'Neil, ciencia); Congo [ES, Taurus, asin 8430619437] (David Van Reybrouck,
+  historia); China: la edad de la ambición [ES, Malpaso, asin 8494174967] (Evan Osnos, historia,
+  ganador del National Book Award); Black Flags: The Rise of ISIS [solo inglés, Anchor Books, asin
+  0804168938] (Joby Warrick, historia, ganador del Pulitzer); Caudillos del crimen [ES, Grijalbo,
+  asin 6073143125] (Ioan Grillo, historia); El camino hacia la no libertad [ES, Galaxia Gutenberg,
+  asin 8417355529] (Timothy Snyder, historia); En defensa de la Ilustración [ES, Paidós, asin
+  8449334624] (Steven Pinker, filosofia).
+  ASIN de las 9 verificado real vía WebSearch (ISBN-10 de edición impresa, ninguno inventado); 7/9
+  con edición en español confirmada, 2/9 solo inglés (Black Flags no tiene edición ES localizable).
+  Spot-check de 2 fichas (`congo`, `enlightenment-now`): estructura MODO LIBRO correcta, citas de
+  Harari fieles a la fuente, sin invención.
+  **Yuval Noah Harari 3 → 13 libros, backlog 100% cerrado** (los 12 candidatos de la colección de
+  Apple Books quedaron todos resueltos: 2 ya estaban, 1 cross-ref, 9 nuevos). Catálogo: +9 fichas.
+  **Corrección:** Harari SÍ tenía listicle previo (`libros-que-recomienda-yuval-noah-harari.md`,
+  creado 2026-07-10 con los 3 libros originales) — no detectado en la búsqueda inicial de esta
+  entrada porque el `Grep` de "Harari" en `PROGRESO.md` no incluye entradas de blog, solo de
+  fichas. **Listicle regenerado** (confirmado con el usuario vía pregunta explícita) de 3 a 13
+  libros, `fecha` original 2026-07-10 sin cambios, `fechaActualizado` 2026-07-20. Reestructurado en
+  3 grupos temáticos parejos: "Big history: de los primates a la civilización" (3), "El mundo que
+  se rompe: crisis, poder y desinformación contemporáneos" (5), "Ciencia, mente y el futuro que
+  viene" (5), más lead "Por dónde empezar" con 3 destacados. Cada entrada usa una cita real de
+  Harari traducida de la fuente (ynharari.com/apple-books-collection), nunca inventada. Verificado:
+  13/13 links con `titulo` exacto de la ficha, slug existente, `yuval-noah-harari` presente en
+  `recomendadoPor` de las 13.
+  **Verificación `detectar_duplicados.py` (Marcelo): `[DUP]` en 0, 46 `[REV]` revisados — 0
+  duplicados reales.** Único `[REV]` nuevo de esta tanda: `steven-pinker` pasa de 2 a 3 libros
+  (se suma `enlightenment-now` a `the-better-angels-of-our-nature` y
+  `when-everyone-knows-that-everyone-knows`), tres obras reales y distintas (2011, 2018 y una
+  más reciente). **Tanda de Yuval Noah Harari queda cerrada y verificada.**

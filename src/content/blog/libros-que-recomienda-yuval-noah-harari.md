@@ -1,31 +1,74 @@
 ---
 titulo: "Los libros que recomienda Yuval Noah Harari (guía 2026)"
-descripcion: "Los libros que recomienda Yuval Noah Harari: tres títulos que inspiraron al autor de Sapiens, con reseñas y contexto de la sección de lecturas de ynharari.com."
+descripcion: "Los libros que recomienda Yuval Noah Harari: la selección curada por el propio autor de Sapiens para entender historia, ciencia y el mundo contemporáneo."
 fecha: 2026-07-10
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-07-20
 autor: "Los Imperdibles"
 keywords: ["libros que recomienda Yuval Noah Harari", "qué lee Yuval Noah Harari", "libros favoritos de Yuval Noah Harari"]
 draft: false
 ---
 
-Los libros que recomienda Yuval Noah Harari dicen mucho sobre cómo construyó la mirada que hizo de *Sapiens* un fenómeno global. El historiador israelí —exprofesor de la Universidad Hebrea de Jerusalén, autor de los ensayos de no ficción más leídos de los últimos veinte años— comparte sus lecturas en la sección de lecturas de su sitio ynharari.com. Lo que aparece ahí no son novedades ni bestsellers de autoayuda: son los libros que le enseñaron a pensar la historia como un todo, a conectar biología con política y a hacerlo con una prosa que cualquiera puede seguir.
+Los libros que recomienda Yuval Noah Harari tienen un hilo conductor claro: el historiador israelí, autor de *Sapiens*, elige lecturas que conectan arqueología, biología, tecnología y política en una sola mirada de largo plazo. Buena parte de esta selección sale directamente de "A Haphazard Guided Tour of Humanity on the Brink", la colección que el propio Harari curó para Apple Books, donde comenta personalmente cada título — así que cada recomendación de esta lista viene con su propia razón, en sus palabras.
 
-## Las influencias de Sapiens
+## Por dónde empezar
+
+Si es tu primera vez explorando las lecturas de Harari, estos tres son un buen punto de partida:
+
+- **[Un mundo feliz](/libros/brave-new-world)** — Aldous Huxley. "Si tenés tiempo para un solo libro, esta sería mi primera elección", dice el propio Harari.
+- **[Pensar rápido, pensar despacio](/libros/thinking-fast-and-slow)** — Daniel Kahneman. La mejor puerta de entrada a cómo funciona realmente la mente humana.
+- **[La sexta extinción](/libros/the-sixth-extinction)** — Elizabeth Kolbert. Ganadora del Pulitzer, sobre el impacto humano en la vida del planeta.
+
+## Big history: de los primates a la civilización
+
+Los libros que Harari señala como influencias directas en su propia forma de mirar la historia a gran escala, la misma que después llevaría a *Sapiens*.
+
+### [El mono que llevamos dentro](/libros/our-inner-ape) — Frans de Waal
+"Los humanos somos animales. Esa es la primera cosa que hay que saber sobre nosotros", dice Harari sobre este recorrido por el comportamiento de chimpancés y bonobos.
 
 ### [Armas, gérmenes y acero](/libros/guns-germs-and-steel) — Jared Diamond
-
-El biólogo y geógrafo Jared Diamond ganó el Pulitzer respondiendo una sola pregunta: ¿por qué unas civilizaciones conquistaron a otras y no al revés? Su respuesta —que todo se explica por la geografía y la biología, no por ninguna superioridad inherente— es la misma apuesta intelectual que después haría Harari a mayor escala. *Sapiens* bebe directamente de esta forma de hacer "gran historia", esa que busca las fuerzas profundas detrás de los hechos. Harari lo cita como una de sus influencias directas, y la deuda se nota en cada capítulo de su obra.
+El libro que, en palabras de Harari, lo convirtió "de historiador de la guerra medieval en estudiante de la humanidad". Ganador del Pulitzer.
 
 ### [Historia y cronología del mundo](/libros/asimov-s-chronology-of-the-world) — Isaac Asimov
+El recorrido de Asimov desde el Big Bang hasta 1945, una de las lecturas que inspiraron la mirada de gran escala de Harari.
 
-Antes de ser el gran nombre de la ciencia ficción, Isaac Asimov fue un divulgador que escribió sobre todo —y este libro es su intento de contar la historia entera, del Big Bang a 1945, como un relato único y continuo. Lo que le atrae a Harari es la ambición de la síntesis: tratar a la humanidad como un solo objeto de estudio situado en el tiempo cósmico, exactamente la intuición de "gran historia" que Harari llevaría a otro nivel en *Sapiens* y *Homo Deus*. Es más panorámico que profundo, y funciona perfecto como puerta de entrada.
+## El mundo que se rompe: crisis, poder y desinformación contemporáneos
 
-## Distopías que siguen siendo espejos
+La otra mitad de la selección de Harari mira hacia el presente: guerras, autoritarismo, crimen organizado y los países que están redefiniendo el orden global.
+
+### [Congo](/libros/congo) — David Van Reybrouck
+"Originalmente, todos somos africanos. Para entender el mundo del siglo XXI, África es probablemente todavía el mejor lugar para empezar", dice Harari sobre esta historia completa del país.
+
+### [China: la edad de la ambición](/libros/age-of-ambition) — Evan Osnos
+Un retrato de la China contemporánea a través de historias humanas, ganador del National Book Award.
+
+### [Black Flags: The Rise of ISIS](/libros/black-flags-the-rise-of-isis) — Joby Warrick
+Harari admite que lo agarró "con el corazón pesado", esperando sensacionalismo, y se encontró con un relato "profundo y bien equilibrado". Ganador del Pulitzer.
+
+### [Caudillos del crimen](/libros/gangster-warlords) — Ioan Grillo
+Cómo los cárteles de droga latinoamericanos mutaron en corporaciones multinacionales y sus líderes en políticos.
+
+### [El camino hacia la no libertad](/libros/the-road-to-unfreedom) — Timothy Snyder
+"Lectura esencial para cualquiera que quiera entender la crisis política que actualmente envuelve al mundo", según Harari.
+
+## Ciencia, mente y el futuro que viene
+
+Libros sobre cómo pensamos, hacia dónde va la tecnología, y si el futuro de la humanidad da para el optimismo o para la alarma.
+
+### [Pensar rápido, pensar despacio](/libros/thinking-fast-and-slow) — Daniel Kahneman
+"Uno de los mejores puntos de partida para explorar la maraña de la mente humana", según Harari.
+
+### [Armas de destrucción matemática](/libros/weapons-of-math-destruction) — Cathy O'Neil
+Sobre cómo los algoritmos de Big Data deciden, de forma opaca, quién recibe un préstamo o una condena.
+
+### [La sexta extinción](/libros/the-sixth-extinction) — Elizabeth Kolbert
+La sexta gran extinción masiva de la historia del planeta, y la primera causada por una sola especie: la nuestra.
 
 ### [Un mundo feliz](/libros/brave-new-world) — Aldous Huxley
+"El libro más profético del siglo XX", según Harari: una distopía que hoy muchos confundirían con una utopía.
 
-Escrita en 1932, esta novela imaginó una sociedad perfectamente estable donde los seres humanos son felices porque nunca se les da la posibilidad de serlo de otra manera: condicionamiento genético desde el nacimiento, una droga que disuelve todo malestar, consumo como religión. Harari la usa —junto a Jordan Peterson, que también la recomienda— como herramienta para pensar el presente: no un pasado que queremos evitar, sino una tendencia que ya está en marcha. Si *1984* te asusta con el control por la fuerza, *Un mundo feliz* te inquieta con algo más sutil: el control por la satisfacción.
+### [En defensa de la Ilustración](/libros/enlightenment-now) — Steven Pinker
+El contrapunto optimista de la lista: por qué, según los datos, la humanidad nunca vivió mejor.
 
 ---
 
-Para explorar más referentes y sus listas de lectura, visitá nuestra sección de [referentes](/referentes).
+¿Buscás más recomendaciones? Explorá el resto de [nuestros referentes](/referentes) o mirá qué se lee en categorías como [historia](/categorias/historia) y [ciencia](/categorias/ciencia).

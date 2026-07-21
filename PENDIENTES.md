@@ -82,7 +82,8 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09,
    regenerado a 23 libros el 2026-07-13), **Satya Nadella** (2026-07-14, nueva, 20 libros).
    **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4,
-   James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 3/3,
+   James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 13/13 (profundizado
+   2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver PROGRESO.md),
    Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
    Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Lex Fridman,
    Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
@@ -125,6 +126,11 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    saga completa de Marilynne Robinson (Home + Lila + Jack, junto con Gilead ya existente). Oprah:
    69/119 vinculados/enriquecidos, restan ~50 NUEVO, detalle completo en PROGRESO.md. Listicle
    regenerado a 69 libros.
+   **Yuval Noah Harari: discovery + enriquecimiento completo el 2026-07-20** (fuente
+   ynharari.com/apple-books-collection, "A Haphazard Guided Tour of Humanity on the Brink", con
+   cita real de Harari por libro): 2 YA-LINKED (brave-new-world, guns-germs-and-steel) + 1
+   CROSS-REF (thinking-fast-and-slow) + 9 NUEVO → Harari 3 → 13 libros, backlog 100% cerrado.
+   Ya tenía listicle desde 2026-07-10 (3 libros) — regenerado a 13, ver PROGRESO.md.
    **Satya Nadella: discovery + enriquecimiento completo el 2026-07-14** (fuente
    mostrecommendedbooks.com, con URL primaria propia por libro): mismo caso que Zuckerberg — su
    ficha solo decía "blog de Microsoft" sin URL concreta, nunca se había fetcheado una fuente real
