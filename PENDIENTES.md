@@ -86,7 +86,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
    Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Lex Fridman,
    Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
-   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (39/119 vinculados/enriquecidos al 2026-07-19, backlog ~80 restante), etc.
+   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (69/119 vinculados/enriquecidos al 2026-07-20, backlog ~50 restante), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
@@ -120,6 +120,11 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    (incluye Home/Lila/Jack de Marilynne Robinson), priorizados por relevancia/consenso, detalle
    completo del manifiesto en PROGRESO.md. **Listicle de Oprah generado por primera vez** con estos
    39 libros.
+   **Actualizado 2026-07-20 -- Profundizar tanda 3:** 29 NUEVO + 1 CROSS-REF (as-i-lay-dying, ya
+   estaba en catálogo vía Stephen King) enriquecidos vía 3 subagentes en paralelo, incluyendo la
+   saga completa de Marilynne Robinson (Home + Lila + Jack, junto con Gilead ya existente). Oprah:
+   69/119 vinculados/enriquecidos, restan ~50 NUEVO, detalle completo en PROGRESO.md. Listicle
+   regenerado a 69 libros.
    **Satya Nadella: discovery + enriquecimiento completo el 2026-07-14** (fuente
    mostrecommendedbooks.com, con URL primaria propia por libro): mismo caso que Zuckerberg — su
    ficha solo decía "blog de Microsoft" sin URL concreta, nunca se había fetcheado una fuente real

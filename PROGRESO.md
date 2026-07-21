@@ -1351,15 +1351,15 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **1997**: feb — Stones from the River (Ursula Hegi); abr — The Rapture of Canaan (Sheri
   Reynolds); may — The Heart of a Woman (Maya Angelou, distinta de *Yo sé por qué canta el pájaro
   enjaulado*, ya en catálogo); jun — Songs in Ordinary Time (Mary McGarry Morris); sep — A Lesson
-  Before Dying (Ernest J. Gaines); oct — A Virtuous Woman + Ellen Foster (Kaye Gibbons, 2 libros);
+  Before Dying ✅ (tanda 3); oct — A Virtuous Woman + Ellen Foster (Kaye Gibbons, 2 libros);
   dic — 3 libros infantiles de Bill Cosby (evaluar si corresponde incluirlos, fuera del perfil
   habitual del catálogo).
-  **1998**: ene — Paradise (Toni Morrison); mar — Here on Earth (Alice Hoffman); abr — Black and
-  Blue (Anna Quindlen); may — Breath, Eyes, Memory (Edwidge Danticat); jun — I Know This Much Is
+  **1998**: ene — Paradise ✅ (tanda 3); mar — Here on Earth (Alice Hoffman); abr — Black and
+  Blue (Anna Quindlen); may — Breath, Eyes, Memory ✅ (tanda 3); jun — I Know This Much Is
   True (Wally Lamb); sep — What Looks Crazy on an Ordinary Day (Pearl Cleage); oct — Midwives
-  (Chris Bohjalian); dic — Where the Heart Is (Billie Letts).
+  ✅ (tanda 3, solo inglés); dic — Where the Heart Is (Billie Letts).
   **1999**: ene — Jewel (Bret Lott); feb — The Reader ✅ (tanda 2); mar — The Pilot's Wife
-  (Anita Shreve); may — White Oleander (Janet Fitch); jun — Mother of Pearl (Melinda Haynes); sep —
+  (Anita Shreve); may — White Oleander ✅ (tanda 3, solo inglés); jun — Mother of Pearl (Melinda Haynes); sep —
   Tara Road (Maeve Binchy); oct — River, Cross My Heart (Breena Clarke); nov — Vinegar Hill
   (A. Manette Ansay); dic — A Map of the World (Jane Hamilton).
   **2000**: ene — Gap Creek (Robert Morgan); feb — Daughter of Fortune ✅ (tanda 2); mar — Back
@@ -1370,47 +1370,51 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   may — Stolen Lives (Malika Oufkir); jun — Cane River (Lalita Tademy); sep — The Corrections ✅;
   nov — A Fine Balance ✅ (tanda 2).
   **2002**: ene — Fall on Your Knees (Ann-Marie MacDonald); abr — Sula ✅ (tanda 2).
-  **2003**: jun — East of Eden ✅; sep — Cry, The Beloved Country (Alan Paton).
+  **2003**: jun — East of Eden ✅; sep — Cry, The Beloved Country ✅ (tanda 3).
   **2004**: ene — One Hundred Years of Solitude ✅ (cross-ref); abr — The Heart Is a Lonely Hunter
-  (Carson McCullers); may — Anna Karenina ✅ (cross-ref); sep — The Good Earth (Pearl S. Buck).
-  **2005**: jun — The Sound and the Fury + As I Lay Dying + Light in August (Faulkner, 3 libros);
+  ✅ (tanda 3); may — Anna Karenina ✅ (cross-ref); sep — The Good Earth ✅ (tanda 3).
+  **2005**: jun — The Sound and the Fury ✅ (tanda 3) + As I Lay Dying ✅ (cross-ref, tanda 3 —
+  ya estaba en catálogo por Stephen King) + Light in August ✅ (tanda 3), pick triple de Faulkner;
   sep — A Million Little Pieces ✅ (tanda 2).
   **2006**: ene — Night ✅.
   **2007**: ene — The Measure of a Man (Sidney Poitier); mar — The Road ✅; jun — Middlesex ✅; oct —
   Love in the Time of Cholera ✅ (tanda 2, distinta de *Cien años de soledad*, ya en catálogo);
   nov — Pillars of the Earth ✅ (tanda 2).
-  **2008**: ene — A New Earth (YA-LINKED); sep — The Story of Edgar Sawtelle (David Wroblewski).
-  **2009**: sep — Say You're One of Them (Uwem Akpan).
+  **2008**: ene — A New Earth (YA-LINKED); sep — The Story of Edgar Sawtelle ✅ (tanda 3).
+  **2009**: sep — Say You're One of Them ✅ (tanda 3).
   **2010**: sep — Freedom ✅ (tanda 2); dic — Great Expectations ✅ (cross-ref) + A Tale of Two Cities
   ✅ (cross-ref, agregado tras `detectar_duplicados.py` — ver nota en tanda 1).
-  **2012**: jun — Wild ✅; dic — The Twelve Tribes of Hattie (Ayana Mathis).
+  **2012**: jun — Wild ✅; dic — The Twelve Tribes of Hattie ✅ (tanda 3).
   **2014**: ene — The Invention of Wings ✅ (tanda 2).
   **2015**: feb — Ruby (Cynthia Bond).
-  **2016**: ago — The Underground Railroad (YA-LINKED); sep — Love Warrior (Glennon Doyle Melton).
-  **2017**: jun — Behold the Dreamers (Imbolo Mbue).
-  **2018**: feb — An American Marriage ✅ (cross-ref); jun — The Sun Does Shine (Anthony Ray
-  Hinton); nov — Becoming (YA-LINKED).
+  **2016**: ago — The Underground Railroad (YA-LINKED); sep — Love Warrior ✅ (tanda 3, solo inglés).
+  **2017**: jun — Behold the Dreamers ✅ (tanda 3, solo inglés).
+  **2018**: feb — An American Marriage ✅ (cross-ref); jun — The Sun Does Shine ✅ (tanda 3, solo
+  inglés); nov — Becoming (YA-LINKED).
   **2019**: sep — The Water Dancer ✅ (tanda 2); nov — Olive, Again ✅ (tanda 2).
-  **2020**: ene — American Dirt ✅ (tanda 2); abr — Hidden Valley Road (Robert Kolker); jun —
-  Deacon King Kong (James McBride, distinto de *The Heaven & Earth Grocery Store*, ya en catálogo);
-  nov — Caste ✅ (tanda 2).
-  **2021**: mar — Gilead ✅ (tanda 2) + Home + Lila + Jack (Marilynne Robinson, 3 restantes pendientes); jun — The Sweetness of
-  Water (Nathan Harris); ago — The Love Songs of W. E. B. Du Bois (Honorée Fanonne Jeffers); sep —
+  **2020**: ene — American Dirt ✅ (tanda 2); abr — Hidden Valley Road ✅ (tanda 3, categoria
+  psicologia); jun — Deacon King Kong ✅ (tanda 3, solo inglés, distinto de *The Heaven & Earth
+  Grocery Store*, ya en catálogo); nov — Caste ✅ (tanda 2).
+  **2021**: mar — Gilead ✅ (tanda 2) + Home ✅ + Lila ✅ + Jack ✅ (tanda 3 — saga de Marilynne
+  Robinson completa, 4/4); jun — The Sweetness of
+  Water ✅ (tanda 3); ago — The Love Songs of W. E. B. Du Bois (Honorée Fanonne Jeffers); sep —
   Bewilderment (Richard Powers, distinto de *The Overstory*, ya en catálogo).
-  **2022**: feb — The Way of Integrity (Martha Beck); abr — Finding Me (Viola Davis); jun —
-  Nightcrawling (Leila Mottley); sep — That Bird Has My Wings (Jarvis Jay Masters); oct — Demon
+  **2022**: feb — The Way of Integrity (Martha Beck); abr — Finding Me ✅ (tanda 3, solo inglés);
+  jun — Nightcrawling ✅ (tanda 3); sep — That Bird Has My Wings (Jarvis Jay Masters); oct — Demon
   Copperhead ✅ (tanda 2, distinto de *La Biblia envenenada*, ya en catálogo).
   **2023**: feb — Bittersweet (Susan Cain, distinto de *Quiet*, ya en catálogo); mar — Hello
-  Beautiful (YA-LINKED); may — The Covenant of Water ✅ (cross-ref); sep — Wellness (Nathan Hill);
+  Beautiful (YA-LINKED); may — The Covenant of Water ✅ (cross-ref); sep — Wellness ✅ (tanda 3);
   oct — Let Us Descend ✅ (tanda 2, solo inglés).
   **2024**: feb — The Many Lives of Mama Love (Lara Love Hardin); may — Long Island ✅ (tanda 2);
-  jun — Familiaris (David Wroblewski); sep — Tell Me Everything (Elizabeth Strout); oct — From Here
-  to the Great Unknown (Lisa Marie Presley + Riley Keough); dic — Small Things Like These (Claire
+  jun — Familiaris (David Wroblewski); sep — Tell Me Everything ✅ (tanda 3, distinto de *Luz de
+  febrero*, mismo universo Amgash/Lucy Barton); oct — From Here
+  to the Great Unknown ✅ (tanda 3, solo inglés); dic — Small Things Like These (Claire
   Keegan, distinto de *So Late in the Day*, ya en catálogo).
   **2025**: ene — A New Earth (repetido, YA-LINKED); feb — Dream State (Eric Puchner); mar — The
   Tell (Amy Griffin); abr — Matriarch (Tina Knowles); may — The Emperor of Gladness (Ocean Vuong,
-  distinto de *On Earth We're Briefly Gorgeous*, ya en catálogo); jun — The River Is Waiting (Wally
-  Lamb); jul — Culpability (Bruce Holsinger); ago — Bridge of Sighs (Richard Russo); sep — All the
+  distinto de *On Earth We're Briefly Gorgeous*, ya en catálogo); jun — The River Is Waiting ✅
+  (tanda 3, solo inglés); jul — Culpability (Bruce Holsinger); ago — Bridge of Sighs ✅ (tanda 3,
+  sorpresa: sí tiene edición en español pese a ser pick reciente); sep — All the
   Way to the River (Elizabeth Gilbert, distinto de *Big Magic*, ya en catálogo); oct — A Guardian
   and A Thief (Megha Majumdar); nov — Some Bright Nowhere (Ann Packer).
   **2026**: ene — Enough (Oprah Winfrey + Ania M. Jastreboff — libro propio de Oprah, evaluar si
@@ -1473,3 +1477,62 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `the-moral-letters-to-lucilius`, selección abreviada vs. correspondencia completa) — mismo
   criterio usado con "The Principia" en la tanda de Sam Altman. **Confirmado por Marcelo:**
   verificación cerrada, `[DUP]` también en 0. **Tanda 2 de Oprah queda cerrada y verificada.**
+
+- **2026-07-20 — Acción "Profundizar": Oprah Winfrey, tanda 3 (30 libros: 29 NUEVO + 1 CROSS-REF).**
+  Selección por relevancia/consenso sobre el backlog restante del manifiesto (~85 candidatos).
+  Trabajo hecho vía **3 subagentes Sonnet en paralelo** (lotes de 10/10/9), cada uno con el
+  manifiesto de libros asignado, fecha de pick y notas de casos especiales; verificación de
+  colisiones de autor/slug hecha ANTES de despachar (Grep + Glob sobre los 30 candidatos).
+  **1 CROSS-REF detectado en el chequeo previo** (no en el reparto de subagentes): `as-i-lay-dying`
+  (Faulkner) ya estaba en el catálogo, recomendado por Stephen King — se sumó `oprah-winfrey` a
+  `recomendadoPor`, se renombró la sección a "Por qué lo recomiendan Stephen King y Oprah Winfrey"
+  y se agregó un párrafo sobre el pick triple de Faulkner de junio 2005 (edité esta a mano, no fue
+  parte del despacho a subagentes).
+  **29 NUEVO enriquecidos:** `paradise` (Toni Morrison, ES Ediciones B, asin 8440689322);
+  `the-sound-and-the-fury` (Faulkner, ES Bruguera, asin 8402082645); `light-in-august` (Faulkner,
+  ES DeBolsillo, asin 8490628173); `the-story-of-edgar-sawtelle` (Wroblewski, ES Planeta, asin
+  840809534X); `cry-the-beloved-country` (Alan Paton, ES Ediciones Palabra — título real "Llanto
+  por la tierra amada", asin 8498409241); `the-heart-is-a-lonely-hunter` (McCullers, ES Seix
+  Barral, asin 8432219576); `the-good-earth` (Pearl S. Buck, ES Alianza, asin 8420677434);
+  `white-oleander` (Janet Fitch, solo inglés, asin 0316284955); `breath-eyes-memory` (Danticat, ES
+  consonni 2024, asin 8419490326); `midwives` (Bohjalian, solo inglés, asin 0375706771);
+  `a-lesson-before-dying` (Gaines, solo inglés, asin 0375702709); `home` (Marilynne Robinson, ES
+  Galaxia Gutenberg, asin 8481099635 — traductor no confirmado, se omitió); `lila` (Robinson, ES
+  Galaxia Gutenberg, asin 8416252297); `jack` (Robinson, ES Galaxia Gutenberg, asin 8418526211 —
+  con `home`/`lila` completa la saga de Gilead, 4/4); `the-sweetness-of-water` (Nathan Harris, ES
+  AdN, asin 841362696X); `the-twelve-tribes-of-hattie` (Ayana Mathis, ES Salamandra, asin
+  8498386217); `hidden-valley-road` (Robert Kolker, ES Sexto Piso, asin 8419261157, categoria
+  psicologia); `deacon-king-kong` (James McBride, solo inglés — ojo: el subagente descartó un ISBN
+  que en Amazon aparecía bajo "Diácono King Kong" por ser en realidad la edición portuguesa
+  brasileña, no española — asin 073521672X, distinto de `the-heaven-and-earth-grocery-store` ya en
+  catálogo); `behold-the-dreamers` (Imbolo Mbue, solo inglés — sin traducción a español pese a 11
+  idiomas, asin 0525509712); `love-warrior` (Glennon Doyle Melton, ES HarperCollins Español, asin
+  0718074106); `say-you-re-one-of-them` (Uwem Akpan, ES El Tercer Nombre, asin 8496693538);
+  `the-sun-does-shine` (Anthony Ray Hinton, solo inglés, asin 1250124719, categoria memorias);
+  `nightcrawling` (Leila Mottley, ES Plata, asin 8492919418); `finding-me` (Viola Davis, solo
+  inglés, asin 0063037327, categoria memorias); `wellness` (Nathan Hill, ES AdN, asin 8410138069);
+  `tell-me-everything` (Elizabeth Strout, ES Alfaguara, asin 841029902X, distinto de `olive-again`
+  — universo Lucy Barton, no Olive Kitteridge); `bridge-of-sighs` (Richard Russo, ES Alfaguara, asin
+  8420474118 — sorpresa: sí tiene edición ES de 2008 pese a ser pick de agosto 2025); `the-river-is-
+  waiting` (Wally Lamb, solo inglés, asin 1668006391); `from-here-to-the-great-unknown` (Lisa Marie
+  Presley y Riley Keough, solo inglés, asin 0593733878, categoria memorias).
+  ASIN de las 29 verificado real vía WebSearch (ISBN-10 de edición impresa, ninguno inventado);
+  16/29 con edición en español confirmada, 13/29 solo inglés (varias muy recientes, 2022-2025).
+  Spot-check de 4 fichas (`cry-the-beloved-country`, `deacon-king-kong`, `home`, `tell-me-
+  everything`): estructura MODO LIBRO correcta, Regla de atribución respetada, sin citas inventadas
+  de Oprah, distinciones de libros del mismo autor correctamente señaladas.
+  **Catálogo: +29 fichas nuevas, +1 vínculo cross-ref.** Oprah pasa de 39 a **69 libros
+  vinculados/enriquecidos**.
+  **Pendiente:** ~50 candidatos NUEVO restantes en el manifiesto de arriba + revisar el caso
+  `Enough` + los 3 libros infantiles de Bill Cosby (1997, evaluar si corresponde). Nota para
+  próxima tanda: el hallazgo de edición ES para *Bridge of Sighs* (pick reciente) sugiere revisar
+  si algún otro pick marcado "solo inglés" en tandas viejas en realidad sí tiene edición en
+  español no detectada en su momento — no urgente, pero vale una pasada futura.
+  **Verificación `detectar_duplicados.py` (Marcelo, post-tanda 3): `[DUP]` en 0, 46 `[REV]`
+  revisados — 0 duplicados reales.** Los `[REV]` nuevos que sumó esta tanda son exactamente los
+  esperados: `william-faulkner` con 3 (as-i-lay-dying, light-in-august, the-sound-and-the-fury —
+  el pick triple), `marilynne-robinson` con 4 (gilead, home, jack, lila — la saga completa),
+  `toni-morrison` con 4 (paradise se suma a song-of-solomon, sula, the-bluest-eye),
+  `james-mcbride` con 2 (deacon-king-kong vs. the-heaven-and-earth-grocery-store, ya
+  documentado), `elizabeth-strout` con 2 (olive-again vs. tell-me-everything, ya documentado).
+  **Tanda 3 de Oprah queda cerrada y verificada.**
