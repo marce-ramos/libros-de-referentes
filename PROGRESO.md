@@ -1589,3 +1589,96 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   (se suma `enlightenment-now` a `the-better-angels-of-our-nature` y
   `when-everyone-knows-that-everyone-knows`), tres obras reales y distintas (2011, 2018 y una
   más reciente). **Tanda de Yuval Noah Harari queda cerrada y verificada.**
+
+- **2026-07-22 — Discovery (solo discovery, a pedido explícito): Adam Grant.** Backlog previo:
+  4/4 libros ya enriquecidos (Piensa de nuevo, El código de la cultura, Dar y recibir, Quiet).
+  **Corrección de fuente:** la bio del referente decía "rastrearse a través de su newsletter
+  *Think Again*" — error, *Think Again* es un libro suyo, no la newsletter; su newsletter real se
+  llama **Granted** (adamgrant.substack.com, 500.000+ suscriptores). Pendiente corregir
+  `autores/adam-grant.md` cuando se toque la ficha (no se editó en esta tanda, solo discovery).
+  Fuente fetcheada: 3 entradas de **Granted** con recomendaciones explícitas (libro + autor +
+  link de Amazon por ítem, agrupadas por eje temático): **"The New Books to Fight Brain Rot"**
+  (26/8/2025, 8 libros), **"The New Books to Refresh Your Thinking in 2026"** (18/1/2026, 12
+  libros) y **"The 12 New Books to Enliven Spring and Summer"** (2/5/2026, 12 libros).
+  Manifiesto de 32 candidatos (título | autor | mes de publicación | URL fuente):
+  1. How to Be a Living Thing — Mari Andrew (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  2. 1929 — Andrew Ross Sorkin (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  3. Finding My Way — Malala Yousafzai (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  4. Algospeak — Adam Aleksic (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  5. The Genius Myth — Helen Lewis (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  6. Read Your Mind — Oz Pearlman (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  7. Anointed — Toby Stuart (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  8. Playful — Cas Holman (2025) — adamgrant.substack.com/p/the-new-books-to-fight-brain-rot
+  9. Poisonous People — Leanne ten Brinke (marzo 2026) — adamgrant.substack.com/p/the-new-books-to-refresh-your-thinking
+  10. The Balancing Act — Nedra Tawwab (febrero 2026) — ídem
+  11. Flourish — Dan Coyle (febrero 2026) — ídem
+  12. Mattering — Jennifer Wallace (enero 2026) — ídem
+  13. The Story of Stories — Kevin Ashton (marzo 2026) — ídem
+  14. Revealing — Leslie John (febrero 2026) — ídem
+  15. Your Best Meeting Ever — Rebecca Hinds (febrero 2026) — ídem
+  16. Jolted — Anthony Klotz (marzo 2026) — ídem
+  17. The Other Side of Change — Maya Shankar (enero 2026) — ídem
+  18. Politics Without Politicians — Hélène Landemore (febrero 2026) — ídem
+  19. We the Women — Norah O'Donnell (febrero 2026) — ídem
+  20. The Triangle of Power — Alexander Stubb (enero 2026) — ídem
+  21. Human Raised — Dana Suskind (julio 2026) — adamgrant.substack.com/p/the-12-new-books-to-enliven-spring
+  22. Incorruptible — Eric Ries (mayo 2026) — ídem
+  23. Leave the Lights On — Elizabeth Dunn y Jiaying Zhao (junio 2026) — ídem
+  24. Inside the Box — David Epstein (mayo 2026) — ídem
+  25. The Power of Beliefs — Shawn Achor (mayo 2026) — ídem
+  26. Why We Talk Funny — Valerie Fridland (abril 2026) — ídem
+  27. How to Not Know — Simone Stolzoff (mayo 2026) — ídem
+  28. Joyful Anyway — Kate Bowler (abril 2026) — ídem
+  29. Anxietyland — Gemma Correll (abril 2026) — ídem
+  30. You've Been Pooping All Wrong — Trisha Pasricha (abril 2026) — ídem
+  31. The Plunge — Chris Ballard (junio 2026) — ídem
+  32. Walk — Courtney Conley y Milica McDowell (mayo 2026) — ídem
+
+  **Reconciliación manual (Grep sobre `titulo:` en `src/content/libros`, sin correr
+  `reconciliar.py` — pendiente correrlo en Windows para veredicto definitivo): 1 CROSS-REF
+  detectado** — `1929.md` ya existe en el catálogo (asin `0593296966`, idéntico al `/dp/` del
+  link de Amazon del post de Grant), recomendado hoy solo por `barack-obama` → sumar
+  `adam-grant` a su `recomendadoPor` cuando se toque. Los otros 31 títulos no matchean ningún
+  slug existente en un chequeo manual (no exhaustivo, reemplaza correr el script real).
+  **No se tocó el catálogo** (0 fichas creadas/editadas, 0 listicle regenerado) — por indicación
+  explícita del usuario de correr *solo* el discovery.
+  **Ojo con las ediciones:** el manifiesto entero son novedades de abril 2025 a julio 2026 (nada
+  de backlog histórico), así que es esperable que la mayoría **no tenga edición en español
+  todavía** — al enriquecer, confirmar edición ES real antes de cargar y dejar en "solo
+  inglés/a decidir" lo que no la tenga (mismo caso que backlogs recientes de Nadella/Zuckerberg).
+  **Pendiente:** correr `reconciliar.py adam-grant <manifiesto> src/content/libros` en Windows
+  para confirmar YA-LINKED/CROSS-REF/REVISAR/NUEVO con certeza; decidir con el usuario cuántos y
+  cuáles priorizar (32 es un lote grande para un referente que hoy solo tiene 4 libros); corregir
+  la fuente citada en `autores/adam-grant.md` (newsletter Granted, no "Think Again").
+
+- **2026-07-22 — Reconciliación + tanda 1: Adam Grant.** Marcelo corrió
+  `python tools/reconciliar.py adam-grant tools/manifiesto_adam_grant.txt src/content/libros`
+  en Windows (el manifiesto quedó versionado en `tools/manifiesto_adam_grant.txt`, no en /tmp).
+  Resultado sobre los 32 candidatos: **0 YA-LINKED, 1 CROSS-REF, 1 REVISAR, 30 NUEVO.**
+  **CROSS-REF aplicado:** `1929` (Andrew Ross Sorkin) ya estaba en el catálogo vía Barack Obama
+  (mismo ASIN `0593296966` que el link de Amazon del post de Grant) → se sumó `adam-grant` a su
+  `recomendadoPor`, la sección de atribución se renombró a "Por qué lo recomiendan Barack Obama y
+  Adam Grant" y se tejió una cita real de Grant desde Granted ("el análisis definitivo del mayor
+  crac bursátil del siglo, del mejor periodista de negocios de nuestra época"). Sin listicle que
+  regenerar (Grant todavía no tiene uno; el de Obama no cambió de contenido, solo se sumó un
+  referente más al libro).
+  **REVISAR resuelto a NUEVO:** `Inside the Box` (David Epstein) matcheaba por autor con `range`
+  (ya en catálogo), pero son libros reales y distintos del mismo autor — *Range* (2019, sobre
+  generalistas) vs. *Inside the Box* (2026, sobre límites que desbloquean creatividad) — no es
+  cross-ref, es ficha nueva. Queda contado dentro de los 30 NUEVO restantes.
+  **Pre-chequeo de edición ES** (subagente Haiku, 1-2 búsquedas por título, sin inventar ASIN):
+  de los 30 NUEVO, **29 son "solo inglés todavía"** (son lanzamientos de abril 2025 a julio 2026,
+  varios ni siquiera publicados en inglés a la fecha de este chequeo — esperable que tarden en
+  tener traducción) + **1 con edición ES confirmada: `Poisonous People`** → *Personas venenosas:
+  Cómo detectarlas para protegernos*, Grijalbo, ISBN-10 `8425373948` (verificado en amazon.com,
+  coincide con el ISBN-13 9788425373947 de Fnac/Penguin Random House/librerías españolas).
+  **1 ficha nueva enriquecida** (MODO LIBRO completo, cita real de Grant desde Granted en la
+  sección de atribución, categoria `psicologia`): `poisonous-people.md`.
+  **Adam Grant: 4 → 6 libros** (1929 vía cross-ref + Personas venenosas nueva). **Backlog
+  restante: 29 candidatos "esperar edición ES"** (incluye `inside-the-box`, `finding-my-way`,
+  `algospeak`, y el resto del manifiesto en `tools/manifiesto_adam_grant.txt`) — revisar en una
+  futura pasada cuando salgan más traducciones (probable ventana: 6-18 meses post-lanzamiento en
+  inglés, según patrón histórico del catálogo). Sin listicle de Adam Grant todavía (recién a 6
+  libros; se escribe cuando el referente tenga un cuerpo de fichas más sólido). **Pendiente:**
+  corregir la bio de `autores/adam-grant.md` (dice "newsletter Think Again", debería decir
+  "newsletter Granted").

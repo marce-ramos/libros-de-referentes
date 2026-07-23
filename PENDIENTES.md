@@ -1,6 +1,14 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-15 (Profundizar Warren Buffett: sin backlog
+Punto de retomada. Última actualización: 2026-07-22 (Discovery + tanda 1: Adam Grant — fuente
+real de su newsletter Granted, adamgrant.substack.com, 32 candidatos en 3 posts de
+recomendaciones 2025-2026; reconciliado con `reconciliar.py`: 1 CROSS-REF (`1929`, vía Obama,
+aplicado) + 1 REVISAR resuelto a NUEVO (`Inside the Box` ≠ `Range`, mismo autor) + 30 NUEVO;
+pre-chequeo de edición ES (subagente Haiku) encontró solo 1/30 con traducción confirmada
+(`Poisonous People` → *Personas venenosas*, Grijalbo) — enriquecida; Adam Grant 4 → 6 libros,
+quedan 29 candidatos "esperar edición ES" en backlog (ver PROGRESO.md); bio del referente
+corregida (decía "newsletter Think Again", ahora dice "Granted"); antes, 2026-07-15 (Profundizar
+Warren Buffett: sin backlog
 previo, discovery nuevo sobre sus cartas anuales a los accionistas de Berkshire Hathaway sourceado
 vía CNBC + Inc.com — 11 NUEVO + 1 CROSS-REF (Shoe Dog, ya en el catálogo por Bill Gates), Buffett
 6 → 18 libros, backlog cerrado, listicle regenerada con 5 grupos temáticos + lead "Por dónde
@@ -85,8 +93,10 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 13/13 (profundizado
    2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver PROGRESO.md),
    Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
-   Próximos a enriquecer (empezados a medias): Adam Grant, Simon Sinek, Lex Fridman,
-   Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
+   Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
+   2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
+   "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes), Simon
+   Sinek, Lex Fridman, Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
    Neil deGrasse Tyson, Malcolm Gladwell, Oprah (69/119 vinculados/enriquecidos al 2026-07-20, backlog ~50 restante), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
