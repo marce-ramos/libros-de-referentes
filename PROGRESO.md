@@ -1682,3 +1682,56 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   libros; se escribe cuando el referente tenga un cuerpo de fichas más sólido). **Pendiente:**
   corregir la bio de `autores/adam-grant.md` (dice "newsletter Think Again", debería decir
   "newsletter Granted").
+
+- **2026-07-22 — Discovery: Andrew Ng.** Backlog previo: 3/3 libros ya enriquecidos (Zero to
+  One, Life 3.0, Artificial Intelligence: A Modern Approach). Fuente fetcheada: **fs.blog/
+  short-list-books-new-things** (Farnam Street, 31/10/2016), artículo curado con **cita textual
+  real de Ng por libro** (originada en una entrevista a Huffington Post India) — misma calidad
+  de fuente que la usada con Harari, no un agregador secundario. Manifiesto de 7 libros: Zero to
+  One (Peter Thiel), Crossing the Chasm (Geoffrey A. Moore), The Lean Startup (Eric Ries),
+  Talking to Humans (Giff Constable), Rocket Surgery Made Easy (Steve Krug), The Hard Thing
+  About Hard Things (Ben Horowitz), So Good They Can't Ignore You (Cal Newport).
+  **Reconciliación manual** (Grep/Glob por slug y por `autorLibro`, lote chico, sin
+  `reconciliar.py`): **1 YA-LINKED** (`zero-to-one`, ya en `recomendadoPor` de `andrew-ng`) +
+  **1 CROSS-REF** (`the-hard-thing-about-hard-things`, ya en catálogo vía Marc Andreessen) +
+  **5 NUEVO**: Crossing the Chasm, The Lean Startup, Talking to Humans, Rocket Surgery Made
+  Easy, So Good They Can't Ignore You.
+  **1 CROSS-REF aplicado:** se sumó `andrew-ng` a `recomendadoPor` de
+  `the-hard-thing-about-hard-things`; la sección de atribución se renombró a "Por qué lo
+  recomiendan Marc Andreessen y Andrew Ng" y se tejió la cita real de Ng ("es un poco oscuro,
+  pero cubre un montón de territorio útil sobre cómo es realmente construir una organización").
+  Sin listicle que regenerar (ni Andreessen ni Ng tienen uno publicado con este libro afectado).
+  **No se enriquecieron los 5 NUEVO todavía** — a diferencia del backlog de Adam Grant, estos
+  son bestsellers de negocios de hace más de una década (2009-2014), altísima probabilidad de
+  tener edición en español desde hace años, así que no requieren el mismo pre-chequeo; quedan
+  listos para una tanda de enriquecimiento directa. **Andrew Ng: 3 → 4 libros** (solo el
+  cross-ref aplicado por ahora). Sin listicle todavía.
+
+- **2026-07-22 — Tanda de enriquecimiento: los 5 NUEVO de Andrew Ng.** ASIN de edición en
+  español verificado real vía WebSearch para 4/5 (ninguno inventado); 1/5 solo inglés (libro
+  autoeditado sin traducción):
+  `crossing-the-chasm` (Geoffrey A. Moore, ES Paidós, trad. Albert Cuesta Zaragosi, asin
+  8498753554, categoria negocios); `the-lean-startup` (Eric Ries, ES Deusto, trad. Javier San
+  Julián, asin 842340949X, categoria negocios); `talking-to-humans` (Giff Constable, solo
+  inglés — autoeditado, sin edición ES localizable, asin 099080092X, categoria negocios);
+  `rocket-surgery-made-easy` (Steve Krug, ES *Haz fácil lo imposible*, Anaya Multimedia, asin
+  8441527547, categoria negocios); `so-good-they-can-t-ignore-you` (Cal Newport, ES *Hazlo tan
+  bien que no puedan ignorarte*, Asertos, trad. Diego Pereda Sancho, asin 8494463136, categoria
+  **psicologia** — encaja mejor ahí que en negocios, es sobre mindset de carrera/maestría, no
+  metodología de empresa).
+  Las 5 fichas usan la cita real de Andrew Ng desde fs.blog (traducida) en la sección de
+  atribución, ninguna cita inventada. **Andrew Ng: 4 → 9 libros.** Backlog de discovery cerrado
+  al 100% (7/7 candidatos del manifiesto de fs.blog resueltos: 1 YA-LINKED + 1 CROSS-REF + 5
+  NUEVO, todos aplicados/enriquecidos).
+
+- **2026-07-22 — Listicle nuevo: Andrew Ng.** `libros-que-recomienda-andrew-ng.md`, primera
+  vez (no existía antes). 9/9 libros enriquecidos, agrupados en 3 grupos temáticos parejos:
+  "Construir y escalar una empresa" (4: Cruzando el abismo, De cero a uno, Emprender y liderar
+  una startup, El método Lean Startup), "Escuchar bien: a tus usuarios y a tu propia carrera"
+  (3: Talking to Humans, Haz fácil lo imposible, Hazlo tan bien que no puedan ignorarte — une
+  investigación de usuarios y psicología de carrera bajo el mismo eje de "escuchar antes de
+  actuar") y "Los fundamentos técnicos de la inteligencia artificial" (2: Inteligencia
+  artificial: un enfoque moderno, Vida 3.0 — grupo chico pero temáticamente distinto,
+  deliberadamente no fusionado con los de negocios). Verificado: 9/9 links con `titulo` exacto
+  de la ficha, slug existente, `andrew-ng` presente en `recomendadoPor` de las 9, sin
+  duplicados. Cierra con enlaces a `/referentes` y `/categorias/negocios`.

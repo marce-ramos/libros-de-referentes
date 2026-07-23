@@ -7,8 +7,11 @@ aplicado) + 1 REVISAR resuelto a NUEVO (`Inside the Box` ≠ `Range`, mismo auto
 pre-chequeo de edición ES (subagente Haiku) encontró solo 1/30 con traducción confirmada
 (`Poisonous People` → *Personas venenosas*, Grijalbo) — enriquecida; Adam Grant 4 → 6 libros,
 quedan 29 candidatos "esperar edición ES" en backlog (ver PROGRESO.md); bio del referente
-corregida (decía "newsletter Think Again", ahora dice "Granted"); antes, 2026-07-15 (Profundizar
-Warren Buffett: sin backlog
+corregida (decía "newsletter Think Again", ahora dice "Granted"); el mismo día, Discovery Andrew
+Ng: fuente fs.blog (cita real de Ng por libro), manifiesto de 7, 1 ya-linked (Zero to One) + 1
+cross-ref aplicado (The Hard Thing About Hard Things, vía Andreessen) + 5 NUEVO sin enriquecer
+todavía (bestsellers de negocios, alta probabilidad de edición ES, backlog listo para tanda);
+antes, 2026-07-15 (Profundizar Warren Buffett: sin backlog
 previo, discovery nuevo sobre sus cartas anuales a los accionistas de Berkshire Hathaway sourceado
 vía CNBC + Inc.com — 11 NUEVO + 1 CROSS-REF (Shoe Dog, ya en el catálogo por Bill Gates), Buffett
 6 → 18 libros, backlog cerrado, listicle regenerada con 5 grupos temáticos + lead "Por dónde
@@ -61,10 +64,10 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 16 artículos — 15 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
+- **Blog:** 17 artículos — 16 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
-  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20) + 1 best-of de categoría
-  (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
+  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9) + 1 best-of
+  de categoría (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -92,7 +95,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4,
    James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 13/13 (profundizado
    2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver PROGRESO.md),
-   Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4, Andrew Ng 3/3.**
+   Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4.
    Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
    2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
    "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes), Simon
