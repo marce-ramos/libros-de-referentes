@@ -64,10 +64,11 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 17 artículos — 16 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
+- **Blog:** 18 artículos — 17 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
-  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9) + 1 best-of
-  de categoría (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
+  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9, Vitalik
+  Buterin 8) + 1 best-of de categoría (Negocios e Inversión). Todas las fichas enlazadas están
+  saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -99,7 +100,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
    2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
    "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes), Simon
-   Sinek, Lex Fridman, Vitalik Buterin, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
+   Sinek, Lex Fridman, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
    Neil deGrasse Tyson, Malcolm Gladwell, Oprah (69/119 vinculados/enriquecidos al 2026-07-20, backlog ~50 restante), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*

@@ -1735,3 +1735,55 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   deliberadamente no fusionado con los de negocios). Verificado: 9/9 links con `titulo` exacto
   de la ficha, slug existente, `andrew-ng` presente en `recomendadoPor` de las 9, sin
   duplicados. Cierra con enlaces a `/referentes` y `/categorias/negocios`.
+
+- **2026-07-22 — Discovery: Vitalik Buterin.** Backlog previo: 4/4 libros ya enriquecidos (The
+  Sovereign Individual, The Network State, Stubborn Attachments, Radical Markets). A diferencia
+  de Adam Grant/Andrew Ng, Vitalik no tiene una fuente única curada (su bio cita "su blog en
+  vitalik.ca", pero no existe ahí una lista de lecturas) — sus recomendaciones están dispersas en
+  tweets sueltos y entrevistas. Se descartó incluir candidatos sin URL verificable por libro (The
+  Origins of Totalitarianism de Hannah Arendt, Thinking in Bets de Annie Duke): aparecían en
+  agregadores pero sin fuente primaria localizable, así que quedan afuera por regla de oro
+  ("si no podés sourcear un libro, no lo incluyas") — no descartados para siempre, solo no
+  incluidos hoy por falta de URL confiable.
+  **Fuentes fetcheadas con cita + URL propia por libro:** books-guru.com/experts/vitalik-buterin
+  (agregador que linkea el tweet original de Vitalik por cada recomendación, mismo estándar que
+  Nadella/Zuckerberg) + nfx.com/post/vitalik-buterin-the-a-sides (transcripción real de una
+  entrevista de Morgan Beller a Vitalik, feb/2021, con cita textual completa).
+  Manifiesto de 6 candidatos: The Sovereign Individual (Davidson & Rees-Mogg), The Network State
+  (Balaji Srinivasan), The Elephant in the Brain (Kevin Simler y Robin Hanson), The Scout Mindset
+  (Julia Galef), The Precipice (Toby Ord), The Revolt of the Public (Martin Gurri).
+  **Reconciliación manual** (Grep/Glob, lote chico): **2 YA-LINKED** (`the-sovereign-individual`
+  y `the-network-state`, ambos ya con `vitalik-buterin` en `recomendadoPor`) + **4 NUEVO**: The
+  Elephant in the Brain, The Scout Mindset, The Precipice, The Revolt of the Public. Sin
+  cross-ref (ninguno de los 4 existía antes bajo otro referente). **No se enriquecieron
+  todavía** — a confirmar con el usuario. **Vitalik Buterin: sigue en 4/4** (sin cambios en el
+  catálogo hasta que se decida enriquecer los 4 NUEVO).
+
+- **2026-07-22 — Tanda de enriquecimiento: los 4 NUEVO de Vitalik Buterin.** ASIN verificado
+  real vía WebSearch para las 4 (ninguno inventado); 2/4 solo inglés:
+  `the-elephant-in-the-brain` (Kevin Simler y Robin Hanson, solo inglés — se encontró un ASIN en
+  Amazon con formato "[Tapa dura] [Kevin Simler]" que parece una edición no oficial/POD sin
+  editorial identificable, así que se descartó y se usó la edición inglesa real de Oxford
+  University Press, asin 0190495995, categoria psicologia); `the-scout-mindset` (Julia Galef, ES
+  *La mentalidad del explorador*, Paidós/colección Contextos, trad. Fernando Borrajo, asin
+  8449340284, categoria psicologia); `the-precipice` (Toby Ord, solo inglés — **ojo, falso
+  positivo detectado**: un listado de Amazon.com.mx mostraba el título traducido "El Precipicio"
+  pero al verificar el ISBN resultó ser el mismo libro en inglés con el título solo traducido
+  para el storefront, no una edición real en español; asin 1526600234, categoria filosofia);
+  `the-revolt-of-the-public` (Martin Gurri, ES *La rebelión del público*, Adriana Hidalgo/
+  colección Interferencias, trad. Santiago Armando, asin 8419208604, categoria historia).
+  Las 4 fichas usan la cita real de Vitalik (de books-guru.com o la entrevista NFX) en la
+  sección de atribución, ninguna inventada. **Vitalik Buterin: 4 → 8 libros.** Backlog de
+  discovery cerrado al 100%.
+
+- **2026-07-22 — Listicle nuevo: Vitalik Buterin.** `libros-que-recomienda-vitalik-buterin.md`,
+  primera vez (no existía antes). 8/8 libros enriquecidos, agrupados en 3 grupos temáticos:
+  "Repensar las instituciones: dinero, Estados y por qué tambalean" (4: El individuo soberano,
+  The Network State, Mercados radicales, La rebelión del público), "El largo plazo: crecimiento
+  y riesgo existencial" (2: Stubborn Attachments, The Precipice) y "Cómo pensamos y por qué nos
+  mentimos" (2: The Elephant in the Brain, La mentalidad del explorador). Intro aclara que
+  Buterin no tiene fuente única curada, a diferencia de otros referentes del sitio. Verificado:
+  8/8 links con `titulo` exacto de la ficha, slug existente, `vitalik-buterin` presente en
+  `recomendadoPor` de las 8, sin duplicados (incluye `the-network-state`, que tiene `asin`
+  vacío por regla §3.4 pero cuenta como enriquecida por tener cuerpo completo). Cierra con
+  enlaces a `/referentes` y `/categorias/negocios`.
