@@ -5,17 +5,18 @@ asin: "8449335426"
 categoria: negocios
 recomendadoPor:
   - naval-ravikant
+  - daniel-kahneman
 anio: 2018
-resumen: "Nassim Taleb argumenta que nadie debería opinar, decidir o gobernar sin cargar con las consecuencias de sus propios errores. Naval Ravikant lo consideró el mejor libro que leyó en 2018."
+resumen: "Nassim Taleb argumenta que nadie debería opinar, decidir o gobernar sin cargar con las consecuencias de sus propios errores. Naval Ravikant lo consideró el mejor libro que leyó en 2018; también lo recomienda Daniel Kahneman."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-22
 ---
 
 Después de *El cisne negro* y *Antifrágil*, Nassim Nicholas Taleb cierra su saga sobre la incertidumbre con una pregunta incómoda: ¿por qué dejamos que decidan por nosotros personas que no pagan ningún precio si se equivocan? *Jugarse la piel* es su respuesta, y es, probablemente, el más filoso de sus libros.
 
 ## Por qué lo recomienda Naval Ravikant
 
-Naval lo nombró el mejor libro que leyó en 2018, con un entusiasmo que no reparte fácil. Dijo que está cargado de buenos modelos mentales, de ideas que se quedan pegadas. También avisó que Taleb tiene lo suyo de soberbio en el tono —pero que vale la pena hacerse el distraído con eso y quedarse con el contenido, porque es uno de los mejores libros de negocios que leyó en su vida. Con un detalle que le gusta remarcar: el libro nunca se disfraza de "libro de negocios", y por eso funciona mejor que la mayoría de los que sí lo hacen.
+Naval lo nombró el mejor libro que leyó en 2018, con un entusiasmo que no reparte fácil. Dijo que está cargado de buenos modelos mentales, de ideas que se quedan pegadas. También avisó que Taleb tiene lo suyo de soberbio en el tono —pero que vale la pena hacerse el distraído con eso y quedarse con el contenido, porque es uno de los mejores libros de negocios que leyó en su vida. Con un detalle que le gusta remarcar: el libro nunca se disfraza de "libro de negocios", y por eso funciona mejor que la mayoría de los que sí lo hacen. También lo recomienda Daniel Kahneman.
 
 ## De qué trata
 

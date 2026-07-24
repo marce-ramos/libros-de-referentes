@@ -1787,3 +1787,147 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `recomendadoPor` de las 8, sin duplicados (incluye `the-network-state`, que tiene `asin`
   vacío por regla §3.4 pero cuenta como enriquecida por tener cuerpo completo). Cierra con
   enlaces a `/referentes` y `/categorias/negocios`.
+
+- **2026-07-22 — Discovery: Peter Thiel.** Backlog previo: 3/3 (Zero to One, El individuo
+  soberano, Things Hidden Since the Foundation of the World). Fuente fetcheada:
+  **fs.blog/peter-thiel-favorite-reads** (Farnam Street, nov/2014), que compila 2 fuentes
+  primarias con cita real de Thiel: 3 libros de una respuesta al Wall Street Journal (2012,
+  "libros que más disfrutó ese año") + 4 libros de una Reddit AMA ("me gusta el género de libros
+  del pasado escritos sobre el futuro"). Manifiesto de 8: 100 Plus (Sonia Arrison), Bloodlands
+  (Timothy Snyder), Resurrection From the Underground (René Girard — sobre Dostoievski, obra
+  real y distinta de *Things Hidden*, mismo autor ya en catálogo), Psychopolitics (Jean-Michel
+  Oughourlian, sugerido por Thiel en la misma respuesta), New Atlantis (Francis Bacon, 1627),
+  The American Challenge (Jean-Jacques Servan-Schreiber), The Great Illusion (Norman Angell),
+  The Diamond Age (Neal Stephenson). **Reconciliación manual (Glob, lote chico): 0 YA-LINKED, 0
+  CROSS-REF, 8 NUEVO** — ninguno matcheaba el catálogo. **No enriquecido todavía.** Peter Thiel
+  quedaría en 3 → 11 libros si se hace la tanda completa.
+
+- **2026-07-22 — Discovery: Angela Duckworth.** Backlog previo: 3/3 (Grit, Flow, Mindset).
+  Fuente fetcheada: la sección "Recommended Reading" del propio libro *Grit* (págs. 283-284),
+  vía la lista de Goodreads que la reproduce completa (**goodreads.com/list/show/105205**,
+  "A list of all of the books from the recommended reading section of Grit, found on page 283
+  and 284") — es, literalmente, la bibliografía de su propio libro, la fuente más primaria
+  posible. Manifiesto de 19: Peak (Ericsson), Mindset (Dweck), Make It Stick (Brown), Why We Do
+  What We Do (Deci), Learned Optimism (Seligman), How Children Succeed (Tough), The Path to
+  Purpose (Damon), Thanks! (Emmons), The Myth of Achievement Tests (Heckman, ed.), Wired to
+  Create (Kaufman), The Rise (Lewis), Head Strong (Matthews), Divine Fury (McMahon), The
+  Marshmallow Test (Mischel), Rethinking Positive Thinking (Oettingen), The Power of Interest
+  for Motivation and Engagement (Renninger), Age of Opportunity (Steinberg), Superforecasting
+  (Tetlock), Why Don't Students Like School? (Willingham).
+  **Reconciliación manual (Glob + Grep de títulos, sin `reconciliar.py` por ser de origen
+  distinto a un slug estándar): 1 YA-LINKED** (Mindset, ya en `recomendadoPor` de
+  `angela-duckworth`) **+ 0 CROSS-REF + 18 NUEVO** — ninguno de los 18 matcheaba el catálogo
+  (verificado también que Superforecasting y otros títulos populares no estuvieran ya cargados
+  bajo otro referente). **No enriquecido todavía.** Es, por lejos, el backlog más grande de los
+  tres — Angela Duckworth quedaría en 3 → 21 libros si se hace la tanda completa.
+
+- **2026-07-22 — Discovery: Daniel Kahneman.** Backlog previo: 3/3 (Pensar rápido, pensar
+  despacio, Nudge, El desafío de Kahneman/The Undoing Project). Kahneman falleció en marzo de
+  2024, así que no hay ni habrá una fuente nueva — se trabajó con lo documentado hasta esa
+  fecha. Fuente principal: **goodbooks.io/people/daniel-kahneman**, agregador editorial
+  (metodología propia: validan cada sugerencia contra entrevistas o contacto directo) que lista
+  5 libros; más una fuente independiente confirmada por separado: el elogio de tapa real de
+  Kahneman para *Homo Deus* de Harari ("Homo Deus te va a shockear. Te va a entretener. Sobre
+  todo, te va a hacer pensar de maneras en las que no habías pensado antes"), verificado que es
+  el blurb real impreso en ediciones del libro. Manifiesto de 6: Skin in the Game (Taleb),
+  Loonshots (Safi Bahcall), Scarcity (Mullainathan y Shafir), Simpler (Cass Sunstein), Clinical
+  Versus Statistical Prediction (Paul Meehl, 1954 — monografía académica, no un libro de
+  divulgación; queda para decidir si se carga o se descarta por no encajar con el tono del
+  sitio), Homo Deus (Harari).
+  **Reconciliación manual (Glob): 2 CROSS-REF + 4 NUEVO.** **2 CROSS-REF aplicados de
+  inmediato** (son triviales, sin ambigüedad): `homo-deus` sumó a `daniel-kahneman` con su cita
+  real de tapa tejida en la sección de atribución (ahora "Por qué lo recomiendan Richard Branson
+  y Daniel Kahneman"); `skin-in-the-game` sumó a `daniel-kahneman` en el cierre de la sección de
+  Naval Ravikant (sin cita propia disponible, solo la mención en el agregador). **4 NUEVO sin
+  enriquecer todavía**: Loonshots, Scarcity, Simpler, Clinical Versus Statistical Prediction.
+  Daniel Kahneman: 3 → 5 libros aplicados (cross-refs), quedaría en 9 si se completa la tanda de
+  NUEVO.
+
+  **Resumen de los tres discoveries:** 30 candidatos NUEVO en total (8 Thiel + 18 Duckworth + 4
+  Kahneman) más los 2 cross-ref de Kahneman ya aplicados. Ninguno enriquecido todavía — a
+  definir con el usuario cómo tandear antes de escribir las fichas y los 4 listicles
+  (Thiel/Duckworth/Kahneman/James Clear) pendientes de la sesión.
+
+- **2026-07-22/23 — Enriquecimiento: Peter Thiel + Angela Duckworth + Daniel Kahneman, las 30
+  fichas NUEVO completas en una sola tanda (decisión del usuario: "Todo ahora, los 3 completos"),
+  vía 4 subagentes Sonnet en paralelo.
+  **Peter Thiel (8/8):** 100 Plus [solo inglés, Basic Books, asin 0465063764] (Sonia Arrison);
+  Tierras de sangre [ES, Galaxia Gutenberg, asin 848109949X] (Timothy Snyder); Resurrection From
+  the Underground [solo inglés, Michigan State UP, asin 1611860377] (René Girard — aclarado en
+  el cuerpo que es obra distinta de *Things Hidden Since the Foundation of the World*, ya en
+  catálogo del mismo autor); Psychopolitics [solo inglés, Michigan State UP, asin 1611860539]
+  (Jean-Michel Oughourlian, colaborador de Girard); Nueva Atlántida [ES, Akal, asin 8446016532]
+  (Francis Bacon, 1627 — se descartaron ediciones ES self-published/POD de dudosa procedencia);
+  El desafío americano [ES, Plaza & Janés, asin 8422601028] (Jean-Jacques Servan-Schreiber); The
+  Great Illusion [solo inglés, Cosimo Classics, asin 1602069387] (Norman Angell — se descartó una
+  "edición ES" con ISBN falso en Amazon); La era del diamante [ES, B de Bolsillo, asin
+  8498723647] (Neal Stephenson). Todas las citas de atribución usan las palabras reales de Thiel
+  de la respuesta al WSJ 2012 y su Reddit AMA (vía fs.blog), sin inventar razones donde no había
+  cita textual (The Great Illusion, The Diamond Age). **Peter Thiel: 3 → 11 libros.**
+  **Angela Duckworth (18/18, vía 2 subagentes en paralelo):** Número uno / Peak [ES, Conecta,
+  asin 8416029814] (Ericsson); Make It Stick [solo inglés, Belknap Press, asin 0674729013]
+  (Brown); Why We Do What We Do [solo inglés, Penguin, asin 0140255265] (Deci); Aprenda
+  optimismo [ES, Debolsillo, asin 8499087973] (Seligman); Cómo hacer que los niños triunfen [ES,
+  Vergara, asin 6074805784] (Tough); The Path to Purpose [solo inglés, Free Press, asin
+  1416537236] (Damon); ¡Gracias! [ES, Ediciones B, asin 8466638415] (Emmons); Wired to Create
+  [solo inglés, TarcherPerigee, asin 0399174109] (Kaufman); The Rise [solo inglés, Simon &
+  Schuster, asin 1451629249] (Lewis); Head Strong [solo inglés, Oxford UP, asin 0199916179]
+  (Matthews); Divine Fury [solo inglés, Basic Books, asin 0465003257, categoria historia en vez
+  de psicologia] (McMahon); El test de la golosina [ES, Debate, asin 8499925049] (Mischel);
+  Rethinking Positive Thinking [solo inglés, Current, asin 1617230235] (Oettingen); The Power of
+  Interest for Motivation and Engagement [solo inglés, Routledge, asin 1138779792] (Renninger);
+  Age of Opportunity [solo inglés, HMH, asin 0544279778] (Steinberg); Superpronosticadores [ES,
+  Katz Editores, asin 8415917279] (Tetlock); ¿Por qué a los estudiantes no les gusta la escuela?
+  [ES, Aptus, asin Kindle B09SLYNX9T] (Willingham); The Myth of Achievement Tests [solo inglés,
+  University of Chicago Press, asin 022632480X] (Heckman, ed.). Fuente de atribución para las 18:
+  la sección "Recommended Reading" del propio libro *Grit* (págs. 283-284, vía la lista de
+  Goodreads que la reproduce), sin citas textuales inventadas de Duckworth — cada ficha explica
+  la conexión temática real con su investigación. **Angela Duckworth: 3 → 21 libros.**
+  **Daniel Kahneman (4/4):** Loonshots [solo inglés, St. Martin's, asin 1250185963, categoria
+  negocios] (Safi Bahcall); Escasez [ES, FCE, asin 607163170X, categoria psicologia]
+  (Mullainathan y Shafir); (más) Simple: El futuro del Gobierno [ES, Marcial Pons, asin
+  8416212422, categoria negocios] (Cass Sunstein); Clinical Versus Statistical Prediction [solo
+  inglés, monografía académica de 1954, asin 1568218311, categoria psicologia] (Paul Meehl —
+  se decidió incluirla, con formato de intro breve, por ser una influencia seminal real y
+  documentada de Kahneman, no un libro de nicho sin conexión). Para Loonshots/Scarcity/Simpler no
+  había cita textual de Kahneman (fuente: agregador goodbooks.io) → atribución por conexión
+  temática, sin inventar quotes. **Daniel Kahneman: 5 → 9 libros** (sobre los 2 cross-ref ya
+  aplicados el mismo día).
+  Verificación (Opus): spot-check de 3 fichas (Clinical Versus Statistical Prediction,
+  Resurrection From the Underground, The Myth of Achievement Tests) sin errores — ASIN de 10
+  caracteres, sin citas inventadas, atribución correcta, buena disambiguación de obras del mismo
+  autor. Confirmada la existencia física de las 30 fichas vía Glob. **0 ASIN inventados, todos
+  verificados por WebSearch contra listados reales.** Catálogo: 194 → 224 libros (sumando las 30
+  fichas + los 2 cross-ref previos que ya estaban contados). **Pendiente: correr
+  `detectar_duplicados.py`** (recomendado para Marcelo, no se corrió desde el sandbox) y escribir
+  los 4 listicles (Thiel, Duckworth, Kahneman, James Clear).
+
+- **2026-07-23 — Los 4 listicles pendientes, escritos en paralelo (4 subagentes Sonnet).**
+  **Peter Thiel** (`libros-que-recomienda-peter-thiel.md`, nuevo): 11 libros en 4 grupos —
+  Construir algo nuevo: de startups al Estado (3), René Girard y la irracionalidad humana (3),
+  Historia y el costo real del poder (2), Ciencia, longevidad y futuros especulativos (3).
+  **Angela Duckworth** (`libros-que-recomienda-angela-duckworth.md`, nuevo): 21 libros en 6
+  grupos (3+3+4+4+4+3) — Su propia investigación y las bases de la psicología positiva; Cómo se
+  entrena de verdad una habilidad; Motivación y por qué hacemos lo que hacemos; Propósito,
+  carácter e infancia; Creatividad, genio y fracaso productivo; Resiliencia y visión de futuro.
+  **Daniel Kahneman** (`libros-que-recomienda-daniel-kahneman.md`, nuevo): 9 libros en 4 grupos
+  (2+3+2+2) — Su propia obra y el mapa de nuestros sesgos; Cómo el contexto moldea la decisión;
+  Riesgo, responsabilidad y el largo plazo; Los límites del juicio experto.
+  **James Clear** (`libros-que-recomienda-james-clear.md`, nuevo — usa su catálogo actual de 36
+  libros vinculados, NO el backlog perdido de 131 candidatos del 2026-07-17, por decisión del
+  usuario): 36 libros en 7 grupos (6+6+5+4+4+5+6) — Hábitos, decisiones y la mente que elegimos;
+  Grandes ideas para entender el mundo (y a nosotros mismos); Negocios y el arte de crear algo
+  que dure; Biografías y rutinas de gente notable; Coraje real: historias de superación y
+  resistencia; Clásicos que atraviesan generaciones; Novelas sobre identidad, raza y el peso de
+  la historia. Confirmado que las 36 fichas leídas tenían `james-clear` en `recomendadoPor`.
+  Verificación (Opus): spot-check completo de los listicles de Kahneman y James Clear (los dos
+  de mayor riesgo, uno por antigüedad del referente y otro por escala) — 0 títulos parafraseados
+  (todos usan el `titulo` exacto de cada ficha), 0 citas inventadas, 0 duplicados, estructura y
+  tono consistentes con los listicles previos (Vitalik Buterin, Andrew Ng, Reese Witherspoon
+  como modelos). **Blog: 18 → 22 artículos.** Con esto se cierra la tanda completa de discovery +
+  enriquecimiento + listicle para Thiel, Duckworth y Kahneman, y queda publicado por primera vez
+  el listicle de James Clear.
+  **`detectar_duplicados.py` corrido por Marcelo (2026-07-23): 0 `[DUP]` exactos, 49 `[REV]`**
+  (autores con 2+ libros) — revisados todos: 100% legítimos, obras distintas del mismo autor,
+  incluyendo los casos nuevos de esta tanda (René Girard, Timothy Snyder, Neal Stephenson,
+  Michael Lewis, Yuval Noah Harari). Catálogo confirmado limpio, sin duplicados reales.

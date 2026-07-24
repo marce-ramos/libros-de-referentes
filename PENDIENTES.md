@@ -1,6 +1,16 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-22 (Discovery + tanda 1: Adam Grant — fuente
+Punto de retomada. Última actualización: 2026-07-23 (Escritos los 4 listicles pendientes —
+**Peter Thiel** (11 libros), **Angela Duckworth** (21), **Daniel Kahneman** (9) y **James Clear**
+(36, con su catálogo actual, sin tocar el backlog perdido de 131 ítems) — vía 4 subagentes Sonnet
+en paralelo, cerrando la tanda completa de discovery + enriquecimiento + listicle de esta sesión.
+Blog: 18 → 22 artículos. `detectar_duplicados.py` corrido por Marcelo: 0 duplicados exactos, 49
+casos de autor-con-2+-libros revisados y todos legítimos — catálogo limpio. Detalle completo en
+PROGRESO.md; mismo día, antes: enriquecimiento completo de las
+30 fichas NUEVO descubiertas el día anterior para Peter Thiel [3→11], Angela Duckworth [3→21] y
+Daniel Kahneman [5→9, sobre 2 cross-ref ya aplicados], decisión del usuario "Todo ahora, los 3
+completos" — 0 ASIN inventados, spot-check de Opus sin errores; antes, 2026-07-22 (Discovery +
+tanda 1: Adam Grant — fuente
 real de su newsletter Granted, adamgrant.substack.com, 32 candidatos en 3 posts de
 recomendaciones 2025-2026; reconciliado con `reconciliar.py`: 1 CROSS-REF (`1929`, vía Obama,
 aplicado) + 1 REVISAR resuelto a NUEVO (`Inside the Box` ≠ `Range`, mismo autor) + 30 NUEVO;
@@ -64,11 +74,12 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 18 artículos — 17 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
+- **Blog:** 22 artículos — 21 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
   Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
   Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9, Vitalik
-  Buterin 8) + 1 best-of de categoría (Negocios e Inversión). Todas las fichas enlazadas están
-  saneadas.
+  Buterin 8, **Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36** — estos
+  4 últimos escritos el 2026-07-23) + 1 best-of de categoría (Negocios e Inversión). Todas las
+  fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -93,10 +104,11 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
 2. **Blog — seguir el calendario (§10 de CONTENIDO.md).** Fase 1: listicles de referentes
    → hechos: Musk, Jordan Peterson, Tim Ferriss, **Ray Dalio, Mark Zuckerberg** (2026-07-09,
    regenerado a 23 libros el 2026-07-13), **Satya Nadella** (2026-07-14, nueva, 20 libros).
-   **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4,
-   James Clear 4/4, Peter Thiel 3/3, Angela Duckworth 3/3, Yuval Noah Harari 13/13 (profundizado
-   2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver PROGRESO.md),
-   Daniel Kahneman 3/3, Ryan Holiday 4/4, Naval Ravikant 4/4.
+   ✅ **Publicados el 2026-07-23: Peter Thiel (11), Angela Duckworth (21), Daniel Kahneman (9) y
+   James Clear (36 — con su catálogo actual, sin tocar el backlog perdido de 131 ítems).**
+   **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4**,
+   Yuval Noah Harari 13/13 (profundizado 2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver
+   PROGRESO.md), Ryan Holiday 4/4, Naval Ravikant 4/4.
    Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
    2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
    "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes), Simon

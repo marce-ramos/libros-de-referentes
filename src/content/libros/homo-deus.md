@@ -5,17 +5,18 @@ asin: "8499926711"
 categoria: ciencia
 recomendadoPor:
   - richard-branson
+  - daniel-kahneman
 anio: 2016
-resumen: "La continuación de Sapiens, donde Yuval Noah Harari se pregunta hacia dónde va la humanidad cuando el hambre, las plagas y la guerra dejan de ser el problema central. Está en la lista de 70 libros imprescindibles que Richard Branson publicó en el blog de Virgin."
+resumen: "La continuación de Sapiens, donde Yuval Noah Harari se pregunta hacia dónde va la humanidad cuando el hambre, las plagas y la guerra dejan de ser el problema central. Recomendado por Richard Branson y elogiado por Daniel Kahneman."
 destacado: false
-fechaActualizado: 2026-07-13
+fechaActualizado: 2026-07-22
 ---
 
 ¿Qué hace un dios cuando ya resolvió el hambre, las plagas y la guerra? Yuval Noah Harari se hace esa pregunta incómoda en la continuación de *Sapiens*, y las respuestas no son nada tranquilizadoras.
 
-## Por qué lo recomienda Richard Branson
+## Por qué lo recomiendan Richard Branson y Daniel Kahneman
 
-Branson sumó *Homo Deus* a su lista de "70 must-read books", publicada en el blog de Virgin (virgin.com) en abril de 2017, junto con *Sapiens*, del mismo autor. Como emprendedor que apostó fuerte por el turismo espacial con Virgin Galactic y por la biotecnología, Branson encuentra en Harari un interlocutor que piensa en las mismas escalas de tiempo que él: hacia dónde va la especie humana cuando la tecnología empieza a superar los límites biológicos que antes dábamos por naturales.
+Branson sumó *Homo Deus* a su lista de "70 must-read books", publicada en el blog de Virgin (virgin.com) en abril de 2017, junto con *Sapiens*, del mismo autor. Como emprendedor que apostó fuerte por el turismo espacial con Virgin Galactic y por la biotecnología, Branson encuentra en Harari un interlocutor que piensa en las mismas escalas de tiempo que él: hacia dónde va la especie humana cuando la tecnología empieza a superar los límites biológicos que antes dábamos por naturales. Daniel Kahneman, premio Nobel de Economía, lo avaló en una frase que la propia editorial usó como elogio de tapa: "Homo Deus te va a shockear. Te va a entretener. Sobre todo, te va a hacer pensar de maneras en las que no habías pensado antes".
 
 ## De qué trata
 
