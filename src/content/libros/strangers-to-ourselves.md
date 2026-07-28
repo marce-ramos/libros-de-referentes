@@ -4,7 +4,7 @@ autorLibro: "Timothy D. Wilson"
 asin: "0674009363"
 categoria: psicologia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2002
 resumen: "Timothy Wilson explica por qué nos conocemos mucho menos de lo que creemos y cómo un 'inconsciente adaptativo' toma buena parte de nuestras decisiones sin que nos demos cuenta. Recomendado por Malcolm Gladwell."
 destacado: false

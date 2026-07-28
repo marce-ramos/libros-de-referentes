@@ -5,17 +5,18 @@ asin: "8494716964"
 categoria: ficcion
 recomendadoPor:
   - dua-lipa
+  - emma-watson
 anio: 2017
-resumen: "Cuatro generaciones de una familia coreana en Japón: una novela épica sobre identidad, discriminación y supervivencia que Dua Lipa eligió como su pick de julio 2023 en el Service95 Book Club."
+resumen: "Cuatro generaciones de una familia coreana en Japón: una novela épica sobre identidad, discriminación y supervivencia que Dua Lipa eligió como su pick de julio 2023 en el Service95 Book Club. También integró la lista de Our Shared Shelf, el club feminista de Emma Watson."
 destacado: false
 fechaActualizado: 2026-07-12
 ---
 
 Hay novelas que te enseñan algo que ningún documental puede enseñarte: lo que se siente vivir dentro de una historia que el mundo oficial ignora. *Pachinko*, de Min Jin Lee, es esa clase de libro. Una saga familiar que atraviesa ocho décadas y te deja pensando en quién paga el precio de la historia y quién tiene el privilegio de olvidarla.
 
-## Por qué lo recomienda Dua Lipa
+## Por qué lo recomiendan Dua Lipa y Emma Watson
 
-En julio de 2023, Dua Lipa incluyó *Pachinko* como su lectura mensual en el Service95 Book Club. El club tiene una inclinación clara hacia narrativas globales que exploran identidad, diáspora y resistencia —temas que Min Jin Lee trabaja con una profundidad poco común en la ficción contemporánea. *Pachinko* es exactamente el tipo de novela que el Service95 promueve: ambiciosa en alcance, rigurosa en investigación, y capaz de llegar a lectores de mundos muy distintos.
+En julio de 2023, Dua Lipa incluyó *Pachinko* como su lectura mensual en el Service95 Book Club. El club tiene una inclinación clara hacia narrativas globales que exploran identidad, diáspora y resistencia —temas que Min Jin Lee trabaja con una profundidad poco común en la ficción contemporánea. *Pachinko* es exactamente el tipo de novela que el Service95 promueve: ambiciosa en alcance, rigurosa en investigación, y capaz de llegar a lectores de mundos muy distintos. También lo recomienda Emma Watson, que lo sumó a la lista de Our Shared Shelf, su club de lectura feminista.
 
 ## De qué trata
 

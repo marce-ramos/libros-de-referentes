@@ -4,7 +4,7 @@ autorLibro: "Tom Vanderbilt"
 asin: "8483068435"
 categoria: ciencia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2008
 resumen: "Tom Vanderbilt investiga qué revela sobre nosotros la forma en que manejamos, desde la psicología del volante hasta la ingeniería del tránsito. Recomendado por Malcolm Gladwell."
 destacado: false

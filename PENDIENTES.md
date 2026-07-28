@@ -1,6 +1,22 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-23 (Escritos los 4 listicles pendientes —
+Punto de retomada. Última actualización: 2026-07-24 (**Richard Branson: backlog 100% cerrado**
+— tanda 3/3 final, 21 libros [49 → 70, coincide con el título "70 must-read books"], listicle
+regenerado de 49 a 70. De paso, recuento completo del directorio de blog vía `Glob`: el catálogo
+real es **28 artículos** (27 listicles + 1 best-of), no 23 — el conteo anterior nunca había
+incluido a Branson [listicle real desde 07-16] ni a Malcolm Gladwell [listicle real desde 07-17],
+corregido acá. **Bug de slug de Malcolm Gladwell — RESUELTO (2026-07-19):** el referente usaba el
+slug con typo `malcom-gladwell` (faltaba una "l") en su ficha de autor, en las 21 fichas que lo citan
+y en `ambitos.ts`. Corregido: ficha de autor renombrada a `autores/malcolm-gladwell.md` (la vieja
+eliminada), las 21 fichas y `ambitos.ts` actualizadas, y 301 agregado en `_redirects`
+(`/referentes/malcom-gladwell` → `/referentes/malcolm-gladwell`) porque Google ya había indexado la
+URL con typo. Verificado: 0 referencias funcionales al slug viejo (solo quedan menciones en
+PROGRESO/WORKLIST como historial). Mismo día, antes: discovery +
+enriquecimiento + listicle completo de **Emma Watson**: fuente radicalreads.com con citas reales
+de Watson sobre su club "Our Shared Shelf" — 4 → 32 libros, backlog 100% cerrado, listicle nuevo.
+Antes: tanda 4 de **Oprah Winfrey** (69 → 92 libros) — listicle regenerado a 92. Detalle completo
+en PROGRESO.md;
+antes, 2026-07-23 (Escritos los 4 listicles pendientes —
 **Peter Thiel** (11 libros), **Angela Duckworth** (21), **Daniel Kahneman** (9) y **James Clear**
 (36, con su catálogo actual, sin tocar el backlog perdido de 131 ítems) — vía 4 subagentes Sonnet
 en paralelo, cerrando la tanda completa de discovery + enriquecimiento + listicle de esta sesión.
@@ -74,12 +90,14 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 22 artículos — 21 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk, Jordan
-  Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval Ravikant,
-  Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9, Vitalik
-  Buterin 8, **Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36** — estos
-  4 últimos escritos el 2026-07-23) + 1 best-of de categoría (Negocios e Inversión). Todas las
-  fichas enlazadas están saneadas.
+- **Blog:** 28 artículos (recontado por `Glob` el 2026-07-24, corrigiendo un conteo previo que
+  venía arrastrando un error) — 27 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk,
+  Jordan Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval
+  Ravikant, Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9,
+  Vitalik Buterin 8, Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36,
+  Emma Watson 32, Oprah Winfrey 92, Stephen King, J.K. Rowling, Malcolm Gladwell (⚠️ slug con typo,
+  ver arriba), **Richard Branson 70** (regenerado 2026-07-24)) + 1 best-of de categoría (Negocios
+  e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -111,9 +129,13 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    PROGRESO.md), Ryan Holiday 4/4, Naval Ravikant 4/4.
    Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
    2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
-   "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes), Simon
-   Sinek, Lex Fridman, Malala, Kasparov; sin arrancar: Jeff Bezos, Nassim Taleb,
-   Neil deGrasse Tyson, Malcolm Gladwell, Oprah (69/119 vinculados/enriquecidos al 2026-07-20, backlog ~50 restante), etc.
+   "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes); **Richard
+   Branson: backlog 100% cerrado (70/70), listicle publicado 2026-07-24** — sacado de esta lista;
+   **Malcolm Gladwell ya tiene listicle propio** (desde 07-17, con fuente real: Tim Ferriss Show,
+   The Week, "By the Book" NYT/Guardian) — sacado de "sin arrancar", pendiente de decidir el fix
+   del typo de slug (ver arriba) antes de profundizarlo más. Sin discovery real todavía: Simon
+   Sinek, Lex Fridman, Malala, Kasparov, Jeff Bezos, Nassim Taleb, Neil deGrasse Tyson; Oprah
+   (92/119 vinculados/enriquecidos al 2026-07-24, backlog ~33 restante + 3 de Bill Cosby excluidos), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
@@ -184,8 +206,15 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    agregado al nav del header (1er ítem) y a una fila de links en el footer (internal linking
    sitewide). Cada tramo tiene **paginado progresivo "Ver más"** (revela de a 8, todo el HTML
    se renderiza igual → SEO-safe).
-9. **Diversificación (más adelante).** Display ads (AdSense/Mediavine) con tráfico; sponsors
-   de newsletter; producto digital propio; micro-SaaS en Azure/.NET.
+9. **Diversificación de ingresos (más adelante).** Display ads (AdSense/Mediavine) con tráfico;
+   sponsors de newsletter; producto digital propio; micro-SaaS en Azure/.NET.
+10. **Canales de tráfico / social (más adelante, NO ahora — primero madurar el motor de contenido).**
+    **Pinterest, no Instagram.** IG es link-hostile (sin links en captions, solo bio) → no deriva
+    tráfico; sirve para marca, no para clicks. Pinterest es un buscador visual: cada pin linkea
+    afuera, el nicho de libros es enorme, los pins compounden (vida larga, aparecen en Google) y se
+    reusan los assets visuales del sitio. Flujo: pin → sitio → botón afiliado → amazon.es. Cuando se
+    encare, armar plan de Pinterest (tipo de pins, cadencia, reuso de assets); IG solo como jugada
+    de marca secundaria, con expectativas realistas.
 
 ---
 

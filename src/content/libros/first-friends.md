@@ -4,7 +4,7 @@ autorLibro: "Gary Ginsberg"
 asin: "1538702924"
 categoria: historia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2021
 resumen: "Gary Ginsberg reconstruye la historia de Estados Unidos a través de las amistades no electas que moldearon a nueve presidentes, desde Jefferson hasta Clinton. Lo recomienda Malcolm Gladwell."
 destacado: false

@@ -1,8 +1,8 @@
 ---
 titulo: "Los libros que recomienda Oprah Winfrey (guía 2026)"
-descripcion: "Los libros que recomienda Oprah Winfrey a través de su club de lectura desde 1996: clásicos, ficción histórica, memorias y más de 60 picks reales."
+descripcion: "Los libros que recomienda Oprah Winfrey a través de su club de lectura desde 1996: clásicos, ficción histórica, memorias y más de 90 picks reales."
 fecha: 2026-07-19
-fechaActualizado: 2026-07-20
+fechaActualizado: 2026-07-24
 autor: "Los Imperdibles"
 keywords: ["libros que recomienda Oprah Winfrey", "qué lee Oprah Winfrey", "libros favoritos de Oprah Winfrey"]
 draft: false
@@ -66,6 +66,9 @@ Un hombre sordomudo se convierte, sin buscarlo, en confidente de los marginados 
 ### [A Lesson Before Dying](/libros/a-lesson-before-dying) — Ernest J. Gaines
 Un maestro rural es convocado para ayudar a un hombre condenado injustamente a morir con dignidad, pick de septiembre de 1997.
 
+### [Ruby](/libros/ruby) — Cynthia Bond
+Una mujer marcada por el abuso en un pueblo de Texas de los años 50, y el hombre que intenta salvarla, pick de junio de 2015 (relanzamiento del club 2.0).
+
 ## Raza, memoria y resistencia en la ficción histórica
 
 El bloque más constante del club a lo largo de tres décadas: novelas que exploran la experiencia negra en Estados Unidos y en el mundo, desde la esclavitud hasta el presente.
@@ -99,6 +102,12 @@ Una familia misionera estadounidense en el Congo de la descolonización, pick de
 
 ### [Llanto por la tierra amada](/libros/cry-the-beloved-country) — Alan Paton
 Un pastor rural viaja a Johannesburgo a buscar a su hijo y descubre un país partido por la raza, pick de septiembre de 2003.
+
+### [The Love Songs of W. E. B. Du Bois](/libros/the-love-songs-of-web-du-bois) — Honorée Fanonne Jeffers
+Generaciones de una familia afroamericana en Georgia, desde la esclavitud hasta el presente, ganadora del National Book Critics Circle Award, pick de agosto de 2021.
+
+### [Kin](/libros/kin) — Tayari Jones
+Una novela distinta de *Un matrimonio americano*, de la misma autora, pick de febrero de 2026.
 
 ## La saga de Gilead, de Marilynne Robinson
 
@@ -150,6 +159,24 @@ Tres vidas entrelazadas desde la infancia en un pueblo industrial decadente de N
 ### [The River Is Waiting](/libros/the-river-is-waiting) — Wally Lamb
 Un padre debe reconstruirse después de una tragedia que él mismo provocó, pick de junio de 2025.
 
+### [The Deep End of the Ocean](/libros/the-deep-end-of-the-ocean) — Jacquelyn Mitchard
+El primer libro elegido en la historia de Oprah's Book Club: una madre cuyo hijo desaparece en un hotel y reaparece nueve años después, pick de septiembre de 1996.
+
+### [She's Come Undone](/libros/shes-come-undone) — Wally Lamb
+La vida de una mujer desde la infancia hasta la adultez, marcada por el trauma y el peso del cuerpo, con un humor negro poco común para el tema, pick de diciembre de 1996.
+
+### [I Know This Much Is True](/libros/i-know-this-much-is-true) — Wally Lamb
+Un hermano gemelo lucha por sostener a su hermano esquizofrénico mientras reconstruye su propia vida rota, pick de junio de 1998 (después adaptada como miniserie de HBO).
+
+### [Black and Blue](/libros/black-and-blue) — Anna Quindlen
+Una mujer huye con su hijo de un marido policía violento para empezar de cero bajo una identidad falsa, pick de abril de 1998.
+
+### [Arrodíllate](/libros/fall-on-your-knees) — Ann-Marie MacDonald
+Saga familiar sobre cuatro hermanas en Nueva Escocia a principios del siglo XX, con secretos que atraviesan generaciones, pick de abril de 2002.
+
+### [Familiaris](/libros/familiaris) — David Wroblewski
+La precuela de *La historia de Edgar Sawtelle*, sobre los orígenes de la familia Sawtelle y su linaje de perros, pick de junio de 2024.
+
 ## Comunidades puestas a prueba: barrio, pueblo y pertenencia
 
 Historias corales donde el lugar —un barrio, un pueblo chico, una comunidad entera— es tan protagonista como los personajes.
@@ -177,6 +204,12 @@ Lucy Barton, Olive Kitteridge y Bob Burgess se cruzan por primera vez en el pueb
 
 ### [Midwives](/libros/midwives) — Chris Bohjalian
 Una partera de Vermont enfrenta un juicio después de que un parto en casa termina en tragedia, pick de octubre de 1998.
+
+### [Donde está el corazón](/libros/where-the-heart-is) — Billie Letts
+Una adolescente embarazada y abandonada termina viviendo en secreto dentro de un Walmart y encuentra ahí una comunidad improvisada, pick de diciembre de 1998 (después película con Natalie Portman).
+
+### [El emperador de Alegría](/libros/the-emperor-of-gladness) — Ocean Vuong
+Un joven encuentra trabajo cuidando a un viudo anciano en una ciudad industrial de Connecticut, pick de mayo de 2025.
 
 ## Viajes, guerra y supervivencia
 
@@ -209,6 +242,12 @@ Una joven haitiana emigra a Nueva York y enfrenta el trauma heredado de las muje
 ### [Tú di que eres uno de ellos](/libros/say-you-re-one-of-them) — Uwem Akpan
 Cinco relatos sobre la infancia atravesada por la violencia y la pobreza en distintos países de África, pick de septiembre de 2009.
 
+### [Stones from the River](/libros/stones-from-the-river) — Ursula Hegi
+Una mujer enana en la Alemania nazi, contada desde la perspectiva de un pueblo pequeño que normaliza el horror poco a poco, pick de febrero de 1997.
+
+### [Cosas pequeñas como esas](/libros/small-things-like-these) — Claire Keegan
+Un vendedor de carbón en la Irlanda de los años 80 descubre los abusos de las lavanderías de las Magdalenas, nouvelle finalista del Booker Prize, pick de diciembre de 2024.
+
 ## Amor y reencuentros a través del tiempo
 
 Historias donde el paso de los años, en vez de apagar el vínculo entre dos personas, lo pone a prueba.
@@ -224,6 +263,12 @@ Una joven chilena que cruza el océano escondida en un barco para seguir a su am
 
 ### [El pacto del agua](/libros/the-covenant-of-water) — Abraham Verghese
 Tres generaciones de una familia en el sur de la India, marcada por una extraña maldición ligada al agua, pick de mayo de 2023.
+
+### [Here on Earth](/libros/here-on-earth) — Alice Hoffman
+Una reescritura moderna de *Cumbres borrascosas*: un reencuentro con un amor de juventud que desestabiliza un matrimonio, pick de marzo de 1998.
+
+### [Dream State](/libros/dream-state) — Eric Puchner
+Un triángulo amoroso que se extiende a lo largo de décadas en Montana, con el cambio climático como telón de fondo, pick de febrero de 2025.
 
 ## Memorias que marcaron una época
 
@@ -253,6 +298,21 @@ Las memorias de la actriz sobre la pobreza extrema de su infancia y su camino ha
 ### [From Here to the Great Unknown](/libros/from-here-to-the-great-unknown) — Lisa Marie Presley y Riley Keough
 Las memorias inconclusas de la hija de Elvis, completadas por su propia hija a partir de sus grabaciones, pick de octubre de 2024.
 
+### [The Measure of a Man: A Spiritual Autobiography](/libros/the-measure-of-a-man) — Sidney Poitier
+Las memorias espirituales del primer hombre negro en ganar el Oscar a Mejor Actor, desde la pobreza en Bahamas hasta Hollywood, pick de enero de 2007.
+
+### [The Tell](/libros/the-tell) — Amy Griffin
+Una empresaria e inversora recupera, en terapia asistida, recuerdos de abuso de su infancia, pick de marzo de 2025.
+
+### [Matriarch](/libros/matriarch) — Tina Knowles
+La madre de Beyoncé y Solange cuenta cómo crio a sus hijas en Houston y construyó su propia marca, pick de abril de 2025.
+
+### [Hasta la orilla del río](/libros/all-the-way-to-the-river) — Elizabeth Gilbert
+Una novela distinta de *Big Magic*, de la misma autora de *Comer, rezar, amar*: memorias sobre una relación de amor y adicción con una amiga cercana que murió, pick de septiembre de 2025.
+
+### [Enough](/libros/enough) — Oprah Winfrey y Ania M. Jastreboff
+El único libro de esta lista escrito por la propia Oprah, no una recomendación: su relación de décadas con el peso, junto a la ciencia detrás de los medicamentos GLP-1, publicado en enero de 2026.
+
 ## Historia, ciencia y espiritualidad
 
 Un grupo más chico, pero con algunos de los títulos de no ficción más citados del club.
@@ -265,6 +325,15 @@ Una familia de doce hijos, seis de ellos diagnosticados con esquizofrenia, se co
 
 ### [Una nueva tierra](/libros/a-new-earth) — Eckhart Tolle
 Una guía de crecimiento espiritual sobre el ego y el propósito de vida, pick de enero de 2008, repetido en enero de 2025.
+
+### [Desconcierto](/libros/bewilderment) — Richard Powers
+Un astrobiólogo viudo cría a su hijo neurodivergente con una terapia experimental de neurofeedback, finalista del Booker Prize 2021 (distinta de *El clamor de los bosques*, del mismo autor), pick de septiembre de 2021.
+
+### [The Way of Integrity: Finding the Path to Your True Self](/libros/the-way-of-integrity) — Martha Beck
+Sobre reconectar con la propia verdad interior después de vivir según expectativas ajenas, pick de febrero de 2022.
+
+### [Agridulce](/libros/bittersweet) — Susan Cain
+El segundo libro de la autora de *Quiet*, sobre cómo la melancolía y el anhelo pueden ser fuente de creatividad, pick de febrero de 2023.
 
 ---
 

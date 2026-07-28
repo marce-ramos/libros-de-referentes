@@ -4,7 +4,7 @@ autorLibro: "Janet Malcolm"
 asin: "8497840151"
 categoria: psicologia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1981
 resumen: "Una periodista de lujo se adentra en el mundo del psicoanálisis a través de un analista ortodoxo de Manhattan y revela las paradojas de la profesión más extraña del mundo. Recomendado por Malcolm Gladwell."
 destacado: false

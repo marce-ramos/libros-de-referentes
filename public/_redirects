@@ -2,3 +2,6 @@
 # Preserva el SEO de las URLs ya indexadas. Cloudflare Pages lee este archivo.
 /autores           /referentes            301
 /autores/*         /referentes/:splat     301
+
+# Typo de slug corregido: malcom -> malcolm (Malcolm Gladwell).
+/referentes/malcom-gladwell   /referentes/malcolm-gladwell   301

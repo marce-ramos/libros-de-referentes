@@ -5,7 +5,7 @@ asin: "8423432904"
 categoria: psicologia
 recomendadoPor:
   - adam-grant
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2021
 resumen: "Adam Grant propone una habilidad que nadie enseña en la escuela: la de reconsiderar lo que creemos saber. Recomendado por el propio Grant como su libro más importante para los tiempos que corren."
 destacado: false

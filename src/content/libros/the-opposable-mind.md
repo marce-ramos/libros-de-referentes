@@ -4,7 +4,7 @@ autorLibro: "Roger L. Martin"
 asin: "1422118924"
 categoria: negocios
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2007
 resumen: "Roger Martin diseca qué hace distintos a los CEOs excepcionales: la capacidad de sostener dos ideas contradictorias a la vez y crear una tercera mejor que ambas. Lo recomienda Malcolm Gladwell."
 destacado: false

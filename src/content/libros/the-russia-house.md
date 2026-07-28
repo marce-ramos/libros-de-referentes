@@ -4,7 +4,7 @@ autorLibro: "John le Carré"
 asin: "8408171712"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1989
 resumen: "John le Carré cierra la Guerra Fría con una novela de espías atravesada por el amor y la duda moral: un editor inglés mediocre se convierte en el puente entre un físico soviético desesperado y los servicios de inteligencia occidentales. Recomendada por Malcolm Gladwell."
 destacado: false

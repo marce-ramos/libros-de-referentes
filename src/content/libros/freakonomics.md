@@ -4,7 +4,7 @@ autorLibro: "Steven D. Levitt y Stephen J. Dubner"
 asin: "8496581810"
 categoria: negocios
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2005
 resumen: "El economista Steven Levitt y el periodista Stephen Dubner usan los incentivos para explicar desde el tráfico de drogas hasta el nombre que le ponés a tu hijo. Lo recomienda Malcolm Gladwell, que dice que este libro inventó un género."
 destacado: false

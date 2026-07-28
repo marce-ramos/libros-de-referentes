@@ -6,7 +6,7 @@ categoria: memorias
 recomendadoPor:
   - dua-lipa
   - james-clear
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2010
 resumen: "Las memorias de Patti Smith sobre sus años de juventud junto a Robert Mapplethorpe en el Nueva York de los setenta: un retrato de la amistad, el arte y la búsqueda de uno mismo, elegido por Dua Lipa como pick de septiembre 2023 en el Service95 Book Club."
 destacado: false

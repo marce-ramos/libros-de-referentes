@@ -4,7 +4,7 @@ autorLibro: "Charles Belfoure"
 asin: "1402284314"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2013
 resumen: "Una novela sobre un arquitecto parisino que, por dinero y sin ninguna intención heroica, empieza a diseñar escondites para judíos durante la ocupación nazi. Lo recomienda Malcolm Gladwell."
 destacado: false

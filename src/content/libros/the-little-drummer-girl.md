@@ -4,7 +4,7 @@ autorLibro: "John le Carré"
 asin: "8484504727"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1983
 resumen: "John le Carré lleva el espionaje al corazón del conflicto israelí-palestino con la historia de Charlie, una actriz inglesa reclutada por inteligencia israelí para infiltrar una célula terrorista. Recomendada por Malcolm Gladwell."
 destacado: false

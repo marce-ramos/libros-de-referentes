@@ -4,7 +4,7 @@ autorLibro: "John le Carré"
 asin: "8408161709"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1974
 resumen: "El regreso de George Smiley: le Carré arma una cacería de topos dentro del propio servicio de inteligencia británico. Recomendada por Malcolm Gladwell."
 destacado: false

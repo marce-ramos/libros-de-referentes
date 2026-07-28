@@ -4,7 +4,7 @@ autorLibro: "John le Carré"
 asin: "8497930509"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1963
 resumen: "La novela que consolidó a John le Carré como el gran cronista de la Guerra Fría, con un espionaje sin glamour y moralmente gris. Recomendada por Malcolm Gladwell."
 destacado: false

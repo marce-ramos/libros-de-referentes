@@ -4,7 +4,7 @@ autorLibro: "Jonathan Dee"
 asin: "0812983386"
 categoria: ficcion
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2013
 resumen: "Una novela sobre el poder y los límites del perdón público, con una protagonista que convierte la disculpa ajena en una estrategia profesional. Malcolm Gladwell la eligió como su libro favorito del verano de 2013."
 destacado: false

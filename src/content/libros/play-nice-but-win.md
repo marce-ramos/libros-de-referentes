@@ -5,7 +5,7 @@ asin: "0593087747"
 categoria: memorias
 recomendadoPor:
   - satya-nadella
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2021
 resumen: "Michael Dell narra en primera persona cómo fundó Dell desde su cuarto de estudiante y, años después, peleó para recomprar la empresa y sacarla de la bolsa. Satya Nadella, CEO de Microsoft, la cuenta entre las lecturas que le sirvieron para pensar el propio recorrido de fundador a líder."
 destacado: false

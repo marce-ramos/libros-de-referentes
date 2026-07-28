@@ -1931,3 +1931,192 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   (autores con 2+ libros) — revisados todos: 100% legítimos, obras distintas del mismo autor,
   incluyendo los casos nuevos de esta tanda (René Girard, Timothy Snyder, Neal Stephenson,
   Michael Lewis, Yuval Noah Harari). Catálogo confirmado limpio, sin duplicados reales.
+
+- **2026-07-23 — Acción "Profundizar": Oprah Winfrey, tanda 4 (23 libros: 22 NUEVO + 1 caso
+  especial).** Decisión del usuario (vía pregunta): tanda parcial de ~20-25 sobre el backlog
+  restante (~56 candidatos), priorizando los picks más relevantes/reconocibles (los primeros
+  históricos del club, autores ya conocidos por el catálogo, y los lanzamientos 2025-2026 de
+  mayor perfil) en vez de los 56 completos. También decidido: **incluir "Enough"** (libro propio
+  de Oprah, coescrito con la Dra. Ania M. Jastreboff, regla ya establecida del sitio) y
+  **excluir los 3 libros infantiles de Bill Cosby** (dic. 1997, fuera del tono/audiencia del
+  catálogo — mismo criterio que excluyó antes la saga completa de Harry Potter).
+  Trabajo hecho vía **3 subagentes Sonnet en paralelo** (lotes de 8/8/7), cada uno con
+  verificación de colisiones de slug/autor ANTES de escribir (Grep + Glob).
+  **Lote 1 (8, picks históricos 1996-2002):** The Deep End of the Ocean [solo inglés, asin
+  0140286276 — el PRIMER libro elegido en la historia del club, sept. 1996] (Jacquelyn
+  Mitchard); She's Come Undone [solo inglés, asin 0671021001] (Wally Lamb); Stones from the
+  River [solo inglés, asin 0684858096] (Ursula Hegi); Here on Earth [solo inglés, asin
+  0425169693] (Alice Hoffman); Black and Blue [solo inglés, asin 0440226104] (Anna Quindlen); I
+  Know This Much Is True [solo inglés, asin 0006513239] (Wally Lamb); Donde está el corazón [ES,
+  Ediciones B, asin 8440669771] (Billie Letts); Arrodíllate [ES, Mondadori, asin 843970285X]
+  (Ann-Marie MacDonald).
+  **Lote 2 (8, 2007-2024, varios con disambiguación de autor ya en catálogo):** The Measure of a
+  Man [solo inglés, asin 0061357901, categoria memorias] (Sidney Poitier); Ruby [solo inglés,
+  asin 0804188246] (Cynthia Bond); Desconcierto/Bewilderment [ES, AdN/Alianza, asin 841362682X —
+  distinto de *El clamor de los bosques*, mismo autor Richard Powers, ya en catálogo vía Bill
+  Gates] (Richard Powers); The Love Songs of W. E. B. Du Bois [solo inglés, asin 006294293X]
+  (Honorée Fanonne Jeffers); The Way of Integrity [solo inglés, asin 0593298780, categoria
+  psicologia] (Martha Beck); Agridulce/Bittersweet [ES, Ediciones Urano, asin 8417694692,
+  categoria psicologia — distinto de *Quiet*, misma autora Susan Cain, ya en catálogo]; Cosas
+  pequeñas como esas/Small Things Like These [ES, Eterna Cadencia, asin 8412492110 — distinto de
+  *So Late in the Day*, misma autora Claire Keegan, ya en catálogo]; Familiaris [solo inglés,
+  asin 0349147086 — precuela de *The Story of Edgar Sawtelle*, mismo autor David Wroblewski, ya
+  en catálogo].
+  **Lote 3 (7, 2025-2026, lanzamientos muy recientes + 1 caso especial):** Dream State [solo
+  inglés, asin 0385550669] (Eric Puchner); The Tell [solo inglés, asin 0593731204, categoria
+  memorias] (Amy Griffin); Matriarch [solo inglés, asin 0593597400, categoria memorias] (Tina
+  Knowles); El emperador de Alegría/The Emperor of Gladness [ES, Anagrama, asin 8433947796 —
+  distinto de *On Earth We're Briefly Gorgeous*, mismo autor Ocean Vuong, ya en catálogo] (Ocean
+  Vuong); Hasta la orilla del río/All the Way to the River [ES, Suma de Letras, asin B0FD6WXDY5
+  (ISBN-13 979-prefijo sin ISBN-10, se usó el ASIN), categoria memorias — distinto de *Big
+  Magic*, misma autora Elizabeth Gilbert, ya en catálogo] (Elizabeth Gilbert); Kin [solo inglés,
+  asin 0525659188 — distinto de *An American Marriage*, misma autora Tayari Jones, ya en
+  catálogo] (Tayari Jones); **Enough** [solo inglés, asin 1668217287, categoria memorias, caso
+  especial — libro propio de Oprah, coescrito con la Dra. Ania M. Jastreboff, sección de
+  atribución adaptada a "Por qué está en esta lista" en vez de "Por qué lo recomienda"] (Oprah
+  Winfrey y Ania M. Jastreboff).
+  ASIN de las 23 verificado real vía WebSearch (ISBN-10 o ASIN de edición impresa/Kindle real,
+  ninguno inventado). 4/23 con edición en español confirmada (Donde está el corazón, Arrodíllate,
+  Desconcierto, Agridulce, Cosas pequeñas como esas, El emperador de Alegría, Hasta la orilla del
+  río — son 7, no 4, la mayoría de las más recientes 2025-2026 quedaron solo inglés por ser
+  lanzamientos muy nuevos). Verificación (Opus): spot-check de 2 fichas (`enough`, `bewilderment`)
+  sin errores — atribución correcta, disambiguación de autor sólida, sin citas inventadas de
+  Oprah, caso especial de "Enough" bien resuelto. Nota de estilo menor: el slug `shes-come-
+  undone` no sigue el patrón habitual del sitio para apóstrofes (`-s-`, como en `why-don-t-
+  students-like-school`) — no es un error funcional, solo una inconsistencia cosmética, no
+  ameritó renombrar.
+  **Oprah Winfrey: 69 → 92 libros vinculados/enriquecidos.** Backlog restante: ~33 candidatos del
+  manifiesto original (56 - 23 de esta tanda) + los 3 de Bill Cosby (excluidos por decisión,
+  pueden reconsiderarse a futuro si cambia el criterio).
+  **2026-07-24 — Listicle de Oprah regenerado a 92** (retomado tras la pausa por Emma Watson):
+  integrados a mano (Opus, vía `Edit` puntuales, sin reescribir el archivo) los 23 libros nuevos en
+  los grupos temáticos existentes — Familias a la deriva (+6: The Deep End of the Ocean [primer
+  pick histórico del club, sept. 1996], She's Come Undone, I Know This Much Is True, Black and
+  Blue, Arrodíllate, Familiaris), Comunidades puestas a prueba (+2: Donde está el corazón, El
+  emperador de Alegría), El sur profundo (+1: Ruby), Raza/memoria/resistencia (+2: The Love Songs
+  of W. E. B. Du Bois, Kin), Viajes/guerra/supervivencia (+2: Stones from the River, Cosas
+  pequeñas como esas), Amor y reencuentros (+2: Here on Earth, Dream State), Memorias que
+  marcaron una época (+5: The Measure of a Man, The Tell, Matriarch, Hasta la orilla del río,
+  Enough), Historia/ciencia/espiritualidad (+3: Desconcierto, The Way of Integrity, Agridulce). No
+  se creó ningún grupo nuevo; no se tocó ningún libro preexistente. Verificado por conteo (Grep de
+  encabezados `###`/bullets, descontando los 4 repetidos de "Por dónde empezar"): **92/92 libros**
+  presentes, 0 faltantes, 0 de más. Frontmatter actualizado (`fechaActualizado: 2026-07-24`,
+  descripción "más de 90 picks reales"). **Listicle de Oprah: cerrado y al día.**
+
+- **2026-07-24 — Discovery + enriquecimiento + listicle completo: Emma Watson (Our Shared
+  Shelf).** Emma Watson solo tenía 4 libros vinculados (Monólogos de la vagina, Persépolis, Los
+  argonautas, El cuento de la criada), todos cargados como cross-refs sueltos — nunca se había
+  fetcheado la fuente real de su club de lectura feminista "Our Shared Shelf" (Goodreads,
+  2016-2019), pese a que la ficha del referente ya la mencionaba. Fuente fetcheada:
+  **radicalreads.com/emma-watson-favorite-books** ("All 32 of Emma Watson's Feminist Book Club
+  Picks", vía el hilo completo de Goodreads), que reproduce **citas textuales reales de la propia
+  Watson** (marcadas "-EW") para buena parte de los 32 picks — cumple con creces la regla de oro
+  de MODO DESCUBRIR. Manifiesto de 32 → reconciliación manual (Grep + Glob, lote no ambiguo): **4
+  YA-LINKED** (los 4 ya mencionados) + **1 CROSS-REF** (`pachinko`, ya en catálogo vía Dua Lipa —
+  se sumó `emma-watson` a `recomendadoPor` y se renombró la sección a "Por qué lo recomiendan Dua
+  Lipa y Emma Watson") + **27 NUEVO** directos, de los cuales 4 con disambiguación de autor ya en
+  catálogo (Roxane Gay: *Hunger* ≠ *Bad Feminist*/Dua Lipa; Nicholas D. Kristof: *Half the Sky* ≠
+  *Chasing Hope*/Bill Gates; Maya Angelou: *Mom & Me & Mom* ≠ *I Know Why the Caged Bird
+  Sings*/Richard Branson; Toni Morrison: *Beloved* ≠ Song of Solomon/Sula/The Bluest Eye/Paradise,
+  las 4 de Oprah — confirmadas todas como obras reales y distintas antes de escribir).
+  **27 NUEVO enriquecidos** vía 3 subagentes Sonnet en paralelo (9/9/9): Mi vida en la carretera
+  [ES, Alpha Decay, asin 8494511343] (Gloria Steinem); El color púrpura [ES, Debolsillo, asin
+  8401491150] (Alice Walker); Todo sobre el amor [ES, Paidós, asin 8449337917] (bell hooks); Cómo
+  ser mujer [ES, Anagrama, asin 8433977717] (Caitlin Moran); Hunger Makes Me a Modern Girl [solo
+  inglés, Riverhead, asin 0399184767] (Carrie Brownstein); La mitad del cielo [ES, Duomo, asin
+  8492723823] (Kristof/WuDunn); Mom & Me & Mom [solo inglés, asin 1400066115] (Maya Angelou);
+  Mujeres que corren con los lobos [ES, Ediciones B, asin 8413141214] (Clarissa Pinkola Estés); El
+  mito de la belleza [ES, Continta Me Tienes, asin 8412087682] (Naomi Wolf); Hambre [ES, Capitán
+  Swing, asin 8494740881] (Roxane Gay); El poder [ES, Roca Editorial, asin 8416859213] (Naomi
+  Alderman); Por qué no hablo con blancos sobre racismo [ES, Península, asin 8499429572] (Reni
+  Eddo-Lodge); Heart Berries [solo inglés, Counterpoint, asin 1619023342] (Terese Marie Mailhot);
+  Las chicas del radio [ES, Capitán Swing, asin 8494886118] (Kate Moore); El odio que das [ES,
+  Gran Travesía, asin 8494631578] (Angie Thomas); Leche y miel [ES, asin 151199715X] (Rupi Kaur);
+  Rebeca [ES, Debolsillo, asin 8497938860] (Daphne du Maurier); La hermana, la extranjera [ES,
+  Horas y Horas, asin 8487715931] (Audre Lorde); Eloquent Rage [solo inglés, asin 1250112575]
+  (Brittney Cooper); Good and Mad [solo inglés, asin 1501181815] (Rebecca Traister); The Things I
+  Would Tell You [solo inglés, asin 0863561462] (ed. Sabrina Mahfouz); Fierce Femmes and Notorious
+  Liars [solo inglés, asin 0994047134] (Kai Cheng Thom); Solito, Solita [solo inglés, asin
+  1608466183] (ed. Mayers/Freedman); Mariposa [ES, Plaza & Janés, asin 8401022134] (Yusra
+  Mardini); Beloved [ES, DeBolsillo, asin 8490625107] (Toni Morrison); ¿De quién es esta historia?
+  [ES, Lumen, asin 8426424457] (Rebecca Solnit); Cenicienta liberada [ES, Lumen, asin 842640779X]
+  (Rebecca Solnit).
+  Todas las citas textuales de Emma Watson usadas (marcadas "-EW" en la fuente) fueron traducidas
+  y tejidas en prosa, atribuidas correctamente; para los picks sin cita propia (~14 de 27) no se
+  inventó ninguna, solo se contextualizó el pick dentro de Our Shared Shelf.
+  Verificación (Opus): spot-check de 2 fichas (`beloved`, `hunger`) sin errores — disambiguación de
+  autor sólida, cita real bien atribuida, sin invenciones. ASIN de las 27 verificado real (10
+  caracteres), ninguno inventado. **Emma Watson: 4 → 32 libros vinculados/enriquecidos, backlog
+  100% cerrado** (Our Shared Shelf terminó en enero de 2020, así que no hay picks futuros que
+  esperar).
+  **Listicle escrito de cero** (`libros-que-recomienda-emma-watson.md`, no existía antes): 32
+  libros en 7 grupos temáticos — El eje del club: cuerpo, deseo y voz propia (5); Memorias de
+  artistas y activistas (5); Historias reales de supervivencia y coraje (4); Teoría y ensayo
+  feminista (7); Ficción especulativa: cuando el poder cambia de manos (2); Novelas sobre raza,
+  identidad e historia (4); Voces nuevas, antologías y relecturas (5). **Blog: 22 → 23 artículos.**
+  Pendiente recomendado: correr `detectar_duplicados.py` (Marcelo, desde Windows) para confirmar
+  que los 4 casos de disambiguación de autor de esta tanda quedaron bien.
+
+- **2026-07-24 — Richard Branson: tanda 3/3 (CIERRE del backlog, 21 libros).** Última tanda
+  pendiente desde el 2026-07-13/16 sobre la fuente **virgin.com/branson-family/richard-branson-
+  blog/70-must-read-books** (abril 2017). Se re-fetcheó la fuente completa para confirmar autores
+  exactos de los 21 ítems restantes (varios ambiguos de memoria) antes de despachar. Enriquecidos
+  vía 3 subagentes Sonnet en paralelo (7/7/7): Winners: And How They Succeed [solo inglés, asin
+  0091958857] (Alastair Campbell); Abundancia: El futuro es mejor de lo que piensas [ES, Antoni
+  Bosch, asin 8495348926 — **slug distinto** `abundance-the-future-is-better-than-you-think`,
+  disambiguado de `abundance.md`/Klein-Thompson ya en catálogo vía Gates/Obama] (Diamandis y
+  Kotler); The Weather Makers [solo inglés, asin 0802142923] (Tim Flannery); Big World, Small
+  Planet [solo inglés, asin 0300218362] (Rockström y Klum); Necker: A Virgin Island [solo inglés,
+  edición limitada teNeues, asin 3832797947 — **formato adaptado "Qué es"** en vez de "De qué
+  trata", libro de fotografía sobre la isla privada de Branson] (Russell James); Lost Ocean [solo
+  inglés, asin 0143108999 — **formato adaptado**, coloring book] (Johanna Basford); Arctica: The
+  Vanishing North [solo inglés, asin 3832732810 — prólogo del propio Branson, dato verificado]
+  (Sebastian Copeland); In-N-Out Burger [solo inglés, asin 0061346713] (Stacy Perman); The
+  Overview Effect [solo inglés, asin 1563472600] (Frank White); En defensa de la felicidad [ES,
+  Urano, asin 8479537841] (Matthieu Ricard); A Time for New Dreams [solo inglés, asin 1788549635]
+  (Ben Okri); The Meaning of the 21st Century [solo inglés, asin 1573223239] (James Martin); Self
+  Belief: The Vision [solo inglés, asin 0753555395] (Jamal Edwards); One Hundred & One Reasons to
+  Get Out of Bed [solo inglés, asin 0994462808 — el agente corrigió el tema real del libro
+  (entrevistas a conservacionistas ambientales, no autoayuda genérica) tras investigar] (Natasha
+  Milne); If I Could Tell You Just One Thing [solo inglés, asin 1782119248] (Richard Reed);
+  Letters to a Stranger [solo inglés, asin 0718181611 — vendido comercialmente como *Dear
+  Stranger: Letters on the Subject of Happiness*, mismo proyecto benéfico a favor de MIND, mismo
+  Branson como uno de los autores de las cartas, `autorLibro: "VV.AA."`] (VV.AA.); Ending the War
+  on Drugs [solo inglés, asin 0753557460, `autorLibro: "VV.AA."` — compilado por el propio Branson
+  como miembro de la Global Commission on Drug Policy, con ensayos de expresidentes (Zedillo,
+  Cardoso, Obasanjo, Gaviria) y expertos en política de drogas] (VV.AA.); Little Wins [solo
+  inglés, asin 0241977940] (Paul Lindley); Beyond the Blue: The Ultimate Insider's Guide to the
+  XPRIZE Revolution [solo inglés, asin 1886743207 — título ambiguo resuelto con alta confianza vía
+  contexto (el ítem siguiente en la lista original de Branson es *Abundance* de Peter Diamandis,
+  fundador del XPRIZE)] (James Richard Campbell); Obama: The Historic Presidency of Barack Obama –
+  2,920 Days [solo inglés, asin 1454926392 — formato semi-adaptado, libro de fotografía] (Mark
+  Greenberg); La casa más lejana/The Outermost House [ES, Volcano Libros, asin 8494993429] (Henry
+  Beston, 1928).
+  Verificación (Opus): spot-check de 3 fichas (`beyond-the-blue`, `101-reasons-to-get-out-of-bed`,
+  `necker-a-virgin-island`) sin errores — investigación honesta en los casos más ambiguos (el
+  agente corrigió su propia hipótesis inicial sobre 101 Reasons tras encontrar el libro real),
+  formato adaptado bien resuelto para los libros de fotografía/coloring book, sin contenido
+  inventado. ASIN de los 21 verificados reales (10 caracteres), ninguno inventado.
+  **Richard Branson: 49 → 70 libros vinculados/enriquecidos — backlog 100% cerrado** (coincide
+  exactamente con el título original de la fuente, "70 must-read books").
+
+  **2026-07-24 — Listicle de Branson regenerado a 70.** Corrección de un supuesto erróneo: se le
+  pidió al subagente escribir el listicle "por primera vez" asumiendo que no existía, pero en
+  realidad SÍ existía desde el 2026-07-16 (49 libros, formato `###`) — un dato que ya estaba
+  correctamente registrado en este mismo archivo más arriba pero que no se tuvo a mano al planear
+  esta tanda. El subagente detectó el archivo existente y lo reemplazó por completo (vía `Write`)
+  con la versión de 70 libros en formato de bullets (estilo James Clear/Reese Witherspoon), sin
+  pérdida de contenido real (los 49 libros previos están todos re-incluidos con su reseña
+  correspondiente). **70/70 libros verificados** (checklist 1-70 sin huecos ni repetidos, hecha
+  por el propio subagente antes de escribir) en **9 grupos temáticos**: Clásicos de infancia que
+  nunca envejecen (8), Aventura y clásicos de siempre (10), Ciencia ficción y especulación sobre
+  el futuro (6), Historia/guerra/coraje real (9), Negocios/liderazgo/modelos que rompen las reglas
+  (10), Ciencia/cosmos/planeta (9), Filantropía/justicia/coraje moral (6), Bienestar/propósito/
+  crecimiento personal (6), Fotografía/naturaleza/objetos que se disfrutan en silencio (6).
+  Verificación (Opus): lectura completa del archivo final, sin errores — todos los `titulo` exactos,
+  slugs verificados, sin duplicados. **Corrección de bookkeeping importante**: al recontar el
+  directorio de blog completo (`Glob`), el catálogo real es **28 artículos** (27 listicles de
+  referente + 1 best-of de categoría), no 23 como se venía registrando en PENDIENTES.md — el
+  conteo previo nunca había incluido a Richard Branson (con listicle desde 07-16) ni a Malcolm
+  Gladwell (con listicle propio ya existente, referente que PENDIENTES.md listaba erróneamente
+  como "sin arrancar"). Corregido en PENDIENTES.md.

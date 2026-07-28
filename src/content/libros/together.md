@@ -4,7 +4,7 @@ autorLibro: "Vivek H. Murthy"
 asin: "8491992634"
 categoria: psicologia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2020
 resumen: "El excirujano general de Estados Unidos plantea la soledad como una epidemia de salud pública tan real como cualquier otra. Malcolm Gladwell destacó cómo el libro amplía el debate médico más allá de hospitales y remedios."
 destacado: false

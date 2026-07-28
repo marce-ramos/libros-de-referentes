@@ -4,7 +4,7 @@ autorLibro: "Adam Alter"
 asin: "0143124935"
 categoria: psicologia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2013
 resumen: "Un recorrido por las fuerzas invisibles —colores, nombres, entornos— que moldean cómo pensamos y actuamos sin que lo notemos. Malcolm Gladwell lo eligió como el mejor libro de ciencia que leyó ese año."
 destacado: false

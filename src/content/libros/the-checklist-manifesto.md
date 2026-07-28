@@ -4,7 +4,7 @@ autorLibro: "Atul Gawande"
 asin: "849534856X"
 categoria: negocios
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 2009
 resumen: "El cirujano y escritor Atul Gawande explica por qué algo tan simple como una lista de verificación puede salvar vidas y evitar catástrofes evitables. Recomendado por Malcolm Gladwell."
 destacado: false

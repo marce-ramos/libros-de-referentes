@@ -4,7 +4,7 @@ autorLibro: "Leon A. Harris"
 asin: "0060117974"
 categoria: historia
 recomendadoPor:
-  - malcom-gladwell
+  - malcolm-gladwell
 anio: 1979
 resumen: "Leon Harris cuenta cómo familias judías inmigrantes —los Straus, los Gimbel, los Filene, los Bloomingdale— construyeron los grandes almacenes que definieron el comercio minorista estadounidense. Recomendado por Malcolm Gladwell."
 destacado: false
