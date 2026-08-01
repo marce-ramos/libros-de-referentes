@@ -1,6 +1,10 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-24 (**Richard Branson: backlog 100% cerrado**
+Punto de retomada. Última actualización: 2026-07-31 (**Oprah Winfrey: backlog 100% cerrado** —
+tanda 5/5 final, 30 libros [92 → 122], reconstruido re-fetcheando la fuente porque el manifiesto
+original vivía sin versionar en `/tmp`; 2 grupos temáticos nuevos en el listicle para no
+desbalancear "Familias a la deriva"; detalle completo en PROGRESO.md); antes, 2026-07-24
+(**Richard Branson: backlog 100% cerrado**
 — tanda 3/3 final, 21 libros [49 → 70, coincide con el título "70 must-read books"], listicle
 regenerado de 49 a 70. De paso, recuento completo del directorio de blog vía `Glob`: el catálogo
 real es **28 artículos** (27 listicles + 1 best-of), no 23 — el conteo anterior nunca había
@@ -74,7 +78,7 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
 - **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **362 libros, 9 categorías**. Bill Gates profundizado dos veces (2026-07-12
+  2026-07-12), **392 libros** (362 + 30 de la tanda 5 de Oprah, 2026-07-31), 9 categorías. Bill Gates profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
   Witherspoon profundizada el 2026-07-13 (4 → 56, con backlog restante de ~73 candidatos
@@ -134,8 +138,10 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    **Malcolm Gladwell ya tiene listicle propio** (desde 07-17, con fuente real: Tim Ferriss Show,
    The Week, "By the Book" NYT/Guardian) — sacado de "sin arrancar", pendiente de decidir el fix
    del typo de slug (ver arriba) antes de profundizarlo más. Sin discovery real todavía: Simon
-   Sinek, Lex Fridman, Malala, Kasparov, Jeff Bezos, Nassim Taleb, Neil deGrasse Tyson; Oprah
-   (92/119 vinculados/enriquecidos al 2026-07-24, backlog ~33 restante + 3 de Bill Cosby excluidos), etc.
+   Sinek, Lex Fridman, Malala, Kasparov, Jeff Bezos, Nassim Taleb, Neil deGrasse Tyson.
+   **Oprah Winfrey: backlog 100% cerrado el 2026-07-31** (122/122 vinculados/enriquecidos, listicle
+   regenerado — sacada de esta lista; quedan excluidos por decisión los 3 infantiles de Bill Cosby,
+   reconsiderables a futuro), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
@@ -215,6 +221,16 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
     reusan los assets visuales del sitio. Flujo: pin → sitio → botón afiliado → amazon.es. Cuando se
     encare, armar plan de Pinterest (tipo de pins, cadencia, reuso de assets); IG solo como jugada
     de marca secundaria, con expectativas realistas.
+11. **Backlog de referentes nuevos a sumar** (ver `../CONSOLIDADO_candidatos_referentes.md`, fusión
+    deduplicada de las listas Grok + Gemini; el top ~15 ya está en el sitio). Prioridad de alta:
+    **(1) figuras hispanas** —Mario Vargas Llosa, Isabel Allende, Pedro Almodóvar, Guillermo del
+    Toro— por audiencia amazon.es y diferenciación; **(2) clubes/listas documentadas** (fuente
+    sólida, poco riesgo de alucinación) —Jenna Bush Hager (Read With Jenna), Tyler Cowen, Andrew
+    Huberman, Derek Sivers (sivers.org/book), Sarah Jessica Parker, Florence Welch, Dakota Johnson,
+    Kaia Gerber, Camilla (Queen's Reading Room), LeVar Burton, Top 100 de David Bowie, Jimmy Fallon/
+    Colbert—. **Cautela:** Neil Gaiman (denuncias de abuso, riesgo reputacional) y Donald Trump
+    (polarizante). Las cifras de ambas listas son estimaciones de IA **no confiables** → sourcear
+    siempre desde la fuente real (acción "Nuevo referente" / MODO DESCUBRIR).
 
 ---
 

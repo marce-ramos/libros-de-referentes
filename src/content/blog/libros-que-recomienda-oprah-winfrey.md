@@ -1,8 +1,8 @@
 ---
 titulo: "Los libros que recomienda Oprah Winfrey (guía 2026)"
-descripcion: "Los libros que recomienda Oprah Winfrey a través de su club de lectura desde 1996: clásicos, ficción histórica, memorias y más de 90 picks reales."
+descripcion: "Los libros que recomienda Oprah Winfrey a través de su club de lectura desde 1996: clásicos, ficción histórica, memorias y más de 120 picks reales."
 fecha: 2026-07-19
-fechaActualizado: 2026-07-24
+fechaActualizado: 2026-07-31
 autor: "Los Imperdibles"
 keywords: ["libros que recomienda Oprah Winfrey", "qué lee Oprah Winfrey", "libros favoritos de Oprah Winfrey"]
 draft: false
@@ -69,6 +69,9 @@ Un maestro rural es convocado para ayudar a un hombre condenado injustamente a m
 ### [Ruby](/libros/ruby) — Cynthia Bond
 Una mujer marcada por el abuso en un pueblo de Texas de los años 50, y el hombre que intenta salvarla, pick de junio de 2015 (relanzamiento del club 2.0).
 
+### [Mother of Pearl](/libros/mother-of-pearl) — Melinda Haynes
+Una comunidad de Mississippi dividida por raza en los años 50, contada desde las voces cruzadas de sus vecinos blancos y negros, pick de junio de 1999.
+
 ## Raza, memoria y resistencia en la ficción histórica
 
 El bloque más constante del club a lo largo de tres décadas: novelas que exploran la experiencia negra en Estados Unidos y en el mundo, desde la esclavitud hasta el presente.
@@ -109,6 +112,12 @@ Generaciones de una familia afroamericana en Georgia, desde la esclavitud hasta 
 ### [Kin](/libros/kin) — Tayari Jones
 Una novela distinta de *Un matrimonio americano*, de la misma autora, pick de febrero de 2026.
 
+### [River, Cross My Heart](/libros/river-cross-my-heart) — Breena Clarke
+Una familia negra del Washington DC de 1925 atraviesa el duelo por la muerte de una hija, en un barrio marcado por la segregación, pick de octubre de 1999.
+
+### [Cane River](/libros/cane-river) — Lalita Tademy
+Cuatro generaciones de mujeres negras en Luisiana, de la esclavitud a la libertad, reconstruidas por Tademy a partir de la genealogía real de su propia familia, pick de junio de 2001.
+
 ## La saga de Gilead, de Marilynne Robinson
 
 En marzo de 2021 Oprah eligió de una sola vez las cuatro novelas de esta saga ambientada en un pueblo ficticio de Iowa, la apuesta más atípica del club en años.
@@ -124,6 +133,59 @@ La vida errante de Lila antes de convertirse en la esposa del pastor John Ames. 
 
 ### [Jack](/libros/jack) — Marilynne Robinson
 El romance prohibido entre Jack Boughton y Della Miles en la América segregada de mediados del siglo XX.
+
+## El club 1.0: infancias y familias que se quiebran
+
+Los primeros años del club (1996-2000) volvieron una y otra vez sobre un mismo territorio: chicos y chicas criados en hogares rotos, que sobreviven a la pobreza, el abuso o el abandono con una lucidez que los adultos a su alrededor no siempre tienen.
+
+### [The Book of Ruth](/libros/the-book-of-ruth) — Jane Hamilton
+Una chica tildada de "lenta" resulta ser la narradora más lúcida de su propia tragedia familiar, ópera prima ganadora del PEN/Hemingway, pick de noviembre de 1996.
+
+### [Ellen Foster](/libros/ellen-foster) — Kaye Gibbons
+Una nena de diez años narra, con una voz infantil inolvidable, su búsqueda de un hogar después de la muerte de su madre, pick de octubre de 1997.
+
+### [Jewel](/libros/jewel) — Bret Lott
+Una madre del Mississippi rural de los años 40 desafía a médicos y vecinos para darle una vida plena a su hija con síndrome de Down, pick de enero de 1999.
+
+### [Vinegar Hill](/libros/vinegar-hill) — A. Manette Ansay
+Una mujer del Medio Oeste soporta durante años un matrimonio infeliz y una convivencia asfixiante con sus suegros, hasta que decide que ya fue suficiente, pick de noviembre de 1999.
+
+### [Back Roads](/libros/back-roads) — Tawni O'Dell
+Un joven de una ciudad minera de Pennsylvania cría a sus hermanos menores mientras carga con un secreto familiar devastador, pick de marzo de 2000.
+
+### [Drowning Ruth](/libros/drowning-ruth) — Christina Schwarz
+Dos hermanas de una granja de Wisconsin ocultan, durante toda una vida, lo que realmente pasó la noche en que una de ellas casi se ahoga, pick de septiembre de 2000.
+
+### [A Map of the World](/libros/a-map-of-the-world) — Jane Hamilton
+Una maestra rural es acusada injustamente de abuso infantil después de una tragedia en su propia casa, de la misma autora de *The Book of Ruth*, pick de diciembre de 1999.
+
+### [Gap Creek](/libros/gap-creek) — Robert Morgan
+Una pareja de recién casados enfrenta un primer año de matrimonio marcado por la pobreza extrema en los Apalaches de comienzos del siglo XX, pick de enero de 2000.
+
+## El club 1.0: mujeres que reinventan su vida
+
+El otro costado de esos primeros años del club: mujeres que, frente a una pérdida, un secreto o un pueblo que las juzga, deciden empezar de nuevo.
+
+### [Songs in Ordinary Time](/libros/songs-in-ordinary-time) — Mary McGarry Morris
+Una madre soltera de un pueblo chico de Vermont se deja seducir por un estafador que promete resolverle la vida, pick de junio de 1997.
+
+### [Mujer virtuosa](/libros/a-virtuous-woman) — Kaye Gibbons
+Un viudo recuerda, capítulo a capítulo, el matrimonio breve pero intenso que tuvo con su segunda esposa, elegida el mismo mes que *Ellen Foster*, pick de octubre de 1997.
+
+### [What Looks Like Crazy on an Ordinary Day](/libros/what-looks-like-crazy-on-an-ordinary-day) — Pearl Cleage
+Una mujer VIH positiva vuelve a su pueblo natal de Michigan y reconstruye su vida en plena crisis del sida de los 90, pick de septiembre de 1998.
+
+### [The Pilot's Wife](/libros/the-pilot-s-wife) — Anita Shreve
+Una mujer descubre, en las horas posteriores a un accidente aéreo, que la vida de su marido escondía secretos que no imaginaba, pick de marzo de 1999.
+
+### [Tara Road](/libros/tara-road) — Maeve Binchy
+Dos mujeres —una irlandesa, otra estadounidense— intercambian sus casas por un verano y terminan intercambiando también sus vidas, pick de septiembre de 1999.
+
+### [Open House](/libros/open-house) — Elizabeth Berg
+Una mujer recién divorciada alquila habitaciones de su casa para sobrevivir económicamente y, en el camino, se reinventa, pick de agosto de 2000.
+
+### [While I Was Gone](/libros/while-i-was-gone) — Sue Miller
+Un encuentro casual con alguien de su pasado obliga a una veterinaria casada a revisar un episodio oscuro de su juventud, pick de mayo de 2000.
 
 ## Familias a la deriva
 
@@ -177,6 +239,18 @@ Saga familiar sobre cuatro hermanas en Nueva Escocia a principios del siglo XX, 
 ### [Familiaris](/libros/familiaris) — David Wroblewski
 La precuela de *La historia de Edgar Sawtelle*, sobre los orígenes de la familia Sawtelle y su linaje de perros, pick de junio de 2024.
 
+### [Culpability](/libros/culpability) — Bruce Holsinger
+Un accidente con un auto de manejo autónomo desata en una familia un debate sobre a quién le corresponde la culpa cuando la tecnología toma decisiones, pick de julio de 2025.
+
+### [Some Bright Nowhere](/libros/some-bright-nowhere) — Ann Packer
+Una familia procesa un duelo que la desarma y la obliga a reacomodarse desde cero, pick de noviembre de 2025.
+
+### [Go Gentle](/libros/go-gentle) — Maria Semple
+Una comedia agridulce sobre una hija que intenta cuidar a un padre que envejece sin perder, en el camino, su propia vida, pick de abril de 2026.
+
+### [Little Wonder](/libros/little-wonder) — Sophie Chen Keller
+Una repartidora de comida en la China contemporánea hace lo imposible para sostener el talento excepcional de su hijo para el piano, pick de junio de 2026.
+
 ## Comunidades puestas a prueba: barrio, pueblo y pertenencia
 
 Historias corales donde el lugar —un barrio, un pueblo chico, una comunidad entera— es tan protagonista como los personajes.
@@ -210,6 +284,15 @@ Una adolescente embarazada y abandonada termina viviendo en secreto dentro de un
 
 ### [El emperador de Alegría](/libros/the-emperor-of-gladness) — Ocean Vuong
 Un joven encuentra trabajo cuidando a un viudo anciano en una ciudad industrial de Connecticut, pick de mayo de 2025.
+
+### [The Rapture of Canaan](/libros/the-rapture-of-canaan) — Sheri Reynolds
+Una adolescente crece dentro de una secta fundamentalista del sur de Estados Unidos y empieza a cuestionar, de a poco, las reglas que la rigen, pick de abril de 1997.
+
+### [Icy Sparks](/libros/icy-sparks) — Gwyn Hyman Rubio
+Una nena de los Apalaches con síndrome de Tourette busca un lugar en una comunidad que no sabe qué hacer con su diferencia, pick de marzo de 2001.
+
+### [John of John](/libros/john-of-john) — Douglas Stuart
+Un joven gay vuelve a la isla escocesa de Harris después de estudiar arte, y debe reconciliar el hogar que lo formó con quien realmente es, del autor de *Shuggie Bain*, pick de mayo de 2026.
 
 ## Viajes, guerra y supervivencia
 
@@ -247,6 +330,9 @@ Una mujer enana en la Alemania nazi, contada desde la perspectiva de un pueblo p
 
 ### [Cosas pequeñas como esas](/libros/small-things-like-these) — Claire Keegan
 Un vendedor de carbón en la Irlanda de los años 80 descubre los abusos de las lavanderías de las Magdalenas, nouvelle finalista del Booker Prize, pick de diciembre de 2024.
+
+### [A Guardian and A Thief](/libros/a-guardian-and-a-thief) — Megha Majumdar
+Una madre de Calcuta, en un futuro cercano marcado por el colapso climático, hace lo que sea necesario para proteger a su familia, pick de octubre de 2025.
 
 ## Amor y reencuentros a través del tiempo
 
@@ -312,6 +398,18 @@ Una novela distinta de *Big Magic*, de la misma autora de *Comer, rezar, amar*: 
 
 ### [Enough](/libros/enough) — Oprah Winfrey y Ania M. Jastreboff
 El único libro de esta lista escrito por la propia Oprah, no una recomendación: su relación de décadas con el peso, junto a la ciencia detrás de los medicamentos GLP-1, publicado en enero de 2026.
+
+### [The Heart of a Woman](/libros/the-heart-of-a-woman) — Maya Angelou
+El cuarto tomo de las memorias de Maya Angelou, sobre sus años como madre, escritora y activista entre California, Nueva York, El Cairo y Ghana, pick de mayo de 1997.
+
+### [Stolen Lives: Twenty Years in a Desert Jail](/libros/stolen-lives) — Malika Oufkir
+Las memorias reales de una princesa marroquí encarcelada junto a su familia durante veinte años tras un intento de golpe de Estado contra el rey, pick de mayo de 2001.
+
+### [That Bird Has My Wings](/libros/that-bird-has-my-wings) — Jarvis Jay Masters
+Las memorias de un hombre que pasó décadas en el corredor de la muerte de San Quentin y encontró en el budismo una forma de transformación interior, pick de septiembre de 2022.
+
+### [The Many Lives of Mama Love](/libros/the-many-lives-of-mama-love) — Lara Love Hardin
+Las memorias de una madre que pasó de la clase media a la cárcel por adicción y falsificación, y reconstruyó su vida desde cero, pick de febrero de 2024.
 
 ## Historia, ciencia y espiritualidad
 

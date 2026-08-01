@@ -2120,3 +2120,59 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   conteo previo nunca había incluido a Richard Branson (con listicle desde 07-16) ni a Malcolm
   Gladwell (con listicle propio ya existente, referente que PENDIENTES.md listaba erróneamente
   como "sin arrancar"). Corregido en PENDIENTES.md.
+
+- **2026-07-31 — Acción "Profundizar": Oprah Winfrey, tanda 5 (CIERRE del backlog, 30 libros).**
+  El manifiesto original de 119 candidatos del discovery del 2026-07-13 vivía solo en
+  `/tmp/manifiesto_oprah_full.txt` (no versionado) y ya no estaba disponible. **Se reconstruyó el
+  backlog restante re-fetcheando la fuente completa** (beyondthebookends.com/oprahs-book-club-list,
+  actualizada 2/6/2026) y comparándola contra los 92 libros ya vinculados (`Grep` de
+  `recomendadoPor: oprah-winfrey`) — método equivalente a un mini-discovery incremental, ya
+  anticipado como patrón válido en la nota de cierre de Dua Lipa. Resultado: **30 candidatos NUEVO**
+  (21 históricos 1996-2001 + 9 recientes 2022-2026, incluidos los picks reales de 2026 hasta junio),
+  todos confirmados como obras reales antes de escribir (caso especial verificado por WebSearch:
+  *John of John* de Douglas Stuart, pick #123 del club, mayo 2026 — título correcto, no error de
+  scraping de la fuente). Decisión del usuario (vía pregunta): **los 30 completos en esta tanda**,
+  cerrando el backlog al 100%.
+  Trabajo hecho vía **4 subagentes Sonnet en paralelo** (lotes de 8/7/7/8) + 4 fichas completadas
+  a mano por el orquestador tras fallas parciales de dos subagentes (uno cortado por error de API
+  a mitad de stream, otro con dos ítems sin terminar): **What Looks Like Crazy on an Ordinary Day**
+  [solo inglés, asin 0061710385 — título real difiere del truncado "What Looks Crazy..." de la
+  fuente, corregido tras verificar] (Pearl Cleage); **Jewel** [solo inglés, asin 0671038184, edición
+  "Oprah's Book Club"] (Bret Lott); **John of John** [solo inglés, asin 0802167195, finalista Orwell
+  Prize y longlist Booker 2026] (Douglas Stuart, ya en catálogo vía *Shuggie Bain*); **Little Wonder**
+  [solo inglés, asin B0G5X5Z5R9 — ISBN-13 979-prefijo sin ISBN-10, se usó el ASIN de Amazon, sello
+  Thousand Voices de Jenna Bush Hager] (Sophie Chen Keller).
+  Resto de las 26 fichas (subagentes): The Book of Ruth, The Rapture of Canaan, The Heart of a Woman,
+  Songs in Ordinary Time, Mujer virtuosa (A Virtuous Woman) y Ellen Foster [mismo mes, misma autora
+  Kaye Gibbons, libros distintos] (histórico 1996-97); The Pilot's Wife, Mother of Pearl, Tara Road,
+  River Cross My Heart, Vinegar Hill, A Map of the World [misma autora que The Book of Ruth, Jane
+  Hamilton, libro distinto] y Gap Creek (1999); Back Roads, While I Was Gone, Open House, Drowning
+  Ruth, Icy Sparks, Stolen Lives (memoria real, coautora Michèle Fitoussi) y Cane River (2000-01);
+  That Bird Has My Wings, The Many Lives of Mama Love, Culpability, A Guardian and A Thief, Some
+  Bright Nowhere y Go Gentle (2022-26). Disambiguaciones de autor verificadas sin error: Maya
+  Angelou (*The Heart of a Woman* ≠ *Yo sé por qué canta el pájaro enjaulado*/*Mom & Me & Mom*, ya
+  en catálogo); Jane Hamilton (*The Book of Ruth* ≠ *A Map of the World*, ambos NUEVO); Kaye Gibbons
+  (dos libros distintos el mismo mes). Solo 7/30 con edición en español confirmada (Mujer virtuosa,
+  Ellen Foster, La mujer del piloto, Madreperla, Tara Road: una casa en Irlanda) — la mayoría de los
+  históricos 1996-2001 y casi todos los de 2024-2026 quedaron solo inglés (lanzamientos muy
+  recientes o ediciones agotadas sin reedición ES). ASIN de los 30 verificado real (10 caracteres o
+  ASIN de Amazon cuando no hay ISBN-10), ninguno inventado.
+  **Oprah Winfrey: 92 → 122 libros vinculados/enriquecidos. Backlog: 100% cerrado** (no quedan
+  candidatos pendientes del manifiesto beyondthebookends.com; quedan excluidos por decisión los 3
+  infantiles de Bill Cosby, dic. 1997, reconsiderables a futuro si cambia el criterio).
+  **Listicle regenerado a 122** vía `Edit` puntuales (sin reescribir el archivo): se sumaron los 30
+  libros a los grupos temáticos existentes (Mother of Pearl → El sur profundo; River Cross My Heart
+  y Cane River → Raza/memoria/resistencia; Rapture of Canaan, Icy Sparks y John of John →
+  Comunidades puestas a prueba; A Guardian and A Thief → Viajes/guerra/supervivencia; Culpability,
+  Some Bright Nowhere, Go Gentle y Little Wonder → Familias a la deriva; The Heart of a Woman,
+  Stolen Lives, That Bird Has My Wings y The Many Lives of Mama Love → Memorias que marcaron una
+  época) y se crearon **2 grupos temáticos nuevos** para no desbalancear "Familias a la deriva"
+  (que hubiera quedado con 27 libros, por encima del umbral de subdivisión del propio playbook):
+  **"El club 1.0: infancias y familias que se quiebran"** (8: Book of Ruth, Ellen Foster, Jewel,
+  Vinegar Hill, Back Roads, Drowning Ruth, A Map of the World, Gap Creek) y **"El club 1.0: mujeres
+  que reinventan su vida"** (7: Songs in Ordinary Time, Mujer virtuosa, What Looks Like Crazy on an
+  Ordinary Day, The Pilot's Wife, Tara Road, Open House, While I Was Gone). Frontmatter actualizado
+  (`fechaActualizado: 2026-07-31`, descripción "más de 120 picks reales"). **Verificado por conteo**
+  (`Grep` de links `### [...](/libros/...)`, 126 ocurrencias − 4 duplicados intencionales del bloque
+  "Por dónde empezar" = 122 únicos): coincide exacto con las 122 fichas reales. **Listicle de Oprah:
+  cerrado y al día — backlog en 0.**
