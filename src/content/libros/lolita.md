@@ -5,10 +5,11 @@ asin: "8433968270"
 categoria: ficcion
 recomendadoPor:
   - j-k-rowling
+  - mario-vargas-llosa
 anio: 1955
-resumen: "El clásico controvertido de Nabokov sobre la voz seductora y monstruosa de Humbert Humbert. J.K. Rowling la cuenta entre los pocos libros cuyo final la hace llorar cada vez que lo relee."
+resumen: "El clásico controvertido de Nabokov sobre la voz seductora y monstruosa de Humbert Humbert. J.K. Rowling la cuenta entre los pocos libros cuyo final la hace llorar cada vez que lo relee, y Mario Vargas Llosa la reseñó entre los clásicos que marcaron su formación en 'La verdad de las mentiras'."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-31
 ---
 
 Pocos libros generan tanta incomodidad y tanta admiración literaria al mismo tiempo como este. J.K. Rowling lo incluye en un grupo muy reducido: el de los libros cuyas últimas líneas la hacen llorar sin falta, sin importar cuántas veces los haya leído. Viniendo de una autora tan prolífica y con tanto criterio de lectora, es un dato que dice mucho sobre el peso literario de esta novela.
@@ -24,6 +25,8 @@ Humbert Humbert, un profesor de literatura de mediana edad, narra en primera per
 ## Una voz narrativa que es también una trampa
 
 Lo que distingue a esta novela de cualquier otro relato sobre un crimen es que nunca deja de recordarte que estás del lado equivocado si te dejás seducir por Humbert. Nabokov no juzga explícitamente a su narrador; deja que el lector haga ese trabajo, incomodado por lo bien que escribe alguien tan indefendible. Es una lección de manejo de punto de vista que explica por qué sigue estudiándose en las carreras de letras de todo el mundo casi setenta años después.
+
+También la recomienda Mario Vargas Llosa, que la incluyó entre las novelas reseñadas en *La verdad de las mentiras* (1990), su libro de ensayos sobre las lecturas que marcaron su formación como narrador.
 
 ## Para quién es
 

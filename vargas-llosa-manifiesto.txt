@@ -1,0 +1,52 @@
+# Manifiesto de discovery — Mario Vargas Llosa (1936-2025, Nobel 2010, ámbito: Escritores)
+# Fuentes: RPP (sus 10 favoritos de todos los tiempos) + Expansión (La verdad de las mentiras, ~35).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+# --- Sus 10 favoritos de todos los tiempos (RPP) ---
+Don Quixote|Miguel de Cervantes|RPP top10
+War and Peace|Leo Tolstoy|RPP top10
+Madame Bovary|Gustave Flaubert|RPP top10 + La orgia perpetua
+Moby-Dick|Herman Melville|RPP top10
+Tirant lo Blanc|Joanot Martorell|RPP top10 + Carta de batalla
+The Magic Mountain|Thomas Mann|RPP top10
+Demons|Fyodor Dostoevsky|RPP top10
+A Harlot High and Low|Honore de Balzac|RPP top10
+Light in August|William Faulkner|RPP top10
+Ulysses|James Joyce|RPP top10
+# --- La verdad de las mentiras + monografia GGM (Expansion / Historia de un deicidio) ---
+One Hundred Years of Solitude|Gabriel Garcia Marquez|Historia de un deicidio
+Mrs Dalloway|Virginia Woolf|La verdad de las mentiras
+Auto-da-Fe|Elias Canetti|La verdad de las mentiras
+The House of the Sleeping Beauties|Yasunari Kawabata|La verdad de las mentiras
+The Golden Notebook|Doris Lessing|La verdad de las mentiras
+Pereira Maintains|Antonio Tabucchi|La verdad de las mentiras
+Heart of Darkness|Joseph Conrad|La verdad de las mentiras
+Death in Venice|Thomas Mann|La verdad de las mentiras
+Dubliners|James Joyce|La verdad de las mentiras
+Manhattan Transfer|John Dos Passos|La verdad de las mentiras
+The Great Gatsby|F. Scott Fitzgerald|La verdad de las mentiras
+Steppenwolf|Hermann Hesse|La verdad de las mentiras
+Nadja|Andre Breton|La verdad de las mentiras
+Sanctuary|William Faulkner|La verdad de las mentiras
+Brave New World|Aldous Huxley|La verdad de las mentiras
+Man's Fate|Andre Malraux|La verdad de las mentiras
+Tropic of Cancer|Henry Miller|La verdad de las mentiras
+Seven Gothic Tales|Isak Dinesen|La verdad de las mentiras
+Darkness at Noon|Arthur Koestler|La verdad de las mentiras
+The Power and the Glory|Graham Greene|La verdad de las mentiras
+The End of the Affair|Graham Greene|La verdad de las mentiras
+The Stranger|Albert Camus|La verdad de las mentiras
+Animal Farm|George Orwell|La verdad de las mentiras
+The Woman of Rome|Alberto Moravia|La verdad de las mentiras
+The Kingdom of This World|Alejo Carpentier|La verdad de las mentiras
+The Old Man and the Sea|Ernest Hemingway|La verdad de las mentiras
+A Moveable Feast|Ernest Hemingway|La verdad de las mentiras
+East of Eden|John Steinbeck|La verdad de las mentiras
+I'm Not Stiller|Max Frisch|La verdad de las mentiras
+Lolita|Vladimir Nabokov|La verdad de las mentiras
+The Leopard|Giuseppe Tomasi di Lampedusa|La verdad de las mentiras
+Doctor Zhivago|Boris Pasternak|La verdad de las mentiras
+The Tin Drum|Gunter Grass|La verdad de las mentiras
+One Day in the Life of Ivan Denisovich|Aleksandr Solzhenitsyn|La verdad de las mentiras
+The Clown|Heinrich Boll|La verdad de las mentiras
+Herzog|Saul Bellow|La verdad de las mentiras

@@ -7,17 +7,18 @@ recomendadoPor:
   - yuval-noah-harari
   - jordan-peterson
   - sam-altman
+  - mario-vargas-llosa
 anio: 1932
 resumen: "La distopía clásica de Aldous Huxley sobre una sociedad estabilizada por el placer y el consumo. Recomendada por Yuval Noah Harari y Jordan Peterson."
 destacado: true
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-07-31
 ---
 
 *Un mundo feliz* es, junto con *1984*, la gran distopía del siglo XX, y sigue tan vigente que la recomiendan pensadores tan distintos como Yuval Noah Harari y Jordan Peterson. Su advertencia resulta, para muchos, más incómoda que la de Orwell.
 
 ## Por qué lo recomiendan
 
-Harari y Peterson la usan como espejo del presente. Mientras *1984* imagina un poder que controla por el miedo, *Un mundo feliz* imagina algo más sutil y quizás más cercano: un poder que controla por el placer, el confort y la distracción. También lo recomienda Sam Altman.
+Harari y Peterson la usan como espejo del presente. Mientras *1984* imagina un poder que controla por el miedo, *Un mundo feliz* imagina algo más sutil y quizás más cercano: un poder que controla por el placer, el confort y la distracción. También la recomiendan Sam Altman y Mario Vargas Llosa, que la reseñó en *La verdad de las mentiras* (1990) entre las novelas del siglo XX que marcaron su formación como lector.
 
 ## De qué trata
 

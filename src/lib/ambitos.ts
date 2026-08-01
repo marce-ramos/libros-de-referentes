@@ -42,6 +42,7 @@ export const ambitoDe: Record<string, string> = {
   "nassim-nicholas-taleb": "Escritores",
   "ryan-holiday": "Escritores",
   "isabel-allende": "Escritores",
+  "mario-vargas-llosa": "Escritores",
 
   "jordan-peterson": "Psicología",
   "adam-grant": "Psicología",

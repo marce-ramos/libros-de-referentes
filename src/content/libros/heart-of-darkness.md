@@ -5,10 +5,11 @@ asin: "8420669806"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
+  - mario-vargas-llosa
 anio: 1899
-resumen: "La novela corta de Joseph Conrad sobre un viaje al corazón del Congo colonial, base de 'Apocalypse Now'. Stephen King la sumó a su lista de mejores lecturas en 'On Writing'."
+resumen: "La novela corta de Joseph Conrad sobre un viaje al corazón del Congo colonial, base de 'Apocalypse Now'. Stephen King la sumó a su lista de mejores lecturas en 'On Writing', y Mario Vargas Llosa la reseñó entre los clásicos que marcaron su formación como lector en 'La verdad de las mentiras'."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-07-31
 ---
 
 Un viaje río arriba, un hombre que se volvió leyenda por las razones equivocadas y una prosa tan densa que todavía se estudia en las facultades de letras. *El corazón de las tinieblas* es una novela corta que pesa como una larga.
@@ -24,6 +25,8 @@ El marinero Charles Marlow navega río arriba por el Congo, contratado por una c
 ## La oscuridad no está solo en la selva
 
 Lo que hizo perdurar esta novela corta, publicada en 1899, es que su título funciona en dos sentidos: el corazón geográfico de África y el corazón oscuro de cualquier persona cuando se le saca toda restricción social. Conrad escribe con una prosa densa y cargada de simbolismo que influyó a generaciones de escritores, y su retrato del imperialismo belga en el Congo sigue siendo objeto de debate literario y político más de un siglo después.
+
+También lo recomienda Mario Vargas Llosa, que la incluyó entre las novelas reseñadas en *La verdad de las mentiras* (1990), su libro de ensayos sobre las obras que más marcaron su formación como lector y como narrador.
 
 ## Para quién es
 

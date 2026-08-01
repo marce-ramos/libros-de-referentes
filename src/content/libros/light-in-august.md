@@ -5,17 +5,18 @@ asin: "8490628173"
 categoria: ficcion
 recomendadoPor:
   - oprah-winfrey
+  - mario-vargas-llosa
 anio: 1932
-resumen: "Tres destinos que confluyen en un pueblo del sur profundo, incluido el de un hombre que no sabe si es blanco o negro. Oprah Winfrey lo recomendó dentro de un pick triple de William Faulkner en junio de 2005."
+resumen: "Tres destinos que confluyen en un pueblo del sur profundo, incluido el de un hombre que no sabe si es blanco o negro. Oprah Winfrey lo recomendó dentro de un pick triple de William Faulkner en junio de 2005, y Mario Vargas Llosa lo nombró el más moderno de sus diez libros favoritos de todos los tiempos."
 destacado: false
-fechaActualizado: 2026-07-20
+fechaActualizado: 2026-07-31
 ---
 
 En un pueblo de Mississippi convergen una mujer embarazada que camina buscando al padre de su hijo, un pastor caído en desgracia y un hombre marcado por una duda que lo destruye: si su sangre es blanca o negra. Faulkner en su versión más incendiaria.
 
-## Por qué lo recomienda Oprah Winfrey
+## Por qué lo recomiendan Oprah Winfrey y Mario Vargas Llosa
 
-*Luz de agosto* fue el tercer título del pick triple de William Faulkner que Oprah Winfrey anunció en junio de 2005, junto con *Mientras agonizo* y *El sonido y la furia*. La elección buscaba que su audiencia se sumergiera de lleno en el universo de Yoknapatawpha, el condado imaginario donde Faulkner ambientó buena parte de su obra, y *Luz de agosto* ofrecía algo que las otras dos novelas no tenían tan explícito: una historia directa sobre raza, violencia e identidad en el sur segregado, con una trama más accesible que ayudaba a entrar en el resto de la obra del autor.
+*Luz de agosto* fue el tercer título del pick triple de William Faulkner que Oprah Winfrey anunció en junio de 2005, junto con *Mientras agonizo* y *El sonido y la furia*. La elección buscaba que su audiencia se sumergiera de lleno en el universo de Yoknapatawpha, el condado imaginario donde Faulkner ambientó buena parte de su obra, y *Luz de agosto* ofrecía algo que las otras dos novelas no tenían tan explícito: una historia directa sobre raza, violencia e identidad en el sur segregado, con una trama más accesible que ayudaba a entrar en el resto de la obra del autor. Mario Vargas Llosa, en una entrevista a RPP sobre sus diez libros favoritos de todos los tiempos, la señaló como la más "moderna" de toda su lista —el resto eran, en su mayoría, clásicos del siglo XIX— y como la puerta de entrada que lo terminó de convencer de la técnica narrativa de Faulkner, una influencia central en su propia forma de construir novelas corales con múltiples puntos de vista.
 
 ## De qué trata
 

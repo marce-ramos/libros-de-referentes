@@ -8,6 +8,7 @@ recomendadoPor:
   - richard-branson
   - oprah-winfrey
   - isabel-allende
+  - mario-vargas-llosa
 anio: 1967
 resumen: "La saga de los Buendía a lo largo de siete generaciones en el mítico Macondo: el epicentro del realismo mágico y una de las novelas más importantes de la literatura universal, elegida por Dua Lipa como pick de octubre 2023 en su Service95 Book Club, y uno de los seis libros favoritos de Isabel Allende."
 destacado: false
@@ -18,7 +19,7 @@ Hay libros que se recomiendan solos desde hace décadas y, aun así, cada vez qu
 
 ## Por qué lo recomienda Dua Lipa
 
-En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee. También lo recomiendan Richard Branson, Oprah Winfrey (que la eligió como pick de enero de 2004 en su club de lectura) e Isabel Allende, quien la nombró entre sus seis libros favoritos en una entrevista a *The Week* (2014): "La novela latinoamericana más importante del siglo XX. Los personajes de García Márquez me resultaban muy familiares, y su voz sonaba como la de mi abuelo. Ahí entendí que con una familia como la mía no tenía que inventar nada para escribir ficción."
+En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee. También lo recomiendan Richard Branson, Oprah Winfrey (que la eligió como pick de enero de 2004 en su club de lectura), Isabel Allende, quien la nombró entre sus seis libros favoritos en una entrevista a *The Week* (2014): "La novela latinoamericana más importante del siglo XX. Los personajes de García Márquez me resultaban muy familiares, y su voz sonaba como la de mi abuelo. Ahí entendí que con una familia como la mía no tenía que inventar nada para escribir ficción"; y Mario Vargas Llosa, que le dedicó un libro entero, *Historia de un deicidio* (1971), su monografía sobre la obra de García Márquez —con quien mantuvo, a partes iguales, una amistad legendaria del boom latinoamericano y una ruptura personal célebre.
 
 ## De qué trata
 

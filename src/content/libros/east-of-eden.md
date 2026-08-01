@@ -5,10 +5,11 @@ asin: "8490661448"
 categoria: ficcion
 recomendadoPor:
   - oprah-winfrey
+  - mario-vargas-llosa
 anio: 1952
-resumen: "La reescritura que hizo Steinbeck del Génesis en el valle de Salinas, California: dos familias, tres generaciones y la pregunta de si el destino se puede elegir. Oprah la eligió en 2003 para relanzar su club de lectura con un clásico."
+resumen: "La reescritura que hizo Steinbeck del Génesis en el valle de Salinas, California: dos familias, tres generaciones y la pregunta de si el destino se puede elegir. Oprah la eligió en 2003 para relanzar su club de lectura con un clásico, y Mario Vargas Llosa la reseñó entre los clásicos que marcaron su formación en 'La verdad de las mentiras'."
 destacado: false
-fechaActualizado: 2026-07-19
+fechaActualizado: 2026-07-31
 ---
 
 Cuando Oprah Winfrey decidió, en 2003, volver a poner clásicos en su club de lectura después de un año de pausa, no eligió cualquier libro: eligió el que el propio John Steinbeck consideraba su obra más ambiciosa. *Al este del Edén* es una novela de casi setecientas páginas que se propone, sin disimulo, reescribir la historia de Caín y Abel en el valle de Salinas.
@@ -24,6 +25,8 @@ La novela sigue a dos familias, los Trask y los Hamilton, a lo largo de tres gen
 ## El destino no está escrito
 
 Lo que distingue a *Al este del Edén* de una simple alegoría es que Steinbeck se resiste a la idea de que el carácter esté predeterminado. Cathy Ames, la villana más inquietante de toda su obra, existe como contrapunto: un personaje que parece nacido sin capacidad de bondad. Pero el libro entero discute con esa posibilidad, y termina defendiendo que la libertad de elegir —el *timshel*— es lo único verdaderamente humano.
+
+También la recomienda Mario Vargas Llosa, que la incluyó entre las novelas reseñadas en *La verdad de las mentiras* (1990), su libro de ensayos sobre las lecturas que más marcaron su formación como narrador.
 
 ## Para quién es
 

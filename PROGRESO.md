@@ -2211,3 +2211,66 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **Referentes: 40 → 41. Catálogo: 392 → 396 libros** (392 + 4 NUEVO). **Blog: 28 → 29 artículos.**
   Pendiente recomendado: correr `detectar_duplicados.py` (Marcelo, desde Windows) para confirmar
   que los 2 cross-ref y las 4 fichas nuevas quedaron bien.
+
+- **2026-07-31 — Acción "Nuevo referente": Mario Vargas Llosa (1936-2025, alta completa).**
+  Segunda figura hispana del catálogo. **Discovery ya hecho por Marcelo** (fuera de sesión):
+  manifiesto de 45 candidatos en `vargas-llosa-manifiesto.txt` (raíz del repo), de dos fuentes
+  documentadas — **RPP** ("Mario Vargas Llosa recomienda sus 10 libros favoritos al mundo") y
+  **La verdad de las mentiras** (1990, su libro de ensayos) + **Historia de un deicidio** (1971,
+  su monografía sobre García Márquez). Marcelo corrió `reconciliar.py` en Windows y pegó la salida:
+  **YA-LINKED=0, CROSS-REF=6, REVISAR=6, NUEVO=34**. Los 6 REVISAR se resolvieron a **NUEVO** tras
+  confirmar que son obras reales y distintas del mismo autor ya en catálogo: Steppenwolf ≠
+  Siddhartha (Hesse); Sanctuary ≠ Mientras agonizo/Luz de agosto/El sonido y la furia (Faulkner);
+  The Power and the Glory y The End of the Affair ≠ The Quiet American (Greene, 2 libros distintos
+  del mismo autor); Animal Farm ≠ 1984 (Orwell); One Day in the Life of Ivan Denisovich ≠
+  Archipiélago Gulag (Solzhenitsyn). **Total: 6 CROSS-REF + 40 NUEVO = 46 libros.**
+  **Bio del referente** (`autores/mario-vargas-llosa.md`, orden 50, escrita **en pasado** por
+  tratarse de un referente fallecido): biografía real con foco en el boom latinoamericano, el
+  Nobel 2010 y las dos fuentes documentadas de sus recomendaciones. Sumada a `src/lib/ambitos.ts`
+  bajo "Escritores".
+  **6 cross-refs aplicados** (editados a mano por el orquestador, con desarrollo en prosa donde
+  había dato real específico y solo mención en la frase de cierre donde no): `light-in-august.md`
+  desarrollado a fondo (Vargas Llosa la llamó "la más moderna" de sus 10 favoritos, dato real de
+  RPP) — pasó a "Por qué lo recomiendan Oprah Winfrey y Mario Vargas Llosa"; `heart-of-darkness.md`,
+  `brave-new-world.md`, `east-of-eden.md` y `lolita.md` sumados en la frase de cierre (ya tenían
+  otro referente desarrollado, y no hay cita textual verificada de Vargas Llosa libro por libro en
+  *La verdad de las mentiras* — se optó por no inventar citas, solo mencionar el hecho real de que
+  los reseñó ahí); `one-hundred-years-of-solitude.md` (ya con 4 referentes) sumó a Vargas Llosa en
+  el cierre con un dato real y rico: le dedicó un libro entero, *Historia de un deicidio*, a la obra
+  de García Márquez.
+  **40 NUEVO enriquecidos vía 5 subagentes Sonnet en paralelo** (lotes 9/8/8/8/7, arrancando por
+  los 10 favoritos de RPP según pidió Marcelo): tanda 1 — Don Quijote de la Mancha, Guerra y paz,
+  Madame Bovary, Moby Dick, Tirant lo Blanc (con dato real: la edición de Alianza usada trae
+  prólogo del propio Vargas Llosa), La montaña mágica, Los demonios, Esplendores y miserias de las
+  cortesanas, Ulises; tanda 2 — La señora Dalloway, Auto de fe, La casa de las bellas durmientes,
+  El cuaderno dorado, Sostiene Pereira, La muerte en Venecia, Dublineses, Manhattan Transfer; tanda
+  3 — El gran Gatsby, El lobo estepario, Nadja, Santuario, La condición humana, Trópico de Cáncer,
+  Siete cuentos góticos, El cero y el infinito; tanda 4 — El poder y la gloria, El fin de la
+  aventura, El extranjero, Rebelión en la granja, La romana, El reino de este mundo (Carpentier
+  escribió en español — blockquote adaptado a "idioma original: español" en vez de "traducción
+  de…"), El viejo y el mar, París era una fiesta (memorias, no ficción); tanda 5 — No soy Stiller,
+  El Gatopardo, Doctor Zhivago, El tambor de hojalata, Un día en la vida de Iván Denísovich,
+  Opiniones de un payaso, Herzog. Todos los subagentes verificaron colisión de slug/autor antes de
+  escribir (Faulkner, Greene, Hemingway y Solzhenitsyn tenían más de un libro entre los candidatos
+  o ya en catálogo). **40/40 ASIN verificados reales (10 caracteres), ninguno inventado — 39/40 con
+  edición en español confirmada** (solo *A Harlot High and Low* usó una edición de 2025 recién
+  publicada en español, y ningún título quedó "solo inglés": el catálogo de clásicos tiene
+  traducción española consolidada para prácticamente todo). Para las secciones de atribución sin
+  cita textual verificada, todos los subagentes usaron el marco fijo indicado ("Vargas Llosa lo
+  reseñó en *La verdad de las mentiras*...") sin inventar citas puntuales por libro.
+  **Mario Vargas Llosa: 0 → 46 libros vinculados/enriquecidos, backlog 100% cerrado** (el
+  manifiesto original de 45 candidatos está completo — no queda backlog salvo que en el futuro
+  aparezca una fuente nueva y documentada con más recomendaciones suyas, algo poco probable dado
+  que el referente ya falleció).
+  **Listicle escrito de cero** (`libros-que-recomienda-mario-vargas-llosa.md`): 46 libros en **6
+  grupos temáticos** — Sus diez favoritos de toda la vida (10, la lista RPP completa), Vanguardia y
+  experimentación narrativa (8), Totalitarismo/poder/resistencia individual (9, temática ligada
+  directamente a la cita del Nobel de Vargas Llosa), Pasiones/cuerpo/transgresión (8), Mundos que
+  se apagan: aristocracias/imperios/épocas doradas (5), Fe/soledad/resistencia moral (6) — más lead
+  "Por dónde empezar" (4: Don Quijote, Cien años de soledad, El extranjero, El viejo y el mar).
+  **Verificado por conteo** (`Grep` de links `### [...](/libros/...)`, 50 ocurrencias − 4
+  duplicados del lead = 46 únicos): coincide exacto con las 46 fichas reales.
+  **Referentes: 41 → 42 (segunda figura hispana). Catálogo: 396 → 436 libros** (396 + 40 NUEVO).
+  **Blog: 29 → 30 artículos.**
+  Pendiente recomendado: correr `detectar_duplicados.py` (Marcelo, desde Windows) para confirmar
+  que los 6 cross-ref y las 40 fichas nuevas quedaron bien.
