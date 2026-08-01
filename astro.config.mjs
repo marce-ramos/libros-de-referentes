@@ -13,7 +13,17 @@ export default defineConfig({
   // sin-barra 200 directo, con-barra 308 en un solo salto, índices OK.
   trailingSlash: "never",
   build: { format: "file" },
-  integrations: [sitemap()],
+  // El sitemap se serializa quitando ".html" de cada URL: con build.format:'file'
+  // las rutas generadas terminan en .html, y queremos publicar en el sitemap las
+  // URLs limpias (sin .html ni barra) que son las canónicas reales.
+  integrations: [
+    sitemap({
+      serialize(item) {
+        item.url = item.url.replace(/index\.html$/, "").replace(/\.html$/, "");
+        return item;
+      },
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

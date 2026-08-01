@@ -21,7 +21,13 @@ const {
 } = Astro.props;
 
 // URL canónica de la página actual.
-const canonical = new URL(Astro.url.pathname, SITE.url).href;
+// build.format:'file' hace que Astro.url.pathname incluya ".html" (ej:
+// /referentes/bill-gates.html). Lo quitamos para que el canonical sea la URL
+// limpia que sirve Cloudflare y que enlazamos internamente (/referentes/bill-gates).
+// Sin esto, el canonical apunta a una URL .html distinta de la real y vuelve a
+// fragmentar las señales en GSC.
+const cleanPath = Astro.url.pathname.replace(/index\.html$/, "").replace(/\.html$/, "");
+const canonical = new URL(cleanPath, SITE.url).href;
 const ogImage = new URL(image, SITE.url).href;
 const fullTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
 ---
