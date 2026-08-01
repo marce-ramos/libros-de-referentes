@@ -55,6 +55,7 @@ export const ambitoDe: Record<string, string> = {
   "natalie-portman": "Entretenimiento",
   "reese-witherspoon": "Entretenimiento",
   "gwyneth-paltrow": "Entretenimiento",
+  "jenna-bush-hager": "Entretenimiento",
 
   "barack-obama": "Política y Sociedad",
   "malala-yousafzai": "Política y Sociedad",

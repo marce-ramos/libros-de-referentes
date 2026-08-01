@@ -148,6 +148,9 @@ Marc Andreessen, Paul Graham, Nassim Nicholas Taleb, Satya Nadella, Malcolm Glad
 Neil deGrasse Tyson, Reese Witherspoon, Vitalik Buterin, Lex Fridman, Stephen King, J.K. Rowling,
 Emma Watson, Natalie Portman, Richard Branson. **(= los 39 referentes, catálogo 100% enriquecido.)**
 **+ Dua Lipa** (referente #40, completado 2026-07-12: 34/34 fichas + listicle).
+**+ Isabel Allende** (#41, 2026-07-31: 6/6) **+ Mario Vargas Llosa** (#42, 2026-07-31: 46/46)
+**+ Jenna Bush Hager** (#43, 2026-08-01: 31/31 fichas + listicle; backlog histórico 2019-2023
+pendiente de sourcear).
 
 ---
 
@@ -2274,3 +2277,57 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **Blog: 29 → 30 artículos.**
   Pendiente recomendado: correr `detectar_duplicados.py` (Marcelo, desde Windows) para confirmar
   que los 6 cross-ref y las 40 fichas nuevas quedaron bien.
+
+- **2026-08-01 — Alta de Jenna Bush Hager (referente #43, "Nuevo referente" pipeline completo).**
+  **Bio:** `autores/jenna-bush-hager.md` creada (orden 50, ámbito "Entretenimiento" en `ambitos.ts`) —
+  presentadora de TODAY (NBC) y creadora de **Read With Jenna**, club de lectura mensual desde marzo
+  de 2019. **Discovery:** fetch de la fuente oficial `today.com/read-with-jenna-book-club-list` —
+  la página estática solo expuso los picks de **febrero 2024 a julio 2026** (30 meses + 1 bonus, 31
+  títulos); el archivo histórico completo (marzo 2019–enero 2024, ~55 picks más) está detrás de
+  paginación JS y queda como **backlog para una futura sesión "Profundizar"** (no sourceado
+  todavía). **Reconciliación:** hecha a mano vía `Grep` contra `src/content/libros/` (mismo
+  resultado que `reconciliar.py`, sin usar bash) — **0 YA-LINKED, 0 CROSS-REF, 31 NUEVO**. Decisión
+  de Marcelo (vía pregunta): encarar los 31 ahora, dejar el archivo histórico para después.
+  **Enriquecidas las 31 fichas NUEVO** vía 4 subagentes Sonnet en paralelo (tandas de 8/8/8/7):
+  Todo final es un comienzo [8408287478] (Dolly Alderton), Entre dos aguas [0063292211] (Cristina
+  Henríquez), La casa en Mango Street [8466360840] (Sandra Cisneros, bonus marzo 2024), The
+  Husbands [0385550618, sin ES] (Holly Gramazio), Real Americans [0593537254, sin ES] (Rachel
+  Khong), Swift River [1668027917, sin ES] (Essie Chambers), Todos los colores de la oscuridad
+  [8419851701] (Chris Whitaker), The Wedding People [1250899575, sin ES] (Alison Espach), Las
+  hermanas Blue [8492919701] (Coco Mellors), Poderoso río Rojo [**sin ASIN** — ISBN-13 979, sin
+  ISBN-10 confirmado] (Louise Erdrich), This Motherless Land [0063084295, sin ES] (Nikki May),
+  Devociones. Poesía reunida [8426431941] (Mary Oliver, antología poética), The Life Cycle of the
+  Common Octopus [0593830458, sin ES] (Emma Knight), This Is a Love Story [0593851269, sin ES]
+  (Jessica Soffer), The Dream Hotel [0593317602, sin ES] (Laila Lalami), Heartwood [1668063611, sin
+  ES] (Amity Gaige), Los nombres [8419851817] (Florence Knapp), Un asunto de familia [8439746172]
+  (Claire Lynch), Happy Wife [0593974379, sin ES] (Meredith Lavender y Kendall Shores), My Other
+  Heart [0593831012, sin ES] (Emma Nanami Strenner), Buckeye [0593595033, sin ES] (Patrick Ryan),
+  The Irish Goodbye [1250408156, sin ES] (Heather Aimee O'Neill), Cursed Daughters [1805463365, sin
+  ES — la autora sí tiene otra novela traducida] (Oyinkan Braithwaite), Orgullo y prejuicio
+  [8420632902] (Jane Austen, pick especial aniversario 250), Homeschooled: A Memoir [1335000984,
+  sin ES, memorias] (Stefan Merrill Block), One & Only [B0FHN8C9X3, sin ES] (Maurene Goo), Wait for
+  Me [1250399300, sin ES] (Amy Jo Burns), Upward Bound [0593979974, sin ES] (Woody Brown), Caller
+  Unknown [0063338475, sin ES] (Gillian McAllister), The Children [0063487438, sin ES] (Melissa
+  Albert), The Shampoo Effect [B0FTFLTHMF, sin ES] (Jenny Jackson, pick más reciente jul-2026).
+  **30/31 con ASIN real de 10 caracteres** (1 vacío: Poderoso río Rojo/The Mighty Red, fallback de
+  búsqueda). **Verificación:** 0 `[DUP]` de título vía `Grep` (chequeo manual) confirmado después
+  con `detectar_duplicados.py` corrido por Marcelo en Windows sobre el catálogo completo: **0
+  `[DUP]` exactos, 74 `[REV]`** (autores con 2+ libros, todos informativos/legítimos — suma 2 casos
+  nuevos por esta tanda: Maurene Goo con *One & Only* [Jenna] + *Throwback* [Reese Witherspoon], y
+  Jane Austen con *Orgullo y prejuicio* [Jenna] + *Emma* [J.K. Rowling], ambos pares de libros
+  distintos del mismo autor). Spot-check de 3 fichas (Good Material, Devotions, Pride and Prejudice)
+  sin errores ni citas inventadas.
+  ⚠️ **Flag para revisar:** *Upward Bound* (Woody Brown) tiene controversia pública sobre el método
+  de autoría (comunicación facilitada, autor autista no verbal) — el subagente decidió no
+  mencionarla en la ficha por no ser verificable a fondo con 1-2 búsquedas; Marcelo puede decidir si
+  amerita una frase de cautela o revisar la categoría (podría ser no ficción/memorias en vez de
+  ficción).
+  **Listicle escrito de cero** (`libros-que-recomienda-jenna-bush-hager.md`): 31 libros en **5
+  grupos temáticos** — Relaciones/rupturas/comedias con filo (6), Familias con secretos (7),
+  Suspenso/distopías/giros especulativos (7), Comunidad/raíces/duelo compartido (6),
+  Clásicos/poesía/no ficción (5) — más lead "Por dónde empezar" (4: Real Americans, Orgullo y
+  prejuicio, Las hermanas Blue, The Wedding People).
+  **Referentes: 42 → 43. Catálogo: 436 → 467 libros** (436 + 31 NUEVO). **Blog: 30 → 31 artículos.**
+  **Pendiente:** backlog histórico de Read With Jenna (marzo 2019–enero 2024, ~55 picks) sin
+  sourcear — requiere Chrome/paginación o cruce con Parade/NBC Insider, para una futura
+  "Profundizar Jenna Bush Hager".

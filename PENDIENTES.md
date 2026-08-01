@@ -1,6 +1,11 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-31 (**Alta de Mario Vargas Llosa (1936-2025),
+Punto de retomada. Última actualización: 2026-08-01 (**Alta de Jenna Bush Hager, referente #43** —
+pipeline completo "Nuevo referente": bio + discovery (today.com/read-with-jenna, solo expuso
+feb-2024 a jul-2026 por paginación JS) + reconciliar a mano vía Grep (0 cross-ref, 31 NUEVO) + 31
+fichas enriquecidas vía 4 subagentes en paralelo + listicle en 5 grupos temáticos; referentes 42 →
+43, catálogo 436 → 467 libros, blog 30 → 31; backlog histórico 2019-2023 (~55 picks) pendiente de
+sourcear; detalle completo en PROGRESO.md); antes, 2026-07-31 (**Alta de Mario Vargas Llosa (1936-2025),
 segunda figura hispana del catálogo** — discovery ya hecho por Marcelo, reconcile 6 CROSS-REF +
 40 NUEVO [6 REVISAR resueltos a NUEVO], enriquecido vía 5 subagentes en paralelo arrancando por
 los 10 favoritos de RPP, listicle en 6 grupos temáticos; bio escrita en pasado por ser referente
@@ -84,10 +89,11 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
 - **Diseño "Estantes claros"** (lavanda + serif Fraunces): home con *Los más recomendados*
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
-- **Contenido:** **42 referentes al 100%** (los 39 originales + **Dua Lipa** [2026-07-12] +
+- **Contenido:** **43 referentes al 100%** (los 39 originales + **Dua Lipa** [2026-07-12] +
   **Isabel Allende** [2026-07-31, primera figura hispana] + **Mario Vargas Llosa** [2026-07-31,
-  segunda figura hispana, referente fallecido — bio en pasado]), **436 libros** (362 + 30 de la
-  tanda 5 de Oprah + 4 de Isabel Allende + 40 de Mario Vargas Llosa, todo el 2026-07-31),
+  segunda figura hispana, referente fallecido — bio en pasado] + **Jenna Bush Hager** [2026-08-01,
+  club Read With Jenna, backlog histórico 2019-2023 pendiente]), **467 libros** (362 + 30 de la
+  tanda 5 de Oprah + 4 de Isabel Allende + 40 de Mario Vargas Llosa + 31 de Jenna Bush Hager),
   9 categorías. Bill Gates profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
@@ -104,15 +110,15 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 30 artículos (29 + listicle nuevo de Mario Vargas Llosa, 2026-07-31) — 29 listicles de
+- **Blog:** 31 artículos (30 + listicle nuevo de Jenna Bush Hager, 2026-08-01) — 30 listicles de
   referente (Gates 40, Obama 61, Buffett 18, Musk,
   Jordan Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval
   Ravikant, Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9,
   Vitalik Buterin 8, Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36,
   Emma Watson 32, Oprah Winfrey 122 (backlog cerrado 2026-07-31), Stephen King, J.K. Rowling,
   Malcolm Gladwell (⚠️ slug con typo, ver arriba), Richard Branson 70, Isabel Allende 6,
-  **Mario Vargas Llosa 46** (nuevo, 2026-07-31)) + 1 best-of de categoría (Negocios
-  e Inversión). Todas las fichas enlazadas están saneadas.
+  Mario Vargas Llosa 46, **Jenna Bush Hager 31** (nuevo, 2026-08-01)) + 1 best-of de categoría
+  (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -235,9 +241,10 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
 11. **Backlog de referentes nuevos a sumar** (ver `../CONSOLIDADO_candidatos_referentes.md`, fusión
     deduplicada de las listas Grok + Gemini; el top ~15 ya está en el sitio). **Isabel Allende
     sumada el 2026-07-31** (primera figura hispana del catálogo) — sacada de esta lista. Prioridad
-    de alta restante: **(1) figuras hispanas** —Mario Vargas Llosa, Pedro Almodóvar, Guillermo del
+    de alta restante: **(1) figuras hispanas** —Pedro Almodóvar, Guillermo del
     Toro— por audiencia amazon.es y diferenciación; **(2) clubes/listas documentadas** (fuente
-    sólida, poco riesgo de alucinación) —Jenna Bush Hager (Read With Jenna), Tyler Cowen, Andrew
+    sólida, poco riesgo de alucinación) —**Jenna Bush Hager sumada el 2026-08-01** (Read With
+    Jenna, 31/31, backlog histórico 2019-2023 pendiente)—, Tyler Cowen, Andrew
     Huberman, Derek Sivers (sivers.org/book), Sarah Jessica Parker, Florence Welch, Dakota Johnson,
     Kaia Gerber, Camilla (Queen's Reading Room), LeVar Burton, Top 100 de David Bowie, Jimmy Fallon/
     Colbert—. **Cautela:** Neil Gaiman (denuncias de abuso, riesgo reputacional) y Donald Trump
