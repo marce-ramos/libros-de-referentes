@@ -11,7 +11,7 @@ destacado: false
 fechaActualizado: 2026-08-01
 ---
 
-Pocas novelas debut llegan con una historia detrás tan particular como la de *Upward Bound*: Woody Brown es autista y no verbal, y compuso el libro con la ayuda de un tablero de letras y el acompañamiento de su madre, Mary Brown.
+Pocas novelas debut llegan con una historia detrás tan particular como la de *Upward Bound*: Woody Brown es autista y no verbal, y escribió el libro junto a su madre, Mary Brown, usando el método de instrucción rápida (*rapid prompting method*, RPM), una variante de la comunicación facilitada. Vale la pena conocer ese dato antes de leerlo: buena parte de la comunidad científica y varias asociaciones de patología del habla consideran que la comunicación facilitada y sus variantes carecen de respaldo empírico sólido —estudios controlados sugieren que el facilitador, más que la persona con discapacidad, puede influir en lo comunicado—, mientras que para sus defensores (incluida la propia familia Brown) sigue siendo una herramienta de acceso genuina. No cambia que la novela exista ni que haya sido elegida por Jenna Bush Hager; es un contexto que preferimos no esconder.
 
 ## Por qué lo recomienda Jenna Bush Hager
 

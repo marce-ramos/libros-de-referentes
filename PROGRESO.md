@@ -2317,11 +2317,16 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   Jane Austen con *Orgullo y prejuicio* [Jenna] + *Emma* [J.K. Rowling], ambos pares de libros
   distintos del mismo autor). Spot-check de 3 fichas (Good Material, Devotions, Pride and Prejudice)
   sin errores ni citas inventadas.
-  ⚠️ **Flag para revisar:** *Upward Bound* (Woody Brown) tiene controversia pública sobre el método
-  de autoría (comunicación facilitada, autor autista no verbal) — el subagente decidió no
-  mencionarla en la ficha por no ser verificable a fondo con 1-2 búsquedas; Marcelo puede decidir si
-  amerita una frase de cautela o revisar la categoría (podría ser no ficción/memorias en vez de
-  ficción).
+  ⚠️ **Flag *Upward Bound* — RESUELTO (2026-08-01, mismo día).** Marcelo confirmó los datos exactos:
+  es una **novela de ficción** (no memoria — la `categoria: ficcion` ya estaba bien puesta),
+  ambientada en un centro de día para adultos con discapacidad en el sur de California, basada en
+  parte en la vida de Brown como autista no verbal, escrita junto a su madre Mary Brown con el
+  **rapid prompting method (RPM)**, una variante de la **comunicación facilitada (FC)**. Ficha
+  editada: se nombra el método explícitamente y se suma una frase neutral sobre la controversia
+  científica de la FC/RPM (estudios controlados cuestionan que el mensaje sea del autor y no del
+  facilitador; sus defensores, incluida la familia Brown, sostienen que es una herramienta de acceso
+  genuina) — mismo criterio de cautela evenhanded ya usado con otros referentes polémicos del
+  catálogo.
   **Listicle escrito de cero** (`libros-que-recomienda-jenna-bush-hager.md`): 31 libros en **5
   grupos temáticos** — Relaciones/rupturas/comedias con filo (6), Familias con secretos (7),
   Suspenso/distopías/giros especulativos (7), Comunidad/raíces/duelo compartido (6),
