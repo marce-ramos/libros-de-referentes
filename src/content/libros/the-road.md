@@ -5,17 +5,18 @@ asin: "8483468689"
 categoria: ficcion
 recomendadoPor:
   - oprah-winfrey
+  - isabel-allende
 anio: 2006
-resumen: "Un padre y su hijo caminan hacia el sur por un país arrasado, cargando lo poco que les queda. La novela post-apocalíptica de McCarthy, ganadora del Pulitzer, que Oprah eligió en 2007."
+resumen: "Un padre y su hijo caminan hacia el sur por un país arrasado, cargando lo poco que les queda. La novela post-apocalíptica de McCarthy, ganadora del Pulitzer, que Oprah eligió en 2007 e Isabel Allende cuenta entre sus seis libros favoritos."
 destacado: false
-fechaActualizado: 2026-07-19
+fechaActualizado: 2026-07-31
 ---
 
 Cormac McCarthy no suele dar entrevistas ni sumarse a clubes de lectura, así que cuando *The Oprah Winfrey Show* lo consiguió en 2007, para hablar de *La carretera*, fue un acontecimiento en sí mismo: una de las pocas veces que el escritor más hermético de la literatura estadounidense habló en televisión de su obra.
 
-## Por qué lo recomienda Oprah Winfrey
+## Por qué lo recomiendan Oprah Winfrey e Isabel Allende
 
-Oprah eligió *La carretera* en marzo de 2007, apenas unos meses después de que la novela ganara el premio Pulitzer de Ficción. Fue una elección arriesgada: un libro brutal, casi sin diálogos convencionales, sobre un padre y un hijo sobreviviendo en un mundo devastado. Pero la entrevista que Oprah le hizo a McCarthy —poco habitual en un autor que evita la exposición pública— terminó siendo uno de los momentos más comentados de su club de lectura, y ayudó a que la novela llegara a un público mucho más amplio que el habitual de la ficción literaria seria.
+Oprah eligió *La carretera* en marzo de 2007, apenas unos meses después de que la novela ganara el premio Pulitzer de Ficción. Fue una elección arriesgada: un libro brutal, casi sin diálogos convencionales, sobre un padre y un hijo sobreviviendo en un mundo devastado. Pero la entrevista que Oprah le hizo a McCarthy —poco habitual en un autor que evita la exposición pública— terminó siendo uno de los momentos más comentados de su club de lectura, y ayudó a que la novela llegara a un público mucho más amplio que el habitual de la ficción literaria seria. Isabel Allende, por su parte, la incluyó entre sus seis libros favoritos en una entrevista a *The Week* (2014): "Entre las miles de novelas futuristas apocalípticas que existen, esta es la más deprimente de todas. Y sin embargo está tan bellamente escrita que la leí tres veces. En el relato de McCarthy, el amor de un padre por su hijo es la única luz en medio del horror y la oscuridad más absolutos. Qué escritor."
 
 ## De qué trata
 

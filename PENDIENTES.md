@@ -1,6 +1,9 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-07-31 (**Oprah Winfrey: backlog 100% cerrado** —
+Punto de retomada. Última actualización: 2026-07-31 (**Alta de Isabel Allende, primera figura
+hispana del catálogo** — fuente The Week 2014, 6 libros con cita real por título, 2 cross-ref +
+4 NUEVO, listicle propio; referentes 40 → 41, catálogo 392 → 396 libros, blog 28 → 29; detalle
+completo en PROGRESO.md); antes, mismo día (**Oprah Winfrey: backlog 100% cerrado** —
 tanda 5/5 final, 30 libros [92 → 122], reconstruido re-fetcheando la fuente porque el manifiesto
 original vivía sin versionar en `/tmp`; 2 grupos temáticos nuevos en el listicle para no
 desbalancear "Familias a la deriva"; detalle completo en PROGRESO.md); antes, 2026-07-24
@@ -77,8 +80,9 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
 - **Diseño "Estantes claros"** (lavanda + serif Fraunces): home con *Los más recomendados*
   (ranking por consenso) arriba y *Explorá por tema* (estantes por categoría) abajo.
   Pill "N referentes" (2+), orden por cantidad de referentes, portadas placeholder inteligentes.
-- **Contenido:** **40 referentes al 100%** (los 39 originales + **Dua Lipa**, completado
-  2026-07-12), **392 libros** (362 + 30 de la tanda 5 de Oprah, 2026-07-31), 9 categorías. Bill Gates profundizado dos veces (2026-07-12
+- **Contenido:** **41 referentes al 100%** (los 39 originales + **Dua Lipa** [2026-07-12] +
+  **Isabel Allende** [2026-07-31, primera figura hispana del catálogo]), **396 libros** (362 + 30
+  de la tanda 5 de Oprah + 4 de Isabel Allende, 2026-07-31), 9 categorías. Bill Gates profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
   Witherspoon profundizada el 2026-07-13 (4 → 56, con backlog restante de ~73 candidatos
@@ -94,13 +98,14 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 28 artículos (recontado por `Glob` el 2026-07-24, corrigiendo un conteo previo que
-  venía arrastrando un error) — 27 listicles de referente (Gates 40, Obama 61, Buffett 18, Musk,
+- **Blog:** 29 artículos (28 + listicle nuevo de Isabel Allende, 2026-07-31) — 28 listicles de
+  referente (Gates 40, Obama 61, Buffett 18, Musk,
   Jordan Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval
   Ravikant, Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9,
   Vitalik Buterin 8, Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36,
-  Emma Watson 32, Oprah Winfrey 92, Stephen King, J.K. Rowling, Malcolm Gladwell (⚠️ slug con typo,
-  ver arriba), **Richard Branson 70** (regenerado 2026-07-24)) + 1 best-of de categoría (Negocios
+  Emma Watson 32, Oprah Winfrey 122 (backlog cerrado 2026-07-31), Stephen King, J.K. Rowling,
+  Malcolm Gladwell (⚠️ slug con typo, ver arriba), Richard Branson 70, **Isabel Allende 6**
+  (nueva, 2026-07-31)) + 1 best-of de categoría (Negocios
   e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
@@ -222,8 +227,9 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
     encare, armar plan de Pinterest (tipo de pins, cadencia, reuso de assets); IG solo como jugada
     de marca secundaria, con expectativas realistas.
 11. **Backlog de referentes nuevos a sumar** (ver `../CONSOLIDADO_candidatos_referentes.md`, fusión
-    deduplicada de las listas Grok + Gemini; el top ~15 ya está en el sitio). Prioridad de alta:
-    **(1) figuras hispanas** —Mario Vargas Llosa, Isabel Allende, Pedro Almodóvar, Guillermo del
+    deduplicada de las listas Grok + Gemini; el top ~15 ya está en el sitio). **Isabel Allende
+    sumada el 2026-07-31** (primera figura hispana del catálogo) — sacada de esta lista. Prioridad
+    de alta restante: **(1) figuras hispanas** —Mario Vargas Llosa, Pedro Almodóvar, Guillermo del
     Toro— por audiencia amazon.es y diferenciación; **(2) clubes/listas documentadas** (fuente
     sólida, poco riesgo de alucinación) —Jenna Bush Hager (Read With Jenna), Tyler Cowen, Andrew
     Huberman, Derek Sivers (sivers.org/book), Sarah Jessica Parker, Florence Welch, Dakota Johnson,

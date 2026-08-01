@@ -2176,3 +2176,38 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   (`Grep` de links `### [...](/libros/...)`, 126 ocurrencias − 4 duplicados intencionales del bloque
   "Por dónde empezar" = 122 únicos): coincide exacto con las 122 fichas reales. **Listicle de Oprah:
   cerrado y al día — backlog en 0.**
+
+- **2026-07-31 — Acción "Nuevo referente": Isabel Allende (alta completa).** Primera figura hispana
+  del catálogo (prioridad #1 del backlog de referentes nuevos en `CONSOLIDADO_candidatos_
+  referentes.md`, ver PENDIENTES.md §11). Fuente documentada y fetcheada: **The Week, "Isabel
+  Allende's 6 favorite books"** (2014, actualizada 2016), entrevista con cita textual propia de
+  Allende por cada libro — mismo estándar de fuente que Malcolm Gladwell/Emma Watson. Reconciliación
+  manual (`Grep`/`Glob`, 6 candidatos, sin ambigüedad): **2 CROSS-REF** (`one-hundred-years-of-
+  solitude`, ya en catálogo vía Dua Lipa/Richard Branson/Oprah; `the-road`, ya en catálogo vía
+  Oprah) + **4 NUEVO**: Las mil y una noches [ES, Cátedra, asin 8437634512, `autorLibro: "Anónimo"`]
+  ; La mujer eunuco [ES, Kairós, asin 8472455769, categoria historia] (Germaine Greer); Drácula [ES,
+  Alianza, asin 8420687413] (Bram Stoker); Broken Open: How Difficult Times Can Help Us Grow [solo
+  inglés, asin 0375759913, categoria memorias] (Elizabeth Lesser).
+  **Bio del referente** (`autores/isabel-allende.md`, orden 50): biografía real con foco en el
+  exilio de 1973, *La casa de los espíritus*, y la fuente de sus recomendaciones. Sumada a
+  `src/lib/ambitos.ts` bajo el ámbito "Escritores".
+  **Cross-refs aplicados con desarrollo en prosa** (no solo frase de cierre, por la riqueza de la
+  cita real de Allende): `the-road.md` pasó de una sección desarrollando solo a Oprah a
+  "Por qué lo recomiendan Oprah Winfrey e Isabel Allende", con la cita real de Allende sobre el
+  libro citada y traducida; `one-hundred-years-of-solitude.md` sumó a Allende con su cita real en
+  la frase de cierre (ya tenía 2 referentes desarrollados — Dua Lipa como principal —, así que
+  Allende se nombra sin abrir desarrollo propio, respetando el máximo de 2 de MODO LIBRO).
+  Las 4 citas reales de Allende (Mil y una noches, Mujer eunuco, Drácula, La carretera, Cien años de
+  soledad) traducidas del inglés y atribuidas correctamente, ninguna inventada. Nota de contexto
+  verificada: el libro de Elizabeth Lesser lo recomienda en relación directa con el duelo por la
+  muerte de su hija Paula (1992), tema que la propia Allende trató en sus memorias *Paula* — dato
+  real usado para enriquecer la sección de atribución sin inventar biografía.
+  ASIN de los 4 NUEVO verificado real (10 caracteres), ninguno inventado.
+  **Isabel Allende: 0 → 6 libros vinculados/enriquecidos, backlog 100% cerrado** (la fuente es una
+  lista fija y cerrada de 2014, no un club de lectura con picks nuevos — no hay backlog pendiente
+  salvo que Allende dé una entrevista nueva con más recomendaciones a futuro).
+  **Listicle escrito de cero** (`libros-que-recomienda-isabel-allende.md`): lista simple sin grupos
+  temáticos (regla de MODO LISTICLE para menos de 8 libros), los 6 en el orden de la fuente original.
+  **Referentes: 40 → 41. Catálogo: 392 → 396 libros** (392 + 4 NUEVO). **Blog: 28 → 29 artículos.**
+  Pendiente recomendado: correr `detectar_duplicados.py` (Marcelo, desde Windows) para confirmar
+  que los 2 cross-ref y las 4 fichas nuevas quedaron bien.
