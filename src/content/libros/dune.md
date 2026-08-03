@@ -6,10 +6,11 @@ categoria: cienciaficcion
 recomendadoPor:
   - tim-ferriss
   - elon-musk
+  - jeff-bezos
 anio: 1965
-resumen: "La novela épica de Frank Herbert que redefinió la ciencia ficción, tejiendo política, religión y ecología. Recomendada por Tim Ferriss y Elon Musk."
+resumen: "La novela épica de Frank Herbert que redefinió la ciencia ficción, tejiendo política, religión y ecología. Recomendada por Tim Ferriss, Elon Musk y Jeff Bezos."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-08-03
 ---
 
 *Dune* es, para muchos, la mejor novela de ciencia ficción jamás escrita, y una de las favoritas de Tim Ferriss. Publicada en 1965, su influencia se extiende por toda la cultura moderna, del cine a los videojuegos.
@@ -20,7 +21,7 @@ Ferriss, conocido por diseccionar los hábitos de gente excepcional, la cita ent
 
 ## También la recomienda Elon Musk
 
-Musk es un fan declarado de la ciencia ficción de ideas y llama a la saga de *Dune* "brillante". Le interesa especialmente su advertencia sobre poner límites a la inteligencia de las máquinas y su mirada sobre cómo el poder y la religión moldean civilizaciones enteras.
+Musk es un fan declarado de la ciencia ficción de ideas y llama a la saga de *Dune* "brillante". Le interesa especialmente su advertencia sobre poner límites a la inteligencia de las máquinas y su mirada sobre cómo el poder y la religión moldean civilizaciones enteras. A ese consenso se suma Jeff Bezos, que también se declaró "gran fan de la ciencia ficción" y ubicó a la saga entre sus series favoritas del género.
 
 ## De qué trata
 

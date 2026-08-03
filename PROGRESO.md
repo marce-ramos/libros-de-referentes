@@ -2392,3 +2392,53 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   esta alta tomó solo la selección curada de 10/10 y 9/10 más vendible en ES — un futuro
   "Profundizar Derek Sivers" podría bajar a puntajes 7-8/10 si se agota el material de alto
   puntaje.
+
+- **2026-08-03 — Profundizar: Jeff Bezos (sin discovery real previo → discovery completo +
+  listicle nuevo).** Bezos era uno de los 13 referentes "sin listicle" del catálogo: tenía 4
+  libros de la carga base original (Built to Last, The Remains of the Day, The Black Swan, Sam
+  Walton: Made in America) pero nunca había pasado por un discovery real. Decisión de Marcelo
+  (vía pregunta): profundizar primero, listicle después, en vez de publicar el post con solo 4
+  libros. **Discovery:** `web_fetch` sobre mostrecommendedbooks.com/people/jeff-bezos-recommended-
+  books (32 libros listados, cada uno con cita y fuente primaria propia — mismo patrón que se usó
+  con Satya Nadella). **Reconciliación:** manual vía Glob/Grep contra el catálogo (sin bash) — **4
+  YA-LINKED** (los 4 ya mencionados, coinciden exactamente con la fuente, confirma su fiabilidad)
+  + **2 CROSS-REF** (Dune, ya recomendado por Tim Ferriss/Elon Musk — Bezos se declaró "gran fan
+  de la ciencia ficción" y la ubicó entre sus series favoritas; El jugador/The Player of Games, ya
+  recomendado por Mark Zuckerberg — Bezos citó a toda la saga de La Cultura de Iain M. Banks como
+  "uno de mis favoritos personales") + **11 NUEVO**. Nota: la fuente cuenta "32 libros" porque
+  desagrega la saga Dune (6 tomos) y la saga La Cultura (11 tomos) libro por libro; siguiendo el
+  criterio ya usado con la Trilogía de la Fundación, cada saga se representa acá con **una sola
+  ficha** (la puerta de entrada de cada una), no con un tomo por separado.
+  **2 CROSS-REF aplicados** (frontmatter + mención en el cuerpo, respetando la regla de
+  atribución): dune.md y the-player-of-games.md suman `jeff-bezos` a `recomendadoPor`.
+  **11 NUEVO enriquecidos** vía 2 subagentes Sonnet en paralelo (tandas de 6/5), todos con cita o
+  fuente real documentada (nunca de memoria): Creation: Life and How to Make It [0674011139, sin
+  ES] (Steve Grand, según biografía de Brad Stone: "Bezos quedó fascinado"); Data-Driven Marketing
+  [0470504544, sin ES] (Mark Jeffery, parte de "Jeff's Reading List"); Reinicia [8492452587]
+  (David Heinemeier Hansson y Jason Fried — cita real de Bezos vía basecamp.com/books/rework: "Sin
+  dejarse perturbar por la sabiduría convencional..."); El dilema de los innovadores [9506412936]
+  (Clayton Christensen, "Jeff's Reading List"); The Mythical Man-Month [0201835959, sin ES
+  comprable pese a existir traducción citada en Wikipedia] (Frederick P. Brooks Jr., raíz de los
+  "equipos de dos pizzas" de Amazon); Lean Thinking [8498750210] (James P. Womack, "Jeff's Reading
+  List"); Empresas que sobresalen [8496426858] (Jim Collins, "Jeff's Reading List"); Memos from
+  the Chairman [0761103465, sin ES] (Alan C. Greenberg, "Jeff's Reading List"); La Meta
+  [847978718X] (Eliyahu M. Goldratt — según la biografía, "la biblia" del equipo que arregló la
+  logística de Amazon); El relojero ciego [8433557378] (Richard Dawkins — **cita textual primaria
+  verificada**: "Extraordinary", carta anual a accionistas de Amazon 2020, aboutamazon.com); Lights
+  Out [0358250412, sin ES] (Thomas Gryta y Ted Mann — **cita textual primaria verificada**: tweet
+  de Bezos de mayo 2022, "If you're looking for some scary bedtime reading...").
+  **11/11 con ASIN real de 10 caracteres** (0 vacíos). Verificación: `asin` de 10 chars OK en las
+  11 (chequeo manual vía Grep), `recomendadoPor: [jeff-bezos]` OK, total de fichas con
+  `jeff-bezos` en `recomendadoPor` confirmado en 17 (4+2+11) vía Grep sobre todo el catálogo.
+  Spot-check de Opus: 2 fichas leídas completas (El relojero ciego, Lights Out) — ambas citas
+  primarias usadas correctamente entre comillas, resto de citas (vía biografía de Brad Stone)
+  correctamente enmarcadas como "según la biografía" y no como cita textual de Bezos.
+  **Listicle escrito de cero** (`libros-que-recomienda-jeff-bezos.md`): 17 libros en **3 grupos
+  temáticos** — Cultura y disciplina operativa (4), Innovación/riesgo/construcción de equipos y
+  productos (5), Fuera de los negocios: ficción/ciencia/ciencia ficción (4) — más lead "Por dónde
+  empezar" (4: Empresas que perduran, El cisne negro, La Meta, Dune).
+  **Jeff Bezos: 4 → 17 libros. Catálogo: 490 → 501 libros** (490 + 11 NUEVO). **Blog: 32 → 33
+  artículos.** Referentes: sin cambios (44) — es "Profundizar", no alta de referente nuevo.
+  **Pendiente:** ninguno formal — el discovery cubrió toda la fuente disponible (32/32 ítems de
+  mostrecommendedbooks.com reconciliados). Si en el futuro Bezos hace declaraciones nuevas
+  (entrevistas, cartas a accionistas, X) se puede volver a profundizar con un discovery chico.
