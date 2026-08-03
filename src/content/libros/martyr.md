@@ -5,6 +5,7 @@ asin: "841032332X"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - natalie-portman
 anio: 2024
 resumen: "Un joven poeta iraní-estadounidense en recuperación de una adicción busca sentido a la muerte de su madre en un vuelo derribado por error. Finalista del National Book Award y recomendado por Barack Obama en 2024."
 destacado: false
@@ -15,7 +16,7 @@ fechaActualizado: 2026-07-12
 
 ## Por qué lo recomienda Barack Obama
 
-Obama no sumó comentario propio a esta elección, pero el libro se suma a un patrón reconocible en sus listas: primeras novelas de autores de origen inmigrante que combinan la experiencia personal con la gran historia política —en este caso, un episodio poco conocido de la relación entre Estados Unidos e Irán— sin caer en el panfleto ni en la autoficción liviana.
+Obama no sumó comentario propio a esta elección, pero el libro se suma a un patrón reconocible en sus listas: primeras novelas de autores de origen inmigrante que combinan la experiencia personal con la gran historia política —en este caso, un episodio poco conocido de la relación entre Estados Unidos e Irán— sin caer en el panfleto ni en la autoficción liviana. También lo recomienda Natalie Portman, que contó en una entrevista con *Vanity Fair* que acababa de terminarlo.
 
 ## De qué trata
 

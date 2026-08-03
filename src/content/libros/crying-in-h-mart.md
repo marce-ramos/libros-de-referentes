@@ -5,6 +5,7 @@ asin: "1984898957"
 categoria: memorias
 recomendadoPor:
   - dua-lipa
+  - natalie-portman
 anio: 2021
 resumen: "Las memorias de Michelle Zauner (Japanese Breakfast) sobre la muerte de su madre por cáncer y la comida coreana como último hilo de conexión con ella: pick de abril 2024 de Dua Lipa en el Service95 Book Club."
 destacado: false
@@ -15,7 +16,7 @@ Antes de ser la cantante de Japanese Breakfast, Michelle Zauner fue la hija de u
 
 ## Por qué lo recomienda Dua Lipa
 
-En abril de 2024, Dua Lipa eligió *Lágrimas en H-Mart* como su lectura mensual en el Service95 Book Club —un pick que amplió el registro del club hacia la memoria personal, después de varios meses de ficción. Tiene sentido: Zauner es, como Dua, una artista musical con una vida creativa pública, pero acá se muestra en su versión más vulnerable y menos performática. Es el tipo de libro que el club celebra por su honestidad cruda y su capacidad de volver universal algo profundamente específico: el duelo de una hija mestiza que pierde a su madre y, con ella, buena parte del acceso a su propia identidad coreana.
+En abril de 2024, Dua Lipa eligió *Lágrimas en H-Mart* como su lectura mensual en el Service95 Book Club —un pick que amplió el registro del club hacia la memoria personal, después de varios meses de ficción. Tiene sentido: Zauner es, como Dua, una artista musical con una vida creativa pública, pero acá se muestra en su versión más vulnerable y menos performática. Es el tipo de libro que el club celebra por su honestidad cruda y su capacidad de volver universal algo profundamente específico: el duelo de una hija mestiza que pierde a su madre y, con ella, buena parte del acceso a su propia identidad coreana. También lo recomienda Natalie Portman, que lo compartió en su club de lectura en Instagram.
 
 ## De qué trata
 

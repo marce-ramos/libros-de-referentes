@@ -5,6 +5,7 @@ asin: "8433911007"
 categoria: ficcion
 recomendadoPor:
   - barack-obama
+  - natalie-portman
 anio: 2023
 resumen: "Un relato que mezcla ficción y ensayo sobre John von Neumann y el nacimiento de la inteligencia artificial, desde los fundamentos de la matemática hasta las máquinas que aprenden a jugar Go. Barack Obama lo incluyó entre sus favoritos de 2023."
 destacado: false
@@ -15,7 +16,7 @@ fechaActualizado: 2026-07-12
 
 ## Por qué lo recomienda Barack Obama
 
-Obama no acompañó esta elección con un comentario propio, pero el libro se suma a un interés creciente en sus listas por la inteligencia artificial y sus riesgos, en la misma línea que llevó a Bill Gates a recomendar *Superinteligencia* de Nick Bostrom o *La ola que viene* de Mustafa Suleyman: entender, a través de sus creadores, hacia dónde puede llevarnos una tecnología que ya se mueve más rápido que nuestra capacidad de regularla.
+Obama no acompañó esta elección con un comentario propio, pero el libro se suma a un interés creciente en sus listas por la inteligencia artificial y sus riesgos, en la misma línea que llevó a Bill Gates a recomendar *Superinteligencia* de Nick Bostrom o *La ola que viene* de Mustafa Suleyman: entender, a través de sus creadores, hacia dónde puede llevarnos una tecnología que ya se mueve más rápido que nuestra capacidad de regularla. También lo recomienda Natalie Portman, que lo sumó a su club de lectura en Instagram.
 
 ## De qué trata
 

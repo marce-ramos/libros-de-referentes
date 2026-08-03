@@ -5,6 +5,7 @@ asin: "8416638802"
 categoria: ficcion
 recomendadoPor:
   - dua-lipa
+  - natalie-portman
 anio: 2009
 resumen: "Una mujer retirada que vive aislada en un pueblo polaco investiga la muerte de varios cazadores y sospecha que los animales se están vengando: pick de enero 2025 de Dua Lipa en el Service95 Book Club, de la Nobel de Literatura Olga Tokarczuk."
 destacado: false
@@ -15,7 +16,7 @@ Janina Duszejko tiene una teoría poco ortodoxa sobre por qué están muriendo, 
 
 ## Por qué lo recomienda Dua Lipa
 
-Dua Lipa eligió esta novela como su pick de enero de 2025 en el Service95 Book Club, sumando a su lista a una autora que ya tenía el aval máximo de la literatura mundial: el Nobel 2019 y el Booker International 2018. Es un pick que confirma el criterio del club de ir a buscar autoras consagradas fuera del circuito anglosajón —Tokarczuk escribe en polaco— y traer libros que mezclan géneros sin pedir permiso. La mirada radicalmente distinta de Duszejko sobre la relación entre humanos y naturaleza es, además, el tipo de provocación intelectual que el club suele premiar.
+Dua Lipa eligió esta novela como su pick de enero de 2025 en el Service95 Book Club, sumando a su lista a una autora que ya tenía el aval máximo de la literatura mundial: el Nobel 2019 y el Booker International 2018. Es un pick que confirma el criterio del club de ir a buscar autoras consagradas fuera del circuito anglosajón —Tokarczuk escribe en polaco— y traer libros que mezclan géneros sin pedir permiso. La mirada radicalmente distinta de Duszejko sobre la relación entre humanos y naturaleza es, además, el tipo de provocación intelectual que el club suele premiar. También la recomienda Natalie Portman, que la sumó a su club de lectura en Instagram.
 
 ## De qué trata
 

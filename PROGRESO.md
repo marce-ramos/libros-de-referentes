@@ -2442,3 +2442,75 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **Pendiente:** ninguno formal — el discovery cubrió toda la fuente disponible (32/32 ítems de
   mostrecommendedbooks.com reconciliados). Si en el futuro Bezos hace declaraciones nuevas
   (entrevistas, cartas a accionistas, X) se puede volver a profundizar con un discovery chico.
+
+- **2026-08-03 — Profundizar: Natalie Portman (discovery grande, tanda prioritaria 2022-2025 +
+  listicle nuevo).** Portman era otra de las "sin listicle": 4 libros de la carga base original
+  (The Copenhagen Trilogy, My Brilliant Friend, Fates and Furies, Breasts and Eggs), sin discovery
+  real. Su fuente es @natsbookclub, el club de lectura que conduce en Instagram (~129K
+  seguidores, un pick mensual). **Discovery:** intenté `web_fetch` sobre
+  tertulia.com/editorial-list/complete-list-natalie-portman-book-club (listado oficial más
+  completo, 46 picks) pero la página pagina por JS y solo trajo los primeros ~10; Claude in
+  Chrome no estaba conectado en la sesión para forzar el scroll. Se completó cruzando 4 fuentes
+  secundarias con cita o atribución real por libro: Tertulia (10 picks 2022-2025, con cita
+  textual), Brit+Co ("recently read", ~20 títulos 2023-2024), Women.com (7 picks con reseña y
+  algunas citas reales), mostrecommendedbooks.com (10 picks históricos 2019-2020, con fuente
+  primaria). Total **48 candidatos únicos** tras deduplicar. **Reconciliación:** manual vía
+  Glob/Grep — **6 YA-LINKED/CROSS-REF** (Fortuna vía Obama/Dua Lipa, MANIAC vía Obama, Lágrimas en
+  H-Mart vía Dua Lipa, Sobre los huesos de los muertos vía Dua Lipa, ¡Mártir! vía Obama, Todo
+  sobre el amor vía Emma Watson — los 6 ya estaban en el catálogo) + **42 NUEVO**.
+  **Decisión de Marcelo (vía pregunta):** dado el volumen (42 NUEVO, escala similar a Reese
+  Witherspoon), priorizar los **25 más recientes y mejor documentados (2022-2025)** ahora, y dejar
+  un **backlog de 17** (7 recientes no priorizados + los 10 históricos de 2019-2020) para una
+  futura tanda de "Profundizar".
+  **6 CROSS-REF aplicados** (frontmatter + mención en el cuerpo, respetando la regla de
+  atribución): trust.md, the-maniac.md, crying-in-h-mart.md,
+  drive-your-plow-over-the-bones-of-the-dead.md, martyr.md y all-about-love.md suman
+  `natalie-portman` a `recomendadoPor` (para trust.md, que ya tenía 2 referentes, se sumó a la
+  frase de cierre; el resto tenía 1 solo referente, se agregó una frase de cierre nueva).
+  **25 NUEVO enriquecidos** vía 4 subagentes Sonnet en paralelo (tandas de 7/6/6/6), con cita real
+  entre comillas cuando existía fuente primaria (Tertulia/Women.com/Brit+Co) y sin inventar
+  ninguna cuando no la había (instrucción explícita: "contá que lo sumó a su club, sin comillas"):
+  Un poder diferente [6073862709] (Jacinda Ardern, cita real); The English Understand Wool
+  [0811230074, sin ES]; Consider Yourself Kissed [1529154758, sin ES] (Jessica Stanley, cita
+  real); Saving Five [1035427788, sin ES] (Amanda Nguyen, cita real); Autocracia S.A.
+  [8419642967] (Anne Applebaum, cita real); The Coin [1646222768, sin ES] (Yasmin Zaher, cita
+  real); ¡Reconquista tu tiempo! [843443752X] (Jenny Odell, cita real, título ES distinto al
+  original); La guardiana [8418363010] (Yael Van Der Wouden, cita real); Monstruos [841100211X]
+  (Claire Dederer, cita real); El lago de la creación [B0FDQWQ46Q — ASIN no-ISBN de edición ES
+  reciente, 10 caracteres verificados] (Rachel Kushner, cita real); El cuarto de Giovanni
+  [8419261874] (James Baldwin, cita de una línea del libro que ella destacó); Se acabó el pastel
+  [8433981366, sin cita] (Nora Ephron); Y eso fue lo que pasó [8416011958, sin cita] (Natalia
+  Ginzburg); The Family Roe [1324036079, sin ES, sin cita] (Joshua Prager); Pura pasión
+  [8490667551] (Annie Ernaux, dato real: pick sugerido por la librería Shakespeare and Company);
+  How to Love Your Daughter [0593539648, sin ES] (Hila Blum, cita real); Tres luces [8412664795]
+  (Claire Keegan — título ES real "Tres luces", distinto del original "Foster"); Biografía de X
+  [8420472107] (Catherine Lacey, sin cita); La postal [8426422853] (Anne Berest, sin cita); Olga
+  muere soñando [6073911912] (Xochitl Gonzalez, sin cita); Niña, mujer, otras [8491818138]
+  (Bernardine Evaristo, Booker Prize 2019, sin cita); Mujeres sin hombres [8481362689] (Shahrnush
+  Parsipur, sin cita); Reunión [8433981153] (Natasha Brown, sin cita); Vladimir [1982187638, sin
+  ES] (Julia May Jonas, sin cita); Fight Night [0571370733, sin ES] (Miriam Toews, sin cita).
+  **25/25 con ASIN real de 10 caracteres** (0 vacíos; 1 con formato Amazon B0... en vez de ISBN
+  clásico, mismo patrón ya aceptado en el catálogo para ediciones muy recientes). Verificación:
+  `asin` de 10 chars OK en las 25 (chequeo manual vía Grep), `recomendadoPor: [natalie-portman]`
+  OK. Spot-check de Opus: 3 fichas leídas completas (Saving Five, Vladimir, Fight Night) — citas
+  reales bien atribuidas, ninguna inventada, tono y estructura correctos.
+  **Listicle escrito de cero** (`libros-que-recomienda-natalie-portman.md`): 35 libros (4
+  originales + 6 cross-ref + 25 nuevo) en **4 grupos temáticos** — Vínculos familiares y
+  generaciones de mujeres (9), Matrimonios/deseo/lo que se rompe (7), Identidad/cuerpo/sociedad
+  (6), Poder/ciencia/grandes preguntas (9) — más lead "Por dónde empezar" (4: La amiga estupenda,
+  Fortuna, Niña mujer otras, ¡Mártir!). La categoría `ficcion`, dominante (25/35), se subdividió en
+  4 sub-temas editoriales en vez de dejarla como un bloque único.
+  **Natalie Portman: 4 → 35 libros. Catálogo: 501 → 526 libros** (501 + 25 NUEVO). **Blog: 33 → 34
+  artículos.**
+  **Pendiente — backlog de 17 candidatos para una futura "Profundizar Natalie Portman":**
+  recientes no priorizados (7): The Vulnerables (Sigrid Nunez), Fruiting Bodies (Kathryn Harlan),
+  A Sister's Story (Donatella Di Pietrantonio), Cassandra at the Wedding (Dorothy Baker), Poet
+  Warrior (Joy Harjo), Something That May Shock and Discredit You (Daniel M. Lavery), Middlemarch
+  (George Eliot); históricos 2019-2020 vía mostrecommendedbooks.com (10): Lost Children Archive
+  (Valeria Luiselli), Royals (Emma Forrest), The Truth Will Set You Free... (Gloria Steinem), She
+  Said (Jodi Kantor), Hope in the Dark (Rebecca Solnit), Becoming Ms. Burton (Susan Burton),
+  Kaddish.com (Nathan Englander), Trick Mirror (Jia Tolentino), We Are the Weather (Jonathan
+  Safran Foer), The Waves (Virginia Woolf). Además: el listado completo de Tertulia (46 picks,
+  fuente más autorizada) quedó parcialmente sin explorar por la paginación JS — si en una futura
+  sesión Claude in Chrome está conectado, vale la pena re-intentar el fetch completo para
+  detectar picks intermedios (2020-2022) que ninguna de las 4 fuentes secundarias cubrió.

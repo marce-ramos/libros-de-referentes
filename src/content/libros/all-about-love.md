@@ -5,6 +5,7 @@ asin: "8449337917"
 categoria: filosofia
 recomendadoPor:
   - emma-watson
+  - natalie-portman
 anio: 2000
 resumen: "El ensayo de bell hooks que redefine qué significa amar de verdad, más allá del romance. Fue uno de los picks de Our Shared Shelf, el club de lectura feminista de Emma Watson."
 destacado: false
@@ -15,7 +16,7 @@ bell hooks pasó buena parte de su obra desarmando ideas que damos por sentadas,
 
 ## Por qué lo recomienda Emma Watson
 
-Watson incluyó este ensayo entre los picks de Our Shared Shelf, el club de lectura feminista que condujo en Goodreads entre 2016 y 2019, dentro de una selección pensada para explorar el feminismo desde ángulos poco convencionales: no solo el activismo o la política, sino también la manera en que entendemos el afecto, el cuidado y los vínculos. bell hooks es una de las pensadoras feministas más influyentes de las últimas décadas, y este libro en particular —menos citado que sus textos más explícitamente políticos— aporta una mirada íntima que complementa el resto de la lista.
+Watson incluyó este ensayo entre los picks de Our Shared Shelf, el club de lectura feminista que condujo en Goodreads entre 2016 y 2019, dentro de una selección pensada para explorar el feminismo desde ángulos poco convencionales: no solo el activismo o la política, sino también la manera en que entendemos el afecto, el cuidado y los vínculos. bell hooks es una de las pensadoras feministas más influyentes de las últimas décadas, y este libro en particular —menos citado que sus textos más explícitamente políticos— aporta una mirada íntima que complementa el resto de la lista. También lo recomienda Natalie Portman, que lo sumó a su club de lectura en Instagram.
 
 ## De qué trata
 
