@@ -1,0 +1,17 @@
+# Manifiesto de discovery — Tyler Cowen (n. 1962, ámbito: Negocios e Inversión)
+# Economista, autor de Marginal Revolution (blog) y del podcast Conversations with Tyler. Recomendador prolifico.
+# Fuente: post "Books which have influenced me most" (marginalrevolution.com, 2010-03-16), su lista canonica.
+# OJO (caveat): esta lista es intelectualmente pesada (filosofia/economia clasica), de baja rotacion comercial.
+#   Para mas titulos vendibles se puede complementar con sus "best fiction/nonfiction of the year" anuales (dispersos).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+The Dialogues of Plato|Plato|MR influyentes
+The Incredible Bread Machine|Susan Love Brown|MR influyentes
+Capitalism: The Unknown Ideal|Ayn Rand|MR influyentes
+Individualism and Economic Order|Friedrich A. Hayek|MR influyentes
+The General Theory of Employment, Interest, and Money|John Maynard Keynes|MR influyentes
+Autobiography of John Stuart Mill|John Stuart Mill|MR influyentes
+Word and Object|Willard Van Orman Quine|MR influyentes
+Reasons and Persons|Derek Parfit|MR influyentes
+Sexual Personae|Camille Paglia|MR influyentes
+In Search of Lost Time|Marcel Proust|MR influyentes

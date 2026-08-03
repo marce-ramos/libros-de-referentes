@@ -2336,3 +2336,59 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **Pendiente:** backlog histórico de Read With Jenna (marzo 2019–enero 2024, ~55 picks) sin
   sourcear — requiere Chrome/paginación o cruce con Parade/NBC Insider, para una futura
   "Profundizar Jenna Bush Hager".
+
+- **2026-08-03 — Alta de Derek Sivers (referente #44, "Nuevo referente" pipeline completo).**
+  **Bio:** `autores/derek-sivers.md` creada (orden 50, ámbito "Negocios e Inversión" en
+  `ambitos.ts`) — fundador de CD Baby (vendida en 2008, USD 22M donados a una fundación de
+  educación musical), escritor y ex-músico; reseña y puntúa del 1 al 10 cada libro que lee en
+  **sivers.org/book**. **Discovery:** manifiesto ya curado a mano por el usuario en
+  `derek-sivers-manifiesto.txt` (raíz del repo) — 27 títulos, sus 10/10 y 9/10 más relevantes
+  para negocios/psicología/filosofía práctica sobre un catálogo real de 480+ reseñas. **
+  Reconciliación:** hecha a mano vía `Glob`/`Grep` contra `src/content/libros/` (sin bash) —
+  **4 CROSS-REF + 23 NUEVO**, 0 REVISAR.
+  **4 CROSS-REF aplicados** (frontmatter + mención en el cuerpo respetando la regla de
+  atribución): sapiens (se sumó a la frase de cierre junto a Obama/Clear/Ravikant/Zuckerberg),
+  skin-in-the-game (cierre junto a Kahneman), the-war-of-art (cierre junto a Clear/Holiday),
+  atomic-habits (única ficha con recomendadoPor previo de un solo referente-autor — se agregó
+  una sección nueva `## Por qué lo recomienda Derek Sivers` en vez de solo una frase de cierre,
+  por ser el primer recomendador externo del libro).
+  **23 NUEVO enriquecidos** vía 3 subagentes Sonnet en paralelo (tandas de 8/8/7): The Waste
+  Books [0940322501, sin ES] (Georg Christoph Lichtenberg); Todo es negociable [8432036064]
+  (Herb Cohen); The Listening Book [159030831X, sin ES] (W.A. Mathieu); Atrévete a no gustar
+  [8408184164] (Kishimi/Koga); Sum: cuarenta historias desde la otra vida [8467033770] (David
+  Eagleman); ¿Padres jardineros o padres carpinteros? [8499986358 — título real corregido en
+  verificación, ver flag abajo] (Alison Gopnik); Playful Parenting [0345442865, sin ES]
+  (Lawrence J. Cohen); On Writing Well [0060891548, sin ES] (William Zinsser); Tropezar con la
+  felicidad [843442522X] (Daniel Gilbert); El mito del emprendedor [8449303656] (Michael E.
+  Gerber); 12 reglas para vivir [8408193309] (Jordan Peterson); El sutil arte de que (casi todo)
+  te importe una mierda [8491392289] (Mark Manson); El ego es tu enemigo [8408274562] (Ryan
+  Holiday); Esto es marketing [8417568263] (Seth Godin); Decide y apuesta [8411004074] (Annie
+  Duke); La mente de los justos [842343009X] (Jonathan Haidt); Organízate con eficacia
+  [8416997861] (David Allen); Despertando al gigante interior [9700507335] (Tony Robbins); El
+  Efecto Compuesto [8393222249] (Darren Hardy); Juegos finitos y juegos infinitos [8478080503,
+  confirmado libro distinto de *the-infinite-game* de Simon Sinek] (James P. Carse); How Minds
+  Change [0593190297, sin ES] (David McRaney); Problemas salvajes [841796360X] (Russ Roberts);
+  Cuando todo se derrumba [8484459942] (Pema Chödrön).
+  ⚠️ **Flag *the-gardener-and-the-carpenter* — RESUELTO (2026-08-03, mismo día).** El subagente
+  puso el título "El jardinero y el carpintero" sin ASIN confirmado. Verificación de Opus con
+  1 búsqueda: la edición ES real (Temas de Hoy, trad. María Jesús Asensio Tudela) se publicó como
+  **"¿Padres jardineros o padres carpinteros?"** (asin 8499986358, confirmado por URL directa de
+  amazon.es) — título y ASIN corregidos en la ficha (slug sin tocar).
+  **23/23 con ASIN real de 10 caracteres** (0 vacíos tras la corrección). Verificación: `asin`
+  de 10 chars OK en las 23 (chequeo manual vía `Grep`), `recomendadoPor: [derek-sivers]` OK,
+  ningún libro colisiona con el resto del catálogo (los 27 títulos del manifiesto se chequearon
+  contra el catálogo completo antes de crear fichas). Spot-check de Opus: 5 fichas leídas
+  completas (waste-books, 12-rules-for-life, when-things-fall-apart, getting-things-done,
+  this-is-marketing) — estructura, tono, puntaje de Sivers citado correctamente en las 5, sin
+  errores.
+  **Listicle escrito de cero** (`libros-que-recomienda-derek-sivers.md`): 27 libros en **5
+  grupos temáticos** — Negocios, marketing y productividad (6), Hábitos, disciplina y
+  superación personal (4), Mente, comunicación y comportamiento (6), Filosofía práctica y
+  grandes preguntas (4), Crianza y curiosidad científica (3) — más lead "Por dónde empezar"
+  (4: Hábitos atómicos, Sapiens, La guerra del arte, Organízate con eficacia).
+  **Referentes: 43 → 44. Catálogo: 467 → 490 libros** (467 + 23 NUEVO). **Blog: 31 → 32
+  artículos.**
+  **Pendiente:** el catálogo real de Sivers en sivers.org/book supera los 480 libros reseñados;
+  esta alta tomó solo la selección curada de 10/10 y 9/10 más vendible en ES — un futuro
+  "Profundizar Derek Sivers" podría bajar a puntajes 7-8/10 si se agota el material de alto
+  puntaje.

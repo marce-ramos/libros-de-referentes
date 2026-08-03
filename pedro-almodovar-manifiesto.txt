@@ -1,0 +1,12 @@
+# Manifiesto de discovery — Pedro Almodóvar (n. 1949, español, ámbito: Entretenimiento)
+# Cineasta (Todo sobre mi madre, Volver, Hable con ella). Segundo referente hispano (junto a del Toro) de esta tanda.
+# Fuente: Diario Uno / El Placer de la Lectura — "las novelas que Almodóvar recomienda leer una vez en la vida".
+#   Dos con cita textual suya (Buenos días tristeza, La mala costumbre). Lista corta pero documentada y muy hispana.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Bonjour Tristesse|Francoise Sagan|Almodovar (cita)
+Bad Habit|Alana S. Portero|Almodovar (cita) / La mala costumbre
+Hopscotch|Julio Cortazar|Almodovar / Rayuela
+Steppenwolf|Hermann Hesse|Almodovar / El lobo estepario
+2666|Roberto Bolano|Almodovar
+One Hundred Years of Solitude|Gabriel Garcia Marquez|Almodovar / Cien años de soledad

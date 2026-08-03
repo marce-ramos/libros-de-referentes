@@ -5,13 +5,18 @@ asin: "6075694129"
 categoria: psicologia
 recomendadoPor:
   - james-clear
+  - derek-sivers
 anio: 2018
-resumen: "El método de James Clear para construir buenos hábitos y eliminar los malos a partir de cambios diminutos. Uno de los libros de desarrollo personal más vendidos del mundo."
+resumen: "El método de James Clear para construir buenos hábitos y eliminar los malos a partir de cambios diminutos. Uno de los libros de desarrollo personal más vendidos del mundo, recomendado también por Derek Sivers."
 destacado: false
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-08-03
 ---
 
 *Hábitos atómicos* es uno de los libros de desarrollo personal más vendidos de la última década —más de 25 millones de ejemplares— y está escrito por James Clear, uno de los referentes que seguimos en el sitio. Su fuerza está en lo concreto: no promete motivación, sino un sistema.
+
+## Por qué lo recomienda Derek Sivers
+
+Más allá de estar escrito por James Clear, el libro tiene una segunda validación: Derek Sivers —que reseña y puntúa cada libro que lee en su sitio— lo calificó con la nota máxima, 9/10, y lo señaló como una de las guías más claras que leyó sobre cómo cambiar de conducta sin depender de la fuerza de voluntad.
 
 ## De qué trata
 

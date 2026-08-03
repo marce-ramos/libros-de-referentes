@@ -1,0 +1,33 @@
+# Manifiesto de discovery — Guillermo del Toro (n. 1964, mexicano, ámbito: Entretenimiento)
+# Cineasta (El laberinto del fauno, La forma del agua, Pinocho). Recomienda libros en su cuenta de X (@RealGDT).
+# Fuente: readthistwice.com/person/guillermo-del-toro (26 recomendaciones verificadas, cada una con tweet de origen).
+# OJO (caveat): perfil marcadamente terror/fantasia/genero + algunos titulos de oficio (cine/animacion); algunos son
+#   de nicho. Buen encaje tematico pero rotacion comercial dispar. Verificar edicion ES antes de publicar cada ficha.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+The Neverending Story|Michael Ende|GDT (X)
+The Day of the Triffids|John Wyndham|GDT (X)
+The Chrysalids|John Wyndham|GDT (X)
+The Midwich Cuckoos|John Wyndham|GDT (X)
+Printer's Error|Rebecca Romney|GDT (X)
+Stinger|Robert McCammon|GDT (X)
+The Vampire, His Kith and Kin|Montague Summers|GDT (X)
+The Book of Three|Lloyd Alexander|GDT (X)
+The Gods of Pegana|Lord Dunsany|GDT (X)
+A Dictionary of Symbols|Juan Eduardo Cirlot|GDT (X)
+Frankenstein|Mary Shelley|GDT (X)
+Pet Sematary|Stephen King|GDT (X)
+Heavenly Bodies|Paul Koudounaris|GDT (X)
+The Book of Monelle|Marcel Schwob|GDT (X)
+Fevre Dream|George R.R. Martin|GDT (X)
+The Arrival|Shaun Tan|GDT (X)
+Kwaidan|Lafcadio Hearn|GDT (X)
+The Lost Thing|Shaun Tan|GDT (X)
+Dangerous Visions|Harlan Ellison|GDT (X)
+Making Movies|Sidney Lumet|GDT (X)
+The Illusion of Life|Ollie Johnston and Frank Thomas|GDT (X)
+The Book of Job|Stephen Mitchell|GDT (X)
+Sandkings|George R.R. Martin|GDT (X)
+Hitchcock/Truffaut|Francois Truffaut|GDT (X)
+The Vampire Tapestry|Suzy McKee Charnas|GDT (X)
+Serenade|James M. Cain|GDT (X)

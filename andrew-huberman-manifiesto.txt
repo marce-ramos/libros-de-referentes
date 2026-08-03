@@ -1,0 +1,50 @@
+# Manifiesto de discovery — Andrew Huberman (n. 1975, ámbito: Ciencia)
+# Neurocientifico de Stanford, conductor del podcast Huberman Lab. Recomienda libros de forma recurrente.
+# Fuente: compilado brainflow.co "Complete 47-Book Reading List" (cada item con cita/fuente del propio Huberman).
+#   Seleccion curada por relevancia/venta en ES; se excluyeron textbooks academicos (Principles of Neurobiology, etc.).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+# --- Neurociencia y conducta ---
+The Nature of the Beast|David J. Anderson|Huberman
+How Emotions Are Made|Lisa Feldman Barrett|Huberman
+Behave|Robert Sapolsky|Huberman
+The Molecule of More|Daniel Z. Lieberman and Michael E. Long|Huberman
+Dopamine Nation|Anna Lembke|Huberman
+Sapiens|Yuval Noah Harari|Huberman
+The Evolution of Desire|David Buss|Huberman
+# --- Sueño y ritmo circadiano ---
+Why We Sleep|Matthew Walker|Huberman
+The Circadian Code|Satchin Panda|Huberman
+Breath|James Nestor|Huberman
+The Secret Pulse of Time|Stefan Klein|Huberman
+# --- Salud y longevidad ---
+Outlive|Peter Attia|Huberman
+Good Energy|Casey Means|Huberman
+The 4-Hour Body|Tim Ferriss|Huberman
+# --- Fitness y resistencia ---
+Finding Ultra|Rich Roll|Huberman
+Endure|Alex Hutchinson|Huberman
+Can't Hurt Me|David Goggins|Huberman
+The Rise of Superman|Steven Kotler|Huberman
+# --- Mentalidad y productividad ---
+Deep Work|Cal Newport|Huberman
+Mindset|Carol Dweck|Huberman
+The Talent Code|Daniel Coyle|Huberman
+Mastery|Robert Greene|Huberman
+The War of Art|Steven Pressfield|Huberman
+Flow|Mihaly Csikszentmihalyi|Huberman
+Hope for Cynics|Jamil Zaki|Huberman
+The Road to Character|David Brooks|Huberman
+The Courage to Be Disliked|Ichiro Kishimi and Fumitake Koga|Huberman
+# --- Meditacion y estres ---
+Altered Traits|Daniel Goleman and Richard Davidson|Huberman
+Wherever You Go, There You Are|Jon Kabat-Zinn|Huberman
+Trauma: The Invisible Epidemic|Paul Conti|Huberman
+# --- Comunicacion y vinculos ---
+Never Split the Difference|Chris Voss|Huberman
+Influence|Robert Cialdini|Huberman
+# --- Memorias y ciencia narrada ---
+On the Move|Oliver Sacks|Huberman
+Longitude|Dava Sobel|Huberman
+An Immense World|Ed Yong|Huberman
+The Creative Act|Rick Rubin|Huberman

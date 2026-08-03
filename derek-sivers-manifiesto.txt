@@ -1,0 +1,35 @@
+# Manifiesto de discovery — Derek Sivers (n. 1969, ámbito: Negocios e Inversión)
+# Emprendedor (fundó CD Baby), autor y ex-músico. Reseña y puntúa cada libro que lee en sivers.org/book.
+# Fuente: sivers.org/book (puntajes "Recommend it: X/10"). Selección curada: sus 10/10 + 9/10 mas relevantes
+#   para el sitio (negocios, psicologia, filosofia practica). El catalogo real tiene 480+; esto es lo mejor/mas vendible.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+# --- Puntaje 10/10 (lo maximo que da) ---
+Waste Books|Georg Christoph Lichtenberg|sivers 10/10
+You Can Negotiate Anything|Herb Cohen|sivers 10/10
+The Listening Book|W.A. Mathieu|sivers 10/10
+The Courage to Be Disliked|Ichiro Kishimi and Fumitake Koga|sivers 10/10
+Sum: Forty Tales from the Afterlives|David Eagleman|sivers 10/10
+The Gardener and the Carpenter|Alison Gopnik|sivers 10/10
+Playful Parenting|Lawrence Cohen|sivers 10/10
+On Writing Well|William Zinsser|sivers 10/10
+The War of Art|Steven Pressfield|sivers 10/10
+Stumbling on Happiness|Daniel Gilbert|sivers 10/10
+The E-Myth Revisited|Michael Gerber|sivers 10/10
+# --- Puntaje 9/10 (curados por relevancia/venta en ES) ---
+Atomic Habits|James Clear|sivers 9/10
+Sapiens|Yuval Noah Harari|sivers 9/10
+12 Rules for Life|Jordan Peterson|sivers 9/10
+Skin in the Game|Nassim Nicholas Taleb|sivers 9/10
+The Subtle Art of Not Giving a F*ck|Mark Manson|sivers 9/10
+Ego Is the Enemy|Ryan Holiday|sivers 9/10
+This Is Marketing|Seth Godin|sivers 9/10
+Thinking in Bets|Annie Duke|sivers 9/10
+The Righteous Mind|Jonathan Haidt|sivers 9/10
+Getting Things Done|David Allen|sivers 9/10
+Awaken the Giant Within|Tony Robbins|sivers 9/10
+The Compound Effect|Darren Hardy|sivers 9/10
+Finite and Infinite Games|James P. Carse|sivers 9/10
+How Minds Change|David McRaney|sivers 9/10
+Wild Problems|Russ Roberts|sivers 9/10
+When Things Fall Apart|Pema Chodron|sivers 9/10

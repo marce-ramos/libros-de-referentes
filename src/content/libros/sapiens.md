@@ -9,17 +9,18 @@ recomendadoPor:
   - james-clear
   - naval-ravikant
   - mark-zuckerberg
+  - derek-sivers
 anio: 2011
 resumen: "Un recorrido por la historia de la humanidad, desde la Edad de Piedra hasta hoy. Bill Gates lo recomendó por su mirada amplia sobre cómo llegamos a ser quienes somos."
 destacado: true
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-08-03
 ---
 
 *Sapiens: De animales a dioses* logra algo difícil: resumir 70.000 años de historia humana en un relato que se lee como una novela y que, de paso, te obliga a repensar casi todo lo que dabas por sentado. No es casualidad que sea uno de los libros de no ficción más recomendados de la última década.
 
 ## Por qué lo recomienda Bill Gates
 
-Gates lo incluyó entre sus lecturas favoritas y lo reseñó en su blog. Le atrajo la ambición del proyecto: contar la historia completa de nuestra especie, de la Edad de Piedra a la era digital, en un solo volumen. Aclaró que no coincide con todas las conclusiones de Harari, pero que el libro lo obligó a repensar cosas que daba por sentadas —y para él, eso es justamente lo que hace que valga la pena leerlo—. A la de Gates se suman las recomendaciones de Barack Obama, James Clear, Naval Ravikant y Mark Zuckerberg: un consenso transversal poco habitual, que dice bastante sobre el alcance del libro.
+Gates lo incluyó entre sus lecturas favoritas y lo reseñó en su blog. Le atrajo la ambición del proyecto: contar la historia completa de nuestra especie, de la Edad de Piedra a la era digital, en un solo volumen. Aclaró que no coincide con todas las conclusiones de Harari, pero que el libro lo obligó a repensar cosas que daba por sentadas —y para él, eso es justamente lo que hace que valga la pena leerlo—. A la de Gates se suman las recomendaciones de Barack Obama, James Clear, Naval Ravikant, Mark Zuckerberg y Derek Sivers (que lo puntuó 9/10 en sus reseñas): un consenso transversal poco habitual, que dice bastante sobre el alcance del libro.
 
 ## De qué trata
 
