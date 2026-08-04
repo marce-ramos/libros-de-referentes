@@ -2514,3 +2514,60 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   fuente más autorizada) quedó parcialmente sin explorar por la paginación JS — si en una futura
   sesión Claude in Chrome está conectado, vale la pena re-intentar el fetch completo para
   detectar picks intermedios (2020-2022) que ninguna de las 4 fuentes secundarias cubrió.
+
+- **2026-08-04 — Profundizar: Adam Grant (backlog pre-sourceado, cierre completo + listicle
+  nuevo).** A diferencia de Bezos/Portman, este no fue un discovery nuevo: el backlog ya estaba
+  sourceado desde el 2026-07-22 en `tools/manifiesto_adam_grant.txt` (32 candidatos extraídos de
+  tres posts de **Granted**, adamgrant.substack.com/p/the-new-books-to-fight-brain-rot,
+  .../the-new-books-to-refresh-your-thinking y .../the-12-new-books-to-enliven-spring), y había
+  quedado sin tocar por ser libros muy recientes (2025-2026) a la espera de ver si aparecían
+  ediciones en español. **Reconciliación:** de los 32 candidatos, 2 ya estaban resueltos de
+  sesiones previas (1929 vía cross-ref con Obama; Personas venenosas ya enriquecida) → quedaban
+  **30 candidatos**. Reconciliación manual vía 30 `Glob` individuales contra `src/content/libros/`:
+  **30/30 confirmados NUEVO** (0 colisiones).
+  **30 NUEVO enriquecidos** vía 4 subagentes Sonnet en paralelo (tandas de 8/8/7/7), con
+  advertencia reforzada de verificación (libros de 2025-2026, cerca del límite de conocimiento
+  confiable): **las 30 fichas fueron verificadas como publicaciones reales** (Amazon, Goodreads,
+  PenguinRandomHouse.com, Simon & Schuster, W. W. Norton — varias vía fetch directo a la página
+  del publisher para confirmar ISBN/fecha exacta), 0 reportadas como "no verificado". Como es
+  esperable por la recencia (la mayoría publicados entre jul-2025 y jul-2026), **ninguna** tiene
+  edición en español todavía — las 30 quedan con la nota "solo inglés". 2 casos sin ISBN-10
+  clásico (prefijo ISBN-13 979 o directamente sin ISBN) resolvieron con ASIN de Amazon de 10
+  caracteres (`human-raised` B0GFZTD3N9, `the-power-of-beliefs` B0FBWLZ56Y); 2 casos (The Genius
+  Myth, Read Your Mind) usaron el ISBN-10 de la edición UK por no tener la US un ISBN-10 clásico
+  disponible. Títulos: How to Be a Living Thing [0593831667] (Mari Andrew); Finding My Way
+  [1668054272] (Malala Yousafzai); Algospeak [0593804074] (Adam Aleksic); The Genius Myth
+  [1787333248, ed. UK] (Helen Lewis); Read Your Mind [1915780837, ed. UK] (Oz Pearlman); Anointed
+  [166800187X] (Toby Stuart); Playful [0593713400] (Cas Holman); The Balancing Act [0593850742]
+  (Nedra Tawwab); Flourish [0525620702] (Daniel Coyle); Mattering [0593850599] (Jennifer Breheny
+  Wallace); The Story of Stories [0063438690] (Kevin Ashton); Revealing [0593545389] (Leslie
+  John); Your Best Meeting Ever [166806748X] (Rebecca Hinds); Jolted [0593655591] (Anthony Klotz
+  — blurb real de Adam Grant en la contratapa); The Other Side of Change [0593713680] (Maya
+  Shankar); Politics Without Politicians [0593713982, categoria filosofia] (Hélène Landemore); We
+  the Women [0593727029] (Norah O'Donnell y Kate Andersen Brower); The Triangle of Power
+  [1967190100] (Alexander Stubb); Human Raised [B0GFZTD3N9] (Dana Suskind); Incorruptible
+  [0241692024, ed. UK] (Eric Ries); Leave the Lights On [059385327X] (Elizabeth Dunn y Jiaying
+  Zhao); Inside the Box [0593715713] (David Epstein); The Power of Beliefs [B0FBWLZ56Y] (Shawn
+  Achor — confirmado como libro distinto de *La felicidad como ventaja*); Why We Talk Funny
+  [0593830482] (Valerie Fridland); How to Not Know [1324089458] (Simone Stolzoff); Joyful, Anyway
+  [059373419X, título real con coma] (Kate Bowler); Anxietyland [1668004151, novela gráfica]
+  (Gemma Correll); You've Been Pooping All Wrong [0593855132] (Trisha Pasricha); The Plunge
+  [1668055864] (Chris Ballard); Walk [0306837536, ed. US] (Courtney Conley).
+  **30/30 con ASIN real de 10 caracteres** (0 vacíos). Verificación: `asin` de 10 chars OK en las
+  30 (chequeo vía Grep sobre las 30 fichas), `recomendadoPor: [adam-grant]` OK, 0 duplicados de
+  slug con el resto del catálogo (confirmado por los 30 Glob previos a la reconciliación).
+  **Listicle escrito de cero** (`libros-que-recomienda-adam-grant.md`): **36 libros** (6
+  originales + 30 nuevo) — la concentración más alta de una sola categoría vista hasta ahora en el
+  catálogo (`psicologia` = 21/36, 58%), subdividida en **4 sub-grupos temáticos** ("Repensar cómo
+  pensamos: creatividad, cambio y certezas", "Vínculos, confianza y límites", "Jugar, criar y no
+  perder la curiosidad", "Cuerpo, mente y bienestar cotidiano") en vez de un bloque único, más
+  "Liderazgo, equipos y el mundo del trabajo" (negocios, 5) e "Historia, sociedad y curiosidades
+  del mundo" (historia/filosofia/ciencia/memorias fusionadas, 7) — más lead "Por dónde empezar"
+  (4: Piénsalo otra vez, El poder de los introvertidos, Personas venenosas, 1929). Verificación:
+  36/36 enlaces con `titulo` exacto vía Grep (`### \[` = 36), `adam-grant` presente en
+  `recomendadoPor` de las 30 nuevas, 0 huérfanos, 0 extras, sin links de afiliado en el post.
+  **Adam Grant: 6 → 36 libros. Catálogo: 526 → 556 libros** (526 + 30 NUEVO). **Blog: 34 → 35
+  artículos.** Referentes: sin cambios (44) — es "Profundizar", no alta de referente nuevo.
+  **Pendiente:** ninguno formal — el manifiesto de 2026-07-22 quedó 100% procesado (32/32, contando
+  los 2 ya resueltos antes). Si Grant publica una nueva tanda de recomendaciones en Granted, se
+  puede repetir el ciclo con un discovery chico.

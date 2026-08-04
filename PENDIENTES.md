@@ -1,6 +1,13 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-08-03 (**Profundizar Natalie Portman** — discovery
+Punto de retomada. Última actualización: 2026-08-04 (**Profundizar Adam Grant** — cierre del
+backlog pre-sourceado desde 2026-07-22 (`tools/manifiesto_adam_grant.txt`, 30 candidatos NUEVO
+tras descontar 2 ya resueltos); reconciliación manual vía 30 `Glob` (0 colisiones) + 30 fichas
+enriquecidas vía 4 subagentes en paralelo, todas verificadas como publicaciones reales pese a ser
+muy recientes (2025-2026, ninguna con edición ES todavía) + listicle nuevo en 6 grupos temáticos
+(la categoría `psicologia`, dominante con 21/36, subdividida en 4 sub-grupos); Adam Grant 6 → 36
+libros, catálogo 526 → 556, blog 34 → 35; sacado de la lista de "referentes sin listicle"; detalle
+completo en PROGRESO.md); antes, 2026-08-03 (**Profundizar Natalie Portman** — discovery
 grande cruzando Tertulia + Brit&Co + PureWow + Women.com + mostrecommendedbooks.com (48
 candidatos), reconciliación a mano (6 cross-ref + 42 NUEVO), tanda prioritaria de los 25 más
 recientes (2022-2025) vía 4 subagentes en paralelo + listicle nuevo en 4 grupos temáticos; Portman
@@ -108,13 +115,15 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   **Isabel Allende** [2026-07-31, primera figura hispana] + **Mario Vargas Llosa** [2026-07-31,
   segunda figura hispana, referente fallecido — bio en pasado] + **Jenna Bush Hager** [2026-08-01,
   club Read With Jenna, backlog histórico 2019-2023 pendiente] + **Derek Sivers** [2026-08-03,
-  sivers.org/book, selección curada de sus 10/10 y 9/10]), **526 libros** (362 + 30 de la
+  sivers.org/book, selección curada de sus 10/10 y 9/10]), **556 libros** (362 + 30 de la
   tanda 5 de Oprah + 4 de Isabel Allende + 40 de Mario Vargas Llosa + 31 de Jenna Bush Hager +
-  23 de Derek Sivers + 11 de profundizar Jeff Bezos + 25 de profundizar Natalie Portman),
-  9 categorías. **Jeff Bezos profundizado el 2026-08-03** (discovery real por primera vez, 4 → 17
-  libros, listicle nuevo) y **Natalie Portman profundizada el mismo día** (4 → 35 libros, backlog
-  de 17 candidatos pendiente, listicle nuevo) — ambos sacados de la lista de referentes sin
-  listicle. Bill Gates profundizado dos veces (2026-07-12
+  23 de Derek Sivers + 11 de profundizar Jeff Bezos + 25 de profundizar Natalie Portman +
+  30 de profundizar Adam Grant), 9 categorías. **Jeff Bezos profundizado el 2026-08-03**
+  (discovery real por primera vez, 4 → 17 libros, listicle nuevo), **Natalie Portman profundizada
+  el mismo día** (4 → 35 libros, backlog de 17 candidatos pendiente, listicle nuevo) y **Adam
+  Grant profundizado el 2026-08-04** (backlog pre-sourceado cerrado al 100%, 6 → 36 libros,
+  listicle nuevo) — los tres sacados de la lista de referentes sin listicle. Bill Gates
+  profundizado dos veces (2026-07-12
   backlog cerrado 23 → 34; 2026-07-13 discovery nuevo 34 → 40); Barack Obama profundizado dos
   veces (2026-07-12 backlog cerrado 22 → 44; 2026-07-13 discovery nuevo 44 → 61); Reese
   Witherspoon profundizada el 2026-07-13 (4 → 56, con backlog restante de ~73 candidatos
@@ -130,16 +139,16 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
   con redirects 301 en `public/_redirects` (`/autores/*` → `/referentes/:splat`) para preservar
   las URLs ya indexadas. (Una futura sección de autores del libro debe ir en `/escritores`, no
   `/autores` — ver Decisiones.)
-- **Blog:** 34 artículos (33 + listicle nuevo de Natalie Portman, 2026-08-03) — 33 listicles de
+- **Blog:** 35 artículos (34 + listicle nuevo de Adam Grant, 2026-08-04) — 34 listicles de
   referente (Gates 40, Obama 61, Buffett 18, Musk,
   Jordan Peterson, Tim Ferriss, Ray Dalio, Mark Zuckerberg 23, Ryan Holiday, Sam Altman, Naval
   Ravikant, Yuval Noah Harari, Dua Lipa 34, Reese Witherspoon 56, Satya Nadella 20, Andrew Ng 9,
   Vitalik Buterin 8, Peter Thiel 11, Angela Duckworth 21, Daniel Kahneman 9, James Clear 36,
   Emma Watson 32, Oprah Winfrey 122 (backlog cerrado 2026-07-31), Stephen King, J.K. Rowling,
   Malcolm Gladwell (⚠️ slug con typo, ver arriba), Richard Branson 70, Isabel Allende 6,
-  Mario Vargas Llosa 46, Jenna Bush Hager 31, Derek Sivers 27, Jeff Bezos 17, **Natalie Portman
-  35** (nuevo, 2026-08-03, backlog de 17 candidatos pendiente)) + 1 best-of de categoría (Negocios
-  e Inversión). Todas las fichas enlazadas están saneadas.
+  Mario Vargas Llosa 46, Jenna Bush Hager 31, Derek Sivers 27, Jeff Bezos 17, Natalie Portman
+  35, **Adam Grant 36** (nuevo, 2026-08-04, backlog pre-sourceado cerrado al 100%)) + 1 best-of de
+  categoría (Negocios e Inversión). Todas las fichas enlazadas están saneadas.
 - **Bitácora de avance:** `PROGRESO.md` (append-only) — historial fechado de cada tanda de
   enriquecimiento y cada listicle. Actualizar SIEMPRE ahí al enriquecer o publicar.
 - **Google Search Console:** verificado + sitemap enviado (el reloj del SEO ya corre).
@@ -169,18 +178,19 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    **Listos para listicle (fichas 100% enriquecidas, falta escribir el post): Sam Altman 4/4**,
    Yuval Noah Harari 13/13 (profundizado 2026-07-20: 9 NUEVO + 1 cross-ref vía ynharari.com, ver
    PROGRESO.md), Ryan Holiday 4/4, Naval Ravikant 4/4.
-   Próximos a enriquecer (empezados a medias): **Adam Grant 6/6** (discovery + tanda 1 el
-   2026-07-22: 1929 cross-ref + Personas venenosas nueva; quedan 29 candidatos en backlog
-   "esperar edición ES", ver PROGRESO.md — no urgente, son lanzamientos muy recientes); **Richard
+   Próximos a enriquecer (empezados a medias): Yuval Noah Harari 13/13 (listo, falta nada —
+   ver arriba). **Richard
    Branson: backlog 100% cerrado (70/70), listicle publicado 2026-07-24** — sacado de esta lista;
    **Malcolm Gladwell ya tiene listicle propio** (desde 07-17, con fuente real: Tim Ferriss Show,
    The Week, "By the Book" NYT/Guardian) — sacado de "sin arrancar", pendiente de decidir el fix
    del typo de slug (ver arriba) antes de profundizarlo más. **Jeff Bezos profundizado el
-   2026-08-03** (discovery vía mostrecommendedbooks.com, 4 → 17 libros, listicle nuevo) y
+   2026-08-03** (discovery vía mostrecommendedbooks.com, 4 → 17 libros, listicle nuevo),
    **Natalie Portman profundizada el mismo día** (discovery vía Tertulia/Brit&Co/PureWow/
    Women.com/mostrecommendedbooks.com, 4 → 35 libros, backlog de 17 candidatos pendiente,
-   listicle nuevo) — ambos sacados de esta lista. Sin discovery real todavía: Simon Sinek,
-   Lex Fridman, Malala, Kasparov, Nassim Taleb, Neil deGrasse Tyson.
+   listicle nuevo) y **Adam Grant profundizado el 2026-08-04** (backlog pre-sourceado desde
+   2026-07-22 cerrado al 100%, 6 → 36 libros, listicle nuevo) — los tres sacados de esta lista.
+   Sin discovery real todavía: Simon Sinek, Lex Fridman, Malala, Kasparov, Nassim Taleb, Neil
+   deGrasse Tyson.
    **Oprah Winfrey: backlog 100% cerrado el 2026-07-31** (122/122 vinculados/enriquecidos, listicle
    regenerado — sacada de esta lista; quedan excluidos por decisión los 3 infantiles de Bill Cosby,
    reconsiderables a futuro), etc.
