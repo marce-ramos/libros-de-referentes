@@ -196,6 +196,24 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    reconsiderables a futuro), etc.
    Después: best-of por categoría, cola larga (referente × tema), y estacional.
    *Enriquecer las fichas antes de enlazarlas.*
+
+   **Brief de best-of de categoría (asentado 2026-08-04, ángulo "referente").**
+   Formato = MODO LISTICLE variante: **~20-25 libros CURADOS** (no volcado), agrupados por tema,
+   **sin** links de afiliado (solo internos a `/libros`, `/referentes`, `/categorias/<x>`), ordenados
+   por cantidad de `recomendadoPor` (**abrir con los más recomendados** — es el dato diferencial que
+   ningún competidor tiene). Título "guía \<año\>", slug `/blog/mejores-libros-de-<categoría>`, cierre
+   a `/categorias/<x>` y `/referentes`. Sonnet confirma el conteo real de `recomendadoPor` por ficha
+   (no meter números a ojo).
+   - **Negocios e Inversión — YA EXISTE (no re-crear):** su primer uso es la acción **Actualizar
+     Best-of** — re-curar contra el catálogo actual (pasó de ~362 a 556 libros; muchos de negocios
+     nuevos sin incluir: Sivers, Bezos profundizado, etc.). Disparador: `Actualizar Best-of negocios`.
+   - **Piloto de best-of NUEVO, por valor:** (1) **Psicología** — catálogo profundo (Adam Grant +21,
+     más Sivers/Huberman; Atomic Habits, Mindset, 12 Rules, The Courage to Be Disliked, Grit) y alta
+     conversión; (2) **Ciencia ficción / distopías** — demanda estable, del Toro lo engorda; (3)
+     **Divulgación científica** — Sapiens, Behave, Why We Sleep, Factfulness (Huberman alimenta).
+     Historia y filosofía, segunda tanda. Disparador: `Best-of psicologia`.
+   - Reality check SEO: el head-term de categoría es competido y el sitio es joven → apuntar al
+     long-tail con ángulo referente rinde antes; mientras tanto valen como hubs de enlazado interno.
 3. ~~**Enriquecer más fichas**~~ ✅ **HECHO (2026-07-10): catálogo 100% enriquecido, 0 stubs.**
    Además se construyó el motor de subagente barato (`ENRIQUECER.md`, `tools/`) y se corrieron
    barridos de descubrimiento (Obama, Gates, Reese Witherspoon, Richard Branson, Mark Zuckerberg)

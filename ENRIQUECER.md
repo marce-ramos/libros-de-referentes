@@ -21,11 +21,15 @@ Política de modelos. Toda acción respeta la **regla de propagación** (ver aba
 | **Bio de referente** | Bio genérica autogenerada → bio real con fuente | slug del autor | MODO REFERENTE | Sonnet |
 | **Listicle** | Post "Los libros que recomienda X" desde un manifiesto de fichas ya enriquecidas | referente | MODO LISTICLE | Sonnet |
 | **Best-of de categoría** | Post "Mejores libros de \<categoría\>" (mismo formato que listicle) | categoría | MODO LISTICLE (variante) | Sonnet |
+| **Actualizar Best-of** | Re-cura un Best-of de categoría YA publicado contra el catálogo actual: suma los libros nuevos que califiquen, saca los que ya no, re-ordena y bumpea `fechaActualizado`. **On-demand** (no automática) | categoría con Best-of publicado | Acción "Actualizar Best-of de categoría" | Sonnet |
 | **Verificar** | QA: duplicados + ASIN de 10 chars + integridad de `recomendadoPor` | — | Verificación | script |
 | **Sanear** | Corrige fichas que no cumplen MODO LIBRO: referente sin nombrar, >2 secciones, sin nota de edición o cuerpo sobre-recortado | — | Acción "Sanear" + `auditar_fichas.py` | script + Sonnet |
 
 **Regla transversal (propagación):** cualquier acción que cambie la lista de libros de un
 referente que YA tiene listicle obliga a **regenerar ese listicle**. Ídem al sumar cross-refs.
+Esto aplica a los listicles **de referente**. Los **Best-of de categoría** son la excepción: NO se
+regeneran solos al sumar libros al catálogo; se refrescan cuando vos lo decidís, con la acción
+**Actualizar Best-of** (así evitamos re-publicar de más y mantenemos la curaduría bajo control).
 
 ## Política de modelos (qué tier para cada paso)
 
@@ -227,6 +231,24 @@ for f in libros/*.md; do
   echo "---"
 done
 ```
+
+## Acción «Actualizar Best-of de categoría»
+
+Refresco **on-demand** (nunca automático) de un Best-of de categoría ya publicado, para que
+incorpore los libros que entraron al catálogo desde su última edición. Se dispara solo cuando vos
+la pedís por su nombre + la categoría. Entrada: la categoría y el post existente en `src/content/blog/`.
+
+Pasos:
+1. Releé el post actual (`mejores-libros-de-<categoría>.md`): qué ya incluye y con qué ángulo/orden.
+2. Listá los candidatos actuales de esa categoría con el conteo de `recomendadoPor` de cada ficha
+   (mismo patrón `awk`/grep del manifiesto, pero filtrando por `categoria:` en vez de por referente;
+   SOLO fichas con `asin:`).
+3. **Re-curá, no acumules:** el Best-of sigue siendo una selección (~20-25), no un volcado. Sumá los
+   nuevos que califiquen (priorizando los de más referentes), sacá los que ya no aportan, re-ordená.
+4. Respetá TODO MODO LISTICLE (grupos temáticos, sin links de afiliado, keyword en título/H1, cierre
+   a `/categorias/<x>` y `/referentes`).
+5. Bumpeá `fechaActualizado` a hoy; actualizá el "guía \<año\>" del `titulo` si cambió el año.
+6. Al terminar, corré `detectar_duplicados.py` y asentá el refresco en `PROGRESO.md`.
 
 ## MODO DESCUBRIR (encontrar más libros de un referente)
 

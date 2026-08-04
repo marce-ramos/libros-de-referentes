@@ -14,11 +14,13 @@ No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de 
 | **Bio** `<referente>` | Reescribe la bio genérica del referente por una real, con fuente. |
 | **Listicle** `<referente>` | Escribe o actualiza el post "Los libros que recomienda X". |
 | **Best-of** `<categoría>` | Escribe el post "Mejores libros de \<categoría\>". |
+| **Actualizar Best-of** `<categoría>` | Re-cura un Best-of de categoría ya publicado contra el catálogo actual (on-demand): suma los nuevos que califiquen, saca los viejos, re-ordena y bumpea la fecha. |
 | **Verificar** | Chequea duplicados, ASINs de 10 caracteres y consistencia del catálogo. |
 | **Sanear** | Corrige fichas que no cumplen las reglas: referente del pill sin nombrar, más de 2 secciones "lo recomienda", sin nota de edición o cuerpo sobre-recortado. |
 
 **Regla que se aplica sola a todas:** si cambian los libros de un referente que ya tiene listicle,
-hay que **regenerar ese listicle**.
+hay que **regenerar ese listicle**. Los **Best-of de categoría** son la excepción: no se regeneran
+solos; se refrescan con **Actualizar Best-of** cuando vos querés.
 
 Detalle completo, reglas de oro (ASIN, ediciones ES, no inventar) y qué modelo usa cada paso: **`ENRIQUECER.md`**.
 
