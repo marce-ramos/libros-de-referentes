@@ -1,0 +1,20 @@
+# Manifiesto de discovery — Neil deGrasse Tyson (n. 1958, ámbito: Ciencia — YA EXISTE, hoy 4 libros)
+# Astrofísico y divulgador (director del Hayden Planetarium). Recomienda en X (@neiltyson) y en su AMA de Reddit.
+# Fuente: Read This Twice /person/neil-degrasse-tyson (14 recos verificadas con fuente por libro).
+# Perfil: ciencia + clásicos de ideas. Alimenta el futuro best-of de divulgación científica.
+# OJO: omito "Holy Bible" de su lista (su recomendación viene con marco anti-religioso; innecesario para la marca).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+One Two Three Infinity|George Gamow|RTT/@neiltyson
+The Wealth of Nations|Adam Smith|RTT/@neiltyson
+The Science of Interstellar|Kip Thorne|RTT/@neiltyson
+The Planiverse|A.K. Dewdney|RTT/@neiltyson
+Flatland|Edwin A. Abbott|RTT/@neiltyson
+Gulliver's Travels|Jonathan Swift|RTT/@neiltyson
+The Age of Reason|Thomas Paine|RTT/@neiltyson
+The Art of War|Sun Tzu|RTT/@neiltyson
+On the Origin of Species|Charles Darwin|RTT/@neiltyson
+The Prince|Niccolo Machiavelli|RTT/@neiltyson
+The Principia|Isaac Newton|RTT/@neiltyson
+How to Lie with Statistics|Darrell Huff|RTT/@neiltyson
+The System of the World|Isaac Newton|RTT/@neiltyson

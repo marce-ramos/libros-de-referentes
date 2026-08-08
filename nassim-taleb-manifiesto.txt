@@ -1,0 +1,16 @@
+# Manifiesto de discovery — Nassim Nicholas Taleb (n. 1960, ámbito: Escritores — YA EXISTE, hoy 3 libros)
+# Ensayista y ex-trader (Incerto: El cisne negro, Antifrágil). Recomienda en X (@nntaleb) y reseñas de Amazon.
+# Fuente: Read This Twice /person/nassim-nicholas-taleb (10 recos verificadas con fuente por libro).
+# CAVEAT: lista corta e idiosincrática (probabilidad, salud/ayuno, antropología); menor encaje comercial.
+#   Omito los 2 textbooks técnicos (Papoulis, Elements of Information Theory): sin edición ES ni rotación.
+#   NO incluir sus propios libros (Incerto). Si el discovery queda corto, dejarlo chico (como Isabel Allende).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Blueprint|Nicholas Christakis|RTT/@nntaleb
+Who We Are and How We Got Here|David Reich|RTT/@nntaleb
+A New Kind of Science|Stephen Wolfram|RTT/@nntaleb
+The Complete Guide to Fasting|Jason Fung|RTT/@nntaleb
+The Longevity Solution|James DiNicolantonio|RTT/@nntaleb
+The Practice of Natural Movement|Erwan Le Corre|RTT/@nntaleb
+Perilous Interventions|Hardeep Singh Puri|RTT/@nntaleb
+Idea Makers|Stephen Wolfram|RTT/@nntaleb

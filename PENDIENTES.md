@@ -199,8 +199,12 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    títulos políticamente cargados de su lista), `lex-fridman-manifiesto.txt` (11, referente corto),
    `brene-brown-manifiesto.txt` (20). Ámbitos ya seteados en `ambitos.ts` (existen). Flujo por c/u:
    `reconciliar.py` → enriquecer → listicle → `detectar_duplicados.py`.
-   Orden de tandas siguientes: Neil deGrasse Tyson, Paul Graham (¡demanda GSC real!), Simon Sinek, Nassim
-   Taleb; después Gwyneth Paltrow, Vitalik Buterin, Kasparov, Malala (fuentes más finas, pueden salir cortos).
+   **Tanda 2 lista para Sonnet — manifiestos ya sourceados (Read This Twice):** `neil-degrasse-tyson-manifiesto.txt`
+   (13, alimenta best-of ciencia; omitido el Bible), `paul-graham-manifiesto.txt` (32 — ¡demanda GSC real!),
+   `simon-sinek-manifiesto.txt` (13, liderazgo; omitido 1421), `nassim-taleb-manifiesto.txt` (8, corto e
+   idiosincrático; omitidos textbooks técnicos). Ámbitos ya en `ambitos.ts`. Mismo flujo que tanda 1.
+   **Tanda 3 (falta sourcear):** Gwyneth Paltrow, Vitalik Buterin, Garry Kasparov, Malala (fuentes más finas,
+   pueden salir cortos).
    **Oprah Winfrey: backlog 100% cerrado el 2026-07-31** (122/122 vinculados/enriquecidos, listicle
    regenerado — sacada de esta lista; quedan excluidos por decisión los 3 infantiles de Bill Cosby,
    reconsiderables a futuro), etc.

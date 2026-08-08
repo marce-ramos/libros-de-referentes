@@ -1,0 +1,20 @@
+# Manifiesto de discovery — Simon Sinek (n. 1973, ámbito: Negocios e Inversión — YA EXISTE, hoy 4 libros)
+# Autor y conferencista (Start With Why, The Infinite Game). Recomienda en X (@simonsinek) y su reading-list de TED.
+# Fuente: Read This Twice /person/simon-sinek (14 recos verificadas con fuente por libro).
+# Perfil: liderazgo, negocios y psicología — alta conversión. OJO: NO incluir sus propios libros.
+#   Omito "1421" (Gavin Menzies) por ser pseudohistoria desacreditada — no conviene a la credibilidad del sitio.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Finite and Infinite Games|James P. Carse|RTT/@simonsinek
+Everybody Matters|Bob Chapman|RTT/@simonsinek
+Quiet|Susan Cain|RTT/@simonsinek
+Give and Take|Adam Grant|RTT/@simonsinek
+Bend, Not Break|Ping Fu|RTT/@simonsinek
+It's Your Business|JJ Ramberg|RTT/@simonsinek
+Turn the Ship Around!|L. David Marquet|RTT/@simonsinek
+Ghost Wars|Steve Coll|RTT/@simonsinek
+Unbinding the Heart|Agapi Stassinopoulos|RTT/@simonsinek
+Man's Search for Meaning|Viktor Frankl|RTT/@simonsinek
+Heroes for My Son|Brad Meltzer|RTT/@simonsinek
+Making Ideas Happen|Scott Belsky|RTT/@simonsinek
+Guns, Germs, and Steel|Jared Diamond|RTT/@simonsinek

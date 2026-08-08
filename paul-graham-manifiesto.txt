@@ -1,0 +1,39 @@
+# Manifiesto de discovery — Paul Graham (n. 1964, ámbito: Tecnología — YA EXISTE, hoy 3 libros)
+# Cofundador de Y Combinator, programador y ensayista (paulgraham.com). Recomienda en X (@paulg) y sus ensayos.
+# ¡DEMANDA GSC REAL! "libros de paul graham" ya trae impresiones y la página rankea — este rinde.
+# Fuente: Read This Twice /person/paul-graham (101 recos verificadas con fuente por libro).
+# Selección curada ~32 (de 101): startups/tech, ciencia, historia, biografía y ficción clásica; se omiten los más oscuros.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Maker of Patterns|Freeman Dyson|RTT/@paulg
+Foundation|Isaac Asimov|RTT/@paulg
+A History of Medieval Europe|R.H.C. Davis|RTT/@paulg
+The Origins of the Second World War|A.J.P. Taylor|RTT/@paulg
+More Money Than God|Sebastian Mallaby|RTT/@paulg
+The British Industrial Revolution in Global Perspective|Robert C. Allen|RTT/@paulg
+I Want to Be a Mathematician|Paul Halmos|RTT/@paulg
+Apollo's Arrow|Nicholas Christakis|RTT/@paulg
+From Galileo to Newton|A. Rupert Hall|RTT/@paulg
+The Iliad|Homer|RTT/@paulg
+The Startup Way|Eric Ries|RTT/@paulg
+Barbarian Days|William Finnegan|RTT/@paulg
+To Explain the World|Steven Weinberg|RTT/@paulg
+The Launch Pad|Randall Stross|RTT/@paulg
+In The Plex|Steven Levy|RTT/@paulg
+Founders at Work|Jessica Livingston|RTT/@paulg
+The Lord of the Rings|J.R.R. Tolkien|RTT/@paulg
+The Complete Calvin and Hobbes|Bill Watterson|RTT/@paulg
+The Moon Is a Harsh Mistress|Robert A. Heinlein|RTT/@paulg
+My Family and Other Animals|Gerald Durrell|RTT/@paulg
+Benjamin Franklin: An American Life|Walter Isaacson|RTT/@paulg
+The Autobiography of Benjamin Franklin|Benjamin Franklin|RTT/@paulg
+The Hobbit|J.R.R. Tolkien|RTT/@paulg
+The Soul of a New Machine|Tracy Kidder|RTT/@paulg
+The Complete Sherlock Holmes|Arthur Conan Doyle|RTT/@paulg
+How to Win Friends and Influence People|Dale Carnegie|RTT/@paulg
+The Mythical Man-Month|Frederick P. Brooks Jr.|RTT/@paulg
+Structure and Interpretation of Computer Programs|Harold Abelson|RTT/@paulg
+A Mathematician's Apology|G.H. Hardy|RTT/@paulg
+The Man Who Knew Infinity|Robert Kanigel|RTT/@paulg
+The Double Helix|James D. Watson|RTT/@paulg
+The Copernican Revolution|Thomas S. Kuhn|RTT/@paulg
