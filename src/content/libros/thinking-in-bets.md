@@ -5,17 +5,20 @@ asin: "8411004074"
 categoria: psicologia
 recomendadoPor:
   - derek-sivers
+  - marc-andreessen
 anio: 2018
 resumen: "La excampeona de póker Annie Duke enseña a separar la calidad de una decisión de la suerte del resultado. Derek Sivers lo puntuó con 9/10 en su bitácora personal de lecturas."
 destacado: false
-fechaActualizado: 2026-08-03
+fechaActualizado: 2026-08-07
 ---
 
 Annie Duke jugó al póker profesional durante casi dos décadas antes de convertirse en escritora y consultora sobre toma de decisiones, y este libro es la traducción directa de esa experiencia: en el póker, como en la vida, una buena decisión puede salir mal y una mala decisión puede salir bien, y confundir las dos cosas es uno de los errores de razonamiento más comunes que existen.
 
-## Por qué lo recomienda Derek Sivers
+## Por qué lo recomiendan Derek Sivers y Marc Andreessen
 
 En su archivo de reseñas de sivers.org/book, donde deja nota y comentario de cada libro que termina, Sivers le dio a este un 9. Lo que destaca es justamente la distinción entre proceso y resultado: evaluamos nuestras decisiones pasadas mirando cómo terminaron ("me fue bien, entonces decidí bien"), cuando en realidad habría que evaluar si la decisión era razonable *con la información que teníamos en ese momento*, más allá del azar que intervino después. Es un marco mental que encaja con la costumbre de Sivers de tomar decisiones grandes —como vender su empresa— basándose en principios y no en cómo salieron las últimas apuestas.
+
+Marc Andreessen tiene la costumbre de evaluar sus inversiones en términos probabilísticos, no de certezas binarias: el mismo tipo de razonamiento que describe Duke se aplica casi calcado al venture capital, donde la mayoría de las apuestas individuales fallan pero el proceso de decisión detrás puede haber sido igual de correcto. Separar la calidad de una decisión de cómo terminó resultando es, para alguien que vive apostando a fundadores en etapa temprana, más que una curiosidad de póker.
 
 ## De qué trata
 

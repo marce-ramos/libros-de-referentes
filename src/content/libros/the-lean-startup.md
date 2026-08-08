@@ -5,17 +5,20 @@ asin: "842340949X"
 categoria: negocios
 recomendadoPor:
   - andrew-ng
+  - marc-andreessen
 anio: 2011
 resumen: "Eric Ries propone tratar a la startup como un experimento científico: construir, medir y aprender en ciclos rápidos en vez de planificar a ciegas. Recomendado por Andrew Ng para pensar innovación B2C."
 destacado: false
-fechaActualizado: 2026-07-22
+fechaActualizado: 2026-08-07
 ---
 
 Durante décadas, lanzar una empresa se pareció más a una apuesta que a una disciplina: se armaba un plan de negocios grueso, se conseguía financiamiento y se esperaba lo mejor. Eric Ries, que vivió de cerca el estallido de una startup a la que le sobraba visión y le faltaba método, propuso algo distinto: tratar la creación de empresas como una ciencia experimental.
 
-## Por qué lo recomienda Andrew Ng
+## Por qué lo recomiendan Andrew Ng y Marc Andreessen
 
 Andrew Ng lo señala como uno de sus libros favoritos para pensar el lado B2C de la innovación: "para B2C, uno de mis libros favoritos es The Lean Startup, que toma una mirada más acotada pero da una táctica específica para innovar rápido. Es un poco angosto, pero muy bueno en el área que cubre". Viniendo de alguien que construyó Coursera prácticamente desde cero, el aval no es menor: la lógica de iterar rápido con datos reales es la misma que sostiene a cualquier producto digital que aprende de sus usuarios en producción.
+
+Marc Andreessen lleva más de una década como inversor de startups en etapa temprana en Andreessen Horowitz, y el ciclo construir-medir-aprender de Ries es exactamente el marco que espera ver en los founders que financia: lanzar rápido, medir con datos reales y ajustar el rumbo antes de quemar el capital en una hipótesis que nadie validó.
 
 ## De qué trata
 

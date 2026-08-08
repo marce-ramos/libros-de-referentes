@@ -172,6 +172,25 @@ pendiente de sourcear).
   `the-rise-of-theodore-roosevelt`, `bird-by-bird`, `the-moral-animal`, `the-power-broker`,
   `titan`. Ryan Holiday → **34/34 fichas ajenas enriquecidas** (+ 4 propias ya existentes,
   excluidas del listicle a propósito). Listicle regenerado (ver abajo).
+- **2026-08-07** — Profundizar Marc Andreessen: manifiesto de 30 candidatos reconciliado
+  (2 YA-LINKED, 9 CROSS-REF, 2 REVISAR, 18 NUEVO). Los 2 REVISAR (Homage to Catalonia vs.
+  1984/Animal Farm; A Spy Among Friends vs. the-spy-and-the-traitor, ambos de Ben Macintyre pero
+  sobre personas distintas —Philby vs. Gordievsky—) se resolvieron como libros nuevos → total
+  NUEVO = 20, enriquecidos en 3 lotes paralelos (subagentes Sonnet): Cuando las profecías fallan,
+  Life the Movie, El verdadero creyente, Homenaje a Cataluña, The WEIRDest People in the World,
+  No me puedes lastimar, Compórtate, Un espía entre amigos, The Rise of Superman, El triunfo de
+  las ciudades, El arte de la buena vida, Whole Earth Discipline, The Myth of the Rational Voter,
+  El juicio político de los expertos, El fin de la historia y el último hombre, Sólo los
+  paranoides sobreviven, Extreme Ownership, Born Standing Up, El libro de Steve Jobs, The Power
+  of Productivity.
+  ⚠️ Dudas a revisar: editoriales de edición ES con confianza <80% (verificar antes de publicar):
+  `when-prophecy-fails` (sello "Rediciones Anómalas", ~65%), `the-true-believer` (Tecnos, ~75%),
+  `can-t-hurt-me` (Lioncrest, ~70%), `behave` (Capitán Swing, ~75%). Sin edición ES confirmada
+  (quedaron en inglés): `life-the-movie`, `the-weirdest-people-in-the-world`, `the-rise-of-superman`,
+  `whole-earth-discipline`, `the-myth-of-the-rational-voter`, `extreme-ownership`,
+  `born-standing-up`, `the-power-of-productivity`. Marc Andreessen → **29/29 fichas ajenas
+  enriquecidas** (+ 3 propias/preexistentes: Emprender y liderar una startup, High Output
+  Management, Revoluciones tecnológicas y capital financiero). Listicle nuevo (ver abajo).
 
 ---
 
@@ -813,6 +832,12 @@ el consenso del libro y mejora el interlinking.
   The Score Takes Care of Itself, Man's Search for Meaning, The Black Swan, The 4-Hour Workweek
   (esta última tenía un defecto de atribución huérfana — sin sección "Por qué lo recomienda" y
   una línea suelta antes del blockquote de edición— corregido de paso al sumar el cross-ref).
+- **2026-08-07** — 9 cross-refs de Marc Andreessen: The Righteous Mind, The Courage to Be
+  Disliked, Skin in the Game, Thinking in Bets, Zero to One, Thinking Fast and Slow, The Lean
+  Startup, The Rational Optimist, Poor Charlie's Almanack (esta última solo cierre, tope de 2
+  desarrollados ya alcanzado con Buffett/Naval). `thinking-fast-and-slow.md` tenía la atribución
+  mezclada dentro del párrafo de intro, sin sección propia — corregido de paso: se separó en una
+  sección `## Por qué lo recomiendan James Clear y Sam Altman` que también suma a Andreessen.
 
 ## Artículos de blog
 
@@ -872,6 +897,10 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   balanceados (Clásicos estoicos y filosofía, Disciplina/creatividad/carácter, Estrategia/poder/
   negocios, Biografías/historia/memorias, Ficción y mirada científica) + bloque "Por dónde
   empezar". `fecha` original (2026-07-10) preservada, `fechaActualizado` a 2026-08-06.
+- **2026-08-07** — Listicle de Marc Andreessen **nuevo** (32 libros enlazados). Organizado en 6
+  grupos temáticos balanceados (Construir y liderar empresas, Economía/mercados/incertidumbre,
+  Cómo pensamos y decidimos, Psicología de las creencias y la política, Ciencia/evolución/
+  progreso, Biografías/memorias/historia real) + bloque "Por dónde empezar".
 
 ---
 
@@ -2602,3 +2631,15 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   **Pendiente:** ninguno formal — el manifiesto de 2026-07-22 quedó 100% procesado (32/32, contando
   los 2 ya resueltos antes). Si Grant publica una nueva tanda de recomendaciones en Granted, se
   puede repetir el ciclo con un discovery chico.
+
+- **2026-08-08 — Acción "Sanear fichas" (sobre-recorte), 3 falsos positivos confirmados.**
+  `auditar_fichas.py` flageó `lost-ocean`, `necker-a-virgin-island` y
+  `obama-the-historic-presidency-of-barack-obama` por "cuerpo corto o sin '## De que trata'".
+  Confirmado con `Read` (no con `bash`, por la regla del mount): en los 3 casos el cuerpo estaba
+  completo (intro + atribución + descripción + "Para quién es" + nota de edición, ~250-300
+  palabras), pero usaban el encabezado `## Qué es` en vez de `## De qué trata` — criterio editorial
+  razonable para libros no narrativos (2 libros de fotografía + 1 libro para colorear, recomendados
+  por Richard Branson), pero rompía el regex literal del audit. Fix quirúrgico con `Edit`: se
+  renombró el encabezado a `## De qué trata` en los 3, sin tocar una palabra del contenido. Bump de
+  `fechaActualizado` a 2026-08-08. No hace falta re-verificar contenido ni ASIN, no cambiaron.
+  Pendiente: que Marcelo re-corra el audit en Windows para confirmar 0 `[FIX]` en estos 3.

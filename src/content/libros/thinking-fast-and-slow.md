@@ -8,14 +8,21 @@ recomendadoPor:
   - james-clear
   - sam-altman
   - yuval-noah-harari
+  - marc-andreessen
 anio: 2011
 resumen: "La obra maestra del Nobel Daniel Kahneman sobre los dos sistemas con los que pensamos y los sesgos que nos hacen equivocar."
 destacado: false
-fechaActualizado: 2026-07-20
+fechaActualizado: 2026-08-07
 ---
 
 
-*Pensar rápido, pensar despacio* es la síntesis de toda una vida de investigación de Daniel Kahneman, psicólogo que ganó el Premio Nobel de Economía. Es una de las obras más influyentes sobre cómo tomamos decisiones y por qué nos equivocamos de forma sistemática. También lo recomiendan James Clear, Sam Altman —que lo incluyó entre sus libros de cabecera para fundadores jóvenes— y el historiador Yuval Noah Harari, que lo describe como "uno de los mejores puntos de partida para explorar la maraña de la mente humana".
+*Pensar rápido, pensar despacio* es la síntesis de toda una vida de investigación de Daniel Kahneman, psicólogo que ganó el Premio Nobel de Economía. Es una de las obras más influyentes sobre cómo tomamos decisiones y por qué nos equivocamos de forma sistemática.
+
+## Por qué lo recomiendan James Clear y Sam Altman
+
+James Clear, autor de *Hábitos atómicos*, vuelve una y otra vez a este libro como referencia obligada sobre por qué los sistemas automáticos de la mente pesan más de lo que creemos a la hora de construir (o romper) un hábito. Sam Altman, por su parte, lo incluyó entre sus libros de cabecera para fundadores jóvenes: entender los sesgos que distorsionan el juicio es, para alguien que evalúa decisiones de negocio todo el día, una herramienta tan práctica como cualquier manual de gestión.
+
+Marc Andreessen tiene un interés declarado en los sesgos cognitivos y la toma de decisiones, un tema que atraviesa buena parte de su lista de lectura sobre psicología del juicio. La distinción de Kahneman entre el Sistema 1 rápido e intuitivo y el Sistema 2 lento y deliberado le resulta un marco útil para pensar cómo se equivocan —sistemáticamente, no por azar— tanto los inversores como los fundadores que evalúa. También lo recomiendan su propio autor, Daniel Kahneman, y el historiador Yuval Noah Harari, que lo describe como "uno de los mejores puntos de partida para explorar la maraña de la mente humana".
 
 ## De qué trata
 

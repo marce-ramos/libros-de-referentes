@@ -6,17 +6,20 @@ categoria: ciencia
 recomendadoPor:
   - naval-ravikant
   - mark-zuckerberg
+  - marc-andreessen
 anio: 2010
 resumen: "Matt Ridley defiende, con datos, que la humanidad progresa gracias al intercambio y la innovación. Un antídoto contra el pesimismo que sintoniza con la visión de Naval Ravikant sobre el futuro."
 destacado: false
-fechaActualizado: 2026-07-18
+fechaActualizado: 2026-08-07
 ---
 
 *El optimista racional* es un ensayo que se propone algo difícil: defender el optimismo sin caer en la ingenuidad. Matt Ridley, zoólogo y divulgador británico, argumenta que la prosperidad humana no es un accidente ni una promesa vacía, sino el resultado medible de una costumbre muy antigua: intercambiar.
 
-## Por qué lo recomienda Naval Ravikant
+## Por qué lo recomiendan Naval Ravikant y Marc Andreessen
 
-La visión de Ridley encaja como un guante con la de Naval: la creencia de que la tecnología y el libre intercambio de ideas y bienes son motores de progreso, y que el pesimismo mediático nos hace subestimar cuánto mejoró el mundo. Naval lo cita como lectura para calibrar el optimismo con evidencia en vez de fe. También lo recomienda Mark Zuckerberg.
+La visión de Ridley encaja como un guante con la de Naval: la creencia de que la tecnología y el libre intercambio de ideas y bienes son motores de progreso, y que el pesimismo mediático nos hace subestimar cuánto mejoró el mundo. Naval lo cita como lectura para calibrar el optimismo con evidencia en vez de fe.
+
+Marc Andreessen es, quizás, el optimista tecnológico más declarado de Silicon Valley: defiende públicamente, y por escrito, que la tecnología y el progreso material siguen mejorando la vida humana pese al pesimismo ambiente. Es la misma tesis central que sostiene Ridley con datos económicos e históricos, así que no sorprende que Andreessen la haya adoptado como una de sus lecturas de referencia. También lo recomienda Mark Zuckerberg.
 
 ## De qué trata
 

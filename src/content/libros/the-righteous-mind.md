@@ -5,17 +5,20 @@ asin: "842343009X"
 categoria: psicologia
 recomendadoPor:
   - derek-sivers
+  - marc-andreessen
 anio: 2012
 resumen: "El psicólogo social Jonathan Haidt explica por qué la moral y la política dividen tanto, usando la metáfora de un jinete racional montado sobre un elefante intuitivo. Derek Sivers lo calificó con 9/10 en su bitácora de reseñas."
 destacado: false
-fechaActualizado: 2026-08-03
+fechaActualizado: 2026-08-07
 ---
 
 ¿Por qué es tan difícil hacer cambiar de opinión a alguien con argumentos, aunque los argumentos sean buenos? Jonathan Haidt, psicólogo social, pasó años investigando esa pregunta y llegó a una respuesta incómoda: la razón casi nunca decide primero. Decide la intuición, y la razón llega después a justificar lo que la intuición ya eligió.
 
-## Por qué lo recomienda Derek Sivers
+## Por qué lo recomiendan Derek Sivers y Marc Andreessen
 
 Este es otro de los libros con nota 9 en sivers.org/book, donde Sivers reseña con honestidad brutal cada cosa que lee, sin filtrar lo que puede resultar incómodo. Y este libro incomoda a propósito: a Sivers le interesa especialmente porque desarma la idea —cómoda para cualquiera que se sienta "racional"— de que uno llega a sus posiciones morales o políticas pensando con cuidado, cuando en realidad la mayoría de las veces son producto de la intuición, y el pensamiento llega después a construir la justificación.
+
+Marc Andreessen, cofundador de Netscape y de Andreessen Horowitz, tiene un interés declarado en la psicología de las creencias y en cómo se forma —y se defiende— el pensamiento de grupo, algo que también lo llevó a recomendar libros como *When Prophecy Fails* o *The True Believer*. La tesis de Haidt sobre por qué la moral y la política dividen tanto encaja directamente en esa misma línea de lectura: entender el mecanismo intuitivo detrás de las posiciones ideológicas, no solo sus argumentos superficiales.
 
 ## De qué trata
 
