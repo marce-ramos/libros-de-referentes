@@ -1,0 +1,40 @@
+# Manifiesto de discovery — Marc Andreessen (n. 1971, ámbito: Negocios e Inversión — YA EXISTE, hoy 3 libros)
+# Cofundador de Netscape y del fondo a16z. Recomienda mucho en X (@pmarca).
+# Fuente: Read This Twice /person/marc-andreessen (95 recos verificadas con tweet por libro).
+# Selección curada ~30 (de 95): tech, negocios, historia, psicología e ideas.
+# CAVEAT DE MARCA (importante): la lista de Andreessen incluye varios títulos políticamente cargados
+#   (Thomas Sowell, Douglas Murray, Michael Malice, Hanania, etc.). Los EXCLUÍ a propósito para no
+#   polarizar la marca (misma política que con Gaiman/Trump). Si Marcelo quiere sumarlos, es decisión aparte.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+When Prophecy Fails|Leon Festinger|RTT/@pmarca
+Life, the Movie|Neal Gabler|RTT/@pmarca
+The True Believer|Eric Hoffer|RTT/@pmarca
+Homage to Catalonia|George Orwell|RTT/@pmarca
+The Righteous Mind|Jonathan Haidt|RTT/@pmarca
+The WEIRDest People in the World|Joseph Henrich|RTT/@pmarca
+The Courage to Be Disliked|Ichiro Kishimi and Fumitake Koga|RTT/@pmarca
+Can't Hurt Me|David Goggins|RTT/@pmarca
+Skin in the Game|Nassim Nicholas Taleb|RTT/@pmarca
+Thinking in Bets|Annie Duke|RTT/@pmarca
+Behave|Robert Sapolsky|RTT/@pmarca
+Zero to One|Peter Thiel|RTT/@pmarca
+A Spy Among Friends|Ben Macintyre|RTT/@pmarca
+The Rise of Superman|Steven Kotler|RTT/@pmarca
+The Hard Thing About Hard Things|Ben Horowitz|RTT/@pmarca
+Thinking, Fast and Slow|Daniel Kahneman|RTT/@pmarca
+Triumph of the City|Edward Glaeser|RTT/@pmarca
+The Lean Startup|Eric Ries|RTT/@pmarca
+The Rational Optimist|Matt Ridley|RTT/@pmarca
+A Guide to the Good Life|William B. Irvine|RTT/@pmarca
+Whole Earth Discipline|Stewart Brand|RTT/@pmarca
+The Myth of the Rational Voter|Bryan Caplan|RTT/@pmarca
+Expert Political Judgment|Philip E. Tetlock|RTT/@pmarca
+The End of History and the Last Man|Francis Fukuyama|RTT/@pmarca
+Poor Charlie's Almanack|Peter D. Kaufman|RTT/@pmarca
+Only the Paranoid Survive|Andrew S. Grove|RTT/@pmarca
+High Output Management|Andrew S. Grove|RTT/@pmarca
+Extreme Ownership|Jocko Willink|RTT/@pmarca
+Born Standing Up|Steve Martin|RTT/@pmarca
+Becoming Steve Jobs|Brent Schlender|RTT/@pmarca
+The Power of Productivity|William W. Lewis|RTT/@pmarca

@@ -1,0 +1,46 @@
+# Manifiesto de discovery — Ryan Holiday (n. 1987, ámbito: Escritores — YA EXISTE, hoy 4 libros)
+# Autor (Ego Is the Enemy, The Obstacle Is the Way) y difusor del estoicismo (Daily Stoic). Recomendador prolífico.
+# Fuente: Read This Twice /person/ryan-holiday (102 recos verificadas con fuente por libro) + ryanholiday.net/reading-list.
+# Selección curada ~38 (de 102): estoicismo, estrategia, biografía, sabiduría y ficción fuerte; prioriza rotación
+#   comercial y probable edición ES. Se omiten sus PROPIOS libros y los clásicos en latín más oscuros.
+# OJO: NO incluir fichas de libros escritos por el propio Ryan Holiday (sería auto-recomendación).
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+The Psychology of Money|Morgan Housel|RTT/@RyanHoliday
+Meditations|Marcus Aurelius|RTT / reading-list
+A Calendar of Wisdom|Leo Tolstoy|RTT/@RyanHoliday
+Leadership in Turbulent Times|Doris Kearns Goodwin|RTT/@RyanHoliday
+The Road|Cormac McCarthy|RTT/@RyanHoliday
+Invisible Man|Ralph Ellison|RTT/@RyanHoliday
+Tiny Beautiful Things|Cheryl Strayed|RTT/@RyanHoliday
+Range|David Epstein|RTT/@RyanHoliday
+The Second Mountain|David Brooks|RTT/@RyanHoliday
+Keep Going|Austin Kleon|RTT/@RyanHoliday
+The Library Book|Susan Orlean|RTT/@RyanHoliday
+The Autobiography of Malcolm X|Malcolm X|RTT/@RyanHoliday
+Essentialism|Greg McKeown|RTT/@RyanHoliday
+Mastery|Robert Greene|RTT/@RyanHoliday
+How to Live|Sarah Bakewell|RTT/@RyanHoliday
+The 33 Strategies of War|Robert Greene|RTT/@RyanHoliday
+Memoirs of Hadrian|Marguerite Yourcenar|RTT/@RyanHoliday
+Status Anxiety|Alain de Botton|RTT/@RyanHoliday
+Ender's Game|Orson Scott Card|RTT/@RyanHoliday
+Letters from a Stoic|Seneca|RTT/@RyanHoliday
+Titan|Ron Chernow|RTT/@RyanHoliday
+The Rise of Theodore Roosevelt|Edmund Morris|RTT/@RyanHoliday
+The 48 Laws of Power|Robert Greene|RTT/@RyanHoliday
+Up from Slavery|Booker T. Washington|RTT/@RyanHoliday
+Endurance|Alfred Lansing|RTT/@RyanHoliday
+Bird by Bird|Anne Lamott|RTT/@RyanHoliday
+The Moral Animal|Robert Wright|RTT/@RyanHoliday
+Philosophy as a Way of Life|Pierre Hadot|RTT/@RyanHoliday
+The Power Broker|Robert A. Caro|RTT/@RyanHoliday
+The Great Gatsby|F. Scott Fitzgerald|RTT/@RyanHoliday
+Blue Ocean Strategy|W. Chan Kim|RTT/@RyanHoliday
+The Book of Five Rings|Miyamoto Musashi|RTT/@RyanHoliday
+Essays and Aphorisms|Arthur Schopenhauer|RTT/@RyanHoliday
+The War of Art|Steven Pressfield|RTT/@RyanHoliday
+The Score Takes Care of Itself|Bill Walsh|RTT/@RyanHoliday
+Man's Search for Meaning|Viktor Frankl|RTT/@RyanHoliday
+The Black Swan|Nassim Nicholas Taleb|RTT/@RyanHoliday
+The 4-Hour Workweek|Tim Ferriss|RTT/@RyanHoliday

@@ -5,17 +5,18 @@ asin: "8416997284"
 categoria: ciencia
 recomendadoPor:
   - bill-gates
+  - ryan-holiday
 anio: 2019
 resumen: "David Epstein desafía el culto a la especialización temprana y demuestra, con evidencia, que los generalistas con experiencias diversas suelen superar a los especialistas en los problemas más difíciles. Bill Gates lo recomendó como uno de sus libros favoritos."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-06
 ---
 
 El mundo moderno lleva décadas diciéndonos lo mismo: especializate cuanto antes, encontrá tu nicho, hacé diez mil horas de práctica deliberada. David Epstein llegó a la misma conclusión que muchos que viven en el mundo real: esa historia no siempre es cierta. *Amplitud* es el libro que armó para demostrarla —y lo hace con una acumulación de estudios, casos y paradojas que resulta difícil de rebatir.
 
-## Por qué lo recomienda Bill Gates
+## Por qué lo recomiendan Bill Gates y Ryan Holiday
 
-Gates recomendó *Amplitud* en su lista de verano de 2019, señalando que Epstein plantea preguntas genuinamente provocadoras sobre cómo se forma el talento. Para alguien que construyó una empresa alrededor de especialistas técnicos de primer nivel, Gates fue honesto al admitir que el libro lo hizo reconsiderar algunas de sus ideas sobre cómo se desarrollan las personas más valiosas. Lo describió como uno de los libros más interesantes que había leído ese año.
+Gates recomendó *Amplitud* en su lista de verano de 2019, señalando que Epstein plantea preguntas genuinamente provocadoras sobre cómo se forma el talento. Para alguien que construyó una empresa alrededor de especialistas técnicos de primer nivel, Gates fue honesto al admitir que el libro lo hizo reconsiderar algunas de sus ideas sobre cómo se desarrollan las personas más valiosas. Lo describió como uno de los libros más interesantes que había leído ese año. Ryan Holiday fue todavía más lejos: dijo que en 2019 se lo recomendó a más gente que ningún otro libro, y lo cuenta entre sus favoritos. Tiene sentido viniendo de alguien que suele insistir en que el camino hacia el dominio de algo no es lineal —la idea central de Epstein encaja con esa desconfianza de Holiday hacia las fórmulas rígidas de éxito.
 
 ## De qué trata
 

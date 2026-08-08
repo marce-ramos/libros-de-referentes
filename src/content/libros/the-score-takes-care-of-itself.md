@@ -5,17 +5,18 @@ asin: "1591843472"
 categoria: negocios
 recomendadoPor:
   - sam-altman
+  - ryan-holiday
 anio: 2009
 resumen: "La filosofía de liderazgo de Bill Walsh, el entrenador que reinventó el fútbol americano con los 49ers, contada de forma póstuma. Recomendado por Sam Altman."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-08-06
 ---
 
 Bill Walsh ganó tres Super Bowls con los San Francisco 49ers e inventó el "West Coast offense", un sistema que cambió para siempre la forma de jugar al fútbol americano. Pero este libro no es sobre jugadas ni estrategias de cancha: es la filosofía de liderazgo que Walsh fue destilando a lo largo de una carrera marcada tanto por el éxito como por el fracaso, publicada de forma póstuma con la ayuda de Steve Jamison y de su hijo Craig Walsh, a partir de notas y entrevistas.
 
-## Por qué lo recomienda Sam Altman
+## Por qué lo recomiendan Sam Altman y Ryan Holiday
 
-En 2015, en una AMA en video transcripta en un hilo de Hacker News, le preguntaron a Altman cuáles eran los mejores libros para un fundador joven. Entre una lista dominada por filosofía, ciencia y historia —*Zero to One*, *La República*, *Thinking, Fast and Slow*— incluyó este título de liderazgo deportivo, sin dar más justificación puntual en el clip que el hecho de mostrarlo a cámara. Que un libro de un entrenador de fútbol americano aparezca junto a Platón en la lista de lecturas esenciales de Altman ya dice algo: para él, los principios de Walsh sobre construir organizaciones que rinden de manera sostenida trascienden el deporte.
+En 2015, en una AMA en video transcripta en un hilo de Hacker News, le preguntaron a Altman cuáles eran los mejores libros para un fundador joven. Entre una lista dominada por filosofía, ciencia y historia —*Zero to One*, *La República*, *Thinking, Fast and Slow*— incluyó este título de liderazgo deportivo, sin dar más justificación puntual en el clip que el hecho de mostrarlo a cámara. Que un libro de un entrenador de fútbol americano aparezca junto a Platón en la lista de lecturas esenciales de Altman ya dice algo: para él, los principios de Walsh sobre construir organizaciones que rinden de manera sostenida trascienden el deporte. Ryan Holiday también lo tiene en su lista de lecturas recomendadas, y lo resume en una frase: "Ocupate bien de las cosas chicas y el resultado se ocupa de sí mismo". No es casual: Holiday venía de leer *Education of a Coach* sobre Bill Belichick, y encontró en Walsh la misma obsesión por la disciplina en los detalles que atraviesa buena parte de su propio trabajo sobre el estoicismo aplicado.
 
 ## De qué trata
 

@@ -1,0 +1,17 @@
+# Manifiesto de discovery — Lex Fridman (n. 1983, ámbito: Tecnología — YA EXISTE, hoy 6 libros)
+# Investigador de IA y conductor del Lex Fridman Podcast. Recomienda libros en el podcast y en X (@lexfridman).
+# Fuente: Read This Twice /person/lex-fridman (11 recos verificadas con fuente por libro).
+# OJO: referente de lista corta (11, como Isabel Allende). Perfil IA/ciencia/historia/ficción. Lista casi completa.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Super Sad True Love Story|Gary Shteyngart|RTT/@lexfridman
+A New Kind of Science|Stephen Wolfram|RTT/@lexfridman
+Artificial Intelligence: A Modern Approach|Stuart Russell|RTT/@lexfridman
+The Toyota Way|Jeffrey Liker|RTT/@lexfridman
+Life 3.0|Max Tegmark|RTT/@lexfridman
+Essential Bukowski|Charles Bukowski|RTT/@lexfridman
+Sapiens|Yuval Noah Harari|RTT/@lexfridman
+The Better Angels of Our Nature|Steven Pinker|RTT/@lexfridman
+Empire of the Summer Moon|S.C. Gwynne|RTT/@lexfridman
+Machines Who Think|Pamela McCorduck|RTT/@lexfridman
+The War of Art|Steven Pressfield|RTT/@lexfridman

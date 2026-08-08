@@ -1,0 +1,28 @@
+# Manifiesto de discovery — Brené Brown (n. 1965, ámbito: Psicología — YA EXISTE, hoy 4 libros)
+# Investigadora (vulnerabilidad, coraje, liderazgo) y autora. Recomienda en su podcast Dare to Lead y en X (@BreneBrown).
+# Fuente: Read This Twice /person/brene-brown (27 recos verificadas con fuente por libro; actualizado 2024).
+# Selección curada ~20: liderazgo, psicología, autocompasión y memorias con probable edición ES.
+# OJO: NO incluir sus PROPIOS libros (Daring Greatly, Dare to Lead, etc. — auto-recomendación).
+#   Algunos títulos son muy centrados en racismo en EEUU (One Drop, Black Magic): verificar edición ES antes de publicar.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+Becoming|Michelle Obama|RTT/@BreneBrown
+The Alchemist|Paulo Coelho|RTT/@BreneBrown
+Self-Compassion|Kristin Neff|RTT/@BreneBrown
+The Soul of Money|Lynne Twist|RTT/@BreneBrown
+The Dance of Anger|Harriet Lerner|RTT/@BreneBrown
+Why Won't You Apologize?|Harriet Lerner|RTT/@BreneBrown
+The Ride of a Lifetime|Robert Iger|RTT/@BreneBrown
+Everything Is Figureoutable|Marie Forleo|RTT/@BreneBrown
+The Moment of Lift|Melinda Gates|RTT/@BreneBrown
+Stretch|Scott Sonenshein|RTT/@BreneBrown
+Love, Henri|Henri J. M. Nouwen|RTT/@BreneBrown
+The Velvet Rage|Alan Downs|RTT/@BreneBrown
+The Book of Qualities|J. Ruth Gendler|RTT/@BreneBrown
+Positive Discipline|Jane Nelsen|RTT/@BreneBrown
+Lead Yourself First|Raymond M. Kethledge|RTT/@BreneBrown
+The Power of Starting Something Stupid|Richie Norton|RTT/@BreneBrown
+Imperfect Courage|Jessica Honegger|RTT/@BreneBrown
+Culture Renovation|Kevin Oakes|RTT/@BreneBrown
+Be the Boss Everyone Wants to Work For|William A. Gentry|RTT/@BreneBrown
+I'm Still Here|Austin Channing Brown|RTT/@BreneBrown

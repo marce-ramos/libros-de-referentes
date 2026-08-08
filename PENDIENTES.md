@@ -189,8 +189,18 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    Women.com/mostrecommendedbooks.com, 4 → 35 libros, backlog de 17 candidatos pendiente,
    listicle nuevo) y **Adam Grant profundizado el 2026-08-04** (backlog pre-sourceado desde
    2026-07-22 cerrado al 100%, 6 → 36 libros, listicle nuevo) — los tres sacados de esta lista.
-   Sin discovery real todavía: Simon Sinek, Lex Fridman, Malala, Kasparov, Nassim Taleb, Neil
-   deGrasse Tyson.
+   **Sin discovery real todavía — lista CORREGIDA 2026-08-04 (verificada por conteo de libros: son 12, no 6).**
+   Nivel semilla (~3-4 libros): Ryan Holiday (4), Marc Andreessen (3), Paul Graham (3), Brené Brown (4),
+   Neil deGrasse Tyson (4), Simon Sinek (4), Nassim Taleb (3), Gwyneth Paltrow (3), Garry Kasparov (3),
+   Malala (3). Parciales: Lex Fridman (6), Vitalik Buterin (8). (OJO: Sam Altman/Naval/Stephen King/
+   J.K. Rowling ya estaban en 22-25 — la nota vieja de "4/4" estaba desactualizada.)
+   **Tanda 1 lista para Sonnet — manifiestos ya sourceados (Read This Twice, con fuente por libro):**
+   `ryan-holiday-manifiesto.txt` (38), `marc-andreessen-manifiesto.txt` (30 — excluidos a propósito los
+   títulos políticamente cargados de su lista), `lex-fridman-manifiesto.txt` (11, referente corto),
+   `brene-brown-manifiesto.txt` (20). Ámbitos ya seteados en `ambitos.ts` (existen). Flujo por c/u:
+   `reconciliar.py` → enriquecer → listicle → `detectar_duplicados.py`.
+   Orden de tandas siguientes: Neil deGrasse Tyson, Paul Graham (¡demanda GSC real!), Simon Sinek, Nassim
+   Taleb; después Gwyneth Paltrow, Vitalik Buterin, Kasparov, Malala (fuentes más finas, pueden salir cortos).
    **Oprah Winfrey: backlog 100% cerrado el 2026-07-31** (122/122 vinculados/enriquecidos, listicle
    regenerado — sacada de esta lista; quedan excluidos por decisión los 3 infantiles de Bill Cosby,
    reconsiderables a futuro), etc.

@@ -5,17 +5,18 @@ asin: "8433976966"
 categoria: ficcion
 recomendadoPor:
   - mario-vargas-llosa
+  - ryan-holiday
 anio: 1925
 resumen: "La novela que retrata el sueño americano como espejismo, a través de las fiestas y la obsesión de Jay Gatsby por recuperar un amor perdido. Mario Vargas Llosa la reseñó entre las novelas del siglo XX que marcaron su formación, en su libro de ensayos La verdad de las mentiras."
 destacado: false
-fechaActualizado: 2026-07-31
+fechaActualizado: 2026-08-06
 ---
 
 Hay pocas novelas que hayan condensado tan bien el brillo y la decadencia de una época en menos de doscientas páginas. F. Scott Fitzgerald escribió *El gran Gatsby* en 1925, en plena era del jazz, y logró algo raro: una fiesta que es, al mismo tiempo, un funeral.
 
-## Por qué lo recomienda Mario Vargas Llosa
+## Por qué lo recomiendan Mario Vargas Llosa y Ryan Holiday
 
-Mario Vargas Llosa incluyó a Fitzgerald entre los narradores norteamericanos que revisó en *La verdad de las mentiras* (1990), su libro de ensayos sobre las novelas del siglo XX que más marcaron su formación como lector y como escritor. Le interesaba particularmente cómo Fitzgerald resolvía un problema técnico que después él mismo trabajaría en sus propias novelas: contar una historia ajena —la de Gatsby— a través de un narrador testigo, Nick Carraway, que observa desde afuera y no termina de entender del todo lo que ve. Esa distancia entre lo que el narrador sabe y lo que el lector intuye es, para Vargas Llosa, uno de los grandes logros de la narrativa moderna: convierte una historia de amor fallido en una radiografía moral de todo un país.
+Mario Vargas Llosa incluyó a Fitzgerald entre los narradores norteamericanos que revisó en *La verdad de las mentiras* (1990), su libro de ensayos sobre las novelas del siglo XX que más marcaron su formación como lector y como escritor. Le interesaba particularmente cómo Fitzgerald resolvía un problema técnico que después él mismo trabajaría en sus propias novelas: contar una historia ajena —la de Gatsby— a través de un narrador testigo, Nick Carraway, que observa desde afuera y no termina de entender del todo lo que ve. Esa distancia entre lo que el narrador sabe y lo que el lector intuye es, para Vargas Llosa, uno de los grandes logros de la narrativa moderna: convierte una historia de amor fallido en una radiografía moral de todo un país. Ryan Holiday la leyó cinco o seis veces y llegó a escribir que es, para él, la novela más grande jamás escrita: la descubrió con un ensayo escolar sobre el sueño americano en la secundaria, y todavía vuelve a ella.
 
 ## De qué trata
 

@@ -152,6 +152,27 @@ Emma Watson, Natalie Portman, Richard Branson. **(= los 39 referentes, catálogo
 **+ Jenna Bush Hager** (#43, 2026-08-01: 31/31 fichas + listicle; backlog histórico 2019-2023
 pendiente de sourcear).
 
+- **2026-08-06** — Profundizar Ryan Holiday: manifiesto de 38 candidatos reconciliado
+  (3 YA-LINKED, 8 CROSS-REF, 4 REVISAR, 23 NUEVO). Los 4 REVISAR (Leadership in Turbulent Times,
+  Tiny Beautiful Things, The Second Mountain, Titan) se resolvieron como libros nuevos —mismo
+  autor que otra ficha del catálogo, pero obra distinta— → total NUEVO = 27, todos enriquecidos
+  en 4 lotes paralelos (subagentes Sonnet): *La psicología del dinero*, *A Calendar of Wisdom*,
+  *El hombre invisible*, *Sigue adelante*, *La biblioteca en llamas*, *Autobiografía* (Malcolm X),
+  *Esencialismo*, *Maestría*, *Cómo vivir*, *Las 33 estrategias de la guerra*, *Memorias de
+  Adriano*, *Ansiedad por el estatus*, *El juego de Ender*, *The Rise of Theodore Roosevelt*,
+  *Las 48 leyes del poder*, *Saliendo de la esclavitud*, *Bird by Bird*, *The Moral Animal*,
+  *Ejercicios espirituales y filosofía antigua*, *The Power Broker*, *La estrategia del océano
+  azul*, *El libro de los cinco anillos*, *Essays and Aphorisms*, *Liderazgo: en tiempos
+  turbulentos*, *Pequeñas cosas bellas*, *La segunda montaña*, *Titan*.
+  ⚠️ Dudas a revisar: `a-calendar-of-wisdom` quedó en inglés (ediciones ES encontradas parecen
+  autopublicadas/con errores, confianza <80%); `the-autobiography-of-malcolm-x` ASIN confirmado
+  solo vía listado amazon.com/-/es (~75% confianza); `philosophy-as-a-way-of-life` identificación
+  de edición ES con ~85% confianza (hay otro libro de Hadot con título similar en español que NO
+  es este). Sin edición ES confirmada (quedaron en inglés): `essays-and-aphorisms`,
+  `the-rise-of-theodore-roosevelt`, `bird-by-bird`, `the-moral-animal`, `the-power-broker`,
+  `titan`. Ryan Holiday → **34/34 fichas ajenas enriquecidas** (+ 4 propias ya existentes,
+  excluidas del listicle a propósito). Listicle regenerado (ver abajo).
+
 ---
 
 ## Descubrimiento (expansión del catálogo)
@@ -788,6 +809,10 @@ el consenso del libro y mejora el interlinking.
   - The Handmaid's Tale / *El cuento de la criada* (Atwood) → + Dua Lipa (ya tenía Watson → 2).
   Pendiente: enriquecer las **32 fichas nuevas** por tandas + listicle de Dua Lipa. Manifiesto
   reconciliado en el chat (no commiteado).
+- **2026-08-06** — 8 cross-refs de Ryan Holiday: The Road, Range, Endurance, The Great Gatsby,
+  The Score Takes Care of Itself, Man's Search for Meaning, The Black Swan, The 4-Hour Workweek
+  (esta última tenía un defecto de atribución huérfana — sin sección "Por qué lo recomienda" y
+  una línea suelta antes del blockquote de edición— corregido de paso al sumar el cross-ref).
 
 ## Artículos de blog
 
@@ -841,6 +866,12 @@ el consenso del libro y mejora el interlinking.
 
 James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Grant, Simon Sinek.
 (Ya escritos: Ryan Holiday, Sam Altman, Naval Ravikant, Yuval Noah Harari — además de los 8 previos.)
+
+- **2026-08-06** — Listicle de Ryan Holiday **regenerado** (pasó de 4 a 34 libros ajenos
+  enlazados; excluye a propósito sus propios libros). Reorganizado en 5 grupos temáticos
+  balanceados (Clásicos estoicos y filosofía, Disciplina/creatividad/carácter, Estrategia/poder/
+  negocios, Biografías/historia/memorias, Ficción y mirada científica) + bloque "Por dónde
+  empezar". `fecha` original (2026-07-10) preservada, `fechaActualizado` a 2026-08-06.
 
 ---
 

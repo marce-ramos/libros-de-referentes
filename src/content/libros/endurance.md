@@ -5,17 +5,18 @@ asin: "8411001318"
 categoria: memorias
 recomendadoPor:
   - sam-altman
+  - ryan-holiday
 anio: 1959
 resumen: "La crónica real de la expedición antártica de Ernest Shackleton, cuyo barco quedó atrapado en el hielo y cuya tripulación sobrevivió más de un año sin perder a un solo hombre. Recomendado por Sam Altman."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-08-06
 ---
 
 En 1915 el barco de Ernest Shackleton quedó aprisionado por el hielo antártico, y lo que empezó como una expedición para cruzar el continente terminó siendo una de las historias de supervivencia más extraordinarias que existen. Alfred Lansing reconstruyó ese viaje con un detalle casi cinematográfico, apoyado en los diarios que llevaron varios tripulantes durante los casi dos años que estuvieron perdidos en el fin del mundo.
 
-## Por qué lo recomienda Sam Altman
+## Por qué lo recomiendan Sam Altman y Ryan Holiday
 
-En un hilo de Hacker News de 2015, alguien le preguntó a Altman —en ese momento presidente de Y Combinator— cuáles eran los mejores libros para recomendarle a un fundador joven. *Endurance* fue una de sus respuestas. No es difícil entender por qué: pocas historias muestran con tanta claridad lo que significa sostener a un equipo cuando el plan original se derrumba por completo y lo único que queda es improvisar, mantener la moral y tomar decisiones con información incompleta. Para alguien que pasaba sus días aconsejando a founders sobre cómo no rendirse cuando todo sale mal, el liderazgo de Shackleton es un caso de estudio difícil de igualar.
+En un hilo de Hacker News de 2015, alguien le preguntó a Altman —en ese momento presidente de Y Combinator— cuáles eran los mejores libros para recomendarle a un fundador joven. *Endurance* fue una de sus respuestas. No es difícil entender por qué: pocas historias muestran con tanta claridad lo que significa sostener a un equipo cuando el plan original se derrumba por completo y lo único que queda es improvisar, mantener la moral y tomar decisiones con información incompleta. Para alguien que pasaba sus días aconsejando a founders sobre cómo no rendirse cuando todo sale mal, el liderazgo de Shackleton es un caso de estudio difícil de igualar. Ryan Holiday lo incluye en su lista "Books To Base Your Life On" y describe a Shackleton como un hombre "inmensamente valiente en medio de una adversidad terrible" que "nunca se rindió, nunca pareció desesperar" —la clase de temple estoico bajo presión extrema que Holiday viene documentando en su propia obra.
 
 ## De qué trata
 
