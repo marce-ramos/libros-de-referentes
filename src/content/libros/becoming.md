@@ -5,6 +5,7 @@ asin: "8401021758"
 categoria: memorias
 recomendadoPor:
   - oprah-winfrey
+  - brene-brown
 anio: 2018
 resumen: "Las memorias de Michelle Obama recorren su vida desde el South Side de Chicago hasta la Casa Blanca, con una honestidad que pocas figuras públicas se permiten. Recomendado por Oprah Winfrey como uno de los libros más poderosos que leyó."
 destacado: false
@@ -13,9 +14,11 @@ fechaActualizado: 2026-07-10
 
 Michelle Obama no escribió un libro de política. Escribió algo mucho más difícil: una historia honesta sobre quién es, de dónde viene y a qué precio llegó donde llegó.
 
-## Por qué lo recomienda Oprah Winfrey
+## Por qué lo recomiendan Oprah Winfrey y Brené Brown
 
 Oprah y Michelle Obama comparten algo que va más allá de la amistad pública: ambas son mujeres negras que crecieron en entornos modestos y llegaron a las cimas de sus respectivos mundos sin dejar de ser ellas mismas —o al menos sin dejar de intentarlo. Oprah recomienda *Becoming* porque le parece uno de los testimonios más honestos que leyó sobre lo que significa crecer sintiéndose inferior y animarse igual, sobre el precio que paga una mujer cuando su marido tiene una misión más grande que la de ambos, y sobre cómo una puede construirse a sí misma sin perder el hilo de quién era antes. "Me hizo llorar y me hizo reír", dijo Oprah. "Y me hizo querer ser mejor."
+
+Brené Brown leyó una copia anticipada antes del lanzamiento y lo definió en sus redes como "tan pero tan bueno. Bueno para mi corazón, mi cabeza y mi alma" —una frase corta pero elocuente en alguien que suele medir con cuidado sus recomendaciones públicas.
 
 ## De qué trata
 

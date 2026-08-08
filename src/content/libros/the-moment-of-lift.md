@@ -5,6 +5,7 @@ asin: "164473012X"
 categoria: memorias
 recomendadoPor:
   - satya-nadella
+  - brene-brown
 anio: 2019
 resumen: "Melinda Gates cuenta lo que aprendió en dos décadas de trabajo filantrópico global: que ninguna sociedad progresa de verdad si no empodera a sus mujeres. Recomendado por Satya Nadella, CEO de Microsoft."
 destacado: false
@@ -13,9 +14,11 @@ fechaActualizado: 2026-07-14
 
 Durante años, Melinda Gates fue conocida sobre todo como la mitad de la Fundación Bill y Melinda Gates. En *No hay vuelta atrás* da un paso al frente y cuenta, con nombre propio, lo que veinte años viajando por el mundo —hablando con mujeres en aldeas remotas, en villas urbanas, en salas de reuniones— le enseñaron sobre el desarrollo humano. Y también, por primera vez de forma pública, algo de su propia vida.
 
-## Por qué lo recomienda Satya Nadella
+## Por qué lo recomiendan Satya Nadella y Brené Brown
 
 Nadella es un lector activo que comparte recomendaciones tanto en X/Twitter como en charlas públicas, y suele elegir libros que conectan liderazgo, cultura organizacional y el lado humano de las grandes decisiones. Melinda Gates no es una autora ajena al mundo de Nadella: la Fundación Gates y Microsoft comparten historia y varios de los desafíos globales que ella describe —acceso a tecnología, brechas de oportunidad, inclusión— aparecen también en la agenda de responsabilidad social de Microsoft. Es, además, un libro sobre liderazgo silencioso y persistente, un estilo con el que Nadella se identifica públicamente.
+
+La relación de Brené Brown con este libro va más allá de una simple mención: entrevistó a Melinda Gates en su podcast *Unlocking Us* específicamente sobre esta obra, y lo describió como "un llamado urgente al coraje", elogiando cómo Gates combina narración vulnerable y valiente con datos contundentes en "uno de esos libros raros que uno lleva en el corazón y en la mente mucho después de la última página".
 
 ## De qué trata
 
