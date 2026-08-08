@@ -5,17 +5,18 @@ asin: "8430619623"
 categoria: ciencia
 recomendadoPor:
   - andrew-ng
+  - lex-fridman
 anio: 2017
 resumen: "El físico del MIT Max Tegmark explora qué significa ser humano en la era de la inteligencia artificial: escenarios de futuro, riesgos y oportunidades de una IA cada vez más capaz."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-08-08
 ---
 
 *Vida 3.0* es uno de los libros más influyentes sobre el futuro de la inteligencia artificial. Su autor, Max Tegmark, es físico del MIT y cofundador del Future of Life Institute, y escribe desde un lugar poco común: el del científico que toma en serio tanto las promesas como los peligros de la IA.
 
-## Por qué lo recomienda Andrew Ng
+## Por qué lo recomiendan Andrew Ng y Lex Fridman
 
-Ng suele bajar la ansiedad sobre la IA con pragmatismo, pero valora este libro porque plantea las preguntas grandes sin caer en la ciencia ficción barata. Es una invitación a pensar, con rigor, qué mundo queremos construir con estas tecnologías —una conversación que, para Ng, conviene tener informados y no a los gritos.
+Ng suele bajar la ansiedad sobre la IA con pragmatismo, pero valora este libro porque plantea las preguntas grandes sin caer en la ciencia ficción barata. Es una invitación a pensar, con rigor, qué mundo queremos construir con estas tecnologías —una conversación que, para Ng, conviene tener informados y no a los gritos. Lex Fridman, que entrevistó a Tegmark varias veces en su podcast, lo recomienda por la misma razón: pocos libros tratan el riesgo existencial de la IA con tanto rigor científico y tan poco alarmismo.
 
 ## De qué trata
 

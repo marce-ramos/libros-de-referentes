@@ -5,17 +5,18 @@ asin: "8449334640"
 categoria: ciencia
 recomendadoPor:
   - mark-zuckerberg
+  - lex-fridman
 anio: 2011
 resumen: "Steven Pinker demuestra, con siglos de estadísticas de homicidios, guerras y castigos, que la humanidad es hoy menos violenta que en cualquier otro momento de su historia. Fue uno de los picks de Mark Zuckerberg en su club de lectura 'A Year of Books' (2015)."
 destacado: false
-fechaActualizado: 2026-07-13
+fechaActualizado: 2026-08-08
 ---
 
 Prendé cualquier noticiero y da la sensación de que el mundo se cae a pedazos. Steven Pinker se propuso chequear esa sensación contra los números y llegó a una conclusión incómoda para el pesimismo ambiente: vivimos, en proporción, en la época menos violenta de la historia humana. Este libro es la demostración, capítulo por capítulo, de esa afirmación.
 
 ## Por qué lo recomienda Mark Zuckerberg
 
-En enero de 2015, Mark Zuckerberg arrancó el año con una resolución pública poco habitual para un CEO de tecnología: leer un libro cada dos semanas y discutirlo con la comunidad de Facebook en un grupo abierto, "A Year of Books". *Los ángeles que llevamos dentro* fue uno de los primeros picks del año, elegido a mediados de enero de 2015, dentro de una selección que privilegiaba libros de historia, ciencia y cultura por encima de la autoayuda de negocios habitual. El "efecto Oprah" que generaron esos anuncios llevó a varios de esos títulos, este incluido, a escalar posiciones en los rankings de ventas casi de inmediato.
+En enero de 2015, Mark Zuckerberg arrancó el año con una resolución pública poco habitual para un CEO de tecnología: leer un libro cada dos semanas y discutirlo con la comunidad de Facebook en un grupo abierto, "A Year of Books". *Los ángeles que llevamos dentro* fue uno de los primeros picks del año, elegido a mediados de enero de 2015, dentro de una selección que privilegiaba libros de historia, ciencia y cultura por encima de la autoayuda de negocios habitual. El "efecto Oprah" que generaron esos anuncios llevó a varios de esos títulos, este incluido, a escalar posiciones en los rankings de ventas casi de inmediato. Lex Fridman también lo recomienda: Pinker fue invitado varias veces a su podcast, y este libro suele salir como referencia obligada cuando la charla deriva hacia la naturaleza humana y la violencia.
 
 ## De qué trata
 

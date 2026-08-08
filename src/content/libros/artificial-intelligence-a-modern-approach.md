@@ -5,17 +5,18 @@ asin: "842054003X"
 categoria: ciencia
 recomendadoPor:
   - andrew-ng
+  - lex-fridman
 anio: 1995
 resumen: "El manual de referencia mundial sobre inteligencia artificial, usado en más de 1.400 universidades. La base teórica que todo el que quiera entender la IA en serio termina consultando."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-08-08
 ---
 
 *Inteligencia artificial: un enfoque moderno* es, sin exagerar, **el libro de texto** de la disciplina: se usa en más de 1.400 universidades de todo el mundo y es la referencia con la que se formaron generaciones enteras de investigadores. Sus autores, Stuart Russell y Peter Norvig, lograron ordenar un campo entero en un solo volumen.
 
-## Por qué lo recomienda Andrew Ng
+## Por qué lo recomiendan Andrew Ng y Lex Fridman
 
-Andrew Ng —cofundador de Coursera y de Google Brain, y uno de los grandes educadores de IA del mundo— apunta a este manual como la base sólida para quien quiera ir más allá de los titulares. Frente al ruido actual sobre la inteligencia artificial, Ng valora entender los fundamentos: qué es un agente, cómo se representa el conocimiento, cómo aprende una máquina.
+Andrew Ng —cofundador de Coursera y de Google Brain, y uno de los grandes educadores de IA del mundo— apunta a este manual como la base sólida para quien quiera ir más allá de los titulares. Frente al ruido actual sobre la inteligencia artificial, Ng valora entender los fundamentos: qué es un agente, cómo se representa el conocimiento, cómo aprende una máquina. Lex Fridman, investigador de IA además de podcaster, lo cita en la misma línea: como el texto que ordena el campo entero antes de meterse en los debates de moda sobre modelos de lenguaje o superinteligencia.
 
 ## De qué trata
 
