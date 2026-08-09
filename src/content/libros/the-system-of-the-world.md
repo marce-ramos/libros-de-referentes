@@ -29,4 +29,6 @@ La idea central que atraviesa el libro es revolucionaria: la misma fuerza que ha
 
 Es una lectura para los muy apasionados por la historia de la ciencia y el pensamiento matemático. No es un texto de divulgación ni está escrito para principiantes: la geometría y el latín de la época exigen esfuerzo. Pero para quien quiera entender cómo Newton pensó el cosmos, leerlo directamente —aunque sea en traducción— es una experiencia única. La edición de CreateSpace reproduce el texto clásico en inglés con buena legibilidad.
 
+Si te interesa la obra completa —los tres libros del *Principia*, no solo esta aplicación al sistema solar—, esta colección también tiene la ficha de [*Principios matemáticos de la filosofía natural*](/libros/the-principia).
+
 > Por ahora disponible principalmente en inglés; el enlace lleva a la edición en papel de *The System of the World* (Principia, Libro III), en inglés.
