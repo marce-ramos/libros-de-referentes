@@ -1,0 +1,49 @@
+# Manifiesto MODO LISTICLE (Best-of de categoría) — PSICOLOGÍA
+# Post: "Los mejores libros de psicología (según los grandes referentes) — guía 2026"
+#   slug: /blog/mejores-libros-de-psicologia   ·   cierre a /categorias/psicologia y /referentes
+# Ángulo: ordenado por CONSENSO (nº de referentes). Abrir con un lead "Por dónde empezar" con los
+#   3-4 más recomendados; después los grupos temáticos. SIN links de afiliado (solo internos /libros,
+#   /referentes, /categorias). Enlazar SOLO estos slugs, con el `titulo` EXACTO como texto del link.
+# Curado por Opus desde armar_bestof.py (99 fichas). 25 títulos, todos con edición ES.
+# Formato: slug | titulo EXACTO | (nº ref)
+#
+# === Lead sugerido "Por dónde empezar" (los más recomendados) ===
+thinking-fast-and-slow | Pensar rápido, pensar despacio | (5)
+the-war-of-art | La guerra del arte | (4)
+atomic-habits | Hábitos atómicos | (2)
+the-courage-to-be-disliked | Atrévete a no gustar | (2)
+#
+# === Grupo 1: Pensamiento, sesgos y decisión ===
+thinking-fast-and-slow | Pensar rápido, pensar despacio | (5)
+think-again | Piénsalo otra vez | (2)
+thinking-in-bets | Decide y apuesta | (2)
+nudge | Un pequeño empujón (Nudge) | (2)
+the-righteous-mind | La mente de los justos | (2)
+the-scout-mindset | La mentalidad del explorador | (1)
+superforecasting | Superpronosticadores: El arte y la ciencia de la predicción | (1)
+#
+# === Grupo 2: Hábitos, mentalidad y alto rendimiento ===
+atomic-habits | Hábitos atómicos | (2)
+mindset | Mindset: La actitud del éxito | (2)
+grit | Grit: El poder de la pasión y la perseverancia | (1)
+mastery | Maestría | (1)
+flow | Fluir (Flow) | (1)
+learned-optimism | Aprenda optimismo | (1)
+#
+# === Grupo 3: Emociones, vulnerabilidad y autocompasión ===
+the-courage-to-be-disliked | Atrévete a no gustar | (2)
+the-body-keeps-the-score | El cuerpo lleva la cuenta | (1)
+self-compassion | Sé amable contigo mismo: El arte de la compasión hacia uno mismo | (1)
+the-gifts-of-imperfection | Los dones de la imperfección | (1)
+bittersweet | Agridulce | (1)
+#
+# === Grupo 4: Creatividad y motivación ===
+the-war-of-art | La guerra del arte | (4)
+big-magic | Libera tu magia | (1)
+the-subtle-art-of-not-giving-a-fck | El sutil arte de que (casi todo) te importe una mierda | (1)
+#
+# === Grupo 5: Vínculos y comunicación ===
+give-and-take | Dar y recibir | (2)
+quiet | El poder de los introvertidos | (2)
+nonviolent-communication | Comunicación No Violenta | (1)
+how-to-know-a-person | Cómo conocer a una persona | (1)
