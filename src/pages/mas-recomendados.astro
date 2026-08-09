@@ -18,6 +18,9 @@ function fmtNombres(ns: string[]): string {
   return `${ns[0]}, ${ns[1]} y ${ns.length - 2} más`;
 }
 
+const norm = (s: string) =>
+  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
 const masRecomendados = libros
   .filter((l) => l.data.recomendadoPor.length >= 2)
   .sort(
@@ -71,6 +74,18 @@ const jsonLd = [
     libro, hay una buena razón para prestarle atención.
   </p>
 
+  <input
+    id="buscador-mr"
+    type="search"
+    placeholder="Buscar por título o autor…"
+    autocomplete="off"
+    class="mt-6 w-full max-w-md rounded-lg border border-[var(--card-border)] bg-white px-4 py-2.5 text-sm outline-none focus:border-[var(--brand)]"
+  />
+
+  <p id="mr-sin-resultados" class="mt-6 hidden text-[var(--muted)]">
+    No encontramos libros con esa búsqueda.
+  </p>
+
   {
     tramos.map((t) => (
       <section class="mt-10" data-tramo>
@@ -80,7 +95,11 @@ const jsonLd = [
         </h2>
         <div class="grid gap-4 sm:grid-cols-2">
           {t.libros.map((l, i) => (
-            <div class:list={["mr-item h-full", { hidden: i >= PAGE_SIZE }]}>
+            <div
+              class:list={["mr-item h-full", { hidden: i >= PAGE_SIZE }]}
+              data-paged={i >= PAGE_SIZE ? "" : undefined}
+              data-buscar={norm(`${l.data.titulo} ${l.data.autorLibro}`)}
+            >
               <TarjetaRecomendado
                 id={l.id}
                 titulo={l.data.titulo}
@@ -110,16 +129,63 @@ const jsonLd = [
 
 <script>
   const STEP = 6;
-  document.querySelectorAll<HTMLButtonElement>("[data-vermas]").forEach((btn) => {
+  const norm = (s: string) =>
+    s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
+  const secciones = Array.from(document.querySelectorAll<HTMLElement>("[data-tramo]"));
+  const botones = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-vermas]"));
+  const items = Array.from(document.querySelectorAll<HTMLElement>(".mr-item"));
+  const input = document.getElementById("buscador-mr") as HTMLInputElement | null;
+  const sinRes = document.getElementById("mr-sin-resultados");
+
+  // Etiqueta de "Ver más" según cuántas tarjetas quedan ocultas por paginado (data-paged).
+  const restantes = (sec: Element) => sec.querySelectorAll(".mr-item[data-paged]").length;
+  const actualizarBoton = (btn: HTMLButtonElement) => {
     const sec = btn.closest("[data-tramo]");
     if (!sec) return;
-    const ocultos = Array.from(sec.querySelectorAll<HTMLElement>(".mr-item.hidden"));
-    const setLabel = () => (btn.textContent = `Ver más (${ocultos.length} restantes)`);
-    setLabel();
+    const n = restantes(sec);
+    btn.classList.toggle("hidden", n === 0);
+    if (n > 0) btn.textContent = `Ver más (${n} restantes)`;
+  };
+
+  // Paginado: revela de a STEP y limpia el marcador data-paged.
+  botones.forEach((btn) => {
+    const sec = btn.closest("[data-tramo]");
+    if (!sec) return;
+    actualizarBoton(btn);
     btn.addEventListener("click", () => {
-      ocultos.splice(0, STEP).forEach((el) => el.classList.remove("hidden"));
-      if (ocultos.length === 0) btn.remove();
-      else setLabel();
+      Array.from(sec.querySelectorAll<HTMLElement>(".mr-item[data-paged]"))
+        .slice(0, STEP)
+        .forEach((el) => {
+          el.classList.remove("hidden");
+          el.removeAttribute("data-paged");
+        });
+      actualizarBoton(btn);
     });
   });
+
+  // Buscador: en modo búsqueda ignora el paginado; al vaciar, restaura el estado paginado.
+  if (input) {
+    input.addEventListener("input", () => {
+      const q = norm(input.value.trim());
+      if (!q) {
+        items.forEach((it) => it.classList.toggle("hidden", it.hasAttribute("data-paged")));
+        secciones.forEach((s) => s.classList.remove("hidden"));
+        botones.forEach(actualizarBoton);
+        sinRes?.classList.add("hidden");
+        return;
+      }
+      let total = 0;
+      items.forEach((it) => {
+        const match = (it.dataset.buscar ?? "").includes(q);
+        it.classList.toggle("hidden", !match);
+        if (match) total++;
+      });
+      botones.forEach((b) => b.classList.add("hidden"));
+      secciones.forEach((s) =>
+        s.classList.toggle("hidden", !s.querySelector(".mr-item:not(.hidden)")),
+      );
+      sinRes?.classList.toggle("hidden", total > 0);
+    });
+  }
 </script>

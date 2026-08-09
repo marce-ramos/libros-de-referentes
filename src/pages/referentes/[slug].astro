@@ -70,5 +70,9 @@ const jsonLd = [
   <h2 class="mt-8 mb-5 text-xl font-bold text-[var(--brand-ink)]">
     Sus recomendaciones ({recomendados.length})
   </h2>
-  <EstanteLibros libros={recomendados} />
+  <EstanteLibros
+    libros={recomendados}
+    buscador={recomendados.length > 12}
+    placeholder="Buscar por título o autor…"
+  />
 </BaseLayout>
