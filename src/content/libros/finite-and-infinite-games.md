@@ -5,6 +5,7 @@ asin: "8478080503"
 categoria: filosofia
 recomendadoPor:
   - derek-sivers
+  - simon-sinek
 anio: 1986
 resumen: "El ensayo filosófico de James P. Carse que originó la distinción entre juegos finitos (se juegan para ganar) e infinitos (se juegan para seguir jugando). Derek Sivers lo calificó 9/10 en sivers.org/book."
 destacado: false
@@ -16,6 +17,8 @@ Hay un solo juego finito, dice James P. Carse en la primera línea del libro, y 
 ## Por qué lo recomienda Derek Sivers
 
 En su bitácora sivers.org/book, donde reseña y puntúa cada libro que termina de leer, Sivers le dio un 9 —una nota alta incluso para sus estándares exigentes—. Lo describe como uno de esos libros que reordenan cómo pensás las cosas sin que te des cuenta en el momento: la distinción entre jugar *para ganar* y jugar *para seguir jugando* le sirvió, según cuenta, para replantearse decisiones de negocio y de vida que hasta entonces enmarcaba mal, como si tuvieran un final claro cuando en realidad no lo tenían.
+
+También lo recomienda Simon Sinek, que tomó la distinción entre juegos finitos e infinitos de Carse como base directa de su propio libro *El juego infinito*, aplicando la idea al mundo de los negocios: las empresas que juegan con mentalidad de juego finito —ganarle a la competencia— pierden frente a las que juegan para seguir en el juego a largo plazo.
 
 ## De qué trata
 

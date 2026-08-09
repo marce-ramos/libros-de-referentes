@@ -5,6 +5,7 @@ asin: "8498753449"
 categoria: psicologia
 recomendadoPor:
   - adam-grant
+  - simon-sinek
 anio: 2013
 resumen: "El psicólogo Adam Grant demuestra que las personas más generosas no son las que terminan perdiendo, sino las que más lejos llegan. Recomendado por el propio Adam Grant como uno de los libros que más influyó en su carrera."
 destacado: false
@@ -14,6 +15,8 @@ fechaActualizado: 2026-07-10
 ¿Quién triunfa: el que da o el que toma? La respuesta de Adam Grant va a contramano de lo que muchos creen.
 
 ## Por qué lo recomienda Adam Grant
+
+También lo recomienda Simon Sinek, que encuentra en la investigación de Grant un respaldo empírico a su propia tesis sobre el liderazgo como servicio: los que dan sin esperar retorno inmediato terminan construyendo la confianza que sostiene a los equipos en el largo plazo.
 
 Grant no solo escribió este libro: lo vivió. La investigación que dio origen a *Dar y recibir* surgió de su propia perplejidad al notar que los profesionales más generosos a veces terminaban en los extremos opuestos de la escala del éxito: o entre los más exitosos o entre los más frustrados. Eso lo llevó a preguntarse qué diferenciaba a unos de otros, y lo que encontró cambió su forma de entender el liderazgo y las organizaciones. Grant lo recomienda porque considera que los datos desafían el cinismo que rodea al mundo de los negocios.
 

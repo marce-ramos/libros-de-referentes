@@ -5,6 +5,7 @@ asin: "849187996X"
 categoria: psicologia
 recomendadoPor:
   - adam-grant
+  - simon-sinek
 anio: 2012
 resumen: "El libro de Susan Cain que reivindica las fortalezas de los introvertidos en una cultura que premia lo extrovertido. Recomendado por Adam Grant."
 destacado: false
@@ -16,6 +17,8 @@ fechaActualizado: 2026-06-28
 ## Por qué lo recomienda Adam Grant
 
 Grant estudia cómo funcionan las organizaciones y las personas dentro de ellas. Destaca este libro porque cuestiona un sesgo profundo: la idea de que ser extrovertido, sociable y rápido para hablar es siempre mejor.
+
+También lo recomienda Simon Sinek, coherente con su insistencia en que el liderazgo no es un rasgo de personalidad reservado a quien más habla en la sala, sino una práctica que también pueden ejercer quienes escuchan antes de opinar.
 
 ## De qué trata
 

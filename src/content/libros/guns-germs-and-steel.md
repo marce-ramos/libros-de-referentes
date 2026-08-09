@@ -6,6 +6,7 @@ categoria: historia
 recomendadoPor:
   - yuval-noah-harari
   - james-clear
+  - simon-sinek
 anio: 1997
 resumen: "El clásico de Jared Diamond, ganador del Pulitzer, que explica por qué unas civilizaciones dominaron a otras a partir de la geografía y no de la supuesta superioridad de ningún pueblo. Una influencia directa en Sapiens."
 destacado: false
@@ -16,7 +17,7 @@ fechaActualizado: 2026-07-18
 
 ## Por qué lo recomienda Yuval Noah Harari
 
-La deuda es evidente: *Sapiens* bebe directamente de esta forma de hacer "gran historia", esa que busca las fuerzas profundas —geografía, biología, medioambiente— detrás de los acontecimientos. Harari comparte con Diamond el método de explicar milenios enteros con unas pocas ideas potentes, y lo cita como una de sus influencias. También lo recomienda James Clear.
+La deuda es evidente: *Sapiens* bebe directamente de esta forma de hacer "gran historia", esa que busca las fuerzas profundas —geografía, biología, medioambiente— detrás de los acontecimientos. Harari comparte con Diamond el método de explicar milenios enteros con unas pocas ideas potentes, y lo cita como una de sus influencias. También lo recomiendan James Clear y Simon Sinek, que lo suma a su lista de lecturas sobre las fuerzas de fondo que explican el comportamiento humano a gran escala.
 
 ## De qué trata
 
