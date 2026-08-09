@@ -5,6 +5,7 @@ asin: "1579550088"
 categoria: ciencia
 recomendadoPor:
   - lex-fridman
+  - nassim-nicholas-taleb
 anio: 2002
 resumen: "El tratado de más de 1.200 páginas en el que Stephen Wolfram propone los autómatas celulares y los 'programas simples' como una nueva forma de hacer ciencia. Lex Fridman, que entrevistó a Wolfram varias veces, lo recomienda como lectura que cambia la forma de pensar sobre la complejidad."
 destacado: false
@@ -16,6 +17,8 @@ fechaActualizado: 2026-08-08
 ## Por qué lo recomienda Lex Fridman
 
 Fridman, que estudió sistemas complejos y entrevistó a Wolfram en varias oportunidades en su podcast, señala este libro como una de las lecturas que más le movió el piso sobre qué es la computación y qué es la ciencia. Le atrae particularmente la idea de que el universo mismo podría ser, en el fondo, un proceso computacional —una hipótesis que Wolfram sigue desarrollando hoy en su proyecto de una teoría fundamental de la física—.
+
+También lo recomienda Nassim Nicholas Taleb, que además recomienda *Idea Makers*, la colección de ensayos personales del propio Wolfram sobre otros pensadores. Taleb valora en Wolfram exactamente el mismo rasgo que aplica a este libro: haber desarrollado una forma de hacer ciencia y matemática completamente propia, por fuera de los caminos aceptados por la comunidad académica tradicional.
 
 ## De qué trata
 
