@@ -5,6 +5,7 @@ asin: "8491050450"
 categoria: ficcion
 recomendadoPor:
   - j-k-rowling
+  - paul-graham
 anio: -800
 resumen: "El poema épico que fundó la literatura occidental: la cólera de Aquiles, la guerra de Troya y la pregunta que sigue vigente tres mil años después: ¿qué vale más, la gloria o la vida? Recomendado por J.K. Rowling."
 destacado: false
@@ -15,7 +16,7 @@ Todo empezó con la cólera de un hombre. La primera palabra de *La Ilíada* es 
 
 ## Por qué lo recomienda J.K. Rowling
 
-J.K. Rowling es una lectora formada en los clásicos grecolatinos, y cita *La Ilíada* como una influencia directa en su obra. Para quien escribió una saga donde la muerte, el sacrificio y la elección entre la gloria y la vida tienen peso central, la pregunta que articula toda *La Ilíada* —¿vale la pena morir joven para ser recordado para siempre, o es mejor vivir una vida larga y anónima?— no es una pregunta abstracta sino el motor de todos sus personajes. Rowling reconoció que Harry Potter lleva mucho de Aquiles en su disposición al sacrificio.
+J.K. Rowling es una lectora formada en los clásicos grecolatinos, y cita *La Ilíada* como una influencia directa en su obra. Para quien escribió una saga donde la muerte, el sacrificio y la elección entre la gloria y la vida tienen peso central, la pregunta que articula toda *La Ilíada* —¿vale la pena morir joven para ser recordado para siempre, o es mejor vivir una vida larga y anónima?— no es una pregunta abstracta sino el motor de todos sus personajes. Rowling reconoció que Harry Potter lleva mucho de Aquiles en su disposición al sacrificio. También aparece en el relevamiento público de las lecturas de Paul Graham, coherente con su interés declarado por los textos fundacionales que siguen moldeando cómo pensamos la ambición, la gloria y el legado.
 
 ## De qué trata
 

@@ -5,6 +5,7 @@ asin: "0201835959"
 categoria: negocios
 recomendadoPor:
   - jeff-bezos
+  - paul-graham
 anio: 1975
 resumen: "El clásico de gestión de proyectos de software que, según la biografía de Jeff Bezos, está detrás de la teoría de los 'two-pizza teams' de Amazon: equipos chicos y autónomos."
 destacado: false
@@ -24,6 +25,8 @@ Brooks fue el gerente del proyecto del sistema operativo OS/360 de IBM, uno de l
 ## La ley de Brooks
 
 La idea más citada del libro —hoy conocida como "la ley de Brooks"— dice que sumar mano de obra a un proyecto de software atrasado lo atrasa todavía más. La razón es matemática: cada persona nueva necesita tiempo para aprender el contexto (que sale del tiempo de los que ya saben) y suma canales de comunicación que crecen de forma exponencial, no lineal. Es la base intelectual de por qué hoy se prefieren equipos chicos y autónomos por sobre ejércitos de desarrolladores coordinados desde arriba.
+
+También lo recomienda Paul Graham: como fundador de Y Combinator y programador de toda la vida, la advertencia central del libro —que coordinar personas escala peor que escribir código— es una idea que atraviesa buena parte de sus propios ensayos sobre por qué las startups chicas ganan velocidad que las empresas grandes no pueden igualar.
 
 ## Para quién es
 

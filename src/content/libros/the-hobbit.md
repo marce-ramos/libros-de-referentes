@@ -6,6 +6,7 @@ categoria: ficcion
 recomendadoPor:
   - richard-branson
   - james-clear
+  - paul-graham
 anio: 1937
 resumen: "La aventura de Bilbo Bolsón que dio origen al universo de la Tierra Media, recomendada por Richard Branson en su lista de libros imprescindibles de virgin.com."
 destacado: false
@@ -16,7 +17,7 @@ Antes de *El Señor de los Anillos*, hubo un hobbit tranquilo, amante de su casa
 
 ## Por qué lo recomienda Richard Branson
 
-Branson sumó *El Hobbit* a su lista de "70 must-read books" del blog de Virgin (virgin.com). Entre sus recomendaciones de negocios y no ficción, Branson también reserva lugar para la ficción pura y la lectura por placer: un lector voraz como él no separa tajantemente "libros útiles" de "libros que simplemente te atrapan", y esta aventura entra en la segunda categoría sin pedir disculpas. También lo recomienda James Clear.
+Branson sumó *El Hobbit* a su lista de "70 must-read books" del blog de Virgin (virgin.com). Entre sus recomendaciones de negocios y no ficción, Branson también reserva lugar para la ficción pura y la lectura por placer: un lector voraz como él no separa tajantemente "libros útiles" de "libros que simplemente te atrapan", y esta aventura entra en la segunda categoría sin pedir disculpas. También lo recomienda James Clear, y aparece en el relevamiento público de las lecturas de Paul Graham, que también recomienda *El Señor de los Anillos*, la trilogía que este libro abre.
 
 ## De qué trata
 
