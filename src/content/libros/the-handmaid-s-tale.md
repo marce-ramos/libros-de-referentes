@@ -14,11 +14,9 @@ fechaActualizado: 2026-07-12
 
 Hay libros que parecen proféticos porque describen el futuro. *El cuento de la criada* parece profético porque describe el presente.
 
-## Por qué lo recomienda Emma Watson
+## Por qué lo recomiendan Emma Watson y Dua Lipa
 
 Watson, conocida tanto por su papel en Harry Potter como por su trabajo como embajadora de ONU Mujeres, recomienda esta novela desde hace años como parte de su club de lectura y de sus reflexiones públicas sobre feminismo. Lo que la atrae no es solo la distopía —el régimen de Gilead, donde las mujeres fértiles son reducidas a su función reproductiva— sino la pregunta que el libro hace sin formularla: ¿cuánto de esto ya existe? Watson dice que leerlo la obligó a ver con más claridad los mecanismos reales de control sobre los cuerpos y las vidas de las mujeres, más allá de la ciencia ficción.
-
-## También la eligió Dua Lipa
 
 En noviembre de 2025, Dua Lipa la seleccionó para su Service95 Book Club. Su lectura toca el mismo nervio que la de Watson: "Como dice Margaret, el futuro existe en un número infinito de posibilidades. *El cuento de la criada* explora solo una de ellas. El sentido de una profecía es servir de advertencia, y depende de nosotros escucharla y elegir el futuro en el que queremos vivir".
 

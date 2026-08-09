@@ -18,6 +18,8 @@ Pocos libros generan tanta incomodidad y tanta admiración literaria al mismo ti
 
 Rowling ha contado que hay dos libros cuyo final siempre la conmueve hasta las lágrimas, sin importar las veces que los relea, y este es uno de ellos. No es un comentario sobre el tema del libro (que sigue siendo tan perturbador hoy como en 1955) sino sobre su artesanía: el cierre de la novela, con toda su ambigüedad moral y su belleza estilística, tiene un efecto emocional que pocos autores logran sostener capítulo tras capítulo hasta la última página.
 
+También la recomienda Mario Vargas Llosa, que la incluyó entre las novelas reseñadas en *La verdad de las mentiras* (1990), su libro de ensayos sobre las lecturas que marcaron su formación como narrador.
+
 ## De qué trata
 
 Humbert Humbert, un profesor de literatura de mediana edad, narra en primera persona su obsesión por Dolores Haze, una nena de doce años a la que apoda "Lolita". Nabokov construye toda la novela desde la voz de Humbert: elegante, culta, autocompasiva y profundamente engañosa. El lector queda atrapado en un narrador que manipula el lenguaje para justificar lo injustificable, y ahí está el logro (y el riesgo) de la novela: hacer que la prosa sea hermosa mientras el contenido es monstruoso.
@@ -25,8 +27,6 @@ Humbert Humbert, un profesor de literatura de mediana edad, narra en primera per
 ## Una voz narrativa que es también una trampa
 
 Lo que distingue a esta novela de cualquier otro relato sobre un crimen es que nunca deja de recordarte que estás del lado equivocado si te dejás seducir por Humbert. Nabokov no juzga explícitamente a su narrador; deja que el lector haga ese trabajo, incomodado por lo bien que escribe alguien tan indefendible. Es una lección de manejo de punto de vista que explica por qué sigue estudiándose en las carreras de letras de todo el mundo casi setenta años después.
-
-También la recomienda Mario Vargas Llosa, que la incluyó entre las novelas reseñadas en *La verdad de las mentiras* (1990), su libro de ensayos sobre las lecturas que marcaron su formación como narrador.
 
 ## Para quién es
 

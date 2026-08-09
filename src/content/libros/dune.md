@@ -15,11 +15,9 @@ fechaActualizado: 2026-08-03
 
 *Dune* es, para muchos, la mejor novela de ciencia ficción jamás escrita, y una de las favoritas de Tim Ferriss. Publicada en 1965, su influencia se extiende por toda la cultura moderna, del cine a los videojuegos.
 
-## Por qué la recomienda Tim Ferriss
+## Por qué la recomiendan Tim Ferriss y Elon Musk
 
 Ferriss, conocido por diseccionar los hábitos de gente excepcional, la cita entre sus lecturas favoritas. Es una obra que funciona en muchos niveles: aventura épica, tratado sobre el poder y meditación sobre la ecología.
-
-## También la recomienda Elon Musk
 
 Musk es un fan declarado de la ciencia ficción de ideas y llama a la saga de *Dune* "brillante". Le interesa especialmente su advertencia sobre poner límites a la inteligencia de las máquinas y su mirada sobre cómo el poder y la religión moldean civilizaciones enteras. A ese consenso se suma Jeff Bezos, que también se declaró "gran fan de la ciencia ficción" y ubicó a la saga entre sus series favoritas del género.
 
