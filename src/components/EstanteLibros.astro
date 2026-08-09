@@ -5,18 +5,36 @@ import LibroEstante from "@/components/LibroEstante.astro";
  * "Pared de estantes": grilla responsiva de portadas apoyadas en repisas,
  * cada una con su etiqueta (título/autor + consenso). Escala a cualquier
  * cantidad de libros. Recibe entradas de la colección `libros`.
+ *
+ * `buscador`: si es true, muestra un input que filtra las tarjetas en vivo
+ * (client-side, sobre tarjetas ya renderizadas → SEO-safe, mismo patrón que el blog).
+ * Cada tarjeta trae `data-buscar` (título + autor normalizados) desde LibroEstante.
  */
 interface Props {
   libros: {
     id: string;
     data: { titulo: string; autorLibro: string; portada?: string; recomendadoPor?: unknown[] };
   }[];
+  buscador?: boolean;
+  placeholder?: string;
 }
 
-const { libros } = Astro.props;
+const { libros, buscador = false, placeholder = "Buscar por título o autor…" } = Astro.props;
 ---
 
-<div class="flex flex-wrap gap-x-3 gap-y-6">
+{
+  buscador && (
+    <input
+      id="buscador-estante"
+      type="search"
+      placeholder={placeholder}
+      autocomplete="off"
+      class="mb-6 w-full max-w-md rounded-lg border border-[var(--card-border)] bg-white px-4 py-2.5 text-sm outline-none focus:border-[var(--brand)]"
+    />
+  )
+}
+
+<div id="estante-libros" class="flex flex-wrap gap-x-3 gap-y-6">
   {
     libros.map((l) => (
       <LibroEstante
@@ -29,3 +47,38 @@ const { libros } = Astro.props;
     ))
   }
 </div>
+
+{
+  buscador && (
+    <p id="estante-sin-resultados" class="mt-6 hidden text-[var(--muted)]">
+      No encontramos libros con esa búsqueda.
+    </p>
+  )
+}
+
+<script>
+  // Se incluye en toda página que use EstanteLibros, pero solo actúa si hay input
+  // (o sea, cuando se pasó `buscador`). En el resto es un no-op.
+  const input = document.getElementById("buscador-estante") as HTMLInputElement | null;
+  if (input) {
+    const items = Array.from(
+      document.querySelectorAll<HTMLElement>("#estante-libros .libro-item"),
+    );
+    const sinRes = document.getElementById("estante-sin-resultados");
+    const norm = (s: string) =>
+      s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
+    const aplicar = () => {
+      const q = norm(input.value.trim());
+      let visibles = 0;
+      for (const it of items) {
+        const match = !q || (it.dataset.buscar ?? "").includes(q);
+        it.style.display = match ? "" : "none";
+        if (match) visibles++;
+      }
+      if (sinRes) sinRes.classList.toggle("hidden", visibles > 0);
+    };
+
+    input.addEventListener("input", aplicar);
+  }
+</script>

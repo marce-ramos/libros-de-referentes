@@ -17,12 +17,19 @@ interface Props {
 }
 
 const { id, titulo, autorLibro, portada, count = 0 } = Astro.props;
+
+// Cadena normalizada (sin acentos, minúsculas) para el buscador client-side de EstanteLibros.
+const buscar = `${titulo} ${autorLibro}`
+  .normalize("NFD")
+  .replace(/\p{Diacritic}/gu, "")
+  .toLowerCase();
 ---
 
 <a
   href={`/libros/${id}`}
-  class="group flex w-[104px] shrink-0 flex-col items-center transition duration-200 hover:-translate-y-1"
+  class="libro-item group flex w-[104px] shrink-0 flex-col items-center transition duration-200 hover:-translate-y-1"
   title={titulo}
+  data-buscar={buscar}
 >
   <PortadaLibro portada={portada} titulo={titulo} autorLibro={autorLibro} size="shelf" />
   <div class="ledge mt-1 w-full"></div>
