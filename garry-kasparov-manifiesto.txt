@@ -1,0 +1,17 @@
+# Manifiesto de discovery — Garry Kasparov (n. 1963, ámbito: Política y Sociedad — YA EXISTE, hoy 3 libros)
+# Excampeón mundial de ajedrez y activista antiautoritario. Recomienda en X (@Kasparov63).
+# Fuente: Read This Twice /person/garry-kasparov (13 recos verificadas con tweet por libro).
+# Perfil coherente pero NICHO: historia rusa/anti-Putin + 2 clásicos literarios (Zweig) + 1 de ajedrez.
+#   Curado a ~10 con edición ES probable y mejor rotación. Verificar edición ES por ficha.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+The Godfather|Mario Puzo|RTT/@Kasparov63
+Magellan|Stefan Zweig|RTT/@Kasparov63
+Decisive Moments in History|Stefan Zweig|RTT/@Kasparov63
+Red Notice|Bill Browder|RTT/@Kasparov63
+The Man Without a Face|Masha Gessen|RTT/@Kasparov63
+A Very Expensive Poison|Luke Harding|RTT/@Kasparov63
+Red Famine|Anne Applebaum|RTT/@Kasparov63
+All the King's Men|Robert Penn Warren|RTT/@Kasparov63
+Mr. Putin|Fiona Hill|RTT/@Kasparov63
+Dvoretsky's Endgame Manual|Mark Dvoretsky|RTT/@Kasparov63

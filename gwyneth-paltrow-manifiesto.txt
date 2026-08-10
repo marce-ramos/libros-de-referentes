@@ -1,0 +1,22 @@
+# Manifiesto de discovery — Gwyneth Paltrow (n. 1972, ámbito: Entretenimiento — YA EXISTE, hoy 3 libros)
+# Actriz y fundadora de goop; el goop book club recomienda ficción literaria contemporánea (foco mujeres).
+# Fuente: lista compilada en Goodreads "Goop Book Club Recs" (tag goop/gwyneth-paltrow).
+# CAVEAT DOBLE (leer antes de enriquecer):
+#   1) La lista es COMPILACIÓN DE COMUNIDAD, no la oficial de goop.com → Sonnet debe verificar que cada
+#      título sea un pick real del goop book club (fuente oficial) antes de publicar la ficha.
+#   2) Es ficción literaria reciente en inglés: la edición ES es DESPAREJA → si no hay edición ES
+#      confirmada, dejar la ficha sin asin (cae a búsqueda) o postergarla. NO inventar ASIN.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+How Much of These Hills Is Gold|C Pam Zhang|goop (pick de lanzamiento)
+Hamnet|Maggie O'Farrell|goop
+Oh William!|Elizabeth Strout|goop
+Just Like You|Nick Hornby|goop
+Open Water|Caleb Azumah Nelson|goop
+Luster|Raven Leilani|goop
+Sorrow and Bliss|Meg Mason|goop
+The Shadow King|Maaza Mengiste|goop
+The Secret Lives of Church Ladies|Deesha Philyaw|goop
+China Room|Sunjeev Sahota|goop
+A Farewell to Gabo and Mercedes|Rodrigo Garcia|goop
+Lost and Found|Kathryn Schulz|goop

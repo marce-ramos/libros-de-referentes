@@ -203,8 +203,13 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    (13, alimenta best-of ciencia; omitido el Bible), `paul-graham-manifiesto.txt` (32 — ¡demanda GSC real!),
    `simon-sinek-manifiesto.txt` (13, liderazgo; omitido 1421), `nassim-taleb-manifiesto.txt` (8, corto e
    idiosincrático; omitidos textbooks técnicos). Ámbitos ya en `ambitos.ts`. Mismo flujo que tanda 1.
-   **Tanda 3 (falta sourcear):** Gwyneth Paltrow, Vitalik Buterin, Garry Kasparov, Malala (fuentes más finas,
-   pueden salir cortos).
+   **Tanda 3 — sourceada 2026-08-09 (confirmado: fuentes finas).** Manifiestos listos:
+   `garry-kasparov-manifiesto.txt` (10 — historia rusa/anti-Putin + Zweig + 1 de ajedrez; nicho pero
+   con edición ES para varios) y `gwyneth-paltrow-manifiesto.txt` (12 — goop book club; CAVEAT: lista
+   de comunidad, verificar pick oficial + edición ES despareja). **Vitalik Buterin: SKIP** (RTT solo
+   2 recos y ya está en 8 libros; no rinde profundizar). **Malala: DIFERIDA** (RTT vacío; su club
+   Fearless/Literati no dio lista limpia — necesita una pasada de sourcing dedicada a esa fuente).
+   Ámbitos ya en `ambitos.ts`. Flujo por c/u igual que tandas 1-2.
    **Oprah Winfrey: backlog 100% cerrado el 2026-07-31** (122/122 vinculados/enriquecidos, listicle
    regenerado — sacada de esta lista; quedan excluidos por decisión los 3 infantiles de Bill Cosby,
    reconsiderables a futuro), etc.
@@ -221,9 +226,13 @@ Reese 4 → 56 libros, con backlog restante de ~73 candidatos 2017-2022 para una
    - **Negocios e Inversión — YA EXISTE (no re-crear):** su primer uso es la acción **Actualizar
      Best-of** — re-curar contra el catálogo actual (pasó de ~362 a 556 libros; muchos de negocios
      nuevos sin incluir: Sivers, Bezos profundizado, etc.). Disparador: `Actualizar Best-of negocios`.
-   - **Piloto de best-of NUEVO, por valor:** (1) **Psicología** — catálogo profundo (Adam Grant +21,
-     más Sivers/Huberman; Atomic Habits, Mindset, 12 Rules, The Courage to Be Disliked, Grit) y alta
-     conversión; (2) **Ciencia ficción / distopías** — demanda estable, del Toro lo engorda; (3)
+   - **Best-of Psicología — HECHO (2026-08-09):** `/blog/mejores-libros-de-psicologia`, 25 títulos
+     curados por consenso desde `armar_bestof.py` (manifiesto `bestof-psicologia-manifiesto.txt`),
+     5 grupos temáticos, lead "Por dónde empezar". Fue el primer best-of NUEVO (además del de negocios
+     preexistente). Pendiente: pedir indexación en GSC + enlazarlo desde `/categorias/psicologia` y
+     desde listicles de referentes de psicología (Adam Grant, James Clear).
+   - **Próximos best-of NUEVOS, por valor:** (2) **Ciencia ficción / distopías** — demanda estable,
+     del Toro lo engorda; (3)
      **Divulgación científica** — Sapiens, Behave, Why We Sleep, Factfulness (Huberman alimenta).
      Historia y filosofía, segunda tanda. Disparador: `Best-of psicologia`.
    - Reality check SEO: el head-term de categoría es competido y el sitio es joven → apuntar al
