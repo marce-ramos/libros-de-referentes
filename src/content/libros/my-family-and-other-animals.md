@@ -1,7 +1,7 @@
 ---
 titulo: "My Family and Other Animals"
 autorLibro: "Gerald Durrell"
-asin: ""
+asin: "842067415X"
 categoria: memorias
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Lo que distingue al libro de una simple memoria familiar cómica es que document
 
 Para lectores de memorias familiares con humor británico fino, y para cualquiera que disfrute de la observación cuidadosa del mundo natural contada sin solemnidad. También para quien busque una lectura liviana que, sin proponérselo, termina siendo una reflexión sobre cómo se forma una mente curiosa.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Penguin Books.
+> Edición en español: *Mi familia y otros animales*, Alianza Editorial, colección El Libro de Bolsillo — Biblioteca Durrell (traducción de María Luisa Balseiro Fernández-Campoamor).

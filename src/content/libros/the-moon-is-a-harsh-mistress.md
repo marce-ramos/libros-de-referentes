@@ -1,7 +1,7 @@
 ---
 titulo: "The Moon Is a Harsh Mistress"
 autorLibro: "Robert A. Heinlein"
-asin: ""
+asin: "8484219410"
 categoria: cienciaficcion
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Mike es, junto con Mannie, el corazón emocional de la novela: una inteligencia 
 
 Para lectores de ciencia ficción clásica interesados en política, sistemas y revoluciones pensadas con lógica de ingeniero antes que de panfletista. También para quien disfrute de las novelas de Heinlein narradas en primera persona, con su mezcla particular de libertarismo, humor seco y especulación tecnológica.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Orb Books.
+> Edición en español: *La luna es una cruel amante*, La Factoría de Ideas, colección Solaris Ficción nº 41 (2003).

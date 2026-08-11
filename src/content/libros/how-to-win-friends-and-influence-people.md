@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo ganar amigos e influir sobre las personas"
 autorLibro: "Dale Carnegie"
-asin: ""
+asin: "8493664928"
 categoria: negocios
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ La tensión que atraviesa todo el libro es la línea, a veces delgada, entre inf
 
 Para cualquiera que gestione equipos, venda algo o simplemente quiera mejorar cómo se relaciona con la gente en el trabajo. Es un libro que se lee rápido pero que exige práctica sostenida para que sus principios realmente cambien algo.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Simon & Schuster. No confirmamos con certeza la editorial y traducción vigentes en español, así que preferimos no mencionarlas para no dar un dato incorrecto.
+> Edición en español: *Cómo ganar amigos e influir sobre las personas*, Editorial Elipse (traducción de Román A. Jiménez).

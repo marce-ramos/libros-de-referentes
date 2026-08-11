@@ -1,7 +1,7 @@
 ---
 titulo: "The Double Helix"
 autorLibro: "James D. Watson"
-asin: ""
+asin: "842067432X"
 categoria: memorias
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Lo que hizo del libro un fenómeno —y también un escándalo, cuando se public
 
 Para lectores interesados en la historia de la ciencia contada desde adentro, sin la solemnidad habitual de las biografías científicas. También para quien quiera entender mejor la controversia sobre el rol de Rosalind Franklin en el descubrimiento, un debate que el propio libro ayudó a instalar.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Touchstone.
+> Edición en español: *La doble hélice: Relato personal del descubrimiento de la estructura del ADN*, Alianza Editorial, colección El Libro de Bolsillo — Ciencias (traducción de María Luisa Rodríguez Tapia).

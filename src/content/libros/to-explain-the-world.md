@@ -1,7 +1,7 @@
 ---
 titulo: "To Explain the World: The Discovery of Modern Science"
 autorLibro: "Steven Weinberg"
-asin: ""
+asin: "8430617248"
 categoria: historia
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ La apuesta más polémica del libro es metodológica: Weinberg sostiene que no t
 
 Para lectores con formación o interés en ciencia que quieren entender cómo se llegó al método científico moderno, contado por alguien que lo practicó al más alto nivel posible.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Harper.
+> Edición en español: *Explicar el mundo*, colección Pensamiento.

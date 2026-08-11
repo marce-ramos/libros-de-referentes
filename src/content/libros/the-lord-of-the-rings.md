@@ -1,7 +1,7 @@
 ---
 titulo: "El Señor de los Anillos"
 autorLibro: "J.R.R. Tolkien"
-asin: ""
+asin: "844500302X"
 categoria: ficcion
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Lo que distingue a Tolkien de casi cualquier otro autor de fantasía es que cons
 
 Para lectores de fantasía épica dispuestos a una obra extensa y de ritmo pausado, con apéndices, mapas y un nivel de detalle histórico poco habitual en el género. Ideal para quien ya leyó *El Hobbit* y quiere seguir en el mismo universo, ahora con una escala y una gravedad mucho mayores.
 
-> Edición en español: *El Señor de los Anillos*, Editorial Minotauro (traducción de Luis Domènech y Matilde Horne).
+> Edición en español: *El Señor de los Anillos*, Editorial Minotauro, edición en un volumen que incluye los tres libros (traducción de Matilde Horne, Luis Domènech y Rubén Masera).

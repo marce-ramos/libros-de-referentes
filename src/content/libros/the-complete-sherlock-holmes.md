@@ -1,7 +1,7 @@
 ---
 titulo: "The Complete Sherlock Holmes"
 autorLibro: "Arthur Conan Doyle"
-asin: ""
+asin: "8497944445"
 categoria: ficcion
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Lo que hace perdurar a Holmes no es tanto la resolución de cada caso individual
 
 Para cualquier lector de misterio y detectives que quiera ir a la fuente del género. Y para quien disfrute de historias breves y autoconclusivas, ideales para leer de a una sin comprometerse con una trama larga.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Wordsworth Editions.
+> Edición en español: *Obras completas de Sherlock Holmes*, edición en volumen único. Nuestra confianza en que esta sea exactamente la edición de referencia es menor al 80%: hay varias ediciones "obras completas" en español repartidas en distintos tomos, conviene que Marcelo verifique el contenido antes de dar el ASIN por definitivo.

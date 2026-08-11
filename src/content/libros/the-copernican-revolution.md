@@ -1,7 +1,7 @@
 ---
 titulo: "The Copernican Revolution"
 autorLibro: "Thomas S. Kuhn"
-asin: ""
+asin: "8434487446"
 categoria: filosofia
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Leído hoy, el libro funciona casi como el borrador de campo de la teoría que K
 
 Para quien ya leyó *La estructura de las revoluciones científicas* y quiere ver la idea de Kuhn aplicada en detalle a un caso histórico concreto. También para lectores de historia de la ciencia y astronomía interesados en cómo un cambio de modelo puede reconfigurar toda una civilización.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Harvard University Press.
+> Edición en español: *La revolución copernicana: La astronomía planetaria en el desarrollo del pensamiento occidental*, Editorial Ariel, colección Ariel Filosofía.

@@ -1,7 +1,7 @@
 ---
 titulo: "A Mathematician's Apology"
 autorLibro: "G. H. Hardy"
-asin: ""
+asin: "8493071900"
 categoria: filosofia
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ La tesis más provocadora del libro es que la matemática pura, precisamente por
 
 Para cualquiera interesado en la filosofía de la matemática o la ciencia, y para quien disfrute de ensayos breves, personales y bien escritos sobre qué hace que una vida dedicada al pensamiento abstracto valga la pena.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Cambridge University Press.
+> Edición en español: *Apología de un matemático*, colección Epistéme, con el prólogo de C. P. Snow incluido (traducción de Miguel de Guzmán Ozámiz y Jesús Fernández Díez).

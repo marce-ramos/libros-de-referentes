@@ -29,4 +29,4 @@ Brown argumenta que la mayoría de los problemas de liderazgo no son de estrateg
 
 Para líderes en cualquier contexto —empresas, organizaciones sin fines de lucro, equipos pequeños— que quieran salir del liderazgo transaccional y construir algo con más sustancia. También para cualquier persona que trabaje en equipo y quiera entender qué hace que la confianza sea posible.
 
-> Edición en español: *Atrévete a liderar: Trabajo valiente. Conversaciones difíciles. Corazones enteros.*, disponible en Amazon en edición en español.
+> Edición en español: *Atrévete a liderar: Trabajo valiente. Conversaciones difíciles. Corazones enteros.*, editorial Vergara. Existe edición en español, pero no pudimos confirmar el ASIN de una ficha individual en amazon.es (solo aparece dentro de packs de varios libros); el botón cae a búsqueda con el tag hasta confirmar el ASIN exacto.

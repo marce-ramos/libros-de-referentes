@@ -1,7 +1,7 @@
 ---
 titulo: "Barbarian Days: A Surfing Life"
 autorLibro: "William Finnegan"
-asin: ""
+asin: "8416213887"
 categoria: memorias
 recomendadoPor:
   - paul-graham
@@ -29,4 +29,4 @@ Lo que distingue estas memorias de otros libros sobre deportes extremos es la ho
 
 Para lectores de memorias que buscan un relato honesto sobre la obsesión y el compromiso de largo plazo con algo difícil, con o sin interés previo en el surf: el libro funciona igual de bien como retrato de una vida dedicada a un solo propósito.
 
-> Por ahora disponible solo en inglés; el enlace lleva a la edición de Penguin Press.
+> Edición en español: publicada como *Años salvajes: Mi vida y el surf* (no como traducción literal de "Barbarian Days"), Libros del Asteroide nº 171 (traducción de Eduardo Jordá Forteza).
