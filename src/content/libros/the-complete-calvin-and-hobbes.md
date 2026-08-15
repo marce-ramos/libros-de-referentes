@@ -1,14 +1,14 @@
 ---
 titulo: "The Complete Calvin and Hobbes"
 autorLibro: "Bill Watterson"
-asin: ""
+asin: "0740748475"
 categoria: ficcion
 recomendadoPor:
   - paul-graham
 anio: 1985
 resumen: "La recopilación integral de la tira cómica sobre un nene de seis años y su tigre de peluche que cobra vida, publicada entre 1985 y 1995. Está en el relevamiento público de las recomendaciones de lectura de Paul Graham."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Calvin es un nene de seis años con una imaginación que no conoce límites; Hobbes es su tigre de peluche, que cobra vida propia cada vez que están a solas. Bill Watterson dibujó y escribió él solo, sin ayudantes ni ghostwriters, todas las tiras de *Calvin and Hobbes* entre 1985 y 1995, y se negó de forma célebre a licenciar el merchandising que lo hubiera vuelto millonario varias veces. *The Complete Calvin and Hobbes* reúne en un solo set los diez años completos de la tira, incluidas las páginas dominicales a color en el tamaño en que Watterson insistió en publicarlas.

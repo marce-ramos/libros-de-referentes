@@ -1,14 +1,14 @@
 ---
 titulo: "Information: The New Language of Science"
 autorLibro: "Hans Christian von Baeyer"
-asin: ""
+asin: "0674013875"
 categoria: ciencia
 recomendadoPor:
   - nassim-nicholas-taleb
 anio: 2003
 resumen: "Von Baeyer explica qué es la información y por qué se convirtió en el concepto unificador de la ciencia moderna, desde la física cuántica hasta la biología. Recomendado por Nassim Nicholas Taleb."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-14
 ---
 
 El concepto de información atraviesa hoy la física, la biología, la informática y la filosofía. Pero ¿qué es exactamente? Hans Christian von Baeyer, físico y escritor científico, se propuso responder esa pregunta en un libro que logra algo difícil: ser riguroso sin ser técnico, y accesible sin ser superficial. El resultado es uno de los mejores libros de divulgación científica sobre un tema que define nuestro tiempo.

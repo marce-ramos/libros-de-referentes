@@ -1,13 +1,14 @@
 ---
 titulo: "The Velvet Rage: Overcoming the Pain of Growing Up Gay in a Straight Man's World"
 autorLibro: "Alan Downs"
+asin: "0738210110"
 categoria: psicologia
 recomendadoPor:
   - brene-brown
 anio: 2005
 resumen: "El psicólogo Alan Downs analiza cómo la vergüenza internalizada durante la infancia moldea la vida adulta de muchos hombres gay, y qué hace falta para salir de ese patrón. Se inscribe en el terreno de la vergüenza y la autenticidad que investiga Brené Brown."
 destacado: false
-fechaActualizado: 2026-08-08
+fechaActualizado: 2026-08-14
 ---
 
 Alan Downs, psicólogo clínico y él mismo hombre gay, escribió *The Velvet Rage* después de notar un patrón recurrente en su consultorio: hombres gay exitosos, con carreras y relaciones aparentemente resueltas, que arrastraban una insatisfacción crónica que no lograban nombrar. El libro es su intento de explicar de dónde viene esa herida y cómo se sale de ella.

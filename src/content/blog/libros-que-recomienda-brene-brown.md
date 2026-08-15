@@ -1,17 +1,18 @@
 ---
 titulo: "Los libros que recomienda Brené Brown (guía 2026)"
-descripcion: "Los libros que recomienda Brené Brown: de la autocompasión y la ira bien entendida a la solitud del liderazgo y las memorias que la marcaron. 20 libros, organizados por tema."
+descripcion: "Los libros que recomienda Brené Brown: de la autocompasión y la ira bien entendida a la creatividad, la solitud del liderazgo y las memorias que la marcaron. 24 libros por tema."
 fecha: 2026-08-08
-fechaActualizado: 2026-08-08
+fechaActualizado: 2026-08-14
 autor: "Los Imperdibles"
 keywords: ["libros que recomienda Brené Brown", "qué lee Brené Brown", "libros favoritos de Brené Brown"]
 draft: false
 ---
 
-Brené Brown pasó más de dos décadas investigando la vergüenza, la vulnerabilidad y el coraje en la Universidad de Houston, y esa misma curiosidad clínica define lo que recomienda leer: nada de fórmulas rápidas. Varias de las conexiones de esta lista no son simples menciones de pasillo, sino colaboraciones reales —prólogos que escribió ella misma, cursos que grabó junto a las autoras, episodios enteros de su podcast *Unlocking Us* construidos alrededor de un libro puntual—. Acá están los 20, organizados por tema.
+Brené Brown pasó más de dos décadas investigando la vergüenza, la vulnerabilidad y el coraje en la Universidad de Houston, y esa misma curiosidad clínica define lo que recomienda leer: nada de fórmulas rápidas. Varias de las conexiones de esta lista no son simples menciones de pasillo, sino colaboraciones reales —prólogos que escribió ella misma, cursos que grabó junto a las autoras, episodios enteros de su podcast *Unlocking Us* construidos alrededor de un libro puntual—. Acá están los 24, organizados por tema.
 
 ## Vergüenza y autocompasión
 
+- **[Los dones de la imperfección](/libros/the-gifts-of-imperfection) — Brené Brown.** El libro donde ella misma sistematizó por primera vez lo que llama *wholehearted living*: la idea de que dejar de perseguir la perfección es la condición para una vida plena. Es la base sobre la que construyó todo lo demás.
 - **[Sé amable contigo mismo](/libros/self-compassion) — Kristin Neff.** La conexión más directa de toda la lista: Brown escribió el elogio de tapa y después grabó con Neff un curso de audio completo sobre autocompasión.
 - **[The Velvet Rage](/libros/the-velvet-rage) — Alan Downs.** Un análisis de cómo la vergüenza internalizada en la infancia moldea la vida adulta de muchos hombres gay; conecta de forma directa con el terreno que investigó Brown durante años, aunque no hay una cita pública suya confirmada sobre este título puntual.
 
@@ -27,8 +28,14 @@ Brené Brown pasó más de dos décadas investigando la vergüenza, la vulnerabi
 - **[Love, Henri](/libros/love-henri) — Henri J. M. Nouwen.** Brown escribió el prólogo de esta compilación de cartas inéditas del sacerdote y escritor espiritual.
 - **[The Book of Qualities](/libros/the-book-of-qualities) — J. Ruth Gendler.** Setenta y tres emociones personificadas en viñetas poéticas; un ejercicio de nombrar con precisión el vocabulario emocional, algo que también persigue Brown en *Atlas of the Heart*.
 
+## Creatividad y coraje para crear
+
+- **[Libera tu magia](/libros/big-magic) — Elizabeth Gilbert.** Gilbert y Brown son amigas y comparten la misma tesis de fondo: el miedo y la creatividad conviven, y el truco no es eliminar el miedo sino crear con él sentado al lado.
+- **[El acto de crear](/libros/the-creative-act) — Rick Rubin.** Brown lo señaló como uno de los libros más importantes que leyó sobre creatividad: Rubin articula desde el oficio lo mismo que ella investiga desde la psicología, que crear honestamente implica soltar el control del resultado.
+
 ## Liderazgo y negocios
 
+- **[Atrévete a liderar](/libros/dare-to-lead) — Brené Brown.** Su propio libro y la traducción más práctica de dos décadas de investigación al mundo del trabajo: los líderes más efectivos no esquivan la vulnerabilidad, la usan.
 - **[The Ride of a Lifetime](/libros/the-ride-of-a-lifetime) — Robert Iger.** Las memorias de liderazgo de quince años como CEO de Disney; una lectura habitual en el ecosistema de referencia de *Dare to Lead*.
 - **[Stretch](/libros/stretch) — Scott Sonenshein.** Brown invitó a Sonenshein a *Unlocking Us* y contó que hizo leer el libro a toda su organización.
 - **[Lead Yourself First](/libros/lead-yourself-first) — Raymond M. Kethledge y Michael S. Erwin.** Sobre la soledad deliberada como herramienta de claridad y coraje para líderes; sin cita pública confirmada de Brown sobre este título.

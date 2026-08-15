@@ -1,6 +1,7 @@
 ---
 titulo: "Mr. Putin: Operative in the Kremlin"
 autorLibro: "Fiona Hill y Clifford G. Gaddy"
+asin: "0815723768"
 categoria: historia
 recomendadoPor:
   - garry-kasparov

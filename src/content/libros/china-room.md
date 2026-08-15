@@ -1,13 +1,14 @@
 ---
 titulo: "China Room"
 autorLibro: "Sunjeev Sahota"
+asin: "0670095079"
 categoria: ficcion
 recomendadoPor:
   - gwyneth-paltrow
 anio: 2021
 resumen: "La novela de Sunjeev Sahota sobre una novia adolescente en el Punjab rural de 1929, casada junto a sus dos cuñadas en una misma ceremonia con tres hermanos. Fue la selección de octubre de 2021 del Goop Book Club, inspirada en la historia familiar del autor."
 destacado: false
-fechaActualizado: 2026-08-10
+fechaActualizado: 2026-08-14
 ---
 
 Sunjeev Sahota construyó *China Room* a partir de una historia familiar real y borrosa: la de una bisabuela casada, junto con sus cuñadas, en una ceremonia colectiva con tres hermanos, sin que ninguna supiera con certeza cuál de ellos era su propio marido.

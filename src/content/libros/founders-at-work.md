@@ -1,14 +1,14 @@
 ---
 titulo: "Founders at Work: Stories of Startups' Early Days"
 autorLibro: "Jessica Livingston"
-asin: ""
+asin: "1590597141"
 categoria: negocios
 recomendadoPor:
   - paul-graham
 anio: 2007
 resumen: "Jessica Livingston, cofundadora de Y Combinator junto a Paul Graham, entrevista a los fundadores de PayPal, Apple, Hotmail y otras startups sobre sus primeros y más inciertos días."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Jessica Livingston no es una autora externa contando la historia de otros: es cofundadora de Y Combinator junto con Paul Graham, Robert Morris y Trevor Blackwell, y su rol dentro del fondo desde el inicio incluyó justamente entender —y comunicar— qué hace que una startup temprana funcione. *Founders at Work* nació de esa curiosidad: una serie de entrevistas extensas a fundadores de compañías que hoy son gigantes, centradas específicamente en los días más inciertos, cuando nada garantizaba que fueran a sobrevivir.

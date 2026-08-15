@@ -1,13 +1,14 @@
 ---
 titulo: "The Secret Lives of Church Ladies"
 autorLibro: "Deesha Philyaw"
+asin: "1949199738"
 categoria: ficcion
 recomendadoPor:
   - gwyneth-paltrow
 anio: 2020
 resumen: "La colección de relatos debut de Deesha Philyaw sobre mujeres negras, la iglesia, el deseo y la fe. Fue la selección de abril del Goop Book Club, con la autora en conversación en vivo."
 destacado: false
-fechaActualizado: 2026-08-10
+fechaActualizado: 2026-08-14
 ---
 
 Nueve cuentos alcanzan para que *The Secret Lives of Church Ladies* se lea en pocas horas y quede dando vueltas mucho después: Deesha Philyaw escribe sobre mujeres negras que viven, casi siempre en secreto, deseos que su comunidad religiosa condena.

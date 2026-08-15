@@ -1,14 +1,14 @@
 ---
 titulo: "I Want to Be a Mathematician: An Automathography"
 autorLibro: "Paul R. Halmos"
-asin: ""
+asin: "0883854457"
 categoria: memorias
 recomendadoPor:
   - paul-graham
 anio: 1985
 resumen: "La 'automatografía' de Paul Halmos, uno de los matemáticos y expositores más influyentes del siglo XX, sobre su formación, su carrera y su forma de entender y enseñar matemática."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Paul Halmos acuñó el término "automathography" para este libro porque no quería llamarlo autobiografía a secas: es el relato de su vida, sí, pero contado casi enteramente a través de su relación con la matemática —cómo la descubrió, cómo la enseñó, con quién trabajó y qué aprendió sobre comunicar ideas difíciles con precisión y sin pedantería—. Halmos fue, además de matemático activo en teoría de operadores y lógica, uno de los expositores más admirados de su disciplina, autor de libros de texto que todavía se usan.

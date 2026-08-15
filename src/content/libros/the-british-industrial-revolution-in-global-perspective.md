@@ -1,14 +1,14 @@
 ---
 titulo: "The British Industrial Revolution in Global Perspective"
 autorLibro: "Robert C. Allen"
-asin: ""
+asin: "0521687853"
 categoria: historia
 recomendadoPor:
   - paul-graham
 anio: 2009
 resumen: "El economista Robert C. Allen explica por qué la Revolución Industrial arrancó en Gran Bretaña y no en otro lugar, con una tesis centrada en salarios altos y energía barata."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Por qué la Revolución Industrial empezó en Gran Bretaña y no en China, India o Francia —economías que en distintos momentos tuvieron tecnología, capital o población comparables— es una de las preguntas más discutidas de la historia económica. Robert C. Allen, economista de Oxford, propone en este libro una respuesta cuantitativa y comparada: Gran Bretaña tenía la combinación exacta de salarios altos y carbón barato que volvía rentable, por primera vez en la historia, reemplazar mano de obra por máquinas.

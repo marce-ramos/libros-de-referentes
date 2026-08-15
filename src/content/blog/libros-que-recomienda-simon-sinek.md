@@ -1,17 +1,18 @@
 ---
 titulo: "Los libros que recomienda Simon Sinek (guía 2026)"
-descripcion: "Los libros que recomienda Simon Sinek: de Turn the Ship Around! y Everybody Matters a Man's Search for Meaning y Finite and Infinite Games. 13 libros, organizados por tema."
+descripcion: "Los libros que recomienda Simon Sinek: de Turn the Ship Around! y Everybody Matters a Man's Search for Meaning y Finite and Infinite Games. 15 libros, organizados por tema."
 fecha: 2026-08-09
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 autor: "Los Imperdibles"
 keywords: ["libros que recomienda Simon Sinek", "qué lee Simon Sinek", "libros favoritos de Simon Sinek"]
 draft: false
 ---
 
-Simon Sinek construyó su carrera sobre una pregunta —el "por qué" detrás de las organizaciones que inspiran— pero sus recomendaciones de lectura van bastante más allá del liderazgo motivacional. Hay memorias de resiliencia extrema, un ensayo filosófico de 1986 que dio forma directa a uno de sus propios libros, historia de la CIA en Afganistán y un manual de 183 tips para dueños de pyme. El hilo que conecta casi todo: personas y organizaciones que priorizan lo humano y lo sostenible por sobre la victoria rápida. Acá están los 13, organizados por tema.
+Simon Sinek construyó su carrera sobre una pregunta —el "por qué" detrás de las organizaciones que inspiran— pero sus recomendaciones de lectura van bastante más allá del liderazgo motivacional. Hay memorias de resiliencia extrema, un ensayo filosófico de 1986 que dio forma directa a uno de sus propios libros, historia de la CIA en Afganistán y un manual de 183 tips para dueños de pyme. El hilo que conecta casi todo: personas y organizaciones que priorizan lo humano y lo sostenible por sobre la victoria rápida. Acá están los 15, organizados por tema.
 
 ## Liderazgo real, contado desde adentro
 
+- **[Empieza con el porqué](/libros/start-with-why) — Simon Sinek.** Su propio libro y el que le dio la tesis a toda su carrera: las organizaciones que inspiran arrancan por el propósito, no por el producto. Lo recomiendan también Richard Branson y James Clear.
 - **[¡Cambia el barco de rumbo!](/libros/turn-the-ship-around) — L. David Marquet.** El libro que Sinek llama "el mejor libro sobre liderazgo que jamás leí": un capitán de submarino nuclear que reemplaza las órdenes por el liderazgo basado en la intención.
 - **[Everybody Matters](/libros/everybody-matters) — Bob Chapman y Raj Sisodia.** Sinek escribió el prólogo de este libro después de conocer a Chapman investigando *Los líderes comen al final*: cómo dirigir un conglomerado industrial tratando a cada empleado como familia.
 - **[It's Your Business](/libros/it-s-your-business) — JJ Ramberg.** 183 consejos concretos para dueños de pequeñas empresas, compilados por la conductora de *Your Business* en MSNBC.
@@ -25,6 +26,7 @@ Simon Sinek construyó su carrera sobre una pregunta —el "por qué" detrás de
 ## Filosofía del largo plazo y del sentido
 
 - **[Juegos finitos y juegos infinitos](/libros/finite-and-infinite-games) — James P. Carse.** La fuente directa de *El juego infinito*, el propio libro de Sinek: la distinción entre jugar para ganar y jugar para seguir jugando, aplicada a los negocios.
+- **[El juego infinito](/libros/the-infinite-game) — Simon Sinek.** Lo que Sinek hizo con la idea de Carse: llevar la distinción entre juegos finitos e infinitos al terreno de las empresas, para explicar por qué las que juegan a ganar el trimestre suelen perder la década.
 - **[El hombre en busca de sentido](/libros/man-s-search-for-meaning) — Viktor Frankl.** El testimonio de Frankl sobre los campos de concentración, que Sinek recomienda junto a referentes tan distintos como Sam Altman y Jordan Peterson.
 
 ## Historia y geopolítica a gran escala

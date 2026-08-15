@@ -1,14 +1,14 @@
 ---
 titulo: "The Startup Way"
 autorLibro: "Eric Ries"
-asin: ""
+asin: "1101903201"
 categoria: negocios
 recomendadoPor:
   - paul-graham
 anio: 2017
 resumen: "Eric Ries, autor de 'El método Lean Startup', explica cómo aplicar los principios de gestión ágil de startups dentro de empresas grandes y ya establecidas, del sector público y privado."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Eric Ries se hizo conocido mundialmente con *El método Lean Startup*, el libro que popularizó el "producto mínimo viable" y el ciclo de construir-medir-aprender para startups tempranas. Una década después, en *The Startup Way*, Ries se hace una pregunta distinta: ¿esos mismos principios sirven dentro de una corporación de decenas de miles de empleados, o de una agencia de gobierno? Este libro es su respuesta, basada en años de consultoría con empresas como General Electric, y es un título independiente de *El método Lean Startup*, no una reedición.

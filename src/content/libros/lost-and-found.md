@@ -1,6 +1,7 @@
 ---
 titulo: "Lost and Found"
 autorLibro: "Kathryn Schulz"
+asin: "0525512462"
 categoria: memorias
 recomendadoPor:
   - gwyneth-paltrow

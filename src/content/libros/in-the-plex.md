@@ -1,14 +1,14 @@
 ---
 titulo: "In The Plex: How Google Thinks, Works, and Shapes Our Lives"
 autorLibro: "Steven Levy"
-asin: ""
+asin: "1416596585"
 categoria: negocios
 recomendadoPor:
   - paul-graham
 anio: 2011
 resumen: "El periodista Steven Levy reconstruye, con acceso privilegiado, cómo piensa y funciona Google por dentro: su cultura, sus decisiones de producto y su forma de escalar una idea simple."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Steven Levy, uno de los periodistas de tecnología más respetados de Estados Unidos —autor también de *Hackers*, sobre los orígenes de la cultura hacker—, consiguió acceso poco habitual a las oficinas y ejecutivos de Google para escribir este retrato integral de la compañía: cómo piensa, cómo toma decisiones de producto y cómo una idea relativamente simple de búsqueda terminó moldeando buena parte de cómo se organiza la información en internet.

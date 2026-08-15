@@ -1,13 +1,14 @@
 ---
 titulo: "A Very Expensive Poison"
 autorLibro: "Luke Harding"
+asin: "1783350946"
 categoria: historia
 recomendadoPor:
   - garry-kasparov
 anio: 2016
 resumen: "La investigación de Luke Harding sobre el asesinato de Alexander Litvinenko, envenenado con polonio radiactivo en Londres en 2006, y su lectura como origen simbólico de la nueva Guerra Fría con Rusia. Kasparov la recomendó en 2017, poco después de leerla."
 destacado: false
-fechaActualizado: 2026-08-10
+fechaActualizado: 2026-08-14
 ---
 
 Luke Harding, corresponsal de *The Guardian* en Moscú hasta que Rusia lo expulsó del país, reconstruye en este libro uno de los casos más extraños del espionaje contemporáneo: el envenenamiento de un exespía ruso en pleno centro de Londres, con una sustancia tan rara que su sola detección delató a los responsables.

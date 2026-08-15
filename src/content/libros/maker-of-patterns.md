@@ -1,14 +1,14 @@
 ---
 titulo: "Maker of Patterns: An Autobiography Through Letters"
 autorLibro: "Freeman Dyson"
-asin: ""
+asin: "0871403862"
 categoria: memorias
 recomendadoPor:
   - paul-graham
 anio: 2018
 resumen: "La autobiografía epistolar del físico Freeman Dyson, construida a partir de sus cartas a la familia entre 1941 y 1978, con reflexiones sobre ciencia, guerra y el oficio de pensar."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Freeman Dyson fue uno de los físicos más versátiles del siglo XX: trabajó con Feynman en electrodinámica cuántica, diseñó reactores nucleares, escribió sobre exploración espacial y nunca dejó de opinar sobre casi todo con una claridad poco común entre científicos de su nivel. *Maker of Patterns* no es una autobiografía convencional: es una selección de las cartas que Dyson le escribió a sus padres y hermana entre 1941 y 1978, editadas y contextualizadas por él mismo ya en sus noventa años. El resultado es un relato en tiempo real, sin la prolijidad retrospectiva de una memoria escrita de una sola vez.

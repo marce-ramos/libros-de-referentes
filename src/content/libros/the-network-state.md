@@ -1,14 +1,14 @@
 ---
 titulo: "The Network State"
 autorLibro: "Balaji Srinivasan"
-asin: ""
+asin: "B09VPKZR3G"
 categoria: negocios
 recomendadoPor:
   - vitalik-buterin
 anio: 2022
 resumen: "Balaji Srinivasan propone que el próximo paso en la evolución política humana no son nuevos países territoriales sino 'estados de red': comunidades digitales que adquieren cohesión social online y eventualmente influencia geopolítica real. Vitalik Buterin lo recomienda como lectura clave sobre el futuro de la gobernanza."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-14
 ---
 
 ¿Es posible fundar un nuevo país en el siglo XXI? No conquistando territorio a la fuerza ni mediante la independencia colonial, sino construyendo primero una comunidad, luego una economía, y recién después negociando un pedazo de tierra. Balaji Srinivasan, exdirector de tecnología de Coinbase e inversor de Silicon Valley, lleva esta pregunta al límite en *The Network State*, un libro que mezcla filosofía política, historia y tecnología para proponer que la forma del Estado-nación tal como la conocemos ya está siendo superada.

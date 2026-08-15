@@ -1,14 +1,14 @@
 ---
 titulo: "The Origins of the Second World War"
 autorLibro: "A.J.P. Taylor"
-asin: ""
+asin: "014013672X"
 categoria: historia
 recomendadoPor:
   - paul-graham
 anio: 1961
 resumen: "El ensayo revisionista de A.J.P. Taylor que desafió el relato convencional sobre las causas de la Segunda Guerra Mundial y sigue generando debate entre historiadores."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Cuando se publicó en 1961, este libro generó un escándalo dentro de la profesión histórica británica: A.J.P. Taylor, uno de los historiadores más leídos y polémicos de su generación, argumentaba que Hitler no había sido un estratega maestro ejecutando un plan de conquista, sino un oportunista que improvisó buena parte de sus decisiones, aprovechando errores ajenos tanto como sus propios cálculos. La tesis fue —y sigue siendo— discutida, pero el libro se volvió lectura obligada precisamente por lo incómoda que resulta.

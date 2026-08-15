@@ -1,14 +1,14 @@
 ---
 titulo: "The Dream Machine"
 autorLibro: "M. Mitchell Waldrop"
-asin: ""
+asin: "1732265119"
 categoria: ciencia
 recomendadoPor:
   - paul-graham
 anio: 2001
 resumen: "La biografía de J.C.R. Licklider, el visionario que imaginó la computación interactiva y sentó las bases de lo que hoy es internet. Recomendado por Paul Graham."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-14
 ---
 
 Antes de que existiera internet, antes de que las computadoras tuvieran pantallas con las que interactuar, un psicólogo del MIT llamado J.C.R. Licklider imaginó con precisión asombrosa todo eso. *The Dream Machine* es la biografía de ese hombre: uno de los personajes más importantes de la historia de la tecnología y, al mismo tiempo, uno de los menos conocidos fuera de los círculos especializados.

@@ -1,14 +1,14 @@
 ---
 titulo: "From Galileo to Newton"
 autorLibro: "A. Rupert Hall"
-asin: ""
+asin: "0486242277"
 categoria: historia
 recomendadoPor:
   - paul-graham
 anio: 1963
 resumen: "Un recorrido por la revolución científica del siglo XVII, del historiador de la ciencia A. Rupert Hall, que traza cómo se pasó del método de Galileo a la síntesis de Newton."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 A. Rupert Hall fue uno de los historiadores de la ciencia más influyentes del siglo XX, y este libro es su síntesis del período más decisivo para la ciencia moderna: los cien años que separan las observaciones de Galileo de los *Principia* de Newton, cuando la física dejó de ser filosofía natural especulativa y se convirtió en una disciplina con método experimental y formalización matemática.

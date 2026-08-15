@@ -1,14 +1,14 @@
 ---
 titulo: "The Launch Pad: Inside Y Combinator"
 autorLibro: "Randall Stross"
-asin: ""
+asin: "1591845297"
 categoria: negocios
 recomendadoPor:
   - paul-graham
 anio: 2012
 resumen: "El periodista Randall Stross pasó un ciclo completo dentro de Y Combinator para retratar, desde adentro, cómo funciona el acelerador de startups cofundado por Paul Graham."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Randall Stross, periodista especializado en tecnología, consiguió algo poco habitual: acceso directo a un ciclo completo de Y Combinator, el acelerador de startups que Paul Graham cofundó en 2005 junto con Jessica Livingston, Robert Morris y Trevor Blackwell. El resultado es un retrato periodístico desde adentro del programa, con nombres, cifras y decisiones reales de las startups que pasaron por ahí en ese período.

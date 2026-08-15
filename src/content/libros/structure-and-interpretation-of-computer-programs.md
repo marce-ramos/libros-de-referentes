@@ -1,14 +1,14 @@
 ---
 titulo: "Structure and Interpretation of Computer Programs"
 autorLibro: "Harold Abelson y Gerald Jay Sussman"
-asin: ""
+asin: "0262510871"
 categoria: ciencia
 recomendadoPor:
   - paul-graham
 anio: 1985
 resumen: "El libro de texto que definió durante décadas el curso introductorio de programación del MIT, construido alrededor de Lisp como herramienta para pensar con claridad sobre el cómputo. Está en el relevamiento público de las recomendaciones de lectura de Paul Graham."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Conocido en el mundo de la programación simplemente como "SICP", este libro fue durante más de veinte años el texto con el que el MIT introducía a sus estudiantes de ingeniería y ciencias de la computación al oficio de programar. No enseña un lenguaje ni una sintaxis: enseña una forma de pensar sobre la complejidad, la abstracción y el diseño de programas, usando Lisp como bisturí conceptual.

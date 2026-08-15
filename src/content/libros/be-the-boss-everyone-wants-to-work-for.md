@@ -1,13 +1,14 @@
 ---
 titulo: "Be the Boss Everyone Wants to Work For: A Guide for New Leaders"
 autorLibro: "William A. Gentry"
+asin: "1626566259"
 categoria: negocios
 recomendadoPor:
   - brene-brown
 anio: 2016
 resumen: "El psicólogo organizacional William Gentry ofrece una guía para quienes lideran equipos por primera vez, centrada en dejar atrás el enfoque individual y adoptar una mentalidad de equipo. Conecta con el trabajo de Brené Brown sobre liderazgo vulnerable, sin cita pública confirmada suya sobre este título."
 destacado: false
-fechaActualizado: 2026-08-08
+fechaActualizado: 2026-08-14
 ---
 
 William Gentry, psicólogo organizacional del Center for Creative Leadership, escribió este libro para llenar un vacío bastante extendido: la mayoría de las empresas asciende a la gente a su primer puesto de liderazgo sin darle ningún entrenamiento real sobre cómo liderar.

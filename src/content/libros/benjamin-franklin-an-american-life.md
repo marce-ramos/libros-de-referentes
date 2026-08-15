@@ -1,14 +1,14 @@
 ---
 titulo: "Benjamin Franklin: An American Life"
 autorLibro: "Walter Isaacson"
-asin: ""
+asin: "074325807X"
 categoria: memorias
 recomendadoPor:
   - paul-graham
 anio: 2003
 resumen: "Walter Isaacson —el mismo biógrafo de Einstein y Steve Jobs— retrata la vida de Benjamin Franklin con la distancia y el contexto histórico que solo un tercero puede aportar. Está confirmado en el relevamiento público de las recomendaciones de lectura de Paul Graham."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Antes de escribir sobre Einstein o Steve Jobs, Walter Isaacson ya había perfeccionado su fórmula de biografía con este retrato de Benjamin Franklin: impresor autodidacta, científico aficionado, diplomático y uno de los padres fundadores de Estados Unidos. A diferencia de la *Autobiografía* que el propio Franklin escribió en primera persona —y que quedó inconclusa, cortada antes de sus años más decisivos como diplomático—, este es un relato construido desde afuera, con el beneficio de dos siglos de perspectiva histórica y acceso a archivos que Franklin nunca pudo consultar sobre sí mismo.

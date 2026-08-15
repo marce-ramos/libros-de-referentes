@@ -3,6 +3,10 @@
 Cómo se usa: en una sesión (idealmente **Sonnet**), **nombrá la acción + el referente/categoría**.
 No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de acciones + recetas).
 
+> **Antes de arrancar cualquier tanda:** leé `ESTADO-CONTENIDO.md` (números reales del catálogo, gaps
+> abiertos y backlogs) en vez de fiarte de los conteos de `PENDIENTES.md`, que se desincronizan.
+> Para un **alta de referente nuevo**, el runbook paso a paso es `NUEVOS-REFERENTES.md`.
+
 | Comando | Qué hace (en una línea) |
 | --- | --- |
 | **Enriquecer** `<libros>` | Convierte fichas nuevas o stubs en fichas completas (reseña original + ASIN de edición española). |

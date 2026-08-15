@@ -1,14 +1,14 @@
 ---
 titulo: "The Man Who Knew Infinity: A Life of the Genius Ramanujan"
 autorLibro: "Robert Kanigel"
-asin: ""
+asin: "0671750615"
 categoria: memorias
 recomendadoPor:
   - paul-graham
 anio: 1991
 resumen: "La biografía de Srinivasa Ramanujan, el matemático autodidacta indio que, sin formación formal, produjo algunos de los resultados más originales de la matemática del siglo XX. Paul Graham lo calificó de 'Excellent' en el relevamiento de sus recomendaciones de lectura."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Srinivasa Ramanujan era un empleado de aduanas en Madrás, sin título universitario ni formación matemática formal, cuando en 1913 le escribió una carta al matemático de Cambridge G. H. Hardy con una lista de fórmulas que parecían surgir de la nada. Hardy reconoció de inmediato que estaba frente a un genio como no había visto otro, y lo llevó a Inglaterra. Robert Kanigel reconstruye en esta biografía la vida breve e intensa de Ramanujan, muerto a los 32 años, y la colaboración con Hardy que produjo algunos de los resultados más originales de la matemática del siglo XX.

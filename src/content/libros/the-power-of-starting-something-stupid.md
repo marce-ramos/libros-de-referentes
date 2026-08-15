@@ -1,13 +1,14 @@
 ---
 titulo: "The Power of Starting Something Stupid"
 autorLibro: "Richie Norton"
+asin: "1609070097"
 categoria: negocios
 recomendadoPor:
   - brene-brown
 anio: 2013
 resumen: "Richie Norton sostiene que las ideas que parecen 'estúpidas' al arrancar suelen ser las que más tarde resultan innovadoras. Conecta con el interés de Brené Brown por el coraje frente al ridículo, aunque no hay una cita pública confirmada suya sobre este libro."
 destacado: false
-fechaActualizado: 2026-08-08
+fechaActualizado: 2026-08-14
 ---
 
 Richie Norton entrevistó a cientos de emprendedores y estudió casos históricos de innovación para responder una pregunta simple: ¿por qué tantas ideas que terminaron siendo exitosas sonaban ridículas cuando alguien las propuso por primera vez?

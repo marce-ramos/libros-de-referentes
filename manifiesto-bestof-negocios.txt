@@ -1,0 +1,116 @@
+# Manifiesto Best-of NEGOCIOS E INVERSIÓN — catálogo al 2026-08-14
+# 112 fichas de categoria: negocios con ASIN. Formato: consenso|slug|titulo EXACTO|autorLibro|referentes
+# Ordenado por consenso descendente. El consenso es el criterio principal de curaduría.
+#
+5|zero-to-one|De cero a uno: Cómo inventar el futuro|Peter Thiel|peter-thiel,andrew-ng,elon-musk,sam-altman,marc-andreessen
+4|skin-in-the-game|Jugarse la piel|Nassim Nicholas Taleb|naval-ravikant,daniel-kahneman,derek-sivers,marc-andreessen
+4|poor-charlie-s-almanack|Poor Charlie's Almanack|Charles T. Munger|warren-buffett,naval-ravikant,james-clear,marc-andreessen
+3|business-adventures|Aventuras empresariales|John Brooks|bill-gates,warren-buffett,james-clear
+3|the-black-swan|El cisne negro|Nassim Nicholas Taleb|jeff-bezos,naval-ravikant,ryan-holiday
+3|the-sovereign-individual|El individuo soberano|James Dale Davidson|peter-thiel,vitalik-buterin,naval-ravikant
+3|start-with-why|Empieza con el porqué|Simon Sinek|simon-sinek,richard-branson,james-clear
+3|the-4-hour-workweek|La semana laboral de 4 horas|Tim Ferriss|tim-ferriss,james-clear,ryan-holiday
+2|abundance|Abundancia|Ezra Klein y Derek Thompson|bill-gates,barack-obama
+2|the-intelligent-investor|El inversor inteligente|Benjamin Graham|warren-buffett,naval-ravikant
+2|the-lean-startup|El método Lean Startup|Eric Ries|andrew-ng,marc-andreessen
+2|the-little-book-of-common-sense-investing|El pequeño libro para invertir con sentido común|John C. Bogle|warren-buffett,james-clear
+2|the-hard-thing-about-hard-things|Emprender y liderar una startup|Ben Horowitz|marc-andreessen,andrew-ng
+2|the-mythical-man-month|The Mythical Man-Month: Essays on Software Engineering|Frederick P. Brooks Jr.|jeff-bezos,paul-graham
+2|the-score-takes-care-of-itself|The Score Takes Care of Itself|Bill Walsh|sam-altman,ryan-holiday
+1|simpler-the-future-of-government|(más) Simple: El futuro del Gobierno|Cass R. Sunstein|daniel-kahneman
+1|common-stocks|Acciones ordinarias y beneficios extraordinarios|Philip A. Fisher|warren-buffett
+1|anointed|Anointed|Toby Stuart|adam-grant
+1|antifragile|Antifrágil|Nassim Nicholas Taleb|naval-ravikant
+1|no-rules-rules|Aquí no hay reglas|Reed Hastings y Erin Meyer|satya-nadella
+1|berkshire-hathaway-letters-to-shareholders|Berkshire Hathaway Letters to Shareholders|Warren Buffett (compilado por Max Olson)|warren-buffett
+1|blitzscaling|Blitzscaling: La guía para escalar empresas rápidamente|Reid Hoffman y Chris Yeh|sam-altman
+1|competing-in-the-age-of-ai|Competing in the Age of AI|Marco Iansiti y Karim R. Lakhani|satya-nadella
+1|creativity-inc|Creatividad, S.A.|Ed Catmull|mark-zuckerberg
+1|crossing-the-chasm|Cruzando el abismo|Geoffrey A. Moore|andrew-ng
+1|how-to-win-friends-and-influence-people|Cómo ganar amigos e influir sobre las personas|Dale Carnegie|paul-graham
+1|data-driven-marketing|Data-Driven Marketing: The 15 Metrics Everyone in Marketing Should Know|Mark Jeffery|jeff-bezos
+1|dealing-with-china|Dealing With China: An Insider Unmasks the New Economic Superpower|Henry M. Paulson Jr.|mark-zuckerberg
+1|the-compound-effect|El Efecto Compuesto|Darren Hardy|derek-sivers
+1|the-culture-code|El código de la cultura|Daniel Coyle|adam-grant
+1|the-american-challenge|El desafío americano|Jean-Jacques Servan-Schreiber|peter-thiel
+1|the-innovator-s-dilemma|El dilema de los innovadores: Cuando las nuevas tecnologías pueden hacer fracasar a las grandes empresas|Clayton M. Christensen|jeff-bezos
+1|the-checklist-manifesto|El efecto Checklist|Atul Gawande|malcolm-gladwell
+1|the-infinite-game|El juego infinito|Simon Sinek|simon-sinek
+1|the-e-myth-revisited|El mito del emprendedor|Michael E. Gerber|derek-sivers
+1|built-to-last|Empresas que perduran|Jim Collins y Jerry I. Porras|jeff-bezos
+1|good-to-great|Empresas que sobresalen|Jim Collins|jeff-bezos
+1|essentialism|Esencialismo|Greg McKeown|ryan-holiday
+1|this-is-marketing|Esto es marketing|Seth Godin|derek-sivers
+1|everybody-matters|Everybody Matters|Bob Chapman y Raj Sisodia|simon-sinek
+1|everything-is-figureoutable|Everything Is Figureoutable|Marie Forleo|brene-brown
+1|extreme-ownership|Extreme Ownership: How U.S. Navy SEALs Lead and Win|Jocko Willink y Leif Babin|marc-andreessen
+1|fast-food-nation|Fast Food: El lado oscuro de la comida rápida|Eric Schlosser|richard-branson
+1|founders-at-work|Founders at Work: Stories of Startups' Early Days|Jessica Livingston|paul-graham
+1|freakonomics|Freakonomics: Un economista políticamente incorrecto explora el lado oculto de lo que nos afecta|Steven D. Levitt y Stephen J. Dubner|malcolm-gladwell
+1|growth|Growth: A History and a Reckoning|Daniel Susskind|barack-obama
+1|rocket-surgery-made-easy|Haz fácil lo imposible|Steve Krug|andrew-ng
+1|high-output-management|High Output Management|Andrew Grove|marc-andreessen
+1|imperfect-courage|Imperfect Courage: Live a Life of Purpose by Leaving Comfort and Going Scared|Jessica Honegger|brene-brown
+1|in-the-plex|In The Plex: How Google Thinks, Works, and Shapes Our Lives|Steven Levy|paul-graham
+1|in-n-out-burger|In-N-Out Burger: A Behind-the-Counter Look at the Fast-Food Chain That Breaks All the Rules|Stacy Perman|richard-branson
+1|incorruptible|Incorruptible|Eric Ries|adam-grant
+1|investing-between-the-lines|Investing Between the Lines|L.J. Rittenhouse|warren-buffett
+1|it-s-your-business|It's Your Business: 183 Essential Tips that Will Transform Your Small Business|JJ Ramberg, con Lisa Everson y Frank Silverstein|simon-sinek
+1|jolted|Jolted|Anthony Klotz|adam-grant
+1|the-goal|La Meta|Eliyahu M. Goldratt|jeff-bezos
+1|blue-ocean-strategy|La estrategia del océano azul|W. Chan Kim y Renée Mauborgne|ryan-holiday
+1|the-great-convergence|La gran convergencia: Migración, tecnología y la nueva globalización|Richard Baldwin|satya-nadella
+1|chip-war|La guerra de los chips|Chris Miller|barack-obama
+1|the-psychology-of-money|La psicología del dinero|Morgan Housel|ryan-holiday
+1|the-wealth-of-nations|La riqueza de las naciones|Adam Smith|neil-degrasse-tyson
+1|the-33-strategies-of-war|Las 33 estrategias de la guerra|Robert Greene|ryan-holiday
+1|the-48-laws-of-power|Las 48 leyes del poder|Robert Greene|ryan-holiday
+1|the-toyota-way|Las claves del éxito de Toyota|Jeffrey K. Liker|lex-fridman
+1|warren-buffett-s-ground-rules|Las reglas básicas de Warren Buffett|Jeremy Miller|warren-buffett
+1|lead-yourself-first|Lead Yourself First: Inspiring Leadership Through Solitude|Raymond M. Kethledge y Michael S. Erwin|brene-brown
+1|lean-thinking|Lean Thinking: Cómo utilizar el pensamiento Lean para eliminar los despilfarros y crear valor en la empresa|James P. Womack y Daniel T. Jones|jeff-bezos
+1|lights-out|Lights Out: Pride, Delusion, and the Fall of General Electric|Thomas Gryta y Ted Mann|jeff-bezos
+1|limitless-leadership-that-endures|Limitless: Leadership That Endures|Ajaz Ahmed|richard-branson
+1|loonshots|Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries|Safi Bahcall|daniel-kahneman
+1|making-ideas-happen|Making Ideas Happen: Overcoming the Obstacles Between Vision and Reality|Scott Belsky|simon-sinek
+1|masters-of-scale|Masters of Scale: Surprising Truths from the World's Most Successful Entrepreneurs|Reid Hoffman, June Cohen y Deron Triff|satya-nadella
+1|memos-from-the-chairman|Memos from the Chairman|Alan C. Greenberg|jeff-bezos
+1|radical-markets|Mercados radicales|Eric Posner y Glen Weyl|vitalik-buterin
+1|more-money-than-god|More Money Than God: Hedge Funds and the Making of a New Elite|Sebastian Mallaby|paul-graham
+1|on-writing-well|On Writing Well|William Zinsser|derek-sivers
+1|getting-things-done|Organízate con eficacia|David Allen|derek-sivers
+1|originals-how-non-conformists-move-the-world|Originales: Cómo los inconformistas mueven el mundo|Adam Grant|richard-branson
+1|poverty-by-america|Pobreza, made in USA|Matthew Desmond|barack-obama
+1|principles|Principios|Ray Dalio|ray-dalio
+1|prosperity|Prosperity: Better Business Makes the Greater Good|Colin Mayer|satya-nadella
+1|rework|Reinicia: Borra lo aprendido y piensa la empresa de otra forma|David Heinemeier Hansson y Jason Fried|jeff-bezos
+1|remote-office-not-required|Remoto: No se requiere oficina|Jason Fried y David Heinemeier Hansson|richard-branson
+1|revealing|Revealing|Leslie John|adam-grant
+1|technological-revolutions-and-financial-capital|Revoluciones tecnológicas y capital financiero|Carlota Pérez|marc-andreessen
+1|secrets-of-sand-hill-road|Secrets of Sand Hill Road: Venture Capital and How to Get It|Scott Kupor|sam-altman
+1|security-analysis|Security Analysis|Benjamin Graham y David Dodd|warren-buffett
+1|shaping-the-future-of-the-fourth-industrial-revolution|Shaping the Future of the Fourth Industrial Revolution|Klaus Schwab|satya-nadella
+1|stretch|Stretch: Unlock the Power of Less – and Achieve More Than You Ever Imagined|Scott Sonenshein|brene-brown
+1|stubborn-attachments|Stubborn Attachments|Tyler Cowen|vitalik-buterin
+1|only-the-paranoid-survive|Sólo los paranoides sobreviven|Andrew S. Grove|marc-andreessen
+1|talking-to-humans|Talking to Humans|Giff Constable|andrew-ng
+1|tap-dancing-to-work|Tap Dancing to Work|Carol Loomis|warren-buffett
+1|clash-of-the-cultures|The Clash of the Cultures|John C. Bogle|warren-buffett
+1|the-launch-pad|The Launch Pad: Inside Y Combinator|Randall Stross|paul-graham
+1|the-making-of-a-manager|The Making of a Manager|Julie Zhuo|sam-altman
+1|the-myth-of-the-rational-voter|The Myth of the Rational Voter|Bryan Caplan|marc-andreessen
+1|the-network-state|The Network State|Balaji Srinivasan|vitalik-buterin
+1|the-new-leadership-literacies|The New Leadership Literacies: Thriving in a Future of Extreme Disruption and Distributed Everything|Bob Johansen|satya-nadella
+1|the-opposable-mind|The Opposable Mind: How Successful Leaders Win Through Integrative Thinking|Roger L. Martin|malcolm-gladwell
+1|the-outsiders|The Outsiders|William N. Thorndike|warren-buffett
+1|the-power-of-productivity|The Power of Productivity|William W. Lewis|marc-andreessen
+1|the-ride-of-a-lifetime|The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company|Robert Iger|brene-brown
+1|the-science-of-hitting|The Science of Hitting|Ted Williams|warren-buffett
+1|the-startup-way|The Startup Way|Eric Ries|paul-graham
+1|you-can-negotiate-anything|Todo es negociable|Herb Cohen|derek-sivers
+1|lean-in|Vayamos adelante|Sheryl Sandberg|richard-branson
+1|who-is-government|Who is Government?|Michael Lewis (editor)|barack-obama
+1|winners-and-how-they-succeed|Winners: And How They Succeed|Alastair Campbell|richard-branson
+1|your-best-meeting-ever|Your Best Meeting Ever|Rebecca Hinds|adam-grant
+1|turn-the-ship-around|¡Cambia el barco de rumbo!|L. David Marquet|simon-sinek
+1|where-are-the-customer-yachts|¿Dónde están los yates de los clientes?|Fred Schwed|warren-buffett

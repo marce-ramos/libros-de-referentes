@@ -1,13 +1,14 @@
 ---
 titulo: "Dvoretsky's Endgame Manual"
 autorLibro: "Mark Dvoretsky"
+asin: "1888690194"
 categoria: psicologia
 recomendadoPor:
   - garry-kasparov
 anio: 2004
 resumen: "El manual de finales de ajedrez de Mark Dvoretsky, considerado por entrenadores y grandes maestros una de las referencias más completas jamás escritas sobre esa fase del juego. Kasparov lo recomienda como material de estudio estructurado, útil tanto para jugadores fuertes como para principiantes."
 destacado: false
-fechaActualizado: 2026-08-10
+fechaActualizado: 2026-08-14
 ---
 
 Mark Dvoretsky fue uno de los entrenadores de ajedrez más influyentes de las últimas décadas, formador de varios campeones del mundo. *Dvoretsky's Endgame Manual*, publicado originalmente en 2004, sistematiza el conocimiento de los finales —la fase del juego que separa a los jugadores buenos de los realmente fuertes— en un manual pensado para el estudio progresivo, no para la lectura corrida.

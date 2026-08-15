@@ -1,14 +1,14 @@
 ---
 titulo: "More Money Than God: Hedge Funds and the Making of a New Elite"
 autorLibro: "Sebastian Mallaby"
-asin: ""
+asin: "1594202559"
 categoria: negocios
 recomendadoPor:
   - paul-graham
 anio: 2010
 resumen: "La historia de la industria de los hedge funds contada a través de sus figuras más influyentes, del periodista Sebastian Mallaby, desde Alfred Winslow Jones hasta la crisis de 2008."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Sebastian Mallaby, periodista y ex editor de The Economist, se propuso escribir la historia que hasta entonces nadie había contado bien: cómo un puñado de gestores de fondos casi anónimos construyó una industria —los hedge funds— capaz de mover mercados enteros y generar algunas de las fortunas más grandes de la historia moderna, todo con una regulación mínima y una opacidad deliberada.

@@ -1,14 +1,14 @@
 ---
 titulo: "Apollo's Arrow: The Profound and Enduring Impact of Coronavirus on the Way We Live"
 autorLibro: "Nicholas A. Christakis"
-asin: ""
+asin: "0316628212"
 categoria: ciencia
 recomendadoPor:
   - paul-graham
 anio: 2020
 resumen: "El médico y sociólogo Nicholas Christakis analiza, con datos históricos y epidemiológicos, cómo el COVID-19 cambió —y seguirá cambiando— la vida social, económica y biológica en el largo plazo."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 Nicholas Christakis, médico y sociólogo de Yale, empezó a escribir este libro en los primeros meses de la pandemia de COVID-19, apoyado en más de dos décadas estudiando redes sociales y epidemiología. El resultado no es una crónica periodística de la emergencia sanitaria, sino un intento de ponerla en perspectiva histórica: qué tienen en común todas las pandemias, qué es específico de esta, y qué patrones sociales y económicos suelen repetirse en los años posteriores a un shock de esta magnitud.

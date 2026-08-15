@@ -1,13 +1,14 @@
 ---
 titulo: "Culture Renovation: 18 Leadership Actions to Build an Unshakeable Company"
 autorLibro: "Kevin Oakes"
+asin: "1260464369"
 categoria: negocios
 recomendadoPor:
   - brene-brown
 anio: 2021
 resumen: "Kevin Oakes, CEO de la firma de investigación en RR.HH. i4cp, propone 'renovar' la cultura organizacional en lugar de intentar transformarla desde cero, con base en un estudio a casi 7.700 profesionales. Conecta con el trabajo de Brené Brown sobre cultura corporativa y coraje, sin cita pública confirmada suya sobre este título."
 destacado: false
-fechaActualizado: 2026-08-08
+fechaActualizado: 2026-08-14
 ---
 
 Kevin Oakes dirige i4cp, una de las firmas de investigación en recursos humanos más consultadas por grandes empresas, y basó este libro en uno de los estudios más grandes jamás hechos sobre cambio cultural organizacional, con datos de casi 7.700 profesionales en miles de compañías.

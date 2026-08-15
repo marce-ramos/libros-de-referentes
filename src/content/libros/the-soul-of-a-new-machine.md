@@ -1,14 +1,14 @@
 ---
 titulo: "The Soul of a New Machine"
 autorLibro: "Tracy Kidder"
-asin: ""
+asin: "0316491977"
 categoria: ciencia
 recomendadoPor:
   - paul-graham
 anio: 1981
 resumen: "La crónica de la carrera para diseñar una nueva minicomputadora en Data General a fines de los 70, contada desde adentro del equipo de ingenieros que trabajó bajo una presión extrema. Está confirmado en el relevamiento público de las recomendaciones de lectura de Paul Graham."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-14
 ---
 
 A fines de los años 70, la empresa Data General necesitaba una nueva minicomputadora capaz de competir con la que estaba desarrollando su propia división rival interna. Un equipo de ingenieros jóvenes, liderado por Tom West, se propuso construirla en un tiempo récord, trabajando con una intensidad y una entrega casi obsesivas. El periodista Tracy Kidder pasó meses metido en las oficinas de Data General para escribir *The Soul of a New Machine*, y el resultado —ganador del premio Pulitzer de no ficción en 1982— sigue siendo uno de los mejores retratos jamás escritos sobre cómo se construye hardware de verdad bajo presión.

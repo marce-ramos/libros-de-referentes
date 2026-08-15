@@ -1,13 +1,14 @@
 ---
 titulo: "How Much of These Hills Is Gold"
 autorLibro: "C Pam Zhang"
+asin: "0525537201"
 categoria: ficcion
 recomendadoPor:
   - gwyneth-paltrow
 anio: 2020
 resumen: "La novela debut de C Pam Zhang sobre dos hermanos chino-estadounidenses huérfanos que atraviesan el oeste americano de la fiebre del oro. Fue la primera selección del Goop Book Club, el club de lectura con el que Gwyneth Paltrow lo lanzó en 2020."
 destacado: false
-fechaActualizado: 2026-08-10
+fechaActualizado: 2026-08-14
 ---
 
 *How Much of These Hills Is Gold* tiene el mérito de haber sido, literalmente, el libro que arrancó todo: cuando Goop lanzó su club de lectura en 2020, este fue el primer título elegido, y con él Gwyneth Paltrow definió el tono que mantendría la selección durante los años siguientes.

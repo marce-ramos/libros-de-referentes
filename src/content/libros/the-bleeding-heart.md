@@ -1,14 +1,14 @@
 ---
 titulo: "The Bleeding Heart"
 autorLibro: "Marilyn French"
-asin: ""
+asin: "067144784X"
 categoria: ficcion
 recomendadoPor:
   - stephen-king
 anio: 1980
 resumen: "Una novela sobre el amor adulto en toda su complejidad: dos personas que se encuentran en Londres y descubren que desear a alguien no alcanza para que funcione. Stephen King la recomienda como una de sus favoritas."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-14
 ---
 
 Marilyn French publicó *The Women's Room* en 1977 y sacudió el mundo literario anglosajón. Tres años después llegó *The Bleeding Heart*, una novela más íntima pero igual de contundente: la historia de dos personas que se enamoran a los cuarenta y descubren que el amor no alcanza para borrar lo que cada uno trae consigo.

@@ -1,14 +1,14 @@
 ---
 titulo: "Poderoso río Rojo"
 autorLibro: "Louise Erdrich"
-asin: ""
+asin: "B0DRSSKVWG"
 categoria: ficcion
 recomendadoPor:
   - jenna-bush-hager
 anio: 2024
 resumen: "Una boda que nadie termina de querer, un pueblo entero enredado en la tierra y sus deudas: Louise Erdrich vuelve al valle del río Rojo en el libro que Jenna Bush Hager eligió para Read With Jenna en octubre de 2024."
 destacado: false
-fechaActualizado: 2026-08-01
+fechaActualizado: 2026-08-14
 ---
 
 En un pueblo chico de Dakota del Norte, donde todos se conocen y todos deben algo, Gary Geist está convencido de que casarse con Kismet Poe le va a arreglar la vida. Kismet no está tan segura de nada, y Hugo, su amigo de siempre, lleva años enamorado de ella en silencio. Louise Erdrich, ganadora del Pulitzer por *The Night Watchman*, arma con este triángulo apenas el punto de partida de una novela mucho más grande: la del valle del río Rojo entero, sus granjas de remolacha azucarera, sus deudas y su forma particular de aguantar.
