@@ -3,6 +3,9 @@
 Cómo se usa: en una sesión (idealmente **Sonnet**), **nombrá la acción + el referente/categoría**.
 No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de acciones + recetas).
 
+> **¿No te acordás cómo se llamaba la acción?** Escribí **`menu acciones`** y el agente te muestra
+> el menú numerado, ya marcado con lo que conviene hacer hoy. El protocolo está en `MENU.md`.
+
 > **Antes de arrancar cualquier tanda:** leé `ESTADO-CONTENIDO.md` (números reales del catálogo, gaps
 > abiertos y backlogs) en vez de fiarte de los conteos de `PENDIENTES.md`, que se desincronizan.
 > Para un **alta de referente nuevo**, el runbook paso a paso es `NUEVOS-REFERENTES.md`.
@@ -21,6 +24,10 @@ No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de 
 | **Actualizar Best-of** `<categoría>` | Re-cura un Best-of de categoría ya publicado contra el catálogo actual (on-demand): suma los nuevos que califiquen, saca los viejos, re-ordena y bumpea la fecha. |
 | **Verificar** | Chequea duplicados, ASINs de 10 caracteres y consistencia del catálogo. |
 | **Sanear** | Corrige fichas que no cumplen las reglas: referente del pill sin nombrar, más de 2 secciones "lo recomienda", sin nota de edición o cuerpo sobre-recortado. |
+| **Propagación** | Busca listicles que quedaron cortos respecto del catálogo (cross-refs que no propagaron) y los regenera. |
+| **ASINs faltantes** | Lista las fichas cuyo `asin` no tiene 10 caracteres y busca el ISBN-10 real de cada una. |
+| **Estado** | Recuenta el catálogo entero y actualiza `ESTADO-CONTENIDO.md` con el corte de hoy. |
+| **Cola** | Muestra qué manifiestos hay sin procesar en la raíz y qué backlogs de referentes siguen abiertos. |
 
 **Regla que se aplica sola a todas:** si cambian los libros de un referente que ya tiene listicle,
 hay que **regenerar ese listicle**. Los **Best-of de categoría** son la excepción: no se regeneran

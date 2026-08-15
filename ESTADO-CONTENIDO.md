@@ -4,8 +4,9 @@
 contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (plan y decisiones) y
 `PROGRESO.md` (bitácora append-only).
 
-> ⚠️ **Corrección importante:** `PENDIENTES.md` venía declarando **556 libros / 35 posts**. El catálogo
-> real es **974 libros / 45 posts**. La diferencia son las tandas del 06 al 10 de agosto, que se
+> ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
+> libros / 35 posts** cuando el catálogo real de ese día era de **974 libros / 45 posts**. La
+> diferencia son las tandas del 06 al 10 de agosto, que se
 > ejecutaron pero nunca se asentaron en los conteos. `PROGRESO.md` tampoco tiene entradas posteriores
 > al 2026-08-08, así que el detalle de esas tandas (Kasparov, Paltrow, Sinek, Taleb, Neil deGrasse
 > Tyson, Paul Graham, Marc Andreessen, best-of psicología) vive solo en la memoria de sesión.
@@ -26,7 +27,7 @@ contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (p
 | Fichas con 2+ referentes (consenso) | **108** (11%) |
 | Fichas sin ASIN usable | **4** (0,4%) — eran 36 antes del saneado del 08-14 |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
-| Fichas marcadas "solo en inglés" | **347** (36%) |
+| Fichas marcadas "solo en inglés" | **355** (36%) |
 | Tamaño mediano de ficha | ~2.700 bytes (≈380 palabras) |
 
 **Lectura rápida:** el catálogo está sano —cero stubs, cero campos requeridos vacíos, 99,6% con ASIN—
