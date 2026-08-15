@@ -4,7 +4,22 @@ Cómo se usa: en una sesión (idealmente **Sonnet**), **nombrá la acción + el 
 No hace falta explicar el procedimiento: está en `ENRIQUECER.md` (Catálogo de acciones + recetas).
 
 > **¿No te acordás cómo se llamaba la acción?** Escribí **`menu acciones`** y el agente te muestra
-> el menú numerado, ya marcado con lo que conviene hacer hoy. El protocolo está en `MENU.md`.
+> el menú numerado, ya marcado con lo que conviene hacer hoy. Cuando elegís una opción, antes de
+> tocar nada te devuelve **el comando de Python que tenés que correr primero**. Protocolo en
+> `MENU.md`.
+
+### Comando previo de cada acción (se corren desde `sitio-libros\`)
+
+| Acción | Comando PREVIO | Comando de CIERRE |
+| --- | --- | --- |
+| Nuevo referente · Profundizar · Cross-refs | `python tools\reconciliar.py <slug> <manifiesto>.txt` | `revision_general.py` + `detectar_duplicados.py` |
+| Best-of · Actualizar Best-of | `python tools\armar_bestof.py <categoria>` | — |
+| Verificar | `python tools\revision_general.py` + `python tools\detectar_duplicados.py src\content\libros` | — |
+| Sanear | `python tools\auditar_fichas.py src\content\libros src\content\autores` | re-correr hasta que dé 0 |
+| ASINs faltantes · Estado | `python tools\revision_general.py` | re-correr `revision_general.py` |
+| Discovery · Enriquecer · Listicle · Bio · Propagación · Cola | — sin comando previo | `revision_general.py` si tocó fichas |
+
+Y siempre, al final de cualquier acción que toque archivos: `npm run build` + `git commit && push`.
 
 > **Antes de arrancar cualquier tanda:** leé `ESTADO-CONTENIDO.md` (números reales del catálogo, gaps
 > abiertos y backlogs) en vez de fiarte de los conteos de `PENDIENTES.md`, que se desincronizan.
