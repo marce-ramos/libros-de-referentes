@@ -5,17 +5,20 @@ asin: "8432242128"
 categoria: ficcion
 recomendadoPor:
   - dua-lipa
+  - pedro-almodovar
 anio: 2023
-resumen: "La novela debut de Alana S. Portero: una chica trans que crece en el Madrid de los ochenta entre la pobreza del extrarradio y la explosión de la contracultura. Pick de septiembre 2024 de Dua Lipa en el Service95 Book Club."
+resumen: "La novela debut de Alana S. Portero: una chica trans que crece en el Madrid de los ochenta entre la pobreza del extrarradio y la explosión de la contracultura. Pick de septiembre 2024 de Dua Lipa en el Service95 Book Club, y una de las seis novelas que recomienda Pedro Almodóvar."
 destacado: false
-fechaActualizado: 2026-07-12
+fechaActualizado: 2026-08-15
 ---
 
 Alana S. Portero tardó años en escribir esta novela. Cuando salió, en 2023, fue uno de los debuts más elogiados en España en mucho tiempo: ganó el Premio Cálamo, el Premio Dulce Chacón y el Prix Méditerranée en Francia, entre otros. *La mala costumbre* no es una novela de activismo: es literatura, con toda la complejidad que eso implica.
 
-## Por qué lo recomienda Dua Lipa
+## Por qué lo recomiendan Dua Lipa y Pedro Almodóvar
 
 En septiembre de 2024, Dua Lipa eligió *La mala costumbre* —publicada en inglés como *Bad Habit*— como su pick mensual en el Service95 Book Club. La selección muestra la amplitud de criterio del club: una novela escrita originalmente en español, por una autora española poco conocida fuera de su país, que llega al club de lectura de una de las artistas más influyentes del pop global. Dua Lipa ha elegido sistemáticamente libros con protagonistas en los márgenes —mujeres, minorías, comunidades desplazadas— y *La mala costumbre* encaja con esa línea de manera precisa.
+
+Pedro Almodóvar la sumó, casi al mismo tiempo, a su lista de seis novelas que recomienda leer al menos una vez en la vida: "Recomiendo leer La mala costumbre para hacerse una idea de cuánto sufrimiento, cuánto dolor, cuánto riesgo hay en el hecho de nacer en un cuerpo equivocado", dijo, según recogió una nota de Diario Uno reproducida por El Placer de la Lectura. No es casual que la novela conecte con dos referentes tan distintos: Almodóvar construyó buena parte de su cine —de *La ley del deseo* a *Todo sobre mi madre*— sobre personajes trans y en los márgenes del género, la misma tensión que atraviesa la novela de Portero.
 
 ## De qué trata
 

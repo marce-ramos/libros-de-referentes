@@ -1,6 +1,6 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-15** (actualizado tras la alta de Guillermo del Toro, referente #45). Números
+**Corte: 2026-08-15** (actualizado tras la alta de Pedro Almodóvar, referente #46). Números
 contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (plan y decisiones) y
 `PROGRESO.md` (bitácora append-only).
 
@@ -19,12 +19,12 @@ contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (p
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **1.000** |
-| Referentes | **45** |
-| Posts de blog | **47** (45 listicles de referente + 2 best-of de categoría) |
+| Fichas de libro | **1.003** |
+| Referentes | **46** |
+| Posts de blog | **48** (46 listicles de referente + 2 best-of de categoría) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.159** |
-| Fichas con 2+ referentes (consenso) | **108** (11%) |
+| Vínculos libro↔referente | **1.165** |
+| Fichas con 2+ referentes (consenso) | **110** (11%) |
 | Fichas sin ASIN usable | **4** (0,4%) — eran 36 antes del saneado del 08-14 |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
 | Fichas marcadas "solo en inglés" | **355** (36%) |
@@ -44,7 +44,7 @@ competidor tiene y hoy está subexplotado.
 
 | Categoría | Fichas | % | Best-of publicado |
 | --- | --- | --- | --- |
-| ficcion | 407 | 41% | ❌ |
+| ficcion | 410 | 41% | ❌ |
 | negocios | 115 | 12% | ✅ re-curado el 2026-08-14 (24 títulos, 5 grupos) |
 | memorias | 107 | 11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
@@ -63,27 +63,26 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 
 | Referentes por libro | Fichas |
 | --- | --- |
-| 1 | 892 |
-| 2 | 77 |
+| 1 | 893 |
+| 2 | 79 |
 | 3 | 19 |
 | 4 | 6 |
-| 5 | 5 |
+| 5 | 4 |
+| 6 | 1 |
 | 7 | 1 |
 
 **Top del ranking (`/mas-recomendados`):**
 
 1. **Sapiens** (7) — Gates, Obama, Clear, Naval, Zuckerberg, Sivers, Fridman
-2. **El hombre en busca de sentido** (5) — Altman, Peterson, Sinek, Naval, Holiday
-3. **Meditaciones** (5) — Holiday, Ferriss, Naval, Clear, Altman
-4. **Cien años de soledad** (5) — Dua Lipa, Branson, Oprah, Allende, Vargas Llosa
+2. **Cien años de soledad** (6) — Dua Lipa, Branson, Oprah, Allende, Vargas Llosa, Almodóvar
+3. **El hombre en busca de sentido** (5) — Altman, Peterson, Sinek, Naval, Holiday
+4. **Meditaciones** (5) — Holiday, Ferriss, Naval, Clear, Altman
 5. **Pensar rápido, pensar despacio** (5) — Kahneman, Clear, Altman, Harari, Andreessen
 6. **De cero a uno** (5) — Thiel, Ng, Musk, Altman, Andreessen
 
-*(Con Almodóvar, Cien años de soledad pasa a 6 y queda segundo solo.)*
-
 ---
 
-## 4. Referentes (45) — libros y listicle
+## 4. Referentes (46) — libros y listicle
 
 | Referente | Ámbito | Libros | Listicle | Estado |
 | --- | --- | ---: | --- | --- |
@@ -128,14 +127,15 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Vitalik Buterin | Tecnología | 8 | ✅ 07-22 | SKIP profundizar (fuente agotada) |
 | Elon Musk | Tecnología | 7 | ✅ 07-10 | Semilla, sin discovery real |
 | Isabel Allende | Escritores | 6 | ✅ 07-31 | Cerrado |
+| Pedro Almodóvar | Entretenimiento | 6 | ✅ 08-15 | Alta recién creada, referente #46. 3 cross-refs (incluido Cien años de soledad, que pasa a 6 referentes) |
 | Jordan Peterson | Psicología | 5 | ✅ 07-10 | Semilla, sin discovery real |
 | Tim Ferriss | Negocios | 5 | ✅ 07-10 | Semilla, sin discovery real |
 | Ray Dalio | Negocios | 4 | ✅ 07-09 | Semilla, sin discovery real |
 | Malala Yousafzai | Política | 3 | ✅ 08-14 | Listicle nuevo (3 libros, lista simple). Sigue sin fuente para profundizar |
 
-**Los 45 referentes tienen listicle.**
+**Los 46 referentes tienen listicle.**
 
-**Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 8 ·
+**Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 9 ·
 Psicología 5 · Política y Sociedad 3 · Ciencia 2.
 Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 
@@ -162,14 +162,17 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 7. ~~**Alta de Guillermo del Toro**~~ — referente #45, 26 libros + bio + listicle. Detalle en
    PROGRESO.md. Dos ASIN derivados matemáticamente (`making-movies`, `sandkings`) — pendiente que
    Marcelo los confirme en Amazon antes de darlos por definitivos.
+8. ~~**Alta de Pedro Almodóvar**~~ — referente #46, 6 libros (3 nuevos + 3 cross-refs) + bio +
+   listicle. *Cien años de soledad* pasa a 6 referentes. Detalle en PROGRESO.md. Caveat de fuente:
+   Diario Uno / El Placer de la Lectura no especifican la entrevista original de Almodóvar.
 
 ### Lo que sigue
-8. **Altas nuevas** — Almodóvar (6) → Huberman (36) → Cowen (10). Ver `NUEVOS-REFERENTES.md`.
-9. **Best-of nuevos:** ficción (407 fichas, la categoría más grande y sin hub) · ciencia ficción
-   (del Toro la engordó a 32, ya es candidato viable) · divulgación científica (Huberman la engorda).
-10. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+9. **Altas nuevas** — Huberman (36) → Cowen (10). Ver `NUEVOS-REFERENTES.md`.
+10. **Best-of nuevos:** ficción (410 fichas, la categoría más grande y sin hub) · ciencia ficción
+    (del Toro la engordó a 32, ya es candidato viable) · divulgación científica (Huberman la engorda).
+11. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado y el listicle nuevo de Guillermo del Toro.
+    best-of de negocios actualizado y los listicles nuevos de Guillermo del Toro y Pedro Almodóvar.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
@@ -203,5 +206,5 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.000 fichas y 47 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.003 fichas y 48 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

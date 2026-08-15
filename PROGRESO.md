@@ -2644,6 +2644,55 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `fechaActualizado` a 2026-08-08. No hace falta re-verificar contenido ni ASIN, no cambiaron.
   Pendiente: que Marcelo re-corra el audit en Windows para confirmar 0 `[FIX]` en estos 3.
 
+- **2026-08-15 — Alta de Pedro Almodóvar, referente #46.** Pipeline completo "Nuevo referente"
+  siguiendo `NUEVOS-REFERENTES.md`: bio (`autores/pedro-almodovar.md`, fuente: nota de Diario Uno
+  reproducida por El Placer de la Lectura, "Las 6 novelas que Pedro Almodóvar recomienda leer una
+  vez en la vida") + ámbito Entretenimiento sumado a `ambitos.ts` + verificado con `Read`.
+  Manifiesto (`pedro-almodovar-manifiesto.txt`, 6 candidatos) reconciliado por el usuario antes de
+  esta sesión: **0 YA-LINKED, 3 CROSS-REF (Bad Habit/La mala costumbre, Steppenwolf/El lobo
+  estepario, One Hundred Years of Solitude/Cien años de soledad), 0 REVISAR, 3 NUEVO (Bonjour
+  Tristesse, Hopscotch/Rayuela, 2666).**
+
+  Fichas nuevas (MODO LIBRO, las tres verificadas como obras reales antes de escribir, ASIN de
+  edición española confirmado vía `WebSearch` en amazon.es): `bonjour-tristesse.md` — *Buenos días,
+  tristeza* de Sagan, asin `8483105225` (Tusquets, colección Fábula); `hopscotch.md` — *Rayuela* de
+  Cortázar, asin `8437604575` (Cátedra, Letras Hispánicas); `2666.md` — *2666* de Bolaño, asin
+  `8433973185` (Anagrama, Compactos). Las tres con cita textual real de Almodóvar sourceada de la
+  nota (Bonjour Tristesse y La mala costumbre citadas literalmente; Rayuela como "su libro favorito
+  de Cortázar" y 2666 como el libro que "relee todos los años" — ambas también citas directas según
+  la fuente).
+
+  Cross-refs (frontmatter + mención en el cuerpo, regla de atribución respetada): `bad-habit.md` —
+  sumado `pedro-almodovar` a `recomendadoPor` (ahora 2: Dua Lipa + Almodóvar); sección fusionada a
+  `## Por qué lo recomiendan Dua Lipa y Pedro Almodóvar`, con la cita de Almodóvar tejida en un
+  segundo párrafo, como pide la regla para dos referentes con razón igual de rica.
+  `steppenwolf.md` — sumado `pedro-almodovar` (ahora 2: Vargas Llosa + Almodóvar); se mantuvo la
+  sección desarrollada de Vargas Llosa (razón más rica y documentada) y se cerró nombrando a
+  Almodóvar, sin inventarle una cita específica para este título (la fuente no trae una).
+  `one-hundred-years-of-solitude.md` — sumado `pedro-almodovar` (ahora **6 referentes**: Dua Lipa,
+  Branson, Oprah, Allende, Vargas Llosa y Almodóvar — pasa a ser el libro con más consenso del
+  catálogo después de *Sapiens*, y queda segundo solo en `/mas-recomendados`); Almodóvar sumado a
+  la frase de cierre de la sección de Dua Lipa, junto al resto.
+
+  Listicle nuevo `blog/libros-que-recomienda-pedro-almodovar.md`, 6 libros en lista simple sin
+  grupos (bajo el umbral de 8 de MODO LISTICLE).
+
+  **Caveat de fuente:** ni Diario Uno ni El Placer de la Lectura especifican la entrevista o fecha
+  exacta en que Almodóvar hizo estas declaraciones; se sourceó tal cual la reprodujeron ambos
+  medios (2025), sin poder rastrear la entrevista primaria. Mismo nivel de confiabilidad que
+  "Prensa seria que reproduce la lista" en la tabla de fuentes de `NUEVOS-REFERENTES.md` §1 — no es
+  la lista/club oficial del propio referente, pero sí una nota con citas directas atribuidas.
+
+  **Pedro Almodóvar: 0 → 6 libros. Referentes: 45 → 46. Catálogo: 1.000 → 1.003 libros.
+  Blog: 47 → 48. Ámbito Entretenimiento: 8 → 9 referentes. Fichas con 2+ referentes: 108 → 110.
+  Vínculos libro↔referente: 1.159 → 1.165.** Archivos escritos vía el puente a la máquina de
+  Marcelo (`device_commit_files`), sin mount FUSE disponible en esta sesión (Modo B) — misma
+  disciplina que en la alta de del Toro (verificación con `Read`, sin `git`/`npm`).
+  **Pendiente para Marcelo:** `python tools\detectar_duplicados.py src\content\libros`,
+  `npm run build`, `git commit && push`, y pedir indexación en Search Console de la URL nueva del
+  listicle. Próxima alta en la cola: **Andrew Huberman** (36 candidatos) → **Tyler Cowen** (10),
+  ambos con manifiesto ya sourceado.
+
 - **2026-08-15 — Alta de Guillermo del Toro, referente #45.** Pipeline completo "Nuevo referente"
   siguiendo `NUEVOS-REFERENTES.md`: bio (`autores/guillermo-del-toro.md`, fuente readthistwice.com
   vía @RealGDT + su biblioteca "Bleak House") + ámbito Entretenimiento sumado a `ambitos.ts` +

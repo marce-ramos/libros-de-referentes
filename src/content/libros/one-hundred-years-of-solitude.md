@@ -9,17 +9,18 @@ recomendadoPor:
   - oprah-winfrey
   - isabel-allende
   - mario-vargas-llosa
+  - pedro-almodovar
 anio: 1967
-resumen: "La saga de los Buendía a lo largo de siete generaciones en el mítico Macondo: el epicentro del realismo mágico y una de las novelas más importantes de la literatura universal, elegida por Dua Lipa como pick de octubre 2023 en su Service95 Book Club, y uno de los seis libros favoritos de Isabel Allende."
+resumen: "La saga de los Buendía a lo largo de siete generaciones en el mítico Macondo: el epicentro del realismo mágico y una de las novelas más importantes de la literatura universal. Con seis referentes en su recomendadoPor —incluido Pedro Almodóvar— es el libro con más consenso del catálogo después de Sapiens."
 destacado: false
-fechaActualizado: 2026-07-31
+fechaActualizado: 2026-08-15
 ---
 
 Hay libros que se recomiendan solos desde hace décadas y, aun así, cada vez que alguien los descubre parece que los leyó por primera vez. *Cien años de soledad* es exactamente eso: una novela que el tiempo no puede desgastar porque ya contiene, dentro de sus páginas, el tiempo completo. García Márquez la publicó en 1967 y fue el libro que, en buena medida, le ganó el Nobel en 1982. Pero más allá de los premios y los catálogos académicos, es una historia que atrapa como pocas.
 
 ## Por qué lo recomienda Dua Lipa
 
-En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee. También lo recomiendan Richard Branson, Oprah Winfrey (que la eligió como pick de enero de 2004 en su club de lectura), Isabel Allende, quien la nombró entre sus seis libros favoritos en una entrevista a *The Week* (2014): "La novela latinoamericana más importante del siglo XX. Los personajes de García Márquez me resultaban muy familiares, y su voz sonaba como la de mi abuelo. Ahí entendí que con una familia como la mía no tenía que inventar nada para escribir ficción"; y Mario Vargas Llosa, que le dedicó un libro entero, *Historia de un deicidio* (1971), su monografía sobre la obra de García Márquez —con quien mantuvo, a partes iguales, una amistad legendaria del boom latinoamericano y una ruptura personal célebre.
+En octubre de 2023, Dua Lipa eligió *Cien años de soledad* como su pick mensual en el Service95 Book Club, el club de lectura que lleva adelante junto a su equipo editorial. La elección tiene lógica dentro del perfil del club: voces que trascienden fronteras, narraciones que mezclan lo íntimo con lo épico, y libros que te cambian la manera de ver el mundo. *Cien años de soledad* cumple con todo eso con creces. Es el tipo de novela que, una vez leída, reorganiza la biblioteca mental de quien la lee. También lo recomiendan Richard Branson, Oprah Winfrey (que la eligió como pick de enero de 2004 en su club de lectura), Isabel Allende, quien la nombró entre sus seis libros favoritos en una entrevista a *The Week* (2014): "La novela latinoamericana más importante del siglo XX. Los personajes de García Márquez me resultaban muy familiares, y su voz sonaba como la de mi abuelo. Ahí entendí que con una familia como la mía no tenía que inventar nada para escribir ficción"; Mario Vargas Llosa, que le dedicó un libro entero, *Historia de un deicidio* (1971), su monografía sobre la obra de García Márquez —con quien mantuvo, a partes iguales, una amistad legendaria del boom latinoamericano y una ruptura personal célebre—; y Pedro Almodóvar, que la sumó a su lista de seis novelas que recomienda leer al menos una vez en la vida (Diario Uno / El Placer de la Lectura, 2025).
 
 ## De qué trata
 
