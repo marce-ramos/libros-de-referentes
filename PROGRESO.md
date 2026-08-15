@@ -2643,3 +2643,34 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   renombró el encabezado a `## De qué trata` en los 3, sin tocar una palabra del contenido. Bump de
   `fechaActualizado` a 2026-08-08. No hace falta re-verificar contenido ni ASIN, no cambiaron.
   Pendiente: que Marcelo re-corra el audit en Windows para confirmar 0 `[FIX]` en estos 3.
+
+- **2026-08-15 — Alta de Guillermo del Toro, referente #45.** Pipeline completo "Nuevo referente"
+  siguiendo `NUEVOS-REFERENTES.md`: bio (`autores/guillermo-del-toro.md`, fuente readthistwice.com
+  vía @RealGDT + su biblioteca "Bleak House") + ámbito Entretenimiento sumado a `ambitos.ts` +
+  verificado con `Read`. Manifiesto (`guillermo-del-toro-manifiesto.txt`, 26 candidatos) ya
+  reconciliado por el usuario antes de esta sesión: **0 YA-LINKED, 0 CROSS-REF, 0 REVISAR, 26
+  NUEVO** — no hizo falta reconciliar de nuevo ni tocar cross-refs. Las 26 fichas se enriquecieron
+  vía 3 subagentes Sonnet en paralelo (tandas de 9/9/8), cada uno verificando existencia real del
+  libro antes de escribir (0 quedaron sin verificar) y buscando ASIN con preferencia por edición
+  española; 12 quedaron en `ficcion`, 6 en `cienciaficcion`, 5 en `historia`, 2 en `espiritualidad`,
+  1 en `memorias`. Caso a notar: *A Dictionary of Symbols* es en realidad el original **español**
+  de Juan Eduardo Cirlot (*Diccionario de símbolos*, Siruela) — el título en inglés del manifiesto
+  es la traducción, no al revés; la ficha quedó con el título español. Dos ASIN (`making-movies`,
+  `sandkings`) se derivaron matemáticamente del ISBN-13 al no aparecer el ISBN-10 impreso en la
+  búsqueda — vale una segunda mirada de Marcelo antes de publicar. Validación automática (script
+  local, no `auditar_fichas.py`) sobre las 26 fichas: frontmatter completo, `asin` de 10 caracteres
+  o vacío, `categoria` dentro de las 9 válidas, `recomendadoPor` con `guillermo-del-toro`,
+  encabezados obligatorios presentes, sin marcas `NO VERIFICADO` — 0 problemas. Listicle nuevo
+  `blog/libros-que-recomienda-guillermo-del-toro.md`, 26 libros en 5 grupos temáticos (Ciencia
+  ficción especulativa 6 · Vampiros, folclore y lo sagrado oscuro 6 · Fantasía y mitologías
+  inventadas 4 · Terror clásico, monstruos y noir 4 · Oficio: cine, imagen y el arte de hacer
+  libros 6) + lead "Por dónde empezar" (Frankenstein, Cementerio de animales, La historia
+  interminable, El cine según Hitchcock). **Guillermo del Toro: 0 → 26 libros. Referentes: 44 → 45.
+  Catálogo: 974 → 1.000 libros. Blog: 46 → 47. Ámbito Entretenimiento: 7 → 8 referentes.**
+  Archivos escritos vía el puente a la máquina de Marcelo (`device_commit_files`), no hubo mount
+  FUSE disponible en esta sesión — no aplica la restricción de bash de `CLAUDE.md`, pero se
+  mantuvo la misma disciplina (verificación con `Read`, sin `git`/`npm`). **Pendiente para
+  Marcelo:** `python tools\detectar_duplicados.py src\content\libros`, `npm run build`,
+  `git commit && push`, pedir indexación de la URL nueva del listicle en Search Console, y
+  doble-chequear en Amazon los dos ASIN derivados matemáticamente. Próxima alta en la cola:
+  **Pedro Almodóvar** (6 candidatos, manifiesto listo).

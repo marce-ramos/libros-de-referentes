@@ -1,6 +1,11 @@
 # Los Imperdibles — Estado y pendientes
 
-Punto de retomada. Última actualización: 2026-08-04 (**Profundizar Adam Grant** — cierre del
+Punto de retomada. Última actualización: 2026-08-15 (**Alta de Guillermo del Toro, referente #45**
+— pipeline completo "Nuevo referente": bio + manifiesto ya curado (`guillermo-del-toro-manifiesto.txt`,
+26 candidatos, fuente readthistwice.com vía @RealGDT) + reconciliación ya hecha antes de esta sesión
+(0 YA-LINKED, 0 CROSS-REF, 0 REVISAR, 26 NUEVO) + 26 fichas enriquecidas vía 3 subagentes en paralelo
++ listicle en 5 grupos temáticos; referentes 44 → 45, catálogo 974 → 1.000 libros, blog 46 → 47;
+ámbito Entretenimiento 7 → 8; detalle completo en PROGRESO.md); antes, 2026-08-04 (**Profundizar Adam Grant** — cierre del
 backlog pre-sourceado desde 2026-07-22 (`tools/manifiesto_adam_grant.txt`, 30 candidatos NUEVO
 tras descontar 2 ya resueltos); reconciliación manual vía 30 `Glob` (0 colisiones) + 30 fichas
 enriquecidas vía 4 subagentes en paralelo, todas verificadas como publicaciones reales pese a ser

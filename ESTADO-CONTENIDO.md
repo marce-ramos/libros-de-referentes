@@ -1,8 +1,8 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-14** (actualizado el mismo día tras la tanda de saneado). Números contados sobre
-`src/content/**` (no estimados). Complementa a `PENDIENTES.md` (plan y decisiones) y `PROGRESO.md`
-(bitácora append-only).
+**Corte: 2026-08-15** (actualizado tras la alta de Guillermo del Toro, referente #45). Números
+contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (plan y decisiones) y
+`PROGRESO.md` (bitácora append-only).
 
 > ⚠️ **Corrección importante:** `PENDIENTES.md` venía declarando **556 libros / 35 posts**. El catálogo
 > real es **974 libros / 45 posts**. La diferencia son las tandas del 06 al 10 de agosto, que se
@@ -18,11 +18,11 @@
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **974** |
-| Referentes | **44** |
-| Posts de blog | **46** (44 listicles de referente + 2 best-of de categoría) |
+| Fichas de libro | **1.000** |
+| Referentes | **45** |
+| Posts de blog | **47** (45 listicles de referente + 2 best-of de categoría) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.133** |
+| Vínculos libro↔referente | **1.159** |
 | Fichas con 2+ referentes (consenso) | **108** (11%) |
 | Fichas sin ASIN usable | **4** (0,4%) — eran 36 antes del saneado del 08-14 |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
@@ -43,15 +43,15 @@ competidor tiene y hoy está subexplotado.
 
 | Categoría | Fichas | % | Best-of publicado |
 | --- | --- | --- | --- |
-| ficcion | 395 | 41% | ❌ |
+| ficcion | 407 | 41% | ❌ |
 | negocios | 115 | 12% | ✅ re-curado el 2026-08-14 (24 títulos, 5 grupos) |
-| memorias | 106 | 11% | ❌ |
+| memorias | 107 | 11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
 | ciencia | 87 | 9% | ❌ (candidato fuerte: Huberman lo engorda) |
-| historia | 81 | 8% | ❌ |
+| historia | 86 | 9% | ❌ |
 | filosofia | 49 | 5% | ❌ |
-| cienciaficcion | 26 | 3% | ❌ (candidato: del Toro lo engorda) |
-| espiritualidad | 13 | 1% | ❌ |
+| cienciaficcion | 32 | 3% | ❌ (del Toro sumó 6 — candidato más fuerte del catálogo) |
+| espiritualidad | 15 | 2% | ❌ |
 
 Ficción concentra 4 de cada 10 fichas —efecto Oprah (122), Reese (56), Portman (35), Jenna (31)— y no
 tiene best-of. Es la categoría más grande del sitio sin página hub.
@@ -62,7 +62,7 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 
 | Referentes por libro | Fichas |
 | --- | --- |
-| 1 | 866 |
+| 1 | 892 |
 | 2 | 77 |
 | 3 | 19 |
 | 4 | 6 |
@@ -82,7 +82,7 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 
 ---
 
-## 4. Referentes (44) — libros y listicle
+## 4. Referentes (45) — libros y listicle
 
 | Referente | Ámbito | Libros | Listicle | Estado |
 | --- | --- | ---: | --- | --- |
@@ -102,6 +102,7 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Marc Andreessen | Negocios | 32 | ✅ 08-07 | Cerrado (excluidos títulos políticamente cargados) |
 | Jenna Bush Hager | Entretenimiento | 31 | ✅ 08-01 | **Backlog histórico ~55 (2019-2023)** |
 | Derek Sivers | Negocios | 27 | ✅ 08-03 | Cerrado |
+| Guillermo del Toro | Entretenimiento | 26 | ✅ 08-15 | Alta recién creada, referente #45 |
 | J.K. Rowling | Escritores | 25 | ✅ 07-16 | — |
 | Brené Brown | Psicología | 24 | ✅ 08-14 | Regenerado a 24, grupo nuevo "Creatividad y coraje para crear" |
 | Stephen King | Escritores | 24 | ✅ 07-16 | — |
@@ -131,9 +132,9 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Ray Dalio | Negocios | 4 | ✅ 07-09 | Semilla, sin discovery real |
 | Malala Yousafzai | Política | 3 | ✅ 08-14 | Listicle nuevo (3 libros, lista simple). Sigue sin fuente para profundizar |
 
-**Los 44 referentes tienen listicle.**
+**Los 45 referentes tienen listicle.**
 
-**Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 7 ·
+**Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 8 ·
 Psicología 5 · Política y Sociedad 3 · Ciencia 2.
 Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 
@@ -156,13 +157,18 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 6. ~~**Actualizar Best-of Negocios**~~ — re-curado contra las 112 fichas de negocios con ASIN:
    24 títulos en 5 grupos, 9 sumados, 2 sacados.
 
+### ✅ Hecho el 2026-08-15
+7. ~~**Alta de Guillermo del Toro**~~ — referente #45, 26 libros + bio + listicle. Detalle en
+   PROGRESO.md. Dos ASIN derivados matemáticamente (`making-movies`, `sandkings`) — pendiente que
+   Marcelo los confirme en Amazon antes de darlos por definitivos.
+
 ### Lo que sigue
-7. **Altas nuevas** — del Toro (26) → Almodóvar (6) → Huberman (36) → Cowen (10). Ver `NUEVOS-REFERENTES.md`.
-8. **Best-of nuevos:** ficción (395 fichas, la categoría más grande y sin hub) · ciencia ficción
-   (del Toro la engorda) · divulgación científica (Huberman la engorda).
-9. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
-   Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala y el
-   best-of de negocios actualizado.
+8. **Altas nuevas** — Almodóvar (6) → Huberman (36) → Cowen (10). Ver `NUEVOS-REFERENTES.md`.
+9. **Best-of nuevos:** ficción (407 fichas, la categoría más grande y sin hub) · ciencia ficción
+   (del Toro la engordó a 32, ya es candidato viable) · divulgación científica (Huberman la engorda).
+10. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+    Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
+    best-of de negocios actualizado y el listicle nuevo de Guillermo del Toro.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
@@ -196,5 +202,5 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 974 fichas y 45 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.000 fichas y 47 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.
