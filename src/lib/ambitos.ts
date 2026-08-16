@@ -35,6 +35,7 @@ export const ambitoDe: Record<string, string> = {
   "simon-sinek": "Negocios e Inversión",
   "tim-ferriss": "Negocios e Inversión",
   "derek-sivers": "Negocios e Inversión",
+  "tyler-cowen": "Negocios e Inversión",
 
   "yuval-noah-harari": "Escritores",
   "stephen-king": "Escritores",

@@ -1,11 +1,11 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-16** (actualizado tras la alta de Andrew Huberman, referente #47). Números de esta
-sección 1 y de la fila de Huberman en la sección 4 recontados a mano sobre las fichas tocadas en la
-sesión (confianza alta); las secciones 2 (distribución por categoría) y 3 (consenso) **todavía
-reflejan el corte del 08-15** — no se recalcularon con el lote de Huberman, hace falta correr
-`revision_general.py` para refrescarlas del todo. Complementa a `PENDIENTES.md` (plan y decisiones) y
-`PROGRESO.md` (bitácora append-only).
+**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, misma
+sesión). Números de esta sección 1 y las filas de Huberman/Cowen en la sección 4 recontados a mano
+sobre las fichas tocadas en la sesión (confianza alta); las secciones 2 (distribución por categoría) y
+3 (consenso) **todavía reflejan el corte del 08-15** — no se recalcularon con ninguno de los dos
+lotes, hace falta correr `revision_general.py` para refrescarlas del todo. Complementa a
+`PENDIENTES.md` (plan y decisiones) y `PROGRESO.md` (bitácora append-only).
 
 > ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
 > libros / 35 posts** cuando el catálogo real de ese día era de **974 libros / 45 posts**. La
@@ -22,15 +22,15 @@ reflejan el corte del 08-15** — no se recalcularon con el lote de Huberman, ha
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **1.026** (+23 con la alta de Huberman) |
-| Referentes | **47** |
-| Posts de blog | **49** (47 listicles de referente + 2 best-of de categoría) |
+| Fichas de libro | **1.036** (+23 Huberman, +10 Cowen) |
+| Referentes | **48** |
+| Posts de blog | **50** (48 listicles de referente + 2 best-of de categoría) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.201** (+36: 13 cross-ref + 23 nuevas de Huberman) |
-| Fichas con 2+ referentes (consenso) | **119** (12%) — +9 fichas que cruzaron a 2+ al sumarles a Huberman |
-| Fichas sin ASIN usable | **4** (0,4%) — sin cambios, las 23 nuevas de Huberman salieron con ASIN confirmado |
+| Vínculos libro↔referente | **1.211** (+36 Huberman, +10 Cowen) |
+| Fichas con 2+ referentes (consenso) | **119** (11%) — Cowen no sumó cross-refs, solo NUEVO |
+| Fichas sin ASIN usable | **4** (0,4%) — sin cambios, las 33 fichas nuevas de esta sesión salieron con ASIN confirmado |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
-| Fichas marcadas "solo en inglés" | **364** (35%) — +9 del lote de Huberman sin edición ES confirmada |
+| Fichas marcadas "solo en inglés" | **366** (35%) — +9 Huberman, +2 Cowen (Hayek e Incredible Bread Machine) |
 | Tamaño mediano de ficha | ~2.700 bytes (≈380 palabras) |
 
 **Lectura rápida:** el catálogo está sano —cero stubs, cero campos requeridos vacíos, 99,6% con ASIN—
@@ -136,13 +136,14 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Ray Dalio | Negocios | 4 | ✅ 07-09 | Semilla, sin discovery real |
 | Malala Yousafzai | Política | 3 | ✅ 08-14 | Listicle nuevo (3 libros, lista simple). Sigue sin fuente para profundizar |
 | Andrew Huberman | Ciencia | 36 (13 cross-ref + 23 nuevas) | ✅ 08-16 | Alta recién creada, referente #47. Manifiesto ya sourceado (brainflow.co), 4 REVISAR resueltos como NUEVO (libros distintos de autores ya en catálogo) |
+| Tyler Cowen | Negocios e Inversión | 10 (10 nuevas, 0 cross-ref) | ✅ 08-16 | Alta recién creada, referente #48. Manifiesto ya sourceado ("Books which have influenced me most", 2010), lista de baja rotación comercial por diseño (filosofía/economía clásica) |
 
-**Los 47 referentes tienen listicle.**
+**Los 48 referentes tienen listicle.**
 
-**Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 9 ·
+**Ámbitos:** Tecnología 9 · Negocios e Inversión 11 · Escritores 8 · Entretenimiento 9 ·
 Psicología 5 · Política y Sociedad 3 · Ciencia 3.
-Ciencia pasa de 2 a 3 referentes con la alta de Huberman — sigue siendo el ámbito más flaco, pero
-menos que antes.
+Ciencia sigue siendo el ámbito más flaco (3 referentes) tras la alta de Huberman; Negocios e
+Inversión pasa a ser el más grande (11) con la alta de Cowen.
 
 ---
 
@@ -174,10 +175,11 @@ menos que antes.
 ### ✅ Hecho el 2026-08-16
 9. ~~**Alta de Andrew Huberman**~~ — referente #47, 36 libros (13 cross-ref + 23 nuevos) + bio +
    ámbito Ciencia + listicle en 6 grupos temáticos. Detalle y dudas abiertas en `PROGRESO.md`.
-   Manifiesto de Tyler Cowen (`tyler-cowen-manifiesto.txt`) sigue sourceado y sin procesar.
+10. ~~**Alta de Tyler Cowen**~~ — referente #48, 10 libros (todos NUEVO) + bio + ámbito Negocios e
+    Inversión + listicle en 3 grupos. Ojo: *Individualism and Economic Order* de Hayek quedó sin
+    edición ES confirmada en Amazon — detalle en `PROGRESO.md`.
 
 ### Lo que sigue
-10. **Alta nueva** — Tyler Cowen (10, manifiesto ya sourceado). Ver `NUEVOS-REFERENTES.md`.
 11. **Best-of nuevos:** ficción (410 fichas, la categoría más grande y sin hub) · ciencia ficción
     (del Toro la engordó a 32, ya es candidato viable) · **divulgación científica / ciencia** — con el
     lote de Huberman la categoría ciencia pasa de 87 a ~103 fichas, candidato mucho más fuerte ahora.
@@ -218,5 +220,5 @@ menos que antes.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.026 fichas y 49 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.036 fichas y 50 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

@@ -2882,3 +2882,33 @@ existentes) que son libros distintos del mismo autor, no traducciones — total 
   Rompe la barrera del no.
 
 Catálogo pasa de 1.003 a **1.026 fichas** (23 nuevas), **47 referentes**, **49 posts** de blog.
+
+## 2026-08-16 (continuación) — Alta de Tyler Cowen (referente #48)
+
+Alta completa vía manifiesto ya sourceado (`tyler-cowen-manifiesto.txt`, 10 candidatos de su post
+"Books which have influenced me most", marginalrevolution.com, 2010). Reconciliado por Marcelo con
+`reconciliar.py`: 10 NUEVO, 0 CROSS-REF, 0 REVISAR — sin conflictos con el catálogo existente.
+
+- **Bio + ámbito:** `autores/tyler-cowen.md` (orden 50) + `ambitos.ts` → Negocios e Inversión.
+- **Fichas nuevas (10):** The Dialogues of Plato, The Incredible Bread Machine, Capitalism: The
+  Unknown Ideal, Individualism and Economic Order, The General Theory of Employment Interest and
+  Money, Autobiography of John Stuart Mill, Word and Object, Reasons and Persons, Sexual Personae,
+  In Search of Lost Time. Escritas directamente en la sesión (sin subagente, lote chico), con
+  WebSearch para cada ASIN — ninguno inventado.
+- **Listicle:** `libros-que-recomienda-tyler-cowen.md`, 10 libros en 3 grupos (filosofía · economía y
+  libre mercado · memoria y ficción total).
+
+**Dudas / a confirmar por Marcelo:**
+- *Individualism and Economic Order* (Hayek): no encontré una edición española de la colección
+  **completa** con ISBN confirmado en Amazon — quedó con la edición inglesa (University of Chicago
+  Press). Existe en español solo un ensayo suelto de esa colección ("Individualismo: el verdadero y
+  el falso", Unión Editorial), que NO es el mismo libro — no lo usé para no confundir ediciones.
+- *The Dialogues of Plato* y *In Search of Lost Time*: linkeados a los estuches completos (9 volúmenes
+  Gredos y estuche Alianza respectivamente) en vez de a un volumen suelto, porque el ítem del
+  manifiesto de Cowen refiere a la obra completa, no a un tomo. Precios de esos estuches son altos —
+  vale un vistazo si conviene linkear un volumen individual más barato en su lugar.
+- El propio manifiesto trae el caveat de que es una lista "intelectualmente pesada... de baja
+  rotación comercial" — a diferencia de Huberman, ninguno de estos 10 títulos es un bestseller
+  reciente. Vale la pena vigilar el rendimiento de estas fichas en Search Console.
+
+Catálogo pasa de 1.026 a **1.036 fichas**, **48 referentes**, **50 posts** de blog.
