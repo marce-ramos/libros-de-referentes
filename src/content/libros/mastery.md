@@ -5,17 +5,18 @@ asin: "6075279792"
 categoria: psicologia
 recomendadoPor:
   - ryan-holiday
+  - andrew-huberman
 anio: 2012
-resumen: "Robert Greene diseca el camino hacia la maestría en cualquier disciplina a partir de las vidas de Darwin, Mozart o Henry Ford. Lo recomienda Ryan Holiday, que trabajó años como su asistente de investigación."
+resumen: "Robert Greene diseca el camino hacia la maestría en cualquier disciplina a partir de las vidas de Darwin, Mozart o Henry Ford. Lo recomienda Ryan Holiday, que trabajó años como su asistente de investigación, junto con Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-08-06
+fechaActualizado: 2026-08-16
 ---
 
 Antes de convertirse en el gran divulgador del estoicismo, Ryan Holiday fue durante años el asistente de investigación de Robert Greene. *Maestría* es, en gran medida, el libro que salió de ese trabajo conjunto: una disección de cómo un puñado de figuras históricas —de Darwin a Mozart, de Paul Graham a Temple Grandin— llegaron a dominar por completo su campo.
 
 ## Por qué lo recomienda Ryan Holiday
 
-Greene es, en palabras del propio Holiday, el escritor vivo que más influyó en su carrera: lo conoció a los 19 años y terminó siendo su mano derecha en la investigación de varios libros, incluido este. Holiday recomienda *Maestría* en particular como el texto para encontrar la "tarea vital" propia —esa combinación de inclinación natural y trabajo deliberado que define a quienes realmente dominan un oficio— antes de meterse con el poder o la estrategia.
+Greene es, en palabras del propio Holiday, el escritor vivo que más influyó en su carrera: lo conoció a los 19 años y terminó siendo su mano derecha en la investigación de varios libros, incluido este. Holiday recomienda *Maestría* en particular como el texto para encontrar la "tarea vital" propia —esa combinación de inclinación natural y trabajo deliberado que define a quienes realmente dominan un oficio— antes de meterse con el poder o la estrategia. También lo recomienda Andrew Huberman.
 
 ## De qué trata
 

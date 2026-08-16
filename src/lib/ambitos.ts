@@ -67,4 +67,5 @@ export const ambitoDe: Record<string, string> = {
 
   "neil-degrasse-tyson": "Ciencia",
   "daniel-kahneman": "Ciencia",
+  "andrew-huberman": "Ciencia",
 };

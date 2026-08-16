@@ -5,17 +5,18 @@ asin: "8494987992"
 categoria: ciencia
 recomendadoPor:
   - marc-andreessen
+  - andrew-huberman
 anio: 2017
-resumen: "Robert Sapolsky explica el comportamiento humano cruzando neurociencia, hormonas, infancia, cultura y evolución en un mismo libro. Está entre las recomendaciones de Marc Andreessen."
+resumen: "Robert Sapolsky explica el comportamiento humano cruzando neurociencia, hormonas, infancia, cultura y evolución en un mismo libro. Está entre las recomendaciones de Marc Andreessen y Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-08-07
+fechaActualizado: 2026-08-16
 ---
 
 Robert Sapolsky es neuroendocrinólogo en Stanford y pasó buena parte de su carrera estudiando babuinos salvajes en Kenia para entender el estrés. En *Behave*, su obra más ambiciosa, aplica esa mirada a la pregunta más grande posible: por qué los humanos hacemos lo que hacemos, tanto en nuestros mejores como en nuestros peores momentos.
 
-## Por qué lo recomienda Marc Andreessen
+## Por qué lo recomiendan Marc Andreessen y Andrew Huberman
 
-El libro figura en la lista pública de recomendaciones de Andreessen, aunque no encontramos una declaración textual puntual sobre qué fue lo que lo llevó a incluirlo. La conexión temática es consistente con el resto de sus lecturas de psicología y ciencias sociales en esta misma lista —Festinger, Hoffer, Henrich—: un interés recurrente por explicar el comportamiento colectivo y la creencia humana desde sus raíces más profundas, en este caso las biológicas.
+El libro figura en la lista pública de recomendaciones de Andreessen, aunque no encontramos una declaración textual puntual sobre qué fue lo que lo llevó a incluirlo. La conexión temática es consistente con el resto de sus lecturas de psicología y ciencias sociales en esta misma lista —Festinger, Hoffer, Henrich—: un interés recurrente por explicar el comportamiento colectivo y la creencia humana desde sus raíces más profundas, en este caso las biológicas. Con Andrew Huberman la conexión es más directa: Sapolsky fue su invitado en el episodio "Dr. Robert Sapolsky: Science of Stress, Testosterone & Free Will" de Huberman Lab, donde discutieron buena parte de las ideas que estructuran este libro.
 
 ## De qué trata
 

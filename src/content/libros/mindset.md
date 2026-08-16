@@ -6,17 +6,18 @@ categoria: psicologia
 recomendadoPor:
   - satya-nadella
   - angela-duckworth
+  - andrew-huberman
 anio: 2006
-resumen: "La investigación de Carol Dweck sobre la mentalidad fija y la de crecimiento. Recomendado por Satya Nadella y Angela Duckworth."
+resumen: "La investigación de Carol Dweck sobre la mentalidad fija y la de crecimiento. Recomendado por Satya Nadella, Angela Duckworth y Andrew Huberman."
 destacado: true
-fechaActualizado: 2026-06-28
+fechaActualizado: 2026-08-16
 ---
 
 *Mindset* es uno de esos libros de psicología que trascendió la academia y cambió la forma de hablar sobre el talento y el aprendizaje. Lo recomiendan Satya Nadella —que lo usó para transformar la cultura de Microsoft— y Angela Duckworth, autora de *Grit*.
 
 ## Por qué lo recomiendan
 
-Nadella convirtió la idea central del libro en el eje del cambio cultural de Microsoft: pasar de una empresa de gente que "lo sabe todo" a una de gente que "quiere aprenderlo todo". Duckworth, que estudia la perseverancia, lo considera un complemento natural de su propio trabajo.
+Nadella convirtió la idea central del libro en el eje del cambio cultural de Microsoft: pasar de una empresa de gente que "lo sabe todo" a una de gente que "quiere aprenderlo todo". Duckworth, que estudia la perseverancia, lo considera un complemento natural de su propio trabajo. También lo recomienda Andrew Huberman.
 
 ## De qué trata
 

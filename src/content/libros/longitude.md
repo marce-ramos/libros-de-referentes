@@ -5,17 +5,18 @@ asin: "8433972693"
 categoria: ciencia
 recomendadoPor:
   - richard-branson
+  - andrew-huberman
 anio: 1995
-resumen: "La historia real de John Harrison, el relojero autodidacta que resolvió el problema científico más caro de su época. Richard Branson lo incluyó entre sus 70 libros imprescindibles."
+resumen: "La historia real de John Harrison, el relojero autodidacta que resolvió el problema científico más caro de su época. Richard Branson lo incluyó entre sus 70 libros imprescindibles; también lo recomienda Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-07-16
+fechaActualizado: 2026-08-16
 ---
 
 Durante casi trescientos años, los barcos que se aventuraban mar adentro tenían un problema mortal: sabían calcular la latitud con precisión, pero no la longitud. Sin ese dato, miles de marineros murieron en naufragios evitables, perdidos a cientos de kilómetros de donde creían estar. *Longitud* cuenta cómo un carpintero de pueblo, sin estudios formales, terminó resolviendo lo que las mentes más brillantes de la ciencia europea no pudieron.
 
 ## Por qué lo recomienda Richard Branson
 
-Branson sumó *Longitud* a su lista de 70 libros imprescindibles publicada en el blog de Virgin en abril de 2017, armada para el Día Mundial del Libro con la idea de que hubiera "algo para todos los lectores". No sorprende que este título esté ahí: Branson es un aventurero declarado —globos aerostáticos, botes, intentos de récords oceánicos— que sabe lo que significa depender de una buena navegación. Y hay algo más profundo: Branson dejó el colegio a los 16 años y construyó su imperio sin título universitario, así que una historia sobre un artesano autodidacta que le gana la partida a la academia establecida le queda como anillo al dedo.
+Branson sumó *Longitud* a su lista de 70 libros imprescindibles publicada en el blog de Virgin en abril de 2017, armada para el Día Mundial del Libro con la idea de que hubiera "algo para todos los lectores". No sorprende que este título esté ahí: Branson es un aventurero declarado —globos aerostáticos, botes, intentos de récords oceánicos— que sabe lo que significa depender de una buena navegación. Y hay algo más profundo: Branson dejó el colegio a los 16 años y construyó su imperio sin título universitario, así que una historia sobre un artesano autodidacta que le gana la partida a la academia establecida le queda como anillo al dedo. También lo recomienda Andrew Huberman.
 
 ## De qué trata
 

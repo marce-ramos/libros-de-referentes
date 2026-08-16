@@ -1,7 +1,10 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-15** (actualizado tras la alta de Pedro Almodóvar, referente #46). Números
-contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (plan y decisiones) y
+**Corte: 2026-08-16** (actualizado tras la alta de Andrew Huberman, referente #47). Números de esta
+sección 1 y de la fila de Huberman en la sección 4 recontados a mano sobre las fichas tocadas en la
+sesión (confianza alta); las secciones 2 (distribución por categoría) y 3 (consenso) **todavía
+reflejan el corte del 08-15** — no se recalcularon con el lote de Huberman, hace falta correr
+`revision_general.py` para refrescarlas del todo. Complementa a `PENDIENTES.md` (plan y decisiones) y
 `PROGRESO.md` (bitácora append-only).
 
 > ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
@@ -19,15 +22,15 @@ contados sobre `src/content/**` (no estimados). Complementa a `PENDIENTES.md` (p
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **1.003** |
-| Referentes | **46** |
-| Posts de blog | **48** (46 listicles de referente + 2 best-of de categoría) |
+| Fichas de libro | **1.026** (+23 con la alta de Huberman) |
+| Referentes | **47** |
+| Posts de blog | **49** (47 listicles de referente + 2 best-of de categoría) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.165** |
-| Fichas con 2+ referentes (consenso) | **110** (11%) |
-| Fichas sin ASIN usable | **4** (0,4%) — eran 36 antes del saneado del 08-14 |
+| Vínculos libro↔referente | **1.201** (+36: 13 cross-ref + 23 nuevas de Huberman) |
+| Fichas con 2+ referentes (consenso) | **119** (12%) — +9 fichas que cruzaron a 2+ al sumarles a Huberman |
+| Fichas sin ASIN usable | **4** (0,4%) — sin cambios, las 23 nuevas de Huberman salieron con ASIN confirmado |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
-| Fichas marcadas "solo en inglés" | **355** (36%) |
+| Fichas marcadas "solo en inglés" | **364** (35%) — +9 del lote de Huberman sin edición ES confirmada |
 | Tamaño mediano de ficha | ~2.700 bytes (≈380 palabras) |
 
 **Lectura rápida:** el catálogo está sano —cero stubs, cero campos requeridos vacíos, 99,6% con ASIN—
@@ -48,7 +51,7 @@ competidor tiene y hoy está subexplotado.
 | negocios | 115 | 12% | ✅ re-curado el 2026-08-14 (24 títulos, 5 grupos) |
 | memorias | 107 | 11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
-| ciencia | 87 | 9% | ❌ (candidato fuerte: Huberman lo engorda) |
+| ciencia | 87 → ~103 con el lote de Huberman (16 fichas nuevas/cross-ref en ciencia) | ~10% | ❌ (candidato fuerte, más viable todavía tras esta alta — recontar con `revision_general.py`) |
 | historia | 86 | 9% | ❌ |
 | filosofia | 49 | 5% | ❌ |
 | cienciaficcion | 32 | 3% | ❌ (del Toro sumó 6 — candidato más fuerte del catálogo) |
@@ -82,7 +85,7 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 
 ---
 
-## 4. Referentes (46) — libros y listicle
+## 4. Referentes (47) — libros y listicle
 
 | Referente | Ámbito | Libros | Listicle | Estado |
 | --- | --- | ---: | --- | --- |
@@ -132,12 +135,14 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Tim Ferriss | Negocios | 5 | ✅ 07-10 | Semilla, sin discovery real |
 | Ray Dalio | Negocios | 4 | ✅ 07-09 | Semilla, sin discovery real |
 | Malala Yousafzai | Política | 3 | ✅ 08-14 | Listicle nuevo (3 libros, lista simple). Sigue sin fuente para profundizar |
+| Andrew Huberman | Ciencia | 36 (13 cross-ref + 23 nuevas) | ✅ 08-16 | Alta recién creada, referente #47. Manifiesto ya sourceado (brainflow.co), 4 REVISAR resueltos como NUEVO (libros distintos de autores ya en catálogo) |
 
-**Los 46 referentes tienen listicle.**
+**Los 47 referentes tienen listicle.**
 
 **Ámbitos:** Tecnología 9 · Negocios e Inversión 10 · Escritores 8 · Entretenimiento 9 ·
-Psicología 5 · Política y Sociedad 3 · Ciencia 2.
-Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
+Psicología 5 · Política y Sociedad 3 · Ciencia 3.
+Ciencia pasa de 2 a 3 referentes con la alta de Huberman — sigue siendo el ámbito más flaco, pero
+menos que antes.
 
 ---
 
@@ -166,13 +171,20 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
    listicle. *Cien años de soledad* pasa a 6 referentes. Detalle en PROGRESO.md. Caveat de fuente:
    Diario Uno / El Placer de la Lectura no especifican la entrevista original de Almodóvar.
 
+### ✅ Hecho el 2026-08-16
+9. ~~**Alta de Andrew Huberman**~~ — referente #47, 36 libros (13 cross-ref + 23 nuevos) + bio +
+   ámbito Ciencia + listicle en 6 grupos temáticos. Detalle y dudas abiertas en `PROGRESO.md`.
+   Manifiesto de Tyler Cowen (`tyler-cowen-manifiesto.txt`) sigue sourceado y sin procesar.
+
 ### Lo que sigue
-9. **Altas nuevas** — Huberman (36) → Cowen (10). Ver `NUEVOS-REFERENTES.md`.
-10. **Best-of nuevos:** ficción (410 fichas, la categoría más grande y sin hub) · ciencia ficción
-    (del Toro la engordó a 32, ya es candidato viable) · divulgación científica (Huberman la engorda).
-11. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+10. **Alta nueva** — Tyler Cowen (10, manifiesto ya sourceado). Ver `NUEVOS-REFERENTES.md`.
+11. **Best-of nuevos:** ficción (410 fichas, la categoría más grande y sin hub) · ciencia ficción
+    (del Toro la engordó a 32, ya es candidato viable) · **divulgación científica / ciencia** — con el
+    lote de Huberman la categoría ciencia pasa de 87 a ~103 fichas, candidato mucho más fuerte ahora.
+12. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado y los listicles nuevos de Guillermo del Toro y Pedro Almodóvar.
+    best-of de negocios actualizado y los listicles nuevos de Guillermo del Toro, Pedro Almodóvar y
+    Andrew Huberman.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
@@ -206,5 +218,5 @@ Ciencia con 2 referentes es el ámbito más flaco → **Huberman lo duplica**.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.003 fichas y 48 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.026 fichas y 49 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

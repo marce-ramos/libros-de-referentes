@@ -5,17 +5,18 @@ asin: "6073909004"
 categoria: psicologia
 recomendadoPor:
   - brene-brown
+  - andrew-huberman
 anio: 2023
-resumen: "El productor musical más influyente de los últimos cuarenta años comparte su filosofía sobre la creatividad: un libro inclasificable que se lee como meditación y como guía práctica al mismo tiempo. Recomendado por Brené Brown."
+resumen: "El productor musical más influyente de los últimos cuarenta años comparte su filosofía sobre la creatividad: un libro inclasificable que se lee como meditación y como guía práctica al mismo tiempo. Recomendado por Brené Brown y Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-16
 ---
 
 Rick Rubin no necesita presentación en el mundo de la música. Produjo a Johnny Cash, a Jay-Z, a los Red Hot Chili Peppers, a Adele, a Metallica. Pero *El acto de crear* no es un libro sobre la industria musical ni sobre cómo hacer hits. Es algo más raro y más valioso: una filosofía de la creatividad contada desde adentro, desde alguien que pasó décadas ayudando a otros a crear.
 
 ## Por qué lo recomienda Brené Brown
 
-Brené Brown citó este libro como uno de los más importantes que leyó sobre creatividad y sobre la relación entre vulnerabilidad y obra. Para Brown, cuya investigación gira en torno a la valentía de mostrar algo auténtico, Rubin articula desde la práctica lo mismo que ella estudia desde la psicología: que crear desde un lugar honesto requiere soltar el control del resultado. No es un libro de autoayuda; es algo más cercano a la sabiduría.
+Brené Brown citó este libro como uno de los más importantes que leyó sobre creatividad y sobre la relación entre vulnerabilidad y obra. Para Brown, cuya investigación gira en torno a la valentía de mostrar algo auténtico, Rubin articula desde la práctica lo mismo que ella estudia desde la psicología: que crear desde un lugar honesto requiere soltar el control del resultado. No es un libro de autoayuda; es algo más cercano a la sabiduría. También lo recomienda Andrew Huberman.
 
 ## De qué trata
 

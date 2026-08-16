@@ -2840,3 +2840,45 @@ James Clear, Peter Thiel, Angela Duckworth, Daniel Kahneman, Andrew Ng, Adam Gra
   `python tools\auditar_fichas.py src\content\libros src\content\autores`, `npm run build`,
   `git commit && push`, y pedir indexación en GSC del listicle de Malala y del best-of de negocios
   actualizado.
+
+## 2026-08-16 — Alta de Andrew Huberman (referente #47)
+
+Alta completa vía manifiesto ya sourceado (`andrew-huberman-manifiesto.txt`, 36 candidatos curados de
+la lista de 47 libros de brainflow.co). Reconciliado por Marcelo con `reconciliar.py`: 13 CROSS-REF,
+19 NUEVO del script + 4 REVISAR resueltos como NUEVO tras confirmar (con `Read` sobre las fichas
+existentes) que son libros distintos del mismo autor, no traducciones — total real 23 NUEVO.
+
+- **Bio + ámbito:** `autores/andrew-huberman.md` (orden 50) + `ambitos.ts` → Ciencia (pasa a 3 referentes
+  en ese ámbito, el más flaco del sitio).
+- **Cross-refs (13):** Behave, Sapiens, Por qué dormimos, Mindset, Maestría, La guerra del arte, Fluir,
+  No me puedes lastimar, The Rise of Superman, Atrévete a no gustar, Longitud, La inmensidad del mundo,
+  El acto de crear. En Behave y Por qué dormimos se desarrolló a Huberman como segundo referente (cita
+  con episodio real de Huberman Lab); en el resto se sumó en la frase de cierre de la sección de
+  atribución existente, respetando la regla de máximo 2 desarrollados.
+- **Fichas nuevas (23):** producidas en 3 tandas vía subagente (Sonnet + WebSearch), MODO LIBRO completo.
+  Ningún ASIN inventado — los 23 quedaron con ISBN-10 confirmado por WebSearch (0 vacíos). REVISAR
+  resueltos: *The 4-Hour Body* (≠ *The 4-Hour Workweek*), *Deep Work* (≠ *So Good They Can't Ignore
+  You*), *The Talent Code* (≠ *El código de la cultura* ni *Flourish*), *The Road to Character*
+  (≠ *Cómo conocer a una persona* ni *La segunda montaña*) — los 4 son libros distintos del mismo autor,
+  confirmado leyendo las fichas ya existentes antes de escribir.
+- **Listicle:** `libros-que-recomienda-andrew-huberman.md`, 36 libros en 6 grupos temáticos (sueño/ritmo/
+  energía · neurociencia del comportamiento · rendimiento físico y mental · mentalidad y maestría ·
+  meditación y trauma · comunicación y creatividad) + lead "Por dónde empezar".
+
+**Dudas / a confirmar por Marcelo:**
+- *The Secret Pulse of Time* (Stefan Klein): ASIN tomado de la edición española "El tiempo: Los secretos
+  de nuestro bien más escaso" con ~80% de confianza de que es la misma obra (el original es en alemán,
+  2006 es la fecha de la edición en inglés) — vale un vistazo rápido en Amazon antes de darlo por firme.
+- *Altered Traits*: editorial confirmada solo como "Penguin Random House" genérico, sin sello ni
+  traductor específico.
+- *The Molecule of More*, *The Circadian Code*, *Endure*, *The Talent Code*, *Finding Ultra*,
+  *Hope for Cynics*, *The Nature of the Beast*, *Trauma: The Invisible Epidemic*: sin edición en español
+  confirmada, quedaron con título original y ASIN de la edición inglesa.
+- Varias atribuciones a Huberman no tienen cita textual puntual (se usó la fórmula honesta "aparece en
+  la lista compilada por brainflow.co, sin declaración textual específica, pero temáticamente encaja");
+  las que sí tienen episodio real confirmado por WebSearch: Behave, Por qué dormimos, La vida secreta
+  del cerebro, Generación dopamina, Respira, El tiempo (los secretos...), Deep Work, The Nature of the
+  Beast, La evolución del deseo, Hope for Cynics, Rasgos alterados, Trauma: The Invisible Epidemic,
+  Rompe la barrera del no.
+
+Catálogo pasa de 1.003 a **1.026 fichas** (23 nuevas), **47 referentes**, **49 posts** de blog.

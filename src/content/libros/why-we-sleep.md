@@ -5,17 +5,18 @@ asin: "8412064526"
 categoria: ciencia
 recomendadoPor:
   - bill-gates
+  - andrew-huberman
 anio: 2017
-resumen: "El neurocientífico Matthew Walker explica qué le pasa al cerebro y al cuerpo mientras dormimos, por qué la privación de sueño es tan dañina como el tabaco y cómo recuperar este hábito fundamental. Recomendado por Bill Gates, cambió su propia relación con el descanso."
+resumen: "El neurocientífico Matthew Walker explica qué le pasa al cerebro y al cuerpo mientras dormimos, por qué la privación de sueño es tan dañina como el tabaco y cómo recuperar este hábito fundamental. Recomendado por Bill Gates y Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-16
 ---
 
 Hay libros que te cambian una opinión y libros que te cambian un hábito. *Por qué dormimos* es de los segundos. Matthew Walker, director del Centro de Ciencias del Sueño Humano en la Universidad de California en Berkeley, pasó veinte años investigando qué sucede en el cerebro durante las horas de descanso. Lo que encontró es tan contundente que se volvió difícil de ignorar incluso para los más convencidos de que dormir poco es una virtud.
 
-## Por qué lo recomienda Bill Gates
+## Por qué lo recomiendan Bill Gates y Andrew Huberman
 
-Gates lo incluyó en su lista de fin de año 2019 con una nota personal poco habitual en él: reconoció que durante sus años en Microsoft creía que dormir mucho era señal de pereza, y que Walker lo convenció de que estaba equivocado. En su reseña en GatesNotes describió el libro como "fascinante e inquietante a la vez" y lo recomendó como punto de partida para quien quiera mejorar su salud en el nuevo año. Gates admitió que el libro lo llevó a cambiar sus hábitos nocturnos.
+Gates lo incluyó en su lista de fin de año 2019 con una nota personal poco habitual en él: reconoció que durante sus años en Microsoft creía que dormir mucho era señal de pereza, y que Walker lo convenció de que estaba equivocado. En su reseña en GatesNotes describió el libro como "fascinante e inquietante a la vez" y lo recomendó como punto de partida para quien quiera mejorar su salud en el nuevo año. Gates admitió que el libro lo llevó a cambiar sus hábitos nocturnos. Andrew Huberman fue más lejos todavía: invitó a Walker a Huberman Lab en más de una ocasión —incluida la serie de invitados dedicada por completo a "The Science & Practice of Perfecting Your Sleep"— y buena parte del protocolo de sueño que Huberman recomienda en su propio podcast se apoya directamente en la investigación que Walker desarrolla en este libro.
 
 ## De qué trata
 

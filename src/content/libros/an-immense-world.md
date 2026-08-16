@@ -5,17 +5,18 @@ asin: "8492917091"
 categoria: ciencia
 recomendadoPor:
   - barack-obama
+  - andrew-huberman
 anio: 2022
-resumen: "Cómo perciben el mundo los animales: colores que no podemos ver, sonidos que no podemos escuchar, campos magnéticos que no podemos sentir. El libro de ciencia más fascinante de 2022, elegido por Obama entre sus favoritos del año."
+resumen: "Cómo perciben el mundo los animales: colores que no podemos ver, sonidos que no podemos escuchar, campos magnéticos que no podemos sentir. El libro de ciencia más fascinante de 2022, elegido por Obama entre sus favoritos del año; también lo recomienda Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-07-10
+fechaActualizado: 2026-08-16
 ---
 
 ¿Cómo ve el mundo un perro? ¿Qué siente un pez cuando nada en un cardumen? ¿Cómo navega una tortuga marina hasta la misma playa donde nació décadas atrás? *La inmensidad del mundo* de Ed Yong responde estas preguntas con rigor científico y una prosa que hace que la ciencia se lea como aventura.
 
 ## Por qué lo recomienda Barack Obama
 
-Obama incluyó *An Immense World* (publicada en español como *La inmensidad del mundo*) entre sus libros favoritos del año 2022, en su lista anual publicada en Medium. Ed Yong ya era conocido por su trabajo en *The Atlantic*, donde ganó el Premio Pulitzer de periodismo por su cobertura de la pandemia de COVID-19. Para Obama, que tiene un interés genuino en la ciencia y en cómo se comunica al público, era una elección natural.
+Obama incluyó *An Immense World* (publicada en español como *La inmensidad del mundo*) entre sus libros favoritos del año 2022, en su lista anual publicada en Medium. Ed Yong ya era conocido por su trabajo en *The Atlantic*, donde ganó el Premio Pulitzer de periodismo por su cobertura de la pandemia de COVID-19. Para Obama, que tiene un interés genuino en la ciencia y en cómo se comunica al público, era una elección natural. También lo recomienda Andrew Huberman, coherente con el resto de su lista de lecturas centrada en neurociencia y percepción.
 
 ## De qué trata
 

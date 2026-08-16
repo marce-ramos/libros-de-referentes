@@ -5,17 +5,18 @@ asin: "1477800832"
 categoria: psicologia
 recomendadoPor:
   - marc-andreessen
+  - andrew-huberman
 anio: 2014
-resumen: "Steven Kotler investiga cómo atletas de deportes extremos alcanzan el estado de 'flow' para rendir muy por encima de lo que la ciencia consideraba posible. Marc Andreessen lo describió como un recorrido asombroso por el pico del rendimiento humano."
+resumen: "Steven Kotler investiga cómo atletas de deportes extremos alcanzan el estado de 'flow' para rendir muy por encima de lo que la ciencia consideraba posible. Marc Andreessen lo describió como un recorrido asombroso por el pico del rendimiento humano; también lo recomienda Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-08-07
+fechaActualizado: 2026-08-16
 ---
 
 ¿Cómo hace un surfista de olas gigantes para tomar decisiones en fracciones de segundo sobre una pared de agua de quince metros? Steven Kotler pasó más de una década siguiendo a atletas de deportes de riesgo extremo —surf de olas grandes, snowboard, skate, BASE jumping— para responder esa pregunta, y la respuesta que encontró tiene menos que ver con el talento innato y más con un estado mental específico y entrenable: el flow.
 
 ## Por qué lo recomienda Marc Andreessen
 
-Andreessen sumó este libro a su lista de lecturas recomendadas en X (@pmarca) en 2018, describiéndolo como "un recorrido sorprendente por una serie de dominios donde el rendimiento humano máximo está creciendo a un ritmo notable gracias al 'estado de flow'. Provocador, y no poco". Le interesa como caso de estudio de qué pasa cuando se toma en serio, con evidencia científica, algo que hasta hace poco sonaba a new age: la posibilidad de entrenar sistemáticamente los picos de desempeño.
+Andreessen sumó este libro a su lista de lecturas recomendadas en X (@pmarca) en 2018, describiéndolo como "un recorrido sorprendente por una serie de dominios donde el rendimiento humano máximo está creciendo a un ritmo notable gracias al 'estado de flow'. Provocador, y no poco". Le interesa como caso de estudio de qué pasa cuando se toma en serio, con evidencia científica, algo que hasta hace poco sonaba a new age: la posibilidad de entrenar sistemáticamente los picos de desempeño. También lo recomienda Andrew Huberman, cuyo propio trabajo de investigación en neurociencia toca de cerca la química del flow que este libro describe.
 
 ## De qué trata
 

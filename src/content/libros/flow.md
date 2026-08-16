@@ -5,17 +5,18 @@ asin: "8472453723"
 categoria: psicologia
 recomendadoPor:
   - angela-duckworth
+  - andrew-huberman
 anio: 1990
-resumen: "El psicólogo Mihaly Csikszentmihalyi describe el estado de 'flujo': esos momentos de concentración plena en los que perdemos la noción del tiempo y damos lo mejor de nosotros. Un pilar de la psicología positiva."
+resumen: "El psicólogo Mihaly Csikszentmihalyi describe el estado de 'flujo': esos momentos de concentración plena en los que perdemos la noción del tiempo y damos lo mejor de nosotros. Un pilar de la psicología positiva, recomendado también por Andrew Huberman."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-08-16
 ---
 
 *Fluir* es el libro que le dio nombre a una experiencia que todos reconocemos pero pocos sabemos provocar: esa inmersión total en una actividad en la que el tiempo desaparece. Su autor, Mihaly Csikszentmihalyi, dedicó más de dos décadas a estudiarla y se convirtió en uno de los padres de la psicología positiva.
 
 ## Por qué lo recomienda Angela Duckworth
 
-Duckworth, la psicóloga que popularizó el concepto de *grit* (determinación), apoya buena parte de su trabajo sobre las ideas de Csikszentmihalyi. Para ella, el flujo explica por qué las personas más perseverantes no solo se esfuerzan más, sino que además disfrutan genuinamente del proceso: la práctica deliberada y el flujo se retroalimentan.
+Duckworth, la psicóloga que popularizó el concepto de *grit* (determinación), apoya buena parte de su trabajo sobre las ideas de Csikszentmihalyi. Para ella, el flujo explica por qué las personas más perseverantes no solo se esfuerzan más, sino que además disfrutan genuinamente del proceso: la práctica deliberada y el flujo se retroalimentan. También lo recomienda Andrew Huberman.
 
 ## De qué trata
 
