@@ -2912,3 +2912,36 @@ Alta completa vía manifiesto ya sourceado (`tyler-cowen-manifiesto.txt`, 10 can
   reciente. Vale la pena vigilar el rendimiento de estas fichas en Search Console.
 
 Catálogo pasa de 1.026 a **1.036 fichas**, **48 referentes**, **50 posts** de blog.
+
+## 2026-08-16 (continuación) — Best-of Ficción
+
+Primer Best-of de la categoría más grande del catálogo: `ficcion` tenía 411 fichas (41% del total)
+y era la única entre las grandes sin página hub. Curado con `python tools\armar_bestof.py ficcion`
+(corrido por Marcelo), que devolvió 411 fichas enriquecidas ordenadas por consenso: 37 con 2+
+referentes, 374 con 1.
+
+- **Archivo nuevo:** `src/content/blog/mejores-libros-de-ficcion.md`.
+- **24 títulos en 5 grupos:** Los más recomendados (8 — los 8 títulos con 3+ referentes: *Cien años
+  de soledad* 6, *El alquimista* 4, y seis con 3: *El Hobbit*, *Fortuna*, *Grandes esperanzas*, *La
+  Biblia envenenada*, *La carretera*, *Un matrimonio americano*) · Clásicos rusos y europeos (5:
+  *Anna Karénina*, *Crimen y castigo*, *La Ilíada*, *Lolita*, *El corazón de las tinieblas*) ·
+  Clásicos angloamericanos del siglo XX (3: *El gran Gatsby*, *El señor de las moscas*, *Matar a un
+  ruiseñor*) · Ficción contemporánea que sigue marcando la conversación (5: *Pachinko*, *El
+  ferrocarril subterráneo*, *Un caballero en Moscú*, *Americanah*, *Mil soles espléndidos*) ·
+  Fábulas y viajes interiores (3: *El principito*, *Siddhartha*, *Ficciones*).
+- **Criterio de curaduría:** los 8 títulos con 3+ referentes entraron todos. Del resto (29 con
+  2 referentes) elegí 16 priorizando diversidad de subgénero y evitando amontonar al mismo autor
+  cuando ya estaba cubierto por otro título más fuerte. Quedaron afuera 13: *Al este del Edén*
+  (Steinbeck), *Historia de dos ciudades* (Dickens, ya está *Grandes esperanzas*), *Las aventuras de
+  Huckleberry Finn* (Twain), *Los hermanos Karamázov* (Dostoievski, ya está *Crimen y castigo*),
+  *Luz de agosto* y *Mientras agonizo* (Faulkner, sin título de Faulkner en la lista final), *El
+  lobo estepario* (Hesse, ya está *Siddhartha*), *La mala costumbre*, *MANIAC*, *Sobre los huesos de
+  los muertos*, *Y no quedó ninguno*, *¡Mártir!* y *El pacto del agua*. Es curaduría de criterio
+  editorial, no un umbral mecánico — vale que Marcelo la revise.
+- Cada entrada nombra a los referentes que lo recomiendan (mismo estilo que los best-of de negocios
+  y psicología), sin links de afiliado en el cuerpo, cerrando a `/categorias/ficcion` y `/referentes`.
+- **Sin comando de cierre específico** más allá del general (`npm run build` + commit/push). Falta
+  pedir indexación en Search Console de la URL nueva y enlazarlo desde `/categorias/ficcion` — queda
+  anotado en `ESTADO-CONTENIDO.md` junto con el resto de los enlaces pendientes.
+
+Catálogo sin cambios de fichas: **1.036 fichas**, **48 referentes**, **51 posts** de blog (50 → 51).

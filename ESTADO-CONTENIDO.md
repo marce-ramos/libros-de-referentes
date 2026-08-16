@@ -1,11 +1,13 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, misma
-sesión). Números de esta sección 1 y las filas de Huberman/Cowen en la sección 4 recontados a mano
-sobre las fichas tocadas en la sesión (confianza alta); las secciones 2 (distribución por categoría) y
-3 (consenso) **todavía reflejan el corte del 08-15** — no se recalcularon con ninguno de los dos
-lotes, hace falta correr `revision_general.py` para refrescarlas del todo. Complementa a
-`PENDIENTES.md` (plan y decisiones) y `PROGRESO.md` (bitácora append-only).
+**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, y el
+Best-of Ficción publicado más tarde la misma sesión). Números de esta sección 1 y las filas de
+Huberman/Cowen en la sección 4 recontados a mano sobre las fichas tocadas en la sesión (confianza
+alta); la fila de `ficcion` en la sección 2 se actualizó con el conteo real de `armar_bestof.py`
+(411) y su columna de Best-of; el resto de la sección 2 y la sección 3 (consenso) **todavía reflejan
+el corte del 08-15** — no se recalcularon del todo, hace falta correr `revision_general.py` para
+refrescarlas. Complementa a `PENDIENTES.md` (plan y decisiones) y `PROGRESO.md` (bitácora
+append-only).
 
 > ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
 > libros / 35 posts** cuando el catálogo real de ese día era de **974 libros / 45 posts**. La
@@ -24,7 +26,7 @@ lotes, hace falta correr `revision_general.py` para refrescarlas del todo. Compl
 | --- | --- |
 | Fichas de libro | **1.036** (+23 Huberman, +10 Cowen) |
 | Referentes | **48** |
-| Posts de blog | **50** (48 listicles de referente + 2 best-of de categoría) |
+| Posts de blog | **51** (48 listicles de referente + 3 best-of de categoría) |
 | Categorías | **9** |
 | Vínculos libro↔referente | **1.211** (+36 Huberman, +10 Cowen) |
 | Fichas con 2+ referentes (consenso) | **119** (11%) — Cowen no sumó cross-refs, solo NUEVO |
@@ -47,7 +49,7 @@ competidor tiene y hoy está subexplotado.
 
 | Categoría | Fichas | % | Best-of publicado |
 | --- | --- | --- | --- |
-| ficcion | 410 | 41% | ❌ |
+| ficcion | 411 | 41% | ✅ 2026-08-16 (24 títulos, 5 grupos) |
 | negocios | 115 | 12% | ✅ re-curado el 2026-08-14 (24 títulos, 5 grupos) |
 | memorias | 107 | 11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
@@ -178,15 +180,18 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 10. ~~**Alta de Tyler Cowen**~~ — referente #48, 10 libros (todos NUEVO) + bio + ámbito Negocios e
     Inversión + listicle en 3 grupos. Ojo: *Individualism and Economic Order* de Hayek quedó sin
     edición ES confirmada en Amazon — detalle en `PROGRESO.md`.
+11. ~~**Best-of Ficción**~~ — primer hub de la categoría más grande del catálogo (411 fichas, 41%):
+    24 títulos en 5 grupos, curados con `armar_bestof.py ficcion` sobre 37 fichas con 2+ referentes.
+    Detalle de qué quedó afuera y por qué en `PROGRESO.md`.
 
 ### Lo que sigue
-11. **Best-of nuevos:** ficción (410 fichas, la categoría más grande y sin hub) · ciencia ficción
-    (del Toro la engordó a 32, ya es candidato viable) · **divulgación científica / ciencia** — con el
-    lote de Huberman la categoría ciencia pasa de 87 a ~103 fichas, candidato mucho más fuerte ahora.
-12. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+12. **Best-of nuevos:** ciencia ficción (del Toro la engordó a 32, ya es candidato viable) ·
+    **divulgación científica / ciencia** — con el lote de Huberman la categoría ciencia pasa de 87 a
+    ~103 fichas, candidato mucho más fuerte ahora.
+13. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado y los listicles nuevos de Guillermo del Toro, Pedro Almodóvar y
-    Andrew Huberman.
+    best-of de negocios actualizado, el Best-of Ficción recién publicado y los listicles nuevos de
+    Guillermo del Toro, Pedro Almodóvar y Andrew Huberman.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
