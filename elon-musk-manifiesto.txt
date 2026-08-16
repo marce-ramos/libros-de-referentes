@@ -1,0 +1,71 @@
+# Manifiesto de discovery — Elon Musk (fundador de SpaceX, CEO de Tesla, ámbito: Tecnología)
+# "Semilla sin discovery real" (catálogo actual: 7 libros) — primera pasada real de sourcing, 2026-08-16.
+# Fuentes: readthistwice.com/person/elon-musk (compilado de "51 books Elon Musk recommended"; 10 con
+#   tweet+fecha propios, el resto agregados en la misma página sin fecha individual) y
+#   ejorgenson.com/blog/elons-recommended-reading (lista temática de Eric Jorgenson, sin cita por ítem —
+#   cruzada solo para sumar candidatos que RTT no traía).
+# OJO (caveat): de los 59 candidatos, solo los 10 marcados "RTT (tweet AAAA-MM-DD)" tienen una fuente
+#   primaria puntual (el tweet de Musk). El resto son compilaciones de terceros (RTT / Jorgenson) — antes
+#   de enriquecer conviene un chequeo rápido de los que generen más duda. Ninguno inventado: todos
+#   aparecen explícitamente en alguna de las dos páginas fetcheadas.
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+The Story of Civilization, Volume II: The Medieval World|Phillip Campbell|RTT (tweet 2022-03-13)
+The Life of Greece|Will Durant|RTT (tweet 2020-09-14)
+Our Oriental Heritage|Will Durant|RTT (tweet 2020-07-05)
+The Age of Napoleon|Will Durant|RTT (tweet 2020-05-15)
+Foundation|Isaac Asimov|RTT (tweet 2020-02-20)
+The Player of Games|Iain M. Banks|RTT (tweet 2019-12-14)
+Human Compatible|Stuart Russell|RTT (tweet 2019-10-08)
+Surface Detail|Iain M. Banks|RTT (tweet 2018-06-16)
+Capital|Karl Marx|RTT (tweet 2018-06-16)
+The Wealth of Nations|Adam Smith|RTT (tweet 2018-06-16)
+Dune|Frank Herbert|RTT
+Dune Messiah|Frank Herbert|RTT
+Children of Dune|Frank Herbert|RTT
+God Emperor of Dune|Frank Herbert|RTT
+Heretics of Dune|Frank Herbert|RTT
+Chapterhouse: Dune|Frank Herbert|RTT
+Life 3.0|Max Tegmark|RTT
+The Big Picture|Sean Carroll|RTT
+Zero to One|Peter Thiel|RTT
+Superintelligence|Nick Bostrom|RTT
+Lying|Sam Harris|RTT
+Our Final Invention|James Barrat|RTT
+The Hydrogen Sonata|Iain M. Banks|RTT
+The Fault in Our Stars|John Green|RTT
+Screw Business As Usual|Richard Branson|RTT
+Catherine the Great|Robert K. Massie|RTT
+Steve Jobs|Walter Isaacson|RTT
+A Game of Thrones|George R. R. Martin|RTT
+A Clash of Kings|George R. R. Martin|RTT
+A Storm of Swords|George R. R. Martin|RTT
+A Feast for Crows|George R. R. Martin|RTT
+A Dance with Dragons|George R. R. Martin|RTT
+Waiting for Godot|Samuel Beckett|RTT
+Merchants of Doubt|Naomi Oreskes|RTT
+Daemon|Daniel Suarez|RTT
+The Machine Stops|E. M. Forster|RTT
+Consider Phlebas|Iain M. Banks|RTT
+Use of Weapons|Iain M. Banks|RTT
+Excession|Iain M. Banks|RTT
+Inversions|Iain M. Banks|RTT
+Look to Windward|Iain M. Banks|RTT
+The State of the Art|Iain M. Banks|RTT
+Matter|Iain M. Banks|RTT
+The Lord of the Rings|J. R. R. Tolkien|RTT
+The Hitchhiker's Guide to the Galaxy|Douglas Adams|RTT
+Howard Hughes|Donald L. Barlett|RTT
+Benjamin Franklin|Walter Isaacson|RTT
+Twelve Against the Gods|William Bolitho|RTT
+If the Universe Is Teeming with Aliens... Where Is Everybody?|Stephen Webb|RTT
+Ignition!|John Drury Clark|RTT
+The History of the Decline and Fall of the Roman Empire|Edward Gibbon|Jorgenson
+Storm of Steel|Ernst Junger|Jorgenson
+The Fifteen Decisive Battles of the World|Edward Shepherd Creasy|Jorgenson
+Stalin: Court of the Red Tsar|Simon Sebag Montefiore|Jorgenson
+Explore/Create|Richard Garriott|Jorgenson
+Structures|J. E. Gordon|Jorgenson
+What We Owe the Future|William MacAskill|Jorgenson
+The Skeptics' Guide to the Universe|Steven Novella|Jorgenson
+Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX|Eric Berger|Jorgenson (libro sobre Musk que él mismo recomienda, no autobiográfico)

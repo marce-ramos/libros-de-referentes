@@ -2945,3 +2945,132 @@ referentes, 374 con 1.
   anotado en `ESTADO-CONTENIDO.md` junto con el resto de los enlaces pendientes.
 
 Catálogo sin cambios de fichas: **1.036 fichas**, **48 referentes**, **51 posts** de blog (50 → 51).
+
+## 2026-08-16 (continuación) — Discovery Elon Musk
+
+Primera pasada real de sourcing para Elon Musk, que estaba como "semilla sin discovery real" (7
+libros cargados, sin fuente documentada más allá de "sus redes y entrevistas"). No se tocó el
+catálogo — solo se generó el manifiesto.
+
+- **Fuentes fetcheadas:** `readthistwice.com/person/elon-musk` (compilado "51 books Elon Musk
+  recommended"; 10 de esos con tweet propio y fecha) y `ejorgenson.com/blog/elons-recommended-reading`
+  (lista temática de Eric Jorgenson, cruzada para sumar los candidatos que RTT no traía: historia
+  militar/romana, un par de ciencia y *Liftoff*, el libro de Eric Berger sobre los primeros años de
+  SpaceX que Musk recomienda aunque no sea autobiográfico).
+- **Manifiesto:** `elon-musk-manifiesto.txt`, 59 candidatos — 10 con fuente primaria puntual (tweet +
+  fecha), 49 de compilaciones de terceros (RTT / Jorgenson) sin cita individual.
+- **No se hizo reconciliar todavía.** Con 59 candidatos y solo 7 libros hoy en catálogo, es una "alta
+  grande" — conviene reconciliar primero (`python tools\reconciliar.py elon-musk
+  elon-musk-manifiesto.txt`) para separar YA-LINKED/CROSS-REF de NUEVO antes de decidir cuántos cargar
+  de una (la convención del proyecto es priorizar ~20-25 y dejar el resto en backlog explícito).
+
+Catálogo sin cambios: **1.036 fichas**, **48 referentes**, **51 posts** de blog.
+
+## 2026-08-16 (continuación) — Alta de Elon Musk (7 → 37 libros)
+
+Marcelo corrió `python tools\reconciliar.py elon-musk elon-musk-manifiesto.txt` sobre los 59
+candidatos del discovery y pegó el resultado: **YA-LINKED=6, CROSS-REF=4, REVISAR=17, NUEVO=32**.
+
+**Resolución de los 17 REVISAR** (títulos que el reconciliador no pudo clasificar solo, por
+coincidencia parcial de título/autor con algo ya en catálogo):
+
+- **15 → NUEVO.** Eran libros genuinamente distintos de autores prolíficos ya presentes: los 5
+  restantes de *Canción de Hielo y Fuego* (Martin, solo *Juego de Tronos* contaba como posible match
+  parcial), los 5 tomos restantes de Dune (Herbert), 4 novelas de la Cultura de Iain M. Banks (Banks
+  ya estaba por *El jugador* — cross-ref, no estos 4), y *Steve Jobs* de Isaacson (Isaacson ya estaba
+  por su *Benjamin Franklin*, que es un libro distinto).
+- **1 → CROSS-REF.** *Benjamin Franklin: An American Life* (Isaacson) — coincide con la ficha que
+  Paul Graham ya tenía cargada. Se sumó `elon-musk` a su `recomendadoPor`.
+- **1 → NO-OP, sin acción.** *Structures: Or Why Things Don't Fall Down* (J.E. Gordon) — el
+  reconciliador lo marcó REVISAR porque el autor ya existe en catálogo, pero al abrir la ficha
+  (`structures-or-why-things-don-t-fall-down.md`) resultó ser exactamente el mismo libro que Musk ya
+  tenía cargado desde la semilla original, con `recomendadoPor: [elon-musk]` en solitario. No era un
+  cross-ref: era el mismo libro re-detectado. No se tocó.
+
+**Priorización de los 47 NUEVO resultantes** (32 originales + 15 de REVISAR): con ese volumen se
+aplicó la convención de "alta grande" — se enriquecieron **25** ahora y quedan **22** en backlog
+explícito abajo. Prioridad para los 25: los 4 CROSS-REF ya cuentan aparte; de los NUEVO se priorizó
+(a) todo lo sourceado con tweet propio de Musk, (b) títulos mainstream de alta demanda de búsqueda,
+y (c) las sagas completas de Canción de Hielo y Fuego y Dune, para consolidar `cienciaficcion` y
+`ficcion` de una sola vez en vez de dejarlas a medio completar.
+
+**25 fichas nuevas** (subagentes en paralelo, 5 tandas de 5), todas con ASIN verificado salvo la
+excepción marcada:
+
+- *Canción de Hielo y Fuego* completa, los 5 tomos restantes (`ficcion`): *A Clash of Kings*
+  [8496208354], *A Storm of Swords* [**8496208982** — ⚠️ ver caveat abajo], *A Feast for Crows*
+  [8496208990], *A Dance with Dragons* [8496208583]. (*A Game of Thrones* ya estaba YA-LINKED.)
+- *Dune*, saga completa restante (`cienciaficcion`): *Dune Messiah* [8466356967], *Children of Dune*
+  [8466357009], *God Emperor of Dune* [8466359443], *Heretics of Dune* [8466359397], *Chapterhouse:
+  Dune* [8466359451].
+- La Cultura, de Iain M. Banks (`cienciaficcion`): *Consider Phlebas* [8498002990], *The Player of
+  Games* ya estaba (cross-ref, ver abajo), *Use of Weapons* [8498004489], *Surface Detail*
+  [sin ASIN — ver caveat].
+- Otra ciencia ficción (`cienciaficcion`): *Daemon* [8489367752] de Daniel Suarez.
+- Ficción contemporánea (`ficcion`): *The Fault in Our Stars* [8415594011] de John Green (Bajo la
+  misma estrella).
+- Ciencia (`ciencia`): *Human Compatible* [0525558616] de Stuart Russell, *The Big Picture*
+  [0525954821] de Sean Carroll.
+- Negocios (`negocios`): *El Capital* [8432317667] de Karl Marx, *Screw Business As Usual*
+  [0753540592] de Richard Branson.
+- Memorias (`memorias`): *Steve Jobs* [8499921183] de Walter Isaacson, *Liftoff* [0008445621] de
+  Eric Berger.
+- Historia — Will Durant, *The Story of Civilization* (`historia`), 4 tomos: *The Life of Greece*
+  [1567310133], *Our Oriental Heritage* [1567310125], *The Age of Napoleon* [1567310222], *The Story
+  of Civilization Vol. II: The Medieval World* [1505105749].
+
+⚠️ **Caveats de esta tanda:**
+- **`a-storm-of-swords.md`** — ASIN `8496208982` no se verificó directamente contra una página de
+  producto de Amazon (a diferencia del resto de la saga, donde sí); se derivó por patrón de
+  numeración de la colección. **Pendiente que Marcelo lo confirme en amazon.es antes de publicar.**
+- **`surface-detail.md`** — sin edición en español confirmada en Amazon; `asin` queda vacío a
+  propósito (misma convención que otras fichas solo-inglés sin ASIN localizable).
+
+**5 cross-ref** (libros que ya estaban en catálogo por otro referente, se sumó `elon-musk` a
+`recomendadoPor` y se ajustó la prosa de atribución):
+
+- *The Player of Games* (Banks) — antes solo Zuckerberg, ahora plural. Se sumó una mención a los
+  nombres de los drones de SpaceX ("Of Course I Still Love You", "Just Read the Instructions"),
+  tomados de nombres de naves de la Cultura.
+- *The Wealth of Nations* — antes solo Neil deGrasse Tyson, se mantuvo singular en el título de la
+  sección (no se pluralizó a propósito, según precedente) y se sumó un párrafo sobre Musk citándolo
+  el mismo día que tuiteó sobre *El Capital*.
+- *Vida 3.0* (Tegmark) — antes Andrew Ng + Lex Fridman, se sumó una oración sobre el financiamiento
+  de Musk al Future of Life Institute que Tegmark cofundó.
+- *El Señor de los Anillos* — antes solo Paul Graham, ahora plural. Se sumó un párrafo sobre el
+  interés compartido en mundos de escala épica (Dune, Fundación, la Cultura).
+- *Benjamin Franklin: An American Life* — antes solo Paul Graham, ahora plural. Se sumó un párrafo
+  sobre el paralelismo entre el pragmatismo inventivo de Franklin y los "primeros principios" de
+  Musk.
+
+**Listicle regenerado** (`libros-que-recomienda-elon-musk.md`, `fechaActualizado` 07-10 → 08-16, se
+mantuvo `fecha` original 2026-07-09 por convención): de 7 libros en 3 grupos pasó a **37 libros en 8
+grupos**: lead "Por dónde empezar" (Dune, De cero a uno, Fundación, Ignition!) · La saga de Dune
+completa (6) · La Cultura, de Iain M. Banks (4) · Otra ciencia ficción, con una excepción a la regla
+(4: Fundación, Guía del autoestopista galáctico, Daemon, Bajo la misma estrella — este último es el
+único título de ficción contemporánea, se fusionó acá en vez de darle grupo propio por regla de
+categoría mínima) · Fantasía épica: de Poniente a la Tierra Media (6: los 5 de Canción de Hielo y
+Fuego + El Señor de los Anillos) · Ciencia e ingeniería, desde los primeros principios (6) ·
+Negocios, poder y economía (4) · Historia a gran escala (4, los tomos de Durant) · Vidas que enseñan
+algo (3: Steve Jobs, Benjamin Franklin, Liftoff).
+
+**Backlog explícito — 22 ítems NUEVO que quedaron sin enriquecer** (para una futura pasada de
+Profundizar), todos de menor prioridad por ser de nicho, baja demanda de búsqueda esperada, o
+disponibilidad ES incierta:
+
+- **6 novelas restantes de la Cultura de Banks:** *The State of the Art*, *Excession*,
+  *Inversions*, *Look to Windward*, *Matter*, *The Hydrogen Sonata*.
+- **Historia militar/romana y otros Durant/afines** sourceados por Jorgenson que no entraron en esta
+  tanda (verificar títulos exactos contra `elon-musk-manifiesto.txt` antes de encarar).
+- El resto de los ~16 títulos de compilaciones de terceros (RTT/Jorgenson) que no tenían tweet propio
+  de Musk ni encajaban en las sagas priorizadas — quedan listados en el manifiesto original,
+  sin re-copiar acá para no duplicar la fuente de verdad.
+
+Verificación: `ls` de las 25 fichas nuevas + spot-check de formato (frontmatter completo, sección
+única de atribución, blockquote de cierre) en varias; los 5 cross-ref se releyeron enteros tras la
+edición — se detectó y corrigió un error propio (párrafo de atribución mal ubicado en
+`the-wealth-of-nations.md`, movido a la sección correcta antes de commitear).
+
+Catálogo pasa de 1.036 a **1.061 fichas** (+25), vínculos libro↔referente de 1.211 a **1.241** (+30:
+25 nuevas + 5 cross-ref), Elon Musk pasa de 7 a **37 libros**. Referentes y posts sin cambios: **48
+referentes**, **51 posts** de blog (el listicle de Musk se regeneró, no es post nuevo).

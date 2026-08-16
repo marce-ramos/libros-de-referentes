@@ -5,10 +5,11 @@ asin: "8417893965"
 categoria: negocios
 recomendadoPor:
   - neil-degrasse-tyson
+  - elon-musk
 anio: 1776
-resumen: "El tratado fundacional de la economía moderna, publicado por Adam Smith en 1776, donde nace la idea de la 'mano invisible' del mercado. Neil deGrasse Tyson lo incluye entre los ocho libros que, según él, todo el mundo debería leer."
+resumen: "El tratado fundacional de la economía moderna, publicado por Adam Smith en 1776, donde nace la idea de la 'mano invisible' del mercado. Neil deGrasse Tyson lo incluye entre los ocho libros que, según él, todo el mundo debería leer; también lo recomienda Elon Musk."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-16
 ---
 
 En 1776 —el mismo año de la independencia de Estados Unidos— el filósofo escocés Adam Smith publicó *Una investigación sobre la naturaleza y causas de la riqueza de las naciones*, un libro que fundó una disciplina entera. Antes de Smith, la riqueza se entendía como oro acumulado en las arcas del rey. Después de Smith, se entendió como la capacidad productiva de una sociedad libre para intercambiar trabajo y bienes.
@@ -16,6 +17,8 @@ En 1776 —el mismo año de la independencia de Estados Unidos— el filósofo e
 ## Por qué lo recomienda Neil deGrasse Tyson
 
 En su AMA de Reddit de 2011, Tyson incluyó *La riqueza de las naciones* entre los ocho libros que "toda persona inteligente debería leer", con esta explicación: *"para aprender que el capitalismo es una economía de la codicia, una fuerza de la naturaleza en sí misma"*. Es una lectura característicamente científica de Tyson: no lee a Smith como manual de gestión, sino como una descripción casi física de cómo se comporta un sistema complejo cuando millones de agentes persiguen su propio interés sin coordinación central.
+
+También lo recomienda Elon Musk, que según el relevamiento de readthistwice.com lo tuiteó el mismo día —16 de junio de 2018— que recomendaba *El Capital* de Karl Marx, el contrapunto ideológico de Smith: un gesto que sugiere que buscaba entender las dos caras del debate económico, no solo confirmar una postura.
 
 ## De qué trata
 

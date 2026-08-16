@@ -1,13 +1,13 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, y el
-Best-of Ficción publicado más tarde la misma sesión). Números de esta sección 1 y las filas de
-Huberman/Cowen en la sección 4 recontados a mano sobre las fichas tocadas en la sesión (confianza
-alta); la fila de `ficcion` en la sección 2 se actualizó con el conteo real de `armar_bestof.py`
-(411) y su columna de Best-of; el resto de la sección 2 y la sección 3 (consenso) **todavía reflejan
-el corte del 08-15** — no se recalcularon del todo, hace falta correr `revision_general.py` para
-refrescarlas. Complementa a `PENDIENTES.md` (plan y decisiones) y `PROGRESO.md` (bitácora
-append-only).
+**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, el
+Best-of Ficción, y el discovery de Elon Musk publicados más tarde la misma sesión). Números de esta
+sección 1 y las filas de Huberman/Cowen/Musk en la sección 4 recontados a mano sobre las fichas
+tocadas en la sesión (confianza alta); la fila de `ficcion` en la sección 2 se actualizó con el
+conteo real de `armar_bestof.py` (411, previo al alta de Musk) y su columna de Best-of; el resto de
+la sección 2 y la sección 3 (consenso) **todavía reflejan el corte del 08-15** — no se recalcularon
+del todo, hace falta correr `revision_general.py` para refrescarlas. Complementa a `PENDIENTES.md`
+(plan y decisiones) y `PROGRESO.md` (bitácora append-only).
 
 > ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
 > libros / 35 posts** cuando el catálogo real de ese día era de **974 libros / 45 posts**. La
@@ -24,15 +24,15 @@ append-only).
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **1.036** (+23 Huberman, +10 Cowen) |
+| Fichas de libro | **1.061** (+23 Huberman, +10 Cowen, +25 Musk) |
 | Referentes | **48** |
 | Posts de blog | **51** (48 listicles de referente + 3 best-of de categoría) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.211** (+36 Huberman, +10 Cowen) |
-| Fichas con 2+ referentes (consenso) | **119** (11%) — Cowen no sumó cross-refs, solo NUEVO |
-| Fichas sin ASIN usable | **4** (0,4%) — sin cambios, las 33 fichas nuevas de esta sesión salieron con ASIN confirmado |
+| Vínculos libro↔referente | **1.241** (+36 Huberman, +10 Cowen, +30 Musk: 25 nuevas + 5 cross-ref) |
+| Fichas con 2+ referentes (consenso) | **124** (12%) — Cowen no sumó cross-refs, solo NUEVO; Musk sumó 5 cross-ref |
+| Fichas sin ASIN usable | **5** (0,5%) — +1: `surface-detail` (Iain M. Banks, alta de Musk) sin edición ES confirmada, `asin` vacío a propósito |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
-| Fichas marcadas "solo en inglés" | **366** (35%) — +9 Huberman, +2 Cowen (Hayek e Incredible Bread Machine) |
+| Fichas marcadas "solo en inglés" | **375** (35%) — +9 Huberman, +2 Cowen (Hayek e Incredible Bread Machine), +9 Musk (Durant x4, Big Picture, Human Compatible, Screw Business As Usual, Liftoff, Surface Detail)
 | Tamaño mediano de ficha | ~2.700 bytes (≈380 palabras) |
 
 **Lectura rápida:** el catálogo está sano —cero stubs, cero campos requeridos vacíos, 99,6% con ASIN—
@@ -49,18 +49,20 @@ competidor tiene y hoy está subexplotado.
 
 | Categoría | Fichas | % | Best-of publicado |
 | --- | --- | --- | --- |
-| ficcion | 411 | 41% | ✅ 2026-08-16 (24 títulos, 5 grupos) |
-| negocios | 115 | 12% | ✅ re-curado el 2026-08-14 (24 títulos, 5 grupos) |
-| memorias | 107 | 11% | ❌ |
+| ficcion | 411 → 417 con Musk (+5 ASOIAF, +1 Fault in Our Stars) | ~41% | ✅ 2026-08-16 (24 títulos, 5 grupos, previo al alta de Musk) |
+| negocios | 115 → 117 con Musk (+El Capital, +Screw Business As Usual) | ~12% | ✅ re-curado el 2026-08-14 |
+| memorias | 107 → 109 con Musk (+Steve Jobs, +Liftoff) | ~11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
-| ciencia | 87 → ~103 con el lote de Huberman (16 fichas nuevas/cross-ref en ciencia) | ~10% | ❌ (candidato fuerte, más viable todavía tras esta alta — recontar con `revision_general.py`) |
-| historia | 86 | 9% | ❌ |
+| ciencia | 87 → ~103 con Huberman → ~105 con Musk (+Human Compatible, +The Big Picture) | ~10% | ❌ (candidato fuerte, más viable todavía tras estas altas — recontar con `revision_general.py`) |
+| historia | 86 → 90 con Musk (+4 tomos de Durant) | ~9% | ❌ |
 | filosofia | 49 | 5% | ❌ |
-| cienciaficcion | 32 | 3% | ❌ (del Toro sumó 6 — candidato más fuerte del catálogo) |
+| cienciaficcion | 32 → 41 con Musk (+9: saga de Dune completa + Culture de Banks) | ~4% | ❌ (candidato mucho más fuerte del catálogo tras del Toro + Musk) |
 | espiritualidad | 15 | 2% | ❌ |
 
 Ficción concentra 4 de cada 10 fichas —efecto Oprah (122), Reese (56), Portman (35), Jenna (31)— y no
-tiene best-of. Es la categoría más grande del sitio sin página hub.
+tiene best-of. Es la categoría más grande del sitio sin página hub. Ciencia ficción es la que más
+creció proporcionalmente en la sesión (32 → 41, +28%) gracias a la saga de Dune y la Cultura de Banks
+en la alta de Musk.
 
 ---
 
@@ -130,7 +132,7 @@ tiene best-of. Es la categoría más grande del sitio sin página hub.
 | Andrew Ng | Tecnología | 9 | ✅ 07-22 | — |
 | Daniel Kahneman | Ciencia | 9 | ✅ 07-23 | — |
 | Vitalik Buterin | Tecnología | 8 | ✅ 07-22 | SKIP profundizar (fuente agotada) |
-| Elon Musk | Tecnología | 7 | ✅ 07-10 | Semilla, sin discovery real |
+| Elon Musk | Tecnología | 37 (7 semilla + 25 nuevas + 5 cross-ref) | ✅ 08-16 (regenerado, 8 grupos temáticos) | Alta recién cerrada. Manifiesto sourceado (readthistwice.com + ejorgenson.com), 17 REVISAR resueltos (15→NUEVO, 1→CROSS-REF, 1→NO-OP ya cubierto). Backlog explícito de 22 ítems en PROGRESO.md, ASIN de `a-storm-of-swords` sin verificar directamente en Amazon |
 | Isabel Allende | Escritores | 6 | ✅ 07-31 | Cerrado |
 | Pedro Almodóvar | Entretenimiento | 6 | ✅ 08-15 | Alta recién creada, referente #46. 3 cross-refs (incluido Cien años de soledad, que pasa a 6 referentes) |
 | Jordan Peterson | Psicología | 5 | ✅ 07-10 | Semilla, sin discovery real |
@@ -183,20 +185,25 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 11. ~~**Best-of Ficción**~~ — primer hub de la categoría más grande del catálogo (411 fichas, 41%):
     24 títulos en 5 grupos, curados con `armar_bestof.py ficcion` sobre 37 fichas con 2+ referentes.
     Detalle de qué quedó afuera y por qué en `PROGRESO.md`.
+12. ~~**Discovery + alta de Elon Musk**~~ — de 7 a 37 libros (25 nuevas fichas + 5 cross-ref),
+    listicle regenerado en 8 grupos temáticos. Backlog explícito de 22 ítems (Culture de Banks
+    restante, títulos de baja disponibilidad ES) y ASIN de `a-storm-of-swords` pendiente de
+    verificación manual — ambos detallados en `PROGRESO.md`.
 
 ### Lo que sigue
-12. **Best-of nuevos:** ciencia ficción (del Toro la engordó a 32, ya es candidato viable) ·
-    **divulgación científica / ciencia** — con el lote de Huberman la categoría ciencia pasa de 87 a
-    ~103 fichas, candidato mucho más fuerte ahora.
-13. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+13. **Best-of nuevos:** ciencia ficción (del Toro + Musk la engordaron a 41, candidato fuerte ya) ·
+    **divulgación científica / ciencia** — con los lotes de Huberman y Musk la categoría ciencia pasa
+    de 87 a ~105 fichas, candidato mucho más fuerte ahora.
+14. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
     best-of de negocios actualizado, el Best-of Ficción recién publicado y los listicles nuevos de
-    Guillermo del Toro, Pedro Almodóvar y Andrew Huberman.
+    Guillermo del Toro, Pedro Almodóvar, Andrew Huberman y Elon Musk (regenerado).
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
-11. **Semillas sin discovery real:** Musk (7), Peterson (5), Ferriss (5), Dalio (4). Son nombres de alta
-    demanda con catálogo mínimo — cada uno vale un discovery propio.
+11. **Semillas sin discovery real:** Peterson (5), Ferriss (5), Dalio (4). Musk ya salió de esta lista
+    (discovery hecho el 08-16, 7→37). Son nombres de alta demanda con catálogo mínimo — cada uno vale
+    un discovery propio.
 12. **Fotos de referentes** (Wikimedia CC) + página de créditos.
 
 ---
@@ -225,5 +232,5 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.036 fichas y 50 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.061 fichas y 51 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

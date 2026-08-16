@@ -5,17 +5,20 @@ asin: "844500302X"
 categoria: ficcion
 recomendadoPor:
   - paul-graham
+  - elon-musk
 anio: 1954
-resumen: "La trilogía que consolidó la fantasía moderna como género: la misión de Frodo Bolsón para destruir el Anillo Único y la guerra que decide el destino de la Tierra Media. Está confirmado en el relevamiento público de las recomendaciones de lectura de Paul Graham."
+resumen: "La trilogía que consolidó la fantasía moderna como género: la misión de Frodo Bolsón para destruir el Anillo Único y la guerra que decide el destino de la Tierra Media. Está confirmado en el relevamiento público de las recomendaciones de lectura de Paul Graham; también lo recomienda Elon Musk."
 destacado: false
-fechaActualizado: 2026-08-09
+fechaActualizado: 2026-08-16
 ---
 
 Casi veinte años después de escribir *El Hobbit* como un cuento para sus hijos, J.R.R. Tolkien publicó entre 1954 y 1955 *El Señor de los Anillos*: una obra muchísimo más extensa y ambiciosa, que tomó la Tierra Media de la primera novela y la convirtió en el escenario de una guerra a escala continental. Lo que empezó como una secuela terminó siendo el texto fundacional del género de fantasía moderno, con una influencia que todavía se nota en casi todo lo que vino después.
 
-## Por qué lo recomienda Paul Graham
+## Por qué lo recomiendan Paul Graham y Elon Musk
 
 Este título está confirmado en el relevamiento público de las recomendaciones de lectura de Paul Graham (goodbooks.io), sin una cita textual específica. Vale aclarar que no es el único libro de Tolkien en su lista: Graham también recomienda *El Hobbit*, la precuela más breve y liviana que da origen a esta historia. Son libros distintos en tono y escala —*El Hobbit* es un cuento de aventuras, *El Señor de los Anillos* es una épica de guerra y sacrificio— y que Graham recomiende ambos sugiere un interés genuino en el universo completo de Tolkien, no solo en una entrada puntual a la fantasía.
+
+Elon Musk también lo recomienda, según el relevamiento de readthistwice.com sobre sus lecturas —sin cita textual puntual tampoco—, en línea con el resto de su biblioteca de ciencia ficción y fantasía épica que ya está en este catálogo (*Dune*, *Foundation*, la saga de La Cultura): un lector que busca mundos construidos con la misma ambición de escala que aplica a sus propios proyectos.
 
 ## De qué trata
 
