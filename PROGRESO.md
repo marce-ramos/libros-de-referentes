@@ -3074,3 +3074,40 @@ edición — se detectó y corrigió un error propio (párrafo de atribución ma
 Catálogo pasa de 1.036 a **1.061 fichas** (+25), vínculos libro↔referente de 1.211 a **1.241** (+30:
 25 nuevas + 5 cross-ref), Elon Musk pasa de 7 a **37 libros**. Referentes y posts sin cambios: **48
 referentes**, **51 posts** de blog (el listicle de Musk se regeneró, no es post nuevo).
+
+## 2026-08-21 — Best-of Ciencia
+
+Segunda categoría grande sin página hub: `ciencia` tenía ~105 fichas (99 enriquecidas con ASIN
+válido, según `python tools\armar_bestof.py ciencia` corrido por Marcelo), engordada por las altas
+de Huberman y Musk. De esas 99, 17 tienen 2+ referentes (consenso) y 82 tienen 1 solo.
+
+- **Archivo nuevo:** `src/content/blog/mejores-libros-de-ciencia.md`.
+- **23 títulos en 5 grupos:** Los más recomendados (5 — *Sapiens* 8 referentes, y cuatro con 3:
+  *Superinteligencia*, *Vida 3.0*, *El comienzo del infinito*, *El optimista racional*) ·
+  Inteligencia artificial: promesas y riesgos (4: *Inteligencia artificial: un enfoque moderno*,
+  *La ola que viene*, *Human Compatible*, *Superpotencias de la inteligencia artificial*) · Física,
+  cosmos y el método científico (5: *Historia del tiempo*, *Longitud*, *A New Kind of Science*,
+  *Cosmos*, *Uno, dos, tres... infinito*) · Comportamiento humano, talento y sociedad (5:
+  *Compórtate*, *Los ángeles que llevamos dentro*, *La generación ansiosa*, *Homo Deus*, *Amplitud
+  (Range)*) · Cuerpo, sueño y biología (4: *Por qué dormimos*, *Genoma*, *La inmensidad del mundo*,
+  *Respira*).
+- **Criterio de curaduría:** entraron los 17 títulos con 2+ referentes (todo el consenso
+  disponible) más 6 de 1 referente (*Human Compatible*, *La ola que viene*, *Superpotencias de la
+  inteligencia artificial*, *A New Kind of Science*, *Cosmos*, *Uno, dos, tres... infinito*),
+  elegidos por relevancia/reconocimiento del título y para que los 5 grupos temáticos quedaran
+  parejos (sin ese aporte, "Inteligencia artificial" y "Física, cosmos y método científico" hubieran
+  quedado con 1-3 ítems nomás). *Amplitud (Range)* se sumó al grupo de comportamiento/sociedad
+  aunque su eje temático (generalistas vs. especialistas) no es estrictamente "ciencia dura" —
+  vale que Marcelo lo revise. Quedaron afuera los ~76 títulos restantes de 1 referente.
+- Cada entrada nombra a los referentes que la recomiendan (mismo estilo que los otros best-of, texto
+  reescrito a partir de la reseña de cada ficha, no copiado literal), sin links de afiliado en el
+  cuerpo, cerrando a `/categorias/ciencia` y `/referentes`.
+- Dos títulos quedan marcados "solo disponible en inglés" en su reseña (`A New Kind of Science` sin
+  traducción oficial, `Human Compatible` con nota de edición Viking): se respetó tal cual figura en
+  cada ficha, sin inventar edición ES.
+- **Sin comando de cierre específico** más allá del general (`npm run build` + commit/push). Falta
+  pedir indexación en Search Console de la URL nueva y enlazarla desde `/categorias/ciencia` —
+  sumado a la lista de enlaces pendientes de `ESTADO-CONTENIDO.md` junto con los otros best-of y
+  listicles recientes.
+
+Catálogo sin cambios de fichas: **1.061 fichas**, **48 referentes**, **52 posts** de blog (51 → 52).

@@ -1,13 +1,12 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-16** (actualizado tras las altas de Andrew Huberman #47 y Tyler Cowen #48, el
-Best-of Ficción, y el discovery de Elon Musk publicados más tarde la misma sesión). Números de esta
-sección 1 y las filas de Huberman/Cowen/Musk en la sección 4 recontados a mano sobre las fichas
-tocadas en la sesión (confianza alta); la fila de `ficcion` en la sección 2 se actualizó con el
-conteo real de `armar_bestof.py` (411, previo al alta de Musk) y su columna de Best-of; el resto de
-la sección 2 y la sección 3 (consenso) **todavía reflejan el corte del 08-15** — no se recalcularon
-del todo, hace falta correr `revision_general.py` para refrescarlas. Complementa a `PENDIENTES.md`
-(plan y decisiones) y `PROGRESO.md` (bitácora append-only).
+**Corte: 2026-08-21** (actualizado tras el Best-of Ciencia). Números de esta sección 1 sin cambios
+de fichas desde el 08-16 (el Best-of no toca el catálogo, solo agrega un post); la fila de `ciencia`
+en la sección 2 se actualizó con el conteo real de `armar_bestof.py` (99 fichas enriquecidas con
+ASIN, 1 excluida) y su columna de Best-of. El resto de la sección 2 y la sección 3 (consenso)
+**todavía reflejan el corte del 08-15/08-16** — no se recalcularon del todo, hace falta correr
+`revision_general.py` para refrescarlas. Complementa a `PENDIENTES.md` (plan y decisiones) y
+`PROGRESO.md` (bitácora append-only).
 
 > ⚠️ **Corrección importante (detectada el 2026-08-14):** `PENDIENTES.md` venía declarando **556
 > libros / 35 posts** cuando el catálogo real de ese día era de **974 libros / 45 posts**. La
@@ -26,7 +25,7 @@ del todo, hace falta correr `revision_general.py` para refrescarlas. Complementa
 | --- | --- |
 | Fichas de libro | **1.061** (+23 Huberman, +10 Cowen, +25 Musk) |
 | Referentes | **48** |
-| Posts de blog | **51** (48 listicles de referente + 3 best-of de categoría) |
+| Posts de blog | **52** (48 listicles de referente + 4 best-of de categoría) |
 | Categorías | **9** |
 | Vínculos libro↔referente | **1.241** (+36 Huberman, +10 Cowen, +30 Musk: 25 nuevas + 5 cross-ref) |
 | Fichas con 2+ referentes (consenso) | **124** (12%) — Cowen no sumó cross-refs, solo NUEVO; Musk sumó 5 cross-ref |
@@ -53,7 +52,7 @@ competidor tiene y hoy está subexplotado.
 | negocios | 115 → 117 con Musk (+El Capital, +Screw Business As Usual) | ~12% | ✅ re-curado el 2026-08-14 |
 | memorias | 107 → 109 con Musk (+Steve Jobs, +Liftoff) | ~11% | ❌ |
 | psicologia | 102 | 10% | ✅ 2026-08-09 |
-| ciencia | 87 → ~103 con Huberman → ~105 con Musk (+Human Compatible, +The Big Picture) | ~10% | ❌ (candidato fuerte, más viable todavía tras estas altas — recontar con `revision_general.py`) |
+| ciencia | 87 → ~103 con Huberman → ~105 con Musk (+Human Compatible, +The Big Picture); 99 enriquecidas con ASIN según `armar_bestof.py` | ~10% | ✅ 2026-08-21 (23 títulos, 5 grupos) |
 | historia | 86 → 90 con Musk (+4 tomos de Durant) | ~9% | ❌ |
 | filosofia | 49 | 5% | ❌ |
 | cienciaficcion | 32 → 41 con Musk (+9: saga de Dune completa + Culture de Banks) | ~4% | ❌ (candidato mucho más fuerte del catálogo tras del Toro + Musk) |
@@ -190,14 +189,17 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
     restante, títulos de baja disponibilidad ES) y ASIN de `a-storm-of-swords` pendiente de
     verificación manual — ambos detallados en `PROGRESO.md`.
 
+### ✅ Hecho el 2026-08-21
+13. ~~**Best-of Ciencia**~~ — segunda categoría grande (99 fichas enriquecidas de ~105) sin página
+    hub: 23 títulos en 5 grupos, curados con `armar_bestof.py ciencia` (17 con 2+ referentes + 6 de
+    1 referente elegidos por relevancia). Detalle de la curaduría en `PROGRESO.md`.
+
 ### Lo que sigue
-13. **Best-of nuevos:** ciencia ficción (del Toro + Musk la engordaron a 41, candidato fuerte ya) ·
-    **divulgación científica / ciencia** — con los lotes de Huberman y Musk la categoría ciencia pasa
-    de 87 a ~105 fichas, candidato mucho más fuerte ahora.
-14. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+14. **Best-of nuevos:** ciencia ficción (del Toro + Musk la engordaron a 41, candidato fuerte ya).
+15. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado, el Best-of Ficción recién publicado y los listicles nuevos de
-    Guillermo del Toro, Pedro Almodóvar, Andrew Huberman y Elon Musk (regenerado).
+    best-of de negocios actualizado, el Best-of Ficción, el Best-of Ciencia recién publicado, y los
+    listicles nuevos de Guillermo del Toro, Pedro Almodóvar, Andrew Huberman y Elon Musk (regenerado).
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
