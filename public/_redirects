@@ -1,7 +1,27 @@
-# Renombrado de ruta: /autores -> /referentes (301 permanente).
-# Preserva el SEO de las URLs ya indexadas. Cloudflare Pages lee este archivo.
-/autores           /referentes            301
-/autores/*         /referentes/:splat     301
+# =============================================================================
+# _redirects — Cloudflare Pages
+#
+# IMPORTANTE sobre cómo matchea Cloudflare:
+#   1. Aplica la PRIMERA regla que coincide y NO encadena. Si el destino de una
+#      regla coincidiría con otra regla, esa segunda no se evalúa en la misma
+#      request. Por eso los casos particulares van arriba de los genéricos.
+#   2. El matcheo es LITERAL respecto de la barra final. Una regla escrita como
+#      /x NO matchea /x/. Siempre escribir las dos formas.
+#   3. Los destinos van SIN barra final y SIN .html, que es la forma canónica
+#      del sitio (astro.config.mjs: trailingSlash "never" + build.format "file").
+# =============================================================================
 
-# Typo de slug corregido: malcom -> malcolm (Malcolm Gladwell).
+# --- Typo de slug corregido: malcom -> malcolm (Malcolm Gladwell) ------------
+# Van ANTES de la regla genérica /autores/*, que pasa el slug tal cual con
+# :splat y arrastraría el typo. Sin estas líneas, /referentes/malcom-gladwell/
+# devuelve 200 (soft 404) porque no existe el archivo y ninguna regla matchea.
+/autores/malcom-gladwell      /referentes/malcolm-gladwell   301
+/autores/malcom-gladwell/     /referentes/malcolm-gladwell   301
 /referentes/malcom-gladwell   /referentes/malcolm-gladwell   301
+/referentes/malcom-gladwell/  /referentes/malcolm-gladwell   301
+
+# --- Renombrado de ruta: /autores -> /referentes (301 permanente) ------------
+# Preserva el SEO de las URLs ya indexadas bajo la ruta vieja.
+/autores           /referentes            301
+/autores/          /referentes            301
+/autores/*         /referentes/:splat     301
