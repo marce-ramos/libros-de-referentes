@@ -1,6 +1,6 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-21** (actualizado tras el Best-of Ciencia). Números de esta sección 1 sin cambios
+**Corte: 2026-08-25** (actualizado tras el Best-of Ciencia Ficción). Números de esta sección 1 sin cambios
 de fichas desde el 08-16 (el Best-of no toca el catálogo, solo agrega un post); la fila de `ciencia`
 en la sección 2 se actualizó con el conteo real de `armar_bestof.py` (99 fichas enriquecidas con
 ASIN, 1 excluida) y su columna de Best-of. El resto de la sección 2 y la sección 3 (consenso)
@@ -25,7 +25,7 @@ ASIN, 1 excluida) y su columna de Best-of. El resto de la sección 2 y la secci�
 | --- | --- |
 | Fichas de libro | **1.061** (+23 Huberman, +10 Cowen, +25 Musk) |
 | Referentes | **48** |
-| Posts de blog | **52** (48 listicles de referente + 4 best-of de categoría) |
+| Posts de blog | **53** (48 listicles de referente + 5 best-of de categoría) |
 | Categorías | **9** |
 | Vínculos libro↔referente | **1.241** (+36 Huberman, +10 Cowen, +30 Musk: 25 nuevas + 5 cross-ref) |
 | Fichas con 2+ referentes (consenso) | **124** (12%) — Cowen no sumó cross-refs, solo NUEVO; Musk sumó 5 cross-ref |
@@ -55,7 +55,7 @@ competidor tiene y hoy está subexplotado.
 | ciencia | 87 → ~103 con Huberman → ~105 con Musk (+Human Compatible, +The Big Picture); 99 enriquecidas con ASIN según `armar_bestof.py` | ~10% | ✅ 2026-08-21 (23 títulos, 5 grupos) |
 | historia | 86 → 90 con Musk (+4 tomos de Durant) | ~9% | ❌ |
 | filosofia | 49 | 5% | ❌ |
-| cienciaficcion | 32 → 41 con Musk (+9: saga de Dune completa + Culture de Banks) | ~4% | ❌ (candidato mucho más fuerte del catálogo tras del Toro + Musk) |
+| cienciaficcion | 32 → 41 con Musk (+9: saga de Dune completa + Culture de Banks) | ~4% | ✅ 2026-08-25 (23 títulos, 5 grupos, sobre 39 fichas con ASIN) |
 | espiritualidad | 15 | 2% | ❌ |
 
 Ficción concentra 4 de cada 10 fichas —efecto Oprah (122), Reese (56), Portman (35), Jenna (31)— y no
@@ -194,12 +194,21 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
     hub: 23 títulos en 5 grupos, curados con `armar_bestof.py ciencia` (17 con 2+ referentes + 6 de
     1 referente elegidos por relevancia). Detalle de la curaduría en `PROGRESO.md`.
 
+### ✅ Hecho el 2026-08-25
+14. ~~**Best-of Ciencia Ficción**~~ — tercera categoría sin hub, y la que más creció en agosto
+    (32 → 41 con del Toro + Musk): 23 títulos en 5 grupos sobre las 39 fichas con ASIN que reportó
+    `armar_bestof.py cienciaficcion` (los 10 con 2+ referentes + 13 de 1 referente). Entró solo
+    el primer tomo de Dune y solo *El jugador* de la Cultura de Banks, para no comerse el post con
+    dos sagas — detalle de qué quedó afuera y por qué en `PROGRESO.md`.
+
 ### Lo que sigue
-14. **Best-of nuevos:** ciencia ficción (del Toro + Musk la engordaron a 41, candidato fuerte ya).
-15. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
+15. **Best-of nuevos:** memorias (109 fichas) e historia (90) son las dos categorías grandes que
+    siguen sin página hub; filosofía (49) y espiritualidad (15) todavía no dan volumen.
+16. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
     Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado, el Best-of Ficción, el Best-of Ciencia recién publicado, y los
-    listicles nuevos de Guillermo del Toro, Pedro Almodóvar, Andrew Huberman y Elon Musk (regenerado).
+    best-of de negocios actualizado, el Best-of Ficción, el Best-of Ciencia, el Best-of Ciencia
+    Ficción recién publicado, y los listicles nuevos de Guillermo del Toro, Pedro Almodóvar, Andrew
+    Huberman y Elon Musk (regenerado).
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
@@ -234,5 +243,5 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.061 fichas y 51 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.061 fichas y 53 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

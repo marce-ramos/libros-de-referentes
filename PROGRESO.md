@@ -3111,3 +3111,52 @@ de Huberman y Musk. De esas 99, 17 tienen 2+ referentes (consenso) y 82 tienen 1
   listicles recientes.
 
 Catálogo sin cambios de fichas: **1.061 fichas**, **48 referentes**, **52 posts** de blog (51 → 52).
+
+## 2026-08-25 — Best-of Ciencia Ficción
+
+Tercera categoría sin página hub, y la que más creció proporcionalmente en agosto: `cienciaficcion`
+pasó de 32 a 41 fichas con las altas de Guillermo del Toro y Elon Musk. `python tools\armar_bestof.py
+cienciaficcion` (corrido por Marcelo) reportó **39 fichas enriquecidas** (2 excluidas por falta de
+ASIN): 10 con 2+ referentes y 29 con 1 solo.
+
+- **Archivo nuevo:** `src/content/blog/mejores-libros-de-ciencia-ficcion.md`.
+- **23 títulos en 5 grupos:** Los más recomendados (5 — *1984* con 4 referentes, *Un mundo feliz*
+  con 4, y tres con 3: *Dune*, *El jugador*, *Fundación*) · Distopías y mundos rotos (5: *El cuento
+  de la criada*, *El poder*, *El Ministerio del Futuro*, *Cántico por Leibowitz*, *El día de los
+  trífidos*) · Ciencia dura, primer contacto y supervivencia (4: *El problema de los tres cuerpos*,
+  *Proyecto Hail Mary*, *El juego de Ender*, *The Moon Is a Harsh Mistress*) · Clásicos que fundaron
+  el género (5: *Guía del autoestopista galáctico*, *Veinte mil leguas de viaje submarino*,
+  *Planilandia*, *Parque Jurásico*, *Los reyes de la arena*) · Máquinas, mentes y ciencia ficción
+  contemporánea (4: *Klara y el Sol*, *Snow Crash*, *El mar de la tranquilidad*, *Un puente sobre el
+  tiempo*).
+- **Criterio de curaduría:** entraron los 10 títulos con 2+ referentes (todo el consenso disponible)
+  más 13 de 1 referente elegidos por reconocimiento del título y para balancear los grupos.
+  Decisiones explícitas de qué quedó afuera:
+  - **Saga de Dune:** entró solo el primer tomo. *El mesías de Dune*, *Hijos de Dune*, *Dios
+    emperador de Dune*, *Herejes de Dune* y *Casa Capitular: Dune* (todos de Musk, 1 referente) se
+    dejaron afuera para no comerse el 25% del post con una sola saga; la reseña de *Dune* menciona
+    que la saga completa está en el catálogo, sin linkear tomo por tomo.
+  - **La Cultura de Banks:** entró *El jugador* (3 referentes). *Pensad en Flebas* y *El uso de las
+    armas* (Musk) quedaron afuera por el mismo criterio.
+  - **Stephenson:** entró *Snow Crash* (Naval) y quedó afuera *La era del diamante* (Thiel), para no
+    repetir autor.
+  - **Asimov:** entró *Fundación* (3 referentes) y quedó afuera *Trilogía de la Fundación* (Fridman),
+    que es el mismo material en un volumen.
+  - Otros que quedaron afuera: *Daemon*, *Dangerous Visions*, *El tapiz del vampiro*, *Las
+    crisálidas*, *Los cuclillos de Midwich* (segundo Wyndham, ya estaba *El día de los trífidos*),
+    *In Ascension*, *Una súper triste historia de amor verdadero*.
+- **Nota de edición:** *The Moon Is a Harsh Mistress* es el único del post con `titulo` en inglés (la
+  ficha lo tiene así); la reseña aclara que la edición ES —*La luna es una cruel amante*, La Factoría
+  de Ideas, 2003— es difícil de conseguir. No se cambió el idioma de la ficha.
+- Cada entrada nombra a los referentes que la recomiendan, con texto reescrito a partir de la reseña
+  de cada ficha (no copiado literal), sin links de afiliado en el cuerpo, cerrando a
+  `/categorias/cienciaficcion` y `/referentes`.
+- **Validación previa al commit:** los 23 slugs existen, los 23 `titulo` y `autorLibro` del post
+  coinciden **exactos** con la ficha, los 23 tienen `categoria: cienciaficcion` y ASIN de 10
+  caracteres, cero links de Amazon en el cuerpo, cero slugs repetidos.
+- **Sin comando de cierre específico** más allá del general (`npm run build` + commit/push). Falta
+  pedir indexación en Search Console de la URL nueva y enlazarla desde `/categorias/cienciaficcion`
+  — se suma a la lista de enlaces pendientes de `ESTADO-CONTENIDO.md`.
+
+Catálogo sin cambios de fichas: **1.061 fichas**, **48 referentes**, **53 posts** de blog (52 → 53:
+48 listicles + 5 best-of de categoría).
