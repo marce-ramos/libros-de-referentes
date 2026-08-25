@@ -3160,3 +3160,42 @@ ASIN): 10 con 2+ referentes y 29 con 1 solo.
 
 Catálogo sin cambios de fichas: **1.061 fichas**, **48 referentes**, **53 posts** de blog (52 → 53:
 48 listicles + 5 best-of de categoría).
+
+## 2026-08-25 — Enlazado interno hacia el blog (templates)
+
+Auditoría del enlazado interno: `grep -rn "/blog" src/pages/` devolvía **una sola coincidencia** en
+todo el sitio (`blog/index.astro:38`, el listado). Los 53 posts recibían links internos desde una
+única página, mientras que cada post linkea a 20-25 fichas más `/categorias/<x>` y `/referentes`. El
+blog era donante neto de autoridad interna. En particular, `/referentes/<slug>` no linkeaba al
+listicle del propio referente y `/categorias/<slug>` no linkeaba a su best-of.
+
+**Arreglado por template (2 archivos ⇒ 57 páginas), no post por post:**
+
+- **`src/lib/postsRelacionados.ts` (nuevo).** Dos helpers puros: `slugListicle(referenteId)` →
+  `libros-que-recomienda-<id>` y `slugBestOf(categoriaId)` → `mejores-libros-de-<id>` con un mapa de
+  excepciones para los dos slugs que no siguen el patrón (`negocios` →
+  `mejores-libros-de-negocios-e-inversion`, `cienciaficcion` → `mejores-libros-de-ciencia-ficcion`).
+  Se eligió el mapa en `lib/` por sobre sumar un campo `categoriaRelacionada` al esquema del blog:
+  cero cambios de contenido y el día que los slugs se normalicen se borra el mapa, el fallback sigue
+  andando solo.
+- **`src/components/EnlacePost.astro` (nuevo).** Callout con la estética de `TarjetaRecomendado`
+  (chip + título + descripción del post). No decide nada: se renderiza solo si la página le pasa un
+  post.
+- **`src/pages/referentes/[slug].astro`.** `getStaticPaths` carga la colección `blog` una vez y le
+  pasa a cada página su listicle (si existe y no es draft). Se renderiza entre la bio y el estante.
+- **`src/pages/categorias/[slug].astro`.** Ídem con el best-of de la categoría, entre la descripción
+  y el estante.
+
+**Cobertura verificada antes de commitear:** 48/48 referentes matchean su listicle; 5 de las 9
+categorías matchean su best-of (negocios, ciencia, ficción, psicología, ciencia ficción) y las 4 sin
+best-of —historia, memorias, filosofía, espiritualidad— simplemente no renderizan el callout, sin
+romper nada. Cuando se publique el best-of de alguna de esas, el link aparece solo. Ningún post del
+blog queda fuera de los dos patrones.
+
+Pendiente de esta línea de trabajo: el enlazado cruzado *dentro* del contenido (que el listicle de
+Grant mencione el best-of de psicología, etc.), que sí es edición manual. Y queda abierta la opción
+de linkear el best-of de la categoría desde las 1.061 fichas de libro (`libros/[slug].astro`), que
+sería el mayor aporte de autoridad pero también un link boilerplate repetido en mil páginas — se
+decidió no hacerlo por ahora.
+
+Sin cambios de contenido: **1.061 fichas**, **48 referentes**, **53 posts**.

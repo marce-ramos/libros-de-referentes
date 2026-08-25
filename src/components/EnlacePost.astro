@@ -1,0 +1,30 @@
+---
+/**
+ * Callout de enlazado interno hacia un post del blog (listicle de referente o
+ * best-of de categoría). Se renderiza solo si el post existe y no es draft:
+ * la decisión la toma la página que lo usa.
+ */
+interface Props {
+  href: string;
+  etiqueta: string;
+  titulo: string;
+  descripcion?: string;
+}
+
+const { href, etiqueta, titulo, descripcion } = Astro.props;
+---
+
+<a
+  href={href}
+  class="card-lift group block rounded-[14px] border border-[var(--card-border)] bg-white p-4 shadow-[0_4px_16px_rgba(90,70,160,0.05)] transition hover:border-[var(--brand)] hover:shadow-[0_10px_26px_rgba(90,70,160,0.13)]"
+>
+  <span
+    class="inline-block rounded-full bg-[var(--chip-bg)] px-2.5 py-0.5 text-[12px] font-semibold text-[var(--brand-dark)]"
+  >
+    {etiqueta}
+  </span>
+  <h2 class="mt-1.5 font-semibold text-[var(--brand-ink)] group-hover:text-[var(--brand)]">
+    {titulo}
+  </h2>
+  {descripcion && <p class="mt-1.5 line-clamp-2 text-sm text-slate-600">{descripcion}</p>}
+</a>

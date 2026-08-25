@@ -3,12 +3,15 @@ import { getCollection, render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import EstanteLibros from "@/components/EstanteLibros.astro";
 import AvatarReferente from "@/components/AvatarReferente.astro";
+import EnlacePost from "@/components/EnlacePost.astro";
 import { SITE } from "@/config";
 import { schemaItemList, schemaBreadcrumb } from "@/lib/schema";
+import { slugListicle } from "@/lib/postsRelacionados";
 
 export async function getStaticPaths() {
   const autores = await getCollection("autores");
   const libros = await getCollection("libros");
+  const posts = await getCollection("blog");
 
   return autores.map((autor) => {
     // Libros donde este referente aparece en `recomendadoPor` (relación M:N).
@@ -20,14 +23,20 @@ export async function getStaticPaths() {
           Number(!!b.data.asin) - Number(!!a.data.asin) ||
           a.data.titulo.localeCompare(b.data.titulo),
       );
+    // Listicle de este referente, si ya está publicado (enlazado interno).
+    const li = posts.find((p) => p.id === slugListicle(autor.id) && !p.data.draft);
+    const listicle = li
+      ? { href: `/blog/${li.id}`, titulo: li.data.titulo, descripcion: li.data.descripcion }
+      : null;
+
     return {
       params: { slug: autor.id },
-      props: { autor, recomendados },
+      props: { autor, recomendados, listicle },
     };
   });
 }
 
-const { autor, recomendados } = Astro.props;
+const { autor, recomendados, listicle } = Astro.props;
 const d = autor.data;
 const { Content } = await render(autor);
 
@@ -66,6 +75,19 @@ const jsonLd = [
   <div class="prose-contenido mt-4 max-w-none">
     <Content />
   </div>
+
+  {
+    listicle && (
+      <div class="mt-6 max-w-2xl">
+        <EnlacePost
+          href={listicle.href}
+          etiqueta="La lista completa, comentada"
+          titulo={listicle.titulo}
+          descripcion={listicle.descripcion}
+        />
+      </div>
+    )
+  }
 
   <h2 class="mt-8 mb-5 text-xl font-bold text-[var(--brand-ink)]">
     Sus recomendaciones ({recomendados.length})

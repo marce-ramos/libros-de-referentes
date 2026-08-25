@@ -2,12 +2,15 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import EstanteLibros from "@/components/EstanteLibros.astro";
+import EnlacePost from "@/components/EnlacePost.astro";
 import { SITE } from "@/config";
 import { schemaItemList } from "@/lib/schema";
+import { slugBestOf } from "@/lib/postsRelacionados";
 
 export async function getStaticPaths() {
   const categorias = await getCollection("categorias");
   const libros = await getCollection("libros");
+  const posts = await getCollection("blog");
 
   return categorias.map((categoria) => {
     const librosCat = libros
@@ -18,14 +21,20 @@ export async function getStaticPaths() {
           Number(!!b.data.asin) - Number(!!a.data.asin) ||
           a.data.titulo.localeCompare(b.data.titulo),
       );
+    // Best-of de esta categoría, si ya está publicado (enlazado interno).
+    const bo = posts.find((p) => p.id === slugBestOf(categoria.id) && !p.data.draft);
+    const bestOf = bo
+      ? { href: `/blog/${bo.id}`, titulo: bo.data.titulo, descripcion: bo.data.descripcion }
+      : null;
+
     return {
       params: { slug: categoria.id },
-      props: { categoria, librosCat },
+      props: { categoria, librosCat, bestOf },
     };
   });
 }
 
-const { categoria, librosCat } = Astro.props;
+const { categoria, librosCat, bestOf } = Astro.props;
 const d = categoria.data;
 
 const jsonLd = [
@@ -42,6 +51,19 @@ const jsonLd = [
 <BaseLayout title={d.nombre} description={d.descripcion} jsonLd={jsonLd}>
   <h1 class="text-2xl font-bold text-slate-900">{d.nombre}</h1>
   <p class="mt-2 max-w-2xl text-slate-600">{d.descripcion}</p>
+
+  {
+    bestOf && (
+      <div class="mt-6 max-w-2xl">
+        <EnlacePost
+          href={bestOf.href}
+          etiqueta="Selección curada"
+          titulo={bestOf.titulo}
+          descripcion={bestOf.descripcion}
+        />
+      </div>
+    )
+  }
 
   <div class="mt-6">
     <EstanteLibros

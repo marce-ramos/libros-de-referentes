@@ -200,15 +200,22 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
     `armar_bestof.py cienciaficcion` (los 10 con 2+ referentes + 13 de 1 referente). Entró solo
     el primer tomo de Dune y solo *El jugador* de la Cultura de Banks, para no comerse el post con
     dos sagas — detalle de qué quedó afuera y por qué en `PROGRESO.md`.
+15. ~~**Enlazado interno hacia el blog**~~ — hasta hoy los 53 posts recibían links internos desde una
+    sola página (`/blog`). Resuelto por template: `/referentes/<slug>` ahora linkea al listicle del
+    referente (48/48) y `/categorias/<slug>` a su best-of (5 de 9; las 4 categorías sin best-of
+    todavía no renderizan nada, y el link va a aparecer solo cuando se publique). Archivos:
+    `src/lib/postsRelacionados.ts` y `src/components/EnlacePost.astro` (nuevos) + los dos
+    `[slug].astro`. Detalle en `PROGRESO.md`.
 
 ### Lo que sigue
-15. **Best-of nuevos:** memorias (109 fichas) e historia (90) son las dos categorías grandes que
+16. **Best-of nuevos:** memorias (109 fichas) e historia (90) son las dos categorías grandes que
     siguen sin página hub; filosofía (49) y espiritualidad (15) todavía no dan volumen.
-16. **Enlazar el best-of de psicología** desde `/categorias/psicologia` y desde los listicles de Grant y
-    Clear + pedir indexación en GSC (quedó pendiente el 08-09). Ídem para el listicle de Malala, el
-    best-of de negocios actualizado, el Best-of Ficción, el Best-of Ciencia, el Best-of Ciencia
-    Ficción recién publicado, y los listicles nuevos de Guillermo del Toro, Pedro Almodóvar, Andrew
-    Huberman y Elon Musk (regenerado).
+17. **Pedir indexación en GSC** de las URLs nuevas: Best-of Ficción, Ciencia y Ciencia Ficción,
+    best-of de negocios actualizado, listicle de Malala y los listicles nuevos de Guillermo del Toro,
+    Pedro Almodóvar, Andrew Huberman y Elon Musk (regenerado). **El enlazado interno de estas páginas
+    ya está resuelto por template desde el 2026-08-25** (punto 15): lo que falta es solo el pedido de
+    indexación, más el enlazado cruzado dentro del cuerpo de los posts (que el listicle de Grant
+    mencione el best-of de psicología, etc.), que es edición manual.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
