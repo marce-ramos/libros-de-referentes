@@ -5,17 +5,20 @@ asin: "8416883807"
 categoria: negocios
 recomendadoPor:
   - satya-nadella
+  - ray-dalio
 anio: 2020
 resumen: "Reed Hastings, cofundador y CEO de Netflix, junto a la investigadora Erin Meyer, desnudan la cultura radical de libertad y responsabilidad detrás de la compañía. Satya Nadella, CEO de Microsoft, contó que tuvo el privilegio de aprender de Hastings en persona."
 destacado: false
-fechaActualizado: 2026-07-14
+fechaActualizado: 2026-08-27
 ---
 
 Netflix no tiene política de gastos, no aprueba vacaciones y despide con generosidad a quien rinde "adecuado". Suena a caos, pero es una de las culturas corporativas más estudiadas del mundo. Reed Hastings, su cofundador, cuenta por qué funciona.
 
-## Por qué lo recomienda Satya Nadella
+## Por qué lo recomiendan Satya Nadella y Ray Dalio
 
 Nadella, que lee de forma constante y comparte sus lecturas tanto en X como en charlas públicas, suele volver sobre temas de liderazgo y cultura organizacional —los mismos que lo llevaron a rediseñar Microsoft desde 2014. Contó públicamente que tuvo el privilegio de conocer y aprender de Reed Hastings en persona, y que estudió de cerca la cultura de Netflix como caso de referencia. No es casual: Nadella enfrentó un desafío parecido al de Hastings, el de transformar una cultura corporativa ya instalada, y encontró en este libro (y en su autor) un espejo útil para pensar el propio proceso.
+
+Ray Dalio lo recomendó públicamente en sus redes, con una fórmula corta: que Hastings, su gente y su cultura son todos de "calidad estelar", y que por eso recomienda el libro. La afinidad es evidente para cualquiera que haya leído *Principios*: Bridgewater y Netflix llegaron por caminos distintos a la misma apuesta incómoda —transparencia radical, feedback brutalmente honesto y tolerancia cero con el rendimiento apenas aceptable— y las dos culturas generan la misma reacción polarizada en quien las mira desde afuera.
 
 ## De qué trata
 

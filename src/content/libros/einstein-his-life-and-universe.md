@@ -5,17 +5,20 @@ asin: "8483067889"
 categoria: memorias
 recomendadoPor:
   - sam-altman
+  - ray-dalio
 anio: 2007
 resumen: "Walter Isaacson reconstruye la vida de Albert Einstein a partir de sus cartas privadas, desde el joven rebelde que no conseguía trabajo como profesor hasta el científico que redefinió el universo. Está entre los libros que Sam Altman tenía en su biblioteca personal."
 destacado: false
-fechaActualizado: 2026-07-17
+fechaActualizado: 2026-08-27
 ---
 
 Antes de convertirse en el rostro más reconocible de la ciencia del siglo XX, Albert Einstein era un joven inquieto que discutía con sus profesores, tardaba en conseguir trabajo y desconfiaba profundamente de cualquier forma de autoridad. Walter Isaacson usa esa tensión —entre el rebelde y el genio— como columna vertebral de esta biografía, escrita después de que se abrieran al público los archivos privados de Einstein.
 
-## Por qué lo recomienda Sam Altman
+## Por qué lo recomiendan Sam Altman y Ray Dalio
 
 Este libro está entre los que aparecían en la biblioteca personal de Sam Altman, según un relevamiento de sus lecturas publicado en 2015. No hay una cita textual de Altman explicando por qué lo leyó: es simplemente uno de los títulos que tenía a mano en ese momento. Tiene sentido que un libro sobre la mente de uno de los científicos más originales de la historia le resulte atractivo a alguien que pasa sus días pensando en los límites del conocimiento humano, aunque esa conexión sea nuestra, no una que Altman haya expresado directamente.
+
+Ray Dalio cita esta biografía en *Principios*, junto con las otras de Isaacson. En su caso el interés es explícito y está documentado: Dalio colecciona historias de gente que llegó a una verdad incómoda pensando por su cuenta contra el consenso de su época, porque es exactamente lo que le pide a su propio equipo cuando discute una posición de mercado.
 
 ## De qué trata
 

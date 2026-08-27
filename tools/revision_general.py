@@ -79,7 +79,14 @@ def main():
 
     ASIN_RE = re.compile(r"^[0-9A-Z]{10}$")
     EDICION_RE = re.compile(r"(?mi)^>\s*.*(edici|espa[nñ]|ingl)")
-    H2_REC_RE = re.compile(r"(?mi)^##\s*.*(recomien|eligi|elige|tambi[eé]n)")
+    # Encabezados de atribución. Se exige la FORMA del encabezado ("Por qué ... recomienda/eligió"
+    # o "También lo recomienda"), no la simple presencia de la palabra: el patrón anterior
+    # (".*(recomien|eligi|elige|también)") daba falsos positivos con "inteligencia" (contiene
+    # "eligi"), con "no se elige" y con cualquier "también" en un título de sección.
+    H2_REC_RE = re.compile(
+        r"(?mi)^##\s*(?:por\s+qu[eé]\b[^\n]*\b(?:recomiend\w+|eligi[oó]|elige[n]?)\b"
+        r"|tambi[eé]n\s+l[oa]s?\s+(?:recomiend\w+|eligi[oó])\b)"
+    )
     REQUERIDOS = ["titulo", "autorLibro", "categoria", "recomendadoPor", "resumen"]
 
     problemas = {k: [] for k in [

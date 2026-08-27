@@ -1,7 +1,7 @@
 # ESTADO DEL CONTENIDO — Los Imperdibles
 
-**Corte: 2026-08-25** (actualizado tras el Best-of Ciencia Ficción). Números de esta sección 1 sin cambios
-de fichas desde el 08-16 (el Best-of no toca el catálogo, solo agrega un post); la fila de `ciencia`
+**Corte: 2026-08-27** (actualizado tras la profundización de Ray Dalio: 27 fichas nuevas + 10 cross-refs).
+Las secciones 1 y 2 incluyen esa tanda; la fila de `ciencia`
 en la sección 2 se actualizó con el conteo real de `armar_bestof.py` (99 fichas enriquecidas con
 ASIN, 1 excluida) y su columna de Best-of. El resto de la sección 2 y la sección 3 (consenso)
 **todavía reflejan el corte del 08-15/08-16** — no se recalcularon del todo, hace falta correr
@@ -23,15 +23,15 @@ ASIN, 1 excluida) y su columna de Best-of. El resto de la sección 2 y la secci�
 
 | Métrica | Valor |
 | --- | --- |
-| Fichas de libro | **1.061** (+23 Huberman, +10 Cowen, +25 Musk) |
+| Fichas de libro | **1.088** (+27 Ray Dalio) |
 | Referentes | **48** |
-| Posts de blog | **53** (48 listicles de referente + 5 best-of de categoría) |
+| Posts de blog | **53** (48 listicles de referente + 5 best-of de categoría; el de Dalio se regeneró el 08-27) |
 | Categorías | **9** |
-| Vínculos libro↔referente | **1.241** (+36 Huberman, +10 Cowen, +30 Musk: 25 nuevas + 5 cross-ref) |
-| Fichas con 2+ referentes (consenso) | **124** (12%) — Cowen no sumó cross-refs, solo NUEVO; Musk sumó 5 cross-ref |
+| Vínculos libro↔referente | **1.278** (+37 Ray Dalio: 27 nuevas + 10 cross-ref) |
+| Fichas con 2+ referentes (consenso) | **134** (12%) — +10 con los cross-refs de Dalio; *Sapiens* pasa a 9 referentes |
 | Fichas sin ASIN usable | **5** (0,5%) — +1: `surface-detail` (Iain M. Banks, alta de Musk) sin edición ES confirmada, `asin` vacío a propósito |
 | Fichas sin resumen o sin `recomendadoPor` | **0** |
-| Fichas marcadas "solo en inglés" | **375** (35%) — +9 Huberman, +2 Cowen (Hayek e Incredible Bread Machine), +9 Musk (Durant x4, Big Picture, Human Compatible, Screw Business As Usual, Liftoff, Surface Detail)
+| Fichas marcadas "solo en inglés" | **387** (36%) — +12 de la tanda Dalio (blurbs y divulgación sin edición ES); — +9 Huberman, +2 Cowen (Hayek e Incredible Bread Machine), +9 Musk (Durant x4, Big Picture, Human Compatible, Screw Business As Usual, Liftoff, Surface Detail)
 | Tamaño mediano de ficha | ~2.700 bytes (≈380 palabras) |
 
 **Lectura rápida:** el catálogo está sano —cero stubs, cero campos requeridos vacíos, 99,6% con ASIN—
@@ -48,18 +48,19 @@ competidor tiene y hoy está subexplotado.
 
 | Categoría | Fichas | % | Best-of publicado |
 | --- | --- | --- | --- |
-| ficcion | 411 → 417 con Musk (+5 ASOIAF, +1 Fault in Our Stars) | ~41% | ✅ 2026-08-16 (24 títulos, 5 grupos, previo al alta de Musk) |
-| negocios | 115 → 117 con Musk (+El Capital, +Screw Business As Usual) | ~12% | ✅ re-curado el 2026-08-14 |
-| memorias | 107 → 109 con Musk (+Steve Jobs, +Liftoff) | ~11% | ❌ |
-| psicologia | 102 | 10% | ✅ 2026-08-09 |
+| ficcion | 418 (+La rebelión de Atlas, alta de Dalio) | ~38% | ✅ 2026-08-16 (24 títulos, 5 grupos, previo al alta de Musk) |
+| negocios | 124 (+7 con Dalio: Marks, Benioff, Pink, Outward Bound, Conard, Ferriss, How Countries Go Broke) | ~11% | ✅ re-curado el 2026-08-14 |
+| memorias | 112 (+3 con Dalio: Schwarzman, Volcker, Bolte Taylor) | ~10% | ❌ |
+| psicologia | 104 (+Duhigg, +Mlodinow) | ~10% | ✅ 2026-08-09 |
 | ciencia | 87 → ~103 con Huberman → ~105 con Musk (+Human Compatible, +The Big Picture); 99 enriquecidas con ASIN según `armar_bestof.py` | ~10% | ✅ 2026-08-21 (23 títulos, 5 grupos) |
-| historia | 86 → 90 con Musk (+4 tomos de Durant) | ~9% | ❌ |
-| filosofia | 49 | 5% | ❌ |
+| historia | 93 (+3 con Dalio: Changing World Order, Allison, Cohen) | ~9% | ❌ |
+| filosofia | 51 (+Dennett, +Wilson) | ~5% | ❌ |
 | cienciaficcion | 32 → 41 con Musk (+9: saga de Dune completa + Culture de Banks) | ~4% | ✅ 2026-08-25 (23 títulos, 5 grupos, sobre 39 fichas con ASIN) |
-| espiritualidad | 15 | 2% | ❌ |
+| espiritualidad | 19 (+4 con Dalio: Roth, Shetty, Dalái Lama, Beauregard — la que más creció en proporción) | ~2% | ❌ |
 
-Ficción concentra 4 de cada 10 fichas —efecto Oprah (122), Reese (56), Portman (35), Jenna (31)— y no
-tiene best-of. Es la categoría más grande del sitio sin página hub. Ciencia ficción es la que más
+Ficción concentra casi 4 de cada 10 fichas —efecto Oprah (122), Reese (56), Portman (35), Jenna (31)—
+y ya tiene su best-of desde el 08-16. Las dos categorías grandes que siguen sin página hub son
+memorias (112) e historia (93). Ciencia ficción es la que más
 creció proporcionalmente en la sesión (32 → 41, +28%) gracias a la saga de Dune y la Cultura de Banks
 en la alta de Musk.
 
@@ -136,7 +137,7 @@ en la alta de Musk.
 | Pedro Almodóvar | Entretenimiento | 6 | ✅ 08-15 | Alta recién creada, referente #46. 3 cross-refs (incluido Cien años de soledad, que pasa a 6 referentes) |
 | Jordan Peterson | Psicología | 5 | ✅ 07-10 | Semilla, sin discovery real |
 | Tim Ferriss | Negocios | 5 | ✅ 07-10 | Semilla, sin discovery real |
-| Ray Dalio | Negocios | 4 | ✅ 07-09 | Semilla, sin discovery real |
+| Ray Dalio | Negocios e Inversión | 41 | ✅ 08-27 (regenerado, 8 grupos) | Discovery + profundización 08-27: 27 fichas nuevas + 10 cross-ref. Sale de "semilla sin discovery". **Backlog abierto: 15 títulos del bloque B del manifiesto** (citados en *Principios*, fuente única y baja rotación comercial) |
 | Malala Yousafzai | Política | 3 | ✅ 08-14 | Listicle nuevo (3 libros, lista simple). Sigue sin fuente para profundizar |
 | Andrew Huberman | Ciencia | 36 (13 cross-ref + 23 nuevas) | ✅ 08-16 | Alta recién creada, referente #47. Manifiesto ya sourceado (brainflow.co), 4 REVISAR resueltos como NUEVO (libros distintos de autores ya en catálogo) |
 | Tyler Cowen | Negocios e Inversión | 10 (10 nuevas, 0 cross-ref) | ✅ 08-16 | Alta recién creada, referente #48. Manifiesto ya sourceado ("Books which have influenced me most", 2010), lista de baja rotación comercial por diseño (filosofía/economía clásica) |
@@ -207,6 +208,14 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
     `src/lib/postsRelacionados.ts` y `src/components/EnlacePost.astro` (nuevos) + los dos
     `[slug].astro`. Detalle en `PROGRESO.md`.
 
+### ✅ Hecho el 2026-08-27
+16. ~~**Discovery + profundización de Ray Dalio**~~ — de 4 a 41 libros (27 fichas nuevas + 10
+    cross-ref) + bio corregida + listicle regenerado en 8 grupos temáticos. El manifiesto
+    (`ray-dalio-manifiesto.txt`) se organizó en 5 bloques por calidad de fuente y se cargaron los
+    bloques A, C, D y E completos más 3 rescates del B. **Quedan 15 títulos del bloque B sin cargar**
+    (fuente única: menciones en *Principios*, sin cita enlazada, y baja rotación comercial).
+    Detalle en `PROGRESO.md`.
+
 ### Lo que sigue
 16. **Best-of nuevos:** memorias (109 fichas) e historia (90) son las dos categorías grandes que
     siguen sin página hub; filosofía (49) y espiritualidad (15) todavía no dan volumen.
@@ -219,9 +228,8 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 
 ### Grandes (varias sesiones)
 10. **Backlogs sin cerrar:** Reese ~73 · Jenna ~55 · Natalie 17 · James Clear (131, manifiesto perdido).
-11. **Semillas sin discovery real:** Peterson (5), Ferriss (5), Dalio (4). Musk ya salió de esta lista
-    (discovery hecho el 08-16, 7→37). Son nombres de alta demanda con catálogo mínimo — cada uno vale
-    un discovery propio.
+11. **Semillas sin discovery real:** Peterson (5) y Ferriss (5). Musk salió el 08-16 (7→37) y Dalio el
+    08-27 (4→41). Son nombres de alta demanda con catálogo mínimo — cada uno vale un discovery propio.
 12. **Fotos de referentes** (Wikimedia CC) + página de créditos.
 
 ---
@@ -250,5 +258,5 @@ Inversión pasa a ser el más grande (11) con la alta de Cowen.
 - PA-API (portadas y precios reales): se habilita recién tras esas 3 ventas.
 - Cobro desde Argentina: Takenos (0%) / Belo (0,5%); a volumen, Wallbit + Factura E.
 
-**Con 1.061 fichas y 53 posts, el motor de contenido está muy por delante del motor de ingresos.**
+**Con 1.088 fichas y 53 posts, el motor de contenido está muy por delante del motor de ingresos.**
 El cuello de botella ya no es contenido: es tráfico + alta de afiliados.

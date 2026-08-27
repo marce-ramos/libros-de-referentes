@@ -5,17 +5,20 @@ asin: "8449333962"
 categoria: negocios
 recomendadoPor:
   - richard-branson
+  - ray-dalio
 anio: 2016
 resumen: "El psicólogo Adam Grant explica cómo los inconformistas cambian el mundo sin ser los primeros en lanzarse ni los que más arriesgan. Está en la lista de 70 libros imprescindibles que Richard Branson publicó en el blog de Virgin."
 destacado: false
-fechaActualizado: 2026-07-13
+fechaActualizado: 2026-08-27
 ---
 
 ¿Hay que ser un visionario temerario para cambiar las reglas del juego? Adam Grant dice que no, y lo prueba con datos: los verdaderos originales dudan, postergan y se cubren las espaldas más de lo que imaginamos.
 
-## Por qué lo recomienda Richard Branson
+## Por qué lo recomiendan Richard Branson y Ray Dalio
 
 *Originales* apareció en la lista de "70 must-read books" que Richard Branson publicó en el blog de Virgin (virgin.com) en abril de 2017, un compilado que fue armando con las recomendaciones que junta a lo largo de años de vuelos, reuniones y ratos libres. Branson es de los emprendedores que más repite que leer es la forma más barata de aprender de otros, y este libro encaja con esa idea: le sirve para pensar por qué algunas de las apuestas más raras dentro de Virgin terminaron funcionando, mientras que la prudencia excesiva suele ser la que hunde a los proyectos innovadores.
+
+Ray Dalio lo cita entre las lecturas que menciona en *Principios*. Tiene sentido: el hallazgo central de Grant —que los originales no son temerarios sino que cubren el riesgo mientras empujan la idea rara— es casi una reformulación de lo que Dalio predica sobre apostar fuerte a una convicción sin quedar nunca expuesto a una pérdida que te saque del juego.
 
 ## De qué trata
 

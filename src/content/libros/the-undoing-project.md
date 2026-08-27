@@ -5,10 +5,11 @@ asin: "8499927416"
 categoria: psicologia
 recomendadoPor:
   - daniel-kahneman
+  - ray-dalio
 anio: 2016
 resumen: "Michael Lewis cuenta la historia de la amistad entre Daniel Kahneman y Amos Tversky, la dupla que revolucionó nuestra comprensión de cómo decide la mente humana. El mejor complemento narrativo a Pensar rápido, pensar despacio."
 destacado: false
-fechaActualizado: 2026-07-09
+fechaActualizado: 2026-08-27
 ---
 
 *Deshaciendo errores* es la historia detrás de las ideas: la de Daniel Kahneman y Amos Tversky, dos psicólogos israelíes cuya colaboración cambió para siempre la economía, la medicina y hasta el deporte. La firma Michael Lewis, el mismo autor de *Moneyball* y *La gran apuesta*, un maestro en volver apasionante lo aparentemente árido.
@@ -16,6 +17,8 @@ fechaActualizado: 2026-07-09
 ## La conexión con Daniel Kahneman
 
 Este libro no es una recomendación cualquiera: es la biografía de la sociedad intelectual que dio origen a toda la obra de Kahneman. Donde *Pensar rápido, pensar despacio* explica las ideas, *Deshaciendo errores* cuenta a las personas —la química, las peleas y el cariño entre dos genios— que las hicieron posibles. Es el complemento humano perfecto a la teoría.
+
+Ray Dalio lo nombró entre los libros de su pila de lectura en su entrevista con Tim Ferriss. Encaja con una obsesión que atraviesa toda su obra: si las decisiones humanas fallan de forma sistemática y predecible, entonces conviene diseñar sistemas —de inversión y de gestión— que no dependan del juicio individual de nadie, ni siquiera del propio.
 
 ## De qué trata
 

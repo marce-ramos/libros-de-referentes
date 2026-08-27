@@ -3199,3 +3199,81 @@ sería el mayor aporte de autoridad pero también un link boilerplate repetido e
 decidió no hacerlo por ahora.
 
 Sin cambios de contenido: **1.061 fichas**, **48 referentes**, **53 posts**.
+
+---
+
+## 2026-08-27 — Discovery + profundización de Ray Dalio (4 → 41 libros)
+
+Dalio venía marcado como **semilla sin discovery real** desde julio: 4 fichas y un listicle de 4
+títulos. Se hizo el discovery completo y la carga en la misma sesión.
+
+**Discovery.** Dalio no publica una lista curada —no tiene club de lectura ni post de "mis libros
+del año"—, así que la expectativa inicial era baja (se le puso ~40% de probabilidad de sacar 10+
+títulos verificables). Salieron **51 candidatos sourceados**. Sus recomendaciones están dispersas
+entre el apéndice de *Principios*, la entrevista con Tim Ferriss (#264), posteos en X y LinkedIn, y
+blurbs de contratapa; los agregadores serios ya habían hecho el trabajo de juntarlas.
+
+Fuentes fetcheadas: `mostrecommendedbooks.com/ray-dalio-books` (49 títulos, cada uno con su origen
+declarado), `acquirersmultiple.com` ("20 books every investor should read"), `marketfolly.com`
+(resumen de Ferriss #264), `theceolibrary.com` y `hachette.co.uk` (blurb de *Mastering the Market
+Cycle* verificado textual). Manifiesto en `ray-dalio-manifiesto.txt`, organizado en **5 bloques por
+calidad de fuente**: A = 2+ fuentes coincidentes (20), B = citados en *Principios*, fuente única
+(19), C = citas públicas textuales (5), D = blurbs de contratapa (6), E = obra propia (2).
+
+**Trampa de slugs — casi genera dos duplicados.** `reconciliar.py` matchea por slug derivado del
+título en inglés, así que un título canónico puede NO matchear la ficha existente. Dos títulos se
+escribieron a propósito en forma no canónica: `A Hero with a Thousand Faces` (el catálogo usa
+`a-hero-with-a-thousand-faces`, no `the-`) y `Sapiens` a secas (el catálogo usa `sapiens`). Regla
+para futuros manifiestos: títulos sin subtítulo, y chequear el slug real antes de asumir la forma
+canónica.
+
+**Reconciliación.** YA-LINKED=3, CROSS-REF=7, REVISAR=8, NUEVO=34. Los 8 REVISAR se resolvieron así:
+
+- *Originals*, *Benjamin Franklin*, *Einstein* → **CROSS-REF** (mismo libro con el slug largo:
+  `originals-how-non-conformists-move-the-world`, `benjamin-franklin-an-american-life`,
+  `einstein-his-life-and-universe`).
+- *Incognito* → NUEVO (lo que había de Eagleman era *Sum*, otro libro).
+- *Tribe of Mentors* → NUEVO (lo de Ferriss era la serie 4-Hour).
+- *Atlas Shrugged* → NUEVO (lo de Rand era *Capitalism: The Unknown Ideal*).
+- *Changing World Order* y *How Countries Go Broke* → NUEVO (distintos de `principles`).
+
+**Alcance decidido con Marcelo.** 39 fichas nuevas era demasiado para lo que rendía: 15 de ellas
+venían del bloque B, el de fuente más floja **y** el menos vendible (Tokoro, Plekhanov, Riso,
+Reiss). Se cargaron los bloques A, C, D y E completos más 3 rescates del B con edición ES sólida
+(*Subliminal*, *Un ataque de lucidez*, *El sentido de la existencia humana*): **27 fichas nuevas +
+10 cross-refs**. Dalio queda en 41 libros.
+
+**Backlog abierto (15 títulos del bloque B):** Changing Minds (Gardner), Discovering Your
+Personality Type (Riso), Who Am I? (Reiss), The Gift of Adversity (Rosenthal), Creativity and the
+Brain (Tokoro), Learn or Die (Hess), In Over Our Heads / The Evolving Self / An Everyone Culture
+(los tres de Robert Kegan), The Role of the Individual in History (Plekhanov), Why We Believe in
+Gods (Thomson), Who's in Charge? (Gazzaniga). Todos citados en *Principios* sin cita enlazada.
+
+**Descartados a propósito** (no volver a sumarlos sin fuente nueva): *You* de Michael M. Lombardo
+—el título que reporta mostrecommendedbooks no coincide con ningún libro real suyo, el suyo es
+*FYI: For Your Improvement*—, *Super Mind* de Rosenthal (una sola fuente, sin cita) y *The Rise and
+Fall of the Great Powers* de Paul Kennedy (se lo asocia a *Changing World Order* pero no aparece
+ninguna fuente donde Dalio lo recomiende).
+
+**Dudas abiertas / a verificar:**
+
+- `how-countries-go-broke`: la edición en español (*Cómo quiebran los países*, Grijalbo, ISBN
+  9786076391846) es mexicana y **no se confirmó distribución en amazon.es**. La ficha apunta al
+  ASIN de la edición inglesa `1668149486` (sí confirmado en amazon.es) y lo declara en el
+  blockquote. Si aparece la edición ES en España, cambiar el ASIN.
+- `trailblazer` y `welcome-to-your-brain`: el ASIN sale de un ISBN-10 español real
+  (`8416997276` Empresa Activa, `8498721997` Ediciones B) tomado de la URL `/dp/` en amazon.com,
+  no de amazon.es directamente. Verificar que el link resuelva en España.
+- `atlas-shrugged`: la cita de Dalio recomienda **a Ayn Rand**, no específicamente este título. Se
+  dejó explicitado en la ficha para no sobre-atribuir.
+- Los 6 del bloque D son blurbs de contratapa, no lecturas declaradas. Cada ficha lo dice.
+
+**Bio.** Se corrigió la última línea de `autores/ray-dalio.md`: decía que sus lecturas se rastrean
+por principles.com, que no es cierto. Ahora describe las fuentes reales.
+
+**Listicle regenerado** en 8 grupos temáticos (Por dónde empezar · Los libros que escribió él ·
+Historia, poder y ciclos económicos · Inversión y negocios · Cómo funciona la mente · Evolución,
+naturaleza y sistemas · Meditación, sentido y mito · Vidas que valen como caso de estudio ·
+Liderazgo, equipos y creatividad). 41 links, verificados uno a uno contra el catálogo.
+
+Estado tras la tanda: **1.088 fichas**, **48 referentes**, **53 posts**, **1.278 vínculos**.

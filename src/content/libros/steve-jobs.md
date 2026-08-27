@@ -5,17 +5,20 @@ asin: "8499921183"
 categoria: memorias
 recomendadoPor:
   - elon-musk
+  - ray-dalio
 anio: 2011
 resumen: "La biografía autorizada de Steve Jobs escrita por Walter Isaacson, basada en más de cuarenta entrevistas con el propio Jobs, entre los libros que recomendó Elon Musk."
 destacado: false
-fechaActualizado: 2026-08-16
+fechaActualizado: 2026-08-27
 ---
 
 Aclaración antes de arrancar, por si el nombre del autor te suena de otra ficha del catálogo: esta no es "El código secreto de la vida" ni ninguna otra biografía de Walter Isaacson sobre Benjamin Franklin, Einstein o Jennifer Doudna. Es un libro distinto, con otro protagonista, aunque comparta autor con esos títulos. Acá el tema es Steve Jobs, y la historia arranca literalmente antes de que naciera: con la adopción que definiría buena parte de su carácter.
 
-## Por qué lo recomienda Elon Musk
+## Por qué lo recomiendan Elon Musk y Ray Dalio
 
 Este libro figura entre los títulos que Elon Musk recomendó según el relevamiento de readthistwice.com, dentro de una lista sin una cita textual asociada a cada libro en particular, así que no hay una frase puntual de Musk sobre esta biografía. Lo que sí es fácil de imaginar es la cercanía temática: Musk suele ser comparado con Jobs como fundador obsesivo, exigente hasta el límite con sus equipos y con una visión de producto que no delega, así que no sorprende que esta biografía —una de las más leídas sobre el mundo de la tecnología— esté en su lista.
+
+Ray Dalio también la recomienda: es uno de los títulos que cita en *Principios*, el libro donde sistematiza sus reglas de vida y de trabajo. A Dalio le interesan las biografías de los que él llama "shapers", la gente capaz de imaginar algo que no existe y llevarlo a la realidad atravesando la resistencia de todos los demás. Jobs es, en su esquema, el ejemplo canónico.
 
 ## De qué trata
 

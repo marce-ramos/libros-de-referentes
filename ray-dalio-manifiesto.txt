@@ -1,0 +1,89 @@
+# Manifiesto de discovery — Ray Dalio (n. 1949, ámbito: Negocios e Inversión)
+# Fundador de Bridgewater Associates. Sale de "semilla sin discovery real" (4 fichas en catálogo).
+#
+# FUENTES FETCHEADAS (2026-08-27):
+#   [MRB]  mostrecommendedbooks.com/ray-dalio-books — 49 títulos, cada uno con su origen declarado
+#          (Principles / Ferriss #264 / Twitter / LinkedIn / blurbs de contratapa)
+#   [AM20] acquirersmultiple.com/2018/12/ray-dalio-recommended-books — "20 books every investor
+#          should read", armado de escritos, entrevistas y cartas
+#   [MF]   marketfolly.com/2017/09/ray-dalios-reading-list — resumen de la entrevista con Tim Ferriss
+#   [CEO]  theceolibrary.com/books-recommended-by/ray-dalio — sin citas, solo listado
+#   [HACH] hachette.co.uk (Mastering the Market Cycle) — blurb de Dalio verificado textual
+#
+# CONFIANZA: los 20 primeros aparecen en 2+ fuentes independientes → alta.
+#   Del 21 en adelante vienen solo de [MRB], que sí declara origen por título pero no lo enlaza:
+#   verificar la cita antes de escribir la reseña (regla de atribución de NUEVOS-REFERENTES §3).
+#   Los marcados "blurb" son endorsements de contratapa, no lecturas declaradas: son atribución
+#   válida pero débil — conviene decirlo en la ficha, como se hizo con Paltrow.
+#
+# OJO SLUGS — dos títulos van escritos para matchear la ficha que YA existe, no en su forma canónica:
+#   "A Hero with a Thousand Faces" (el catálogo usa a-hero-with-a-thousand-faces, no the-)
+#   "Sapiens" a secas (el catálogo usa sapiens, no sapiens-a-brief-history-of-humankind)
+#   Si se escriben completos, reconciliar.py los da como NUEVO y se duplican.
+#
+# Formato: título (inglés, para match por slug) | autor | fuente. reconciliar.py ignora las líneas #.
+#
+# --- Bloque A: 2+ fuentes coincidentes (alta confianza) ---
+The Lessons of History|Will y Ariel Durant|Ferriss #264 + AM20
+River Out of Eden|Richard Dawkins|Ferriss #264 + AM20
+A Hero with a Thousand Faces|Joseph Campbell|Ferriss #264 + AM20
+Endurance|Alfred Lansing|AM20 + MRB
+Thinking, Fast and Slow|Daniel Kahneman|Principles + AM20
+Incognito|David Eagleman|Principles + AM20
+The Spiritual Brain|Mario Beauregard|Principles + AM20
+Leadership the Outward Bound Way|Outward Bound USA|Principles + AM20
+Einstein's Mistakes|Hans C. Ohanian|Ferriss #264 + AM20
+The Power of Habit|Charles Duhigg|MRB (video) + AM20
+Beyond Religion|Dalai Lama|Principles + AM20
+Welcome to Your Brain|Sandra Aamodt y Sam Wang|Principles + AM20
+A Whole New Mind|Daniel Pink|Principles + AM20
+A Magic Web|Christian Ziegler y Egbert Leigh|Ferriss #264 + AM20
+From Bacteria to Bach and Back|Daniel C. Dennett|Ferriss #264 + AM20
+Sapiens|Yuval Noah Harari|Ferriss #264 + AM20
+The Undoing Project|Michael Lewis|Ferriss #264 + AM20
+The Upside of Inequality|Edward Conard|Ferriss #264 + AM20
+The Serengeti Rules|Sean B. Carroll|Ferriss #264 + AM20
+Security Analysis|Benjamin Graham y David Dodd|AM20
+# --- Bloque B: citados en Principles (una sola fuente, verificar cita) ---
+Changing Minds|Howard Gardner|MRB - Principles
+Discovering Your Personality Type|Don Richard Riso|MRB - Principles
+Who Am I?|Steven Reiss|MRB - Principles
+Originals|Adam Grant|MRB - Principles
+The Gift of Adversity|Norman E. Rosenthal|MRB - Principles
+Creativity and the Brain|Mario Tokoro|MRB - Principles
+Learn or Die|Edward Hess|MRB - Principles
+In Over Our Heads|Robert Kegan|MRB - Principles
+The Evolving Self|Robert Kegan|MRB - Principles
+An Everyone Culture|Robert Kegan|MRB - Principles
+The Meaning of Human Existence|Edward O. Wilson|MRB - Principles
+The Role of the Individual in History|Georgi Plekhanov|MRB - Principles
+Why We Believe in Gods|J. Anderson Thomson|MRB - Principles
+Subliminal|Leonard Mlodinow|MRB - Principles
+Who's in Charge?|Michael S. Gazzaniga|MRB - Principles
+My Stroke of Insight|Jill Bolte Taylor|MRB - Principles
+Benjamin Franklin|Walter Isaacson|MRB - Principles
+Steve Jobs|Walter Isaacson|MRB - Principles
+Einstein|Walter Isaacson|MRB - Principles
+# --- Bloque C: recomendaciones públicas con cita textual (Twitter / LinkedIn / video) ---
+Destined for War|Graham Allison|MRB - video, cita textual
+No Rules Rules|Reed Hastings|MRB - Twitter, cita textual
+Tribe of Mentors|Tim Ferriss|MRB - Twitter, cita textual
+Accidental Presidents|Jared Cohen|MRB - Twitter, cita textual
+Atlas Shrugged|Ayn Rand|MRB - LinkedIn, cita textual
+# --- Bloque D: blurbs de contratapa (atribución válida pero débil, declararlo en la ficha) ---
+Mastering the Market Cycle|Howard Marks|HACH - blurb verificado textual
+Strength in Stillness|Bob Roth|MRB - blurb
+What It Takes|Stephen A. Schwarzman|MRB - blurb
+Trailblazer|Marc Benioff|MRB - blurb
+Keeping At It|Paul A. Volcker|MRB - blurb
+Think Like a Monk|Jay Shetty|MRB - blurb
+# --- Bloque E: obra propia (no es "recomendación": decidir si entran, como se hizo con Sinek) ---
+Principles for Dealing with the Changing World Order|Ray Dalio|obra propia
+How Countries Go Broke|Ray Dalio|obra propia (2025, verificar edicion ES)
+#
+# DESCARTADOS a propósito:
+#   "You" (Michael M. Lombardo) — el título que reporta MRB no coincide con ningún libro real de
+#     Lombardo (el suyo es "FYI: For Your Improvement"). Riesgo alto de match equivocado.
+#   "Super Mind" (Norman E. Rosenthal) — solo en [CEO], que no da cita ni contexto.
+#   "The Rise and Fall of the Great Powers" (Paul Kennedy) — se lo asocia con Changing World Order
+#     pero no encontré ninguna fuente donde Dalio lo recomiende. Ante la duda, afuera.
