@@ -1,0 +1,104 @@
+# 50 URLs para "Solicitar indexación" en Google Search Console — v3 (drilldowns completos)
+# Generado: 2026-08-27 · Base: https://losimperdibles.com (sin barra final, sin .html)
+#
+# Fuentes: los 3 drilldowns de GSC del 27-ago (Descubierta 663 · Error de redirección 7 ·
+#          Duplicada 139). Las 139 duplicadas quedaron FUERA a propósito: son 100% URLs
+#          con barra final, residuo benigno de la migración de julio. No se tocan.
+#
+# ⛔ ANTES DE LA TANDA 1, OBLIGATORIO: .\check-indexacion.ps1
+#    Las 7 primeras URLs están marcadas por Google como "Error de redirección".
+#    Si alguna NO devuelve 200 directo, hay un bug vivo y hay que arreglarlo primero.
+
+# --- TANDA 1 (día 1) — MÁXIMA URGENCIA: los 10 listicles ciegos ---
+# Las 7 primeras: "Error de redirección" en GSC, último rastreo entre el 5 y el 14 de
+# julio. Seis semanas sin que Google las mire, y son las mejores páginas del sitio.
+https://losimperdibles.com/blog/libros-que-recomienda-satya-nadella
+https://losimperdibles.com/blog/libros-que-recomienda-elon-musk
+https://losimperdibles.com/blog/libros-que-recomienda-warren-buffett
+https://losimperdibles.com/blog/libros-que-recomienda-barack-obama
+https://losimperdibles.com/blog/libros-que-recomienda-sam-altman
+https://losimperdibles.com/blog/libros-que-recomienda-reese-witherspoon
+https://losimperdibles.com/blog/libros-que-recomienda-jordan-peterson
+# Las 3 siguientes: nunca rastreadas (estaban en la cola de 663).
+https://losimperdibles.com/blog/libros-que-recomienda-garry-kasparov
+https://losimperdibles.com/blog/libros-que-recomienda-gwyneth-paltrow
+https://losimperdibles.com/blog/libros-que-recomienda-natalie-portman
+
+# --- TANDA 2 (día 2) — Los 7 referentes nunca rastreados + 3 fichas top ---
+https://losimperdibles.com/referentes/jeff-bezos
+https://losimperdibles.com/referentes/jordan-peterson
+https://losimperdibles.com/referentes/mario-vargas-llosa
+https://losimperdibles.com/referentes/isabel-allende
+https://losimperdibles.com/referentes/derek-sivers
+https://losimperdibles.com/referentes/jenna-bush-hager
+https://losimperdibles.com/referentes/andrew-ng
+https://losimperdibles.com/libros/dune
+https://losimperdibles.com/libros/one-hundred-years-of-solitude
+https://losimperdibles.com/libros/the-little-prince
+
+# --- TANDA 3 (día 3) — Fichas Best-of: ficción y ciencia ficción de mayor demanda ---
+https://losimperdibles.com/libros/crime-and-punishment
+https://losimperdibles.com/libros/the-great-gatsby
+https://losimperdibles.com/libros/to-kill-a-mockingbird
+https://losimperdibles.com/libros/lord-of-the-flies
+https://losimperdibles.com/libros/lolita
+https://losimperdibles.com/libros/the-road
+https://losimperdibles.com/libros/the-handmaid-s-tale
+https://losimperdibles.com/libros/foundation
+https://losimperdibles.com/libros/ender-s-game
+https://losimperdibles.com/libros/jurassic-park
+
+# --- TANDA 4 (día 4) — Fichas Best-of: negocios (mayor ticket de afiliado) ---
+https://losimperdibles.com/libros/zero-to-one
+https://losimperdibles.com/libros/the-psychology-of-money
+https://losimperdibles.com/libros/the-lean-startup
+https://losimperdibles.com/libros/how-to-win-friends-and-influence-people
+https://losimperdibles.com/libros/the-48-laws-of-power
+https://losimperdibles.com/libros/good-to-great
+https://losimperdibles.com/libros/the-hard-thing-about-hard-things
+https://losimperdibles.com/libros/skin-in-the-game
+https://losimperdibles.com/libros/creativity-inc
+https://losimperdibles.com/libros/the-e-myth-revisited
+
+# --- TANDA 5 (día 5) — Fichas Best-of: psicología y ciencia ---
+https://losimperdibles.com/libros/the-body-keeps-the-score
+https://losimperdibles.com/libros/the-subtle-art-of-not-giving-a-fck
+https://losimperdibles.com/libros/the-courage-to-be-disliked
+https://losimperdibles.com/libros/think-again
+https://losimperdibles.com/libros/give-and-take
+https://losimperdibles.com/libros/nudge
+https://losimperdibles.com/libros/mastery
+https://losimperdibles.com/libros/the-righteous-mind
+https://losimperdibles.com/libros/a-brief-history-of-time
+https://losimperdibles.com/libros/behave
+
+# ============================================================================
+# RESERVA — las 25 fichas Best-of restantes que también están sin indexar.
+# NO cuentan dentro de las 50. Semana siguiente, sólo si la primera ronda movió
+# el contador. Si no lo movió, no insistas: el problema no es de pedidos.
+# ============================================================================
+# https://losimperdibles.com/libros/thinking-in-bets
+# https://losimperdibles.com/libros/self-compassion
+# https://losimperdibles.com/libros/how-to-know-a-person
+# https://losimperdibles.com/libros/snow-crash
+# https://losimperdibles.com/libros/twenty-thousand-leagues-under-the-sea
+# https://losimperdibles.com/libros/heart-of-darkness
+# https://losimperdibles.com/libros/the-moon-is-a-harsh-mistress
+# https://losimperdibles.com/libros/flatland
+# https://losimperdibles.com/libros/the-player-of-games
+# https://losimperdibles.com/libros/the-power
+# https://losimperdibles.com/libros/the-day-of-the-triffids
+# https://losimperdibles.com/libros/sandkings
+# https://losimperdibles.com/libros/the-poisonwood-bible
+# https://losimperdibles.com/libros/an-american-marriage
+# https://losimperdibles.com/libros/americanah
+# https://losimperdibles.com/libros/only-the-paranoid-survive
+# https://losimperdibles.com/libros/the-culture-code
+# https://losimperdibles.com/libros/originals-how-non-conformists-move-the-world
+# https://losimperdibles.com/libros/the-rational-optimist
+# https://losimperdibles.com/libros/human-compatible
+# https://losimperdibles.com/libros/a-new-kind-of-science
+# https://losimperdibles.com/libros/one-two-three-infinity
+# https://losimperdibles.com/libros/the-better-angels-of-our-nature
+# https://losimperdibles.com/libros/genome
+# https://losimperdibles.com/libros/breath
